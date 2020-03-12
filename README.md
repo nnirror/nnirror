@@ -1,2 +1,2 @@
 # nnirror
-A generative music environment for storing, recalling, and mangling audio data that can interface with external hardware
+A generative music environment for storing, recalling, and mangling audio data and interfacing with external hardware
