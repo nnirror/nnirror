@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -58,11 +58,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 116.770179748535156, 47.826084136962891, 56.0, 22.0 ],
 					"restore" : 					{
-						"LPG shape" : [ -0.660000026226044 ]
+						"LPG shape" : [ -0.74041873216629 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u397018448"
+					"varname" : "u131019160"
 				}
 
 			}
@@ -97,13 +97,13 @@
 					"presentation_rect" : [ 0.799842834472656, 0.550457000732422, 54.751625061035156, 12.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "LPG shape",
 							"parameter_type" : 0,
 							"parameter_mmin" : -0.990000009536743,
-							"parameter_longname" : "LPG shape",
+							"parameter_longname" : "LPG shape[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ -0.66 ]
+							"parameter_initial" : [ -0.66 ],
+							"parameter_shortname" : "LPG shape"
 						}
 
 					}
@@ -214,10 +214,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 240.0, 192.0, 71.5, 22.0 ],
+					"patching_rect" : [ 240.0, 192.0, 64.253704071044922, 22.0 ],
 					"text" : "lpg2"
 				}
 
@@ -238,7 +238,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "int", "", "" ],
-					"patching_rect" : [ 266.25, 81.490142822265625, 107.800048828125, 22.999996185302734 ],
+					"patching_rect" : [ 258.101481628417957, 81.490142822265625, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.799842834472656, 11.800457000732422, 104.250045776367188, 24.735885620117188 ],
 					"varname" : "LPG ctrl",
@@ -251,6 +251,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 5 ],
+					"source" : [ "obj-112", 1 ]
 				}
 
 			}
@@ -271,7 +278,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 4 ],
-					"midpoints" : [ 320.5, 188.75, 302.0, 188.75 ],
+					"midpoints" : [ 320.5, 188.75, 285.702963256835915, 188.75 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -307,7 +314,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
-					"midpoints" : [ 414.5, 184.23646605014801, 288.875, 184.23646605014801 ],
+					"midpoints" : [ 414.5, 184.23646605014801, 276.652222442626964, 184.23646605014801 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -343,13 +350,14 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"newobj" : 				{
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"message" : 				{
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
@@ -361,13 +369,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 1 ]
+
 				}
 ,
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -377,9 +386,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+
 				}
 ,
 				"button" : 				{
@@ -441,8 +448,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

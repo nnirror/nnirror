@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -214,13 +214,13 @@
 					"presentation_rect" : [ 192.8416748046875, 2.0, 50.225296020507812, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "∆quant",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "∆quant",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -334,7 +334,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -695,12 +695,12 @@
 					"presentation_rect" : [ 64.045814514160156, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "Y-Offset",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "Y-Offset[1]",
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -847,13 +847,13 @@
 					"presentation_rect" : [ 216.045806884765625, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0.5 ],
 							"parameter_shortname" : "Modulation Amount",
 							"parameter_type" : 3,
 							"parameter_longname" : "Modulation Amount[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -881,13 +881,13 @@
 					"presentation_rect" : [ 168.045806884765625, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "High Ramp",
 							"parameter_type" : 3,
 							"parameter_longname" : "High Ramp[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -915,13 +915,13 @@
 					"presentation_rect" : [ 111.541641235351562, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "Low Ramp",
 							"parameter_type" : 3,
 							"parameter_longname" : "Low Ramp[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -949,13 +949,13 @@
 					"presentation_rect" : [ 18.666666030883789, 46.333332061767578, 25.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0.5 ],
 							"parameter_shortname" : "Amplitude",
 							"parameter_type" : 3,
 							"parameter_longname" : "Amplitude[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1080,7 +1080,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u661018002"
+					"varname" : "u770018564"
 				}
 
 			}
@@ -1539,13 +1539,13 @@
 					"presentation_rect" : [ 41.341621398925781, 3.0, 49.037528991699219, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "Waveform",
 							"parameter_type" : 3,
 							"parameter_longname" : "Waveform[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}

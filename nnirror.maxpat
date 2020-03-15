@@ -1575,12 +1575,12 @@
 					"active" : 					{
 						"_preset_select2" : 0,
 						"_preset_select2::preset_scripting" : 0,
-						"_preset_select2::u916029582" : 0,
+						"_preset_select2::u709030649" : 0,
 						"_preset_select2::auto preset movement mode" : 0,
 						"_preset_select2::interp_every_n_bars" : 0,
 						"_preset_select2::new_preset_slot_every_n" : 0,
 						"_preset_select2::scripting_ui_patcher" : 0,
-						"_preset_select2::scripting_ui_patcher::u785029583" : 0,
+						"_preset_select2::scripting_ui_patcher::u368030648" : 0,
 						"_preset_select2::scripting_ui_patcher::textedit" : 0
 					}
 ,
@@ -1615,12 +1615,17 @@
 						"_drummatrix2::solo_multislider_markov_ui_2019[2]::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
 						"_drummatrix2::solo_multislider_markov_ui_2019[2]::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
 						"_drummatrix2::solo_multislider_markov_ui_2019[2]::Lock Delta Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_drummatrix2::prob_multislider_markov_ui_2019[2]::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
-						"_drummatrix2::prob_multislider_markov_ui_2019[2]::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
-						"_drummatrix2::prob_multislider_markov_ui_2019[2]::Lock Delta Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_drummatrix2::dm_realtime::prob_multislider_markov_ui_2019[2]::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
 						"_drummatrix2::dm_realtime::prob_multislider_markov_ui_2019[2]::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
 						"_drummatrix2::dm_realtime::prob_multislider_markov_ui_2019[2]::Lock Delta Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
+						"_drummatrix2::∆prob_multislider_markov_ui_2019::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
+						"_drummatrix2::∆prob_multislider_markov_ui_2019::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
+						"_drummatrix2::∆prob_multislider_markov_ui_2019::Lock Delta Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
+						"_drummatrix2::low loopctrl[1]::∆channel" : [ 2, 0.5 ],
+						"_drummatrix2::low loopctrl[2]::∆channel" : [ 2, 0.5 ],
+						"_drummatrix2::prob speed::∆channel" : [ 2, 0.5 ],
+						"_drummatrix2::1/n n val::∆channel" : [ 2, 0.5 ],
+						"_drummatrix2::1/n where n=::∆channel" : [ 2, 0.5 ],
 						"_mixer::phys_mixer::_multislider_markov_ui_2019::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
 						"_mixer::phys_mixer::_multislider_markov_ui_2019::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
 						"_mixer::phys_mixer::_multislider_markov_ui_2019::Lock Delta Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
@@ -3761,6 +3766,7 @@
 			"obj-1::obj-129::obj-47" : [ "modulation_indices[12]", "modulation_indices", 0 ],
 			"obj-4::obj-68::obj-142" : [ "Channel[141]", "Channel", 0 ],
 			"obj-4::obj-239::obj-325::obj-68" : [ "live.numbox[281]", "live.numbox", 0 ],
+			"obj-4::obj-344" : [ "ProbLock[7]", "ProbLock", 0 ],
 			"obj-2::obj-365::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[69]", "Hard Sync Toggle", 0 ],
 			"obj-2::obj-25::obj-17::obj-142" : [ "Channel[125]", "Channel", 0 ],
 			"obj-2::obj-26::obj-31::obj-72" : [ "Jam Mode[62]", "Jam Mode", 0 ],
@@ -3800,6 +3806,7 @@
 			"obj-2::obj-52::obj-50" : [ "osc_interp[2]", "osc_interp", 0 ],
 			"obj-2::obj-8::obj-34::obj-72" : [ "Jam Mode[76]", "Jam Mode", 0 ],
 			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[16]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-62::obj-72" : [ "Jam Mode[60]", "Jam Mode", 0 ],
 			"obj-3::obj-33::obj-12::obj-5::obj-97" : [ "Quantized Rate[30]", "Quantized Rate", 0 ],
 			"obj-3::obj-33::obj-15::obj-80::obj-142" : [ "Channel[110]", "Channel", 0 ],
 			"obj-3::obj-4::obj-108::obj-9" : [ "live.text[193]", "live.text", 0 ],
@@ -3808,12 +3815,13 @@
 			"obj-1::obj-226::obj-55" : [ "live.text[106]", "live.text[1]", 0 ],
 			"obj-1::obj-248::obj-74" : [ "live.numbox[22]", "live.numbox", 0 ],
 			"obj-4::obj-190::obj-55" : [ "live.text[260]", "live.text[1]", 0 ],
-			"obj-4::obj-325::obj-68" : [ "live.numbox[123]", "live.numbox", 0 ],
-			"obj-2::obj-25::obj-10::obj-47" : [ "modulation_indices[13]", "modulation_indices", 0 ],
+			"obj-4::obj-345::obj-47" : [ "modulation_indices[13]", "modulation_indices", 0 ],
+			"obj-2::obj-365::obj-3::obj-67" : [ "min_max_offset_ui[46]", "min_max_offset_ui", 0 ],
 			"obj-2::obj-43::obj-35" : [ "live.numbox[81]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[216]", "live.text", 0 ],
 			"obj-51::obj-26::obj-186::obj-17" : [ "Slider Values[2]", "Slider Values", 0 ],
 			"obj-51::obj-82::obj-12" : [ "ratecontrol[125]", "ratecontrol", 0 ],
+			"obj-4::obj-258::obj-74" : [ "live.numbox[123]", "live.numbox", 0 ],
 			"obj-3::obj-33::obj-13::obj-16::obj-9" : [ "Delta Channel Menu[3]", "Delta Channel Menu", 0 ],
 			"obj-3::obj-2::obj-107::obj-29::obj-9" : [ "Manual Rate[94]", "Manual Rate", 0 ],
 			"obj-3::obj-47::obj-7::obj-97" : [ "Quantized Rate[16]", "Quantized Rate", 0 ],
@@ -3828,6 +3836,7 @@
 			"obj-4::obj-376" : [ "pitchmod[5]", "pitchmod", 0 ],
 			"obj-4::obj-81" : [ "Loop Control[2]", "Loop Control", 0 ],
 			"obj-2::obj-34::obj-12::obj-112::obj-108" : [ "Hard Sync Threshold[21]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-365::obj-3::obj-68" : [ "live.numbox[36]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-209::obj-72" : [ "Jam Mode[45]", "Jam Mode", 0 ],
 			"obj-2::obj-25::obj-18::obj-72" : [ "Jam Mode[57]", "Jam Mode", 0 ],
 			"obj-2::obj-70::obj-42::obj-29::obj-9" : [ "Manual Rate[32]", "Manual Rate", 0 ],
@@ -3840,9 +3849,9 @@
 			"obj-3::obj-4::obj-110::obj-12" : [ "ratecontrol[78]", "ratecontrol", 0 ],
 			"obj-3::obj-4::obj-11::obj-72" : [ "Jam Mode[26]", "Jam Mode", 0 ],
 			"obj-1::obj-4::obj-186::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[18]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-271" : [ "jam_probabilities[2]", "jam_probabilities", 0 ],
-			"obj-1::obj-357" : [ "SubsetCtrl[1]", "SubsetCtrl", 0 ],
 			"obj-1::obj-70" : [ "markov_gen_density[1]", "markov_gen_density", 0 ],
+			"obj-1::obj-357" : [ "SubsetCtrl[1]", "SubsetCtrl", 0 ],
+			"obj-1::obj-271" : [ "jam_probabilities[2]", "jam_probabilities", 0 ],
 			"obj-4::obj-252::obj-32" : [ "off[10]", "off", 0 ],
 			"obj-4::obj-253::obj-29::obj-97" : [ "Quantized Rate[18]", "Quantized Rate", 0 ],
 			"obj-4::obj-174::obj-29::obj-9" : [ "Manual Rate[18]", "Manual Rate", 0 ],
@@ -3882,12 +3891,12 @@
 			"obj-4::obj-126::obj-9" : [ "live.text[10]", "live.text", 0 ],
 			"obj-4::obj-174::obj-112::obj-107" : [ "Delta Channel #[67]", "Delta Channel #", 0 ],
 			"obj-4::obj-239::obj-325::obj-29::obj-9" : [ "Manual Rate[52]", "Manual Rate", 0 ],
-			"obj-4::obj-326" : [ "DeltaLineTimes[1]", "DeltaLineTimes", 0 ],
 			"obj-2::obj-23::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[68]", "Hard Sync Toggle", 0 ],
 			"obj-2::obj-5::obj-12::obj-112::obj-107" : [ "Delta Channel #[45]", "Delta Channel #", 0 ],
 			"obj-2::obj-26::obj-70::obj-74" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-17::obj-142" : [ "Channel[137]", "Channel", 0 ],
 			"obj-51::obj-226::obj-112::obj-107" : [ "Delta Channel #[53]", "Delta Channel #", 0 ],
+			"obj-4::obj-62::obj-74" : [ "live.numbox[175]", "live.numbox", 0 ],
 			"obj-3::obj-25::obj-14::obj-74" : [ "live.numbox[68]", "live.numbox", 0 ],
 			"obj-3::obj-33::obj-13::obj-41" : [ "smooth_ramp_down[1]", "smooth_ramp_down", 0 ],
 			"obj-3::obj-11::obj-7::obj-68" : [ "live.numbox[166]", "live.numbox", 0 ],
@@ -3898,6 +3907,7 @@
 			"obj-4::obj-60::obj-74" : [ "live.numbox[116]", "live.numbox", 0 ],
 			"obj-4::obj-148::obj-29::obj-97" : [ "Quantized Rate[130]", "Quantized Rate", 0 ],
 			"obj-4::obj-57::obj-6" : [ "lib3[1]", "lib3", 0 ],
+			"obj-4::obj-345::obj-29::obj-9" : [ "Manual Rate[24]", "Manual Rate", 0 ],
 			"obj-4::obj-271" : [ "DecayControl[1]", "DecayControl", 0 ],
 			"obj-2::obj-15::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[65]", "Hard Sync Toggle", 0 ],
 			"obj-2::obj-25::obj-19::obj-72" : [ "Jam Mode[58]", "Jam Mode", 0 ],
@@ -3942,8 +3952,8 @@
 			"obj-4::obj-68::obj-74" : [ "live.numbox[114]", "live.numbox", 0 ],
 			"obj-4::obj-253::obj-47" : [ "modulation_indices[42]", "modulation_indices", 0 ],
 			"obj-4::obj-174::obj-55" : [ "live.text[265]", "live.text[1]", 0 ],
-			"obj-4::obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
 			"obj-4::obj-42" : [ "Tempo[1]", "Tempo", 0 ],
+			"obj-4::obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
 			"obj-4::obj-26" : [ "jam_probabilities[3]", "jam_probabilities", 0 ],
 			"obj-2::obj-5::obj-12::obj-47" : [ "modulation_indices[24]", "modulation_indices", 0 ],
 			"obj-2::obj-26::obj-31::obj-142" : [ "Channel[3]", "Channel", 0 ],
@@ -3964,12 +3974,12 @@
 			"obj-1::obj-60::obj-9" : [ "live.text[177]", "live.text", 0 ],
 			"obj-1::obj-226::obj-112::obj-107" : [ "Delta Channel #[16]", "Delta Channel #", 0 ],
 			"obj-1::obj-82" : [ "midi_note_lengths", "midi_note_lengths", 0 ],
-			"obj-4::obj-325::obj-112::obj-107" : [ "Delta Channel #[69]", "Delta Channel #", 0 ],
 			"obj-2::obj-1::obj-210::obj-74" : [ "live.numbox[273]", "live.numbox", 0 ],
 			"obj-2::obj-25::obj-10::obj-112::obj-9" : [ "Hard Sync Toggle[70]", "Hard Sync Toggle", 0 ],
 			"obj-2::obj-43::obj-30::obj-9" : [ "live.text[220]", "live.text", 0 ],
 			"obj-2::obj-10::obj-34::obj-12" : [ "ratecontrol[119]", "ratecontrol", 0 ],
 			"obj-2::obj-3::obj-10::obj-9" : [ "live.text[245]", "live.text", 0 ],
+			"obj-4::obj-258::obj-142" : [ "Channel[147]", "Channel", 0 ],
 			"obj-3::obj-33::obj-13::obj-82::obj-142" : [ "Channel[113]", "Channel", 0 ],
 			"obj-3::obj-33::obj-15::obj-24" : [ "offset[7]", "offset", 0 ],
 			"obj-3::obj-2::obj-107::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
@@ -3992,9 +4002,9 @@
 			"obj-4::obj-252::obj-112::obj-108" : [ "Hard Sync Threshold[49]", "Hard Sync Threshold", 0 ],
 			"obj-4::obj-190::obj-32" : [ "off[11]", "off", 0 ],
 			"obj-4::obj-148::obj-68" : [ "live.numbox[121]", "live.numbox", 0 ],
-			"obj-4::obj-325::obj-47" : [ "modulation_indices[34]", "modulation_indices", 0 ],
 			"obj-2::obj-203::obj-3::obj-112::obj-107" : [ "Delta Channel #[6]", "Delta Channel #", 0 ],
 			"obj-2::obj-15::obj-97" : [ "lock_ui[10]", "lock_ui", 0 ],
+			"obj-2::obj-25::obj-10::obj-47" : [ "modulation_indices[34]", "modulation_indices", 0 ],
 			"obj-2::obj-43::obj-26" : [ "pitchmod[3]", "pitchmod", 0 ],
 			"obj-2::obj-70::obj-3::obj-12" : [ "ratecontrol[114]", "ratecontrol", 0 ],
 			"obj-51::obj-82::obj-142" : [ "Channel[139]", "Channel", 0 ],
@@ -4057,8 +4067,8 @@
 			"obj-1::obj-154::obj-186::obj-226::obj-55" : [ "live.text[117]", "live.text[1]", 0 ],
 			"obj-1::obj-129::obj-29::obj-9" : [ "Manual Rate[86]", "Manual Rate", 0 ],
 			"obj-4::obj-126::obj-72" : [ "Jam Mode[53]", "Jam Mode", 0 ],
+			"obj-4::obj-345::obj-55" : [ "live.text[247]", "live.text[1]", 0 ],
 			"obj-4::obj-278" : [ "ProbLock[5]", "ProbLock", 0 ],
-			"obj-2::obj-365::obj-3::obj-55" : [ "live.text[247]", "live.text[1]", 0 ],
 			"obj-2::obj-23::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[47]", "Hard Sync Threshold", 0 ],
 			"obj-2::obj-11::obj-6::obj-72" : [ "Jam Mode[79]", "Jam Mode", 0 ],
 			"obj-2::obj-3::obj-17::obj-74" : [ "live.numbox[109]", "live.numbox", 0 ],
@@ -4088,8 +4098,8 @@
 			"obj-1::obj-4::obj-186::obj-226::obj-32" : [ "off[49]", "off", 0 ],
 			"obj-1::obj-129::obj-112::obj-107" : [ "Delta Channel #[22]", "Delta Channel #", 0 ],
 			"obj-4::obj-253::obj-112::obj-107" : [ "Delta Channel #[47]", "Delta Channel #", 0 ],
+			"obj-4::obj-345::obj-67" : [ "min_max_offset_ui[38]", "min_max_offset_ui", 0 ],
 			"obj-4::obj-311" : [ "jam_walk_max[2]", "jam_walk_max", 0 ],
-			"obj-2::obj-365::obj-3::obj-67" : [ "min_max_offset_ui[38]", "min_max_offset_ui", 0 ],
 			"obj-2::obj-26::obj-70::obj-142" : [ "Channel[9]", "Channel", 0 ],
 			"obj-2::obj-52::obj-31::obj-74" : [ "live.numbox[54]", "live.numbox", 0 ],
 			"obj-2::obj-70::obj-48" : [ "low_smooth", "low_smooth", 0 ],
@@ -4104,8 +4114,8 @@
 			"obj-1::obj-226::obj-29::obj-9" : [ "Manual Rate[87]", "Manual Rate", 0 ],
 			"obj-1::obj-83" : [ "drummatrix_midi_notes", "drummatrix_midi_notes", 0 ],
 			"obj-4::obj-60::obj-12" : [ "ratecontrol[129]", "ratecontrol", 0 ],
-			"obj-4::obj-325::obj-29::obj-97" : [ "Quantized Rate[45]", "Quantized Rate", 0 ],
 			"obj-4::obj-57::obj-2" : [ "lib1[1]", "lib1", 0 ],
+			"obj-4::obj-345::obj-29::obj-97" : [ "Quantized Rate[45]", "Quantized Rate", 0 ],
 			"obj-4::obj-182" : [ "preset_pattern_gen[2]", "preset_pattern_gen", 0 ],
 			"obj-2::obj-5::obj-97" : [ "lock_ui[9]", "lock_ui", 0 ],
 			"obj-2::obj-1::obj-43::obj-74" : [ "live.numbox[270]", "live.numbox", 0 ],
@@ -4145,6 +4155,7 @@
 			"obj-2::obj-43::obj-30::obj-12" : [ "ratecontrol[110]", "ratecontrol", 0 ],
 			"obj-2::obj-8::obj-3" : [ "LPG shape", "LPG shape", 0 ],
 			"obj-2::obj-3::obj-10::obj-72" : [ "Jam Mode[75]", "Jam Mode", 0 ],
+			"obj-4::obj-258::obj-9" : [ "live.text[122]", "live.text", 0 ],
 			"obj-3::obj-33::obj-15::obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-3::obj-2::obj-36::obj-110::obj-107" : [ "Delta Channel #[4]", "Delta Channel #", 0 ],
 			"obj-3::obj-11::obj-133" : [ "jamRangeMax[2]", "jamRangeMax", 0 ],
@@ -4168,10 +4179,10 @@
 			"obj-1::obj-154::obj-186::obj-226::obj-29::obj-9" : [ "Manual Rate[13]", "Manual Rate", 0 ],
 			"obj-4::obj-190::obj-47" : [ "modulation_indices[41]", "modulation_indices", 0 ],
 			"obj-4::obj-148::obj-67" : [ "min_max_offset_ui[42]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-345::obj-68" : [ "live.numbox[105]", "live.numbox", 0 ],
 			"obj-4::obj-31" : [ "Jam On/Off[3]", "Jam On/Off", 0 ],
 			"obj-4::obj-90" : [ "speed_coarse_adjust[1]", "+/-", 0 ],
 			"obj-2::obj-203::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[66]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-365::obj-3::obj-68" : [ "live.numbox[105]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-210::obj-12" : [ "ratecontrol[57]", "ratecontrol", 0 ],
 			"obj-2::obj-70::obj-3::obj-9" : [ "live.text[235]", "live.text", 0 ],
 			"obj-2::obj-10::obj-34::obj-72" : [ "Jam Mode[78]", "Jam Mode", 0 ],
@@ -4204,8 +4215,7 @@
 			"obj-1::obj-226::obj-47" : [ "modulation_indices[11]", "modulation_indices", 0 ],
 			"obj-1::obj-248::obj-9" : [ "live.text[176]", "live.text", 0 ],
 			"obj-1::obj-307" : [ "NewProbTempo[1]", "NewProbTempo", 0 ],
-			"obj-4::obj-325::obj-32" : [ "off[15]", "off", 0 ],
-			"obj-4::obj-384" : [ "live.text[15]", "live.text", 0 ],
+			"obj-4::obj-345::obj-32" : [ "off[15]", "off", 0 ],
 			"obj-2::obj-23::obj-68" : [ "Mixer / Send UI[19]", "Mixer / Send UI", 0 ],
 			"obj-2::obj-1::obj-18::obj-12" : [ "ratecontrol[4]", "ratecontrol", 0 ],
 			"obj-2::obj-25::obj-10::obj-67" : [ "min_max_offset_ui[21]", "min_max_offset_ui", 0 ],
@@ -4223,8 +4233,8 @@
 			"obj-39::obj-82::obj-12" : [ "ratecontrol[109]", "ratecontrol", 0 ],
 			"obj-1::obj-57::obj-186::obj-226::obj-112::obj-107" : [ "Delta Channel #[31]", "Delta Channel #", 0 ],
 			"obj-4::obj-190::obj-29::obj-9" : [ "Manual Rate[49]", "Manual Rate", 0 ],
-			"obj-4::obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
 			"obj-4::obj-307" : [ "NewProbTempo[2]", "NewProbTempo", 0 ],
+			"obj-4::obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
 			"obj-2::obj-34::obj-12::obj-112::obj-107" : [ "Delta Channel #[21]", "Delta Channel #", 0 ],
 			"obj-2::obj-25::obj-18::obj-142" : [ "Channel[126]", "Channel", 0 ],
 			"obj-2::obj-70::obj-42::obj-29::obj-97" : [ "Quantized Rate[116]", "Quantized Rate", 0 ],
@@ -4241,9 +4251,11 @@
 			"obj-4::obj-220" : [ "ProbLock[6]", "ProbLock", 0 ],
 			"obj-2::obj-34::obj-17" : [ "pan_l_limit[1]", "pan_l_limit", 0 ],
 			"obj-2::obj-203::obj-3::obj-67" : [ "min_max_offset_ui[35]", "min_max_offset_ui", 0 ],
+			"obj-2::obj-365::obj-3::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
 			"obj-2::obj-52::obj-70::obj-9" : [ "live.text[230]", "live.text", 0 ],
 			"obj-2::obj-70::obj-4::obj-72" : [ "Jam Mode[71]", "Jam Mode", 0 ],
 			"obj-2::obj-11::obj-6::obj-142" : [ "Channel[135]", "Channel", 0 ],
+			"obj-4::obj-258::obj-12" : [ "ratecontrol[133]", "ratecontrol", 0 ],
 			"obj-3::obj-33::obj-13::obj-29" : [ "gain_reset_button[1]", "gain_reset_button", 0 ],
 			"obj-3::obj-33::obj-14::obj-5::obj-9" : [ "Manual Rate[31]", "Manual Rate", 0 ],
 			"obj-3::obj-2::obj-107::obj-112::obj-107" : [ "Delta Channel #[25]", "Delta Channel #", 0 ],
@@ -4277,6 +4289,7 @@
 			"obj-4::obj-294::obj-29::obj-97" : [ "Quantized Rate[129]", "Quantized Rate", 0 ],
 			"obj-4::obj-253::obj-112::obj-9" : [ "Hard Sync Toggle[74]", "Hard Sync Toggle", 0 ],
 			"obj-4::obj-174::obj-112::obj-9" : [ "Hard Sync Toggle[76]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-390" : [ "1/n", "1/n", 0 ],
 			"obj-2::obj-5::obj-12::obj-112::obj-9" : [ "Hard Sync Toggle[46]", "Hard Sync Toggle", 0 ],
 			"obj-2::obj-26::obj-70::obj-9" : [ "live.text[8]", "live.text", 0 ],
 			"obj-2::obj-52::obj-31::obj-72" : [ "Jam Mode[68]", "Jam Mode", 0 ],
@@ -4292,6 +4305,7 @@
 			"obj-1::obj-192" : [ "preset_pattern_storage[1]", "preset_pattern_storage", 0 ],
 			"obj-4::obj-60::obj-9" : [ "live.text[257]", "live.text", 0 ],
 			"obj-4::obj-148::obj-29::obj-9" : [ "Manual Rate[17]", "Manual Rate", 0 ],
+			"obj-4::obj-391" : [ "∆1/n", "∆1/n", 0 ],
 			"obj-4::obj-8" : [ "newSamples[1]", "newSamples", 0 ],
 			"obj-2::obj-365::obj-3::obj-32" : [ "off[72]", "off", 0 ],
 			"obj-2::obj-15::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[4]", "Hard Sync Threshold", 0 ],
@@ -4299,6 +4313,7 @@
 			"obj-2::obj-43::obj-31::obj-9" : [ "live.text[219]", "live.text", 0 ],
 			"obj-2::obj-11::obj-34::obj-72" : [ "Jam Mode[80]", "Jam Mode", 0 ],
 			"obj-51::obj-26::obj-186::obj-82::obj-12" : [ "ratecontrol[124]", "ratecontrol", 0 ],
+			"obj-4::obj-62::obj-9" : [ "live.text[20]", "live.text", 0 ],
 			"obj-3::obj-49::obj-14::obj-12" : [ "ratecontrol[101]", "ratecontrol", 0 ],
 			"obj-3::obj-25::obj-60" : [ "live.numbox[1]", "live.numbox[44]", 0 ],
 			"obj-3::obj-33::obj-12::obj-82::obj-72" : [ "Jam Mode[14]", "Jam Mode", 0 ],
@@ -4325,6 +4340,7 @@
 			"obj-2::obj-1::obj-43::obj-12" : [ "ratecontrol[54]", "ratecontrol", 0 ],
 			"obj-2::obj-70::obj-42::obj-67" : [ "min_max_offset_ui[26]", "min_max_offset_ui", 0 ],
 			"obj-2::obj-10::obj-112::obj-9" : [ "Hard Sync Toggle[71]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-384" : [ "fill mode", "fill mode", 0 ],
 			"obj-3::obj-33::obj-15::obj-36" : [ "smooth_ramp_up[2]", "smooth_ramp_up", 0 ],
 			"obj-3::obj-2::obj-36::obj-110::obj-9" : [ "Hard Sync Toggle[2]", "Hard Sync Toggle", 0 ],
 			"obj-3::obj-11::obj-4::obj-55" : [ "live.text[111]", "live.text[1]", 0 ],
@@ -4350,7 +4366,7 @@
 			"obj-3::obj-4::obj-21::obj-74" : [ "live.numbox[30]", "live.numbox", 0 ],
 			"obj-3::obj-12::obj-56::obj-9" : [ "Delta Channel Menu[13]", "Delta Channel Menu", 0 ],
 			"obj-1::obj-60::obj-142" : [ "Channel[81]", "Channel", 0 ],
-			"obj-4::obj-325::obj-112::obj-9" : [ "Hard Sync Toggle[62]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-345::obj-112::obj-108" : [ "Hard Sync Threshold[40]", "Hard Sync Threshold", 0 ],
 			"obj-2::obj-1::obj-210::obj-9" : [ "live.text[168]", "live.text", 0 ],
 			"obj-2::obj-25::obj-10::obj-112::obj-107" : [ "Delta Channel #[34]", "Delta Channel #", 0 ],
 			"obj-2::obj-43::obj-30::obj-142" : [ "Channel[10]", "Channel", 0 ],
@@ -4384,7 +4400,6 @@
 			"obj-4::obj-252::obj-112::obj-107" : [ "Delta Channel #[43]", "Delta Channel #", 0 ],
 			"obj-4::obj-190::obj-68" : [ "live.numbox[118]", "live.numbox", 0 ],
 			"obj-4::obj-148::obj-55" : [ "live.text[264]", "live.text[1]", 0 ],
-			"obj-4::obj-325::obj-67" : [ "min_max_offset_ui[34]", "min_max_offset_ui", 0 ],
 			"obj-2::obj-15::obj-68" : [ "Mixer / Send UI[20]", "Mixer / Send UI", 0 ],
 			"obj-2::obj-25::obj-10::obj-32" : [ "off[55]", "off", 0 ],
 			"obj-2::obj-43::obj-50" : [ "osc_interp[1]", "osc_interp", 0 ],
@@ -4413,6 +4428,7 @@
 			"obj-1::obj-185" : [ "Lock  Matrix[2]", "Lock  Matrix", 0 ],
 			"obj-4::obj-252::obj-67" : [ "min_max_offset_ui[30]", "min_max_offset_ui", 0 ],
 			"obj-4::obj-174::obj-29::obj-97" : [ "Quantized Rate[19]", "Quantized Rate", 0 ],
+			"obj-4::obj-345::obj-112::obj-9" : [ "Hard Sync Toggle[79]", "Hard Sync Toggle", 0 ],
 			"obj-4::obj-261" : [ "DecayControlMod[1]", "DecayControlMod", 0 ],
 			"obj-2::obj-203::obj-3::obj-32" : [ "off[60]", "off", 0 ],
 			"obj-2::obj-5::obj-12::obj-29::obj-97" : [ "Quantized Rate[83]", "Quantized Rate", 0 ],
@@ -4438,6 +4454,7 @@
 			"obj-2::obj-5::obj-175" : [ "mute_channels", "mute_channels", 0 ],
 			"obj-2::obj-1::obj-27::obj-72" : [ "Jam Mode[46]", "Jam Mode", 0 ],
 			"obj-51::obj-26::obj-186::obj-226::obj-55" : [ "live.text[237]", "live.text[1]", 0 ],
+			"obj-4::obj-258::obj-72" : [ "Jam Mode[88]", "Jam Mode", 0 ],
 			"obj-5::obj-30" : [ "local1", "local1", 0 ],
 			"obj-3::obj-49::obj-42" : [ "Low Ramp[1]", "Low Ramp", 0 ],
 			"obj-3::obj-33::obj-12::obj-80::obj-74" : [ "live.numbox[67]", "live.numbox", 0 ],
@@ -4491,10 +4508,9 @@
 			"obj-3::obj-12::obj-22::obj-47" : [ "modulation_indices[6]", "modulation_indices", 0 ],
 			"obj-1::obj-4::obj-186::obj-17" : [ "Slider Values[22]", "Slider Values", 0 ],
 			"obj-1::obj-57::obj-186::obj-28" : [ "octave_select[14]", "octave_select", 0 ],
-			"obj-1::obj-81" : [ "Loop Control[1]", "Loop Control", 0 ],
 			"obj-1::obj-114" : [ "jam_walk_max_midi_chans", "jam_walk_max_midi_chans", 0 ],
+			"obj-1::obj-81" : [ "Loop Control[1]", "Loop Control", 0 ],
 			"obj-4::obj-60::obj-72" : [ "Jam Mode[85]", "Jam Mode", 0 ],
-			"obj-4::obj-325::obj-29::obj-9" : [ "Manual Rate[51]", "Manual Rate", 0 ],
 			"obj-4::obj-57::obj-3" : [ "lib2[1]", "lib2", 0 ],
 			"obj-4::obj-78" : [ "∆seq1[1]", "∆seq1", 0 ],
 			"obj-2::obj-1::obj-43::obj-9" : [ "live.text[165]", "live.text", 0 ],
@@ -4515,8 +4531,8 @@
 			"obj-4::obj-294::obj-112::obj-107" : [ "Delta Channel #[44]", "Delta Channel #", 0 ],
 			"obj-4::obj-253::obj-55" : [ "live.text[261]", "live.text[1]", 0 ],
 			"obj-4::obj-174::obj-68" : [ "live.numbox[99]", "live.numbox", 0 ],
-			"obj-4::obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
 			"obj-4::obj-92" : [ "jam_every_n_bars[3]", "jam_every_n_bars", 0 ],
+			"obj-4::obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
 			"obj-2::obj-5::obj-12::obj-32" : [ "off[40]", "off", 0 ],
 			"obj-2::obj-26::obj-31::obj-9" : [ "live.text[114]", "live.text", 0 ],
 			"obj-2::obj-52::obj-30::obj-12" : [ "ratecontrol[113]", "ratecontrol", 0 ],
@@ -4535,7 +4551,6 @@
 			"obj-1::obj-26" : [ "jam_probabilities[1]", "jam_probabilities", 0 ],
 			"obj-1::obj-255" : [ "midi_delta_send", "midi_delta_send", 0 ],
 			"obj-4::obj-252::obj-29::obj-9" : [ "Manual Rate[47]", "Manual Rate", 0 ],
-			"obj-4::obj-325::obj-112::obj-108" : [ "Hard Sync Threshold[69]", "Hard Sync Threshold", 0 ],
 			"obj-4::obj-341" : [ "Delta Solo Lock[1]", "Delta Solo Lock", 0 ],
 			"obj-2::obj-15::obj-3::obj-55" : [ "live.text[246]", "live.text[1]", 0 ],
 			"obj-2::obj-43::obj-30::obj-72" : [ "Jam Mode[66]", "Jam Mode", 0 ],
@@ -4572,6 +4587,7 @@
 			"obj-2::obj-70::obj-3::obj-142" : [ "Channel[133]", "Channel", 0 ],
 			"obj-2::obj-10::obj-34::obj-142" : [ "Channel[134]", "Channel", 0 ],
 			"obj-51::obj-82::obj-72" : [ "Jam Mode[59]", "Jam Mode", 0 ],
+			"obj-4::obj-62::obj-12" : [ "ratecontrol[132]", "ratecontrol", 0 ],
 			"obj-3::obj-33::obj-12::obj-2" : [ "Flip Output On/Off[2]", "Flip Output On/Off", 0 ],
 			"obj-3::obj-6::obj-19" : [ "Smooth Output On/Off[3]", "Smooth Output On/Off", 0 ],
 			"obj-3::obj-4::obj-12::obj-9" : [ "live.text[187]", "live.text", 0 ],
@@ -4583,6 +4599,7 @@
 			"obj-2::obj-26::obj-30::obj-74" : [ "live.numbox[98]", "live.numbox", 0 ],
 			"obj-2::obj-52::obj-35" : [ "live.numbox[55]", "live.numbox", 0 ],
 			"obj-2::obj-8::obj-34::obj-9" : [ "live.text[248]", "live.text", 0 ],
+			"obj-4::obj-62::obj-142" : [ "Channel[146]", "Channel", 0 ],
 			"obj-3::obj-33::obj-15::obj-80::obj-12" : [ "ratecontrol[95]", "ratecontrol", 0 ],
 			"obj-3::obj-33::obj-14::obj-17" : [ "modulation source select[7]", "modulation source select", 0 ],
 			"obj-3::obj-2::obj-36::obj-4" : [ "Random Mux", "Random Mux", 0 ],
@@ -4590,7 +4607,6 @@
 			"obj-3::obj-4::obj-9::obj-142" : [ "Channel[84]", "Channel", 0 ],
 			"obj-1::obj-154::obj-186::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[30]", "Hard Sync Threshold", 0 ],
 			"obj-1::obj-248::obj-142" : [ "Channel[80]", "Channel", 0 ],
-			"obj-4::obj-325::obj-55" : [ "live.text[11]", "live.text[1]", 0 ],
 			"obj-2::obj-203::obj-3::obj-47" : [ "modulation_indices[36]", "modulation_indices", 0 ],
 			"obj-2::obj-23::obj-3::obj-29::obj-9" : [ "Manual Rate[45]", "Manual Rate", 0 ],
 			"obj-2::obj-1::obj-18::obj-72" : [ "Jam Mode[51]", "Jam Mode", 0 ],
@@ -4609,6 +4625,7 @@
 			"obj-1::obj-57::obj-186::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[59]", "Hard Sync Toggle", 0 ],
 			"obj-4::obj-257::obj-74" : [ "live.numbox[115]", "live.numbox", 0 ],
 			"obj-4::obj-113::obj-142" : [ "Channel[145]", "Channel", 0 ],
+			"obj-4::obj-345::obj-112::obj-107" : [ "Delta Channel #[49]", "Delta Channel #", 0 ],
 			"obj-2::obj-25::obj-18::obj-12" : [ "ratecontrol[86]", "ratecontrol", 0 ],
 			"obj-51::obj-26::obj-186::obj-226::obj-32" : [ "off[61]", "off", 0 ],
 			"obj-5::obj-140" : [ "auto preset movement mode", "auto preset movement mode", 0 ],
@@ -4639,7 +4656,6 @@
 			"obj-4::obj-190::obj-112::obj-9" : [ "Hard Sync Toggle[56]", "Hard Sync Toggle", 0 ],
 			"obj-4::obj-199::obj-67" : [ "min_max_offset_ui[44]", "min_max_offset_ui", 0 ],
 			"obj-4::obj-329" : [ "speed_scale[1]", "speed_scale", 0 ],
-			"obj-4::obj-291" : [ "DeltaProbLock[1]", "DeltaProbLock", 0 ],
 			"obj-2::obj-34::obj-12::obj-67" : [ "min_max_offset_ui[20]", "min_max_offset_ui", 0 ],
 			"obj-2::obj-1::obj-27::obj-142" : [ "Channel[71]", "Channel", 0 ],
 			"obj-2::obj-25::obj-19::obj-9" : [ "live.text[227]", "live.text", 0 ],
@@ -4672,6 +4688,7 @@
 			"obj-1::obj-226::obj-29::obj-97" : [ "Quantized Rate[96]", "Quantized Rate", 0 ],
 			"obj-4::obj-60::obj-142" : [ "Channel[143]", "Channel", 0 ],
 			"obj-4::obj-57::obj-9" : [ "lib4[1]", "lib4", 0 ],
+			"obj-4::obj-379" : [ "SubsetCtrl[3]", "SubsetCtrl", 0 ],
 			"obj-2::obj-34::obj-97" : [ "lock_ui", "lock_ui", 0 ],
 			"obj-2::obj-1::obj-43::obj-72" : [ "Jam Mode[48]", "Jam Mode", 0 ],
 			"obj-2::obj-1::obj-29" : [ "grain_buffer_length", "grain_buffer_length", 0 ],
@@ -4701,7 +4718,6 @@
 			"obj-3::obj-4::obj-105::obj-72" : [ "Jam Mode[22]", "Jam Mode", 0 ],
 			"obj-1::obj-57::obj-186::obj-97" : [ "Quantized Rate[82]", "Quantized Rate", 0 ],
 			"obj-4::obj-148::obj-112::obj-9" : [ "Hard Sync Toggle[75]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-268" : [ "delta_ntrig_max[1]", "delta_ntrig_max", 0 ],
 			"obj-4::obj-180" : [ "preset_toward[2]", "preset_toward", 0 ],
 			"obj-2::obj-203::obj-3::obj-29::obj-97" : [ "Quantized Rate[124]", "Quantized Rate", 0 ],
 			"obj-2::obj-15::obj-3::obj-32" : [ "off[9]", "off", 0 ],
@@ -4823,6 +4839,10 @@
 					"parameter_longname" : "Hard Sync Toggle[16]"
 				}
 ,
+				"obj-4::obj-62::obj-72" : 				{
+					"parameter_longname" : "Jam Mode[60]"
+				}
+,
 				"obj-3::obj-33::obj-12::obj-5::obj-97" : 				{
 					"parameter_longname" : "Quantized Rate[30]"
 				}
@@ -4851,16 +4871,16 @@
 					"parameter_longname" : "live.text[260]"
 				}
 ,
-				"obj-4::obj-325::obj-68" : 				{
-					"parameter_longname" : "live.numbox[123]"
-				}
-,
 				"obj-2::obj-43::obj-35" : 				{
 					"parameter_longname" : "live.numbox[81]"
 				}
 ,
 				"obj-2::obj-3::obj-6::obj-9" : 				{
 					"parameter_longname" : "live.text[216]"
+				}
+,
+				"obj-4::obj-258::obj-74" : 				{
+					"parameter_longname" : "live.numbox[123]"
 				}
 ,
 				"obj-3::obj-2::obj-107::obj-29::obj-9" : 				{
@@ -4889,6 +4909,10 @@
 ,
 				"obj-2::obj-34::obj-12::obj-112::obj-108" : 				{
 					"parameter_longname" : "Hard Sync Threshold[21]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-68" : 				{
+					"parameter_longname" : "live.numbox[36]"
 				}
 ,
 				"obj-2::obj-1::obj-209::obj-72" : 				{
@@ -5027,6 +5051,10 @@
 					"parameter_longname" : "Delta Channel #[53]"
 				}
 ,
+				"obj-4::obj-62::obj-74" : 				{
+					"parameter_longname" : "live.numbox[175]"
+				}
+,
 				"obj-3::obj-25::obj-14::obj-74" : 				{
 					"parameter_longname" : "live.numbox[68]"
 				}
@@ -5057,6 +5085,10 @@
 ,
 				"obj-4::obj-57::obj-6" : 				{
 					"parameter_longname" : "lib3[1]"
+				}
+,
+				"obj-4::obj-345::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[24]"
 				}
 ,
 				"obj-2::obj-15::obj-3::obj-112::obj-9" : 				{
@@ -5169,10 +5201,6 @@
 ,
 				"obj-1::obj-226::obj-112::obj-107" : 				{
 					"parameter_longname" : "Delta Channel #[16]"
-				}
-,
-				"obj-4::obj-325::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[69]"
 				}
 ,
 				"obj-2::obj-1::obj-210::obj-74" : 				{
@@ -5379,10 +5407,6 @@
 					"parameter_longname" : "Jam Mode[53]"
 				}
 ,
-				"obj-2::obj-365::obj-3::obj-55" : 				{
-					"parameter_longname" : "live.text[247]"
-				}
-,
 				"obj-2::obj-23::obj-3::obj-112::obj-108" : 				{
 					"parameter_longname" : "Hard Sync Threshold[47]"
 				}
@@ -5499,12 +5523,12 @@
 					"parameter_longname" : "Manual Rate[87]"
 				}
 ,
-				"obj-4::obj-325::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[45]"
-				}
-,
 				"obj-4::obj-57::obj-2" : 				{
 					"parameter_longname" : "lib1[1]"
+				}
+,
+				"obj-4::obj-345::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[45]"
 				}
 ,
 				"obj-4::obj-182" : 				{
@@ -5607,6 +5631,10 @@
 					"parameter_longname" : "Jam Mode[75]"
 				}
 ,
+				"obj-4::obj-258::obj-9" : 				{
+					"parameter_longname" : "live.text[122]"
+				}
+,
 				"obj-3::obj-33::obj-15::obj-74" : 				{
 					"parameter_longname" : "live.numbox[19]"
 				}
@@ -5653,10 +5681,6 @@
 ,
 				"obj-2::obj-203::obj-3::obj-112::obj-9" : 				{
 					"parameter_longname" : "Hard Sync Toggle[66]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-68" : 				{
-					"parameter_longname" : "live.numbox[105]"
 				}
 ,
 				"obj-2::obj-70::obj-3::obj-9" : 				{
@@ -5743,7 +5767,7 @@
 					"parameter_longname" : "live.text[176]"
 				}
 ,
-				"obj-4::obj-325::obj-32" : 				{
+				"obj-4::obj-345::obj-32" : 				{
 					"parameter_longname" : "off[15]"
 				}
 ,
@@ -5817,6 +5841,10 @@
 ,
 				"obj-4::obj-253::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[50]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-55" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-2::obj-52::obj-70::obj-9" : 				{
@@ -5975,6 +6003,10 @@
 					"parameter_longname" : "Jam Mode[80]"
 				}
 ,
+				"obj-4::obj-62::obj-9" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
 				"obj-3::obj-25::obj-60" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
@@ -6021,6 +6053,14 @@
 ,
 				"obj-2::obj-10::obj-112::obj-9" : 				{
 					"parameter_longname" : "Hard Sync Toggle[71]"
+				}
+,
+				"obj-4::obj-384" : 				{
+					"parameter_longname" : "fill mode",
+					"parameter_shortname" : "fill mode",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2
 				}
 ,
 				"obj-3::obj-33::obj-15::obj-36" : 				{
@@ -6075,8 +6115,8 @@
 					"parameter_longname" : "live.numbox[30]"
 				}
 ,
-				"obj-4::obj-325::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[62]"
+				"obj-4::obj-345::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[40]"
 				}
 ,
 				"obj-2::obj-1::obj-210::obj-9" : 				{
@@ -6223,6 +6263,10 @@
 					"parameter_longname" : "Quantized Rate[19]"
 				}
 ,
+				"obj-4::obj-345::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[79]"
+				}
+,
 				"obj-2::obj-203::obj-3::obj-32" : 				{
 					"parameter_longname" : "off[60]"
 				}
@@ -6277,6 +6321,10 @@
 ,
 				"obj-51::obj-26::obj-186::obj-226::obj-55" : 				{
 					"parameter_longname" : "live.text[237]"
+				}
+,
+				"obj-4::obj-258::obj-72" : 				{
+					"parameter_longname" : "Jam Mode[88]"
 				}
 ,
 				"obj-3::obj-33::obj-12::obj-80::obj-74" : 				{
@@ -6415,12 +6463,14 @@
 					"parameter_longname" : "Jam Mode[85]"
 				}
 ,
-				"obj-4::obj-325::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[51]"
-				}
-,
 				"obj-4::obj-57::obj-3" : 				{
 					"parameter_longname" : "lib2[1]"
+				}
+,
+				"obj-4::obj-78" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2
 				}
 ,
 				"obj-2::obj-1::obj-43::obj-9" : 				{
@@ -6517,10 +6567,6 @@
 ,
 				"obj-4::obj-252::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[47]"
-				}
-,
-				"obj-4::obj-325::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[69]"
 				}
 ,
 				"obj-2::obj-15::obj-3::obj-55" : 				{
@@ -6635,10 +6681,6 @@
 					"parameter_longname" : "Hard Sync Threshold[30]"
 				}
 ,
-				"obj-4::obj-325::obj-55" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
 				"obj-2::obj-23::obj-3::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[45]"
 				}
@@ -6689,6 +6731,10 @@
 ,
 				"obj-4::obj-257::obj-74" : 				{
 					"parameter_longname" : "live.numbox[115]"
+				}
+,
+				"obj-4::obj-345::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[49]"
 				}
 ,
 				"obj-51::obj-26::obj-186::obj-226::obj-32" : 				{
