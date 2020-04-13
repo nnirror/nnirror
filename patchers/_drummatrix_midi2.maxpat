@@ -39,6 +39,669 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-353",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-340",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 75.925925076007843, 192.8492431640625, 29.5, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-339",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 87.185182392597198, 225.481480777263641, 68.0, 22.0 ],
+									"text" : "selector~ 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-335",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 156.407407820224762, 33.0, 22.0 ],
+									"text" : "== 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-329",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 121.592544317245483, 29.5, 22.0 ],
+									"text" : "i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-323",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 208.351846873760223, 100.0, 29.5, 22.0 ],
+									"text" : "t i i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 105.841646492481232, 153.148147881031036, 31.0, 22.0 ],
+									"text" : "sig~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 105.841646492481232, 118.0, 74.0, 22.0 ],
+									"text" : "loadmess -2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-341",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 50.000011940597574, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-344",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 136.185192940597517, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-347",
+									"index" : 3,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 208.351818940597582, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-348",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 87.185192940597517, 307.481444999999894, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-349",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 208.351818940597582, 307.481444999999894, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-329", 0 ],
+									"source" : [ "obj-323", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-349", 0 ],
+									"source" : [ "obj-323", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-335", 0 ],
+									"source" : [ "obj-329", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-340", 0 ],
+									"source" : [ "obj-335", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-348", 0 ],
+									"source" : [ "obj-339", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 0 ],
+									"source" : [ "obj-340", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-329", 0 ],
+									"source" : [ "obj-341", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 2 ],
+									"source" : [ "obj-344", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-323", 0 ],
+									"source" : [ "obj-347", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 1 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ -558.356886386871338, 1457.0, 108.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p delta_ctrl_or_not"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-350",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 41.5, 232.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-340",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 75.925925076007843, 192.8492431640625, 29.5, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-339",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 87.185182392597198, 225.481480777263641, 68.0, 22.0 ],
+									"text" : "selector~ 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-335",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 156.407407820224762, 33.0, 22.0 ],
+									"text" : "== 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-329",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 121.592544317245483, 29.5, 22.0 ],
+									"text" : "i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-323",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 208.351846873760223, 100.0, 29.5, 22.0 ],
+									"text" : "t i i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 105.841646492481232, 153.148147881031036, 31.0, 22.0 ],
+									"text" : "sig~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 105.841646492481232, 118.0, 74.0, 22.0 ],
+									"text" : "loadmess -2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-341",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 50.000011940597574, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-344",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 136.185192940597517, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-347",
+									"index" : 3,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 208.351818940597582, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-348",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 87.185192940597517, 307.481444999999894, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-349",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 208.351818940597582, 307.481444999999894, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-329", 0 ],
+									"source" : [ "obj-323", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-349", 0 ],
+									"source" : [ "obj-323", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-335", 0 ],
+									"source" : [ "obj-329", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-340", 0 ],
+									"source" : [ "obj-335", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-348", 0 ],
+									"source" : [ "obj-339", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
+									"source" : [ "obj-340", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 0 ],
+									"order" : 0,
+									"source" : [ "obj-340", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-329", 0 ],
+									"source" : [ "obj-341", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 2 ],
+									"source" : [ "obj-344", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-323", 0 ],
+									"source" : [ "obj-347", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-339", 1 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ -930.767578125, 1450.259259283542633, 108.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p delta_ctrl_or_not"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-338",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -975.450725793838501, 1407.036991894245148, 156.90625, 22.0 ],
+					"text" : "receive~ #0matrix_pos"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-322",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ -816.156466066837311, 1362.222177565097809, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-312",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ -856.156466066837311, 1362.222177565097809, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-309",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -896.156466066837311, 1296.983125567436218, 117.0, 22.0 ],
+					"text" : "r #0mutechannels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-310",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ -896.156466066837311, 1331.346773028373718, 99.0, 22.0 ],
+					"text" : "unpack 0 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-284",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2017.600208401679993, 1181.0, 119.0, 22.0 ],
+					"text" : "s #0mutechannels"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-283",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -47,30 +710,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 983.0, 1303.0, 197.0, 35.0 ],
 					"text" : "loadmess 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -558.3939208984375, 1496.0, 31.0, 22.0 ],
-					"text" : "sig~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-85",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -558.3939208984375, 1451.0, 74.0, 22.0 ],
-					"text" : "loadmess -2"
 				}
 
 			}
@@ -107,30 +746,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ -488.1614990234375, 1492.0, 29.5, 22.0 ],
 					"text" : "> 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -912.0, 1496.0, 31.0, 22.0 ],
-					"text" : "sig~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-52",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -912.0, 1451.0, 74.0, 22.0 ],
-					"text" : "loadmess -2"
 				}
 
 			}
@@ -6180,16 +6795,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6199,14 +6814,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -12124,16 +12739,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -12143,14 +12758,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -12317,10 +12932,10 @@
 					"presentation_rect" : [ 303.052490234375, 5.133330821990967, 9.29681396484375, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "ProbLock",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "ProbLock",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -13392,7 +14007,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 68.0, 113.0, 1144.0, 615.0 ],
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -13779,12 +14394,12 @@
 					"presentation_rect" : [ 540.46697998046875, 1.607892274856567, 11.513858795166016, 49.945392608642578 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "midi_delta_send",
-							"parameter_mmax" : 2,
 							"parameter_shortname" : "midi_delta_send",
 							"parameter_enum" : [ "_", "_", "_" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "midi_delta_send",
+							"parameter_mmax" : 2
 						}
 
 					}
@@ -14342,13 +14957,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-276",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 77.35986328125, 352.6922607421875, 103.6080322265625, 89.0 ],
-									"text" : "4nt 8n 8n 8n 4nt 4nt 4n 4n 4n 4n 4n 4n 4n 4nt 4nt 8n"
+									"text" : "16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt 16nt"
 								}
 
 							}
@@ -14728,12 +15343,12 @@
 					"presentation_rect" : [ 400.753173828125, 5.133330821990967, 17.468618392944336, 135.267913818359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "midi_note_lengths",
+							"parameter_type" : 3,
 							"parameter_longname" : "midi_note_lengths",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ],
-							"parameter_shortname" : "midi_note_lengths",
-							"parameter_type" : 3
+							"parameter_initial" : [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ]
 						}
 
 					}
@@ -14842,14 +15457,14 @@
 					"presentation_rect" : [ 463.64990234375, 69.951492309570312, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_every_n_bars[2]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "jam_every_n_bars",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "jam_every_n_bars[2]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 64.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -14871,11 +15486,11 @@
 					"presentation_rect" : [ 463.3031005859375, 83.951492309570312, 23.09954833984375, 29.919349670410156 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Jam On/Off[2]",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "Jam On/Off",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "Jam On/Off[2]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -15591,10 +16206,10 @@
 					"presentation_rect" : [ 490.90252685546875, 85.814239501953125, 58.339977264404297, 8.537975311279297 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_probabilities[2]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "jam_probabilities",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "jam_probabilities[2]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -15663,7 +16278,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 50.0, 558.0 ],
-									"text" : "1 0 0 0 1 0 0 2 0 1 0 1 0 1 1 0 2 1 1 0 2 0 1 2 1 2 2 1 0 3 1 1 3 1 2 3 1 0 4 0 1 4 1 2 4 0 0 5 1 1 5 1 2 5 1 0 6 1 1 6 1 2 6 0 0 7 0 1 7 1 2 7 0 0 8 1 1 8 1 2 8 1 0 9 0 1 9 1 2 9 1 0 10 0 1 10 1 2 10 1 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 0 1 14 0 2 14 0 0 15 1 1 15 0 2 15 0"
+									"text" : "1 0 0 1 1 0 0 2 0 0 0 1 0 1 1 0 2 1 1 0 2 1 1 2 0 2 2 0 0 3 0 1 3 1 2 3 0 0 4 1 1 4 1 2 4 1 0 5 1 1 5 0 2 5 0 0 6 0 1 6 0 2 6 1 0 7 0 1 7 0 2 7 1 0 8 0 1 8 1 2 8 0 0 9 0 1 9 1 2 9 0 0 10 1 1 10 0 2 10 0 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 1 1 14 1 2 14 1 0 15 0 1 15 0 2 15 0"
 								}
 
 							}
@@ -15820,7 +16435,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15901,7 +16516,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 50.0, 558.0 ],
-													"text" : "0 0 0 1 0 0 2 0 1 0 1 0 1 1 0 2 1 1 0 2 0 1 2 1 2 2 1 0 3 1 1 3 1 2 3 1 0 4 0 1 4 1 2 4 0 0 5 1 1 5 1 2 5 1 0 6 1 1 6 1 2 6 0 0 7 0 1 7 1 2 7 0 0 8 1 1 8 1 2 8 1 0 9 0 1 9 1 2 9 1 0 10 0 1 10 1 2 10 1 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 0 1 14 0 2 14 0 0 15 1 1 15 0 2 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 0 1 0 1 1 0 2 1 1 0 2 1 1 2 0 2 2 0 0 3 0 1 3 1 2 3 0 0 4 1 1 4 1 2 4 1 0 5 1 1 5 0 2 5 0 0 6 0 1 6 0 2 6 1 0 7 0 1 7 0 2 7 1 0 8 0 1 8 1 2 8 0 0 9 0 1 9 1 2 9 0 0 10 1 1 10 0 2 10 0 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 1 1 14 1 2 14 1 0 15 0 1 15 0 2 15 0"
 												}
 
 											}
@@ -16168,12 +16783,12 @@
 					"presentation_rect" : [ 500.529632568359375, 96.503700256347656, 15.066864013671875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "MIDI Channel markov_gen_density",
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 16.0,
 							"parameter_shortname" : "MIDI Channel markov_gen_density",
 							"parameter_type" : 3,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "MIDI Channel markov_gen_density",
+							"parameter_invisible" : 1,
+							"parameter_mmax" : 16.0
 						}
 
 					}
@@ -16628,7 +17243,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 992.0, 35.0 ],
-													"text" : "0 0 1 1 0 0 2 0 1 0 1 0 1 1 0 2 1 1 0 2 0 1 2 1 2 2 1 0 3 1 1 3 1 2 3 1 0 4 0 1 4 1 2 4 1 0 5 1 1 5 1 2 5 1 0 6 1 1 6 1 2 6 0 0 7 0 1 7 1 2 7 0 0 8 1 1 8 1 2 8 1 0 9 0 1 9 1 2 9 1 0 10 0 1 10 1 2 10 1 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 1 1 13 1 2 13 0 0 14 0 1 14 0 2 14 0 0 15 1 1 15 0 2 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 0 1 0 1 1 0 2 1 1 0 2 1 1 2 0 2 2 0 0 3 0 1 3 1 2 3 0 0 4 1 1 4 1 2 4 1 0 5 1 1 5 0 2 5 1 0 6 0 1 6 0 2 6 1 0 7 0 1 7 0 2 7 1 0 8 1 1 8 0 2 8 0 0 9 0 1 9 1 2 9 0 0 10 1 1 10 0 2 10 0 0 11 1 1 11 1 2 11 1 0 12 1 1 12 0 2 12 0 0 13 0 1 13 0 2 13 1 0 14 1 1 14 1 2 14 1 0 15 0 1 15 1 2 15 1"
 												}
 
 											}
@@ -16930,16 +17545,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -16949,14 +17564,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -17087,12 +17702,12 @@
 					"presentation_rect" : [ 419.13006591796875, 5.133330821990967, 8.0, 134.7884521484375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Lock  Matrix",
+							"parameter_type" : 3,
 							"parameter_longname" : "Lock  Matrix[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
-							"parameter_shortname" : "Lock  Matrix",
-							"parameter_type" : 3
+							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
 						}
 
 					}
@@ -17143,14 +17758,14 @@
 					"presentation_rect" : [ 530.01861572265625, 96.592506408691406, 19.175537109375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_walk_max_midi_chans",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 3.0,
-							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "jam_walk_max_midi_chans",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "jam_walk_max_midi_chans",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 3.0,
+							"parameter_initial" : [ 1 ]
 						}
 
 					}
@@ -17618,7 +18233,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 992.0, 35.0 ],
-													"text" : "0 0 0 1 0 0 2 0 1 0 1 0 1 1 0 2 1 1 0 2 0 1 2 1 2 2 1 0 3 1 1 3 1 2 3 1 0 4 0 1 4 1 2 4 0 0 5 1 1 5 1 2 5 1 0 6 1 1 6 1 2 6 0 0 7 0 1 7 1 2 7 0 0 8 1 1 8 1 2 8 1 0 9 0 1 9 1 2 9 1 0 10 0 1 10 1 2 10 1 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 0 1 14 0 2 14 0 0 15 1 1 15 0 2 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 0 1 0 1 1 0 2 1 1 0 2 1 1 2 0 2 2 0 0 3 0 1 3 1 2 3 0 0 4 1 1 4 1 2 4 1 0 5 1 1 5 0 2 5 0 0 6 0 1 6 0 2 6 1 0 7 0 1 7 0 2 7 1 0 8 0 1 8 1 2 8 0 0 9 0 1 9 1 2 9 0 0 10 1 1 10 0 2 10 0 0 11 1 1 11 1 2 11 1 0 12 0 1 12 1 2 12 0 0 13 0 1 13 1 2 13 0 0 14 1 1 14 1 2 14 1 0 15 0 1 15 0 2 15 0"
 												}
 
 											}
@@ -17922,16 +18537,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -17941,14 +18556,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -19331,16 +19946,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -19350,14 +19965,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -19526,10 +20141,10 @@
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "midi_out_toggle",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "midi_out_toggle",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "midi_out_toggle",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -19752,13 +20367,13 @@
 					"presentation_rect" : [ 479.296295166015625, 52.710582733154297, 32.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "midi_channel_cell_fill_likelihood",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 5,
 							"parameter_longname" : "midi_channel_cell_fill_likelihood",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 25.0 ],
-							"parameter_shortname" : "midi_channel_cell_fill_likelihood",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 5
+							"parameter_initial" : [ 25.0 ]
 						}
 
 					}
@@ -20090,16 +20705,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -20109,14 +20724,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -20612,14 +21227,14 @@
 					"presentation_rect" : [ 639.4793701171875, 157.6368408203125, 19.175537109375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_walk_max",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 32.0,
-							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "jam_walk_max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "jam_walk_max",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 15.0,
+							"parameter_initial" : [ 1 ]
 						}
 
 					}
@@ -21080,7 +21695,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 989.0, 76.0 ],
-													"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 1 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 1 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 1 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 1 26 11 0 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 0 25 13 1 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 0 15 1 2 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 4 6 2 1 7 2 0 8 2 0 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 1 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 1 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 1 28 3 0 29 3 0 30 3 0 31 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 1 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 1 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 1 6 5 2 7 5 0 8 5 0 9 5 1 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 1 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 1 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 0 28 6 1 29 6 1 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 1 19 7 0 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 2 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 1 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 3 24 9 0 25 9 1 26 9 1 27 9 0 28 9 2 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 1 11 10 1 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 1 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 1 25 11 0 26 11 4 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 1 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 4 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 1 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
 												}
 
 											}
@@ -21685,11 +22300,11 @@
 					"presentation_rect" : [ 527.05810546875, 52.710582733154297, 26.492963790893555, 16.7921142578125 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -22581,7 +23196,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 100.0, 825.0, 156.0 ],
-																	"text" : "\"0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 1 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 1 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 1 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 1 25 13 0 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0\""
+																	"text" : "\"0 0 0 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 1 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 1 15 1 0 16 1 2 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 4 6 2 0 7 2 0 8 2 1 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 1 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 1 13 3 0 14 3 0 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 1 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 1 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 0 11 4 0 12 4 1 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 1 5 5 0 6 5 0 7 5 2 8 5 0 9 5 0 10 5 0 11 5 1 12 5 1 13 5 0 14 5 1 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 0 28 5 1 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 1 28 6 0 29 6 0 30 6 1 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 0 19 7 1 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 0 19 8 2 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 1 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 1 23 9 0 24 9 0 25 9 0 26 9 0 27 9 3 28 9 0 29 9 1 30 9 0 31 9 2 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 1 15 10 0 16 10 0 17 10 0 18 10 1 19 10 0 20 10 0 21 10 0 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 1 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 4 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 1 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 1 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 4 22 14 0 23 14 0 24 14 0 25 14 1 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 1 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 1 29 15 0 30 15 0 31 15 0\""
 																}
 
 															}
@@ -22968,7 +23583,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-192",
-					"linecount" : 422,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -22977,15 +23591,14 @@
 					"patching_rect" : [ -513.7423095703125, 770.5, 104.0, 28.3665771484375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_pattern_storage[1]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "preset_pattern_storage",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "preset_pattern_storage[1]",
+							"parameter_invisible" : 1
 						}
 
 					}
 ,
-					"text" : "\"0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 0 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 0 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 1 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 1 17 8 0 18 8 0 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 0 25 9 0 26 9 0 27 9 0 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 0 26 11 0 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 1 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 1 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 1 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0\" \n \"0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 1 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 1 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 1 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 1 25 13 0 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0\" \n",
 					"varname" : "preset_pattern_storage"
 				}
 
@@ -23019,14 +23632,14 @@
 					"presentation_rect" : [ 453.786468505859375, 169.43341064453125, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_every_n_bars[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "jam_every_n_bars",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "jam_every_n_bars[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 64.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23236,14 +23849,14 @@
 					"presentation_rect" : [ 491.2962646484375, 157.445556640625, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_save_number[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_save_number",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "preset_save_number[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 9.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23300,12 +23913,12 @@
 					"presentation_rect" : [ 521.2294921875, 157.445556640625, 15.066864013671875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "markov_gen_density[1]",
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 16.0,
 							"parameter_shortname" : "markov_gen_density",
 							"parameter_type" : 3,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "markov_gen_density[1]",
+							"parameter_invisible" : 1,
+							"parameter_mmax" : 16.0
 						}
 
 					}
@@ -23422,14 +24035,13 @@
 					"presentation_rect" : [ 610.6463623046875, 157.445556640625, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_retrieve[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_retrieve",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_longname" : "preset_retrieve[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23451,14 +24063,13 @@
 					"presentation_rect" : [ 581.8963623046875, 157.445556640625, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_pattern_gen[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_pattern_gen",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_longname" : "preset_pattern_gen[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23480,14 +24091,13 @@
 					"presentation_rect" : [ 551.2962646484375, 157.445556640625, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_toward[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2.0,
-							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_toward",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_longname" : "preset_toward[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23509,11 +24119,11 @@
 					"presentation_rect" : [ 453.786468505859375, 156.445556640625, 22.674604415893555, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Jam On/Off[1]",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "Jam On/Off",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "Jam On/Off[1]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -24025,7 +24635,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 203.5, 255.0, 62.0 ],
-													"text" : "0 0 0, 1 0 0, 2 0 0, 3 0 0, 4 0 0, 0 1 0, 1 1 0, 2 1 0, 3 1 0, 4 1 0, 0 2 15, 1 2 15, 2 2 15, 3 2 15, 4 2 15, 0 3 0, 1 3 0, 2 3 0, 3 3 0, 4 3 0, 0 4 0, 1 4 0, 2 4 0, 3 4 0, 4 4 0"
+													"text" : "0 0 0, 1 0 0, 2 0 0, 3 0 0, 4 0 0, 0 1 0, 1 1 0, 2 1 0, 3 1 0, 4 1 0, 0 2 0, 1 2 0, 2 2 0, 3 2 0, 4 2 0, 0 3 0, 1 3 0, 2 3 0, 3 3 0, 4 3 0, 0 4 15, 1 4 15, 2 4 15, 3 4 15, 4 4 15"
 												}
 
 											}
@@ -24412,10 +25022,10 @@
 					"presentation_rect" : [ 504.22943115234375, 172.6785888671875, 142.441940307617188, 9.518367767333984 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_probabilities[1]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "jam_probabilities",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "jam_probabilities[1]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -24982,7 +25592,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 989.0, 76.0 ],
-													"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 1 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 1 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 1 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 1 26 11 0 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 0 25 13 1 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 0 15 1 2 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 4 6 2 1 7 2 0 8 2 0 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 1 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 1 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 1 28 3 0 29 3 0 30 3 0 31 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 1 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 1 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 1 6 5 2 7 5 0 8 5 0 9 5 1 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 1 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 1 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 0 28 6 1 29 6 1 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 1 19 7 0 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 2 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 1 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 3 24 9 0 25 9 1 26 9 1 27 9 0 28 9 2 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 1 11 10 1 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 1 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 1 25 11 0 26 11 4 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 1 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 4 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 1 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
 												}
 
 											}
@@ -25840,7 +26450,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 988.0, 143.0 ],
-													"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 1 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 1 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 1 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 1 26 11 0 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 0 25 13 1 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 0 15 1 2 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 4 6 2 1 7 2 0 8 2 0 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 1 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 1 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 1 28 3 0 29 3 0 30 3 0 31 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 1 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 1 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 1 6 5 2 7 5 0 8 5 0 9 5 1 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 1 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 1 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 0 28 6 1 29 6 1 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 1 19 7 0 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 2 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 1 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 3 24 9 0 25 9 1 26 9 1 27 9 0 28 9 2 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 1 11 10 1 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 1 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 1 25 11 0 26 11 4 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 1 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 4 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 1 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
 												}
 
 											}
@@ -26760,7 +27370,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 984.0, 143.0 ],
-													"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 1 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 1 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 1 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 1 26 11 0 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 0 25 13 1 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 0 15 1 2 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 4 6 2 1 7 2 0 8 2 0 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 1 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 1 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 1 28 3 0 29 3 0 30 3 0 31 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 1 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 1 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 1 6 5 2 7 5 0 8 5 0 9 5 1 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 1 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 1 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 0 28 6 1 29 6 1 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 1 19 7 0 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 2 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 1 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 3 24 9 0 25 9 1 26 9 1 27 9 0 28 9 2 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 1 11 10 1 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 1 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 1 25 11 0 26 11 4 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 1 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 4 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 1 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
 												}
 
 											}
@@ -27350,7 +27960,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ],
-																	"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 1 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 1 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 1 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 1 25 13 0 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
+																	"text" : "0 0 0 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 1 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 1 15 1 0 16 1 2 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 4 6 2 0 7 2 0 8 2 1 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 1 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 1 13 3 0 14 3 0 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 1 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 1 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 0 11 4 0 12 4 1 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 1 5 5 0 6 5 0 7 5 2 8 5 0 9 5 0 10 5 0 11 5 1 12 5 1 13 5 0 14 5 1 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 0 28 5 1 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 1 28 6 0 29 6 0 30 6 1 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 0 19 7 1 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 0 19 8 2 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 1 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 1 23 9 0 24 9 0 25 9 0 26 9 0 27 9 3 28 9 0 29 9 1 30 9 0 31 9 2 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 1 15 10 0 16 10 0 17 10 0 18 10 1 19 10 0 20 10 0 21 10 0 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 1 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 4 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 1 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 1 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 4 22 14 0 23 14 0 24 14 0 25 14 1 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 1 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 1 29 15 0 30 15 0 31 15 0"
 																}
 
 															}
@@ -27811,7 +28421,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 55.0, 22.0 ],
-													"text" : "2"
+													"text" : "0"
 												}
 
 											}
@@ -28214,13 +28824,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-60",
-													"linecount" : 5,
+													"linecount" : 40,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 486.0, 545.0 ],
-													"text" : "1 0 0 1 1 0 0 2 0 0 3 0 0 0 1 0 1 1 0 2 1 0 3 1 0 0 2 0 1 2 0 2 2 0 3 2 0 0 3 0 1 3 0 2 3 0 3 3 0 0 4 0 1 4 1 2 4 0 3 4 0 0 5 0 1 5 0 2 5 0 3 5 0 0 6 0 1 6 0 2 6 0 3 6 0 0 7 0 1 7 0 2 7 0 3 7 0 0 8 0 1 8 0 2 8 1 3 8 0 0 9 0 1 9 0 2 9 0 3 9 0 0 10 0 1 10 0 2 10 0 3 10 0 0 11 0 1 11 0 2 11 0 3 11 0 0 12 0 1 12 0 2 12 0 3 12 1 0 13 0 1 13 0 2 13 0 3 13 0 0 14 0 1 14 0 2 14 0 3 14 0 0 15 0 1 15 0 2 15 0 3 15 0"
+													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 1 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 0 15 1 2 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 4 6 2 1 7 2 0 8 2 0 9 2 0 10 2 1 11 2 0 12 2 0 13 2 0 14 2 1 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 1 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 1 15 3 0 16 3 0 17 3 0 18 3 1 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 1 28 3 0 29 3 0 30 3 0 31 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 1 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 1 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 1 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 1 6 5 2 7 5 0 8 5 0 9 5 1 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 1 27 5 1 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 1 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 1 27 6 0 28 6 1 29 6 1 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 1 19 7 0 20 7 0 21 7 1 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 2 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 1 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 3 24 9 0 25 9 1 26 9 1 27 9 0 28 9 2 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 1 11 10 1 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 1 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 1 25 11 0 26 11 4 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 1 22 12 0 23 12 0 24 12 0 25 12 0 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 4 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 1 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0"
 												}
 
 											}
@@ -29688,16 +30298,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -29707,14 +30317,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -29896,12 +30506,12 @@
 					"presentation_rect" : [ 312.470733642578125, 5.133330821990967, 69.964241027832031, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "drummatrix_midi_notes",
+							"parameter_type" : 3,
 							"parameter_longname" : "drummatrix_midi_notes",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ],
-							"parameter_shortname" : "drummatrix_midi_notes",
-							"parameter_type" : 3
+							"parameter_initial" : [ 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ]
 						}
 
 					}
@@ -30650,12 +31260,12 @@
 					"presentation_rect" : [ 335.132232666015625, 140.13336181640625, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Tempo[51]",
-							"parameter_mmax" : 12,
-							"parameter_initial" : [ 3.0 ],
 							"parameter_shortname" : "Tempo",
 							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "Tempo[51]",
+							"parameter_mmax" : 12,
+							"parameter_initial" : [ 3.0 ]
 						}
 
 					}
@@ -30707,14 +31317,14 @@
 					"presentation_rect" : [ 373.722930908203125, 140.13336181640625, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "randomize_z_index[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5.0,
-							"parameter_initial" : [ 2.0 ],
 							"parameter_shortname" : "randomize_z_index",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 2.0
+							"parameter_mmin" : 2.0,
+							"parameter_longname" : "randomize_z_index[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 5.0,
+							"parameter_initial" : [ 2.0 ]
 						}
 
 					}
@@ -30736,13 +31346,13 @@
 					"presentation_rect" : [ 406.9656982421875, 140.13336181640625, 23.510772705078125, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "cell_fill_likelihood",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "cell_fill_likelihood[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 25.0 ],
-							"parameter_shortname" : "cell_fill_likelihood",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 25.0 ]
 						}
 
 					}
@@ -30779,14 +31389,14 @@
 					"presentation_rect" : [ 289.71533203125, 140.13336181640625, 22.633987426757812, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Loop Control[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 128.0,
-							"parameter_initial" : [ 16 ],
 							"parameter_shortname" : "Loop Control",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 1.0
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "Loop Control[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 128.0,
+							"parameter_initial" : [ 16 ]
 						}
 
 					}
@@ -31150,10 +31760,10 @@
 					"presentation_rect" : [ 69.113113403320312, 5.133331298828125, 8.0, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Solo Lock[1]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "Solo Lock",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "Solo Lock[1]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -32980,12 +33590,12 @@
 					"presentation_rect" : [ 241.379501342773438, 139.13336181640625, 34.283309936523438, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "NewProbTempo[1]",
-							"parameter_mmax" : 12,
-							"parameter_initial" : [ 3.0 ],
 							"parameter_shortname" : "NewProbTempo",
 							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "NewProbTempo[1]",
+							"parameter_mmax" : 12,
+							"parameter_initial" : [ 3.0 ]
 						}
 
 					}
@@ -33010,12 +33620,12 @@
 					"presentation_rect" : [ 243.379501342773438, 4.965511798858643, 20.641647338867188, 134.50653076171875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "SubsetCtrl",
+							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
-							"parameter_shortname" : "SubsetCtrl",
-							"parameter_type" : 3
+							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
 						}
 
 					}
@@ -33596,16 +34206,16 @@
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -33615,14 +34225,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -34442,11 +35052,11 @@
 					"restore" : 					{
 						"Jam On/Off" : [ 0.0 ],
 						"Lock  Matrix" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
-						"MIDI Channel Jam Lock" : [ 0 ],
-						"MIDI Channel Jam On/Off" : [ 0.0 ],
+						"MIDI Channel Jam Lock" : [ 4 ],
+						"MIDI Channel Jam On/Off" : [ 1.0 ],
 						"MIDI Channel jam_every_n_bars" : [ 1.0 ],
 						"MIDI Channel jam_probabilities" : [ 0, 0 ],
-						"MIDI Channel markov_gen_density" : [ 9 ],
+						"MIDI Channel markov_gen_density" : [ 10 ],
 						"MIDI channel Lock  Matrix" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
 						"Mute Matrix" : [ 0, 0, 0 ],
 						"NewProbTempo" : [ 3.0 ],
@@ -34457,26 +35067,26 @@
 						"SubsetCtrl" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
 						"Tempo" : [ 9.0 ],
 						"cell_fill_likelihood" : [ 12.0 ],
-						"drummatrix_midi_notes" : [ 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ],
+						"drummatrix_midi_notes" : [ 85, 80, 75, 71, 65, 60, 60, 63, 68, 76, 83, 89, 81, 81, 89, 96 ],
 						"jam_every_n_bars" : [ 1.0 ],
-						"jam_probabilities" : [ 0, 0, 15, 0, 0 ],
+						"jam_probabilities" : [ 0, 0, 0, 0, 15 ],
 						"jam_walk_max" : [ 1.0 ],
 						"jam_walk_max_midi_chans" : [ 1.0 ],
 						"live.text" : [ 0.0 ],
 						"markov_gen_density" : [ 1 ],
-						"midi_ch1" : [ 2 ],
-						"midi_ch2" : [ 3 ],
-						"midi_ch3" : [ 9 ],
-						"midi_channel_cell_fill_likelihood" : [ 100.0 ],
+						"midi_ch1" : [ 4 ],
+						"midi_ch2" : [ 9 ],
+						"midi_ch3" : [ 0 ],
+						"midi_channel_cell_fill_likelihood" : [ 83.0 ],
 						"midi_delta_send" : [ 0.0 ],
-						"midi_note_lengths" : [ 9, 8, 8, 8, 9, 9, 10, 10, 10, 10, 10, 10, 10, 9, 9, 8 ],
-						"midi_out_toggle" : [ 0, 0, 1, 2, 0, 1 ],
+						"midi_note_lengths" : [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ],
+						"midi_out_toggle" : [ 2, 0, 1 ],
 						"note_jam_modulation_index" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"num_columns" : [ 32.0 ],
 						"preset_pattern_gen" : [ 1.0 ],
-						"preset_pattern_storage" : [ "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 0 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 0 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 1 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 1 17 8 0 18 8 0 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 1 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 0 25 9 0 26 9 0 27 9 0 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 1 23 11 0 24 11 0 25 11 0 26 11 0 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 1 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 1 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 1 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0", "\n", "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 1 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 1 3 2 0 4 2 1 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 1 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 0 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 1 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 1 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 1 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 1 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 1 3 7 0 4 7 1 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 1 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 1 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 1 20 9 0 21 9 0 22 9 0 23 9 0 24 9 1 25 9 0 26 9 1 27 9 1 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 1 21 10 0 22 10 0 23 10 1 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 1 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 1 30 11 0 31 11 0 0 12 0 1 12 1 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 1 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 1 21 13 0 22 13 1 23 13 0 24 13 1 25 13 0 26 13 0 27 13 0 28 13 1 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 1 5 15 0 6 15 0 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 1 31 15 0", "\n" ],
-						"preset_retrieve" : [ 2.0 ],
-						"preset_save_number" : [ 2.0 ],
+						"preset_pattern_storage" : [ "<empty>" ],
+						"preset_retrieve" : [ 1.0 ],
+						"preset_save_number" : [ 1.0 ],
 						"preset_toward" : [ 1.0 ],
 						"randomize_z_index" : [ 5.0 ],
 						"solo_matrix_backend" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -35265,13 +35875,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-239",
-													"linecount" : 5,
+													"linecount" : 41,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 475.0, 290.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 0 1 0 1 1 0 2 1 0 3 1 0 0 2 0 1 2 0 2 2 0 3 2 0 0 3 0 1 3 0 2 3 0 3 3 0 0 4 0 1 4 1 2 4 0 3 4 0 0 5 0 1 5 0 2 5 0 3 5 0 0 6 0 1 6 0 2 6 0 3 6 0 0 7 0 1 7 0 2 7 0 3 7 0 0 8 0 1 8 0 2 8 1 3 8 0 0 9 0 1 9 0 2 9 0 3 9 0 0 10 0 1 10 0 2 10 0 3 10 0 0 11 0 1 11 0 2 11 0 3 11 0 0 12 0 1 12 0 2 12 0 3 12 1 0 13 0 1 13 0 2 13 0 3 13 0 0 14 0 1 14 0 2 14 0 3 14 0 0 15 0 1 15 0 2 15 0 3 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 1 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 1 15 0 0 16 0 3 17 0 0 18 0 4 19 0 1 20 0 0 21 0 0 22 0 0 23 0 0 24 0 1 25 0 0 26 0 4 27 0 0 28 0 0 29 0 0 30 0 1 31 0 1 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 1 10 1 1 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 1 17 1 0 18 1 0 19 1 0 20 1 4 21 1 0 22 1 1 23 1 0 24 1 0 25 1 1 26 1 1 27 1 0 28 1 1 29 1 0 30 1 0 31 1 1 0 2 0 1 2 0 2 2 1 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 1 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 1 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 1 12 3 1 13 3 1 14 3 0 15 3 1 16 3 1 17 3 0 18 3 0 19 3 0 20 3 1 21 3 0 22 3 0 23 3 0 24 3 1 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 1 9 4 0 10 4 0 11 4 0 12 4 1 13 4 0 14 4 0 15 4 1 16 4 0 17 4 0 18 4 1 19 4 0 20 4 0 21 4 4 22 4 0 23 4 1 24 4 0 25 4 0 26 4 0 27 4 1 28 4 0 29 4 0 30 4 2 31 4 4 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 1 11 5 0 12 5 1 13 5 0 14 5 1 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 4 31 5 0 0 6 1 1 6 0 2 6 1 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 1 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 1 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 1 25 6 0 26 6 0 27 6 3 28 6 1 29 6 0 30 6 1 31 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 0 11 7 1 12 7 1 13 7 0 14 7 1 15 7 0 16 7 0 17 7 3 18 7 0 19 7 0 20 7 1 21 7 1 22 7 1 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 1 0 8 1 1 8 0 2 8 1 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 1 13 8 1 14 8 0 15 8 1 16 8 0 17 8 0 18 8 1 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 1 3 9 0 4 9 0 5 9 0 6 9 1 7 9 1 8 9 0 9 9 1 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 2 21 9 0 22 9 0 23 9 1 24 9 0 25 9 0 26 9 0 27 9 0 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 1 5 10 0 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 1 15 10 0 16 10 0 17 10 2 18 10 1 19 10 4 20 10 0 21 10 0 22 10 0 23 10 2 24 10 0 25 10 1 26 10 0 27 10 0 28 10 0 29 10 0 30 10 1 31 10 0 0 11 0 1 11 0 2 11 1 3 11 0 4 11 0 5 11 0 6 11 1 7 11 0 8 11 0 9 11 1 10 11 1 11 11 1 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 2 22 11 0 23 11 0 24 11 0 25 11 0 26 11 1 27 11 0 28 11 0 29 11 1 30 11 1 31 11 1 0 12 0 1 12 0 2 12 1 3 12 0 4 12 0 5 12 0 6 12 1 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 1 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 1 26 12 1 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 1 1 13 0 2 13 1 3 13 0 4 13 0 5 13 0 6 13 0 7 13 1 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 1 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 1 23 13 0 24 13 0 25 13 0 26 13 1 27 13 0 28 13 0 29 13 1 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 1 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 1 24 14 0 25 14 0 26 14 1 27 14 0 28 14 1 29 14 0 30 14 0 31 14 1 0 15 0 1 15 1 2 15 0 3 15 0 4 15 0 5 15 1 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 3 23 15 1 24 15 0 25 15 1 26 15 1 27 15 0 28 15 0 29 15 0 30 15 0 31 15 0"
 												}
 
 											}
@@ -35936,16 +36546,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -35955,14 +36565,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -36781,16 +37391,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -36800,14 +37410,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -37667,7 +38277,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 1212.0, 707.0 ],
+						"rect" : [ 68.0, 113.0, 1144.0, 615.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -43463,16 +44073,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -43482,14 +44092,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -44351,7 +44961,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ],
-																	"text" : " 5 0 1"
+																	"text" : " 31 0 1"
 																}
 
 															}
@@ -46083,16 +46693,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -46102,14 +46712,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -46293,12 +46903,12 @@
 					"presentation_rect" : [ 266.017913818359375, 5.133330821990967, 36.563064575195312, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "note volume",
+							"parameter_type" : 3,
 							"parameter_longname" : "note volume[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-							"parameter_shortname" : "note volume",
-							"parameter_type" : 3
+							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
 						}
 
 					}
@@ -47123,16 +47733,16 @@
 , 							{
 								"name" : "dUG Yello 01-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"default" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -47142,14 +47752,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+								"message" : 								{
 									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -47363,12 +47973,12 @@
 					"presentation_rect" : [ 1.185008525848389, 5.133330821990967, 20.352941513061523, 134.416702270507812 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Lock  Matrix",
+							"parameter_type" : 3,
 							"parameter_longname" : "Lock  Matrix[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
-							"parameter_shortname" : "Lock  Matrix",
-							"parameter_type" : 3
+							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
 						}
 
 					}
@@ -48338,6 +48948,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-228", 0 ],
+					"order" : 1,
+					"source" : [ "obj-225", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-284", 0 ],
+					"midpoints" : [ 1936.11767578125, 1174.814776301383972, 2027.100208401679993, 1174.814776301383972 ],
+					"order" : 0,
 					"source" : [ "obj-225", 0 ]
 				}
 
@@ -48950,6 +49570,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-310", 0 ],
+					"source" : [ "obj-309", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -48957,8 +49584,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-312", 0 ],
+					"source" : [ "obj-310", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-322", 0 ],
+					"source" : [ "obj-310", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-89", 1 ],
 					"source" : [ "obj-311", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-350", 0 ],
+					"source" : [ "obj-312", 0 ]
 				}
 
 			}
@@ -48986,7 +49634,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-350", 2 ],
 					"source" : [ "obj-316", 1 ]
 				}
 
@@ -49016,6 +49664,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-315", 4 ],
 					"source" : [ "obj-320", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-353", 0 ],
+					"source" : [ "obj-322", 0 ]
 				}
 
 			}
@@ -49114,15 +49769,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-196", 0 ],
-					"source" : [ "obj-332", 1 ]
+					"destination" : [ "obj-334", 0 ],
+					"source" : [ "obj-332", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-334", 0 ],
-					"source" : [ "obj-332", 0 ]
+					"destination" : [ "obj-353", 2 ],
+					"source" : [ "obj-332", 1 ]
 				}
 
 			}
@@ -49138,6 +49793,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-325", 0 ],
 					"source" : [ "obj-334", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-350", 1 ],
+					"order" : 1,
+					"source" : [ "obj-338", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-353", 1 ],
+					"order" : 0,
+					"source" : [ "obj-338", 0 ]
 				}
 
 			}
@@ -49187,6 +49858,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-350", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 1 ],
+					"source" : [ "obj-350", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"midpoints" : [ -914.6009521484375, 497.382214665412903, -892.051025390625, 497.382214665412903 ],
 					"source" : [ "obj-352", 1 ]
@@ -49197,6 +49882,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-352", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-176", 1 ],
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-196", 0 ],
+					"source" : [ "obj-353", 1 ]
 				}
 
 			}
@@ -49417,13 +50116,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-524", 0 ]
 				}
@@ -49547,13 +50239,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-63", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 1 ],
-					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -49689,13 +50374,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-176", 1 ],
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 1852.5, 1039.0, 1742.539306640625, 1039.0 ],
 					"source" : [ "obj-78", 0 ]
@@ -49794,13 +50472,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-84", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-85", 0 ]
 				}
 
 			}
@@ -49916,16 +50587,16 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"default" : 				{
 					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -49935,14 +50606,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"message" : 				{
 					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
