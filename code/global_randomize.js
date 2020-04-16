@@ -1,4 +1,4 @@
-inlets = 5;
+inlets = 7;
 outlets = 1;
 
 var data_type;
@@ -7,6 +7,8 @@ var lower_limit;
 var num_values;
 // default to 10% change percentage
 var change_percentage = 0.1;
+var previous_values;
+var change_amount = 0.1;
 
 function anything() {
 	// sets global data
@@ -25,43 +27,51 @@ function anything() {
 	if (inlet === 4 ) {
 		change_percentage = parseFloat(arrayfromargs(arguments));
 	}
-
+	if (inlet === 5 ) {
+		previous_values = arrayfromargs(arguments);
+	}
+	if (inlet === 6 ) {
+		change_amount = parseFloat(arrayfromargs(arguments));
+	}
 }
 
 function bang() {
 	// actually run process
 	if ( Math.random() < change_percentage ) {
-		var new_data = run(data_type, lower_limit, upper_limit, num_values);
+		var new_data = run(data_type, lower_limit, upper_limit, previous_values);
 		outlet(0, new_data);
 	}
 }
 
-function run(data_type, lower_limit, upper_limit, num_values) {
+function run(data_type, lower_limit, upper_limit, previous_values) {
 	var out = '';
+	var amount_to_be_added = (upper_limit - lower_limit) * change_amount;
 	for ( var i = 0; i < num_values; i++ ) {
+		var scaled_value;
+		var calculated_change_upper = previous_values[i] + amount_to_be_added;
+		var calculated_change_lower = previous_values[i] - amount_to_be_added;
 		if ( data_type == 0 ) {
-			var scaled_value = scaleInt(Math.random(), [0, 1], [lower_limit, upper_limit + 1]);
+			calculated_change_lower = Math.round(calculated_change_lower);
+			calculated_change_upper = Math.round(calculated_change_upper);
 		}
-		else if ( data_type == 1) {
-			var scaled_value = parseFloat(convertRange(Math.random(), [0, 1], [lower_limit, upper_limit]));
+		if ( calculated_change_upper > upper_limit ) {
+			calculated_change_upper = upper_limit;
+		}
+		if ( calculated_change_lower < lower_limit ) {
+			calculated_change_lower = lower_limit;
+		}
+		
+		if ( data_type == 0 ) {
+			scaled_value = Math.round(genRand(calculated_change_lower, calculated_change_upper));
+		}
+		else {
+			scaled_value = genRand(calculated_change_lower, calculated_change_upper);
 		}
 		out+= ' ' + (scaled_value);
 	}
 	return out;
 }
 
-function scaleInt(value, from, to) {
-	var scale = (to[1] - to[0]) / (from[1] - from[0]);
-	var capped = Math.min(from[1], Math.max(from[0], value)) - from[0];
-	return ~~(capped * scale + to[0]);
-}
-
-function convertRange( value, r1, r2 ) { 
-    return ( value - r1[ 0 ] ) * ( r2[ 1 ] - r2[ 0 ] ) / ( r1[ 1 ] - r1[ 0 ] ) + r2[ 0 ];
-}
-
-function scaleFloat(value, from, to) {
-	var scale = (to[1] - to[0]) / (from[1] - from[0]);
-	var capped = Math.min(from[1], Math.max(from[0], value)) - from[0];
-	return capped * scale + to[0];
+function genRand(min, max) {
+  return Math.random() * (max - min) + min;
 }

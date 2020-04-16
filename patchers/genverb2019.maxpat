@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1124.0, 1077.0, 122.0, 122.0 ],
+		"rect" : [ 34.0, 79.0, 1360.0, 1007.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,12 +51,12 @@
 					"presentation_rect" : [ 101.970588684082031, 88.551483154296875, 29.43701171875, 21.528226852416992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "lock_ui",
-							"parameter_type" : 3,
 							"parameter_longname" : "lock_ui[12]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0 ],
+							"parameter_shortname" : "lock_ui",
+							"parameter_type" : 3
 						}
 
 					}
@@ -108,12 +108,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 662.0, 57.0, 173.0, 22.0 ],
-					"text" : "loadmess 0.618 1.618 2.4 0.27"
+					"patching_rect" : [ 662.0, 57.0, 217.0, 35.0 ],
+					"text" : "loadmess 0.22159 0.780129 1.467562 2.455747"
 				}
 
 			}
@@ -141,7 +142,7 @@
 					"patching_rect" : [ 658.0, 102.0, 113.0, 76.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.970588684082031, -0.906173706054688, 29.437015533447266, 88.707656860351562 ],
-					"setminmax" : [ 0.25, 2.5 ],
+					"setminmax" : [ 0.100000001490116, 2.5 ],
 					"size" : 4,
 					"varname" : "verb_diffuse"
 				}
@@ -181,11 +182,11 @@
 					"patching_rect" : [ 180.0, 200.666671752929688, 56.0, 22.0 ],
 					"restore" : 					{
 						"lock_ui" : [ 0.0, 0.0, 0.0, 0.0 ],
-						"verb_diffuse" : [ 0.617999970912933, 1.618000030517578, 2.400000095367432, 0.270000010728836 ]
+						"verb_diffuse" : [ 0.100000001490116, 0.780128955841064, 1.682384610176086, 2.369817495346069 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u879018408"
+					"varname" : "u780003214"
 				}
 
 			}
@@ -193,11 +194,11 @@
 				"box" : 				{
 					"comment" : "(signal) audio in",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 313.0, 155.54840087890625, 30.0, 30.0 ]
 				}
 
@@ -206,7 +207,7 @@
 				"box" : 				{
 					"comment" : "(signal) audio out",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -216,7 +217,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1000.0, 8000.0, "@default", 8000 ],
+					"args" : [ 1500.0, 15000.0, "@default", 8000 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -240,7 +241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 15.0, "@default", 3.5 ],
+					"args" : [ 0.1, 15.0, "@default", 3.5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -288,7 +289,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 1000, "@default", 317 ],
+					"args" : [ 10, 10000, "@default", 317 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -321,14 +322,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 34.0, 79.0, 533.0, 687.0 ],
+						"rect" : [ 34.0, 79.0, 1724.0, 1007.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -912,7 +913,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 313.0, 238.0, 184.0, 22.0 ],
+					"patching_rect" : [ 313.0, 240.339181184768677, 184.0, 22.0 ],
 					"text" : "gen~"
 				}
 
@@ -1065,6 +1066,141 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-19::obj-9" : [ "live.text[3]", "live.text", 0 ],
+			"obj-19::obj-142" : [ "Channel[3]", "Channel", 0 ],
+			"obj-18::obj-142" : [ "Channel[2]", "Channel", 0 ],
+			"obj-17::obj-72" : [ "Jam Mode[1]", "Jam Mode", 0 ],
+			"obj-97" : [ "lock_ui[12]", "lock_ui", 0 ],
+			"obj-3::obj-142" : [ "Channel[139]", "Channel", 0 ],
+			"obj-10::obj-68" : [ "live.numbox[166]", "live.numbox", 0 ],
+			"obj-19::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
+			"obj-18::obj-74" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-10::obj-112::obj-108" : [ "Hard Sync Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-10::obj-112::obj-107" : [ "Delta Channel #[2]", "Delta Channel #", 0 ],
+			"obj-10::obj-29::obj-97" : [ "Quantized Rate[5]", "Quantized Rate", 0 ],
+			"obj-10::obj-112::obj-9" : [ "Hard Sync Toggle", "Hard Sync Toggle", 0 ],
+			"obj-10::obj-32" : [ "off", "off", 0 ],
+			"obj-10::obj-55" : [ "live.text[110]", "live.text[1]", 0 ],
+			"obj-17::obj-142" : [ "Channel[1]", "Channel", 0 ],
+			"obj-10::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-3::obj-74" : [ "live.numbox[112]", "live.numbox", 0 ],
+			"obj-18::obj-9" : [ "live.text[2]", "live.text", 0 ],
+			"obj-18::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
+			"obj-3::obj-72" : [ "Jam Mode[59]", "Jam Mode", 0 ],
+			"obj-17::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-19::obj-72" : [ "Jam Mode[3]", "Jam Mode", 0 ],
+			"obj-10::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-17::obj-74" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-10::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
+			"obj-17::obj-9" : [ "live.text[1]", "live.text", 0 ],
+			"obj-19::obj-74" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-18::obj-72" : [ "Jam Mode[2]", "Jam Mode", 0 ],
+			"obj-3::obj-12" : [ "ratecontrol[125]", "ratecontrol", 0 ],
+			"obj-3::obj-9" : [ "live.text[254]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-19::obj-9" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-17::obj-72" : 				{
+					"parameter_longname" : "Jam Mode[1]"
+				}
+,
+				"obj-18::obj-74" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-19::obj-72" : 				{
+					"parameter_longname" : "Jam Mode[3]"
+				}
+,
+				"obj-17::obj-74" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-17::obj-9" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-19::obj-74" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-18::obj-72" : 				{
+					"parameter_longname" : "Jam Mode[2]"
+				}
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "gen_allpass.gendsp",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_select_ui.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpatcher_name.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_receive_mains_out.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_multislider_markov_ui_2019.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multislider_jam.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "metro_time_select.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hard_sync_via_delta.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -1094,16 +1230,10 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1117,9 +1247,16 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1130,8 +1267,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"button" : 				{

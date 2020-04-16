@@ -1,5 +1,5 @@
 inlets = 2;
-outlets = 2;
+outlets = 1;
 
 // list of stuff that should just never be randomized or the patch might be silent, you'd have to click through a file dialog, etc.
 var blocked_list = [
@@ -16,7 +16,6 @@ var blocked_list = [
 			'_drummatrix_midi2::Solo Matrix',
 			'_drummatrix2::solo_multislider_markov_ui_2019',
 			'_drummatrix2::Mixer',
-			'randomization_percentage',
 			'_drummatrix2::∆seq1',
 			'_mixer::spectcomptest::lock',
 			'_mixer::spectcomptest::ratio',
@@ -24,7 +23,8 @@ var blocked_list = [
 			'_mixer::_mutesolo::_multislider_markov_ui_2019',
 			'_drummatrix2::dm_realtime::realtime_audio_gates',
 			'_drummatrix2::dm_realtime::prob_multislider_markov_ui_2019',
-			'_mixer::spectcomptest::vals_markov_ui'
+			'_mixer::spectcomptest::vals_markov_ui',
+			'_drummatrix2::sample_selector_wrapper'
 ];
 
 var additional_blocks = [];
@@ -36,7 +36,6 @@ function anything() {
 		var skip_this_one = false;
 		var all_blocked = blocked_list.concat(additional_blocks);
 		for (var i = 0; i < all_blocked.length; i++) {
-			outlet(1, all_blocked[i]);
 			if ( current_scripting_name.indexOf(all_blocked[i].toString()) !== -1 ) {
 				skip_this_one = true;
 				break;
