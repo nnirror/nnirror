@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 148.0, 309.606999725103378, 54.0, 22.0 ],
+					"text" : "qlim 250"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -46,12 +58,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 41.999996185302734, 5.800003051757812, 56.0, 22.0 ],
 					"restore" : 					{
-						"Hard Sync Threshold" : [ 0.0 ],
-						"Hard Sync Toggle" : [ 0.0 ]
+						"Hard_Sync_Threshold" : [ 0.0 ],
+						"Hard_Sync_Toggle" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u687017998"
+					"varname" : "u389018758"
 				}
 
 			}
@@ -122,7 +134,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -365,7 +377,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 305.5, 30.0, 30.0 ]
+					"patching_rect" : [ 187.0, 350.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -409,21 +421,21 @@
 					"presentation_rect" : [ 0.163405999541283, 0.0, 12.753257751464844, 15.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Hard Sync Toggle",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Hard Sync Toggle[1]",
+							"parameter_longname" : "Hard Sync Toggle[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Hard Sync Toggle"
 						}
 
 					}
 ,
 					"text" : "∆",
 					"texton" : "∆",
-					"varname" : "Hard Sync Toggle"
+					"varname" : "Hard_Sync_Toggle"
 				}
 
 			}
@@ -477,7 +489,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 305.5, 30.0, 30.0 ]
+					"patching_rect" : [ 148.0, 350.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -494,19 +506,19 @@
 					"presentation_rect" : [ 24.163406372070312, 0.0, 25.133588790893555, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Hard Sync Threshold",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : -1.0,
-							"parameter_longname" : "Hard Sync Threshold[2]",
+							"parameter_longname" : "Hard Sync Threshold[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0 ]
+							"parameter_initial" : [ 0 ],
+							"parameter_shortname" : "Hard Sync Threshold"
 						}
 
 					}
 ,
-					"varname" : "Hard Sync Threshold"
+					"varname" : "Hard_Sync_Threshold"
 				}
 
 			}
@@ -523,19 +535,19 @@
 					"presentation_rect" : [ 9.833328247070312, 0.0, 17.330078125, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Delta Channel #",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "Delta Channel #[2]",
+							"parameter_longname" : "Delta Channel #[4]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 17.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Delta Channel #"
 						}
 
 					}
 ,
-					"varname" : "Delta Channel #"
+					"varname" : "Delta_Channel_#"
 				}
 
 			}
@@ -553,6 +565,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-107", 0 ]
@@ -621,7 +640,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

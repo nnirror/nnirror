@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -58,7 +58,7 @@
 							"parameter_type" : 2,
 							"parameter_longname" : "quantize_mode",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ]
 						}
 
@@ -245,7 +245,7 @@
 							"parameter_type" : 2,
 							"parameter_longname" : "trig_mode",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ]
 						}
 
@@ -346,7 +346,8 @@
 							"parameter_shortname" : "grain_buffer_length",
 							"parameter_enum" : [ "1n", "1nt", "2n", "2nt", "4n", "4nt", "8n" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "grain_buffer_length"
+							"parameter_longname" : "grain_buffer_length",
+							"parameter_mmax" : 6
 						}
 
 					}
@@ -422,7 +423,7 @@
 					"patching_rect" : [ 478.30157470703125, 381.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 64.473686218261719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Grain Pos",
+					"varname" : "Grain_Pos",
 					"viewvisibility" : 1
 				}
 
@@ -542,7 +543,7 @@
 					"patching_rect" : [ 920.55450439453125, 425.49267578125, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 42.892181396484375, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Grain Length",
+					"varname" : "Grain_Length",
 					"viewvisibility" : 1
 				}
 
@@ -611,7 +612,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u995018392"
+					"varname" : "u076019051"
 				}
 
 			}
@@ -803,7 +804,7 @@
 							"parameter_type" : 2,
 							"parameter_longname" : "freeze_toggle",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ]
 						}
 
@@ -858,7 +859,7 @@
 					"patching_rect" : [ 338.65899658203125, 7.166656494140625, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 87.068435668945312, 101.937904357910156, 24.589143753051758 ],
-					"varname" : "Grain Freeze",
+					"varname" : "Grain_Freeze",
 					"viewvisibility" : 1
 				}
 
@@ -907,7 +908,7 @@
 					"patching_rect" : [ 721.20159912109375, 159.93939208984375, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, -0.718505859375, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Grain Dens",
+					"varname" : "Grain_Dens",
 					"viewvisibility" : 1
 				}
 
@@ -931,7 +932,7 @@
 					"patching_rect" : [ 780.95135498046875, 360.2174072265625, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 21.292442321777344, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Grain Pitch",
+					"varname" : "Grain_Pitch",
 					"viewvisibility" : 1
 				}
 
@@ -1549,52 +1550,52 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
-				}
-,
-				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
+				"default" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
+				}
+,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1667,8 +1668,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

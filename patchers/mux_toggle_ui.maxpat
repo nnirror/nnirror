@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 784.2974853515625, 143.119254112243652, 80.0, 22.0 ],
+					"text" : "speedlim 500"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
@@ -130,13 +142,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 19.5, 30.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"MatrixCtrl" : [ 0, 0, 0 ],
+						"MatrixCtrl" : [ 0, 0, 1, 1, 0, 1, 2, 0, 1, 3, 0, 1, 4, 0, 1, 14, 0, 1, 16, 0, 1 ],
 						"Random Mux" : [ 0.0 ],
 						"Shuffle Mux" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u016018072"
+					"varname" : "u921018760"
 				}
 
 			}
@@ -168,7 +180,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 784.2974853515625, 144.078521728515625, 50.446292877197266, 18.15289306640625 ],
+					"patching_rect" : [ 784.2974853515625, 116.096872687339783, 50.446292877197266, 18.15289306640625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.583717346191406, 4.429950714111328, 50.420795440673828, 15.666671752929688 ],
 					"varname" : "retrigger_randomize",
@@ -383,12 +395,12 @@
 					"presentation_rect" : [ -1.205886840820312, 1.0, 34.0, 12.096622467041016 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Random Mux",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Random Mux",
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Random Mux"
 						}
 
 					}
@@ -413,12 +425,12 @@
 					"presentation_rect" : [ -1.205886840820312, 11.762711524963379, 34.0, 11.237288475036621 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Shuffle Mux",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Shuffle Mux",
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Shuffle Mux"
 						}
 
 					}
@@ -439,7 +451,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1064,10 +1076,10 @@
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "MatrixCtrl",
 							"parameter_type" : 3,
 							"parameter_longname" : "MatrixCtrl",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "MatrixCtrl"
 						}
 
 					}
@@ -1100,7 +1112,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-110", 0 ]
 				}
 
@@ -1131,6 +1143,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

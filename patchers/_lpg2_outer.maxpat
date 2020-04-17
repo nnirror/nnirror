@@ -58,11 +58,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 116.770179748535156, 47.826084136962891, 56.0, 22.0 ],
 					"restore" : 					{
-						"LPG shape" : [ -0.74041873216629 ]
+						"LPG_shape" : [ -0.660000026226044 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u131019160"
+					"varname" : "u602019095"
 				}
 
 			}
@@ -97,19 +97,19 @@
 					"presentation_rect" : [ 0.799842834472656, 0.550457000732422, 54.751625061035156, 12.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "LPG shape",
 							"parameter_type" : 0,
 							"parameter_mmin" : -0.990000009536743,
-							"parameter_longname" : "LPG shape[2]",
+							"parameter_longname" : "LPG shape[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ -0.66 ],
-							"parameter_shortname" : "LPG shape"
+							"parameter_initial" : [ -0.66 ]
 						}
 
 					}
 ,
 					"setminmax" : [ -0.990000009536743, 1.0 ],
-					"varname" : "LPG shape"
+					"varname" : "LPG_shape"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"patching_rect" : [ 405.0, 81.490142822265625, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.799842834472656, 34.536342620849609, 104.250045776367188, 24.735885620117188 ],
-					"varname" : "LPG damp",
+					"varname" : "LPG_damp",
 					"viewvisibility" : 1
 				}
 
@@ -192,7 +192,7 @@
 					"patching_rect" : [ 253.125, 163.440048217773438, 51.128704071044922, 17.421283721923828 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 54.301467895507812, -0.699542999267578, 48.748420715332031, 13.75 ],
-					"varname" : "LPG Strike",
+					"varname" : "LPG_Strike",
 					"viewvisibility" : 1
 				}
 
@@ -241,7 +241,7 @@
 					"patching_rect" : [ 258.101481628417957, 81.490142822265625, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.799842834472656, 11.800457000732422, 104.250045776367188, 24.735885620117188 ],
-					"varname" : "LPG ctrl",
+					"varname" : "LPG_ctrl",
 					"viewvisibility" : 1
 				}
 
@@ -349,52 +349,52 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-
-				}
-,
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-
-				}
-,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
+				"default" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
+				}
+,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -448,8 +448,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -467,8 +467,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

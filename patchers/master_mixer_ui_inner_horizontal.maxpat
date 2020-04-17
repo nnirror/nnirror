@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -513,9 +513,9 @@
 					"presentation_rect" : [ 2.75, 1.0, 222.300003051757812, 51.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Mixer / Send UI",
+							"parameter_shortname" : "Mixer_Send_UI",
 							"parameter_type" : 3,
-							"parameter_longname" : "Mixer / Send UI[1]",
+							"parameter_longname" : "Mixer_Send_UI",
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0 ]
 						}
@@ -526,7 +526,7 @@
 					"setstyle" : 1,
 					"size" : 19,
 					"slidercolor" : [ 0.952941, 0.564706, 0.098039, 0.37 ],
-					"varname" : "Mixer / Send UI"
+					"varname" : "Mixer_Send_UI"
 				}
 
 			}
@@ -767,11 +767,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 69.0, 13.533337, 58.0, 22.0 ],
 					"restore" : 					{
-						"Mixer / Send UI" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+						"Mixer_Send_UI" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u808018174"
+					"varname" : "u110009960"
 				}
 
 			}
