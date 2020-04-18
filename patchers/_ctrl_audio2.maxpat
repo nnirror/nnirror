@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ -146.0, 39.0, 56.0, 22.0 ],
+					"text" : "autopattr",
+					"varname" : "u211030223"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -132,7 +145,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -568,13 +581,13 @@
 					"presentation_rect" : [ 9.0, 306.333343505859375, 53.839553833007812, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "bipolar_toggle",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "bipolar_toggle",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "bipolar_toggle"
 						}
 
 					}
@@ -630,11 +643,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 544.9000244140625, 270.0, 58.0, 22.0 ],
 					"restore" : 					{
-						"bipolar_toggle" : [ 1.0 ]
+						"bipolar_toggle" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u261018172"
+					"varname" : "u042029203"
 				}
 
 			}
@@ -669,7 +682,7 @@
 					"patching_rect" : [ 128.0, 30.013580322265625, 116.5, 306.466644287109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 4.433349609375, 53.875, 300.23333740234375 ],
-					"varname" : "CC Audio Mixer",
+					"varname" : "CC_Audio_Mixer",
 					"viewvisibility" : 1
 				}
 
@@ -1139,8 +1152,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
