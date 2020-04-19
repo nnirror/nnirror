@@ -38,12 +38,12 @@ function anything() {
 function bang() {
 	// actually run process
 	if ( Math.random() < change_percentage ) {
-		var new_data = run(data_type, lower_limit, upper_limit, previous_values);
+		var new_data = run(data_type, lower_limit, upper_limit, previous_values, change_percentage);
 		outlet(0, new_data);
 	}
 }
 
-function run(data_type, lower_limit, upper_limit, previous_values) {
+function run(data_type, lower_limit, upper_limit, previous_values, change_percentage) {
 	var out = '';
 	var amount_to_be_added = (upper_limit - lower_limit) * change_amount;
 	for ( var i = 0; i < num_values; i++ ) {
@@ -66,6 +66,12 @@ function run(data_type, lower_limit, upper_limit, previous_values) {
 		}
 		else {
 			scaled_value = genRand(calculated_change_lower, calculated_change_upper);
+		}
+		if ( previous_values.length > 1 ) {
+			// keep some multislider values the same, according to the change percentage - the entire multislider doesn't change unless 100% intensity
+			if ( Math.random() > change_percentage ) {
+				scaled_value = previous_values[i];
+			}
 		}
 		out+= ' ' + (scaled_value);
 	}

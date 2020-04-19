@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 938.0, 687.0 ],
+		"rect" : [ 133.0, 110.0, 938.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,10 +59,22 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 695.5999755859375, 153.0, 156.0, 35.0 ],
-					"restore" : [ 500.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 500 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "manual_rate_wrapper",
+							"parameter_mmax" : 8000.0,
+							"parameter_mmin" : 1.0,
+							"parameter_shortname" : "manual_rate_wrapper",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
+						"initial" : [ 500 ],
+						"parameter_enable" : 1
 					}
 ,
 					"text" : "pattr manual_rate_wrapper @default_interp thresh 0.5",
@@ -79,10 +91,21 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 132.3826904296875, 153.0, 195.0, 35.0 ],
-					"restore" : [ 4.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 3 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "quantize_rate_wrapper",
+							"parameter_mmax" : 15.0,
+							"parameter_shortname" : "quantize_rate_wrapper",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
+						"initial" : [ 3 ],
+						"parameter_enable" : 1
 					}
 ,
 					"text" : "pattr quantize_rate_wrapper @default_interp thresh 0.5",
@@ -101,7 +124,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -743,7 +766,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 45.0, 38.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u014017997"
+					"varname" : "u140018054"
 				}
 
 			}
@@ -966,7 +989,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"activebgcolor" : [ 0.92, 0.9, 0.039, 1.0 ],
 					"fontsize" : 8.0,
 					"id" : "obj-9",
 					"maxclass" : "live.numbox",
@@ -979,25 +1002,25 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.75, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Manual Rate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "Manual Rate[28]",
+							"parameter_longname" : "Manual Rate[30]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 600000.0,
-							"parameter_initial" : [ 500 ]
+							"parameter_mmax" : 8000.0,
+							"parameter_initial" : [ 500 ],
+							"parameter_shortname" : "Manual Rate"
 						}
 
 					}
 ,
-					"varname" : "Manual Rate"
+					"varname" : "Manual_Rate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.92, 0.9, 0.039, 1.0 ],
+					"activebgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"fontsize" : 6.0,
 					"id" : "obj-97",
 					"maxclass" : "live.menu",
@@ -1010,16 +1033,18 @@
 					"presentation_rect" : [ 30.0, -1.0, 35.633335113525391, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Quantized Rate",
-							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "Quantized Rate[5]",
-							"parameter_initial" : [ 3.0 ]
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Quantized_Rate",
+							"parameter_mmax" : 15,
+							"parameter_initial" : [ 3.0 ],
+							"parameter_shortname" : "Quantized_Rate",
+							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
 						}
 
 					}
 ,
-					"varname" : "Quantized Rate"
+					"varname" : "Quantized_Rate"
 				}
 
 			}

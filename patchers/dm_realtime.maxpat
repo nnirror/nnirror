@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
+		"rect" : [ 34.0, 131.0, 1685.0, 955.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -187,12 +187,12 @@
 					"presentation_rect" : [ 96.714286804199219, -0.714285612106323, 9.878938674926758, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "ProbLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[4]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "ProbLock"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -222,7 +222,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 503.911651611328125, 96.587844848632812, 107.744186401367188, 25.837209701538086 ],
+					"patching_rect" : [ 503.911651611328125, 111.587844848632812, 107.744186401367188, 25.837209701538086 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 160.448989868164062, 106.53936767578125, 24.632390975952148 ],
 					"varname" : "prob_multislider_markov_ui_2019",
@@ -251,13 +251,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -133.0, -69.964248657226562, 56.0, 22.0 ],
 					"restore" : 					{
-						"RealTimeLock" : [ 0.050272468477488, 0.076500698924065, 0.132025465369225, 0.202224597334862, 0.19692188501358, 0.293604910373688, 0.227079927921295, 0.054486889392138, 0.626857757568359, 0.367997705936432, 0.526703298091888, 0.764717936515808, 0.903661668300629, 0.128583937883377, 0.848099291324615, 0.411677330732346 ],
-						"realtime_adsr" : [ 0.306153833866119, 0.29290696978569, 0.086628757417202, 0.234277561306953 ],
+						"RealTimeLock" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+						"realtime_adsr" : [ 0.0, 0.0, 0.800000011920929, 0.449999988079071 ],
 						"realtime_audio_gates" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u338028128"
+					"varname" : "u337014142"
 				}
 
 			}
@@ -271,17 +271,17 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 440.73333740234375, 88.0, 39.266670227050781, 115.0 ],
+					"patching_rect" : [ 440.73333740234375, 103.0, 39.266670227050781, 115.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.342559814453125, -0.731834411621094, 8.5, 133.538467407226562 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "realtime_audio_gates",
 							"parameter_type" : 3,
 							"parameter_longname" : "realtime_audio_gates[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "realtime_audio_gates"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -337,7 +337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-325", 0 ],
-					"midpoints" : [ 450.23333740234375, 216.0, 490.0, 216.0, 490.0, 83.0, 513.411651611328125, 83.0 ],
+					"midpoints" : [ 450.23333740234375, 231.0, 490.0, 231.0, 490.0, 98.0, 513.411651611328125, 98.0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -375,7 +375,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 513.411651611328125, 132.0, 495.0, 132.0, 495.0, 72.0, 450.23333740234375, 72.0 ],
+					"midpoints" : [ 513.411651611328125, 147.0, 495.0, 147.0, 495.0, 87.0, 450.23333740234375, 87.0 ],
 					"source" : [ "obj-325", 0 ]
 				}
 
@@ -383,7 +383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-220", 0 ],
-					"midpoints" : [ 557.783744812011719, 133.333337306976318, 670.666686654090881, 133.333337306976318, 670.666686654090881, -32.000000953674316, 494.513671875, -32.000000953674316 ],
+					"midpoints" : [ 557.783744812011719, 144.328102052211761, 670.666686654090881, 144.328102052211761, 670.666686654090881, -32.000000953674316, 494.513671875, -32.000000953674316 ],
 					"source" : [ "obj-325", 1 ]
 				}
 
@@ -413,6 +413,69 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-325::obj-68" : [ "live.numbox[281]", "live.numbox", 0 ],
+			"obj-325::obj-112::obj-108" : [ "Hard Sync Threshold[3]", "Hard Sync Threshold", 0 ],
+			"obj-220" : [ "ProbLock[4]", "ProbLock", 0 ],
+			"obj-12" : [ "realtime_audio_gates[1]", "realtime_audio_gates", 0 ],
+			"obj-325::obj-55" : [ "live.text[12]", "live.text[1]", 0 ],
+			"obj-325::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-325::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
+			"obj-325::obj-32" : [ "off", "off", 0 ],
+			"obj-325::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-325::obj-112::obj-107" : [ "Delta Channel #[4]", "Delta Channel #", 0 ],
+			"obj-325::obj-67" : [ "min_max_offset_ui[45]", "min_max_offset_ui", 0 ],
+			"obj-325::obj-29::obj-97" : [ "Quantized Rate[5]", "Quantized Rate", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "es6_submix.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_multislider_markov_ui_2019.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multislider_jam.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "metro_time_select.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hard_sync_via_delta.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_receive_mains_out.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -442,52 +505,52 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-
-				}
-,
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-
 				}
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -38,6 +38,53 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1435.333251999999902, 141.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 1448.333251999999902, 101.0, 61.0, 22.0 ],
+					"text" : "change 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1448.333251999999902, 65.0, 74.0, 22.0 ],
+					"text" : "snapshot~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1435.333251999999902, 173.0, 90.0, 22.0 ],
+					"text" : "s global_tempo"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "(int 0-6) signal gate",
 					"id" : "obj-37",
@@ -80,7 +127,7 @@
 					"patching_rect" : [ 1827.9161376953125, 23.877616882324219, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.051544189453125, 38.310356140136719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Folow rampDn",
+					"varname" : "Folow_rampDn",
 					"viewvisibility" : 1
 				}
 
@@ -152,7 +199,7 @@
 					"patching_rect" : [ 1705.2825927734375, 23.877616882324219, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 306.551544189453125, 38.310356140136719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Slidr rampDn",
+					"varname" : "Slidr_rampDn",
 					"viewvisibility" : 1
 				}
 
@@ -176,7 +223,7 @@
 					"patching_rect" : [ 1574.244873046875, 23.877616882324219, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.618072509765625, 38.310356140136719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Slidr rampUp",
+					"varname" : "Slidr_rampUp",
 					"viewvisibility" : 1
 				}
 
@@ -200,7 +247,7 @@
 					"patching_rect" : [ 1314.333251953125, 25.33331298828125, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 102.551544189453125, 38.310356140136719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Subdv rampDn",
+					"varname" : "Subdv_rampDn",
 					"viewvisibility" : 1
 				}
 
@@ -224,7 +271,7 @@
 					"patching_rect" : [ 926.33343505859375, 25.33331298828125, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.131929337978363, 38.310356140136719, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Subdv rampUp",
+					"varname" : "Subdv_rampUp",
 					"viewvisibility" : 1
 				}
 
@@ -237,7 +284,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1526.133301000000074, 77.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1526.133301000000074, 227.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -249,13 +296,13 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1448.333251999999902, 77.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1448.333251999999902, 227.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ -1.0, 1.0 ],
+					"args" : [ 1, 150 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -272,7 +319,7 @@
 					"patching_rect" : [ 1448.333251999999902, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.0516357421875, 19.266876220703125, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Flip Gain",
+					"varname" : "Global_Tempo",
 					"viewvisibility" : 1
 				}
 
@@ -452,7 +499,7 @@
 					"patching_rect" : [ 1181.833008000000063, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 306.5516357421875, 19.266876220703125, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Slidr pos/trg",
+					"varname" : "Slidr_pos/trg",
 					"viewvisibility" : 1
 				}
 
@@ -488,7 +535,7 @@
 					"patching_rect" : [ 1052.666625999999951, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.0, 0.266876220703125, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "Subdiv pos",
+					"varname" : "Subdiv_pos",
 					"viewvisibility" : 1
 				}
 
@@ -608,7 +655,7 @@
 					"patching_rect" : [ 801.666747999999984, 25.333313, 106.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.55157470703125, 19.266876220703125, 104.000045776367188, 26.666662216186523 ],
-					"varname" : "Slider Rate",
+					"varname" : "Slider_Rate",
 					"viewvisibility" : 1
 				}
 
@@ -632,7 +679,7 @@
 					"patching_rect" : [ 677.00006099999996, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 306.5516357421875, 0.266877174377441, 104.250045776367188, 26.333330154418945 ],
-					"varname" : "ADSR Rate",
+					"varname" : "ADSR_Rate",
 					"viewvisibility" : 1
 				}
 
@@ -656,7 +703,7 @@
 					"patching_rect" : [ 547.819213999999988, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.55157470703125, 0.266876220703125, 104.000045776367188, 27.666662216186523 ],
-					"varname" : "ADSR Pos",
+					"varname" : "ADSR_Pos",
 					"viewvisibility" : 1
 				}
 
@@ -680,7 +727,7 @@
 					"patching_rect" : [ 422.000153000000012, 25.333313, 107.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 102.551544189453125, 19.266876220703125, 104.000045776367188, 26.666662216186523 ],
-					"varname" : "LFO2 +/-",
+					"varname" : "LFO2_+/-",
 					"viewvisibility" : 1
 				}
 
@@ -704,7 +751,7 @@
 					"patching_rect" : [ 296.97152699999998, 25.333313, 108.800049000000001, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 102.551544189453125, 0.266876220703125, 104.000045776367188, 24.999996185302734 ],
-					"varname" : "LFO2 Int",
+					"varname" : "LFO2_Int",
 					"viewvisibility" : 1
 				}
 
@@ -728,7 +775,7 @@
 					"patching_rect" : [ 170.333510999999987, 25.333313, 106.971344000000002, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.18170166015625, 19.266876220703125, 104.500045776367188, 26.666662216186523 ],
-					"varname" : "LFO1 +/-",
+					"varname" : "LFO1_+/-",
 					"viewvisibility" : 1
 				}
 
@@ -752,7 +799,7 @@
 					"patching_rect" : [ 44.333495999999997, 25.333313, 109.466576000000003, 22.999995999999999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.18170166015625, 0.266876220703125, 104.500045776367188, 26.0 ],
-					"varname" : "LFO1 int",
+					"varname" : "LFO1_int",
 					"viewvisibility" : 1
 				}
 
@@ -873,15 +920,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-19", 1 ]
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-43", 0 ],
+					"midpoints" : [ 1487.433268333333217, 58.0, 1437.0, 58.0, 1437.0, 132.0, 1444.833251999999902, 132.0 ],
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -925,6 +973,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 1 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
