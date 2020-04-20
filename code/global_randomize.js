@@ -67,8 +67,9 @@ function run(data_type, lower_limit, upper_limit, previous_values, change_percen
 		else {
 			scaled_value = genRand(calculated_change_lower, calculated_change_upper);
 		}
-		if ( previous_values.length > 1 ) {
+		if ( previous_values.length > 2 ) {
 			// keep some multislider values the same, according to the change percentage - the entire multislider doesn't change unless 100% intensity
+			// this only runs for multisliders whose length is > 2 because the delta select UI works better whewn both parameters are randomized
 			if ( Math.random() > change_percentage ) {
 				scaled_value = previous_values[i];
 			}
