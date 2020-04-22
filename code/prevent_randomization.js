@@ -88,7 +88,13 @@ function anything() {
 		}
 	}
 	if ( inlet === 1 ) {
-		// blocks certain UI areas from randomization. the same UI can also control pattrstorage recall prevention.
-		additional_blocks = arrayfromargs(messagename, arguments);
+		// blocks certain UI areas from randomization.
+		var user_input = arrayfromargs(messagename, arguments);
+		if ( user_input == 'reset' ) {
+			additional_blocks = [];
+		}
+		else {
+			additional_blocks = user_input;
+		}
 	}
 }

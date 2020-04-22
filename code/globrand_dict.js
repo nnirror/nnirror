@@ -1,5 +1,5 @@
 inlets = 1;
-outlets = 5;
+outlets = 6;
 
 function bang() {
 	var d = new Dict('globrand');
@@ -26,5 +26,6 @@ function bang() {
 			outlet(3, current_data_type);
 		}
 	}
+	outlet(5, 'bang');
 }
 
