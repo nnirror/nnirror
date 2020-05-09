@@ -250,14 +250,14 @@
 					"presentation_rect" : [ 192.8416748046875, 27.666664123535156, 50.225303649902344, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.numbox[44]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "unquant_max",
+							"parameter_longname" : "live.numbox[44]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 2000.0,
-							"parameter_initial" : [ 1000 ],
-							"parameter_shortname" : "unquant_max"
+							"parameter_initial" : [ 1000 ]
 						}
 
 					}
@@ -351,13 +351,13 @@
 					"presentation_rect" : [ 192.8416748046875, 2.0, 50.225296020507812, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "∆quant",
+							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "∆quant",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "∆quant",
-							"parameter_enum" : [ "val1", "val2" ]
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -413,7 +413,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 581.0, 160.800003051757812, 229.0, 35.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -832,12 +832,12 @@
 					"presentation_rect" : [ 64.045814514160156, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Y-Offset",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "Y-Offset[1]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "Y-Offset"
+							"parameter_mmax" : 1.0
 						}
 
 					}
@@ -984,13 +984,13 @@
 					"presentation_rect" : [ 216.045806884765625, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Modulation Amount",
 							"parameter_type" : 3,
 							"parameter_longname" : "Modulation Amount[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "Modulation Amount"
+							"parameter_initial" : [ 0.5 ]
 						}
 
 					}
@@ -1018,13 +1018,13 @@
 					"presentation_rect" : [ 168.045806884765625, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "High Ramp",
 							"parameter_type" : 3,
 							"parameter_longname" : "High Ramp[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "High Ramp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -1052,13 +1052,13 @@
 					"presentation_rect" : [ 111.541641235351562, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Low Ramp",
 							"parameter_type" : 3,
 							"parameter_longname" : "Low Ramp[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Low Ramp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -1086,13 +1086,13 @@
 					"presentation_rect" : [ 18.666666030883789, 46.333332061767578, 25.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Amplitude",
 							"parameter_type" : 3,
 							"parameter_longname" : "Amplitude[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "Amplitude"
+							"parameter_initial" : [ 0.5 ]
 						}
 
 					}
@@ -1207,17 +1207,17 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -64.5, 111.300003000000004, 58.0, 22.0 ],
 					"restore" : 					{
-						"Amplitude" : [ 0.703389036978525 ],
+						"Amplitude" : [ 1.0 ],
 						"High Ramp" : [ 0.0 ],
 						"Low Ramp" : [ 0.0 ],
 						"Modulation Amount" : [ 0.0 ],
-						"Y-Offset" : [ 0.653626859894254 ],
+						"Y-Offset" : [ 0.0 ],
 						"unquant_max" : [ 1000.0 ],
 						"∆quant" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u397026567"
+					"varname" : "u225018795"
 				}
 
 			}
@@ -1676,12 +1676,12 @@
 					"presentation_rect" : [ 41.341621398925781, 3.0, 49.037528991699219, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Waveform",
 							"parameter_type" : 1,
 							"parameter_longname" : "Waveform[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Waveform"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -2835,6 +2835,39 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
+				"message" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
 				"newobj" : 				{
 					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
@@ -2842,44 +2875,11 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"message" : 				{
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
+				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"button" : 				{
+				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -2935,8 +2935,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

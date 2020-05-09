@@ -3683,23 +3683,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3711,16 +3694,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -7602,23 +7602,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -7630,16 +7613,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -8559,11 +8559,11 @@
 					"presentation_rect" : [ 624.565734505653381, 233.310470581054688, 31.356913208961487, 14.723185062408447 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "∆1/n",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "∆1/n",
 							"parameter_enum" : [ "∆1/n", "∆1/n" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "∆1/n",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -8589,11 +8589,11 @@
 					"presentation_rect" : [ 573.668628871440887, 233.310470581054688, 31.03536981344223, 15.14393350481987 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "1/n",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "1/n",
 							"parameter_enum" : [ "1/n", "1/n" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "1/n",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -8857,10 +8857,10 @@
 					"presentation_rect" : [ 517.845123291015625, 1.133331298828125, 17.200593948364258, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "ProbLock[7]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "ProbLock[7]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -9571,12 +9571,12 @@
 					"presentation_rect" : [ 488.595306396484375, 1.133331298828125, 29.09257698059082, 134.50653076171875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "∆SubsetCtrl",
+							"parameter_type" : 3,
 							"parameter_longname" : "∆SubsetCtrl",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
-							"parameter_shortname" : "∆SubsetCtrl",
-							"parameter_type" : 3
+							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
 						}
 
 					}
@@ -9948,11 +9948,11 @@
 					"presentation_rect" : [ 468.72662353515625, 233.82568359375, 22.1585693359375, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "pitchmod[5]",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "pitchmod",
 							"parameter_enum" : [ "mod", "mod" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "pitchmod[5]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -11432,23 +11432,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11460,16 +11443,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -11597,13 +11597,13 @@
 					"presentation_rect" : [ 445.7880859375, 233.82568359375, 25.93852424621582, 13.942025184631348 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "speed_scale",
+							"parameter_enum" : [ "snap", "snap" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "speed_scale[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "speed_scale",
-							"parameter_enum" : [ "snap", "snap" ],
-							"parameter_type" : 2
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -11631,11 +11631,11 @@
 					"presentation_rect" : [ 619.32861328125, 61.55328369140625, 19.714851379394531, 11.610169410705566 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "newSamples[1]",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "newSamples",
 							"parameter_enum" : [ "new", "new" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "newSamples[1]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -12044,13 +12044,13 @@
 					"presentation_rect" : [ 231.33331298828125, 1.225535869598389, 10.048679351806641, 134.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Delta Solo Lock",
+							"parameter_type" : 3,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "Delta Solo Lock[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "Delta Solo Lock",
-							"parameter_type" : 3,
-							"parameter_linknames" : 1
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 						}
 
 					}
@@ -12099,12 +12099,12 @@
 					"rows" : 16,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Delta_Solo_Matrix",
+							"parameter_type" : 3,
 							"parameter_longname" : "Delta_Solo_Matrix",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0 ],
-							"parameter_shortname" : "Delta_Solo_Matrix",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0, 0, 0 ]
 						}
 
 					}
@@ -12186,10 +12186,10 @@
 					"patching_rect" : [ 1000.06103515625, 1748.3480224609375, 134.0, 12.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.33331298828125, 163.334808349609375, 147.966705322265625, 8.0 ],
-					"setminmax" : [ 0.0, 32.0 ],
+					"setminmax" : [ 0.0, 16.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"thickness" : 4
+					"thickness" : 9
 				}
 
 			}
@@ -12208,12 +12208,12 @@
 					"presentation_rect" : [ 298.03790283203125, 1.133331298828125, 17.200593948364258, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "MixerLock",
+							"parameter_type" : 3,
 							"parameter_longname" : "MixerLock[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "MixerLock",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 						}
 
 					}
@@ -12247,12 +12247,12 @@
 					"presentation_rect" : [ 257.85882568359375, 1.133331298828125, 44.571357727050781, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Delta Trigger Note Volume",
+							"parameter_type" : 3,
 							"parameter_longname" : "Delta Trigger Note Volume[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-							"parameter_shortname" : "Delta Trigger Note Volume",
-							"parameter_type" : 3
+							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
 						}
 
 					}
@@ -12280,13 +12280,13 @@
 					"presentation_rect" : [ 54.580066680908203, 1.133330821990967, 8.273516654968262, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Solo Lock",
+							"parameter_type" : 3,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "Solo Lock[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "Solo Lock",
-							"parameter_type" : 3,
-							"parameter_linknames" : 1
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 						}
 
 					}
@@ -12335,12 +12335,12 @@
 					"rows" : 16,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Solo_Matrix",
+							"parameter_type" : 3,
 							"parameter_longname" : "Solo_Matrix",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0 ],
-							"parameter_shortname" : "Solo_Matrix",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0, 0, 0 ]
 						}
 
 					}
@@ -13331,23 +13331,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -13359,16 +13342,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -13505,14 +13505,14 @@
 					"presentation_rect" : [ 601.665413796901703, 233.310470581054688, 26.061071395874023, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "ntrig_max",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "ntrig_max[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 512.0,
-							"parameter_initial" : [ 8 ],
-							"parameter_shortname" : "ntrig_max",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 8 ]
 						}
 
 					}
@@ -13933,14 +13933,14 @@
 					"presentation_rect" : [ 542.27740478515625, 233.310470581054688, 26.497333526611328, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "fill every",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "fill every[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 4 ],
-							"parameter_shortname" : "fill every",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 4 ]
 						}
 
 					}
@@ -13965,11 +13965,11 @@
 					"presentation_rect" : [ 488.595306396484375, 233.82568359375, 29.909122467041016, 13.942025184631348 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "fill mode",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "fill mode",
 							"parameter_enum" : [ "fill", "fill" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "fill mode",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -14080,12 +14080,12 @@
 					"presentation_rect" : [ 358.03790283203125, 1.133331298828125, 17.200593948364258, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "+/-",
+							"parameter_type" : 3,
 							"parameter_longname" : "speed_coarse_adjust[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "+/-",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 						}
 
 					}
@@ -15069,12 +15069,12 @@
 					"presentation_rect" : [ 553.29315185546875, 1.133331298828125, 13.378938674926758, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[6]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 						}
 
 					}
@@ -15140,12 +15140,12 @@
 					"presentation_rect" : [ 534.781005859375, 1.133331298828125, 17.973766326904297, 134.50653076171875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "LineTimes",
+							"parameter_type" : 3,
 							"parameter_longname" : "LineTimes[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "LineTimes",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 						}
 
 					}
@@ -15835,7 +15835,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1100.6474609375, 733.0, 177.0, 35.0 ],
-					"restore" : [ 0.401574790477753, 0.897637784481049, 0.724409461021423, 0.779527544975281, 0.094488188624382, 0.944881916046143, 0.74015748500824, 0.897637784481049, 0.015748031437397, 0.015748031437397, 0.086614176630974, 0.708661437034607, 0.086614176630974, 0.25984251499176, 0.31496062874794, 0.251968502998352 ],
+					"restore" : [ 0.661417305469513, 0.330708652734756, 0.645669281482697, 0.031496062874794, 0.787401556968689, 0.535433053970337, 0.236220479011536, 0.535433053970337, 0.362204730510712, 0.133858263492584, 0.047244094312191, 0.118110239505768, 0.771653532981873, 0.448818892240524, 0.401574790477753, 0.559055089950562 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -16031,12 +16031,12 @@
 					"presentation_rect" : [ 424.57025146484375, 1.133331298828125, 17.914945602416992, 133.709716796875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "DecayControlMod",
+							"parameter_type" : 3,
 							"parameter_longname" : "DecayControlMod[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "DecayControlMod",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 						}
 
 					}
@@ -16088,10 +16088,10 @@
 					"presentation_rect" : [ 472.03790283203125, 1.133331298828125, 17.200593948364258, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "ProbLock[5]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "ProbLock[5]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -16248,14 +16248,14 @@
 					"presentation_rect" : [ 123.541900634765625, 189.484243392944336, 16.175537109375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "jam_walk_max",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_walk_max[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 32.0,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "jam_walk_max",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ]
 						}
 
 					}
@@ -17726,12 +17726,12 @@
 					"presentation_rect" : [ 1.598752975463867, 162.334808349609375, 41.171713024377823, 24.441877365112305 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "global_cell_speed",
+							"parameter_type" : 3,
 							"parameter_longname" : "global_cell_speed",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 0.666599988937378, 0.5, 0.333299994468689, 0.25 ],
-							"parameter_shortname" : "global_cell_speed",
-							"parameter_type" : 3
+							"parameter_initial" : [ 1.0, 0.666599988937378, 0.5, 0.333299994468689, 0.25 ]
 						}
 
 					}
@@ -18366,23 +18366,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -18394,16 +18377,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -18880,13 +18880,13 @@
 					"presentation_rect" : [ 306.75592041015625, 232.82568359375, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Tempo",
+							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "Tempo[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12,
-							"parameter_initial" : [ 7 ],
-							"parameter_shortname" : "Tempo",
-							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2
+							"parameter_initial" : [ 7 ]
 						}
 
 					}
@@ -18938,14 +18938,14 @@
 					"presentation_rect" : [ 344.85882568359375, 232.82568359375, 16.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "randomize_z_index",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "randomize_z_index[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 5.0,
-							"parameter_initial" : [ 2.0 ],
-							"parameter_shortname" : "randomize_z_index",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 2.0 ]
 						}
 
 					}
@@ -18967,13 +18967,13 @@
 					"presentation_rect" : [ 376.611602783203125, 232.82568359375, 23.510772705078125, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "cell_fill_likelihood",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "cell_fill_likelihood[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 25.0 ],
-							"parameter_shortname" : "cell_fill_likelihood",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 25.0 ]
 						}
 
 					}
@@ -19010,14 +19010,14 @@
 					"presentation_rect" : [ 257.85882568359375, 232.82568359375, 22.633987426757812, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Loop Control",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "Loop Control[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 16 ],
-							"parameter_shortname" : "Loop Control",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 16 ]
 						}
 
 					}
@@ -20059,10 +20059,10 @@
 					"patching_rect" : [ -513.7423095703125, 770.5, 104.0, 28.3665771484375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "preset_pattern_storage[2]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "preset_pattern_storage",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "preset_pattern_storage[2]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -21975,12 +21975,12 @@
 					"presentation_rect" : [ 420.564849853515625, 232.82568359375, 26.39208984375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "NewProbTempo[2]",
-							"parameter_mmax" : 12,
-							"parameter_initial" : [ 3.0 ],
 							"parameter_shortname" : "NewProbTempo",
 							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "NewProbTempo[2]",
+							"parameter_mmax" : 12,
+							"parameter_initial" : [ 3.0 ]
 						}
 
 					}
@@ -22005,12 +22005,12 @@
 					"presentation_rect" : [ 442.634033203125, 1.133331298828125, 29.09257698059082, 134.50653076171875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "SubsetCtrl",
+							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
-							"parameter_shortname" : "SubsetCtrl",
-							"parameter_type" : 3
+							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
 						}
 
 					}
@@ -22051,12 +22051,12 @@
 					"presentation_rect" : [ 376.611602783203125, 1.133331298828125, 48.084461212158203, 133.709716796875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "DecayControl",
+							"parameter_type" : 3,
 							"parameter_longname" : "DecayControl[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"parameter_shortname" : "DecayControl",
-							"parameter_type" : 3
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 
 					}
@@ -22145,13 +22145,13 @@
 					"presentation_rect" : [ 206.387626647949219, 232.724607825279236, 35.05811595916748, 14.966437429189682 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "∆seq1",
+							"parameter_enum" : [ "∆main", "∆main" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "∆seq1[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "∆seq1",
-							"parameter_enum" : [ "∆main", "∆main" ],
-							"parameter_type" : 2
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -23242,14 +23242,14 @@
 					"presentation_rect" : [ 130.048701286315918, 232.724607825279236, 23.217681884765625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "jam_every_n_bars",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_every_n_bars[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "jam_every_n_bars",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -23665,7 +23665,7 @@
 					"cellpict" : "",
 					"clickedimage" : 0,
 					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
-					"columns" : 32,
+					"columns" : 16,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"horizontalspacing" : 5,
 					"id" : "obj-84",
@@ -23910,23 +23910,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -23938,16 +23921,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -24758,8 +24758,8 @@
 					"patching_rect" : [ -883.14288330078125, -140.709945678710938, 119.0, 22.0 ],
 					"restore" : 					{
 						"1/n" : [ 0.0 ],
-						"DecayControl" : [ 0.959275782108307, 0.959275782108307, 0.959275782108307, 0.959275782108307, 0.959275782108307, 0.942796409130096, 0.942796409130096, 0.942796409130096, 0.942796409130096, 0.926317036151886, 0.926317036151886, 0.926317036151886, 0.926317036151886, 0.942796409130096, 1.008713960647583, 1.091110944747925 ],
-						"DecayControlMod" : [ 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+						"DecayControl" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+						"DecayControlMod" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"Delta Mute Matrix" : [ 0, 0, 0 ],
 						"DeltaSoloLock" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"Delta_Solo_Matrix" : [ 0, 0, 0 ],
@@ -24788,7 +24788,7 @@
 						"markov_gen_density" : [ 1 ],
 						"newSamples" : [ 0.0 ],
 						"ntrig_max" : [ 8.0 ],
-						"num_columns" : [ 32.0 ],
+						"num_columns" : [ 16.0 ],
 						"pitchmod" : [ 0.0 ],
 						"preset_pattern_gen" : [ 1.0 ],
 						"preset_pattern_storage" : [ "<empty>" ],
@@ -24891,14 +24891,14 @@
 					"presentation_rect" : [ 69.538360595703125, 222.030579447746277, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "preset_save_number",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_save_number[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "preset_save_number",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -25038,12 +25038,12 @@
 					"presentation_rect" : [ 15.371429443359375, 189.484243392944336, 12.505605697631836, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "markov_gen_density",
+							"parameter_type" : 3,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "markov_gen_density[2]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 16.0,
-							"parameter_shortname" : "markov_gen_density",
-							"parameter_type" : 3
+							"parameter_mmax" : 16.0
 						}
 
 					}
@@ -25093,7 +25093,7 @@
 					"cellpict" : "drummatrix_cell_2.png",
 					"clickedimage" : 0,
 					"color" : [ 0.856532, 0.817189, 0.097836, 1.0 ],
-					"columns" : 32,
+					"columns" : 16,
 					"horizontalspacing" : 5,
 					"id" : "obj-86",
 					"invisiblebkgnd" : 1,
@@ -25764,13 +25764,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-239",
-													"linecount" : 20,
+													"linecount" : 41,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 475.0, 290.0 ],
-													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 1 6 2 1 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 1 11 3 2 12 3 0 13 3 1 14 3 0 15 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 0 9 4 1 10 4 0 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 1 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 2 0 6 0 1 6 2 2 6 0 3 6 0 4 6 0 5 6 0 6 6 1 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 1 5 8 0 6 8 1 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 3 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 1 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 1 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 1 7 13 1 8 13 0 9 13 0 10 13 0 11 13 1 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 1 4 15 0 5 15 0 6 15 1 7 15 0 8 15 0 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 16 0 0 17 0 0 18 0 0 19 0 0 20 0 0 21 0 0 22 0 0 23 0 0 24 0 0 25 0 0 26 0 0 27 0 0 28 0 0 29 0 0 30 0 0 31 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 16 1 0 17 1 0 18 1 0 19 1 0 20 1 0 21 1 0 22 1 0 23 1 0 24 1 0 25 1 0 26 1 0 27 1 0 28 1 0 29 1 0 30 1 0 31 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 16 2 0 17 2 0 18 2 0 19 2 0 20 2 0 21 2 0 22 2 0 23 2 0 24 2 0 25 2 0 26 2 0 27 2 0 28 2 0 29 2 0 30 2 0 31 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 16 3 0 17 3 0 18 3 0 19 3 0 20 3 0 21 3 0 22 3 0 23 3 0 24 3 0 25 3 0 26 3 0 27 3 0 28 3 0 29 3 0 30 3 0 31 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 16 4 0 17 4 0 18 4 0 19 4 0 20 4 0 21 4 0 22 4 0 23 4 0 24 4 0 25 4 0 26 4 0 27 4 0 28 4 0 29 4 0 30 4 0 31 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 16 5 0 17 5 0 18 5 0 19 5 0 20 5 0 21 5 0 22 5 0 23 5 0 24 5 0 25 5 0 26 5 0 27 5 0 28 5 0 29 5 0 30 5 0 31 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 16 6 0 17 6 0 18 6 0 19 6 0 20 6 0 21 6 0 22 6 0 23 6 0 24 6 0 25 6 0 26 6 0 27 6 0 28 6 0 29 6 0 30 6 0 31 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 16 7 0 17 7 0 18 7 0 19 7 0 20 7 0 21 7 0 22 7 0 23 7 0 24 7 0 25 7 0 26 7 0 27 7 0 28 7 0 29 7 0 30 7 0 31 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 16 8 0 17 8 0 18 8 0 19 8 0 20 8 0 21 8 0 22 8 0 23 8 0 24 8 0 25 8 0 26 8 0 27 8 0 28 8 0 29 8 0 30 8 0 31 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 16 9 0 17 9 0 18 9 0 19 9 0 20 9 0 21 9 0 22 9 0 23 9 0 24 9 0 25 9 0 26 9 0 27 9 0 28 9 0 29 9 0 30 9 0 31 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 16 10 0 17 10 0 18 10 0 19 10 0 20 10 0 21 10 0 22 10 0 23 10 0 24 10 0 25 10 0 26 10 0 27 10 0 28 10 0 29 10 0 30 10 0 31 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 16 11 0 17 11 0 18 11 0 19 11 0 20 11 0 21 11 0 22 11 0 23 11 0 24 11 0 25 11 0 26 11 0 27 11 0 28 11 0 29 11 0 30 11 0 31 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 16 12 0 17 12 0 18 12 0 19 12 0 20 12 0 21 12 0 22 12 0 23 12 0 24 12 0 25 12 0 26 12 0 27 12 0 28 12 0 29 12 0 30 12 0 31 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 16 13 0 17 13 0 18 13 0 19 13 0 20 13 0 21 13 0 22 13 0 23 13 0 24 13 0 25 13 0 26 13 0 27 13 0 28 13 0 29 13 0 30 13 0 31 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 16 14 0 17 14 0 18 14 0 19 14 0 20 14 0 21 14 0 22 14 0 23 14 0 24 14 0 25 14 0 26 14 0 27 14 0 28 14 0 29 14 0 30 14 0 31 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0 16 15 0 17 15 0 18 15 0 19 15 0 20 15 0 21 15 0 22 15 0 23 15 0 24 15 0 25 15 0 26 15 0 27 15 0 28 15 0 29 15 0 30 15 0 31 15 0"
 												}
 
 											}
@@ -27844,13 +27844,13 @@
 					"presentation_rect" : [ 96.788360595703125, 189.484243392944336, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "preset_retrieve",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "preset_retrieve[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "preset_retrieve",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -27872,13 +27872,13 @@
 					"presentation_rect" : [ 69.788360595703125, 189.484243392944336, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "preset_pattern_gen",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "preset_pattern_gen[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "preset_pattern_gen",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -27900,13 +27900,13 @@
 					"presentation_rect" : [ 41.938262939453125, 189.484243392944336, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "preset_toward",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_longname" : "preset_toward[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "preset_toward",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_initial" : [ 1.0 ]
 						}
 
 					}
@@ -27950,11 +27950,11 @@
 					"presentation_rect" : [ 0.998443603515625, 222.530579447746277, 52.584869384765625, 24.397106975317001 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Jam On/Off[3]",
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "Jam On/Off",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "Jam On/Off[3]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -28853,10 +28853,10 @@
 					"presentation_rect" : [ -2.18878173828125, 206.730886459350586, 140.110946655273438, 13.584794998168945 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "jam_probabilities[3]",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "jam_probabilities",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "jam_probabilities[3]",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -35031,23 +35031,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -35059,16 +35042,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -35176,7 +35176,7 @@
 					"patching_rect" : [ 847.01385498046875, 1044.7242431640625, 29.5, 24.666666030883789 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.33331298828125, 179.195556640625, 147.966705322265625, 8.250004768371582 ],
-					"setminmax" : [ 0.0, 31.0 ],
+					"setminmax" : [ 0.0, 15.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.043137, 0.364706, 0.094118, 1.0 ],
 					"spacing" : 1
@@ -35197,7 +35197,7 @@
 					"patching_rect" : [ 608.4000244140625, 920.41162109375, 56.333328247070312, 24.666666030883789 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.33331298828125, 171.445556640625, 147.966705322265625, 8.0 ],
-					"setminmax" : [ 0.0, 31.0 ],
+					"setminmax" : [ 0.0, 15.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
 				}
@@ -35223,12 +35223,12 @@
 					"presentation_rect" : [ 315.83843994140625, 1.133331298828125, 40.549102783203125, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "note volume",
+							"parameter_type" : 3,
 							"parameter_longname" : "note volume[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ],
-							"parameter_shortname" : "note volume",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
 						}
 
 					}
@@ -35355,7 +35355,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 292.9666748046875, 362.800018310546875, 49.0 ],
-									"text" : "0.401575 0.897638 0.724409 0.779528 0.094488 0.944882 0.740157 0.897638 0.015748 0.015748 0.086614 0.708661 0.086614 0.259843 0.314961 0.251969"
+									"text" : "0.661417 0.330709 0.645669 0.031496 0.787402 0.535433 0.23622 0.535433 0.362205 0.133858 0.047244 0.11811 0.771654 0.448819 0.401575 0.559055"
 								}
 
 							}
@@ -35582,7 +35582,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-479",
-					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Rapid Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare-Rapid Fire.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
+					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -35634,7 +35634,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-415",
-					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Rapid Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare-Rapid Fire.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
+					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -35686,7 +35686,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-361",
-					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Rapid Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare-Rapid Fire.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
+					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -40175,7 +40175,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-212",
-					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Rapid Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare-Rapid Fire.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare-Rapid Fire.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
+					"items" : [ " Snare2.wav", ",", "001.wav", ",", "002.wav", ",", "003.wav", ",", "004.wav", ",", "005.wav", ",", "006.wav", ",", "007.wav", ",", "008.wav", ",", "009.wav", ",", "010.wav", ",", "011.wav", ",", "012.wav", ",", "013.wav", ",", "014.wav", ",", "015.wav", ",", "016.wav", ",", "017.wav", ",", "018.wav", ",", "019.wav", ",", "020.wav", ",", "021.wav", ",", "022.wav", ",", "023.wav", ",", "024.wav", ",", "025.wav", ",", "026.wav", ",", "027.wav", ",", "028.wav", ",", "707 HANDCLAP 6.wav", ",", "707 RIM SHOT 1.wav", ",", "707 RIM SHOT 8.wav", ",", "707 SNARE 10.wav", ",", "707 SNARE 8.wav", ",", "Clap.wav", ",", "CR78_Rim_Shot.wav", ",", "CR78_Snare.wav", ",", "CR78_Snare_2.wav", ",", "CR78_Snare_3.wav", ",", "CR78_Snare_Bongo.wav", ",", "CR78_Snare_Cymbal.wav", ",", "DMX_clap.wav", ",", "DMX_snare.wav", ",", "DMX_stick.wav", ",", "HC - 1.wav", ",", "HC MOD [Filter] 1-01.wav", ",", "HC MOD [Filter] 1-03.wav", ",", "HC MOD [Filter] 1-05.wav", ",", "HC MOD [Filter] 1-07.wav", ",", "HC MOD [Filter] 1-09.wav", ",", "HC MOD [Filter] 1-10.wav", ",", "HC MOD [Reverb+Pitch+Width] 1.wav", ",", "HC MOD [Reverb+Pitch+Width] 2.wav", ",", "HC MOD [Reverb+Pitch+Width] 3.wav", ",", "HC MOD [Reverb+Pitch+Width] 4.wav", ",", "HC MOD [Reverb+Pitch+Width] 5.wav", ",", "HC MOD [Reverb+Pitch+Width] 6.wav", ",", "HC MOD [Reverb+Pitch+Width] 7.wav", ",", "HC MOD [Reverb+Pitch+Width] 8.wav", ",", "HC MOD [Reverb+Pitch] 1.wav", ",", "HC MOD [Reverb+Pitch] 2.wav", ",", "HC MOD [Reverb+Pitch] 3.wav", ",", "HC MOD [Reverb+Pitch] 4.wav", ",", "HC MOD [Reverb+Pitch] 5.wav", ",", "HC MOD [Reverb+Pitch] 6.wav", ",", "HC MOD [Reverb+Pitch] 7.wav", ",", "HC MOD [Reverb] 1.wav", ",", "HC MOD [Reverb] 2.wav", ",", "HC MOD [Reverb] 3.wav", ",", "HC MOD [Reverb] 4.wav", ",", "Linn Clap.wav", ",", "Linn Sidestick.wav", ",", "Linn Snare Hard.wav", ",", "Linn Snare Mid.wav", ",", "Linn Snare Soft.wav", ",", "Rapid Snare.wav", ",", "Reverb Ace Tone Rhythm Ace_Snare.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare1.wav", ",", "Reverb Ace Tone Rhythm Fever Sample Pack_Snare2.wav", ",", "Reverb Boss Dr Pad Sample Pack_Snare.wav", ",", "Reverb Conn Min-O-Matic Rhythm Sample Pack_Snare.wav", ",", "Reverb E-mu Drumulator Sample Pack_Clap.wav", ",", "Reverb E-mu Drumulator Sample Pack_Rim.wav", ",", "Reverb E-mu Drumulator Sample Pack_Snare.wav", ",", "Reverb Guild MG10C-1 Sample Pack_Snare.wav", ",", "Reverb Hammond Auto-Vari 64_Snare.wav", ",", "Reverb Kay R-12 Rhythmer Sample Pack_Snare-Hat.wav", ",", "Reverb Keynote MR-101 Auto Rhythm Sample Pack_Snare.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Rim.wav", ",", "Reverb Korg Rhythm 55 Sample Pack_Snare.wav", ",", "Reverb Korg Univox SR-120 Sample Pack_Snare.wav", ",", "Reverb LinnDrum Sample Pack_Clap.wav", ",", "Reverb LinnDrum Sample Pack_Sidestick.wav", ",", "Reverb LinnDrum Sample Pack_Snare Hard.wav", ",", "Reverb LinnDrum Sample Pack_Snare Mid.wav", ",", "Reverb LinnDrum Sample Pack_Snare Soft.wav", ",", "Reverb Maestro Rhythm King Sample Pack_Snare.wav", ",", "Reverb MFB 503 Drumcomputer Sample Pack_Snare.wav", ",", "Reverb MXR Drum Computer Sample Pack_Clap.wav", ",", "Reverb MXR Drum Computer Sample Pack_Rim.wav", ",", "Reverb MXR Drum Computer Sample Pack_Snare.wav", ",", "Reverb Nomad Time Turner Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Clap.wav", ",", "Reverb Oberheim DMX Sample Pack_Snare.wav", ",", "Reverb Oberheim DMX Sample Pack_Stick.wav", ",", "Reverb Oberheim DX Sample Pack_Clap.wav", ",", "Reverb Oberheim DX Sample Pack_Rim Shot.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Loud.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Mid.wav", ",", "Reverb Oberheim DX Sample Pack_Snare Soft.wav", ",", "Reverb Olson Rhythm Instrument Sample Pack_Snare.wav", ",", "Reverb Panasonic RD-9844 Sample Pack_Snare.wav", ",", "Reverb Realistic Concertmate Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Rim Shot.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare2.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare3.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Bongo.wav", ",", "Reverb Roland CR-78 Sample Pack_Snare_Cymbal.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Clap9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Rim9.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare1.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare10.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare11.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare12.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare13.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare14.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare15.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare16.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare17.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare2.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare3.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare4.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare5.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare6.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare7.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare8.wav", ",", "Reverb Roland Modded TR-707 Sample Pack_Snare9.wav", ",", "Reverb Roland TR 505 Sample Pack_Clap.wav", ",", "Reverb Roland TR 505 Sample Pack_Rim.wav", ",", "Reverb Roland TR 505 Sample Pack_Snare.wav", ",", "Reverb Roland TR-606 Drumatix_Snare1.wav", ",", "Reverb Roland TR-606 Drumatix_Snare2.wav", ",", "Reverb Roland TR-606 Drumatix_Snare3.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap Accent2.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap.wav", ",", "Reverb Roland TR-808 Sample Pack_Clap2.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2 Accent.wav", ",", "Reverb Roland TR-808 Sample Pack_Rimshot2.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Accent Min Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Max Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Mid Tone Min Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Max Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Mid Snap.wav", ",", "Reverb Roland TR-808 Sample Pack_Snare Min Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Clap.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot Accent.wav", ",", "Reverb Roland TR-909 Sample Pack_Rim Shot.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Accent Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare High Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Low Tuning Mid Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning High Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Low Tone Min Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Max Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Mid Snap.wav", ",", "Reverb Roland TR-909 Sample Pack_Snare Mid Tuning Mid Tone Min Snap.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Rim.wav", ",", "Reverb Sequential Circuits DrumTraks Sample Pack_Snare.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Rimshot.wav", ",", "Reverb Suzuki RPM-40 Sample Pack_Snare.wav", ",", "Reverb The KIT Sample Pack_Snare.wav", ",", "Reverb Tronix Rhythm RB-1 Sample Pack_Snare.wav", ",", "Reverb Univox Rhythm Machine Sample Pack_Snare.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare1.wav", ",", "Reverb Univox SR-95 Sample Pack_Snare2.wav", ",", "Reverb Wurlitzer Swingin Rhythm Sample Pack_Snare.wav", ",", "Rim.wav", ",", "Rimshot.wav", ",", "RS - 1.wav", ",", "RS - 2.wav", ",", "RS - 3.wav", ",", "SN.1 - High Tune High Tone.wav", ",", "SN.1 - High Tune Low Tone.wav", ",", "SN.1 - High Tune Med Tone.wav", ",", "SN.1 - Low Tune High Tone.wav", ",", "SN.1 - Low Tune Low Tone.wav", ",", "SN.1 - Low Tune Med Tone.wav", ",", "SN.1 - Med Tune High Snappy.wav", ",", "SN.1 - Med Tune High Tone.wav", ",", "SN.1 - Med Tune Low Snappy.wav", ",", "SN.1 - Med Tune Low Tone.wav", ",", "SN.1 - Med Tune Med Tone.wav", ",", "SN.1 - Med Tune Snappy.wav", ",", "SN.2 - High Tune High Tone.wav", ",", "SN.2 - High Tune Low Tone.wav", ",", "SN.2 - High Tune Med Tone.wav", ",", "SN.2 - Low Tune High Tone.wav", ",", "SN.2 - Low Tune Low Tone.wav", ",", "SN.2 - Med Tune High Snappy.wav", ",", "SN.2 - Med Tune High Tone.wav", ",", "SN.2 - Med Tune Low Tone.wav", ",", "SN.2 - Med Tune Med Snappy.wav", ",", "SN.2 - Med Tune Med Tone.wav", ",", "SN.2 Low Tune Med Tone.wav", ",", "SN.2 Med Tune Low Snappy.wav", ",", "Snap.wav", ",", "Snare.wav", ",", "Snare1.wav", ",", "Snare2.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -41069,23 +41069,6 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
-								}
-,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -41097,16 +41080,33 @@
 										"autogradient" : 0
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"button" : 								{
@@ -41265,12 +41265,12 @@
 					"presentation_rect" : [ 2.145792961120605, 1.133330821990967, 29.666667938232422, 134.416702270507812 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Lock  Matrix",
+							"parameter_type" : 3,
 							"parameter_longname" : "Lock  Matrix[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
-							"parameter_shortname" : "Lock  Matrix",
-							"parameter_type" : 3
+							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
 						}
 
 					}
@@ -41298,7 +41298,7 @@
 					"patching_rect" : [ 306.764556884765625, 284.50384521484375, 281.449996999999939, 12.824561357498169 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.83331298828125, 137.13336181640625, 147.966705322265625, 10.0 ],
-					"setminmax" : [ 0.0, 31.0 ],
+					"setminmax" : [ 0.0, 15.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.996078431372549, 0.917647058823529, 0.0, 1.0 ]
 				}
@@ -44866,23 +44866,6 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
 				"message" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -44894,16 +44877,33 @@
 						"autogradient" : 0
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
