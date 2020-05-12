@@ -1,10 +1,13 @@
-inlets = 7;
+inlets = 9;
 outlets = 1;
 
 var data_type;
 var upper_limit;
 var lower_limit;
 var num_values;
+var shape_set_mode = false;
+var shape_in_memory = false;
+var shape_values = {};
 // default to 10% change percentage
 var change_percentage = 0.1;
 var previous_values;
@@ -33,17 +36,44 @@ function anything() {
 	if (inlet === 6 ) {
 		change_amount = parseFloat(arrayfromargs(arguments));
 	}
-}
-
-function bang() {
-	// actually run process
-	if ( Math.random() < change_percentage ) {
-		var new_data = run(data_type, lower_limit, upper_limit, previous_values, change_percentage);
-		outlet(0, new_data);
+	if (inlet === 7 ) {
+		var foo = parseInt(arrayfromargs(arguments));
+		if ( foo === 1 ) {
+			shape_set_mode = true;
+		}
+		else {
+			shape_set_mode = false;
+		}
+	}
+	if (inlet === 8 ) {
+		var foo = parseInt(arrayfromargs(arguments));
+		if ( foo === 1 ) {
+			shape_in_memory = true;
+		}
+		else {
+			shape_in_memory = false;
+		}
 	}
 }
 
-function run(data_type, lower_limit, upper_limit, previous_values, change_percentage) {
+function bang() {
+	if ( shape_set_mode === true ) {
+		shape_values[current_scripting_name] = previous_values;
+	}
+	else {
+		if ( shape_in_memory === true ) {
+		// in shape mode, get the saved value instead of the current value when determining the future value
+			previous_values = shape_values[current_scripting_name];
+		}
+		// actually run process
+		if ( Math.random() < change_percentage ) {
+			var new_data = run(data_type, lower_limit, upper_limit, previous_values, change_percentage, current_scripting_name);
+			outlet(0, new_data);
+		}
+	}
+}
+
+function run(data_type, lower_limit, upper_limit, previous_values, change_percentage, current_scripting_name) {
 	var out = '';
 	var amount_to_be_added = (upper_limit - lower_limit) * change_amount;
 	for ( var i = 0; i < num_values; i++ ) {

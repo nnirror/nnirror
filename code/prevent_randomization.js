@@ -69,7 +69,8 @@ var blocked_list = [
 			'randomization_percentage',
 			'randomization_intensity',
 			'global_randomize_every',
-			'_delta::delta_self_EG_mod::Global_Tempo'
+			'_delta::delta_self_EG_mod::Global_Tempo',
+			'global_shape_mode'
 ];
 
 var additional_blocks = [];
