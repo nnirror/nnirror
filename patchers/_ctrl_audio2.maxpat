@@ -46,7 +46,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -146.0, 39.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u211030223"
+					"varname" : "u100018671"
 				}
 
 			}
@@ -526,7 +526,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.954044342041016, 72.699996948242188, 30.0, 30.0 ]
 				}
 
@@ -551,7 +551,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -227.61737060546875, 72.699996948242188, 30.0, 30.0 ]
 				}
 
@@ -581,13 +581,13 @@
 					"presentation_rect" : [ 9.0, 306.333343505859375, 53.839553833007812, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "bipolar_toggle",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "bipolar_toggle",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "bipolar_toggle"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -605,7 +605,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 157.5, 518.791259765625, 101.0, 22.0 ],
+					"patching_rect" : [ 157.5, 477.111114501953125, 101.0, 22.0 ],
 					"text" : "scale~ 0. 1. -1. 1."
 				}
 
@@ -626,11 +626,11 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 128.0, 399.0, 30.0, 22.0 ],
-					"text" : "*~ 1"
+					"patching_rect" : [ 128.0, 399.0, 64.0, 22.0 ],
+					"text" : "clip~ -1. 1."
 				}
 
 			}
@@ -643,11 +643,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 544.9000244140625, 270.0, 58.0, 22.0 ],
 					"restore" : 					{
-						"bipolar_toggle" : [ 0.0 ]
+						"bipolar_toggle" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u042029203"
+					"varname" : "u013018670"
 				}
 
 			}
@@ -655,11 +655,11 @@
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 128.0, 358.1666259765625, 66.0, 22.0 ],
-					"text" : "clip~ -1. 1."
+					"patching_rect" : [ 128.0, 358.1666259765625, 30.0, 22.0 ],
+					"text" : "*~ 4"
 				}
 
 			}
@@ -749,18 +749,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-169",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 128.0, 473.611114501953125, 60.0, 22.0 ],
-					"text" : "1ch_amp"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-127",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -822,7 +810,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 0 ],
+					"destination" : [ "obj-1", 1 ],
+					"order" : 1,
+					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-127", 0 ]
 				}
 
@@ -831,23 +828,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"order" : 1,
-					"source" : [ "obj-169", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 137.5, 506.703318536281586, 167.0, 506.703318536281586 ],
-					"order" : 0,
-					"source" : [ "obj-169", 0 ]
 				}
 
 			}
@@ -1152,8 +1132,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
