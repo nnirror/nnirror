@@ -68,7 +68,6 @@ var blocked_list = [
 			'_drummatrix2::preset_pattern_gen',
 			'_drummatrix2::preset_toward',
 			'_drummatrix2::markov_gen_density',
-			'_transport_bpm',
 			'_mixer::main_mixer',
 			'_drummatrix2::hi_loopctrl',
 			'_drummatrix2::low_loopctrl',
