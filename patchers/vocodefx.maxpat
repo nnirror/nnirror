@@ -1027,18 +1027,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.4493408203125, 472.0, 129.0, 22.0 ],
-					"text" : "loadmess threshold 24"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 6.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
@@ -1191,18 +1179,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-76",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "list", "list" ],
-					"patching_rect" : [ 11.0, 521.0, 83.0, 22.0 ],
-					"text" : "omx.peaklim~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1244,8 +1220,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 714.0, 83.333328247070312, 134.0, 22.0 ],
-					"text" : "scale~ -1. 1. 33 200 2.5"
+					"patching_rect" : [ 714.0, 83.333328247070312, 128.0, 22.0 ],
+					"text" : "scale~ -1. 1. 20 80 2.5"
 				}
 
 			}
@@ -1312,12 +1288,12 @@
 					"restore" : 					{
 						"envelope_follow_speed" : [ 12 ],
 						"noise-threshold" : [ 0.7 ],
-						"osc_interp" : [ 0.094488188976378 ],
+						"osc_interp" : [ 2.0 ],
 						"pitchmod" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u984002795"
+					"varname" : "u244002729"
 				}
 
 			}
@@ -1780,7 +1756,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1803,13 +1779,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-63", 1 ],
 					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -2098,13 +2067,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-76", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-81", 0 ]
 				}
@@ -2175,23 +2137,9 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"message" : 				{
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2202,17 +2150,31 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"newobj" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"button" : 				{
@@ -2293,8 +2255,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

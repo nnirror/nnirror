@@ -3,6 +3,9 @@ outlets = 1;
 
 // list of stuff that should just never be randomized or the patch might be silent, you'd have to click through a file dialog, etc.
 var blocked_list = [
+			'randomization_percentage',
+			'randomization_intensity',
+			'global_randomize_every',
 			'_mixer::master_volume', 
 			'_mixer::spectcomptest::ratio', 
 			'_drummatrix2::folder_select_ui::lib1',
@@ -11,6 +14,9 @@ var blocked_list = [
 			'_drummatrix2::folder_select_ui::lib4',
 			'_drummatrix2::1/n',
 			'_drummatrix2::1/n',
+			'_drummatrix2::1/n',
+			'_drummatrix2::SubsetCtrl',
+			'_drummatrix2::∆SubsetCtrl',
 			'_drummatrix2::solo_matrix_backend',
 			'_drummatrix2::delta_solo_matrix_backend',
 			'_drummatrix2::∆1/n',
@@ -26,6 +32,7 @@ var blocked_list = [
 			'_drummatrix_midi2::solo_matrix_backend',
 			'_drummatrix_midi2::SoloLock',
 			'_drummatrix_midi2::solo_markov_ui',
+			'_drummatrix_midi2::SubsetCtrl',
 			'_drummatrix2::solo_multislider_markov_ui_2019',
 			'_drummatrix2::delta_solo_multislider_markov_ui_2019',
 			'_drummatrix2::Mixer',
@@ -61,16 +68,28 @@ var blocked_list = [
 			'_drummatrix2::preset_pattern_gen',
 			'_drummatrix2::preset_toward',
 			'_drummatrix2::markov_gen_density',
-			'_transport_bpm',
 			'_mixer::main_mixer',
 			'_drummatrix2::hi_loopctrl',
 			'_drummatrix2::low_loopctrl',
 			'global_cell_speed',
-			'randomization_percentage',
-			'randomization_intensity',
-			'global_randomize_every',
 			'_delta::delta_self_EG_mod::Global_Tempo',
-			'global_shape_mode'
+			'global_shape_mode',
+			'_mixer::fm_lpg::LPG_ctrl::Channel',
+			'_mixer::fm_lpg::LPG_ctrl::Jam_Mode',
+			'_mixer::fm_lpg::LPG_ctrl::Rate_Limit_Mode',
+			'_mixer::fm_lpg::LPG_ctrl::range_ctrl',
+			'_mixer::fm_lpg::LPG_ctrl::delta_channel_wrapper',
+			'_mixer::grain_lpg::LPG_ctrl::Channel',
+			'_mixer::grain_lpg::LPG_ctrl::Jam_Mode',
+			'_mixer::grain_lpg::LPG_ctrl::Rate_Limit_Mode',
+			'_mixer::grain_lpg::LPG_ctrl::range_ctrl',
+			'_mixer::grain_lpg::LPG_ctrl::delta_channel_wrapper',
+			'_mixer::reverb_lpg::LPG_ctrl::Channel',
+			'_mixer::reverb_lpg::LPG_ctrl::Jam_Mode',
+			'_mixer::reverb_lpg::LPG_ctrl::Rate_Limit_Mode',
+			'_mixer::reverb_lpg::LPG_ctrl::range_ctrl',
+			'_mixer::reverb_lpg::LPG_ctrl::delta_channel_wrapper'
+
 ];
 
 var additional_blocks = [];
