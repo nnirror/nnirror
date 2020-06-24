@@ -16,6 +16,8 @@ var blocked_list = [
 			'_drummatrix2::1/n',
 			'_drummatrix2::1/n',
 			'_drummatrix2::SubsetCtrl',
+			'_drummatrix2::prob_multislider_markov_ui_2019',
+			'_drummatrix2::∆prob_multislider_markov_ui_2019',
 			'_drummatrix2::∆SubsetCtrl',
 			'_drummatrix2::solo_matrix_backend',
 			'_drummatrix2::delta_solo_matrix_backend',
@@ -25,9 +27,15 @@ var blocked_list = [
 			'_drummatrix2::fill_mode',
 			'_drummatrix2::fill_every',
 			'_drummatrix2::SoloLock',
+			'_drummatrix2::ntrig_max',
 			'_drummatrix2::Delta_Solo_Matrix',
 			'_drummatrix2::DeltaSoloLock',
 			'_drummatrix2::preset_save_number',
+			'_drummatrix2::jam_probabilities',
+			'_drummatrix_midi2::_midi_seq2::preset_selector',
+			'_drummatrix_midi2::_midi_seq2::volume',
+			'_drummatrix_midi2::_midi_seq::preset_selector',
+			'_drummatrix_midi2::_midi_seq::volume',
 			'_drummatrix_midi2::Solo_Matrix',
 			'_drummatrix_midi2::solo_matrix_backend',
 			'_drummatrix_midi2::SoloLock',
@@ -88,8 +96,9 @@ var blocked_list = [
 			'_mixer::reverb_lpg::LPG_ctrl::Jam_Mode',
 			'_mixer::reverb_lpg::LPG_ctrl::Rate_Limit_Mode',
 			'_mixer::reverb_lpg::LPG_ctrl::range_ctrl',
-			'_mixer::reverb_lpg::LPG_ctrl::delta_channel_wrapper'
-
+			'_mixer::reverb_lpg::LPG_ctrl::delta_channel_wrapper',
+			'_mixer::genverb2019::verb_mode_wrapper',
+			'_mixer::genverb2019::verb_mode'
 ];
 
 var additional_blocks = [];
