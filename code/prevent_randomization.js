@@ -98,7 +98,12 @@ var blocked_list = [
 			'_mixer::reverb_lpg::LPG_ctrl::range_ctrl',
 			'_mixer::reverb_lpg::LPG_ctrl::delta_channel_wrapper',
 			'_mixer::genverb2019::verb_mode_wrapper',
-			'_mixer::genverb2019::verb_mode'
+			'_mixer::genverb2019::verb_mode',
+			'_mixer::MasterSolo',
+			'_mixer::MasterSoloLock',
+			'_mixer::SoloCtrl',
+			'_mixer::solo_decay_speed',
+			'_mixer::SoloRegenSpeed'
 ];
 
 var additional_blocks = [];
