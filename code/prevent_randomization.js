@@ -103,7 +103,8 @@ var blocked_list = [
 			'_mixer::MasterSoloLock',
 			'_mixer::SoloCtrl',
 			'_mixer::solo_decay_speed',
-			'_mixer::SoloRegenSpeed'
+			'_mixer::SoloRegenSpeed',
+			'_preset_select2'
 ];
 
 var additional_blocks = [];
