@@ -105,7 +105,8 @@ var blocked_list = [
 			'_mixer::solo_decay_speed',
 			'_mixer::SoloRegenSpeed',
 			'_preset_select2',
-			'_sandbox_modular::cv_gain'
+			'_sandbox_modular::cv_gain',
+			'global_randomization_metro'
 ];
 
 var additional_blocks = [];
