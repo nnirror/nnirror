@@ -501,14 +501,14 @@
 					"presentation_rect" : [ 1.5, 24.095897674560547, 12.331811904907227, 139.705780029296875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "_key_select",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 11.0,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "_key_select",
 							"parameter_type" : 3,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "_key_select"
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -572,13 +572,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 276.54022216796875, 110.01641845703125, 42.0, 35.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 276.54022216796875, 110.01641845703125, 42.411765575408936, 49.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -829,13 +829,13 @@
 					"presentation_rect" : [ 172.35284423828125, 24.095897674560547, 32.693264007568359, 139.532577514648438 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "scale_visualization",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0 ],
 							"parameter_shortname" : "scale_visualization",
-							"parameter_type" : 3,
-							"parameter_longname" : "scale_visualization"
+							"parameter_type" : 3
 						}
 
 					}
@@ -884,11 +884,11 @@
 					"patching_rect" : [ 17.0, 19.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"_key_select" : [ 7 ],
-						"scale_visualization" : [ 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0 ]
+						"scale_visualization" : [ 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u352001505"
+					"varname" : "u537028398"
 				}
 
 			}
@@ -1071,7 +1071,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 335.37353515625, 157.0, 199.61407470703125, 157.0 ],
+					"midpoints" : [ 335.37353515625, 165.823529243469238, 199.61407470703125, 165.823529243469238 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1159,32 +1159,15 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ]
-				}
-,
 				"newobj" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"message" : 				{
-					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1196,7 +1179,24 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
+				}
+,
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"button" : 				{
@@ -1258,8 +1258,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

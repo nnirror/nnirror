@@ -61,6 +61,27 @@
 					"candicane2" : [ 0.36078431372549, 0.352941176470588, 0.32156862745098, 0.43 ],
 					"candycane" : 2,
 					"contdata" : 1,
+					"id" : "obj-38",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 0,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 978.0, 99.0, 110.2166748046875, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.272207260131836, 1.0, 69.727787017822266, 22.0 ],
+					"slidercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.62 ],
+					"varname" : "range_ctrl_channel0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.953, 0.565, 0.098, 1.0 ],
+					"candicane2" : [ 0.36078431372549, 0.352941176470588, 0.32156862745098, 0.43 ],
+					"candycane" : 2,
+					"contdata" : 1,
 					"id" : "obj-16",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -109,10 +130,10 @@
 					"presentation_rect" : [ 84.0, 1.0, 17.729979127645493, 9.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "jam_amount[11]",
 							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "jam_amount",
-							"parameter_type" : 0,
-							"parameter_longname" : "jam_amount[11]"
+							"parameter_type" : 0
 						}
 
 					}
@@ -1042,7 +1063,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1054,7 +1074,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1647,7 +1666,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-23",
@@ -2518,7 +2536,7 @@
 				"box" : 				{
 					"comment" : "(2xfloat list  eg, 0. 1.)  set range",
 					"id" : "obj-10",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2531,7 +2549,7 @@
 				"box" : 				{
 					"comment" : "(int 0-1) speedlim gate for other processes that require that",
 					"id" : "obj-8",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3418,7 +3436,7 @@
 				"box" : 				{
 					"comment" : "(notevalues) speedlimit of module",
 					"id" : "obj-15",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3442,7 +3460,7 @@
 				"box" : 				{
 					"comment" : "(int 0-4) selected delta channel. when 0, no data gets through. useful for gating processes that can take delta or a regular input for counting, etc",
 					"id" : "obj-11",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3472,15 +3490,15 @@
 					"patching_rect" : [ 34.800002999999997, 37.0, 58.0, 22.0 ],
 					"restore" : 					{
 						"Channel" : [ 0 ],
-						"Rate Speed" : [ 12 ],
+						"Rate Speed" : [ 8 ],
 						"Rate_Limit_Mode" : [ 0.0 ],
-						"jam_amount" : [ 10 ],
-						"range_ctrl" : [ 1.0, -1.0 ],
+						"jam_amount" : [ 0 ],
+						"range_ctrl" : [ -1.0, 1.0 ],
 						"range_ctrl_channel0" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u088026891"
+					"varname" : "u255009331"
 				}
 
 			}
@@ -3571,7 +3589,7 @@
 					"patching_rect" : [ 407.20001220703125, 414.3333740234375, 41.0, 13.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.5, 14.0, 26.0, 13.0 ],
-					"text" : "128n",
+					"text" : "16n",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -3593,11 +3611,11 @@
 					"presentation_rect" : [ 84.0, 8.0, 17.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "ratecontrol[12]",
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 12.0,
 							"parameter_shortname" : "ratecontrol",
-							"parameter_type" : 3,
-							"parameter_longname" : "ratecontrol[12]"
+							"parameter_type" : 3
 						}
 
 					}
@@ -3623,11 +3641,11 @@
 					"presentation_rect" : [ -1.0, 12.0, 16.25, 12.75 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "Lim", "Lim" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "live.text[17]"
+							"parameter_type" : 2
 						}
 
 					}
@@ -3654,7 +3672,7 @@
 				"box" : 				{
 					"comment" : "(symbol) manually set display name",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3667,7 +3685,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3716,7 +3734,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3741,6 +3759,7 @@
 					"presentation_rect" : [ -4.102941155433655, -3.632352948188782, 20.57879638671875, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Channel",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 17.0,
@@ -3748,35 +3767,13 @@
 							"parameter_shortname" : "Channel",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Channel"
+							"parameter_linknames" : 1
 						}
 
 					}
 ,
 					"triangle" : 0,
 					"varname" : "Channel"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.953, 0.565, 0.098, 1.0 ],
-					"candicane2" : [ 0.36078431372549, 0.352941176470588, 0.32156862745098, 0.43 ],
-					"candycane" : 2,
-					"contdata" : 1,
-					"id" : "obj-38",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 978.0, 99.0, 110.2166748046875, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.272207260131836, 1.0, 69.727787017822266, 22.0 ],
-					"slidercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.62 ],
-					"varname" : "range_ctrl_channel0"
 				}
 
 			}
@@ -4379,6 +4376,34 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "ratecontrol[12]", "ratecontrol", 0 ],
+			"obj-23" : [ "jam_amount[11]", "jam_amount", 0 ],
+			"obj-142" : [ "Channel", "Channel", 0 ],
+			"obj-9" : [ "live.text[17]", "live.text", 0 ],
+			"obj-13" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "bpatcher_name.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_receive_mains_out.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -4408,10 +4433,16 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
+				"newobj" : 				{
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4425,15 +4456,9 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"newobj" : 				{
+				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",

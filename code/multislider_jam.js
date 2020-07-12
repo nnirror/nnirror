@@ -1,4 +1,4 @@
-inlets = 4;
+inlets = 5;
 outlets = 1;
 
 var data = [];
@@ -6,6 +6,7 @@ var smoothnesses = [];
 var change_limit = 0;
 var maximum_value;
 var minimum_value;
+var randomize_percentage = 1;
 
 function list() {
 	// sets global data
@@ -25,14 +26,23 @@ function list() {
 		minimum_value = limits[0];
 		maximum_value = limits[1];
 	}
+	if (inlet === 4) {
+		randomize_percentage = arrayfromargs(arguments);
+	}
 }
 
 function bang() {
 	var data_out = [];
 	for (var k = 0; k < data.length; k++) {
-		var new_value = changeByRandomAmount(data[k]);
-		var out = (new_value * smoothnesses[k]) + (parseFloat((Math.abs(smoothnesses[k] - 1)) * data[k]));
-		data_out[k] = out;
+		if ( Math.random() < randomize_percentage ) {
+			var new_value = changeByRandomAmount(data[k]);
+			var out = (new_value * smoothnesses[k]) + (parseFloat((Math.abs(smoothnesses[k] - 1)) * data[k]));
+			data_out[k] = out;
+		}
+		else {
+			// preserve because not randomly selected
+			data_out[k] = data[k];
+		}
 	}
 	outlet(0, data_out);
 }

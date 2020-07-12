@@ -163,8 +163,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 50.0, 98.0, 74.0, 22.0 ],
-									"text" : "snapshot~ 1"
+									"patching_rect" : [ 50.0, 98.0, 88.0, 22.0 ],
+									"text" : "snapshot~ 100"
 								}
 
 							}
@@ -345,8 +345,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 50.0, 98.0, 74.0, 22.0 ],
-									"text" : "snapshot~ 1"
+									"patching_rect" : [ 50.0, 98.0, 88.0, 22.0 ],
+									"text" : "snapshot~ 100"
 								}
 
 							}
@@ -721,14 +721,15 @@
 					"presentation_rect" : [ 274.827893197536469, 169.728195443749428, 51.149609118700027, 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "volume[1]",
+							"parameter_mmax" : 117.0,
 							"parameter_shortname" : "volume",
-							"parameter_type" : 0,
-							"parameter_longname" : "volume[1]"
+							"parameter_type" : 0
 						}
 
 					}
 ,
-					"setminmax" : [ 0.0, 127.0 ],
+					"setminmax" : [ 0.0, 117.0 ],
 					"slidercolor" : [ 0.682352941176471, 0.223529411764706, 0.23921568627451, 1.0 ],
 					"varname" : "volume"
 				}
@@ -765,11 +766,11 @@
 					"presentation_rect" : [ 220.990876644849777, 169.728195443749428, 48.837016552686691, 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "preset_selector[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "preset_selector",
 							"parameter_type" : 0,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "preset_selector[1]"
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -929,8 +930,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 50.0, 98.0, 74.0, 22.0 ],
-									"text" : "snapshot~ 1"
+									"patching_rect" : [ 50.0, 98.0, 88.0, 22.0 ],
+									"text" : "snapshot~ 100"
 								}
 
 							}
@@ -1012,7 +1013,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 1.0 ],
+					"args" : [ 0.0, 1.0, "@default", 0.5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1100,13 +1101,13 @@
 					"presentation_rect" : [ 294.083573713898659, 138.85344922542572, 33.959346115589142, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 11,
+							"parameter_longname" : "NoteLength[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 9,
 							"parameter_initial" : [ 7 ],
 							"parameter_shortname" : "NoteLength",
-							"parameter_enum" : [ "1n", "2n", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "NoteLength[1]",
-							"parameter_initial_enable" : 1
+							"parameter_enum" : [ "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1194,7 +1195,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 6.0,
 					"id" : "obj-326",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "Pro40 MIDI", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1250,19 +1251,19 @@
 					"patching_rect" : [ 241.137925267219543, 362.601625800132751, 56.0, 22.0 ],
 					"restore" : 					{
 						"NoteLength" : [ 6.0 ],
-						"NoteProbLock" : [ 0.4341000020504, 0.523999989032745, 0.800300002098083, 0.33840000629425, 0.571099996566772, 0.555400013923645, 0.464399993419647, 0.416599988937378, 0.44980001449585, 0.772199988365173, 0.407900005578995, 0.768800020217896, 0.115099996328354, 0.400099992752075, 0.263399988412857, 0.933700025081635 ],
-						"ProbProbLock" : [ 0.00760000012815, 0.5867999792099, 0.845300018787384, 0.995999991893768, 0.762399971485138, 0.33270001411438, 0.187900006771088, 0.616800010204315, 0.657100021839142, 0.487300008535385, 0.804499983787537, 0.271499991416931, 0.333200007677078, 0.386000007390976, 0.121399998664856, 0.02250000089407 ],
-						"SubsetCtrl" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+						"NoteProbLock" : [ 0.4341000020504, 0.523999989032745, 0.800300002098083, 0.33840000629425, 0.571099996566772, 0.555400013923645, 0.464399993419647, 0.416599988937378 ],
+						"ProbProbLock" : [ 0.00760000012815, 0.5867999792099, 0.845300018787384, 0.995999991893768, 0.762399971485138, 0.33270001411438, 0.187900006771088, 0.616800010204315 ],
+						"SubsetCtrl" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.343496292829514, 0.343496292829514, 0.343496292829514, 0.343496292829514, 0.343496292829514, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"Tempo" : [ 3.0 ],
 						"columns" : [ 16.0 ],
-						"midi_ch1" : [ 0 ],
-						"midi_notes" : [ 9, 12, 16, 20, 11, 13, 9, 7, 7, 8, 11, 13, 13, 19, 23, 23 ],
-						"preset_selector" : [ 1.0 ],
-						"volume" : [ 127.0 ]
+						"midi_ch1" : [ 11 ],
+						"midi_notes" : [ 23, 23, 16, 12, 11, 8, 17, 17, 18, 20, 17, 13, 15, 16, 17, 17 ],
+						"preset_selector" : [ 0.62279862165451 ],
+						"volume" : [ 106.358299255371094 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u501005249"
+					"varname" : "u172007190"
 				}
 
 			}
@@ -1443,13 +1444,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-56",
-													"linecount" : 6,
+													"linecount" : 13,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 50.0, 357.0 ],
-													"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
+													"text" : "1. 1. 1. 1. 1. 1. 0.343496 0.343496 0.343496 0.343496 0.343496 1. 1. 1. 1. 1."
 												}
 
 											}
@@ -1893,13 +1894,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "0.0076 0.5868 0.8453 0.996 0.7624 0.3327 0.1879 0.6168 0.6571 0.4873 0.8045 0.2715 0.3332 0.386 0.1214 0.0225"
+													"text" : "0.0076 0.5868 0.8453 0.996 0.7624 0.3327 0.1879 0.6168 0 0 0 0 0 0 0 0"
 												}
 
 											}
@@ -2426,13 +2427,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
+													"text" : "1. 1. 1. 1. 1. 1. 0.3435 0.3435 0.3435 0.3435 0.3435 1. 1. 1. 1. 1."
 												}
 
 											}
@@ -3018,17 +3019,17 @@
 					"presentation_rect" : [ -0.513604164123535, 160.44111305475235, 221.254480808973312, 16.316195487976074 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbProbLock[1]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "ProbProbLock",
+							"parameter_type" : 3
 						}
 
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 16,
+					"size" : 8,
 					"slidercolor" : [ 0.596078431372549, 0.188235294117647, 0.192156862745098, 1.0 ],
 					"thickness" : 10,
 					"varname" : "ProbProbLock"
@@ -3087,12 +3088,12 @@
 					"presentation_rect" : [ -0.513604164123535, 122.095804467797279, 221.254480808973312, 38.169878706336021 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"parameter_shortname" : "SubsetCtrl",
-							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[5]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"parameter_shortname" : "SubsetCtrl",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3144,13 +3145,13 @@
 					"presentation_rect" : [ 259.438134640455246, 138.85344922542572, 35.895439073443413, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Tempo[2]",
+							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 10,
 							"parameter_initial" : [ 5 ],
 							"parameter_shortname" : "Tempo",
 							"parameter_enum" : [ "1n", "2n", "4n", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "Tempo[1]",
-							"parameter_initial_enable" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -3349,13 +3350,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "0.4341 0.524 0.8003 0.3384 0.5711 0.5554 0.4644 0.4166 0.4498 0.7722 0.4079 0.7688 0.1151 0.4001 0.2634 0.9337"
+													"text" : "0.4341 0.524 0.8003 0.3384 0.5711 0.5554 0.4644 0.4166 0 0 0 0 0 0 0 0"
 												}
 
 											}
@@ -3717,17 +3718,17 @@
 					"presentation_rect" : [ -0.513604164123535, 104.44111305475235, 221.254480808973312, 17.890998721122742 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "NoteProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "NoteProbLock[1]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "NoteProbLock",
+							"parameter_type" : 3
 						}
 
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 16,
+					"size" : 8,
 					"slidercolor" : [ 0.596078431372549, 0.188235294117647, 0.192156862745098, 1.0 ],
 					"thickness" : 10,
 					"varname" : "NoteProbLock"
@@ -3843,13 +3844,13 @@
 					"presentation_rect" : [ 220.308051064610481, 138.85344922542572, 41.669451251626015, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_units" : "cols",
+							"parameter_longname" : "columns[1]",
+							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 16 ],
 							"parameter_shortname" : "columns",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 9,
-							"parameter_units" : "cols",
-							"parameter_longname" : "columns[1]",
-							"parameter_initial_enable" : 1
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -4043,7 +4044,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "9 12 16 20 11 13 9 7 7 8 11 13 13 19 23 23"
+													"text" : "23 23 16 12 11 8 17 17 18 20 17 13 15 16 17 17"
 												}
 
 											}
@@ -4455,10 +4456,10 @@
 					"presentation_rect" : [ -0.513604164123535, -0.284344553947449, 221.172569066286087, 105.166458040475845 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "midi_notes",
-							"parameter_type" : 3,
 							"parameter_longname" : "midi_notes[1]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "midi_notes",
+							"parameter_type" : 3
 						}
 
 					}
@@ -5294,10 +5295,17 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"default" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5311,11 +5319,12 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+				"button" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"message" : 				{
@@ -5332,14 +5341,6 @@
 					}
 ,
 					"fontface" : [ 1 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -96,7 +96,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "552.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................D.6VMjLgLd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3RNwPCM3HiL4TSMwLSL0LSLh.BQk41boQWd8HBLt.CMyLiM4jSL4.iMwXiMvbyMh.xUoQFcn0iHw3BLh.BSuc2P0QWOh.iK0HBHHk1YnMTcz0iHv3hLv.CLv.CLvHSN3.iLyHiLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
+									"blob" : "555.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................Dv6VMjLgXd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3hMv.CLv.CLxLCNzDCN0bSNh.BQk41boQWd8HBLtTiHfbUZjQGZ8HRLt.iHfvza2MTcz0iH03RM0DSLwTSLxLSLxTyM3LSYsDSMh.BRocFZCUGc8HBLt.yL4jSN4jSN4DCL0jyLvLyLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
 								}
 
 							}
@@ -104,7 +104,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u444001302"
+					"varname" : "u459028379"
 				}
 
 			}
@@ -195,13 +195,13 @@
 					"presentation_rect" : [ 99.733508259057999, 121.296828985214233, 32.917895197868347, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "verb_mode",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 7,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "verb_mode",
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "verb_mode"
+							"parameter_type" : 2
 						}
 
 					}
@@ -313,8 +313,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 978.0, 154.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 978.0, 154.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -361,8 +361,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 848.0, 154.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 848.0, 154.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -409,8 +409,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 718.0, 154.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 718.0, 154.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -477,13 +477,13 @@
 					"presentation_rect" : [ 99.733508259057999, -0.179690778255463, 32.668444633483887, 124.890532076358795 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "verb_sync",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "verb_sync",
 							"parameter_enum" : [ "sync", "sync" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "verb_sync"
+							"parameter_type" : 2
 						}
 
 					}
@@ -527,8 +527,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 573.0, 148.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 573.0, 148.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -563,8 +563,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 442.0, 148.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 442.0, 148.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -659,8 +659,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 96.0, 136.0, 74.0, 22.0 ],
-					"text" : "snapshot~ 1"
+					"patching_rect" : [ 96.0, 136.0, 88.0, 22.0 ],
+					"text" : "snapshot~ 100"
 				}
 
 			}
@@ -794,7 +794,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "552.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................D.6VMjLgLd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3RNwPCM3HiL4TSMwLSL0LSLh.BQk41boQWd8HBLt.CMyLiM4jSL4.iMwXiMvbyMh.xUoQFcn0iHw3BLh.BSuc2P0QWOh.iK0HBHHk1YnMTcz0iHv3hLv.CLv.CLvHSN3.iLyHiLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
+							"blob" : "555.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................Dv6VMjLgXd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3hMv.CLv.CLxLCNzDCN0bSNh.BQk41boQWd8HBLtTiHfbUZjQGZ8HRLt.iHfvza2MTcz0iH03RM0DSLwTSLxLSLxTyM3LSYsDSMh.BRocFZCUGc8HBLt.yL4jSN4jSN4DCL0jyLvLyLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -816,7 +816,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "552.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................D.6VMjLgLd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3RNwPCM3HiL4TSMwLSL0LSLh.BQk41boQWd8HBLt.CMyLiM4jSL4.iMwXiMvbyMh.xUoQFcn0iHw3BLh.BSuc2P0QWOh.iK0HBHHk1YnMTcz0iHv3hLv.CLv.CLvHSN3.iLyHiLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
+										"blob" : "555.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................Dv6VMjLgXd....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHSMh.BQkwVX48USy0iHv3hL0HBHDUFagk2UgIGb8HBLtHSMh.xPrUVXx0iHw3BLh.hQkUFYhE1Xq0iHv3hMv.CLv.CLxLCNzDCN0bSNh.BQk41boQWd8HBLtTiHfbUZjQGZ8HRLt.iHfvza2MTcz0iH03RM0DSLwTSLxLSLxTyM3LSYsDSMh.BRocFZCUGc8HBLt.yL4jSN4jSN4DCL0jyLvLyLh.RSuQlTgQWY8HBLtPSN0.CLv.CLzbiM3LyMwXiHfzzajQTYvQGZ8HBLt.iHfzzajUVOh.iKvTCLv.CLv.CL2PSMvTCNvXiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -1233,10 +1233,16 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
+				"newobj" : 				{
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1250,15 +1256,9 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"newobj" : 				{
+				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
