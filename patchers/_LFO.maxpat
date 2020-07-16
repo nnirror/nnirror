@@ -44,8 +44,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, -126.066650390625, 90.0, 22.0 ],
-					"text" : "loadmess 1000"
+					"patching_rect" : [ 216.0, -126.066650390625, 77.0, 22.0 ],
+					"text" : "loadmess 80"
 				}
 
 			}
@@ -252,9 +252,9 @@
 						"valueof" : 						{
 							"parameter_longname" : "unquant_max",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2000.0,
-							"parameter_initial" : [ 1000 ],
-							"parameter_shortname" : "live.numbox[44]",
+							"parameter_mmax" : 80.0,
+							"parameter_initial" : [ 80 ],
+							"parameter_shortname" : "unquant_max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_linknames" : 1
@@ -832,12 +832,12 @@
 					"presentation_rect" : [ 64.045814514160156, 46.333332061767578, 24.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : -1.0,
 							"parameter_longname" : "Y-Offset[1]",
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "Y-Offset",
-							"parameter_type" : 3,
-							"parameter_mmin" : -1.0
+							"parameter_type" : 3
 						}
 
 					}
@@ -1212,12 +1212,12 @@
 						"Low Ramp" : [ 0.0 ],
 						"Modulation Amount" : [ 0.0 ],
 						"Y-Offset" : [ 0.0 ],
-						"unquant_max" : [ 1.0 ],
+						"unquant_max" : [ 80.0 ],
 						"∆quant" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u605008999"
+					"varname" : "u661007952"
 				}
 
 			}
@@ -2836,31 +2836,15 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
-				"message" : 				{
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
 					"fontface" : [ 1 ]
 				}
 ,
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -2881,6 +2865,22 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"message" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
