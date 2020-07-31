@@ -68,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1448.333251999999902, 65.0, 88.0, 22.0 ],
-					"text" : "snapshot~ 100"
+					"patching_rect" : [ 1448.333251999999902, 65.0, 81.0, 22.0 ],
+					"text" : "snapshot~ 25"
 				}
 
 			}

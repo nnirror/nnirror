@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 110.0, 938.0, 687.0 ],
+		"rect" : [ 34.0, 56.0, 1724.0, 1030.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "(float) manually set metro MS",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -63,7 +63,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 500 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "manual_rate_wrapper",
+							"parameter_longname" : "manual_rate_wrapper[4]",
 							"parameter_mmax" : 8000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "manual_rate_wrapper",
@@ -74,7 +74,8 @@
 ,
 					"saved_object_attributes" : 					{
 						"initial" : [ 500 ],
-						"parameter_enable" : 1
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr manual_rate_wrapper @default_interp thresh 0.5",
@@ -95,7 +96,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "quantize_rate_wrapper",
+							"parameter_longname" : "quantize_rate_wrapper[4]",
 							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "quantize_rate_wrapper",
 							"parameter_type" : 0
@@ -105,7 +106,8 @@
 ,
 					"saved_object_attributes" : 					{
 						"initial" : [ 3 ],
-						"parameter_enable" : 1
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr quantize_rate_wrapper @default_interp thresh 0.5",
@@ -689,7 +691,7 @@
 				"box" : 				{
 					"comment" : "blocks ms externally when notevalues selected",
 					"id" : "obj-21",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -701,7 +703,7 @@
 				"box" : 				{
 					"comment" : "blocks notevalues externally when ms selected",
 					"id" : "obj-20",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -766,7 +768,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 45.0, 38.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u140018054"
+					"varname" : "u268013588"
 				}
 
 			}
@@ -882,7 +884,7 @@
 				"box" : 				{
 					"comment" : "(delta module input) to select rate",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -895,7 +897,7 @@
 				"box" : 				{
 					"comment" : "(float) time for metro input",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -979,7 +981,7 @@
 				"box" : 				{
 					"comment" : "(notevalues) time for metro input",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1002,14 +1004,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.75, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
-							"parameter_mmin" : 1.0,
-							"parameter_longname" : "Manual Rate[30]",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 8000.0,
 							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "Manual Rate"
+							"parameter_shortname" : "Manual Rate",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2,
+							"parameter_mmin" : 50.0,
+							"parameter_longname" : "Manual Rate[4]",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1033,13 +1035,13 @@
 					"presentation_rect" : [ 30.0, -1.0, 35.633335113525391, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Quantized_Rate",
 							"parameter_mmax" : 15,
 							"parameter_initial" : [ 3.0 ],
 							"parameter_shortname" : "Quantized_Rate",
-							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
+							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Quantized_Rate"
 						}
 
 					}
@@ -1361,7 +1363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
-					"midpoints" : [ 642.5, 285.0, 334.664443969726562, 285.0 ],
+					"midpoints" : [ 642.5, 284.397590339183807, 334.664443969726562, 284.397590339183807 ],
 					"order" : 3,
 					"source" : [ "obj-9", 0 ]
 				}
@@ -1402,7 +1404,20 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
+			"obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
+			"obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
+			"obj-97" : [ "Quantized_Rate", "Quantized_Rate", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

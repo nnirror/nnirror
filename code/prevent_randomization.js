@@ -16,6 +16,7 @@ var blocked_list = [
 			'_drummatrix2::1/n',
 			'_drummatrix2::1/n',
 			'_drummatrix2::ES5',
+			'_drummatrix2::Jam_On',
 			'_drummatrix2::es5_prob_multislider_markov_ui_2019',
 			'_drummatrix2::ES5SubsetCtrl',
 			'_drummatrix2::ES5ProbLock',
