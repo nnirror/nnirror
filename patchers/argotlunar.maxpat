@@ -39,13 +39,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 276.07784104347229, 365.898199200630188, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 276.07784104347229, 308.0, 82.0, 22.0 ],
+					"text" : "lores~ 2000 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 195.209578394889832, 308.0, 75.0, 22.0 ],
-					"text" : "lores~ 150 0"
+					"patching_rect" : [ 195.209578394889832, 308.0, 82.0, 22.0 ],
+					"text" : "lores~ 2000 0"
 				}
 
 			}
@@ -275,8 +299,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 594.0, 744.0, 77.0, 22.0 ],
-					"text" : "0.09"
+					"patching_rect" : [ 594.0, 744.0, 45.0, 22.0 ],
+					"text" : "pan $1"
 				}
 
 			}
@@ -305,9 +329,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 1239.0, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 193.0, 102.431861877441406, 24.735885620117188 ],
@@ -353,9 +377,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 1126.0, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 171.264114379882812, 102.431861877441406, 24.735885620117188 ],
@@ -401,9 +425,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 1013.0, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 149.8870849609375, 102.431861877441406, 24.735885620117188 ],
@@ -449,9 +473,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 896.0, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 128.151199340820312, 102.431861877441406, 24.735885620117188 ],
@@ -497,9 +521,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 774.199951171875, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 106.415313720703125, 102.431861877441406, 24.735885620117188 ],
@@ -545,9 +569,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 647.199951171875, 113.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 84.679428100585938, 102.431861877441406, 24.735885620117188 ],
@@ -605,9 +629,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 512.0999755859375, 119.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 63.94354248046875, 102.431861877441406, 24.735885620117188 ],
@@ -825,9 +849,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 390.0, 119.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 43.207656860351562, 102.431861877441406, 24.735885620117188 ],
@@ -870,7 +894,7 @@
 					"patching_rect" : [ 66.0, 51.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"lock_ui" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-						"v_values" : [ 0.759308695793152, 0.879999995231628, 0.379999995231628, 0.490000009536743, 0.670000016689301, 0.930000007152557, 0.090000003576279, 0.779999971389771, 0.319999992847443, 0.993565917015076, 0.747596919536591, 0.449999988079071, 0.259999990463257, 0.990000009536743 ],
+						"v_values" : [ 0.852713167667389, 0.317829459905624, 0.2945736348629, 0.279069781303406, 0.364341080188751, 0.302325576543808, 0.457364350557327, 0.418604642152786, 0.286821693181992, 0.418604642152786, 0.302325576543808, 0.263565897941589, 0.18604651093483, 0.0 ],
 						"vst~" : [ 							{
 								"filetype" : "C74Snapshot",
 								"version" : 2,
@@ -888,7 +912,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "907.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LvSVMjLgXz....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN4PCM1TCN1PiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK2TSNy.CN1jiMh.Bbg4VOh.iHf.WXtYWOh.iHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLtfyM4jSN4jSN0HBHo8Fc8HRNtbSLzPSMwPyMk0RL0HBHo8Fc10iHv3xL2jSN4jSN4TiHfPVcx0iHv3hMv.CLv.CLxPiHfPVcxYWOh.iKzjCLv.CLvDiHfPmbg41b8HBLtTiHfPmbg41b10iHv3hM2.CLv.CLwbiHfbFaoM2b8HBLtjiM2jSN4jSN0HBHmwVZyMmc8HBLtfCMzjiMwHiL1HBHlkFazUlbeQWdvUVOh.iK3LSN4jSN4bCMh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLh.hYw0iH33xLxXiM2HiM3TVKwTiHfXVb10iHvHBHk4lceQWdvUVOh.iHfTla180bnEFbk0iHvHBHk4lceM2ZkcWOh.iK0HBHjUFagk2WwUWXtQWOh.iKzXSL0LCNzXCMh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
+									"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
 								}
 
 							}
@@ -896,7 +920,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u627028372"
+					"varname" : "u355025363"
 				}
 
 			}
@@ -913,9 +937,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 53.0, 119.0, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.384977787733078, 22.471771240234375, 102.431861877441406, 24.735885620117188 ],
@@ -970,7 +994,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "907.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LvSVMjLgXz....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN4PCM1TCN1PiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK2TSNy.CN1jiMh.Bbg4VOh.iHf.WXtYWOh.iHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLtfyM4jSN4jSN0HBHo8Fc8HRNtbSLzPSMwPyMk0RL0HBHo8Fc10iHv3xL2jSN4jSN4TiHfPVcx0iHv3hMv.CLv.CLxPiHfPVcxYWOh.iKzjCLv.CLvDiHfPmbg41b8HBLtTiHfPmbg41b10iHv3hM2.CLv.CLwbiHfbFaoM2b8HBLtjiM2jSN4jSN0HBHmwVZyMmc8HBLtfCMzjiMwHiL1HBHlkFazUlbeQWdvUVOh.iK3LSN4jSN4bCMh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLh.hYw0iH33xLxXiM2HiM3TVKwTiHfXVb10iHvHBHk4lceQWdvUVOh.iHfTla180bnEFbk0iHvHBHk4lceM2ZkcWOh.iK0HBHjUFagk2WwUWXtQWOh.iKzXSL0LCNzXCMh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
+							"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -992,7 +1016,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "907.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LvSVMjLgXz....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN4PCM1TCN1PiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK2TSNy.CN1jiMh.Bbg4VOh.iHf.WXtYWOh.iHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLtfyM4jSN4jSN0HBHo8Fc8HRNtbSLzPSMwPyMk0RL0HBHo8Fc10iHv3xL2jSN4jSN4TiHfPVcx0iHv3hMv.CLv.CLxPiHfPVcxYWOh.iKzjCLv.CLvDiHfPmbg41b8HBLtTiHfPmbg41b10iHv3hM2.CLv.CLwbiHfbFaoM2b8HBLtjiM2jSN4jSN0HBHmwVZyMmc8HBLtfCMzjiMwHiL1HBHlkFazUlbeQWdvUVOh.iK3LSN4jSN4bCMh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLh.hYw0iH33xLxXiM2HiM3TVKwTiHfXVb10iHvHBHk4lceQWdvUVOh.iHfTla180bnEFbk0iHvHBHk4lceM2ZkcWOh.iK0HBHjUFagk2WwUWXtQWOh.iKzXSL0LCNzXCMh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
+										"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -1212,6 +1236,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
@@ -1312,15 +1343,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 1 ],
-					"source" : [ "obj-41", 6 ]
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-41", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-41", 5 ]
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-41", 6 ]
 				}
 
 			}
@@ -1363,6 +1394,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
@@ -1571,15 +1609,9 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
+				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1594,9 +1626,15 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"default" : 				{
+				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1670,8 +1708,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1689,8 +1727,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

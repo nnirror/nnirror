@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 164.0, 335.666656494140625, 129.0, 22.0 ],
+					"text" : "vexpr pow($f1/1\\,2.5)*1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
@@ -238,12 +252,12 @@
 					"presentation_rect" : [ 54.130435943603516, 12.618320465087891, 50.869564056396484, 192.002105712890625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
+							"parameter_longname" : "lock_ui[10]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "lock_ui",
-							"parameter_type" : 3,
-							"parameter_longname" : "lock_ui[11]"
+							"parameter_shortname" : "lock_ui"
 						}
 
 					}
@@ -367,7 +381,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 173.135162353515625, 54.391304016113281, 18.0 ],
 					"text" : "FM",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.1, 0.6, 0.1, 0.5 ]
 				}
 
 			}
@@ -403,7 +417,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 155.0, 54.391304016113281, 18.0 ],
 					"text" : "GRAIN",
-					"textcolor" : [ 0.1, 0.6, 0.1, 0.5 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -714,12 +728,12 @@
 					"presentation_rect" : [ 0.0, 13.358777046203613, 54.391304016113281, 191.08477783203125 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
+							"parameter_longname" : "Mixer / Send UI[20]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"parameter_shortname" : "Mixer / Send UI",
-							"parameter_type" : 3,
-							"parameter_longname" : "Mixer / Send UI[21]"
+							"parameter_shortname" : "Mixer / Send UI"
 						}
 
 					}
@@ -969,12 +983,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, -23.466663360595703, 142.0, 22.0 ],
 					"restore" : 					{
-						"MixerUI" : [ 0.160037443041801, 0.345147490501404, 0.148556336760521, 0.353835850954056, 0.349449306726456, 0.773173749446869, 0.578017950057983, 0.651887059211731, 0.33938929438591, 0.373939901590347, 0.497820109128952, 0.242797076702118, 0.297141522169113, 0.729485213756561, 0.882494032382965, 0.585618793964386, 0.59383898973465, 0.281278133392334, 0.298632919788361, 0.0, 0.0 ],
-						"lock_ui" : [ 0.309243440628052, 0.521202743053436, 0.296401053667068, 0.846364378929138, 0.32792866230011, 0.206656485795975, 0.455341249704361, 0.311650812625885, 0.622938871383667, 0.085587590932846, 0.571553111076355, 0.19637693464756, 0.360315263271332, 0.069323115050793, 0.368331581354141, 0.598010182380676, 0.244410678744316, 0.278746694326401, 0.969705581665039, 0.0, 0.0 ]
+						"MixerUI" : [ 0.495253831148148, 0.508878648281097, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.018385291099548, 0.059259738773108, 0.0, 0.0 ],
+						"lock_ui" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u607029547"
+					"varname" : "u718006860"
 				}
 
 			}
@@ -1033,7 +1047,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 21,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 164.0, 330.666656494140625, 944.0, 22.0 ],
+					"patching_rect" : [ 164.0, 381.666656494140625, 944.0, 22.0 ],
 					"text" : "master_mixer_output_channel"
 				}
 
@@ -1432,6 +1446,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-143", 0 ],
 					"midpoints" : [ 78.5, 187.0, 8.41668701171875, 187.0 ],
 					"order" : 1,
@@ -1654,16 +1675,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
 					"source" : [ "obj-68", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -1698,6 +1719,24 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "buttonGreen-1",
 				"default" : 				{
 					"bgcolor" : [ 0.043137, 0.364706, 0.094118, 1.0 ]
@@ -1709,8 +1748,8 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1722,19 +1761,19 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1745,7 +1784,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"button" : 				{
@@ -1754,6 +1793,15 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "ksliderWhite",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1778,6 +1826,15 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "newobjCyan-1",
+				"default" : 				{
+					"accentcolor" : [ 0.029546, 0.773327, 0.821113, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "newobjGreen-1",
 				"default" : 				{
 					"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
@@ -1789,8 +1846,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1810,6 +1867,15 @@
 				"default" : 				{
 					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
 					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "tap",
+				"default" : 				{
+					"fontname" : [ "Lato Light" ]
 				}
 ,
 				"parentstyle" : "",
