@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 303.0, 113.0, 67.0, 22.0 ],
+					"text" : "delay 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 312.0, 82.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 276.07784104347229, 148.0, 107.0, 22.0 ],
+					"text" : "plug argotlunar.vst"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
 					"index" : 2,
@@ -141,12 +177,12 @@
 					"presentation_rect" : [ 103.816839665174484, 133.151199340820312, 31.0, 84.584686279296875 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "lock_ui",
+							"parameter_type" : 3,
 							"parameter_longname" : "lock_ui[12]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "lock_ui",
-							"parameter_type" : 3
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 						}
 
 					}
@@ -726,10 +762,10 @@
 					"presentation_rect" : [ 103.816839665174484, -0.528228759765625, 31.0, 131.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "v_values",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "v_values",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "v_values",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -894,7 +930,7 @@
 					"patching_rect" : [ 66.0, 51.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"lock_ui" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-						"v_values" : [ 0.852713167667389, 0.317829459905624, 0.2945736348629, 0.279069781303406, 0.364341080188751, 0.302325576543808, 0.457364350557327, 0.418604642152786, 0.286821693181992, 0.418604642152786, 0.302325576543808, 0.263565897941589, 0.18604651093483, 0.0 ],
+						"v_values" : [ 0.534883737564087, 0.403100788593292, 0.372093021869659, 0.426356583833694, 0.519379854202271, 0.604651153087616, 0.713178277015686, 0.744186043739319, 0.69767439365387, 0.519379854202271, 0.302325576543808, 0.596899211406708, 0.713178277015686, 0.883720934391022 ],
 						"vst~" : [ 							{
 								"filetype" : "C74Snapshot",
 								"version" : 2,
@@ -912,7 +948,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
+									"blob" : "877.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LPLVMjLgfx....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN2.SNxXyMyfiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK0HBHvEla8HBLtTiHf.WXtYWOh.iK0HBHjUFagkWOh.iKvHCM2bSNwDyLh.BYkwVX4YWOh.iKvTCLv.CLv.CL2HBHo8Fc8HBLtLiL3TSM0XSLzHBHo8Fc10iHv3RLv.CLv.CLvDiHfPVcx0iHv3BNvPSN0TCNzHBHjUmb10iHv3RLv.CLv.CLvDiHfPmbg41b8HBLtTSLwDCL4DSLzHBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xMzHCLxjCL2DiHfXlYxUVb10iHv3RMh.hYw0iHv3RLzbiLzPSMwLiHfXVb10iHv3RMh.RYtY2WzkGbk0iHvHBHk4lceMGZgAWY8HBLh.RYtY2WysVY20iHv3RMh.BYkwVX48Ub0Elaz0iHv3BL2XSNxLCL2jCNh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
 								}
 
 							}
@@ -920,7 +956,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u355025363"
+					"varname" : "u562015957"
 				}
 
 			}
@@ -994,7 +1030,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
+							"blob" : "877.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LPLVMjLgfx....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN2.SNxXyMyfiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK0HBHvEla8HBLtTiHf.WXtYWOh.iK0HBHjUFagkWOh.iKvHCM2bSNwDyLh.BYkwVX4YWOh.iKvTCLv.CLv.CL2HBHo8Fc8HBLtLiL3TSM0XSLzHBHo8Fc10iHv3RLv.CLv.CLvDiHfPVcx0iHv3BNvPSN0TCNzHBHjUmb10iHv3RLv.CLv.CLvDiHfPmbg41b8HBLtTSLwDCL4DSLzHBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xMzHCLxjCL2DiHfXlYxUVb10iHv3RMh.hYw0iHv3RLzbiLzPSMwLiHfXVb10iHv3RMh.RYtY2WzkGbk0iHvHBHk4lceMGZgAWY8HBLh.RYtY2WysVY20iHv3RMh.BYkwVX48Ub0Elaz0iHv3BL2XSNxLCL2jCNh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1016,7 +1052,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "864.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................L.IVMjLgrw....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3RMh.RaogWOhDiHfjlavUGcecVXo4VOhDiHfXVYkQlXgM1Z8HRLtLCN2byM3bCNk0RLzHBHg0Fb8HRLh.RXsAmc8HBLtTiHf.WXt0iHv3RMh.Bbg4lc8HBLtTiHfPVYrEVd8HRLtLCN2byM3bCNk0RLzHBHjUFagkmc8HBLt.SMv.CLv.CLvbiHfj1az0iH43xMwPCM0DCM2TVKwTiHfj1azYWOh.iKw.CLv.CLv.SLh.BY0IWOh.iK1.CLv.CLvHCMh.BY0Imc8HBLtDCLv.CLv.CLwHBHzIWXtMWOh.iK0HBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xM0HBHlYlbkEmc8HBLtTiHfXVb8HBNtLiL1XyMxXCNk0RL0HBHlEmc8HBLtTiHfTla18Ec4AWY8HBLh.RYtY2WygVXvUVOh.iHfTla180bqU1c8HBLtTiHfPVYrEVdeEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPVcx8Ub0Elaz0iHv3BL2DCMxfSM2PiMh.RZuQ2WwUWXtQWOh.iKvbiM4HyLvbSN3HBHzIWXtM2Wz81YmwVY8HRLh.xYrk1by8Ecuc1YrUVOh.iHfXlbkUldk8Ecuc1YrUVOh.iHfL2XgwVYesVY40iHvHBHsEFcxkFde01aj8UL8HBLtTiHfzVXzIWZ38UauQ1WxziHv3RMh.RagQmbog2Ws8FYeMSOh.iK0HBHyMVXrUVOhDiHfzVXzIWZ380bxM1WwziHvHBHsEFcxkFdeMmbi8kL8HBLh.RagQmbog2WyI2XeMSOh.iHfzVXzIWZ38EYkMGceESOh.iHfzVXzIWZ38EYkMGceISOh.iHfzVXzIWZ38EYkMGceMSOh.iHfzVXzIWZ38UauQVYeESOh.iHfzVXzIWZ38UauQVYeISOh.iHfzVXzIWZ38UauQVYeMSOh.iHu3C."
+										"blob" : "877.CMlaKA....fQPMDZ....ADjTGEC...fy....PjjaoQG..................................LPLVMjLgfx....OAI0QOQESU4TPRIyWPI0SGIUPMABbx81YxEVae4VXsUVOhjjaoQmHfblbgklay0iHv3BN2.SNxXyMyfiHfzVZ30iHwHBHo4Fb0Q2WmEVZt0iHwHBHlUVYjIVXisVOhDiKyfyM2bCN2fSYsDCMh.RXsAWOhDiHfDVavYWOh.iK0HBHvEla8HBLtTiHf.WXtYWOh.iK0HBHjUFagkWOh.iKvHCM2bSNwDyLh.BYkwVX4YWOh.iKvTCLv.CLv.CL2HBHo8Fc8HBLtLiL3TSM0XSLzHBHo8Fc10iHv3RLv.CLv.CLvDiHfPVcx0iHv3BNvPSN0TCNzHBHjUmb10iHv3RLv.CLv.CLvDiHfPmbg41b8HBLtTSLwDCL4DSLzHBHzIWXtMmc8HBLh.xYrk1by0iHv3RMh.xYrk1byYWOh.iHfXVZrQWYx8Ec4AWY8HBLh.hYlIWYw0iHv3xMzHCLxjCL2DiHfXlYxUVb10iHv3RMh.hYw0iHv3RLzbiLzPSMwLiHfXVb10iHv3RMh.RYtY2WzkGbk0iHvHBHk4lceMGZgAWY8HBLh.RYtY2WysVY20iHv3RMh.BYkwVX48Ub0Elaz0iHv3BL2XSNxLCL2jCNh.BY0I2WwUWXtQWOh.iKvbSLzHCN0bCM1HBHo8FceEWcg4Fc8HBLt.yM1jiLy.yM4fiHfPmbg41beQ2amcFak0iHwHBHmwVZyM2Wz81YmwVY8HBLh.hYxUVY5U1Wz81YmwVY8HBLh.xbiEFak80ZkkWOh.iHfzVXzIWZ38UauQ1WwziHv3RMh.RagQmbog2Ws8FYeISOh.iK0HBHsEFcxkFde01aj80L8HBLtTiHfL2XgwVY8HRLh.RagQmbog2WyI2XeESOh.iHfzVXzIWZ380bxM1WxziHvHBHsEFcxkFdeMmbi80L8HBLh.RagQmbog2WjU1bz8UL8HBLh.RagQmbog2WjU1bz8kL8HBLh.RagQmbog2WjU1bz80L8HBLh.RagQmbog2Ws8FYk8UL8HBLh.RagQmbog2Ws8FYk8kL8HBLh.RagQmbog2Ws8FYk80L8HBLh7hO.."
 									}
 ,
 									"fileref" : 									{
@@ -1042,6 +1078,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-101", 0 ]
 				}
@@ -1065,6 +1108,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1518,6 +1568,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-82", 0 ]
 				}
@@ -1609,33 +1666,16 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
-				}
-,
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1646,7 +1686,24 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"button" : 				{
@@ -1708,8 +1765,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
