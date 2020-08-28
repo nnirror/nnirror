@@ -39,9 +39,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 633.0, 268.5, 60.0, 22.0 ],
+					"text" : "zl change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 422.999988555908203, 238.59967041015625, 60.0, 22.0 ],
+					"text" : "zl change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "(float) manually set metro MS",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -63,7 +87,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 500 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "manual_rate_wrapper[4]",
+							"parameter_longname" : "manual_rate_wrapper",
 							"parameter_mmax" : 8000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "manual_rate_wrapper",
@@ -96,7 +120,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "quantize_rate_wrapper[4]",
+							"parameter_longname" : "quantize_rate_wrapper",
 							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "quantize_rate_wrapper",
 							"parameter_type" : 0
@@ -691,7 +715,7 @@
 				"box" : 				{
 					"comment" : "blocks ms externally when notevalues selected",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -703,7 +727,7 @@
 				"box" : 				{
 					"comment" : "blocks notevalues externally when ms selected",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -768,7 +792,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 45.0, 38.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u268013588"
+					"varname" : "u017011247"
 				}
 
 			}
@@ -884,7 +908,7 @@
 				"box" : 				{
 					"comment" : "(delta module input) to select rate",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -897,7 +921,7 @@
 				"box" : 				{
 					"comment" : "(float) time for metro input",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -981,7 +1005,7 @@
 				"box" : 				{
 					"comment" : "(notevalues) time for metro input",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -991,7 +1015,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.92, 0.9, 0.039, 1.0 ],
+					"activebgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"fontsize" : 8.0,
 					"id" : "obj-9",
 					"maxclass" : "live.numbox",
@@ -1004,14 +1028,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.75, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : 50.0,
+							"parameter_longname" : "Manual Rate[28]",
+							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 8000.0,
 							"parameter_initial" : [ 500 ],
 							"parameter_shortname" : "Manual Rate",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
-							"parameter_mmin" : 50.0,
-							"parameter_longname" : "Manual Rate[4]",
-							"parameter_initial_enable" : 1
+							"parameter_unitstyle" : 2
 						}
 
 					}
@@ -1022,7 +1046,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"activebgcolor" : [ 0.92, 0.9, 0.039, 1.0 ],
 					"fontsize" : 6.0,
 					"id" : "obj-97",
 					"maxclass" : "live.menu",
@@ -1035,13 +1059,13 @@
 					"presentation_rect" : [ 30.0, -1.0, 35.633335113525391, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Quantized Rate[5]",
 							"parameter_mmax" : 15,
 							"parameter_initial" : [ 3.0 ],
-							"parameter_shortname" : "Quantized_Rate",
+							"parameter_shortname" : "Quantized Rate",
 							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
 							"parameter_type" : 2,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Quantized_Rate"
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -1228,6 +1252,68 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 432.499988555908203, 270.352951288223267, 247.664443969726562, 270.352951288223267 ],
+					"order" : 2,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 432.499988555908203, 304.199993000000006, 379.866669000000002, 304.199993000000006 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"midpoints" : [ 432.499988555908203, 301.799992999999972, 448.466675000000009, 301.799992999999972 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 642.5, 341.399992999999995, 617.725001317790998, 341.399992999999995, 617.725001317790998, 474.855557010395046, 648.0, 474.855557010395046 ],
+					"order" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 642.5, 336.863660613267882, 716.800006000000053, 336.863660613267882, 716.800006000000053, 272.199993000000006, 737.09997599999997, 272.199993000000006 ],
+					"order" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 1 ],
+					"midpoints" : [ 642.5, 296.897590339183807, 334.664443969726562, 296.897590339183807 ],
+					"order" : 3,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"order" : 2,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"midpoints" : [ 380.666655999999989, 191.999991999999992, 380.666656494140625, 191.999991999999992 ],
 					"source" : [ "obj-3", 0 ]
@@ -1344,80 +1430,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 642.5, 341.399992999999995, 617.725001317790998, 341.399992999999995, 617.725001317790998, 474.855557010395046, 648.0, 474.855557010395046 ],
-					"order" : 1,
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 642.5, 336.863660613267882, 716.800006000000053, 336.863660613267882, 716.800006000000053, 272.199993000000006, 737.09997599999997, 272.199993000000006 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"midpoints" : [ 642.5, 284.397590339183807, 334.664443969726562, 284.397590339183807 ],
-					"order" : 3,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"order" : 2,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 432.499988555908203, 242.352951288223267, 247.664443969726562, 242.352951288223267 ],
-					"order" : 2,
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-97", 1 ]
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 432.499988555908203, 304.199993000000006, 379.866669000000002, 304.199993000000006 ],
-					"order" : 1,
-					"source" : [ "obj-97", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 432.499988555908203, 301.799992999999972, 448.466675000000009, 301.799992999999972 ],
-					"order" : 0,
-					"source" : [ "obj-97", 1 ]
-				}
-
-			}
- ],
-		"parameters" : 		{
-			"obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
-			"obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
-			"obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
-			"obj-97" : [ "Quantized_Rate", "Quantized_Rate", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
