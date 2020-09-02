@@ -86,6 +86,7 @@ var blocked_list = [
 			'global_cell_speed',
 			'_delta::delta_self_EG_mod::Global_Tempo',
 			'global_shape_mode',
+			'_mixer::FFT_DryWet',
 			'_mixer::fm_lpg::LPG_ctrl::Channel',
 			'_mixer::fm_lpg::LPG_ctrl::Jam_Mode',
 			'_mixer::fm_lpg::LPG_ctrl::Rate_Limit_Mode',
