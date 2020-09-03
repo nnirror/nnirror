@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1129.392350316047668, -18.226491928100586, 47.0, 22.0 ],
+					"text" : "delay 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1077.703164577484131, -18.226491928100586, 47.0, 22.0 ],
+					"text" : "delay 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-24",
 					"knobcolor" : [ 0.584313725490196, 0.188235294117647, 0.0, 1.0 ],
@@ -72,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 964.473439335823059, -41.821416556835175, 29.0, 17.0 ],
+					"patching_rect" : [ 964.473439335823059, -98.569871425628662, 29.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.273162841796875, 12.591850280761719, 56.761501312255859, 17.0 ],
 					"text" : "interp",
@@ -99,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 964.473439335823059, -18.226491928100586, 42.0, 22.0 ],
+					"patching_rect" : [ 964.473439335823059, -70.860933065414429, 42.0, 22.0 ],
 					"text" : "t b b b"
 				}
 
@@ -111,7 +135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 964.473439335823059, -70.860933065414429, 67.0, 22.0 ],
+					"patching_rect" : [ 964.473439335823059, -127.609387934207916, 67.0, 22.0 ],
 					"text" : "delay 5000"
 				}
 
@@ -123,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 964.473439335823059, -103.569871425628662, 58.0, 22.0 ],
+					"patching_rect" : [ 964.473439335823059, -160.31832629442215, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -863,15 +887,15 @@
 					"presentation_rect" : [ 461.229736328125, 3.5, 43.090908050537109, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 9,
 							"parameter_units" : "counts",
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "interp_every_n_bars",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
 							"parameter_initial" : [ 16 ],
-							"parameter_shortname" : "interp_every_n_bars"
+							"parameter_shortname" : "interp_every_n_bars",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -2480,7 +2504,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u870166090"
+					"varname" : "u894868590"
 				}
 
 			}
@@ -2520,13 +2544,13 @@
 					"presentation_rect" : [ 461.229736328125, 16.041048049926758, 43.090908050537109, 13.739496231079102 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "auto_preset_movement_mode",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "auto_preset_movement_mode",
-							"parameter_enum" : [ "On", "On" ]
+							"parameter_enum" : [ "On", "On" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -3801,11 +3825,11 @@
 					"presentation_rect" : [ 336.821746826171875, 3.016394138336182, 26.090826034545898, 27.079574584960938 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "local2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "local2",
-							"parameter_enum" : [ "local", "local" ]
+							"parameter_enum" : [ "local", "local" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -3831,11 +3855,11 @@
 					"presentation_rect" : [ 180.313568115234375, 3.016393423080444, 26.090826034545898, 27.079574584960938 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "local1",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "local1",
-							"parameter_enum" : [ "local", "local" ]
+							"parameter_enum" : [ "local", "local" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -4121,7 +4145,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4134,7 +4157,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4607,34 +4629,15 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-								}
-,
 								"newobj" : 								{
-									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4644,7 +4647,26 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"button" : 								{
@@ -5148,34 +5170,15 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-								}
-,
 								"newobj" : 								{
-									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5185,7 +5188,26 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"button" : 								{
@@ -5229,8 +5251,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5248,8 +5270,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6235,24 +6257,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
-					"midpoints" : [ 973.973439335823059, 20.454545259475708, 1004.220769643783569, 20.454545259475708, 1004.220769643783569, -21.753246545791626, 1019.973439335823059, -21.753246545791626 ],
+					"midpoints" : [ 973.973439335823059, -27.364863038063049, 1019.973439335823059, -27.364863038063049 ],
 					"source" : [ "obj-108", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 996.973439335823059, 37.804878950119019, 1020.731731653213501, 37.804878950119019, 1020.731731653213501, 187.004192650318146, 290.341552734375, 187.004192650318146 ],
-					"source" : [ "obj-108", 2 ]
+					"destination" : [ "obj-129", 0 ],
+					"midpoints" : [ 985.473439335823059, -34.459457159042358, 1087.203164577484131, -34.459457159042358 ],
+					"source" : [ "obj-108", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 985.473439335823059, 14.861111223697662, 735.511898458003998, 14.861111223697662 ],
-					"source" : [ "obj-108", 1 ]
+					"destination" : [ "obj-131", 0 ],
+					"midpoints" : [ 996.973439335823059, -41.891889095306396, 1138.892350316047668, -41.891889095306396 ],
+					"source" : [ "obj-108", 2 ]
 				}
 
 			}
@@ -6432,6 +6454,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"midpoints" : [ 1087.203164577484131, 14.861111223697662, 735.511898458003998, 14.861111223697662 ],
+					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-130", 0 ]
 				}
@@ -6442,6 +6472,14 @@
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 382.341552734375, 183.989898949861526, 413.09442138671875, 183.989898949861526 ],
 					"source" : [ "obj-130", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 1138.892350316047668, 37.804878950119019, 1020.731731653213501, 37.804878950119019, 1020.731731653213501, 187.004192650318146, 290.341552734375, 187.004192650318146 ],
+					"source" : [ "obj-131", 0 ]
 				}
 
 			}
@@ -7634,34 +7672,15 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
 				"newobj" : 				{
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -7671,7 +7690,26 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"button" : 				{
@@ -7733,8 +7771,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7752,8 +7790,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
