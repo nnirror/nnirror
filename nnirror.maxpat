@@ -146,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1398.321492195129395, 314.55033574737547, 171.0, 169.0 ],
-					"text" : ";\rmax preempt 1;\rmax seteventinterval 1;\rmax setpollthrottle 2000;\rmax setqueuethrottle 600;\rmax setsysqelemthrottle 3000;\rmax overdrive 1;\rmax refreshrate 10;\rmax interval 1;\rmax setslop 1;\rdsp takeover 0;\r"
+					"text" : ";\rmax preempt 1;\rmax seteventinterval 1;\rmax setpollthrottle 2000;\rmax setqueuethrottle 800;\rmax setsysqelemthrottle 3000;\rmax overdrive 1;\rmax refreshrate 10;\rmax interval 1;\rmax setslop 1;\rdsp takeover 0;\r"
 				}
 
 			}
@@ -4896,8 +4896,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 288.814814329147339, 366.0, 22.0 ],
-									"text" : "9"
+									"patching_rect" : [ 50.0, 288.814814329147339, 366.0, 22.0 ]
 								}
 
 							}
@@ -6061,7 +6060,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1894.52783203125, 146.706944286823273, 202.0, 22.0 ],
 					"restore" : 					{
-						"_transport_bpm" : [ 362.829929324966542 ],
+						"_transport_bpm" : [ 181.295663962257805 ],
 						"global_randomization_metro" : [ 1 ],
 						"global_randomize_every" : [ 1.0 ],
 						"global_shape_mode" : [ 0.0 ],
