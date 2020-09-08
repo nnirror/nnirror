@@ -799,7 +799,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1131,7 +1131,7 @@
 
 					}
 ,
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ 0.0, 2.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
 					"size" : 21,
@@ -2931,7 +2931,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 51.333484649658203, 162.13330078125, 56.0, 22.0 ],
 					"restore" : 					{
-						"MasterSolo" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"MasterSolo" : [ 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1 ],
 						"MasterSoloLock" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"SoloRegenSpeed" : [ 5.0 ],
 						"master_volume" : [ 1.0 ],
@@ -2939,7 +2939,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u6001606491"
+					"varname" : "u3511612045"
 				}
 
 			}

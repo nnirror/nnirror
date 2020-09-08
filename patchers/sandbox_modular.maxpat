@@ -86,9 +86,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 295.86968994140625, 381.822338163852692, 108.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 351.41293203830719, 143.469695299863815, 104.5, 23.863636463880539 ],
@@ -110,9 +110,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 225.99365770816803, 420.789278984069824, 108.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.466764271259308, 143.469695299863815, 104.5, 23.863636463880539 ],
@@ -170,9 +170,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 153.166717529296875, 381.822338163852692, 108.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 130.600006103515625, 143.469695299863815, 104.5, 22.969697237014771 ],
@@ -252,13 +252,13 @@
 					"presentation_rect" : [ 106.147822871804237, 21.700223922729492, 21.978311717510223, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "external_tempo",
-							"parameter_mmax" : 2,
-							"parameter_initial" : [ 3.0 ],
 							"parameter_shortname" : "external_tempo",
 							"parameter_enum" : [ "1n", "2n", "4n" ],
 							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_linknames" : 1,
+							"parameter_longname" : "external_tempo",
+							"parameter_mmax" : 2,
+							"parameter_initial" : [ 3.0 ]
 						}
 
 					}
@@ -874,12 +874,12 @@
 					"presentation_rect" : [ 66.999998092651367, 1.600433349609375, 57.61203071475029, 14.066226720809937 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "cv_gain",
+							"parameter_type" : 0,
 							"parameter_longname" : "cv_gain",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 0.5,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "cv_gain",
-							"parameter_type" : 0
+							"parameter_initial" : [ 0.5 ]
 						}
 
 					}
@@ -1085,7 +1085,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u767016434"
+					"varname" : "u946016366"
 				}
 
 			}
@@ -1324,9 +1324,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "delta_select_ui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "int", "", "" ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 23.0, 176.199966430664062, 108.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.999998092651367, 16.200223922729492, 104.5, 26.0 ],
@@ -2875,7 +2875,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-94", 1 ],
-					"midpoints" : [ 62.166666666666671, 216.000006437301636, 98.5, 216.000006437301636 ],
+					"midpoints" : [ 54.75, 216.000006437301636, 98.5, 216.000006437301636 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -3034,9 +3034,6 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3047,19 +3044,13 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
-				}
-,
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3070,14 +3061,23 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"newobj" : 				{
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -3151,8 +3151,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
