@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -39,13 +39,57 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
+					"border" : 5.0,
+					"id" : "obj-300",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2551.509045839309692, 15.562500715255737, 54.0, 22.0 ],
-					"text" : "deferlow"
+					"numoutlets" : 0,
+					"patching_rect" : [ 920.767898082733154, 562.089310169219971, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1323.367340803146362, 0.781901597976685, 9.97031569480896, 828.455540418624878 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 5.0,
+					"id" : "obj-63",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 905.767898082733154, 547.089310169219971, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.367340803146362, 0.781901597976685, 9.97031569480896, 828.455540418624878 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 5.0,
+					"id" : "obj-49",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 905.767898082733154, 547.089310169219971, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 665.0, 429.77679705619812, 658.439697265625, 5.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 5.0,
+					"id" : "obj-35",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 890.767898082733154, 532.089310169219971, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 665.0, 248.77679705619812, 658.439697265625, 5.0 ]
 				}
 
 			}
@@ -120,8 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1398.321492195129395, 509.400023999999974, 119.0, 49.0 ],
-					"text" : ";\rmax setpollthrottle 1;\r"
+					"patching_rect" : [ 1398.321492195129395, 509.400023999999974, 126.0, 49.0 ],
+					"text" : ";\rmax setpollthrottle 10;\r"
 				}
 
 			}
@@ -287,7 +331,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 708.2156982421875, 280.342675805023191, 665.777760148048401, 153.925925076007843 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 249.544387817382812, 659.939697265625, 180.428520143032074 ],
+					"presentation_rect" : [ 665.0, 253.544387817382812, 659.939697265625, 180.428520143032074 ],
 					"varname" : "_drummatrix_midi2",
 					"viewvisibility" : 1
 				}
@@ -391,16 +435,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2768.184524953365326, 150.760997902271356, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.884866774082184, 0.767258882522583, 31.980770319700241, 11.977329969406128 ],
+					"presentation_rect" : [ 325.884866774082184, 0.767258882522583, 31.980770319700241, 11.977329969406128 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "shape", "shape" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "global_shape_mode",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "global_shape_mode",
-							"parameter_enum" : [ "shape", "shape" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "global_shape_mode"
 						}
 
 					}
@@ -665,7 +709,7 @@
 					"patching_rect" : [ 2409.073776423931122, 534.861876964569092, 42.562111020088196, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 373.406224131584167, 0.810402303934097, 36.183506220579147, 24.0 ],
+					"presentation_rect" : [ 378.406224131584167, 0.810402303934097, 36.183506220579147, 24.0 ],
 					"text" : "preset\nrandom",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -762,7 +806,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2250.687929213047028, 521.472259521484375, 161.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.794342875480652, 1.5, 251.054143309593201, 20.0 ],
+					"presentation_rect" : [ 412.794342875480652, 1.5, 251.054143309593201, 20.0 ],
 					"text" : "  dm    midi     mix    scale     ∆       ext      bpm",
 					"textcolor" : [ 0.694117665290833, 0.694117665290833, 0.694117665290833, 1.0 ]
 				}
@@ -781,7 +825,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2250.687929213047028, 532.46868896484375, 143.865249633789062, 25.00714111328125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 405.467170715332031, 2.407400757074356, 253.532829284667969, 8.345117896795273 ],
+					"presentation_rect" : [ 410.467170715332031, 2.407400757074356, 253.532829284667969, 8.345117896795273 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -1036,33 +1080,15 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontface" : [ 1 ]
-								}
-,
 								"newobj" : 								{
+									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontface" : [ 1 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1073,14 +1099,32 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
-								"toggle" : 								{
+								"default" : 								{
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
+								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
@@ -1297,15 +1341,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2724.152607321739197, 913.674889206886292, 143.865249633789062, 25.00714111328125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 405.467170715332031, 13.760881990194321, 253.532829284667969, 8.80645164847374 ],
+					"presentation_rect" : [ 410.467170715332031, 13.760881990194321, 253.532829284667969, 8.80645164847374 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
 							"parameter_longname" : "pattr_randomize_gates",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 0 ],
-							"parameter_shortname" : "pattr_randomize_gates",
-							"parameter_type" : 3
+							"parameter_shortname" : "pattr_randomize_gates"
 						}
 
 					}
@@ -1600,9 +1644,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2697.841823101043701, -89.050768857013736, 29.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.8841592669487, 1.924924671649933, 21.318182110786438, 15.0 ],
+					"presentation_rect" : [ 303.8841592669487, 1.924924671649933, 21.318182110786438, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : 1.0,
@@ -1610,8 +1655,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "global_randomize_every",
-							"parameter_type" : 1
+							"parameter_shortname" : "global_randomize_every"
 						}
 
 					}
@@ -1814,12 +1858,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-207",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -1960,12 +2005,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-207",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -2130,12 +2176,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-207",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -2270,14 +2317,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2955.555462598800659, 442.040008833385514, 40.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 3 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u390008127"
+					"varname" : "u943003030"
 				}
 
 			}
@@ -2313,14 +2360,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2815.370281517505646, 442.040008833385514, 40.0, 22.0 ],
-					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u652008128"
+					"varname" : "u955001711"
 				}
 
 			}
@@ -2781,12 +2827,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-192",
+									"linecount" : 7,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 49.438202202320099, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -2914,12 +2961,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-195",
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -3047,12 +3095,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-201",
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -3180,12 +3229,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-204",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -3313,12 +3363,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-210",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -3446,12 +3497,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-207",
+									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 37.640448451042175, 22.0 ],
-									"text" : "recall"
+									"text" : "_preset_select2|scripting_ui_patcher|textedit"
 								}
 
 							}
@@ -3941,7 +3993,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2460.740442454814911, 272.838069796562195, 69.347825050354004, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 211.370362162590027, 10.925925731658936, 114.59259021282196, 15.0 ],
+					"presentation_rect" : [ 216.370362162590027, 10.925925731658936, 114.59259021282196, 15.0 ],
 					"text" : "randomize    intensity    every",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -3970,7 +4022,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2471.147784888744354, -127.700406551361084, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.981106758117676, 2.293265283107758, 20.579345107078552, 20.579345107078552 ]
+					"presentation_rect" : [ 359.981106758117676, 2.293265283107758, 20.579345107078552, 20.579345107078552 ]
 				}
 
 			}
@@ -4503,16 +4555,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2532.94662156701088, -195.361030941020999, 56.104126632213593, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.925263345241547, 6.137408256530762, 30.210889101028442, 17.0 ],
+					"presentation_rect" : [ 326.925263345241547, 6.137408256530762, 30.210889101028442, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "off", "1n", "2n", "4n", "8n", "16n" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "global_randomization_metro",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 5,
 							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "global_randomization_metro",
-							"parameter_enum" : [ "off", "1n", "2n", "4n", "8n", "16n" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "global_randomization_metro"
 						}
 
 					}
@@ -4568,19 +4620,19 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2333.38664436340332, 192.2667236328125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.3841592669487, 1.924924671649933, 44.0, 15.0 ],
+					"presentation_rect" : [ 259.3841592669487, 1.924924671649933, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 5,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "randomization_intensity",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 100.0,
+							"parameter_mmax" : 25.0,
 							"parameter_initial" : [ 10 ],
-							"parameter_shortname" : "randomization_intensity",
-							"parameter_type" : 0
+							"parameter_shortname" : "randomization_intensity"
 						}
 
 					}
@@ -4616,7 +4668,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u084008065"
+					"varname" : "u784001070"
 				}
 
 			}
@@ -4642,19 +4694,19 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2280.716472983360291, 192.2667236328125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.384157299995422, 1.924924671649933, 44.0, 15.0 ],
+					"presentation_rect" : [ 214.384157299995422, 1.924924671649933, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 5,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "randomization_percentage",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 50.0,
+							"parameter_mmax" : 33.0,
 							"parameter_initial" : [ 10 ],
-							"parameter_shortname" : "randomization_percentage",
-							"parameter_type" : 0
+							"parameter_shortname" : "randomization_percentage"
 						}
 
 					}
@@ -4745,7 +4797,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u678008060"
+					"varname" : "u929000949"
 				}
 
 			}
@@ -4896,7 +4948,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 288.814814329147339, 366.0, 22.0 ]
+									"patching_rect" : [ 50.0, 288.814814329147339, 366.0, 22.0 ],
+									"text" : "18"
 								}
 
 							}
@@ -5214,7 +5267,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 738.20538330078125, 760.7437744140625, 143.511886596679688, 47.338157653808594 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.6422119140625, 664.7962646484375, 207.982421875, 163.941177368164062 ],
+					"presentation_rect" : [ 459.6422119140625, 664.7962646484375, 207.982421875, 163.941177368164062 ],
 					"varname" : "_global_scale_control",
 					"viewvisibility" : 1
 				}
@@ -5247,9 +5300,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1856.3333740234375, 296.07659912109375, 43.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.50128173828125, 3.203125, 35.83111572265625, 17.0 ],
+					"presentation_rect" : [ 48.50128173828125, 3.203125, 35.83111572265625, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 9,
 							"parameter_units" : "bpm",
 							"parameter_mmin" : 1.0,
@@ -5257,8 +5311,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 999.0,
 							"parameter_initial" : [ 120 ],
-							"parameter_shortname" : "_transport_bpm",
-							"parameter_type" : 0
+							"parameter_shortname" : "_transport_bpm"
 						}
 
 					}
@@ -5682,7 +5735,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 702.73492431640625, 438.73779296875, 667.08331298828125, 259.999969482421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 430.57666015625, 659.939697265625, 399.274169921875 ],
+					"presentation_rect" : [ 665.0, 435.463272094726562, 659.939697265625, 395.345598220825195 ],
 					"varname" : "_mixer",
 					"viewvisibility" : 1
 				}
@@ -5704,7 +5757,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 708.2156982421875, 36.0, 653.75, 236.166671752929688 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 0.5, 659.99993896484375, 250.044387817382812 ],
+					"presentation_rect" : [ 665.0, 0.5, 659.99993896484375, 250.044387817382812 ],
 					"varname" : "_drummatrix2",
 					"viewvisibility" : 1
 				}
@@ -5932,7 +5985,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.333329200744629, 729.1343994140625, 612.00006103515625, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 664.7962646484375, 457.697052001953125, 165.0545654296875 ],
+					"presentation_rect" : [ 5.0, 664.7962646484375, 457.697052001953125, 165.0545654296875 ],
 					"varname" : "_sandbox_modular",
 					"viewvisibility" : 1
 				}
@@ -6060,13 +6113,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1894.52783203125, 146.706944286823273, 202.0, 22.0 ],
 					"restore" : 					{
-						"_transport_bpm" : [ 181.295663962257805 ],
-						"global_randomization_metro" : [ 1 ],
+						"_transport_bpm" : [ 120.0 ],
+						"global_randomization_metro" : [ 0 ],
 						"global_randomize_every" : [ 1.0 ],
 						"global_shape_mode" : [ 0.0 ],
 						"pattr_randomize_gates" : [ 1, 1, 1, 1, 1, 1, 0 ],
-						"randomization_intensity" : [ 100.0 ],
-						"randomization_percentage" : [ 50.0 ]
+						"randomization_intensity" : [ 10.0 ],
+						"randomization_percentage" : [ 10.0 ]
 					}
 ,
 					"text" : "autopattr main_pattr @autorestore 0",
@@ -6079,12 +6132,12 @@
 					"active" : 					{
 						"_preset_select2" : 0,
 						"_preset_select2::preset_scripting" : 0,
-						"_preset_select2::u475014733" : 0,
+						"_preset_select2::u3281606239" : 0,
 						"_preset_select2::auto_preset_movement_mode" : 0,
 						"_preset_select2::interp_every_n_bars" : 0,
 						"_preset_select2::new_preset_slot_every_n" : 0,
 						"_preset_select2::scripting_ui_patcher" : 0,
-						"_preset_select2::scripting_ui_patcher::u226014736" : 0,
+						"_preset_select2::scripting_ui_patcher::u1731606238" : 0,
 						"_preset_select2::scripting_ui_patcher::textedit" : 0
 					}
 ,
@@ -6150,20 +6203,6 @@
 						"_mixer::grain_vocoder::pitch::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_mixer::grain_vocoder::filterQ::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_mixer::grain_vocoder::Dry/Wet::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::spectcomptest::vals_markov_ui::Rate::quantize_rate_wrapper" : [ 2, 0.5 ],
-						"_mixer::spectcomptest::vals_markov_ui::Rate::manual_rate_wrapper" : [ 2, 0.5 ],
-						"_mixer::spectcomptest::vals_markov_ui::Lock_Delta_Retrigger::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::spectcomptest::low_band::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::spectcomptest::mid_band::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::fm_lpg::LPG_ctrl::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::fm_lpg::LPG_Strike::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::fm_lpg::LPG_damp::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::grain_lpg::LPG_ctrl::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::grain_lpg::LPG_Strike::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::grain_lpg::LPG_damp::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::reverb_lpg::LPG_ctrl::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::reverb_lpg::LPG_Strike::delta_channel_wrapper" : [ 2, 0.5 ],
-						"_mixer::reverb_lpg::LPG_damp::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_mixer::clouds::Grain_Feed::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_mixer::clouds::Grain_Density::delta_channel_wrapper" : [ 2, 0.5 ],
 						"_mixer::clouds::Grain_Amp::delta_channel_wrapper" : [ 2, 0.5 ],
@@ -7169,7 +7208,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "int", "int", "int" ],
 					"patching_rect" : [ 1697.8228759765625, 509.4000244140625, 103.0, 22.0 ],
-					"text" : "t b b b b b b 6 6 0"
+					"text" : "t b b b b b b 5 6 0"
 				}
 
 			}
@@ -7185,7 +7224,7 @@
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"id" : "obj-25",
-					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Saffire", ",", "Aggregate Device" ],
+					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Aggregate Device" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7193,7 +7232,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1823.333374000000049, 625.093261999999982, 92.667541999999997, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 1.5, 65.625543653964996, 22.0 ],
+					"presentation_rect" : [ 153.0, 1.5, 65.625543653964996, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -7224,7 +7263,7 @@
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"id" : "obj-36",
-					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Saffire", ",", "Aggregate Device" ],
+					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Aggregate Device" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7232,7 +7271,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1557.733275999999933, 638.093261999999982, 92.667541999999997, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.3323974609375, 1.0, 68.704570651054382, 22.0 ],
+					"presentation_rect" : [ 85.3323974609375, 1.0, 68.704570651054382, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -7253,427 +7292,6 @@
 			}
 , 			{
 				"box" : 				{
-					"border" : 5.0,
-					"id" : "obj-30",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1760.9486083984375, 461.72906494140625, 5.303306102752686, 13.303305625915527 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1.140128970146179, 824.747189521789551, 1318.799568295478821, 5.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 5.0,
-					"id" : "obj-12",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1768.251953125, 461.72906494140625, 5.0, 13.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 20.0, 5.0, 809.850830078125 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 720.0, 629.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 307.800049000000001, 91.0, 39.0, 22.0 ],
-									"text" : "types"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 279.300049000000001, 54.0, 34.0, 22.0 ],
-									"text" : "t b b"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-60",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 52.576903999999999, 316.246216000000004, 43.0, 22.0 ],
-									"text" : "t b b s"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-59",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.576903999999999, 353.646118000000001, 217.399963000000014, 49.0 ],
-									"text" : "read \"Macintosh HD/Users/cella/12c/photos/export51.png\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-57",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.576903999999999, 285.046020999999996, 309.0, 22.0 ],
-									"text" : "sprintf read \\\"Macintosh HD/Users/cella/12c/photos/%s\\\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-56",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 424.300049000000001, 316.246216000000004, 30.0, 22.0 ],
-									"text" : "t b i"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-55",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 424.300049000000001, 353.646118000000001, 84.800055999999998, 22.0 ],
-									"text" : "random 124"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-52",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 374.300049000000001, 285.046020999999996, 69.0, 22.0 ],
-									"text" : "unpack s 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-51",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.500122000000005, 205.046082000000013, 40.0, 22.0 ],
-									"text" : "count"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-47",
-									"items" : [ "126.png", ",", "export-border.png", ",", "export.png", ",", "export1.png", ",", "export10.png", ",", "export100.png", ",", "export101.png", ",", "export102.png", ",", "export103.png", ",", "export104.png", ",", "export105.png", ",", "export106.png", ",", "export107.png", ",", "export108.png", ",", "export109.png", ",", "export11.png", ",", "export110.png", ",", "export111.png", ",", "export112.png", ",", "export113.png", ",", "export114.png", ",", "export115.png", ",", "export116.png", ",", "export117.png", ",", "export118.png", ",", "export119.png", ",", "export12.png", ",", "export120.png", ",", "export121.png", ",", "export122.png", ",", "export123.png", ",", "export124.png", ",", "export125.png", ",", "export126.png", ",", "export127.png", ",", "export128.png", ",", "export129.png", ",", "export13.png", ",", "export130.png", ",", "export131.png", ",", "export132.png", ",", "export134.png", ",", "export135.png", ",", "export136.png", ",", "export137.png", ",", "export138.png", ",", "export139.png", ",", "export14.png", ",", "export140.png", ",", "export15.png", ",", "export16.png", ",", "export17.png", ",", "export18.png", ",", "export19.png", ",", "export2.png", ",", "export20.png", ",", "export21.png", ",", "export22.png", ",", "export23.png", ",", "export24.png", ",", "export25.png", ",", "export26.png", ",", "export27.png", ",", "export28.png", ",", "export29.png", ",", "export3.png", ",", "export30.png", ",", "export31.png", ",", "export32.png", ",", "export33.png", ",", "export34.png", ",", "export35.png", ",", "export36.png", ",", "export37.png", ",", "export38.png", ",", "export39.png", ",", "export4.png", ",", "export40.png", ",", "export41.png", ",", "export42.png", ",", "export43.png", ",", "export44.png", ",", "export45.png", ",", "export46.png", ",", "export47.png", ",", "export48.png", ",", "export5.png", ",", "export51.png", ",", "export52.png", ",", "export6.png", ",", "export60.png", ",", "export61.png", ",", "export62.png", ",", "export63.png", ",", "export64.png", ",", "export65.png", ",", "export66.png", ",", "export67.png", ",", "export68.png", ",", "export69.png", ",", "export7-smaller.png", ",", "export7.png", ",", "export70.png", ",", "export71.png", ",", "export72.png", ",", "export73.png", ",", "export74.png", ",", "export75.png", ",", "export76.png", ",", "export77.png", ",", "export78.png", ",", "export79.png", ",", "export8.png", ",", "export80.png", ",", "export81.png", ",", "export82.png", ",", "export83.png", ",", "export84.png", ",", "export85.png", ",", "export86.png", ",", "export87.png", ",", "export88.png", ",", "export89.png", ",", "export9.png", ",", "export90.png", ",", "export91.png", ",", "export92.png", ",", "export93.png", ",", "export94.png", ",", "export95.png", ",", "export96.png", ",", "export97.png", ",", "export98.png", ",", "export99.png", ",", "hex.png", ",", "hex2.png", ",", "hex2.xcf", ",", "hex2pic.xcf", ",", "hex2pic2.png", ",", "hex2pic2.xcf", ",", "paris.jpg", ",", "pariscropped.jpg", ",", "self.png", ",", "tattoo glitch.png" ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 293.300049000000001, 241.246093999999999, 100.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-46",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 279.300049000000001, 165.846129999999988, 33.0, 22.0 ],
-									"text" : "t b s"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 279.300049000000001, 130.0, 252.0, 22.0 ],
-									"text" : "folder \"Macintosh HD/Users/cella/12c/photos\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 64.576903999999999, 417.046265000000005, 55.0, 22.0 ],
-									"text" : "jit.movie"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-61",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 279.300049000000001, 11.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-62",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.576903999999999, 499.046265000000005, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 303.800049000000001, 83.0, 317.300049000000001, 83.0 ],
-									"source" : [ "obj-1", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-62", 0 ],
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"midpoints" : [ 317.300049000000001, 120.0, 288.800049000000001, 120.0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"source" : [ "obj-35", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-47", 0 ],
-									"source" : [ "obj-46", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-51", 0 ],
-									"midpoints" : [ 288.800049000000001, 198.000002999999992, 260.000122000000033, 198.000002999999992 ],
-									"source" : [ "obj-46", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"source" : [ "obj-47", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-57", 0 ],
-									"midpoints" : [ 343.300049000000001, 273.646118000000001, 62.076903999999999, 273.646118000000001 ],
-									"source" : [ "obj-47", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 260.000122000000033, 234.646147000000013, 302.800049000000001, 234.646147000000013 ],
-									"source" : [ "obj-51", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-56", 0 ],
-									"source" : [ "obj-52", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 433.800049000000001, 383.312817999999993, 515.500039000000015, 383.312817999999993, 515.500039000000015, 232.646147000000013, 302.800049000000001, 232.646147000000013 ],
-									"source" : [ "obj-55", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-55", 1 ],
-									"midpoints" : [ 444.800049000000001, 342.779349000000025, 499.600104999999985, 342.779349000000025 ],
-									"source" : [ "obj-56", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-55", 0 ],
-									"source" : [ "obj-56", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"source" : [ "obj-57", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"source" : [ "obj-59", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"midpoints" : [ 62.076903999999999, 347.146118000000001, 51.871765000000003, 347.146118000000001, 51.871765000000003, 406.146118000000001, 74.076903999999999, 406.146118000000001 ],
-									"source" : [ "obj-60", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-59", 1 ],
-									"midpoints" : [ 86.076903999999999, 344.146118000000001, 272.476867000000027, 344.146118000000001 ],
-									"source" : [ "obj-60", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
-									"source" : [ "obj-60", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-61", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1778.5, 419.948730000000012, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p setnavbarpic"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"automation" : "On",
 					"automationon" : "On",
 					"id" : "obj-16",
@@ -7684,17 +7302,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1955.52783203125, 258.62823486328125, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 5.0, 40.0, 14.96148681640625 ],
+					"presentation_rect" : [ 7.0, 5.0, 40.0, 14.96148681640625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "On", "On" ],
+							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Global Transport On",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Global Transport On",
-							"parameter_enum" : [ "On", "On" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "Global Transport On"
 						}
 
 					}
@@ -7794,22 +7412,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.333329, 43.147644, 669.75, 637.945617999999968 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 50.0, 663.6246337890625, 619.02716064453125 ],
+					"presentation_rect" : [ 5.0, 50.0, 663.6246337890625, 619.02716064453125 ],
 					"varname" : "_delta",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1778.5, 455.112000000000023, 89.0, 22.241876999999999 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 488.6422119140625, 666.6802978515625, 832.04559326171875, 163.1705322265625 ]
 				}
 
 			}
@@ -7825,7 +7430,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 777.66290283203125, 507.755950927734375, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.271037220954895, 658.0, 22.228963732719421 ],
+					"presentation_rect" : [ 6.0, 1.271037220954895, 658.0, 22.228963732719421 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -7849,7 +7454,7 @@
 					"outlettype" : [ "", "", "bang", "" ],
 					"patching_rect" : [ 1403.901703059673309, 36.0, 793.201827734708786, 32.038770854473114 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.37036806344986, 20.814816951751709, 664.71148681640625, 31.826271057128906 ],
+					"presentation_rect" : [ 5.37036806344986, 20.814816951751709, 664.71148681640625, 31.826271057128906 ],
 					"varname" : "_preset_select2",
 					"viewvisibility" : 1
 				}
@@ -7930,7 +7535,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u331014722"
+					"varname" : "u9321606228"
 				}
 
 			}
@@ -7973,7 +7578,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u749014724"
+					"varname" : "u1271606230"
 				}
 
 			}
@@ -8016,7 +7621,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u194014728"
+					"varname" : "u0391606232"
 				}
 
 			}
@@ -8119,7 +7724,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u242014730"
+					"varname" : "u5461606234"
 				}
 
 			}
@@ -8174,7 +7779,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u272014732"
+					"varname" : "u2901606236"
 				}
 
 			}
@@ -9960,8 +9565,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"midpoints" : [ 2822.101191133260727, 241.666660904884338, 2927.499930202960968, 241.666660904884338, 2927.499930202960968, 8.333333134651184, 2561.009045839309692, 8.333333134651184 ],
+					"destination" : [ "obj-225", 0 ],
+					"midpoints" : [ 2822.101191133260727, 241.666660904884338, 2927.499930202960968, 241.666660904884338, 2927.499930202960968, 8.333333134651184, 2561.074263453483582, 8.333333134651184 ],
 					"source" : [ "obj-255", 1 ]
 				}
 
@@ -10082,17 +9687,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-270", 0 ],
-					"midpoints" : [ 2480.647784888744354, 0.0, 2456.296215772628784, 0.0, 2456.296215772628784, -68.888886630535126, 2342.88664436340332, -68.888886630535126 ],
-					"source" : [ "obj-269", 0 ]
+					"destination" : [ "obj-225", 0 ],
+					"midpoints" : [ 2501.647784888744354, 6.561875760555267, 2561.074263453483582, 6.561875760555267 ],
+					"source" : [ "obj-269", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"midpoints" : [ 2501.647784888744354, 6.561875760555267, 2561.009045839309692, 6.561875760555267 ],
-					"source" : [ "obj-269", 1 ]
+					"destination" : [ "obj-270", 0 ],
+					"midpoints" : [ 2480.647784888744354, 0.0, 2456.296215772628784, 0.0, 2456.296215772628784, -68.888886630535126, 2342.88664436340332, -68.888886630535126 ],
+					"source" : [ "obj-269", 0 ]
 				}
 
 			}
@@ -10486,13 +10091,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-225", 0 ],
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -10671,13 +10269,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-63", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
@@ -10778,14 +10369,6 @@
 					"destination" : [ "obj-43", 0 ],
 					"midpoints" : [ 1789.752737862723279, 360.743541999999991, 1844.948632000000089, 360.743541999999991, 1844.948632000000089, 291.274314000000004, 1865.8333740234375, 291.274314000000004 ],
 					"source" : [ "obj-7", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"midpoints" : [ 1752.89559500558039, 382.000024999999994, 1788.0, 382.000024999999994 ],
-					"source" : [ "obj-7", 3 ]
 				}
 
 			}
@@ -11148,1276 +10731,1112 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-25::obj-34" : [ "Amplitude[2]", "Amplitude", 0 ],
-			"obj-4::obj-174::obj-112::obj-11" : [ "delta_channel_wrapper[61]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-373::obj-112::obj-108" : [ "Hard_Sync_Threshold[5]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-34::obj-12::obj-30" : [ "randomize_percentage[20]", "randomize_percentage", 0 ],
-			"obj-2::obj-23::obj-3::obj-47" : [ "modulation_indices[38]", "modulation_indices", 0 ],
-			"obj-2::obj-26::obj-50" : [ "osc_interp", "osc_interp", 0 ],
-			"obj-2::obj-8::obj-6::obj-23" : [ "jam_amount[44]", "jam_amount", 0 ],
-			"obj-2::obj-25::obj-42::obj-23" : [ "jam_amount[62]", "jam_amount", 0 ],
-			"obj-2::obj-125::obj-23" : [ "jam_amount[70]", "jam_amount", 0 ],
-			"obj-51::obj-226::obj-112::obj-11" : [ "delta_channel_wrapper[125]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-1::obj-67::obj-4" : [ "chord", "chord", 0 ],
-			"obj-1::obj-148::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[44]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-14::obj-27::obj-23" : [ "jam_amount[11]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-15::obj-80::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
-			"obj-3::obj-6::obj-93" : [ "Trig mode", "Trig mode", 0 ],
-			"obj-3::obj-3::obj-22::obj-29::obj-97" : [ "Quantized Rate[2]", "Quantized Rate", 0 ],
-			"obj-39::obj-16::obj-190::obj-55" : [ "live.text[222]", "live.text[1]", 0 ],
-			"obj-39::obj-1::obj-68" : [ "Mixer / Send UI[9]", "Mixer / Send UI", 0 ],
-			"obj-4::obj-190::obj-29::obj-9" : [ "Manual Rate[49]", "Manual Rate", 0 ],
-			"obj-4::obj-148::obj-29::obj-22" : [ "quantize_rate_wrapper[27]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-239::obj-325::obj-47" : [ "modulation_indices[43]", "modulation_indices", 0 ],
-			"obj-4::obj-113::obj-142" : [ "Channel[145]", "Channel", 0 ],
-			"obj-4::obj-257::obj-29::obj-9" : [ "Manual Rate[43]", "Manual Rate", 0 ],
-			"obj-4::obj-271" : [ "DecayControl[1]", "DecayControl", 0 ],
-			"obj-2::obj-15::obj-3::obj-32" : [ "off[9]", "off", 0 ],
-			"obj-2::obj-10::obj-34::obj-9" : [ "live.text[250]", "live.text", 0 ],
-			"obj-2::obj-25::obj-39" : [ "verb_sync", "verb_sync", 0 ],
-			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[273]", "live.text", 0 ],
-			"obj-51::obj-26::obj-186::obj-82::obj-23" : [ "jam_amount[71]", "jam_amount", 0 ],
-			"obj-3::obj-49::obj-60" : [ "live.numbox[44]", "live.numbox[44]", 0 ],
-			"obj-3::obj-33::obj-12::obj-15::obj-9" : [ "Delta Channel Menu[11]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-33::obj-13::obj-24" : [ "offset[4]", "offset", 0 ],
-			"obj-3::obj-2::obj-107::obj-29::obj-9" : [ "Manual Rate[94]", "Manual Rate", 0 ],
-			"obj-3::obj-4::obj-114::obj-9" : [ "live.text[191]", "live.text", 0 ],
-			"obj-3::obj-3::obj-22::obj-32" : [ "off", "off", 0 ],
-			"obj-39::obj-204::obj-190::obj-30" : [ "randomize_percentage[7]", "randomize_percentage", 0 ],
-			"obj-39::obj-82::obj-142" : [ "Channel[120]", "Channel", 0 ],
-			"obj-4::obj-41::obj-9" : [ "Hard Sync Toggle[73]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-190::obj-55" : [ "live.text[260]", "live.text[1]", 0 ],
-			"obj-4::obj-174::obj-55" : [ "live.text[265]", "live.text[1]", 0 ],
-			"obj-4::obj-68::obj-23" : [ "jam_amount[26]", "jam_amount", 0 ],
-			"obj-4::obj-229" : [ "ProbLock[7]", "ProbLock", 0 ],
-			"obj-2::obj-52::obj-70::obj-9" : [ "live.text[230]", "live.text", 0 ],
-			"obj-2::obj-8::obj-112::obj-11" : [ "delta_channel_wrapper[96]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-48::obj-23" : [ "jam_amount[50]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-86::obj-23" : [ "jam_amount[58]", "jam_amount", 0 ],
-			"obj-51::obj-226::obj-30" : [ "randomize_percentage[28]", "randomize_percentage", 0 ],
-			"obj-1::obj-1::obj-46::obj-12" : [ "ratecontrol[158]", "ratecontrol", 0 ],
-			"obj-1::obj-148::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[11]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-25::obj-5::obj-9" : [ "Manual Rate[36]", "Manual Rate", 0 ],
-			"obj-3::obj-33::obj-13::obj-16::obj-9" : [ "Delta Channel Menu[3]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-33::obj-15::obj-82::obj-13" : [ "delta_channel_wrapper[10]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-29" : [ "gain_reset_button[3]", "gain_reset_button", 0 ],
-			"obj-3::obj-11::obj-7::obj-112::obj-9" : [ "Hard Sync Toggle[50]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-4::obj-102::obj-23" : [ "jam_amount[9]", "jam_amount", 0 ],
-			"obj-3::obj-3::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[35]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-7::obj-9" : [ "live.text[17]", "live.text", 0 ],
-			"obj-4::obj-148::obj-112::obj-107" : [ "Delta Channel #[48]", "Delta Channel #", 0 ],
-			"obj-4::obj-192" : [ "preset_pattern_storage[2]", "preset_pattern_storage", 0 ],
-			"obj-2::obj-365::obj-3::obj-29::obj-97" : [ "Quantized Rate[9]", "Quantized Rate", 0 ],
-			"obj-2::obj-43::obj-70::obj-12" : [ "ratecontrol[107]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-42::obj-112::obj-11" : [ "delta_channel_wrapper[92]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-53" : [ "hi_smooth", "hi_smooth", 0 ],
-			"obj-2::obj-1::obj-66::obj-12" : [ "ratecontrol[134]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-40" : [ "v_values", "v_values", 0 ],
-			"obj-2::obj-4" : [ "SoloRegenSpeed", "SoloRegenSpeed", 0 ],
-			"obj-1::obj-1::obj-77" : [ "note_rate_wrapper", "note_rate_wrapper", 0 ],
-			"obj-5::obj-140" : [ "auto_preset_movement_mode", "auto_preset_movement_mode", 0 ],
-			"obj-3::obj-33::obj-12::obj-5::obj-97" : [ "Quantized Rate[30]", "Quantized Rate", 0 ],
-			"obj-3::obj-33::obj-12::obj-17" : [ "modulation source select[2]", "modulation source select", 0 ],
-			"obj-3::obj-33::obj-13::obj-53" : [ "gain[3]", "gain", 0 ],
-			"obj-3::obj-33::obj-14::obj-5::obj-97" : [ "Quantized Rate[31]", "Quantized Rate", 0 ],
-			"obj-3::obj-11::obj-4::obj-29::obj-97" : [ "Quantized Rate[101]", "Quantized Rate", 0 ],
-			"obj-3::obj-4::obj-11::obj-12" : [ "ratecontrol[76]", "ratecontrol", 0 ],
-			"obj-3::obj-12::obj-22::obj-30" : [ "randomize_percentage[6]", "randomize_percentage", 0 ],
-			"obj-4::obj-252::obj-29::obj-9" : [ "Manual Rate[47]", "Manual Rate", 0 ],
-			"obj-4::obj-253::obj-29::obj-9" : [ "Manual Rate[50]", "Manual Rate", 0 ],
-			"obj-4::obj-126::obj-142" : [ "Channel[140]", "Channel", 0 ],
-			"obj-4::obj-373::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-276" : [ "which_matrix_pos_ctrl", "which_matrix_pos_ctrl", 0 ],
-			"obj-4::obj-328" : [ "ProbLock[8]", "ProbLock", 0 ],
-			"obj-2::obj-52::obj-31::obj-23" : [ "jam_amount[40]", "jam_amount", 0 ],
-			"obj-2::obj-8::obj-34::obj-23" : [ "jam_amount[45]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-12::obj-29::obj-23" : [ "manual_rate_wrapper[40]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-25::obj-45::obj-12" : [ "ratecontrol[153]", "ratecontrol", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-22" : [ "quantize_rate_wrapper[37]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-1::obj-60::obj-23" : [ "jam_amount[75]", "jam_amount", 0 ],
-			"obj-1::obj-1::obj-30" : [ "NoteLength", "NoteLength", 0 ],
-			"obj-1::obj-148::obj-278" : [ "NoteProbLock[1]", "NoteProbLock", 0 ],
-			"obj-3::obj-49::obj-5::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-49::obj-1" : [ "Waveform[1]", "Waveform", 0 ],
-			"obj-3::obj-25::obj-110::obj-11" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-8" : [ "delta_speedlim_toggle[7]", "delta_speedlim_toggle", 0 ],
-			"obj-3::obj-47::obj-22::obj-29::obj-9" : [ "Manual Rate[93]", "Manual Rate", 0 ],
-			"obj-3::obj-11::obj-7::obj-32" : [ "off[51]", "off", 0 ],
-			"obj-3::obj-4::obj-105::obj-23" : [ "jam_amount[10]", "jam_amount", 0 ],
-			"obj-3::obj-3::obj-22::obj-30" : [ "randomize_percentage[5]", "randomize_percentage", 0 ],
-			"obj-3::obj-3::obj-22::obj-67" : [ "min_max_offset_ui[5]", "min_max_offset_ui", 0 ],
-			"obj-39::obj-15::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[17]", "manual_rate_wrapper", 0 ],
-			"obj-39::obj-28::obj-13" : [ "delta_channel_wrapper[40]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-289::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized_Rate", 0 ],
-			"obj-4::obj-302" : [ "Delta Trigger Note Volume[1]", "Delta Trigger Note Volume", 0 ],
-			"obj-2::obj-70::obj-42::obj-67" : [ "min_max_offset_ui[26]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-11::obj-6::obj-9" : [ "live.text[251]", "live.text", 0 ],
-			"obj-2::obj-1::obj-72::obj-12" : [ "ratecontrol[148]", "ratecontrol", 0 ],
-			"obj-2::obj-25::obj-19::obj-12" : [ "ratecontrol[104]", "ratecontrol", 0 ],
-			"obj-2::obj-118::obj-12" : [ "ratecontrol[157]", "ratecontrol", 0 ],
-			"obj-1::obj-1::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[9]", "Hard Sync Toggle", 0 ],
-			"obj-16" : [ "Global Transport On", "Global Transport On", 0 ],
-			"obj-3::obj-49::obj-43" : [ "High Ramp[1]", "High Ramp", 0 ],
-			"obj-3::obj-33::obj-12::obj-80::obj-142" : [ "Channel[116]", "Channel", 0 ],
-			"obj-3::obj-33::obj-12::obj-27" : [ "delta_smooth_toggle[2]", "delta_smooth_toggle", 0 ],
-			"obj-3::obj-11::obj-4::obj-112::obj-9" : [ "Hard Sync Toggle[51]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-11::obj-181" : [ "jamRange[2]", "jamRange", 0 ],
-			"obj-3::obj-6::obj-19" : [ "Smooth Output On/Off[3]", "Smooth Output On/Off", 0 ],
-			"obj-3::obj-12::obj-56::obj-9" : [ "Delta Channel Menu[13]", "Delta Channel Menu", 0 ],
-			"obj-39::obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
-			"obj-4::obj-252::obj-112::obj-108" : [ "Hard Sync Threshold[49]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-220" : [ "ProbLock[6]", "ProbLock", 0 ],
-			"obj-2::obj-365::obj-68" : [ "Mixer / Send UI[21]", "Mixer / Send UI", 0 ],
-			"obj-2::obj-26::obj-70::obj-142" : [ "Channel[9]", "Channel", 0 ],
-			"obj-2::obj-52::obj-30::obj-23" : [ "jam_amount[41]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-19::obj-12" : [ "ratecontrol[146]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-12::obj-112::obj-108" : [ "Hard_Sync_Threshold[6]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-25::obj-48::obj-12" : [ "ratecontrol[154]", "ratecontrol", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-11" : [ "delta_channel_wrapper[44]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[43]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-43::obj-32" : [ "off[78]", "off", 0 ],
-			"obj-1::obj-148::obj-2" : [ "midi_notes[1]", "midi_notes", 0 ],
-			"obj-173" : [ "global_randomize_every", "global_randomize_every", 0 ],
-			"obj-3::obj-49::obj-5::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-49::obj-79" : [ "∆quant", "∆quant", 0 ],
-			"obj-3::obj-25::obj-14::obj-13" : [ "delta_channel_wrapper[4]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-13::obj-80::obj-9" : [ "live.text[211]", "live.text", 0 ],
-			"obj-3::obj-33::obj-15::obj-36" : [ "smooth_ramp_up[2]", "smooth_ramp_up", 0 ],
-			"obj-3::obj-47::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle[52]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-6::obj-181" : [ "jamRange", "jamRange", 0 ],
-			"obj-3::obj-4::obj-108::obj-9" : [ "live.text[193]", "live.text", 0 ],
-			"obj-39::obj-15::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[30]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-148::obj-32" : [ "off[69]", "off", 0 ],
-			"obj-4::obj-289::obj-112::obj-11" : [ "delta_channel_wrapper[64]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-257::obj-67" : [ "min_max_offset_ui[10]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-34::obj-12::obj-29::obj-23" : [ "manual_rate_wrapper[32]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-43::obj-31::obj-9" : [ "live.text[219]", "live.text", 0 ],
-			"obj-2::obj-70::obj-4::obj-142" : [ "Channel[12]", "Channel", 0 ],
-			"obj-2::obj-1::obj-77::obj-9" : [ "live.text[271]", "live.text", 0 ],
-			"obj-2::obj-25::obj-30::obj-12" : [ "ratecontrol[138]", "ratecontrol", 0 ],
-			"obj-2::obj-25::obj-28" : [ "verb_mode_wrapper", "verb_mode_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-97" : [ "Quantized Rate[73]", "Quantized Rate", 0 ],
-			"obj-51::obj-82::obj-142" : [ "Channel[162]", "Channel", 0 ],
-			"obj-1::obj-1::obj-43::obj-30" : [ "randomize_percentage[30]", "randomize_percentage", 0 ],
-			"obj-1::obj-148::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[127]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-67::obj-5" : [ "chords_on[1]", "chords_on", 0 ],
-			"obj-5::obj-30" : [ "local1", "local1", 0 ],
-			"obj-3::obj-49::obj-110::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-49::obj-40" : [ "Y-Offset[1]", "Y-Offset", 0 ],
-			"obj-3::obj-33::obj-12::obj-82::obj-13" : [ "delta_channel_wrapper[6]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-80::obj-9" : [ "live.text[207]", "live.text", 0 ],
-			"obj-3::obj-11::obj-4::obj-30" : [ "randomize_percentage[2]", "randomize_percentage", 0 ],
-			"obj-3::obj-11::obj-133" : [ "jamRangeMax[2]", "jamRangeMax", 0 ],
-			"obj-3::obj-4::obj-89::obj-13" : [ "delta_channel_wrapper[20]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-4::obj-10::obj-23" : [ "jam_amount[20]", "jam_amount", 0 ],
-			"obj-39::obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-252::obj-67" : [ "min_max_offset_ui[30]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-60::obj-12" : [ "ratecontrol[129]", "ratecontrol", 0 ],
-			"obj-4::obj-258::obj-142" : [ "Channel[147]", "Channel", 0 ],
-			"obj-4::obj-180" : [ "preset_toward[2]", "preset_toward", 0 ],
-			"obj-2::obj-203::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[42]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-203::obj-68" : [ "Mixer / Send UI[18]", "Mixer / Send UI", 0 ],
-			"obj-2::obj-15::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[35]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-26::obj-31::obj-142" : [ "Channel[3]", "Channel", 0 ],
-			"obj-2::obj-10::obj-6::obj-13" : [ "delta_channel_wrapper[98]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[73]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-47" : [ "modulation_indices[27]", "modulation_indices", 0 ],
-			"obj-1::obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[126]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-62::obj-23" : [ "jam_amount[76]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-12::obj-2" : [ "Flip Output On/Off[2]", "Flip Output On/Off", 0 ],
-			"obj-3::obj-33::obj-13::obj-82::obj-9" : [ "live.text[210]", "live.text", 0 ],
-			"obj-3::obj-33::obj-15::obj-24" : [ "offset[7]", "offset", 0 ],
-			"obj-3::obj-2::obj-107::obj-67" : [ "min_max_offset_ui", "min_max_offset_ui", 0 ],
-			"obj-3::obj-47::obj-22::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
-			"obj-3::obj-3::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle", "Hard Sync Toggle", 0 ],
-			"obj-39::obj-15::obj-190::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
-			"obj-39::obj-29::obj-23" : [ "jam_amount[25]", "jam_amount", 0 ],
-			"obj-4::obj-217::obj-3" : [ "range_selector_2[3]", "range_selector_2", 0 ],
-			"obj-4::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[28]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-327" : [ "fractional_probs", "fractional_probs", 0 ],
-			"obj-2::obj-34::obj-12::obj-112::obj-108" : [ "Hard Sync Threshold[21]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-365::obj-3::obj-55" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-2::obj-23::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[68]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-43::obj-30::obj-13" : [ "delta_channel_wrapper[88]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-3::obj-13" : [ "delta_channel_wrapper[93]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-35::obj-12" : [ "ratecontrol[151]", "ratecontrol", 0 ],
-			"obj-2::obj-123::obj-9" : [ "live.text[126]", "live.text", 0 ],
-			"obj-51::obj-226::obj-29::obj-23" : [ "manual_rate_wrapper[41]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-190::obj-47" : [ "modulation_indices[12]", "modulation_indices", 0 ],
-			"obj-3::obj-49::obj-14::obj-142" : [ "Channel[118]", "Channel", 0 ],
-			"obj-3::obj-33::obj-12::obj-61" : [ "range_ctrl2", "range_ctrl2", 0 ],
-			"obj-3::obj-33::obj-15::obj-5::obj-9" : [ "Manual Rate[40]", "Manual Rate", 0 ],
-			"obj-3::obj-33::obj-14::obj-82::obj-142" : [ "Channel[107]", "Channel", 0 ],
-			"obj-3::obj-4::obj-19::obj-12" : [ "ratecontrol[74]", "ratecontrol", 0 ],
-			"obj-39::obj-16::obj-190::obj-112::obj-107" : [ "Delta Channel #[38]", "Delta Channel #", 0 ],
-			"obj-39::obj-1::obj-190::obj-30" : [ "randomize_percentage[10]", "randomize_percentage", 0 ],
-			"obj-4::obj-253::obj-67" : [ "min_max_offset_ui[41]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-239::obj-325::obj-112::obj-107" : [ "Delta Channel #[70]", "Delta Channel #", 0 ],
-			"obj-4::obj-102::obj-12" : [ "ratecontrol[130]", "ratecontrol", 0 ],
-			"obj-4::obj-6::obj-23" : [ "jam_amount[32]", "jam_amount", 0 ],
-			"obj-2::obj-203::obj-3::obj-67" : [ "min_max_offset_ui[35]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-15::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[70]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-26::obj-30::obj-23" : [ "jam_amount[35]", "jam_amount", 0 ],
-			"obj-2::obj-52::obj-35" : [ "live.numbox[55]", "live.numbox", 0 ],
-			"obj-2::obj-10::obj-112::obj-9" : [ "Hard Sync Toggle[71]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-1::obj-12::obj-47" : [ "modulation_indices[15]", "modulation_indices", 0 ],
-			"obj-2::obj-3::obj-10::obj-9" : [ "live.text[245]", "live.text", 0 ],
-			"obj-1::obj-1::obj-190::obj-47" : [ "modulation_indices[30]", "modulation_indices", 0 ],
-			"obj-3::obj-25::obj-60" : [ "live.numbox[1]", "live.numbox[44]", 0 ],
-			"obj-3::obj-33::obj-15::obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
-			"obj-3::obj-2::obj-36::obj-110::obj-9" : [ "Hard Sync Toggle[2]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-6::obj-26::obj-29::obj-22" : [ "quantize_rate_wrapper[12]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-4::obj-110::obj-12" : [ "ratecontrol[78]", "ratecontrol", 0 ],
-			"obj-3::obj-12::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[14]", "manual_rate_wrapper", 0 ],
-			"obj-39::obj-204::obj-190::obj-29::obj-9" : [ "Manual Rate[95]", "Manual Rate", 0 ],
-			"obj-4::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[56]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-289::obj-47" : [ "modulation_indices[32]", "modulation_indices", 0 ],
-			"obj-2::obj-365::obj-5::obj-34" : [ "external_gate[6]", "external_gate", 0 ],
-			"obj-2::obj-23::obj-3::obj-32" : [ "off[68]", "off", 0 ],
-			"obj-2::obj-8::obj-6::obj-142" : [ "Channel[128]", "Channel", 0 ],
-			"obj-2::obj-8::obj-3" : [ "LPG shape", "LPG shape", 0 ],
-			"obj-2::obj-11::obj-34::obj-9" : [ "live.text[252]", "live.text", 0 ],
-			"obj-2::obj-1::obj-83::obj-9" : [ "live.text[116]", "live.text", 0 ],
-			"obj-2::obj-125::obj-9" : [ "live.text[274]", "live.text", 0 ],
-			"obj-51::obj-26::obj-186::obj-12" : [ "Slider Qty[10]", "Slider Qty", 0 ],
-			"obj-51::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[36]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-1::obj-62::obj-142" : [ "Channel[153]", "Channel", 0 ],
-			"obj-3::obj-14::obj-27::obj-142" : [ "Channel[83]", "Channel", 0 ],
-			"obj-3::obj-33::obj-15::obj-80::obj-142" : [ "Channel[110]", "Channel", 0 ],
-			"obj-3::obj-33::obj-14::obj-40::obj-34" : [ "external_gate[3]", "external_gate", 0 ],
-			"obj-3::obj-47::obj-1::obj-107" : [ "Delta Channel #[14]", "Delta Channel #", 0 ],
-			"obj-3::obj-11::obj-7::obj-29::obj-97" : [ "Quantized Rate[100]", "Quantized Rate", 0 ],
-			"obj-3::obj-4::obj-98::obj-12" : [ "ratecontrol[82]", "ratecontrol", 0 ],
-			"obj-3::obj-3::obj-22::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
-			"obj-39::obj-16::obj-190::obj-32" : [ "off[65]", "off", 0 ],
-			"obj-4::obj-190::obj-29::obj-97" : [ "Quantized Rate[17]", "Quantized Rate", 0 ],
-			"obj-4::obj-239::obj-325::obj-32" : [ "off[14]", "off", 0 ],
-			"obj-4::obj-188" : [ "cell_fill_likelihood[2]", "cell_fill_likelihood", 0 ],
-			"obj-2::obj-15::obj-3::obj-55" : [ "live.text[246]", "live.text[1]", 0 ],
-			"obj-2::obj-70::obj-42::obj-29::obj-9" : [ "Manual Rate[32]", "Manual Rate", 0 ],
-			"obj-2::obj-1::obj-64::obj-142" : [ "Channel[16]", "Channel", 0 ],
-			"obj-2::obj-3::obj-6::obj-23" : [ "jam_amount[66]", "jam_amount", 0 ],
-			"obj-51::obj-26::obj-186::obj-82::obj-142" : [ "Channel[17]", "Channel", 0 ],
-			"obj-1::obj-148::obj-46::obj-142" : [ "Channel[154]", "Channel", 0 ],
-			"obj-3::obj-33::obj-13::obj-27" : [ "delta_smooth_toggle[3]", "delta_smooth_toggle", 0 ],
-			"obj-3::obj-6::obj-26::obj-112::obj-11" : [ "delta_channel_wrapper[19]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-6::obj-17" : [ "Slider Values", "Slider Values", 0 ],
-			"obj-3::obj-4::obj-114::obj-12" : [ "ratecontrol[77]", "ratecontrol", 0 ],
-			"obj-3::obj-12::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle[3]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-41::obj-107" : [ "Delta Channel #[41]", "Delta Channel #", 0 ],
-			"obj-4::obj-190::obj-32" : [ "off[11]", "off", 0 ],
-			"obj-4::obj-68::obj-13" : [ "delta_channel_wrapper[50]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-373::obj-112::obj-9" : [ "Hard_Sync_Toggle[6]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-34::obj-12::obj-47" : [ "modulation_indices[22]", "modulation_indices", 0 ],
-			"obj-2::obj-52::obj-70::obj-12" : [ "ratecontrol[111]", "ratecontrol", 0 ],
-			"obj-2::obj-8::obj-112::obj-108" : [ "Hard Sync Threshold[8]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-1::obj-86::obj-9" : [ "live.text[117]", "live.text", 0 ],
-			"obj-2::obj-25::obj-42::obj-13" : [ "delta_channel_wrapper[108]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-226::obj-47" : [ "modulation_indices[28]", "modulation_indices", 0 ],
-			"obj-1::obj-1::obj-46::obj-23" : [ "jam_amount[74]", "jam_amount", 0 ],
-			"obj-3::obj-25::obj-5::obj-97" : [ "Quantized Rate[36]", "Quantized Rate", 0 ],
-			"obj-3::obj-33::obj-14::obj-2" : [ "Flip Output On/Off[6]", "Flip Output On/Off", 0 ],
-			"obj-3::obj-47::obj-7::obj-97" : [ "Quantized Rate[16]", "Quantized Rate", 0 ],
-			"obj-3::obj-11::obj-7::obj-112::obj-107" : [ "Delta Channel #[20]", "Delta Channel #", 0 ],
-			"obj-3::obj-4::obj-102::obj-13" : [ "delta_channel_wrapper[22]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-113::obj-23" : [ "jam_amount[30]", "jam_amount", 0 ],
-			"obj-4::obj-257::obj-29::obj-23" : [ "manual_rate_wrapper[31]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-70::obj-42::obj-112::obj-108" : [ "Hard Sync Threshold[41]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-10::obj-34::obj-12" : [ "ratecontrol[119]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-66::obj-142" : [ "Channel[157]", "Channel", 0 ],
-			"obj-2::obj-66" : [ "MasterSolo", "MasterSolo", 0 ],
-			"obj-1::obj-1::obj-43::obj-29::obj-9" : [ "Manual Rate[48]", "Manual Rate", 0 ],
-			"obj-1::obj-148::obj-60::obj-142" : [ "Channel[155]", "Channel", 0 ],
-			"obj-3::obj-33::obj-12::obj-5::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-13::obj-61" : [ "range_ctrl2[1]", "range_ctrl2", 0 ],
-			"obj-3::obj-33::obj-14::obj-15::obj-9" : [ "Delta Channel Menu[6]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-2::obj-107::obj-29::obj-97" : [ "Quantized Rate[103]", "Quantized Rate", 0 ],
-			"obj-3::obj-11::obj-4::obj-29::obj-22" : [ "quantize_rate_wrapper[9]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-6::obj-26::obj-67" : [ "min_max_offset_ui[4]", "min_max_offset_ui", 0 ],
-			"obj-3::obj-12::obj-22::obj-47" : [ "modulation_indices[6]", "modulation_indices", 0 ],
-			"obj-39::obj-204::obj-190::obj-47" : [ "modulation_indices[7]", "modulation_indices", 0 ],
-			"obj-39::obj-82::obj-13" : [ "delta_channel_wrapper[31]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-252::obj-29::obj-97" : [ "Quantized Rate[43]", "Quantized Rate", 0 ],
-			"obj-4::obj-174::obj-47" : [ "modulation_indices[25]", "modulation_indices", 0 ],
-			"obj-4::obj-373::obj-55" : [ "live.text[22]", "live.text[1]", 0 ],
-			"obj-4::obj-307" : [ "DecayControlMod[2]", "DecayControlMod", 0 ],
-			"obj-2::obj-23::obj-68" : [ "Mixer / Send UI[19]", "Mixer / Send UI", 0 ],
-			"obj-2::obj-52::obj-31::obj-13" : [ "delta_channel_wrapper[90]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-48::obj-13" : [ "delta_channel_wrapper[104]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-45::obj-142" : [ "Channel[160]", "Channel", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-23" : [ "manual_rate_wrapper[37]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[121]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[130]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-76" : [ "note_dur_wrapper[1]", "note_dur_wrapper", 0 ],
 			"obj-3::obj-25::obj-110::obj-108" : [ "Hard Sync Threshold[1]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-33::obj-13::obj-5::obj-9" : [ "Manual Rate[39]", "Manual Rate", 0 ],
-			"obj-3::obj-33::obj-15::obj-82::obj-23" : [ "jam_amount[4]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-14::obj-53" : [ "gain[5]", "gain", 0 ],
-			"obj-3::obj-47::obj-22::obj-29::obj-97" : [ "Quantized Rate[102]", "Quantized Rate", 0 ],
-			"obj-3::obj-11::obj-7::obj-55" : [ "live.text[110]", "live.text[1]", 0 ],
-			"obj-3::obj-4::obj-105::obj-13" : [ "delta_channel_wrapper[23]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-15::obj-190::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
-			"obj-4::obj-148::obj-112::obj-108" : [ "Hard Sync Threshold[53]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-257::obj-112::obj-108" : [ "Hard_Sync_Threshold[4]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-365::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[34]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-43::obj-70::obj-23" : [ "jam_amount[36]", "jam_amount", 0 ],
-			"obj-2::obj-70::obj-42::obj-30" : [ "randomize_percentage[25]", "randomize_percentage", 0 ],
-			"obj-2::obj-1::obj-72::obj-142" : [ "Channel[149]", "Channel", 0 ],
-			"obj-2::obj-25::obj-19::obj-142" : [ "Channel[127]", "Channel", 0 ],
-			"obj-1::obj-1::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[118]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-190::obj-29::obj-9" : [ "Manual Rate[54]", "Manual Rate", 0 ],
-			"obj-1::obj-148::obj-67::obj-4" : [ "chord[1]", "chord", 0 ],
-			"obj-3::obj-33::obj-12::obj-80::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-13::obj-18" : [ "range_ctrl1[1]", "range_ctrl1", 0 ],
-			"obj-3::obj-33::obj-14::obj-5::obj-22" : [ "quantize_rate_wrapper[5]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-2::obj-107::obj-112::obj-108" : [ "Hard Sync Threshold[25]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-11::obj-99::obj-3" : [ "range_selector_2", "range_selector_2", 0 ],
-			"obj-3::obj-11::obj-4::obj-112::obj-107" : [ "Delta Channel #[23]", "Delta Channel #", 0 ],
-			"obj-3::obj-4::obj-11::obj-142" : [ "Channel[91]", "Channel", 0 ],
-			"obj-39::obj-204::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
-			"obj-39::obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized_Rate", 0 ],
-			"obj-4::obj-253::obj-29::obj-23" : [ "manual_rate_wrapper[26]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-239::obj-2::obj-34" : [ "external_gate[4]", "external_gate", 0 ],
-			"obj-4::obj-239::obj-12" : [ "realtime_audio_gates[1]", "realtime_audio_gates", 0 ],
-			"obj-4::obj-126::obj-23" : [ "jam_amount[27]", "jam_amount", 0 ],
-			"obj-2::obj-203::obj-3::obj-29::obj-9" : [ "Manual Rate[26]", "Manual Rate", 0 ],
-			"obj-2::obj-365::obj-97" : [ "lock_ui[11]", "lock_ui", 0 ],
-			"obj-2::obj-26::obj-70::obj-23" : [ "jam_amount[33]", "jam_amount", 0 ],
-			"obj-2::obj-8::obj-34::obj-9" : [ "live.text[248]", "live.text", 0 ],
-			"obj-2::obj-1::obj-19::obj-142" : [ "Channel[14]", "Channel", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[48]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[43]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-43::obj-67" : [ "min_max_offset_ui[13]", "min_max_offset_ui", 0 ],
-			"obj-1::obj-148::obj-8" : [ "volume[1]", "volume", 0 ],
-			"obj-43" : [ "_transport_bpm", "_transport_bpm", 0 ],
-			"obj-3::obj-33::obj-13::obj-80::obj-12" : [ "ratecontrol[97]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-14::obj-74" : [ "live.numbox[13]", "live.numbox", 0 ],
-			"obj-3::obj-47::obj-22::obj-112::obj-107" : [ "Delta Channel #[24]", "Delta Channel #", 0 ],
-			"obj-3::obj-6::obj-26::obj-47" : [ "modulation_indices[4]", "modulation_indices", 0 ],
-			"obj-39::obj-16::obj-2" : [ "Master Panning[2]", "Master Panning", 0 ],
-			"obj-39::obj-28::obj-9" : [ "live.text[114]", "live.text", 0 ],
-			"obj-4::obj-148::obj-67" : [ "min_max_offset_ui[42]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-257::obj-55" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-2::obj-365::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[33]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-23::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[36]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-43::obj-31::obj-12" : [ "ratecontrol[108]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-4::obj-23" : [ "jam_amount[43]", "jam_amount", 0 ],
-			"obj-2::obj-11::obj-6::obj-12" : [ "ratecontrol[120]", "ratecontrol", 0 ],
-			"obj-2::obj-25::obj-30::obj-142" : [ "Channel[151]", "Channel", 0 ],
-			"obj-2::obj-118::obj-23" : [ "jam_amount[68]", "jam_amount", 0 ],
-			"obj-51::obj-82::obj-23" : [ "jam_amount[72]", "jam_amount", 0 ],
-			"obj-1::obj-1::obj-43::obj-47" : [ "modulation_indices[44]", "modulation_indices", 0 ],
-			"obj-1::obj-1::obj-76" : [ "note_dur_wrapper", "note_dur_wrapper", 0 ],
-			"obj-1::obj-148::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[9]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-12" : [ "vst~[3]", "vst~[1]", 0 ],
-			"obj-3::obj-33::obj-14::obj-80::obj-23" : [ "jam_amount[5]", "jam_amount", 0 ],
-			"obj-3::obj-2::obj-107::obj-32" : [ "off[54]", "off", 0 ],
-			"obj-3::obj-4::obj-10::obj-13" : [ "delta_channel_wrapper[28]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-204::obj-68" : [ "Mixer / Send UI[1]", "Mixer / Send UI", 0 ],
-			"obj-39::obj-16::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[16]", "manual_rate_wrapper", 0 ],
-			"obj-39::obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
-			"obj-4::obj-253::obj-112::obj-11" : [ "delta_channel_wrapper[57]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-239::obj-325::obj-29::obj-23" : [ "manual_rate_wrapper[30]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-60::obj-142" : [ "Channel[143]", "Channel", 0 ],
-			"obj-4::obj-258::obj-23" : [ "jam_amount[31]", "jam_amount", 0 ],
-			"obj-2::obj-203::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[6]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-15::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[35]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-26::obj-31::obj-23" : [ "jam_amount[34]", "jam_amount", 0 ],
-			"obj-2::obj-52::obj-30::obj-13" : [ "delta_channel_wrapper[91]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-10::obj-6::obj-23" : [ "jam_amount[46]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-12::obj-112::obj-9" : [ "Hard_Sync_Toggle[7]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-25::obj-48::obj-142" : [ "Channel[161]", "Channel", 0 ],
-			"obj-1::obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[7]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-1::obj-8" : [ "volume", "volume", 0 ],
-			"obj-45" : [ "randomization_intensity", "randomization_intensity", 0 ],
-			"obj-3::obj-25::obj-14::obj-142" : [ "Channel[117]", "Channel", 0 ],
-			"obj-3::obj-33::obj-15::obj-61" : [ "range_ctrl2[2]", "range_ctrl2", 0 ],
-			"obj-3::obj-6::obj-4::obj-23" : [ "manual_rate_wrapper[11]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-4::obj-108::obj-12" : [ "ratecontrol[79]", "ratecontrol", 0 ],
-			"obj-3::obj-12::obj-22::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-39::obj-29::obj-9" : [ "live.text[224]", "live.text", 0 ],
-			"obj-4::obj-289::obj-112::obj-107" : [ "Delta_Channel_#[3]", "Delta Channel #", 0 ],
-			"obj-2::obj-365::obj-3::obj-67" : [ "min_max_offset_ui[46]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-23::obj-3::obj-112::obj-107" : [ "Delta Channel #[51]", "Delta Channel #", 0 ],
-			"obj-2::obj-43::obj-62" : [ "ratecontrol[136]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-3::obj-9" : [ "live.text[235]", "live.text", 0 ],
-			"obj-2::obj-11::obj-112::obj-108" : [ "Hard Sync Threshold[29]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-1::obj-77::obj-12" : [ "ratecontrol[149]", "ratecontrol", 0 ],
-			"obj-2::obj-123::obj-12" : [ "ratecontrol[4]", "ratecontrol", 0 ],
-			"obj-51::obj-226::obj-29::obj-22" : [ "quantize_rate_wrapper[41]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-190::obj-32" : [ "off[77]", "off", 0 ],
-			"obj-3::obj-49::obj-14::obj-9" : [ "live.text[215]", "live.text", 0 ],
-			"obj-3::obj-49::obj-34" : [ "Amplitude[1]", "Amplitude", 0 ],
-			"obj-3::obj-33::obj-12::obj-82::obj-9" : [ "live.text[212]", "live.text", 0 ],
-			"obj-3::obj-33::obj-12::obj-29" : [ "gain_reset_button", "gain_reset_button", 0 ],
-			"obj-3::obj-33::obj-12::obj-8" : [ "delta_speedlim_toggle[2]", "delta_speedlim_toggle", 0 ],
-			"obj-3::obj-33::obj-15::obj-5::obj-97" : [ "Quantized Rate[42]", "Quantized Rate", 0 ],
-			"obj-3::obj-33::obj-14::obj-82::obj-9" : [ "live.text[206]", "live.text", 0 ],
-			"obj-3::obj-11::obj-4::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
-			"obj-3::obj-4::obj-89::obj-12" : [ "ratecontrol[83]", "ratecontrol", 0 ],
-			"obj-3::obj-4::obj-19::obj-142" : [ "Channel[89]", "Channel", 0 ],
-			"obj-39::obj-16::obj-190::obj-112::obj-9" : [ "Hard Sync Toggle[22]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-252::obj-30" : [ "randomize_percentage[11]", "randomize_percentage", 0 ],
-			"obj-4::obj-253::obj-47" : [ "modulation_indices[42]", "modulation_indices", 0 ],
-			"obj-4::obj-239::obj-325::obj-112::obj-9" : [ "Hard_Sync_Toggle[3]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-203::obj-3::obj-30" : [ "randomize_percentage[21]", "randomize_percentage", 0 ],
-			"obj-2::obj-52::obj-26" : [ "pitchmod[4]", "pitchmod", 0 ],
-			"obj-2::obj-1::obj-60::obj-9" : [ "live.text[267]", "live.text", 0 ],
-			"obj-2::obj-1::obj-12::obj-32" : [ "off[17]", "off", 0 ],
-			"obj-2::obj-3::obj-10::obj-12" : [ "ratecontrol[88]", "ratecontrol", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-32" : [ "off[61]", "off", 0 ],
-			"obj-1::obj-148::obj-62::obj-13" : [ "delta_channel_wrapper[132]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-25::obj-79" : [ "∆quant[1]", "∆quant", 0 ],
-			"obj-3::obj-33::obj-12::obj-32" : [ "mod_src_select", "mod_src_select", 0 ],
-			"obj-3::obj-33::obj-13::obj-82::obj-13" : [ "delta_channel_wrapper[8]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-15::obj-18" : [ "range_ctrl1[2]", "range_ctrl1", 0 ],
-			"obj-3::obj-2::obj-36::obj-110::obj-107" : [ "Delta Channel #[4]", "Delta Channel #", 0 ],
-			"obj-3::obj-2::obj-36::obj-4" : [ "Random Mux", "Random Mux", 0 ],
-			"obj-3::obj-47::obj-22::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
-			"obj-3::obj-6::obj-26::obj-29::obj-23" : [ "manual_rate_wrapper[12]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-4::obj-110::obj-142" : [ "Channel[93]", "Channel", 0 ],
-			"obj-3::obj-12::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[14]", "quantize_rate_wrapper", 0 ],
-			"obj-39::obj-204::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[15]", "quantize_rate_wrapper", 0 ],
-			"obj-39::obj-15::obj-190::obj-67" : [ "min_max_offset_ui[8]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-190::obj-112::obj-108" : [ "Hard Sync Threshold[51]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-174::obj-29::obj-97" : [ "Quantized Rate[19]", "Quantized Rate", 0 ],
-			"obj-4::obj-289::obj-32" : [ "off[3]", "off", 0 ],
-			"obj-4::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[19]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-34::obj-12::obj-112::obj-9" : [ "Hard Sync Toggle[31]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-23::obj-3::obj-55" : [ "live.text[243]", "live.text[1]", 0 ],
-			"obj-2::obj-43::obj-30::obj-142" : [ "Channel[10]", "Channel", 0 ],
-			"obj-2::obj-8::obj-6::obj-9" : [ "live.text[221]", "live.text", 0 ],
-			"obj-2::obj-11::obj-34::obj-12" : [ "ratecontrol[121]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-83::obj-12" : [ "ratecontrol[150]", "ratecontrol", 0 ],
-			"obj-2::obj-25::obj-35::obj-142" : [ "Channel[158]", "Channel", 0 ],
-			"obj-1::obj-1::obj-62::obj-23" : [ "jam_amount[73]", "jam_amount", 0 ],
-			"obj-3::obj-47::obj-1::obj-9" : [ "Hard Sync Toggle[13]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-11::obj-7::obj-29::obj-9" : [ "Manual Rate[91]", "Manual Rate", 0 ],
+			"obj-3::obj-33::obj-15::obj-40::obj-34" : [ "external_gate[2]", "external_gate", 0 ],
 			"obj-3::obj-11::obj-26" : [ "Values[3]", "Values", 0 ],
-			"obj-3::obj-4::obj-98::obj-142" : [ "Channel[97]", "Channel", 0 ],
-			"obj-39::obj-16::obj-190::obj-67" : [ "min_max_offset_ui[29]", "min_max_offset_ui", 0 ],
-			"obj-39::obj-1::obj-190::obj-47" : [ "modulation_indices[9]", "modulation_indices", 0 ],
-			"obj-4::obj-239::obj-325::obj-55" : [ "live.text[12]", "live.text[1]", 0 ],
-			"obj-4::obj-102::obj-142" : [ "Channel[144]", "Channel", 0 ],
-			"obj-4::obj-6::obj-13" : [ "delta_channel_wrapper[67]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-357" : [ "SubsetCtrl[2]", "SubsetCtrl", 0 ],
-			"obj-4::obj-40" : [ "preset_save_number[2]", "preset_save_number", 0 ],
-			"obj-4::obj-92" : [ "jam_every_n_bars[3]", "jam_every_n_bars", 0 ],
-			"obj-2::obj-26::obj-30::obj-13" : [ "delta_channel_wrapper[85]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-42::obj-29::obj-23" : [ "manual_rate_wrapper[39]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-10::obj-112::obj-11" : [ "delta_channel_wrapper[99]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-64::obj-23" : [ "jam_amount[53]", "jam_amount", 0 ],
-			"obj-2::obj-73::obj-13" : [ "delta_channel_wrapper[113]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-82::obj-13" : [ "delta_channel_wrapper[116]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-1::obj-190::obj-32" : [ "off[75]", "off", 0 ],
-			"obj-1::obj-148::obj-46::obj-23" : [ "jam_amount[77]", "jam_amount", 0 ],
-			"obj-3::obj-49::obj-110::obj-108" : [ "Hard Sync Threshold[2]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-25::obj-1" : [ "Waveform[2]", "Waveform", 0 ],
-			"obj-3::obj-6::obj-26::obj-112::obj-108" : [ "Hard Sync Threshold[19]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-12::obj-22::obj-112::obj-107" : [ "Delta Channel #[26]", "Delta Channel #", 0 ],
-			"obj-39::obj-204::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[37]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-15::obj-68" : [ "Mixer / Send UI[10]", "Mixer / Send UI", 0 ],
-			"obj-4::obj-190::obj-67" : [ "min_max_offset_ui[40]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-174::obj-112::obj-9" : [ "Hard Sync Toggle[76]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-373::obj-112::obj-107" : [ "Delta_Channel_#[5]", "Delta Channel #", 0 ],
-			"obj-4::obj-8" : [ "newSamples[1]", "newSamples", 0 ],
+			"obj-3::obj-6::obj-4::obj-22" : [ "quantize_rate_wrapper[11]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-108::obj-9" : [ "live.text[193]", "live.text", 0 ],
+			"obj-39::obj-204::obj-190::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
+			"obj-39::obj-204::obj-68" : [ "Mixer / Send UI[1]", "Mixer / Send UI", 0 ],
+			"obj-4::obj-41::obj-9" : [ "Hard Sync Toggle[73]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-239::obj-325::obj-67" : [ "min_max_offset_ui[45]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-102::obj-13" : [ "delta_channel_wrapper[58]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-258::obj-23" : [ "jam_amount[31]", "jam_amount", 0 ],
 			"obj-4::obj-70" : [ "markov_gen_density[2]", "markov_gen_density", 0 ],
-			"obj-2::obj-34::obj-12::obj-32" : [ "off[24]", "off", 0 ],
-			"obj-2::obj-52::obj-70::obj-142" : [ "Channel[11]", "Channel", 0 ],
-			"obj-2::obj-25::obj-42::obj-12" : [ "ratecontrol[152]", "ratecontrol", 0 ],
-			"obj-2::obj-73::obj-142" : [ "Channel[123]", "Channel", 0 ],
-			"obj-2::obj-125::obj-12" : [ "ratecontrol[5]", "ratecontrol", 0 ],
-			"obj-1::obj-1::obj-46::obj-13" : [ "delta_channel_wrapper[120]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-43::obj-29::obj-97" : [ "Quantized_Rate[10]", "Quantized_Rate", 0 ],
-			"obj-5::obj-72::obj-100" : [ "textedit", "textedit", 0 ],
-			"obj-3::obj-14::obj-27::obj-9" : [ "live.text[179]", "live.text", 0 ],
-			"obj-3::obj-33::obj-15::obj-80::obj-9" : [ "live.text[209]", "live.text", 0 ],
-			"obj-3::obj-33::obj-14::obj-17" : [ "modulation source select[7]", "modulation source select", 0 ],
-			"obj-3::obj-47::obj-7::obj-9" : [ "Manual Rate[9]", "Manual Rate", 0 ],
-			"obj-3::obj-4::obj-102::obj-9" : [ "live.text[195]", "live.text", 0 ],
-			"obj-3::obj-3::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[13]", "manual_rate_wrapper", 0 ],
-			"obj-39::obj-1::obj-12" : [ "ModularSendsLocks[3]", "ModularSendsLocks", 0 ],
-			"obj-4::obj-148::obj-29::obj-97" : [ "Quantized Rate[130]", "Quantized Rate", 0 ],
-			"obj-4::obj-113::obj-13" : [ "delta_channel_wrapper[59]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-257::obj-29::obj-22" : [ "quantize_rate_wrapper[31]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-390" : [ "1/n", "1/n", 0 ],
-			"obj-2::obj-15::obj-3::obj-67" : [ "min_max_offset_ui[37]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-26::obj-35" : [ "live.numbox[51]", "live.numbox", 0 ],
-			"obj-2::obj-10::obj-34::obj-142" : [ "Channel[134]", "Channel", 0 ],
-			"obj-2::obj-1::obj-66::obj-23" : [ "jam_amount[54]", "jam_amount", 0 ],
-			"obj-2::obj-3::obj-6::obj-142" : [ "Channel[152]", "Channel", 0 ],
-			"obj-1::obj-1::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[45]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-60::obj-23" : [ "jam_amount[78]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-12::obj-16::obj-9" : [ "Delta Channel Menu[1]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-33::obj-13::obj-8" : [ "delta_speedlim_toggle[4]", "delta_speedlim_toggle", 0 ],
+			"obj-2::obj-43::obj-30::obj-23" : [ "jam_amount[38]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-64::obj-9" : [ "live.text[268]", "live.text", 0 ],
+			"obj-2::obj-25::obj-48::obj-23" : [ "jam_amount[64]", "jam_amount", 0 ],
+			"obj-2::obj-4" : [ "SoloRegenSpeed", "SoloRegenSpeed", 0 ],
+			"obj-1::obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[7]", "Delta Channel #", 0 ],
+			"obj-1::obj-148::obj-62::obj-23" : [ "jam_amount[76]", "jam_amount", 0 ],
+			"obj-1::obj-12" : [ "vst~[3]", "vst~[1]", 0 ],
+			"obj-3::obj-33::obj-12::obj-80::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
+			"obj-3::obj-33::obj-14::obj-29" : [ "gain_reset_button[3]", "gain_reset_button", 0 ],
+			"obj-3::obj-47::obj-7::obj-22" : [ "quantize_rate_wrapper[7]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-47::obj-43" : [ "function[1]", "function", 0 ],
+			"obj-3::obj-6::obj-181" : [ "jamRange", "jamRange", 0 ],
+			"obj-3::obj-4::obj-19::obj-9" : [ "live.text[188]", "live.text", 0 ],
+			"obj-39::obj-7::obj-13" : [ "delta_channel_wrapper[39]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-190::obj-67" : [ "min_max_offset_ui[40]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-174::obj-112::obj-11" : [ "delta_channel_wrapper[61]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[19]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-34::obj-12::obj-112::obj-11" : [ "delta_channel_wrapper[65]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-15::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[4]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-26::obj-30::obj-12" : [ "ratecontrol[106]", "ratecontrol", 0 ],
+			"obj-2::obj-123::obj-142" : [ "Channel[138]", "Channel", 0 ],
+			"obj-51::obj-226::obj-29::obj-22" : [ "quantize_rate_wrapper[41]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-1::obj-62::obj-23" : [ "jam_amount[73]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-30" : [ "NoteLength", "NoteLength", 0 ],
+			"obj-1::obj-148::obj-190::obj-47" : [ "modulation_indices[12]", "modulation_indices", 0 ],
+			"obj-2::obj-365::obj-3::obj-47" : [ "modulation_indices[40]", "modulation_indices", 0 ],
+			"obj-3::obj-25::obj-14::obj-13" : [ "delta_channel_wrapper[4]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-80::obj-13" : [ "delta_channel_wrapper[7]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-15::obj-29" : [ "gain_reset_button[2]", "gain_reset_button", 0 ],
 			"obj-3::obj-2::obj-107::obj-29::obj-22" : [ "quantize_rate_wrapper[6]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-47::obj-31" : [ "bipolar_toggle[1]", "bipolar_toggle", 0 ],
-			"obj-3::obj-4::obj-114::obj-142" : [ "Channel[92]", "Channel", 0 ],
-			"obj-39::obj-204::obj-190::obj-32" : [ "off[2]", "off", 0 ],
-			"obj-39::obj-82::obj-23" : [ "jam_amount[22]", "jam_amount", 0 ],
-			"obj-4::obj-174::obj-30" : [ "randomize_percentage[15]", "randomize_percentage", 0 ],
-			"obj-4::obj-68::obj-142" : [ "Channel[141]", "Channel", 0 ],
-			"obj-4::obj-373::obj-47" : [ "modulation_indices[11]", "modulation_indices", 0 ],
+			"obj-3::obj-6::obj-26::obj-29::obj-9" : [ "Manual Rate[90]", "Manual Rate", 0 ],
+			"obj-3::obj-4::obj-110::obj-9" : [ "live.text[192]", "live.text", 0 ],
+			"obj-3::obj-12::obj-22::obj-29::obj-9" : [ "Manual Rate[41]", "Manual Rate", 0 ],
+			"obj-39::obj-82::obj-12" : [ "ratecontrol[109]", "ratecontrol", 0 ],
+			"obj-4::obj-252::obj-29::obj-97" : [ "Quantized Rate[43]", "Quantized Rate", 0 ],
+			"obj-4::obj-148::obj-29::obj-97" : [ "Quantized Rate[130]", "Quantized Rate", 0 ],
+			"obj-4::obj-113::obj-12" : [ "ratecontrol[131]", "ratecontrol", 0 ],
+			"obj-4::obj-6::obj-13" : [ "delta_channel_wrapper[67]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-182" : [ "preset_pattern_gen[2]", "preset_pattern_gen", 0 ],
 			"obj-4::obj-311" : [ "jam_walk_max[2]", "jam_walk_max", 0 ],
-			"obj-2::obj-8::obj-112::obj-9" : [ "Hard Sync Toggle[61]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-203::obj-3::obj-67" : [ "min_max_offset_ui[35]", "min_max_offset_ui", 0 ],
+			"obj-2::obj-3::obj-10::obj-23" : [ "jam_amount[65]", "jam_amount", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-55" : [ "live.text[237]", "live.text[1]", 0 ],
+			"obj-1::obj-1::obj-190::obj-32" : [ "off[75]", "off", 0 ],
+			"obj-1::obj-1::obj-77" : [ "note_rate_wrapper", "note_rate_wrapper", 0 ],
+			"obj-1::obj-148::obj-46::obj-142" : [ "Channel[154]", "Channel", 0 ],
+			"obj-1::obj-148::obj-17" : [ "columns[1]", "columns", 0 ],
+			"obj-2::obj-23::obj-3::obj-30" : [ "randomize_percentage[24]", "randomize_percentage", 0 ],
+			"obj-3::obj-33::obj-12::obj-82::obj-9" : [ "live.text[212]", "live.text", 0 ],
+			"obj-3::obj-33::obj-12::obj-32" : [ "mod_src_select", "mod_src_select", 0 ],
+			"obj-3::obj-33::obj-15::obj-15::obj-9" : [ "Delta Channel Menu[4]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-14::obj-18" : [ "range_ctrl1[3]", "range_ctrl1", 0 ],
+			"obj-3::obj-4::obj-98::obj-23" : [ "jam_amount[8]", "jam_amount", 0 ],
+			"obj-39::obj-15::obj-190::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized_Rate", 0 ],
+			"obj-4::obj-174::obj-30" : [ "randomize_percentage[15]", "randomize_percentage", 0 ],
+			"obj-4::obj-68::obj-12" : [ "ratecontrol[127]", "ratecontrol", 0 ],
+			"obj-4::obj-125" : [ "Solo_Matrix", "Solo_Matrix", 0 ],
+			"obj-2::obj-34::obj-12::obj-30" : [ "randomize_percentage[20]", "randomize_percentage", 0 ],
+			"obj-2::obj-15::obj-3::obj-30" : [ "randomize_percentage[23]", "randomize_percentage", 0 ],
 			"obj-2::obj-1::obj-48::obj-9" : [ "live.text[6]", "live.text", 0 ],
-			"obj-2::obj-1::obj-86::obj-12" : [ "ratecontrol[122]", "ratecontrol", 0 ],
-			"obj-51::obj-226::obj-67" : [ "min_max_offset_ui[47]", "min_max_offset_ui", 0 ],
-			"obj-1::obj-148::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[10]", "Delta Channel #", 0 ],
-			"obj-3::obj-33::obj-13::obj-5::obj-97" : [ "Quantized Rate[38]", "Quantized Rate", 0 ],
-			"obj-3::obj-33::obj-15::obj-82::obj-9" : [ "live.text[208]", "live.text", 0 ],
-			"obj-3::obj-33::obj-14::obj-32" : [ "mod_src_select[3]", "mod_src_select", 0 ],
-			"obj-3::obj-3::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[39]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-75::obj-5" : [ "bipolar_toggle", "bipolar_toggle", 0 ],
-			"obj-39::obj-7::obj-23" : [ "jam_amount[23]", "jam_amount", 0 ],
-			"obj-4::obj-148::obj-112::obj-11" : [ "delta_channel_wrapper[60]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-257::obj-112::obj-9" : [ "Hard_Sync_Toggle[5]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
-			"obj-4::obj-329" : [ "speed_scale[1]", "speed_scale", 0 ],
-			"obj-2::obj-365::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[34]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-15::obj-5::obj-34" : [ "external_gate[7]", "external_gate", 0 ],
-			"obj-2::obj-43::obj-70::obj-13" : [ "delta_channel_wrapper[86]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-48" : [ "low_smooth", "low_smooth", 0 ],
-			"obj-2::obj-10::obj-3" : [ "LPG shape[1]", "LPG shape", 0 ],
-			"obj-2::obj-25::obj-19::obj-9" : [ "live.text[227]", "live.text", 0 ],
-			"obj-1::obj-148::obj-190::obj-29::obj-97" : [ "Quantized_Rate[9]", "Quantized_Rate", 0 ],
-			"obj-5::obj-82" : [ "interp_every_n_bars", "interp_every_n_bars", 0 ],
-			"obj-3::obj-49::obj-5::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
-			"obj-3::obj-49::obj-45" : [ "Modulation Amount[1]", "Modulation Amount", 0 ],
-			"obj-3::obj-33::obj-12::obj-74" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-3::obj-33::obj-13::obj-74" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-3::obj-33::obj-14::obj-5::obj-23" : [ "manual_rate_wrapper[5]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-1::obj-86::obj-13" : [ "delta_channel_wrapper[79]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-35::obj-9" : [ "live.text[119]", "live.text", 0 ],
+			"obj-1::obj-148::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[44]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-49::obj-79" : [ "∆quant", "∆quant", 0 ],
+			"obj-3::obj-49::obj-34" : [ "Amplitude[1]", "Amplitude", 0 ],
+			"obj-3::obj-25::obj-45" : [ "Modulation Amount[2]", "Modulation Amount", 0 ],
+			"obj-3::obj-33::obj-13::obj-82::obj-12" : [ "ratecontrol[96]", "ratecontrol", 0 ],
+			"obj-3::obj-33::obj-15::obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-3::obj-33::obj-14::obj-5::obj-22" : [ "quantize_rate_wrapper[5]", "quantize_rate_wrapper", 0 ],
 			"obj-3::obj-2::obj-107::obj-112::obj-11" : [ "delta_channel_wrapper[14]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-11::obj-11" : [ "Gen New Bars Button", "Gen New Bars Button", 0 ],
-			"obj-3::obj-6::obj-26::obj-30" : [ "randomize_percentage[4]", "randomize_percentage", 0 ],
-			"obj-3::obj-4::obj-11::obj-23" : [ "jam_amount[19]", "jam_amount", 0 ],
-			"obj-3::obj-75::obj-74::obj-68" : [ "Mixer_Send_UI", "Mixer_Send_UI", 0 ],
-			"obj-39::obj-77" : [ "external_clock_wrapper", "external_clock_wrapper", 0 ],
-			"obj-4::obj-252::obj-29::obj-22" : [ "quantize_rate_wrapper[23]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-6::obj-26::obj-112::obj-107" : [ "Delta Channel #[19]", "Delta Channel #", 0 ],
+			"obj-3::obj-4::obj-114::obj-12" : [ "ratecontrol[77]", "ratecontrol", 0 ],
+			"obj-3::obj-12::obj-22::obj-112::obj-107" : [ "Delta Channel #[26]", "Delta Channel #", 0 ],
+			"obj-39::obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
+			"obj-4::obj-252::obj-112::obj-9" : [ "Hard Sync Toggle[41]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-148::obj-112::obj-11" : [ "delta_channel_wrapper[60]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-203::obj-5::obj-34" : [ "external_gate[5]", "external_gate", 0 ],
+			"obj-2::obj-15::obj-68" : [ "Mixer / Send UI[20]", "Mixer / Send UI", 0 ],
+			"obj-2::obj-52::obj-70::obj-12" : [ "ratecontrol[111]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-66::obj-9" : [ "live.text[269]", "live.text", 0 ],
+			"obj-51::obj-26::obj-186::obj-82::obj-13" : [ "delta_channel_wrapper[116]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-148::obj-2" : [ "midi_notes[1]", "midi_notes", 0 ],
+			"obj-2::obj-23::obj-5::obj-34" : [ "external_gate[8]", "external_gate", 0 ],
+			"obj-3::obj-49::obj-110::obj-108" : [ "Hard Sync Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-49::obj-14::obj-12" : [ "ratecontrol[101]", "ratecontrol", 0 ],
+			"obj-3::obj-49::obj-40" : [ "Y-Offset[1]", "Y-Offset", 0 ],
+			"obj-3::obj-33::obj-15::obj-5::obj-97" : [ "Quantized Rate[42]", "Quantized Rate", 0 ],
+			"obj-3::obj-33::obj-14::obj-36" : [ "smooth_ramp_up[3]", "smooth_ramp_up", 0 ],
+			"obj-3::obj-2::obj-119" : [ "Mixer_Probs", "Mixer_Probs", 0 ],
+			"obj-3::obj-11::obj-7::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
+			"obj-3::obj-4::obj-102::obj-12" : [ "ratecontrol[81]", "ratecontrol", 0 ],
+			"obj-39::obj-15::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
+			"obj-39::obj-28::obj-13" : [ "delta_channel_wrapper[40]", "delta_channel_wrapper", 0 ],
 			"obj-4::obj-253::obj-29::obj-22" : [ "quantize_rate_wrapper[26]", "quantize_rate_wrapper", 0 ],
 			"obj-4::obj-126::obj-13" : [ "delta_channel_wrapper[49]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
-			"obj-2::obj-203::obj-3::obj-29::obj-97" : [ "Quantized Rate[124]", "Quantized Rate", 0 ],
-			"obj-2::obj-26::obj-70::obj-12" : [ "ratecontrol[9]", "ratecontrol", 0 ],
-			"obj-2::obj-52::obj-31::obj-9" : [ "live.text[232]", "live.text", 0 ],
-			"obj-2::obj-8::obj-34::obj-12" : [ "ratecontrol[117]", "ratecontrol", 0 ],
+			"obj-4::obj-203" : [ "global_cell_speed", "global_cell_speed", 0 ],
 			"obj-2::obj-1::obj-12::obj-29::obj-97" : [ "Quantized_Rate[6]", "Quantized_Rate", 0 ],
-			"obj-2::obj-25::obj-45::obj-23" : [ "jam_amount[63]", "jam_amount", 0 ],
-			"obj-1::obj-1::obj-60::obj-142" : [ "Channel[164]", "Channel", 0 ],
-			"obj-1::obj-1::obj-278" : [ "NoteProbLock", "NoteProbLock", 0 ],
-			"obj-1::obj-148::obj-43::obj-55" : [ "live.text[277]", "live.text[1]", 0 ],
-			"obj-1::obj-148::obj-45" : [ "preset_selector[1]", "preset_selector", 0 ],
-			"obj-3::obj-25::obj-110::obj-9" : [ "Hard Sync Toggle[14]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-33::obj-15::obj-40::obj-34" : [ "external_gate[2]", "external_gate", 0 ],
-			"obj-3::obj-33::obj-14::obj-41" : [ "smooth_ramp_down[3]", "smooth_ramp_down", 0 ],
-			"obj-3::obj-11::obj-7::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
-			"obj-3::obj-4::obj-105::obj-9" : [ "live.text[194]", "live.text", 0 ],
-			"obj-3::obj-3::obj-22::obj-47" : [ "modulation_indices[5]", "modulation_indices", 0 ],
-			"obj-39::obj-15::obj-190::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized_Rate", 0 ],
-			"obj-39::obj-28::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-2::obj-25::obj-42::obj-9" : [ "live.text[123]", "live.text", 0 ],
+			"obj-2::obj-125::obj-23" : [ "jam_amount[70]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-46::obj-13" : [ "delta_channel_wrapper[120]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-25::obj-40" : [ "Y-Offset[2]", "Y-Offset", 0 ],
+			"obj-3::obj-33::obj-12::obj-17" : [ "modulation source select[2]", "modulation source select", 0 ],
+			"obj-3::obj-33::obj-13::obj-40::obj-34" : [ "external_gate[1]", "external_gate", 0 ],
+			"obj-3::obj-33::obj-15::obj-27" : [ "delta_smooth_toggle[4]", "delta_smooth_toggle", 0 ],
+			"obj-3::obj-33::obj-14::obj-80::obj-23" : [ "jam_amount[5]", "jam_amount", 0 ],
+			"obj-3::obj-11::obj-4::obj-112::obj-107" : [ "Delta Channel #[23]", "Delta Channel #", 0 ],
+			"obj-3::obj-6::obj-26::obj-32" : [ "off[50]", "off", 0 ],
+			"obj-3::obj-12::obj-22::obj-30" : [ "randomize_percentage[6]", "randomize_percentage", 0 ],
+			"obj-39::obj-16::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[16]", "manual_rate_wrapper", 0 ],
+			"obj-39::obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
 			"obj-4::obj-148::obj-55" : [ "live.text[264]", "live.text[1]", 0 ],
 			"obj-4::obj-289::obj-29::obj-23" : [ "manual_rate_wrapper[29]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-376" : [ "pitchmod[5]", "pitchmod", 0 ],
-			"obj-2::obj-365::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[7]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-23::obj-3::obj-29::obj-97" : [ "Quantized Rate[128]", "Quantized Rate", 0 ],
-			"obj-2::obj-70::obj-42::obj-47" : [ "modulation_indices[26]", "modulation_indices", 0 ],
-			"obj-2::obj-11::obj-6::obj-142" : [ "Channel[135]", "Channel", 0 ],
-			"obj-2::obj-1::obj-72::obj-23" : [ "jam_amount[55]", "jam_amount", 0 ],
-			"obj-2::obj-73::obj-12" : [ "ratecontrol[156]", "ratecontrol", 0 ],
-			"obj-2::obj-118::obj-13" : [ "delta_channel_wrapper[114]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-82::obj-12" : [ "ratecontrol[125]", "ratecontrol", 0 ],
-			"obj-5::obj-31" : [ "local2", "local2", 0 ],
-			"obj-3::obj-33::obj-12::obj-80::obj-13" : [ "delta_channel_wrapper[5]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-80::obj-13" : [ "delta_channel_wrapper[11]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-11::obj-4::obj-112::obj-108" : [ "Hard Sync Threshold[23]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-11::obj-115" : [ "bars", "bars", 0 ],
-			"obj-3::obj-4::obj-10::obj-142" : [ "Channel[90]", "Channel", 0 ],
-			"obj-39::obj-16::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[16]", "quantize_rate_wrapper", 0 ],
-			"obj-39::obj-86" : [ "external_tempo", "external_tempo", 0 ],
-			"obj-4::obj-252::obj-112::obj-107" : [ "Delta Channel #[43]", "Delta Channel #", 0 ],
-			"obj-4::obj-253::obj-112::obj-108" : [ "Hard Sync Threshold[52]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-239::obj-325::obj-29::obj-22" : [ "quantize_rate_wrapper[30]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-182" : [ "preset_pattern_gen[2]", "preset_pattern_gen", 0 ],
-			"obj-2::obj-52::obj-30::obj-9" : [ "live.text[233]", "live.text", 0 ],
-			"obj-2::obj-1::obj-19::obj-23" : [ "jam_amount[51]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-12::obj-112::obj-107" : [ "Delta_Channel_#[6]", "Delta Channel #", 0 ],
-			"obj-2::obj-25::obj-48::obj-23" : [ "jam_amount[64]", "jam_amount", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[16]", "Hard Sync Toggle", 0 ],
-			"obj-1::obj-1::obj-2" : [ "midi_notes", "midi_notes", 0 ],
-			"obj-1::obj-148::obj-17" : [ "columns[1]", "columns", 0 ],
-			"obj-247" : [ "global_shape_mode", "global_shape_mode", 0 ],
-			"obj-3::obj-25::obj-14::obj-23" : [ "jam_amount[13]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-13::obj-80::obj-142" : [ "Channel[114]", "Channel", 0 ],
-			"obj-3::obj-33::obj-15::obj-2" : [ "Flip Output On/Off[4]", "Flip Output On/Off", 0 ],
-			"obj-3::obj-2::obj-50" : [ "Mixer[1]", "Mixer", 0 ],
-			"obj-3::obj-47::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[24]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-6::obj-4::obj-22" : [ "quantize_rate_wrapper[11]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-6::obj-133" : [ "jamRangeMax", "jamRangeMax", 0 ],
-			"obj-3::obj-4::obj-108::obj-142" : [ "Channel[94]", "Channel", 0 ],
-			"obj-3::obj-3::obj-7::obj-9" : [ "Delta Channel Menu[20]", "Delta Channel Menu", 0 ],
-			"obj-39::obj-15::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-289::obj-112::obj-9" : [ "Hard_Sync_Toggle[4]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-257::obj-47" : [ "modulation_indices[10]", "modulation_indices", 0 ],
-			"obj-4::obj-125" : [ "Solo_Matrix", "Solo_Matrix", 0 ],
-			"obj-2::obj-34::obj-12::obj-29::obj-9" : [ "Manual Rate[79]", "Manual Rate", 0 ],
-			"obj-2::obj-34::obj-17" : [ "pan_l_limit[1]", "pan_l_limit", 0 ],
-			"obj-2::obj-43::obj-31::obj-142" : [ "Channel[7]", "Channel", 0 ],
-			"obj-2::obj-70::obj-4::obj-13" : [ "delta_channel_wrapper[94]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-11::obj-112::obj-11" : [ "delta_channel_wrapper[102]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-77::obj-142" : [ "Channel[146]", "Channel", 0 ],
-			"obj-2::obj-25::obj-30::obj-23" : [ "jam_amount[60]", "jam_amount", 0 ],
-			"obj-2::obj-73::obj-9" : [ "live.text[120]", "live.text", 0 ],
-			"obj-51::obj-214" : [ "_key_select", "_key_select", 0 ],
-			"obj-1::obj-1::obj-43::obj-55" : [ "live.text[281]", "live.text[1]", 0 ],
-			"obj-3::obj-33::obj-12::obj-82::obj-142" : [ "Channel[115]", "Channel", 0 ],
-			"obj-3::obj-33::obj-15::obj-15::obj-9" : [ "Delta Channel Menu[4]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-11::obj-4::obj-32" : [ "off[52]", "off", 0 ],
-			"obj-3::obj-4::obj-89::obj-142" : [ "Channel[98]", "Channel", 0 ],
-			"obj-39::obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-252::obj-47" : [ "modulation_indices[31]", "modulation_indices", 0 ],
-			"obj-4::obj-60::obj-23" : [ "jam_amount[28]", "jam_amount", 0 ],
-			"obj-4::obj-258::obj-13" : [ "delta_channel_wrapper[66]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-15::obj-3::obj-29::obj-97" : [ "Quantized Rate[108]", "Quantized Rate", 0 ],
-			"obj-2::obj-26::obj-31::obj-13" : [ "delta_channel_wrapper[84]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-10::obj-6::obj-9" : [ "live.text[249]", "live.text", 0 ],
-			"obj-2::obj-1::obj-60::obj-12" : [ "ratecontrol[132]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-12::obj-30" : [ "randomize_percentage[26]", "randomize_percentage", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-30" : [ "randomize_percentage[27]", "randomize_percentage", 0 ],
-			"obj-1::obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[8]", "Hard Sync Toggle", 0 ],
-			"obj-1::obj-148::obj-62::obj-142" : [ "Channel[167]", "Channel", 0 ],
-			"obj-3::obj-25::obj-40" : [ "Y-Offset[2]", "Y-Offset", 0 ],
-			"obj-3::obj-33::obj-13::obj-82::obj-142" : [ "Channel[113]", "Channel", 0 ],
-			"obj-3::obj-33::obj-15::obj-8" : [ "delta_speedlim_toggle[6]", "delta_speedlim_toggle", 0 ],
-			"obj-3::obj-2::obj-107::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
-			"obj-3::obj-47::obj-22::obj-32" : [ "off[53]", "off", 0 ],
-			"obj-39::obj-15::obj-190::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
-			"obj-39::obj-7::obj-142" : [ "Channel", "Channel", 0 ],
-			"obj-39::obj-29::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
-			"obj-4::obj-174::obj-29::obj-9" : [ "Manual Rate[18]", "Manual Rate", 0 ],
-			"obj-4::obj-289::obj-55" : [ "live.text[19]", "live.text[1]", 0 ],
-			"obj-4::obj-373::obj-29::obj-9" : [ "Manual Rate[5]", "Manual Rate", 0 ],
-			"obj-4::obj-203" : [ "global_cell_speed", "global_cell_speed", 0 ],
-			"obj-4::obj-297" : [ "SubsetCtrl[3]", "SubsetCtrl", 0 ],
-			"obj-2::obj-34::obj-12::obj-112::obj-107" : [ "Delta Channel #[21]", "Delta Channel #", 0 ],
-			"obj-2::obj-365::obj-3::obj-30" : [ "randomize_percentage[22]", "randomize_percentage", 0 ],
-			"obj-2::obj-43::obj-30::obj-9" : [ "live.text[220]", "live.text", 0 ],
-			"obj-2::obj-70::obj-3::obj-12" : [ "ratecontrol[114]", "ratecontrol", 0 ],
-			"obj-2::obj-25::obj-35::obj-13" : [ "delta_channel_wrapper[107]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-54" : [ "mod_depth", "mod_depth", 0 ],
-			"obj-2::obj-123::obj-142" : [ "Channel[138]", "Channel", 0 ],
-			"obj-51::obj-226::obj-29::obj-9" : [ "Manual Rate[46]", "Manual Rate", 0 ],
-			"obj-1::obj-1::obj-62::obj-13" : [ "delta_channel_wrapper[119]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-148::obj-190::obj-30" : [ "randomize_percentage[31]", "randomize_percentage", 0 ],
-			"obj-3::obj-49::obj-14::obj-12" : [ "ratecontrol[101]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-12::obj-41" : [ "smooth_ramp_down", "smooth_ramp_down", 0 ],
-			"obj-3::obj-33::obj-15::obj-5::obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-82::obj-23" : [ "jam_amount[6]", "jam_amount", 0 ],
-			"obj-3::obj-4::obj-98::obj-9" : [ "live.text[196]", "live.text", 0 ],
-			"obj-3::obj-4::obj-19::obj-13" : [ "delta_channel_wrapper[29]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-1::obj-190::obj-32" : [ "off[56]", "off", 0 ],
-			"obj-4::obj-253::obj-55" : [ "live.text[261]", "live.text[1]", 0 ],
-			"obj-4::obj-102::obj-23" : [ "jam_amount[29]", "jam_amount", 0 ],
-			"obj-4::obj-6::obj-9" : [ "live.text[20]", "live.text", 0 ],
 			"obj-4::obj-31" : [ "Jam On/Off[3]", "Jam On/Off", 0 ],
-			"obj-4::obj-189" : [ "randomize_z_index[2]", "randomize_z_index", 0 ],
-			"obj-2::obj-203::obj-3::obj-47" : [ "modulation_indices[36]", "modulation_indices", 0 ],
-			"obj-2::obj-15::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[65]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-26::obj-30::obj-9" : [ "live.text[121]", "live.text", 0 ],
-			"obj-2::obj-10::obj-112::obj-108" : [ "Hard Sync Threshold[15]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-1::obj-64::obj-13" : [ "delta_channel_wrapper[74]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-3::obj-10::obj-142" : [ "Channel[132]", "Channel", 0 ],
-			"obj-1::obj-1::obj-190::obj-30" : [ "randomize_percentage[29]", "randomize_percentage", 0 ],
-			"obj-1::obj-148::obj-46::obj-13" : [ "delta_channel_wrapper[134]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-25::obj-45" : [ "Modulation Amount[2]", "Modulation Amount", 0 ],
-			"obj-3::obj-33::obj-13::obj-40::obj-34" : [ "external_gate[1]", "external_gate", 0 ],
-			"obj-3::obj-33::obj-15::obj-17" : [ "modulation source select[6]", "modulation source select", 0 ],
-			"obj-3::obj-4::obj-110::obj-23" : [ "jam_amount[17]", "jam_amount", 0 ],
-			"obj-4::obj-174::obj-112::obj-107" : [ "Delta Channel #[67]", "Delta Channel #", 0 ],
-			"obj-2::obj-34::obj-12::obj-55" : [ "live.text[98]", "live.text[1]", 0 ],
-			"obj-2::obj-23::obj-3::obj-67" : [ "min_max_offset_ui[36]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-43::obj-50" : [ "osc_interp[1]", "osc_interp", 0 ],
-			"obj-2::obj-8::obj-6::obj-12" : [ "ratecontrol[116]", "ratecontrol", 0 ],
-			"obj-2::obj-11::obj-34::obj-142" : [ "Channel[136]", "Channel", 0 ],
-			"obj-2::obj-1::obj-83::obj-142" : [ "Channel[121]", "Channel", 0 ],
-			"obj-2::obj-125::obj-142" : [ "Channel[139]", "Channel", 0 ],
-			"obj-51::obj-226::obj-112::obj-107" : [ "Delta Channel #[53]", "Delta Channel #", 0 ],
-			"obj-1::obj-148::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[44]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-14::obj-27::obj-12" : [ "ratecontrol[68]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-15::obj-80::obj-13" : [ "delta_channel_wrapper[9]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-11::obj-7::obj-29::obj-23" : [ "manual_rate_wrapper[10]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-3::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[13]", "quantize_rate_wrapper", 0 ],
-			"obj-39::obj-204::obj-12" : [ "ModularSendsLocks[1]", "ModularSendsLocks", 0 ],
-			"obj-39::obj-16::obj-190::obj-30" : [ "randomize_percentage[8]", "randomize_percentage", 0 ],
-			"obj-4::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[25]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-148::obj-29::obj-9" : [ "Manual Rate[17]", "Manual Rate", 0 ],
-			"obj-4::obj-239::obj-325::obj-67" : [ "min_max_offset_ui[45]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-113::obj-9" : [ "live.text[263]", "live.text", 0 ],
-			"obj-2::obj-203::obj-5::obj-34" : [ "external_gate[5]", "external_gate", 0 ],
-			"obj-2::obj-15::obj-3::obj-30" : [ "randomize_percentage[23]", "randomize_percentage", 0 ],
-			"obj-2::obj-70::obj-42::obj-29::obj-22" : [ "quantize_rate_wrapper[39]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-10::obj-34::obj-23" : [ "jam_amount[47]", "jam_amount", 0 ],
-			"obj-2::obj-3::obj-6::obj-13" : [ "delta_channel_wrapper[112]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-82::obj-12" : [ "ratecontrol[124]", "ratecontrol", 0 ],
-			"obj-51::obj-26::obj-186::obj-93" : [ "Trig mode[1]", "Trig mode", 0 ],
-			"obj-3::obj-14::obj-7::obj-9" : [ "Delta Channel Menu[23]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-33::obj-13::obj-32" : [ "mod_src_select[1]", "mod_src_select", 0 ],
-			"obj-3::obj-6::obj-26::obj-112::obj-9" : [ "Hard Sync Toggle[49]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-6::obj-18" : [ "Range", "Range", 0 ],
-			"obj-3::obj-4::obj-114::obj-23" : [ "jam_amount[18]", "jam_amount", 0 ],
-			"obj-3::obj-12::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[26]", "Hard Sync Threshold", 0 ],
-			"obj-39::obj-204::obj-190::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
-			"obj-39::obj-204::obj-190::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
-			"obj-4::obj-41::obj-11" : [ "delta_channel_wrapper[51]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-190::obj-30" : [ "randomize_percentage[12]", "randomize_percentage", 0 ],
-			"obj-4::obj-239::obj-220" : [ "ProbLock[4]", "ProbLock", 0 ],
-			"obj-4::obj-68::obj-9" : [ "live.text[255]", "live.text", 0 ],
-			"obj-2::obj-23::obj-5::obj-34" : [ "external_gate[8]", "external_gate", 0 ],
-			"obj-2::obj-52::obj-70::obj-23" : [ "jam_amount[39]", "jam_amount", 0 ],
-			"obj-2::obj-8::obj-112::obj-107" : [ "Delta Channel #[29]", "Delta Channel #", 0 ],
-			"obj-2::obj-1::obj-86::obj-142" : [ "Channel[150]", "Channel", 0 ],
-			"obj-2::obj-25::obj-42::obj-142" : [ "Channel[159]", "Channel", 0 ],
-			"obj-51::obj-226::obj-32" : [ "off[63]", "off", 0 ],
-			"obj-1::obj-1::obj-46::obj-142" : [ "Channel[163]", "Channel", 0 ],
-			"obj-1::obj-1::obj-67::obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
+			"obj-2::obj-52::obj-31::obj-13" : [ "delta_channel_wrapper[90]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-72::obj-23" : [ "jam_amount[55]", "jam_amount", 0 ],
+			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[273]", "live.text", 0 ],
+			"obj-1::obj-1::obj-43::obj-29::obj-97" : [ "Quantized_Rate[8]", "Quantized_Rate", 0 ],
+			"obj-1::obj-148::obj-60::obj-13" : [ "delta_channel_wrapper[135]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-14::obj-27::obj-23" : [ "jam_amount[11]", "jam_amount", 0 ],
+			"obj-3::obj-33::obj-12::obj-29" : [ "gain_reset_button", "gain_reset_button", 0 ],
+			"obj-3::obj-33::obj-15::obj-80::obj-9" : [ "live.text[209]", "live.text", 0 ],
+			"obj-3::obj-47::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[16]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-11::obj-14" : [ "Length", "Length", 0 ],
+			"obj-39::obj-29::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
+			"obj-4::obj-253::obj-112::obj-107" : [ "Delta Channel #[47]", "Delta Channel #", 0 ],
+			"obj-4::obj-239::obj-325::obj-29::obj-9" : [ "Manual Rate[52]", "Manual Rate", 0 ],
+			"obj-4::obj-373::obj-47" : [ "modulation_indices[11]", "modulation_indices", 0 ],
+			"obj-2::obj-43::obj-70::obj-23" : [ "jam_amount[36]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-19::obj-9" : [ "live.text[266]", "live.text", 0 ],
+			"obj-2::obj-1::obj-12::obj-112::obj-11" : [ "delta_channel_wrapper[105]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-53" : [ "verb_mode", "verb_mode", 0 ],
+			"obj-51::obj-226::obj-67" : [ "min_max_offset_ui[47]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-1::obj-60::obj-9" : [ "live.text[275]", "live.text", 0 ],
+			"obj-3::obj-33::obj-13::obj-74" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-3::obj-11::obj-4::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
+			"obj-3::obj-4::obj-11::obj-13" : [ "delta_channel_wrapper[27]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-16::obj-190::obj-112::obj-9" : [ "Hard Sync Toggle[22]", "Hard Sync Toggle", 0 ],
+			"obj-39::obj-1::obj-190::obj-32" : [ "off[56]", "off", 0 ],
+			"obj-4::obj-252::obj-55" : [ "live.text[258]", "live.text[1]", 0 ],
+			"obj-4::obj-289::obj-112::obj-9" : [ "Hard_Sync_Toggle[4]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-257::obj-112::obj-9" : [ "Hard_Sync_Toggle[5]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-26::obj-70::obj-13" : [ "delta_channel_wrapper[83]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-77::obj-23" : [ "jam_amount[56]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-19::obj-13" : [ "delta_channel_wrapper[81]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-1::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[9]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-148::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[46]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-148::obj-67::obj-4" : [ "chord[1]", "chord", 0 ],
+			"obj-129" : [ "global_randomization_metro", "global_randomization_metro", 0 ],
 			"obj-3::obj-25::obj-5::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
 			"obj-3::obj-33::obj-13::obj-15::obj-9" : [ "Delta Channel Menu[2]", "Delta Channel Menu", 0 ],
 			"obj-3::obj-33::obj-15::obj-82::obj-12" : [ "ratecontrol[94]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-14::obj-27" : [ "delta_smooth_toggle[5]", "delta_smooth_toggle", 0 ],
-			"obj-3::obj-47::obj-7::obj-23" : [ "manual_rate_wrapper[7]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-11::obj-7::obj-112::obj-11" : [ "delta_channel_wrapper[18]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-4::obj-102::obj-12" : [ "ratecontrol[81]", "ratecontrol", 0 ],
-			"obj-3::obj-3::obj-22::obj-112::obj-107" : [ "Delta Channel #[39]", "Delta Channel #", 0 ],
-			"obj-39::obj-7::obj-13" : [ "delta_channel_wrapper[39]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-2" : [ "Lock  Matrix[3]", "Lock  Matrix", 0 ],
-			"obj-4::obj-261" : [ "DecayControlMod[1]", "DecayControlMod", 0 ],
-			"obj-2::obj-34::obj-97" : [ "lock_ui", "lock_ui", 0 ],
-			"obj-2::obj-70::obj-42::obj-112::obj-107" : [ "Delta Channel #[35]", "Delta Channel #", 0 ],
-			"obj-2::obj-1::obj-66::obj-13" : [ "delta_channel_wrapper[75]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-83" : [ "MasterSoloLock", "MasterSoloLock", 0 ],
-			"obj-1::obj-1::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[45]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-60::obj-13" : [ "delta_channel_wrapper[135]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-12::obj-5::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-13::obj-36" : [ "smooth_ramp_up[1]", "smooth_ramp_up", 0 ],
-			"obj-3::obj-33::obj-14::obj-16::obj-9" : [ "Delta Channel Menu[7]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-11::obj-4::obj-29::obj-23" : [ "manual_rate_wrapper[9]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-6::obj-26::obj-55" : [ "live.text[109]", "live.text[1]", 0 ],
-			"obj-3::obj-4::obj-11::obj-13" : [ "delta_channel_wrapper[27]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-12::obj-22::obj-32" : [ "off[1]", "off", 0 ],
-			"obj-39::obj-82::obj-9" : [ "live.text[223]", "live.text", 0 ],
-			"obj-4::obj-252::obj-29::obj-23" : [ "manual_rate_wrapper[23]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-174::obj-32" : [ "off[13]", "off", 0 ],
-			"obj-4::obj-373::obj-30" : [ "randomize_percentage[19]", "randomize_percentage", 0 ],
-			"obj-2::obj-52::obj-31::obj-12" : [ "ratecontrol[112]", "ratecontrol", 0 ],
-			"obj-2::obj-8::obj-34::obj-142" : [ "Channel[130]", "Channel", 0 ],
-			"obj-2::obj-1::obj-48::obj-12" : [ "ratecontrol[137]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-12::obj-29::obj-9" : [ "Manual Rate[35]", "Manual Rate", 0 ],
-			"obj-2::obj-25::obj-45::obj-13" : [ "delta_channel_wrapper[109]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-9" : [ "Manual Rate[97]", "Manual Rate", 0 ],
-			"obj-1::obj-1::obj-60::obj-9" : [ "live.text[275]", "live.text", 0 ],
-			"obj-1::obj-148::obj-357" : [ "SubsetCtrl[5]", "SubsetCtrl", 0 ],
-			"obj-3::obj-49::obj-110::obj-107" : [ "Delta Channel #[2]", "Delta Channel #", 0 ],
-			"obj-3::obj-25::obj-110::obj-107" : [ "Delta Channel #[1]", "Delta Channel #", 0 ],
-			"obj-3::obj-33::obj-13::obj-5::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-24" : [ "offset[8]", "offset", 0 ],
-			"obj-3::obj-47::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[8]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-11::obj-7::obj-30" : [ "randomize_percentage[3]", "randomize_percentage", 0 ],
-			"obj-3::obj-11::obj-57" : [ "Smooth Output[1]", "Smooth Output", 0 ],
+			"obj-3::obj-47::obj-22::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
 			"obj-3::obj-4::obj-105::obj-12" : [ "ratecontrol[80]", "ratecontrol", 0 ],
-			"obj-3::obj-3::obj-22::obj-55" : [ "live.text[14]", "live.text[1]", 0 ],
-			"obj-39::obj-15::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[17]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-289::obj-29::obj-22" : [ "quantize_rate_wrapper[29]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-257::obj-112::obj-107" : [ "Delta_Channel_#[4]", "Delta Channel #", 0 ],
-			"obj-2::obj-43::obj-70::obj-9" : [ "live.text[115]", "live.text", 0 ],
-			"obj-2::obj-70::obj-42::obj-32" : [ "off[71]", "off", 0 ],
-			"obj-2::obj-11::obj-6::obj-23" : [ "jam_amount[48]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-72::obj-13" : [ "delta_channel_wrapper[76]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-19::obj-23" : [ "jam_amount[59]", "jam_amount", 0 ],
-			"obj-1::obj-1::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[8]", "Delta Channel #", 0 ],
-			"obj-1::obj-148::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[46]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-6" : [ "vst~[4]", "vst~", 0 ],
-			"obj-3::obj-33::obj-12::obj-80::obj-9" : [ "live.text[213]", "live.text", 0 ],
-			"obj-3::obj-33::obj-13::obj-2" : [ "Flip Output On/Off[3]", "Flip Output On/Off", 0 ],
-			"obj-3::obj-2::obj-107::obj-112::obj-107" : [ "Delta Channel #[25]", "Delta Channel #", 0 ],
-			"obj-3::obj-11::obj-4::obj-112::obj-11" : [ "delta_channel_wrapper[17]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-12::obj-7::obj-9" : [ "Delta Channel Menu[12]", "Delta Channel Menu", 0 ],
-			"obj-39::obj-204::obj-190::obj-29::obj-97" : [ "Quantized_Rate", "Quantized_Rate", 0 ],
-			"obj-39::obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[18]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-252::obj-112::obj-9" : [ "Hard Sync Toggle[41]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-126::obj-9" : [ "live.text[10]", "live.text", 0 ],
-			"obj-2::obj-203::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[33]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-203::obj-97" : [ "lock_ui[6]", "lock_ui", 0 ],
-			"obj-2::obj-26::obj-70::obj-9" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-1::obj-19::obj-13" : [ "delta_channel_wrapper[72]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-48::obj-13" : [ "delta_channel_wrapper[110]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-107" : [ "Delta Channel #[42]", "Delta Channel #", 0 ],
-			"obj-1::obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[51]", "Manual Rate", 0 ],
-			"obj-1::obj-1::obj-42" : [ "Tempo", "Tempo", 0 ],
-			"obj-1::obj-148::obj-43::obj-47" : [ "modulation_indices[16]", "modulation_indices", 0 ],
-			"obj-1::obj-148::obj-42" : [ "Tempo[2]", "Tempo", 0 ],
-			"obj-129" : [ "global_randomization_metro", "global_randomization_metro", 0 ],
-			"obj-3::obj-25::obj-14::obj-12" : [ "ratecontrol[100]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-13::obj-80::obj-23" : [ "jam_amount[14]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-15::obj-32" : [ "mod_src_select[2]", "mod_src_select", 0 ],
-			"obj-3::obj-47::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[16]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-15::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
-			"obj-39::obj-28::obj-142" : [ "Channel[119]", "Channel", 0 ],
-			"obj-4::obj-148::obj-47" : [ "modulation_indices[23]", "modulation_indices", 0 ],
-			"obj-4::obj-257::obj-32" : [ "off[15]", "off", 0 ],
-			"obj-4::obj-278" : [ "ProbLock[5]", "ProbLock", 0 ],
-			"obj-2::obj-34::obj-12::obj-29::obj-97" : [ "Quantized Rate[88]", "Quantized Rate", 0 ],
-			"obj-2::obj-365::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[69]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-23::obj-3::obj-29::obj-9" : [ "Manual Rate[53]", "Manual Rate", 0 ],
+			"obj-3::obj-75::obj-74::obj-68" : [ "Mixer_Send_UI", "Mixer_Send_UI", 0 ],
+			"obj-39::obj-204::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[15]", "quantize_rate_wrapper", 0 ],
+			"obj-39::obj-15::obj-190::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
+			"obj-39::obj-77" : [ "external_clock_wrapper", "external_clock_wrapper", 0 ],
+			"obj-4::obj-60::obj-23" : [ "jam_amount[28]", "jam_amount", 0 ],
+			"obj-2::obj-34::obj-17" : [ "pan_l_limit[1]", "pan_l_limit", 0 ],
+			"obj-2::obj-203::obj-3::obj-29::obj-9" : [ "Manual Rate[26]", "Manual Rate", 0 ],
 			"obj-2::obj-43::obj-31::obj-23" : [ "jam_amount[37]", "jam_amount", 0 ],
-			"obj-2::obj-70::obj-4::obj-9" : [ "live.text[236]", "live.text", 0 ],
-			"obj-2::obj-25::obj-30::obj-13" : [ "delta_channel_wrapper[106]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-118::obj-142" : [ "Channel[137]", "Channel", 0 ],
-			"obj-51::obj-82::obj-9" : [ "live.text[254]", "live.text", 0 ],
-			"obj-1::obj-1::obj-43::obj-32" : [ "off[76]", "off", 0 ],
-			"obj-1::obj-148::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[9]", "Delta Channel #", 0 ],
-			"obj-3::obj-49::obj-42" : [ "Low Ramp[1]", "Low Ramp", 0 ],
-			"obj-3::obj-33::obj-12::obj-40::obj-34" : [ "external_gate", "external_gate", 0 ],
-			"obj-3::obj-33::obj-12::obj-24" : [ "offset[6]", "offset", 0 ],
-			"obj-3::obj-33::obj-14::obj-80::obj-12" : [ "ratecontrol[93]", "ratecontrol", 0 ],
-			"obj-3::obj-2::obj-107::obj-55" : [ "live.text[113]", "live.text[1]", 0 ],
-			"obj-3::obj-11::obj-4::obj-55" : [ "live.text[111]", "live.text[1]", 0 ],
-			"obj-3::obj-6::obj-12" : [ "Slider Qty[6]", "Slider Qty", 0 ],
-			"obj-3::obj-4::obj-89::obj-9" : [ "live.text[197]", "live.text", 0 ],
-			"obj-3::obj-4::obj-10::obj-9" : [ "live.text[189]", "live.text", 0 ],
-			"obj-39::obj-16::obj-190::obj-29::obj-9" : [ "Manual Rate[22]", "Manual Rate", 0 ],
-			"obj-39::obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[32]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-253::obj-112::obj-9" : [ "Hard Sync Toggle[74]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-239::obj-325::obj-29::obj-9" : [ "Manual Rate[52]", "Manual Rate", 0 ],
-			"obj-4::obj-60::obj-13" : [ "delta_channel_wrapper[53]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-258::obj-9" : [ "live.text[122]", "live.text", 0 ],
-			"obj-2::obj-203::obj-3::obj-112::obj-107" : [ "Delta Channel #[6]", "Delta Channel #", 0 ],
-			"obj-2::obj-15::obj-3::obj-29::obj-9" : [ "Manual Rate[45]", "Manual Rate", 0 ],
-			"obj-2::obj-26::obj-31::obj-9" : [ "live.text[15]", "live.text", 0 ],
-			"obj-2::obj-52::obj-30::obj-12" : [ "ratecontrol[113]", "ratecontrol", 0 ],
-			"obj-2::obj-10::obj-6::obj-12" : [ "ratecontrol[118]", "ratecontrol", 0 ],
 			"obj-2::obj-1::obj-60::obj-142" : [ "Channel[15]", "Channel", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-67" : [ "min_max_offset_ui[27]", "min_max_offset_ui", 0 ],
-			"obj-1::obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[7]", "Delta Channel #", 0 ],
-			"obj-1::obj-148::obj-62::obj-9" : [ "live.text[278]", "live.text", 0 ],
+			"obj-2::obj-25::obj-45::obj-23" : [ "jam_amount[63]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[43]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-148::obj-43::obj-67" : [ "min_max_offset_ui[13]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-148::obj-278" : [ "NoteProbLock[1]", "NoteProbLock", 0 ],
+			"obj-2::obj-23::obj-3::obj-29::obj-97" : [ "Quantized Rate[128]", "Quantized Rate", 0 ],
+			"obj-3::obj-33::obj-12::obj-5::obj-9" : [ "Manual Rate[30]", "Manual Rate", 0 ],
+			"obj-3::obj-33::obj-12::obj-53" : [ "gain[2]", "gain", 0 ],
+			"obj-3::obj-33::obj-13::obj-41" : [ "smooth_ramp_down[1]", "smooth_ramp_down", 0 ],
+			"obj-3::obj-33::obj-14::obj-82::obj-23" : [ "jam_amount[6]", "jam_amount", 0 ],
+			"obj-3::obj-2::obj-107::obj-30" : [ "randomize_percentage", "randomize_percentage", 0 ],
+			"obj-3::obj-4::obj-10::obj-12" : [ "ratecontrol[75]", "ratecontrol", 0 ],
+			"obj-39::obj-16::obj-190::obj-55" : [ "live.text[222]", "live.text[1]", 0 ],
+			"obj-4::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[25]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[28]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-289::obj-30" : [ "randomize_percentage[17]", "randomize_percentage", 0 ],
+			"obj-4::obj-257::obj-30" : [ "randomize_percentage[18]", "randomize_percentage", 0 ],
+			"obj-4::obj-261" : [ "DecayControlMod[1]", "DecayControlMod", 0 ],
+			"obj-2::obj-34::obj-12::obj-29::obj-9" : [ "Manual Rate[79]", "Manual Rate", 0 ],
+			"obj-2::obj-15::obj-3::obj-29::obj-97" : [ "Quantized Rate[108]", "Quantized Rate", 0 ],
+			"obj-2::obj-26::obj-31::obj-13" : [ "delta_channel_wrapper[84]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-43::obj-62" : [ "ratecontrol[136]", "ratecontrol", 0 ],
+			"obj-2::obj-52::obj-30::obj-142" : [ "Channel[122]", "Channel", 0 ],
+			"obj-2::obj-3::obj-26" : [ "pitchmod", "pitchmod", 0 ],
+			"obj-2::obj-118::obj-142" : [ "Channel[137]", "Channel", 0 ],
+			"obj-51::obj-82::obj-12" : [ "ratecontrol[125]", "ratecontrol", 0 ],
+			"obj-1::obj-1::obj-43::obj-55" : [ "live.text[281]", "live.text[1]", 0 ],
+			"obj-1::obj-148::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[10]", "Hard Sync Toggle", 0 ],
 			"obj-160" : [ "randomization_percentage", "randomization_percentage", 0 ],
-			"obj-3::obj-49::obj-110::obj-9" : [ "Hard Sync Toggle[1]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-365::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[7]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-49::obj-45" : [ "Modulation Amount[1]", "Modulation Amount", 0 ],
+			"obj-3::obj-25::obj-110::obj-11" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-12::obj-2" : [ "Flip Output On/Off[2]", "Flip Output On/Off", 0 ],
+			"obj-3::obj-33::obj-13::obj-5::obj-97" : [ "Quantized Rate[38]", "Quantized Rate", 0 ],
+			"obj-3::obj-47::obj-31" : [ "bipolar_toggle[1]", "bipolar_toggle", 0 ],
+			"obj-3::obj-6::obj-4::obj-23" : [ "manual_rate_wrapper[11]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-108::obj-12" : [ "ratecontrol[79]", "ratecontrol", 0 ],
+			"obj-3::obj-3::obj-56::obj-9" : [ "Delta Channel Menu[24]", "Delta Channel Menu", 0 ],
+			"obj-39::obj-15::obj-12" : [ "ModularSendsLocks[2]", "ModularSendsLocks", 0 ],
+			"obj-39::obj-86" : [ "external_tempo", "external_tempo", 0 ],
+			"obj-4::obj-41::obj-107" : [ "Delta Channel #[41]", "Delta Channel #", 0 ],
+			"obj-4::obj-253::obj-32" : [ "off[12]", "off", 0 ],
+			"obj-4::obj-102::obj-9" : [ "live.text[262]", "live.text", 0 ],
+			"obj-4::obj-258::obj-9" : [ "live.text[122]", "live.text", 0 ],
+			"obj-2::obj-203::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[6]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-15::obj-97" : [ "lock_ui[10]", "lock_ui", 0 ],
+			"obj-2::obj-43::obj-30::obj-13" : [ "delta_channel_wrapper[88]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-48::obj-9" : [ "live.text[125]", "live.text", 0 ],
+			"obj-2::obj-66" : [ "MasterSolo", "MasterSolo", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[16]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[8]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-148::obj-62::obj-9" : [ "live.text[278]", "live.text", 0 ],
+			"obj-2::obj-23::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[68]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-33::obj-12::obj-80::obj-13" : [ "delta_channel_wrapper[5]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-8" : [ "delta_speedlim_toggle[4]", "delta_speedlim_toggle", 0 ],
+			"obj-3::obj-11::obj-7::obj-29::obj-97" : [ "Quantized Rate[100]", "Quantized Rate", 0 ],
+			"obj-3::obj-6::obj-18" : [ "Range", "Range", 0 ],
+			"obj-3::obj-4::obj-89::obj-12" : [ "ratecontrol[83]", "ratecontrol", 0 ],
+			"obj-4::obj-174::obj-112::obj-108" : [ "Hard Sync Threshold[67]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-8" : [ "newSamples[1]", "newSamples", 0 ],
+			"obj-4::obj-189" : [ "randomize_z_index[2]", "randomize_z_index", 0 ],
+			"obj-2::obj-15::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[70]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-52::obj-35" : [ "live.numbox[55]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-83::obj-23" : [ "jam_amount[57]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-30::obj-12" : [ "ratecontrol[138]", "ratecontrol", 0 ],
+			"obj-1::obj-148::obj-190::obj-55" : [ "live.text[285]", "live.text[1]", 0 ],
+			"obj-2::obj-365::obj-3::obj-32" : [ "off[72]", "off", 0 ],
+			"obj-3::obj-25::obj-14::obj-12" : [ "ratecontrol[100]", "ratecontrol", 0 ],
+			"obj-3::obj-33::obj-13::obj-80::obj-142" : [ "Channel[114]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-24" : [ "offset[7]", "offset", 0 ],
+			"obj-3::obj-6::obj-26::obj-29::obj-97" : [ "Quantized Rate[99]", "Quantized Rate", 0 ],
+			"obj-3::obj-4::obj-110::obj-12" : [ "ratecontrol[78]", "ratecontrol", 0 ],
+			"obj-3::obj-12::obj-22::obj-29::obj-97" : [ "Quantized Rate[6]", "Quantized Rate", 0 ],
+			"obj-39::obj-204::obj-190::obj-67" : [ "min_max_offset_ui[7]", "min_max_offset_ui", 0 ],
+			"obj-39::obj-82::obj-142" : [ "Channel[120]", "Channel", 0 ],
+			"obj-4::obj-148::obj-29::obj-9" : [ "Manual Rate[17]", "Manual Rate", 0 ],
+			"obj-4::obj-239::obj-325::obj-30" : [ "randomize_percentage[16]", "randomize_percentage", 0 ],
+			"obj-4::obj-113::obj-142" : [ "Channel[145]", "Channel", 0 ],
+			"obj-4::obj-302" : [ "Delta Trigger Note Volume[1]", "Delta Trigger Note Volume", 0 ],
+			"obj-2::obj-203::obj-3::obj-30" : [ "randomize_percentage[21]", "randomize_percentage", 0 ],
+			"obj-2::obj-1::obj-64::obj-12" : [ "ratecontrol[147]", "ratecontrol", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-47" : [ "modulation_indices[27]", "modulation_indices", 0 ],
+			"obj-1::obj-1::obj-190::obj-30" : [ "randomize_percentage[29]", "randomize_percentage", 0 ],
+			"obj-1::obj-148::obj-8" : [ "volume[1]", "volume", 0 ],
+			"obj-2::obj-23::obj-3::obj-32" : [ "off[68]", "off", 0 ],
+			"obj-3::obj-14::obj-7::obj-9" : [ "Delta Channel Menu[23]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-14::obj-24" : [ "offset[8]", "offset", 0 ],
+			"obj-3::obj-47::obj-7::obj-9" : [ "Manual Rate[9]", "Manual Rate", 0 ],
+			"obj-3::obj-11::obj-7::obj-112::obj-9" : [ "Hard Sync Toggle[50]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-4::obj-98::obj-13" : [ "delta_channel_wrapper[21]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-4::obj-19::obj-12" : [ "ratecontrol[74]", "ratecontrol", 0 ],
+			"obj-39::obj-16::obj-2" : [ "Master Panning[2]", "Master Panning", 0 ],
+			"obj-39::obj-7::obj-9" : [ "live.text[17]", "live.text", 0 ],
+			"obj-4::obj-190::obj-30" : [ "randomize_percentage[12]", "randomize_percentage", 0 ],
+			"obj-4::obj-68::obj-9" : [ "live.text[255]", "live.text", 0 ],
+			"obj-4::obj-373::obj-29::obj-97" : [ "Quantized_Rate[5]", "Quantized_Rate", 0 ],
+			"obj-2::obj-26::obj-30::obj-142" : [ "Channel[4]", "Channel", 0 ],
+			"obj-2::obj-1::obj-86::obj-9" : [ "live.text[117]", "live.text", 0 ],
+			"obj-2::obj-25::obj-35::obj-12" : [ "ratecontrol[151]", "ratecontrol", 0 ],
+			"obj-2::obj-123::obj-23" : [ "jam_amount[69]", "jam_amount", 0 ],
+			"obj-51::obj-226::obj-29::obj-9" : [ "Manual Rate[46]", "Manual Rate", 0 ],
+			"obj-51::obj-246" : [ "scale_visualization", "scale_visualization", 0 ],
+			"obj-1::obj-1::obj-62::obj-13" : [ "delta_channel_wrapper[119]", "delta_channel_wrapper", 0 ],
 			"obj-3::obj-33::obj-13::obj-82::obj-23" : [ "jam_amount[15]", "jam_amount", 0 ],
 			"obj-3::obj-33::obj-15::obj-53" : [ "gain[4]", "gain", 0 ],
-			"obj-3::obj-47::obj-22::obj-55" : [ "live.text[112]", "live.text[1]", 0 ],
-			"obj-3::obj-6::obj-4::obj-9" : [ "Manual Rate[34]", "Manual Rate", 0 ],
-			"obj-3::obj-4::obj-108::obj-23" : [ "jam_amount[16]", "jam_amount", 0 ],
-			"obj-39::obj-29::obj-142" : [ "Channel[1]", "Channel", 0 ],
-			"obj-2::obj-365::obj-3::obj-47" : [ "modulation_indices[40]", "modulation_indices", 0 ],
-			"obj-2::obj-23::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[47]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-43::obj-30::obj-12" : [ "ratecontrol[110]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-3::obj-142" : [ "Channel[133]", "Channel", 0 ],
-			"obj-2::obj-11::obj-112::obj-107" : [ "Delta Channel #[37]", "Delta Channel #", 0 ],
-			"obj-2::obj-1::obj-77::obj-23" : [ "jam_amount[56]", "jam_amount", 0 ],
-			"obj-2::obj-123::obj-23" : [ "jam_amount[69]", "jam_amount", 0 ],
-			"obj-51::obj-226::obj-29::obj-97" : [ "Quantized Rate[4]", "Quantized Rate", 0 ],
-			"obj-1::obj-148::obj-190::obj-67" : [ "min_max_offset_ui[44]", "min_max_offset_ui", 0 ],
-			"obj-3::obj-14::obj-27::obj-13" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-49::obj-14::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-12::obj-82::obj-12" : [ "ratecontrol[98]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-12::obj-18" : [ "range_ctrl1", "range_ctrl1", 0 ],
-			"obj-3::obj-33::obj-15::obj-5::obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-82::obj-13" : [ "delta_channel_wrapper[12]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-11::obj-131" : [ "jamRangeMin[2]", "jamRangeMin", 0 ],
-			"obj-3::obj-4::obj-19::obj-23" : [ "jam_amount[21]", "jam_amount", 0 ],
-			"obj-39::obj-16::obj-190::obj-112::obj-108" : [ "Hard Sync Threshold[38]", "Hard Sync Threshold", 0 ],
-			"obj-39::obj-1::obj-190::obj-55" : [ "live.text[216]", "live.text[1]", 0 ],
-			"obj-4::obj-252::obj-55" : [ "live.text[258]", "live.text[1]", 0 ],
-			"obj-4::obj-253::obj-32" : [ "off[12]", "off", 0 ],
-			"obj-4::obj-239::obj-325::obj-112::obj-108" : [ "Hard Sync Threshold[70]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-102::obj-13" : [ "delta_channel_wrapper[58]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-203::obj-3::obj-32" : [ "off[60]", "off", 0 ],
-			"obj-2::obj-15::obj-3::obj-112::obj-107" : [ "Delta Channel #[8]", "Delta Channel #", 0 ],
-			"obj-2::obj-52::obj-62" : [ "ratecontrol[135]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-7" : [ "ratio", "ratio", 0 ],
-			"obj-2::obj-1::obj-12::obj-67" : [ "min_max_offset_ui[31]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-3::obj-10::obj-23" : [ "jam_amount[65]", "jam_amount", 0 ],
-			"obj-1::obj-1::obj-190::obj-67" : [ "min_max_offset_ui[12]", "min_max_offset_ui", 0 ],
-			"obj-1::obj-1::obj-357" : [ "SubsetCtrl[4]", "SubsetCtrl", 0 ],
-			"obj-3::obj-25::obj-43" : [ "High Ramp[2]", "High Ramp", 0 ],
-			"obj-3::obj-33::obj-15::obj-41" : [ "smooth_ramp_down[2]", "smooth_ramp_down", 0 ],
-			"obj-3::obj-2::obj-36::obj-110::obj-11" : [ "delta_channel_wrapper[13]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-2::obj-36::obj-123" : [ "Shuffle Mux", "Shuffle Mux", 0 ],
-			"obj-3::obj-6::obj-26::obj-29::obj-9" : [ "Manual Rate[90]", "Manual Rate", 0 ],
-			"obj-3::obj-4::obj-110::obj-13" : [ "delta_channel_wrapper[25]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-12::obj-22::obj-29::obj-97" : [ "Quantized Rate[6]", "Quantized Rate", 0 ],
-			"obj-39::obj-204::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[15]", "manual_rate_wrapper", 0 ],
-			"obj-39::obj-15::obj-190::obj-47" : [ "modulation_indices[8]", "modulation_indices", 0 ],
-			"obj-4::obj-217::obj-2" : [ "range_selector_1[3]", "range_selector_1", 0 ],
-			"obj-4::obj-190::obj-112::obj-107" : [ "Delta Channel #[46]", "Delta Channel #", 0 ],
-			"obj-4::obj-289::obj-67" : [ "min_max_offset_ui[28]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-373::obj-29::obj-97" : [ "Quantized_Rate[5]", "Quantized_Rate", 0 ],
-			"obj-2::obj-23::obj-3::obj-30" : [ "randomize_percentage[24]", "randomize_percentage", 0 ],
-			"obj-2::obj-8::obj-6::obj-13" : [ "delta_channel_wrapper[95]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-11::obj-34::obj-13" : [ "delta_channel_wrapper[103]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-83::obj-23" : [ "jam_amount[57]", "jam_amount", 0 ],
-			"obj-2::obj-25::obj-35::obj-23" : [ "jam_amount[61]", "jam_amount", 0 ],
-			"obj-2::obj-25::obj-53" : [ "verb_mode", "verb_mode", 0 ],
-			"obj-2::obj-125::obj-13" : [ "delta_channel_wrapper[43]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[64]", "Hard Sync Toggle", 0 ],
-			"obj-1::obj-1::obj-62::obj-9" : [ "live.text[282]", "live.text", 0 ],
-			"obj-1::obj-1::obj-67::obj-5" : [ "chords_on", "chords_on", 0 ],
-			"obj-3::obj-33::obj-15::obj-80::obj-12" : [ "ratecontrol[95]", "ratecontrol", 0 ],
-			"obj-3::obj-47::obj-1::obj-108" : [ "Hard Sync Threshold[14]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-11::obj-7::obj-29::obj-22" : [ "quantize_rate_wrapper[10]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-4::obj-98::obj-23" : [ "jam_amount[8]", "jam_amount", 0 ],
-			"obj-39::obj-16::obj-190::obj-47" : [ "modulation_indices[29]", "modulation_indices", 0 ],
-			"obj-4::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[25]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-239::obj-325::obj-30" : [ "randomize_percentage[16]", "randomize_percentage", 0 ],
+			"obj-3::obj-33::obj-14::obj-16::obj-9" : [ "Delta Channel Menu[7]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-11::obj-4::obj-29::obj-97" : [ "Quantized Rate[101]", "Quantized Rate", 0 ],
+			"obj-3::obj-75::obj-5" : [ "bipolar_toggle", "bipolar_toggle", 0 ],
+			"obj-39::obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized_Rate", 0 ],
 			"obj-4::obj-6::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
-			"obj-2::obj-26::obj-30::obj-12" : [ "ratecontrol[106]", "ratecontrol", 0 ],
-			"obj-2::obj-70::obj-42::obj-29::obj-97" : [ "Quantized Rate[116]", "Quantized Rate", 0 ],
-			"obj-2::obj-1::obj-64::obj-9" : [ "live.text[268]", "live.text", 0 ],
-			"obj-2::obj-73::obj-23" : [ "jam_amount[67]", "jam_amount", 0 ],
-			"obj-51::obj-26::obj-186::obj-82::obj-9" : [ "live.text[244]", "live.text", 0 ],
-			"obj-1::obj-148::obj-46::obj-9" : [ "live.text[287]", "live.text", 0 ],
-			"obj-3::obj-33::obj-13::obj-29" : [ "gain_reset_button[1]", "gain_reset_button", 0 ],
-			"obj-3::obj-47::obj-43" : [ "function[1]", "function", 0 ],
-			"obj-3::obj-6::obj-26::obj-112::obj-107" : [ "Delta Channel #[19]", "Delta Channel #", 0 ],
-			"obj-3::obj-4::obj-114::obj-13" : [ "delta_channel_wrapper[26]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-12::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[36]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-15::obj-12" : [ "ModularSendsLocks[2]", "ModularSendsLocks", 0 ],
-			"obj-4::obj-41::obj-108" : [ "Hard Sync Threshold[42]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-190::obj-47" : [ "modulation_indices[41]", "modulation_indices", 0 ],
-			"obj-4::obj-174::obj-112::obj-108" : [ "Hard Sync Threshold[67]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-373::obj-112::obj-11" : [ "delta_channel_wrapper[69]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-81" : [ "Loop Control[2]", "Loop Control", 0 ],
+			"obj-4::obj-328" : [ "ProbLock[8]", "ProbLock", 0 ],
+			"obj-2::obj-52::obj-70::obj-23" : [ "jam_amount[39]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-66::obj-12" : [ "ratecontrol[134]", "ratecontrol", 0 ],
+			"obj-2::obj-3::obj-10::obj-13" : [ "delta_channel_wrapper[111]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-148::obj-46::obj-13" : [ "delta_channel_wrapper[134]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-148::obj-30" : [ "NoteLength[1]", "NoteLength", 0 ],
+			"obj-3::obj-49::obj-14::obj-9" : [ "live.text[215]", "live.text", 0 ],
+			"obj-3::obj-33::obj-12::obj-82::obj-12" : [ "ratecontrol[98]", "ratecontrol", 0 ],
+			"obj-3::obj-33::obj-15::obj-5::obj-9" : [ "Manual Rate[40]", "Manual Rate", 0 ],
+			"obj-3::obj-33::obj-14::obj-17" : [ "modulation source select[7]", "modulation source select", 0 ],
+			"obj-3::obj-47::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[8]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-11::obj-7::obj-30" : [ "randomize_percentage[3]", "randomize_percentage", 0 ],
+			"obj-3::obj-3::obj-22::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
+			"obj-39::obj-28::obj-9" : [ "live.text[114]", "live.text", 0 ],
+			"obj-4::obj-174::obj-32" : [ "off[13]", "off", 0 ],
+			"obj-4::obj-373::obj-112::obj-9" : [ "Hard_Sync_Toggle[6]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-307" : [ "DecayControlMod[2]", "DecayControlMod", 0 ],
 			"obj-2::obj-34::obj-12::obj-67" : [ "min_max_offset_ui[20]", "min_max_offset_ui", 0 ],
-			"obj-2::obj-52::obj-70::obj-13" : [ "delta_channel_wrapper[89]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-11::obj-3" : [ "LPG shape[2]", "LPG shape", 0 ],
-			"obj-2::obj-1::obj-86::obj-13" : [ "delta_channel_wrapper[79]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-42::obj-9" : [ "live.text[123]", "live.text", 0 ],
-			"obj-51::obj-26::obj-186::obj-17" : [ "Slider Values[2]", "Slider Values", 0 ],
-			"obj-1::obj-1::obj-46::obj-9" : [ "live.text[284]", "live.text", 0 ],
-			"obj-1::obj-148::obj-43::obj-29::obj-9" : [ "Manual Rate[55]", "Manual Rate", 0 ],
-			"obj-3::obj-25::obj-5::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-36" : [ "smooth_ramp_up[3]", "smooth_ramp_up", 0 ],
-			"obj-3::obj-47::obj-7::obj-22" : [ "quantize_rate_wrapper[7]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-11::obj-7::obj-112::obj-108" : [ "Hard Sync Threshold[20]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-4::obj-102::obj-142" : [ "Channel[96]", "Channel", 0 ],
-			"obj-4::obj-148::obj-29::obj-23" : [ "manual_rate_wrapper[27]", "manual_rate_wrapper", 0 ],
-			"obj-4::obj-113::obj-12" : [ "ratecontrol[131]", "ratecontrol", 0 ],
-			"obj-4::obj-257::obj-29::obj-97" : [ "Quantized_Rate[4]", "Quantized_Rate", 0 ],
 			"obj-2::obj-15::obj-3::obj-47" : [ "modulation_indices[39]", "modulation_indices", 0 ],
 			"obj-2::obj-26::obj-26" : [ "pitchmod[1]", "pitchmod", 0 ],
-			"obj-2::obj-70::obj-42::obj-112::obj-9" : [ "Hard Sync Toggle[15]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-10::obj-34::obj-13" : [ "delta_channel_wrapper[100]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-66::obj-9" : [ "live.text[269]", "live.text", 0 ],
-			"obj-2::obj-3::obj-6::obj-12" : [ "ratecontrol[155]", "ratecontrol", 0 ],
-			"obj-1::obj-1::obj-43::obj-29::obj-97" : [ "Quantized_Rate[8]", "Quantized_Rate", 0 ],
+			"obj-2::obj-1::obj-48::obj-12" : [ "ratecontrol[137]", "ratecontrol", 0 ],
+			"obj-2::obj-125::obj-13" : [ "delta_channel_wrapper[43]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-226::obj-112::obj-9" : [ "Hard Sync Toggle[64]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-1::obj-46::obj-142" : [ "Channel[163]", "Channel", 0 ],
+			"obj-1::obj-1::obj-8" : [ "volume", "volume", 0 ],
+			"obj-1::obj-148::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[44]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-25::obj-60" : [ "live.numbox[1]", "live.numbox[44]", 0 ],
+			"obj-3::obj-33::obj-15::obj-36" : [ "smooth_ramp_up[2]", "smooth_ramp_up", 0 ],
+			"obj-3::obj-2::obj-107::obj-112::obj-107" : [ "Delta Channel #[25]", "Delta Channel #", 0 ],
+			"obj-3::obj-11::obj-4::obj-112::obj-9" : [ "Hard Sync Toggle[51]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-11::obj-57" : [ "Smooth Output[1]", "Smooth Output", 0 ],
+			"obj-3::obj-4::obj-114::obj-142" : [ "Channel[92]", "Channel", 0 ],
+			"obj-3::obj-3::obj-22::obj-67" : [ "min_max_offset_ui[5]", "min_max_offset_ui", 0 ],
+			"obj-39::obj-204::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
+			"obj-39::obj-204::obj-12" : [ "ModularSendsLocks[1]", "ModularSendsLocks", 0 ],
+			"obj-39::obj-16::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[16]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-252::obj-112::obj-11" : [ "delta_channel_wrapper[54]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-289::obj-29::obj-22" : [ "quantize_rate_wrapper[29]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-257::obj-29::obj-9" : [ "Manual Rate[43]", "Manual Rate", 0 ],
+			"obj-2::obj-1::obj-72::obj-13" : [ "delta_channel_wrapper[76]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-3::obj-6::obj-23" : [ "jam_amount[66]", "jam_amount", 0 ],
+			"obj-2::obj-73::obj-13" : [ "delta_channel_wrapper[113]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-26::obj-186::obj-82::obj-12" : [ "ratecontrol[124]", "ratecontrol", 0 ],
+			"obj-1::obj-1::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[45]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-1::obj-76" : [ "note_dur_wrapper", "note_dur_wrapper", 0 ],
 			"obj-1::obj-148::obj-60::obj-12" : [ "ratecontrol[159]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-12::obj-5::obj-9" : [ "Manual Rate[30]", "Manual Rate", 0 ],
-			"obj-3::obj-33::obj-13::obj-41" : [ "smooth_ramp_down[1]", "smooth_ramp_down", 0 ],
-			"obj-3::obj-2::obj-107::obj-29::obj-23" : [ "manual_rate_wrapper[6]", "manual_rate_wrapper", 0 ],
-			"obj-3::obj-11::obj-4::obj-29::obj-9" : [ "Manual Rate[92]", "Manual Rate", 0 ],
-			"obj-3::obj-6::obj-26::obj-32" : [ "off[50]", "off", 0 ],
-			"obj-3::obj-12::obj-22::obj-67" : [ "min_max_offset_ui[6]", "min_max_offset_ui", 0 ],
-			"obj-39::obj-204::obj-190::obj-67" : [ "min_max_offset_ui[7]", "min_max_offset_ui", 0 ],
-			"obj-39::obj-82::obj-12" : [ "ratecontrol[109]", "ratecontrol", 0 ],
-			"obj-4::obj-174::obj-67" : [ "min_max_offset_ui[43]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-68::obj-12" : [ "ratecontrol[127]", "ratecontrol", 0 ],
-			"obj-4::obj-373::obj-32" : [ "off[16]", "off", 0 ],
-			"obj-4::obj-386" : [ "fill every[1]", "fill every", 0 ],
 			"obj-2::obj-23::obj-97" : [ "lock_ui[8]", "lock_ui", 0 ],
-			"obj-2::obj-1::obj-48::obj-142" : [ "Channel[13]", "Channel", 0 ],
-			"obj-2::obj-25::obj-45::obj-9" : [ "live.text[124]", "live.text", 0 ],
-			"obj-2::obj-3::obj-26" : [ "pitchmod", "pitchmod", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-97" : [ "Quantized Rate[111]", "Quantized Rate", 0 ],
+			"obj-5::obj-140" : [ "auto_preset_movement_mode", "auto_preset_movement_mode", 0 ],
+			"obj-3::obj-14::obj-27::obj-142" : [ "Channel[83]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-80::obj-12" : [ "ratecontrol[95]", "ratecontrol", 0 ],
+			"obj-3::obj-47::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[24]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-4::obj-102::obj-142" : [ "Channel[96]", "Channel", 0 ],
+			"obj-3::obj-3::obj-22::obj-112::obj-107" : [ "Delta Channel #[39]", "Delta Channel #", 0 ],
+			"obj-39::obj-204::obj-190::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
+			"obj-39::obj-15::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
+			"obj-39::obj-29::obj-142" : [ "Channel[1]", "Channel", 0 ],
+			"obj-4::obj-126::obj-9" : [ "live.text[10]", "live.text", 0 ],
+			"obj-4::obj-373::obj-55" : [ "live.text[22]", "live.text[1]", 0 ],
+			"obj-4::obj-92" : [ "jam_every_n_bars[3]", "jam_every_n_bars", 0 ],
+			"obj-4::obj-40" : [ "preset_save_number[2]", "preset_save_number", 0 ],
+			"obj-2::obj-43::obj-70::obj-142" : [ "Channel[5]", "Channel", 0 ],
+			"obj-2::obj-1::obj-19::obj-23" : [ "jam_amount[51]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-42::obj-13" : [ "delta_channel_wrapper[108]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-15" : [ "mod_rate", "mod_rate", 0 ],
 			"obj-51::obj-226::obj-55" : [ "live.text[256]", "live.text[1]", 0 ],
 			"obj-1::obj-148::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[10]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-148::obj-77" : [ "note_rate_wrapper[1]", "note_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-13::obj-5::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
-			"obj-3::obj-33::obj-15::obj-82::obj-142" : [ "Channel[109]", "Channel", 0 ],
-			"obj-3::obj-33::obj-14::obj-61" : [ "range_ctrl2[3]", "range_ctrl2", 0 ],
-			"obj-3::obj-47::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[8]", "quantize_rate_wrapper", 0 ],
-			"obj-39::obj-7::obj-12" : [ "ratecontrol[12]", "ratecontrol", 0 ],
-			"obj-4::obj-148::obj-112::obj-9" : [ "Hard Sync Toggle[75]", "Hard Sync Toggle", 0 ],
-			"obj-4::obj-257::obj-112::obj-11" : [ "delta_channel_wrapper[68]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-365::obj-3::obj-29::obj-9" : [ "Manual Rate[44]", "Manual Rate", 0 ],
-			"obj-2::obj-15::obj-68" : [ "Mixer / Send UI[20]", "Mixer / Send UI", 0 ],
-			"obj-2::obj-43::obj-70::obj-142" : [ "Channel[5]", "Channel", 0 ],
-			"obj-2::obj-70::obj-51" : [ "mid_smooth", "mid_smooth", 0 ],
-			"obj-2::obj-25::obj-19::obj-13" : [ "delta_channel_wrapper[81]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-63" : [ "solo_decay_speed", "solo_decay_speed", 0 ],
-			"obj-1::obj-1::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[8]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-148::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[46]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-148::obj-67::obj-22" : [ "chord_select_wrapper[1]", "chord_select_wrapper", 0 ],
-			"obj-3::obj-33::obj-13::obj-17" : [ "modulation source select[4]", "modulation source select", 0 ],
-			"obj-3::obj-33::obj-14::obj-5::obj-9" : [ "Manual Rate[31]", "Manual Rate", 0 ],
-			"obj-3::obj-2::obj-107::obj-112::obj-9" : [ "Hard Sync Toggle[54]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-2::obj-119" : [ "Mixer_Probs", "Mixer_Probs", 0 ],
-			"obj-3::obj-11::obj-99::obj-2" : [ "range_selector_1", "range_selector_1", 0 ],
-			"obj-3::obj-11::obj-14" : [ "Length", "Length", 0 ],
+			"obj-3::obj-33::obj-13::obj-36" : [ "smooth_ramp_up[1]", "smooth_ramp_up", 0 ],
+			"obj-3::obj-33::obj-14::obj-80::obj-13" : [ "delta_channel_wrapper[11]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-2::obj-107::obj-32" : [ "off[54]", "off", 0 ],
+			"obj-3::obj-11::obj-4::obj-55" : [ "live.text[111]", "live.text[1]", 0 ],
 			"obj-3::obj-4::obj-11::obj-9" : [ "live.text[190]", "live.text", 0 ],
-			"obj-39::obj-204::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
-			"obj-39::obj-16::obj-5" : [ "ModularSendsLocks", "ModularSendsLocks", 0 ],
+			"obj-3::obj-12::obj-22::obj-32" : [ "off[1]", "off", 0 ],
+			"obj-39::obj-16::obj-190::obj-112::obj-107" : [ "Delta Channel #[38]", "Delta Channel #", 0 ],
+			"obj-4::obj-252::obj-32" : [ "off[10]", "off", 0 ],
+			"obj-4::obj-148::obj-67" : [ "min_max_offset_ui[42]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-257::obj-112::obj-11" : [ "delta_channel_wrapper[68]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-203::obj-97" : [ "lock_ui[6]", "lock_ui", 0 ],
+			"obj-2::obj-26::obj-70::obj-9" : [ "live.text[8]", "live.text", 0 ],
+			"obj-2::obj-26::obj-50" : [ "osc_interp", "osc_interp", 0 ],
+			"obj-2::obj-52::obj-31::obj-9" : [ "live.text[232]", "live.text", 0 ],
+			"obj-1::obj-1::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[8]", "Delta Channel #", 0 ],
+			"obj-1::obj-148::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[46]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-148::obj-67::obj-5" : [ "chords_on[1]", "chords_on", 0 ],
+			"obj-2::obj-365::obj-3::obj-29::obj-97" : [ "Quantized Rate[9]", "Quantized Rate", 0 ],
+			"obj-3::obj-25::obj-5::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-12::obj-40::obj-34" : [ "external_gate", "external_gate", 0 ],
+			"obj-3::obj-33::obj-12::obj-41" : [ "smooth_ramp_down", "smooth_ramp_down", 0 ],
+			"obj-3::obj-33::obj-12::obj-27" : [ "delta_smooth_toggle[2]", "delta_smooth_toggle", 0 ],
+			"obj-3::obj-47::obj-22::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
+			"obj-3::obj-6::obj-19" : [ "Smooth Output On/Off[3]", "Smooth Output On/Off", 0 ],
+			"obj-3::obj-4::obj-105::obj-23" : [ "jam_amount[10]", "jam_amount", 0 ],
+			"obj-3::obj-3::obj-22::obj-30" : [ "randomize_percentage[5]", "randomize_percentage", 0 ],
+			"obj-39::obj-15::obj-190::obj-47" : [ "modulation_indices[8]", "modulation_indices", 0 ],
+			"obj-4::obj-253::obj-112::obj-108" : [ "Hard Sync Threshold[52]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-239::obj-325::obj-29::obj-23" : [ "manual_rate_wrapper[30]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-60::obj-13" : [ "delta_channel_wrapper[53]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-220" : [ "ProbLock[6]", "ProbLock", 0 ],
+			"obj-4::obj-2" : [ "Lock  Matrix[3]", "Lock  Matrix", 0 ],
+			"obj-2::obj-203::obj-3::obj-29::obj-97" : [ "Quantized Rate[124]", "Quantized Rate", 0 ],
+			"obj-2::obj-43::obj-31::obj-13" : [ "delta_channel_wrapper[87]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-12::obj-112::obj-107" : [ "Delta_Channel_#[6]", "Delta Channel #", 0 ],
+			"obj-2::obj-25::obj-45::obj-13" : [ "delta_channel_wrapper[109]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-9" : [ "Manual Rate[97]", "Manual Rate", 0 ],
+			"obj-1::obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[43]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-1::obj-60::obj-12" : [ "ratecontrol[161]", "ratecontrol", 0 ],
+			"obj-1::obj-148::obj-43::obj-32" : [ "off[78]", "off", 0 ],
+			"obj-1::obj-148::obj-60::obj-9" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-23::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[36]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-12::obj-5::obj-97" : [ "Quantized Rate[30]", "Quantized Rate", 0 ],
+			"obj-3::obj-33::obj-13::obj-2" : [ "Flip Output On/Off[3]", "Flip Output On/Off", 0 ],
+			"obj-3::obj-33::obj-14::obj-82::obj-13" : [ "delta_channel_wrapper[12]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-2::obj-36::obj-4" : [ "Random Mux", "Random Mux", 0 ],
+			"obj-3::obj-2::obj-107::obj-67" : [ "min_max_offset_ui", "min_max_offset_ui", 0 ],
+			"obj-3::obj-12::obj-56::obj-9" : [ "Delta Channel Menu[13]", "Delta Channel Menu", 0 ],
+			"obj-39::obj-1::obj-190::obj-55" : [ "live.text[216]", "live.text[1]", 0 ],
+			"obj-4::obj-257::obj-32" : [ "off[15]", "off", 0 ],
+			"obj-2::obj-52::obj-30::obj-13" : [ "delta_channel_wrapper[91]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-77::obj-13" : [ "delta_channel_wrapper[77]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-19::obj-23" : [ "jam_amount[59]", "jam_amount", 0 ],
+			"obj-1::obj-148::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[9]", "Delta Channel #", 0 ],
+			"obj-251" : [ "pattr_randomize_gates", "pattr_randomize_gates", 0 ],
+			"obj-2::obj-365::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[33]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-5::obj-9" : [ "Manual Rate[39]", "Manual Rate", 0 ],
+			"obj-3::obj-33::obj-15::obj-82::obj-23" : [ "jam_amount[4]", "jam_amount", 0 ],
+			"obj-3::obj-2::obj-36::obj-110::obj-108" : [ "Hard Sync Threshold[3]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-11::obj-131" : [ "jamRangeMin[2]", "jamRangeMin", 0 ],
+			"obj-3::obj-4::obj-108::obj-13" : [ "delta_channel_wrapper[24]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-217::obj-2" : [ "range_selector_1[3]", "range_selector_1", 0 ],
+			"obj-4::obj-253::obj-67" : [ "min_max_offset_ui[41]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-239::obj-325::obj-112::obj-9" : [ "Hard_Sync_Toggle[3]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-102::obj-12" : [ "ratecontrol[130]", "ratecontrol", 0 ],
+			"obj-2::obj-203::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[42]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-60::obj-23" : [ "jam_amount[52]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-12::obj-32" : [ "off[17]", "off", 0 ],
+			"obj-2::obj-25::obj-48::obj-12" : [ "ratecontrol[154]", "ratecontrol", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-107" : [ "Delta Channel #[42]", "Delta Channel #", 0 ],
+			"obj-2::obj-23::obj-3::obj-112::obj-107" : [ "Delta Channel #[51]", "Delta Channel #", 0 ],
+			"obj-5::obj-72::obj-100" : [ "textedit", "textedit", 0 ],
+			"obj-3::obj-33::obj-13::obj-53" : [ "gain[3]", "gain", 0 ],
+			"obj-3::obj-47::obj-1::obj-107" : [ "Delta Channel #[14]", "Delta Channel #", 0 ],
+			"obj-3::obj-11::obj-7::obj-29::obj-9" : [ "Manual Rate[91]", "Manual Rate", 0 ],
+			"obj-3::obj-4::obj-89::obj-142" : [ "Channel[98]", "Channel", 0 ],
+			"obj-3::obj-4::obj-10::obj-142" : [ "Channel[90]", "Channel", 0 ],
+			"obj-39::obj-16::obj-190::obj-32" : [ "off[65]", "off", 0 ],
+			"obj-39::obj-1::obj-68" : [ "Mixer / Send UI[9]", "Mixer / Send UI", 0 ],
+			"obj-4::obj-190::obj-29::obj-9" : [ "Manual Rate[49]", "Manual Rate", 0 ],
+			"obj-4::obj-190::obj-112::obj-108" : [ "Hard Sync Threshold[51]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-289::obj-32" : [ "off[3]", "off", 0 ],
+			"obj-2::obj-34::obj-12::obj-29::obj-23" : [ "manual_rate_wrapper[32]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-26::obj-31::obj-9" : [ "live.text[15]", "live.text", 0 ],
+			"obj-2::obj-52::obj-26" : [ "pitchmod[4]", "pitchmod", 0 ],
+			"obj-2::obj-1::obj-83::obj-13" : [ "delta_channel_wrapper[78]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-30::obj-142" : [ "Channel[151]", "Channel", 0 ],
+			"obj-2::obj-118::obj-13" : [ "delta_channel_wrapper[114]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-82::obj-9" : [ "live.text[254]", "live.text", 0 ],
+			"obj-1::obj-1::obj-43::obj-47" : [ "modulation_indices[44]", "modulation_indices", 0 ],
+			"obj-2::obj-365::obj-3::obj-55" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-3::obj-33::obj-13::obj-80::obj-9" : [ "live.text[211]", "live.text", 0 ],
+			"obj-39::obj-204::obj-190::obj-30" : [ "randomize_percentage[7]", "randomize_percentage", 0 ],
+			"obj-39::obj-82::obj-13" : [ "delta_channel_wrapper[31]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-41::obj-108" : [ "Hard Sync Threshold[42]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-239::obj-325::obj-47" : [ "modulation_indices[43]", "modulation_indices", 0 ],
+			"obj-4::obj-258::obj-12" : [ "ratecontrol[133]", "ratecontrol", 0 ],
+			"obj-4::obj-184" : [ "preset_retrieve[2]", "preset_retrieve", 0 ],
+			"obj-4::obj-81" : [ "Loop Control[2]", "Loop Control", 0 ],
+			"obj-2::obj-43::obj-30::obj-9" : [ "live.text[220]", "live.text", 0 ],
+			"obj-2::obj-1::obj-64::obj-142" : [ "Channel[16]", "Channel", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-32" : [ "off[61]", "off", 0 ],
+			"obj-1::obj-148::obj-62::obj-12" : [ "ratecontrol[11]", "ratecontrol", 0 ],
+			"obj-1::obj-148::obj-77" : [ "note_rate_wrapper[1]", "note_rate_wrapper", 0 ],
+			"obj-3::obj-49::obj-110::obj-9" : [ "Hard Sync Toggle[1]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-33::obj-12::obj-80::obj-9" : [ "live.text[213]", "live.text", 0 ],
+			"obj-3::obj-33::obj-14::obj-61" : [ "range_ctrl2[3]", "range_ctrl2", 0 ],
+			"obj-3::obj-47::obj-7::obj-97" : [ "Quantized Rate[16]", "Quantized Rate", 0 ],
+			"obj-3::obj-11::obj-7::obj-112::obj-107" : [ "Delta Channel #[20]", "Delta Channel #", 0 ],
+			"obj-3::obj-6::obj-133" : [ "jamRangeMax", "jamRangeMax", 0 ],
+			"obj-3::obj-4::obj-19::obj-142" : [ "Channel[89]", "Channel", 0 ],
+			"obj-39::obj-7::obj-12" : [ "ratecontrol[12]", "ratecontrol", 0 ],
+			"obj-4::obj-190::obj-47" : [ "modulation_indices[41]", "modulation_indices", 0 ],
+			"obj-4::obj-174::obj-112::obj-9" : [ "Hard Sync Toggle[76]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-373::obj-29::obj-9" : [ "Manual Rate[5]", "Manual Rate", 0 ],
+			"obj-2::obj-34::obj-12::obj-112::obj-9" : [ "Hard Sync Toggle[31]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-15::obj-3::obj-112::obj-107" : [ "Delta Channel #[8]", "Delta Channel #", 0 ],
+			"obj-2::obj-26::obj-30::obj-23" : [ "jam_amount[35]", "jam_amount", 0 ],
+			"obj-2::obj-43::obj-50" : [ "osc_interp[1]", "osc_interp", 0 ],
+			"obj-2::obj-123::obj-13" : [ "delta_channel_wrapper[115]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-26::obj-186::obj-93" : [ "Trig mode[1]", "Trig mode", 0 ],
+			"obj-51::obj-226::obj-29::obj-97" : [ "Quantized Rate[4]", "Quantized Rate", 0 ],
+			"obj-1::obj-1::obj-62::obj-9" : [ "live.text[282]", "live.text", 0 ],
+			"obj-1::obj-1::obj-278" : [ "NoteProbLock", "NoteProbLock", 0 ],
+			"obj-1::obj-148::obj-190::obj-30" : [ "randomize_percentage[31]", "randomize_percentage", 0 ],
+			"obj-3::obj-49::obj-42" : [ "Low Ramp[1]", "Low Ramp", 0 ],
+			"obj-3::obj-25::obj-14::obj-142" : [ "Channel[117]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-61" : [ "range_ctrl2[2]", "range_ctrl2", 0 ],
+			"obj-3::obj-2::obj-107::obj-29::obj-9" : [ "Manual Rate[94]", "Manual Rate", 0 ],
+			"obj-3::obj-11::obj-4::obj-29::obj-22" : [ "quantize_rate_wrapper[9]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-6::obj-26::obj-29::obj-22" : [ "quantize_rate_wrapper[12]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-110::obj-23" : [ "jam_amount[17]", "jam_amount", 0 ],
+			"obj-3::obj-12::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[14]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-252::obj-29::obj-23" : [ "manual_rate_wrapper[23]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-148::obj-29::obj-23" : [ "manual_rate_wrapper[27]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-113::obj-23" : [ "jam_amount[30]", "jam_amount", 0 ],
+			"obj-4::obj-6::obj-142" : [ "Channel[148]", "Channel", 0 ],
+			"obj-2::obj-34::obj-97" : [ "lock_ui", "lock_ui", 0 ],
+			"obj-2::obj-203::obj-3::obj-47" : [ "modulation_indices[36]", "modulation_indices", 0 ],
+			"obj-2::obj-1::obj-66::obj-142" : [ "Channel[157]", "Channel", 0 ],
+			"obj-2::obj-3::obj-10::obj-9" : [ "live.text[245]", "live.text", 0 ],
+			"obj-1::obj-1::obj-190::obj-67" : [ "min_max_offset_ui[12]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-148::obj-46::obj-23" : [ "jam_amount[77]", "jam_amount", 0 ],
+			"obj-2::obj-23::obj-3::obj-47" : [ "modulation_indices[38]", "modulation_indices", 0 ],
+			"obj-3::obj-33::obj-12::obj-82::obj-142" : [ "Channel[115]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-16::obj-9" : [ "Delta Channel Menu[5]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-14::obj-74" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-3::obj-47::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[8]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-98::obj-12" : [ "ratecontrol[82]", "ratecontrol", 0 ],
+			"obj-3::obj-3::obj-22::obj-29::obj-97" : [ "Quantized Rate[2]", "Quantized Rate", 0 ],
+			"obj-39::obj-15::obj-190::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
+			"obj-39::obj-28::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-4::obj-174::obj-67" : [ "min_max_offset_ui[43]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-68::obj-13" : [ "delta_channel_wrapper[50]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-373::obj-112::obj-107" : [ "Delta_Channel_#[5]", "Delta Channel #", 0 ],
+			"obj-4::obj-386" : [ "fill every[1]", "fill every", 0 ],
+			"obj-2::obj-34::obj-12::obj-55" : [ "live.text[98]", "live.text[1]", 0 ],
+			"obj-2::obj-15::obj-3::obj-32" : [ "off[9]", "off", 0 ],
+			"obj-2::obj-1::obj-48::obj-142" : [ "Channel[13]", "Channel", 0 ],
+			"obj-2::obj-1::obj-86::obj-12" : [ "ratecontrol[122]", "ratecontrol", 0 ],
+			"obj-2::obj-25::obj-35::obj-142" : [ "Channel[158]", "Channel", 0 ],
+			"obj-2::obj-125::obj-9" : [ "live.text[274]", "live.text", 0 ],
+			"obj-51::obj-226::obj-112::obj-11" : [ "delta_channel_wrapper[125]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-1::obj-2" : [ "midi_notes", "midi_notes", 0 ],
+			"obj-1::obj-148::obj-43::obj-29::obj-9" : [ "Manual Rate[55]", "Manual Rate", 0 ],
+			"obj-3::obj-25::obj-34" : [ "Amplitude[2]", "Amplitude", 0 ],
+			"obj-3::obj-33::obj-13::obj-82::obj-13" : [ "delta_channel_wrapper[8]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-15::obj-17" : [ "modulation source select[6]", "modulation source select", 0 ],
+			"obj-3::obj-33::obj-14::obj-5::obj-97" : [ "Quantized Rate[31]", "Quantized Rate", 0 ],
+			"obj-3::obj-2::obj-107::obj-112::obj-9" : [ "Hard Sync Toggle[54]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-11::obj-99::obj-2" : [ "range_selector_1", "range_selector_1", 0 ],
+			"obj-3::obj-6::obj-26::obj-112::obj-11" : [ "delta_channel_wrapper[19]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-4::obj-114::obj-23" : [ "jam_amount[18]", "jam_amount", 0 ],
+			"obj-3::obj-12::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[36]", "delta_channel_wrapper", 0 ],
 			"obj-39::obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[18]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-252::obj-112::obj-108" : [ "Hard Sync Threshold[49]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-148::obj-112::obj-9" : [ "Hard Sync Toggle[75]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-257::obj-29::obj-97" : [ "Quantized_Rate[4]", "Quantized_Rate", 0 ],
+			"obj-2::obj-52::obj-70::obj-13" : [ "delta_channel_wrapper[89]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-12::obj-55" : [ "live.text[272]", "live.text[1]", 0 ],
+			"obj-2::obj-1::obj-97" : [ "lock_ui[12]", "lock_ui", 0 ],
+			"obj-51::obj-26::obj-186::obj-82::obj-9" : [ "live.text[244]", "live.text", 0 ],
+			"obj-51::obj-26::obj-186::obj-17" : [ "Slider Values[2]", "Slider Values", 0 ],
+			"obj-3::obj-49::obj-14::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-14::obj-27" : [ "delta_smooth_toggle[5]", "delta_smooth_toggle", 0 ],
+			"obj-3::obj-11::obj-7::obj-32" : [ "off[51]", "off", 0 ],
+			"obj-3::obj-4::obj-102::obj-13" : [ "delta_channel_wrapper[22]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-15::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
 			"obj-4::obj-253::obj-29::obj-97" : [ "Quantized Rate[18]", "Quantized Rate", 0 ],
 			"obj-4::obj-126::obj-12" : [ "ratecontrol[126]", "ratecontrol", 0 ],
-			"obj-4::obj-184" : [ "preset_retrieve[2]", "preset_retrieve", 0 ],
 			"obj-4::obj-384" : [ "fill mode", "fill mode", 0 ],
-			"obj-2::obj-203::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[33]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-26::obj-70::obj-13" : [ "delta_channel_wrapper[83]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-52::obj-31::obj-142" : [ "Channel[129]", "Channel", 0 ],
-			"obj-2::obj-8::obj-34::obj-13" : [ "delta_channel_wrapper[97]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-1::obj-19::obj-9" : [ "live.text[266]", "live.text", 0 ],
-			"obj-2::obj-1::obj-12::obj-29::obj-22" : [ "quantize_rate_wrapper[40]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-1::obj-97" : [ "lock_ui[12]", "lock_ui", 0 ],
-			"obj-1::obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate[7]", "Quantized_Rate", 0 ],
-			"obj-1::obj-1::obj-60::obj-12" : [ "ratecontrol[161]", "ratecontrol", 0 ],
-			"obj-1::obj-1::obj-41" : [ "ProbProbLock", "ProbProbLock", 0 ],
-			"obj-1::obj-148::obj-43::obj-30" : [ "randomize_percentage[32]", "randomize_percentage", 0 ],
-			"obj-1::obj-148::obj-41" : [ "ProbProbLock[1]", "ProbProbLock", 0 ],
-			"obj-3::obj-33::obj-13::obj-80::obj-13" : [ "delta_channel_wrapper[7]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-33::obj-14::obj-18" : [ "range_ctrl1[3]", "range_ctrl1", 0 ],
-			"obj-3::obj-11::obj-7::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
-			"obj-3::obj-4::obj-105::obj-142" : [ "Channel[95]", "Channel", 0 ],
-			"obj-39::obj-28::obj-23" : [ "jam_amount[24]", "jam_amount", 0 ],
+			"obj-2::obj-43::obj-70::obj-9" : [ "live.text[115]", "live.text", 0 ],
+			"obj-2::obj-1::obj-12::obj-29::obj-23" : [ "manual_rate_wrapper[40]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-25::obj-42::obj-142" : [ "Channel[159]", "Channel", 0 ],
+			"obj-1::obj-1::obj-46::obj-9" : [ "live.text[284]", "live.text", 0 ],
+			"obj-1::obj-148::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[10]", "Delta Channel #", 0 ],
+			"obj-3::obj-49::obj-5::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-3::obj-25::obj-79" : [ "∆quant[1]", "∆quant", 0 ],
+			"obj-3::obj-33::obj-14::obj-80::obj-9" : [ "live.text[207]", "live.text", 0 ],
+			"obj-3::obj-2::obj-50" : [ "Mixer[1]", "Mixer", 0 ],
+			"obj-3::obj-6::obj-26::obj-67" : [ "min_max_offset_ui[4]", "min_max_offset_ui", 0 ],
+			"obj-3::obj-12::obj-22::obj-67" : [ "min_max_offset_ui[6]", "min_max_offset_ui", 0 ],
+			"obj-39::obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[32]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-252::obj-67" : [ "min_max_offset_ui[30]", "min_max_offset_ui", 0 ],
 			"obj-4::obj-148::obj-30" : [ "randomize_percentage[14]", "randomize_percentage", 0 ],
 			"obj-4::obj-289::obj-29::obj-9" : [ "Manual Rate[42]", "Manual Rate", 0 ],
-			"obj-4::obj-257::obj-30" : [ "randomize_percentage[18]", "randomize_percentage", 0 ],
-			"obj-2::obj-365::obj-3::obj-112::obj-107" : [ "Delta Channel #[15]", "Delta Channel #", 0 ],
-			"obj-2::obj-23::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[36]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-43::obj-31::obj-13" : [ "delta_channel_wrapper[87]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-42::obj-55" : [ "live.text[234]", "live.text[1]", 0 ],
-			"obj-2::obj-11::obj-6::obj-13" : [ "delta_channel_wrapper[101]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-26" : [ "jam_probabilities[3]", "jam_probabilities", 0 ],
+			"obj-2::obj-52::obj-31::obj-12" : [ "ratecontrol[112]", "ratecontrol", 0 ],
 			"obj-2::obj-1::obj-72::obj-9" : [ "live.text[270]", "live.text", 0 ],
-			"obj-2::obj-118::obj-9" : [ "live.text[259]", "live.text", 0 ],
-			"obj-51::obj-82::obj-13" : [ "delta_channel_wrapper[117]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-1::obj-17" : [ "columns", "columns", 0 ],
-			"obj-1::obj-148::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[10]", "Hard Sync Toggle", 0 ],
-			"obj-3::obj-49::obj-5::obj-97" : [ "Quantized Rate[5]", "Quantized Rate", 0 ],
-			"obj-3::obj-33::obj-12::obj-80::obj-12" : [ "ratecontrol[99]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-14::obj-80::obj-142" : [ "Channel[108]", "Channel", 0 ],
-			"obj-3::obj-4::obj-10::obj-12" : [ "ratecontrol[75]", "ratecontrol", 0 ],
-			"obj-39::obj-16::obj-190::obj-29::obj-97" : [ "Quantized Rate[105]", "Quantized Rate", 0 ],
-			"obj-4::obj-252::obj-112::obj-11" : [ "delta_channel_wrapper[54]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-253::obj-112::obj-107" : [ "Delta Channel #[47]", "Delta Channel #", 0 ],
-			"obj-4::obj-239::obj-325::obj-29::obj-97" : [ "Quantized Rate[47]", "Quantized Rate", 0 ],
-			"obj-4::obj-60::obj-9" : [ "live.text[257]", "live.text", 0 ],
-			"obj-4::obj-194" : [ "Solo Lock[2]", "Solo Lock", 0 ],
-			"obj-2::obj-203::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[66]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-52::obj-30::obj-142" : [ "Channel[122]", "Channel", 0 ],
-			"obj-2::obj-1::obj-12::obj-112::obj-11" : [ "delta_channel_wrapper[105]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-48::obj-9" : [ "live.text[125]", "live.text", 0 ],
-			"obj-1::obj-1::obj-45" : [ "preset_selector", "preset_selector", 0 ],
-			"obj-1::obj-148::obj-30" : [ "NoteLength[1]", "NoteLength", 0 ],
-			"obj-251" : [ "pattr_randomize_gates", "pattr_randomize_gates", 0 ],
-			"obj-3::obj-25::obj-14::obj-9" : [ "live.text[214]", "live.text", 0 ],
-			"obj-3::obj-33::obj-12::obj-53" : [ "gain[2]", "gain", 0 ],
-			"obj-3::obj-33::obj-15::obj-27" : [ "delta_smooth_toggle[4]", "delta_smooth_toggle", 0 ],
-			"obj-3::obj-47::obj-2" : [ "Loop On/Off", "Loop On/Off", 0 ],
-			"obj-3::obj-6::obj-4::obj-97" : [ "Quantized Rate[34]", "Quantized Rate", 0 ],
-			"obj-3::obj-6::obj-131" : [ "jamRangeMin", "jamRangeMin", 0 ],
-			"obj-3::obj-4::obj-108::obj-13" : [ "delta_channel_wrapper[24]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-3::obj-56::obj-9" : [ "Delta Channel Menu[24]", "Delta Channel Menu", 0 ],
-			"obj-39::obj-15::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
-			"obj-39::obj-29::obj-13" : [ "delta_channel_wrapper[41]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-289::obj-112::obj-108" : [ "Hard_Sync_Threshold[3]", "Hard Sync Threshold", 0 ],
-			"obj-4::obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
-			"obj-2::obj-34::obj-12::obj-29::obj-22" : [ "quantize_rate_wrapper[32]", "quantize_rate_wrapper", 0 ],
-			"obj-2::obj-365::obj-3::obj-32" : [ "off[72]", "off", 0 ],
-			"obj-2::obj-23::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[71]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-70::obj-3::obj-23" : [ "jam_amount[42]", "jam_amount", 0 ],
-			"obj-2::obj-70::obj-4::obj-12" : [ "ratecontrol[115]", "ratecontrol", 0 ],
-			"obj-2::obj-11::obj-112::obj-9" : [ "Hard Sync Toggle[72]", "Hard Sync Toggle", 0 ],
-			"obj-2::obj-1::obj-77::obj-13" : [ "delta_channel_wrapper[77]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-30::obj-9" : [ "live.text[118]", "live.text", 0 ],
-			"obj-2::obj-123::obj-13" : [ "delta_channel_wrapper[115]", "delta_channel_wrapper", 0 ],
-			"obj-51::obj-246" : [ "scale_visualization", "scale_visualization", 0 ],
-			"obj-1::obj-1::obj-43::obj-67" : [ "min_max_offset_ui[15]", "min_max_offset_ui", 0 ],
-			"obj-1::obj-148::obj-60::obj-9" : [ "live.text[5]", "live.text", 0 ],
-			"obj-3::obj-33::obj-12::obj-82::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-15::obj-16::obj-9" : [ "Delta Channel Menu[5]", "Delta Channel Menu", 0 ],
-			"obj-3::obj-11::obj-4::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
-			"obj-3::obj-4::obj-89::obj-23" : [ "jam_amount[7]", "jam_amount", 0 ],
-			"obj-39::obj-16::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[38]", "delta_channel_wrapper", 0 ],
-			"obj-39::obj-59" : [ "cv_gain", "cv_gain", 0 ],
-			"obj-4::obj-252::obj-32" : [ "off[10]", "off", 0 ],
-			"obj-4::obj-253::obj-30" : [ "randomize_percentage[13]", "randomize_percentage", 0 ],
-			"obj-4::obj-239::obj-325::obj-112::obj-11" : [ "delta_channel_wrapper[63]", "delta_channel_wrapper", 0 ],
-			"obj-4::obj-258::obj-12" : [ "ratecontrol[133]", "ratecontrol", 0 ],
-			"obj-4::obj-42" : [ "Tempo[1]", "Tempo", 0 ],
-			"obj-2::obj-26::obj-31::obj-12" : [ "ratecontrol[105]", "ratecontrol", 0 ],
-			"obj-2::obj-26::obj-62" : [ "envelope_follow_speed", "envelope_follow_speed", 0 ],
-			"obj-2::obj-52::obj-50" : [ "osc_interp[2]", "osc_interp", 0 ],
-			"obj-2::obj-10::obj-6::obj-142" : [ "Channel[131]", "Channel", 0 ],
-			"obj-2::obj-1::obj-60::obj-23" : [ "jam_amount[52]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-12::obj-55" : [ "live.text[272]", "live.text[1]", 0 ],
-			"obj-51::obj-26::obj-186::obj-226::obj-55" : [ "live.text[237]", "live.text[1]", 0 ],
-			"obj-51::obj-26::obj-186::obj-28" : [ "octave_select[10]", "octave_select", 0 ],
-			"obj-1::obj-148::obj-62::obj-12" : [ "ratecontrol[11]", "ratecontrol", 0 ],
-			"obj-3::obj-25::obj-42" : [ "Low Ramp[2]", "Low Ramp", 0 ],
-			"obj-3::obj-33::obj-13::obj-82::obj-12" : [ "ratecontrol[96]", "ratecontrol", 0 ],
-			"obj-3::obj-33::obj-15::obj-29" : [ "gain_reset_button[2]", "gain_reset_button", 0 ],
-			"obj-3::obj-2::obj-36::obj-110::obj-108" : [ "Hard Sync Threshold[3]", "Hard Sync Threshold", 0 ],
-			"obj-3::obj-2::obj-36::obj-1" : [ "MatrixCtrl", "MatrixCtrl", 0 ],
-			"obj-3::obj-2::obj-107::obj-30" : [ "randomize_percentage", "randomize_percentage", 0 ],
-			"obj-3::obj-47::obj-22::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
-			"obj-3::obj-6::obj-26::obj-29::obj-97" : [ "Quantized Rate[99]", "Quantized Rate", 0 ],
-			"obj-3::obj-4::obj-110::obj-9" : [ "live.text[192]", "live.text", 0 ],
-			"obj-3::obj-12::obj-22::obj-29::obj-9" : [ "Manual Rate[41]", "Manual Rate", 0 ],
+			"obj-2::obj-1::obj-5" : [ "vst~[1]", "vst~", 0 ],
+			"obj-2::obj-3::obj-6::obj-142" : [ "Channel[152]", "Channel", 0 ],
+			"obj-2::obj-73::obj-23" : [ "jam_amount[67]", "jam_amount", 0 ],
+			"obj-2::obj-365::obj-3::obj-29::obj-9" : [ "Manual Rate[44]", "Manual Rate", 0 ],
+			"obj-3::obj-14::obj-27::obj-9" : [ "live.text[179]", "live.text", 0 ],
+			"obj-3::obj-33::obj-12::obj-18" : [ "range_ctrl1", "range_ctrl1", 0 ],
+			"obj-3::obj-33::obj-15::obj-80::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
+			"obj-3::obj-4::obj-105::obj-13" : [ "delta_channel_wrapper[23]", "delta_channel_wrapper", 0 ],
 			"obj-39::obj-15::obj-190::obj-32" : [ "off[55]", "off", 0 ],
+			"obj-39::obj-29::obj-13" : [ "delta_channel_wrapper[41]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-253::obj-112::obj-11" : [ "delta_channel_wrapper[57]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-239::obj-325::obj-29::obj-22" : [ "quantize_rate_wrapper[30]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-60::obj-9" : [ "live.text[257]", "live.text", 0 ],
+			"obj-4::obj-373::obj-32" : [ "off[16]", "off", 0 ],
+			"obj-2::obj-1::obj-19::obj-13" : [ "delta_channel_wrapper[72]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-12::obj-112::obj-9" : [ "Hard_Sync_Toggle[7]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-25::obj-45::obj-9" : [ "live.text[124]", "live.text", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-97" : [ "Quantized Rate[111]", "Quantized Rate", 0 ],
+			"obj-51::obj-226::obj-47" : [ "modulation_indices[28]", "modulation_indices", 0 ],
+			"obj-1::obj-1::obj-60::obj-142" : [ "Channel[164]", "Channel", 0 ],
+			"obj-3::obj-33::obj-12::obj-15::obj-9" : [ "Delta Channel Menu[11]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-13::obj-17" : [ "modulation source select[4]", "modulation source select", 0 ],
+			"obj-3::obj-47::obj-2" : [ "Loop On/Off", "Loop On/Off", 0 ],
+			"obj-3::obj-11::obj-4::obj-30" : [ "randomize_percentage[2]", "randomize_percentage", 0 ],
+			"obj-3::obj-4::obj-11::obj-12" : [ "ratecontrol[76]", "ratecontrol", 0 ],
+			"obj-39::obj-16::obj-190::obj-112::obj-108" : [ "Hard Sync Threshold[38]", "Hard Sync Threshold", 0 ],
+			"obj-39::obj-1::obj-190::obj-67" : [ "min_max_offset_ui[9]", "min_max_offset_ui", 0 ],
+			"obj-39::obj-7::obj-142" : [ "Channel", "Channel", 0 ],
+			"obj-4::obj-239::obj-220" : [ "ProbLock[4]", "ProbLock", 0 ],
+			"obj-4::obj-289::obj-112::obj-108" : [ "Hard_Sync_Threshold[3]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-229" : [ "ProbLock[7]", "ProbLock", 0 ],
+			"obj-4::obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
+			"obj-2::obj-26::obj-70::obj-12" : [ "ratecontrol[9]", "ratecontrol", 0 ],
+			"obj-2::obj-52::obj-30::obj-23" : [ "jam_amount[41]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-77::obj-9" : [ "live.text[271]", "live.text", 0 ],
+			"obj-2::obj-25::obj-19::obj-9" : [ "live.text[227]", "live.text", 0 ],
+			"obj-2::obj-25::obj-28" : [ "verb_mode_wrapper", "verb_mode_wrapper", 0 ],
+			"obj-1::obj-1::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[8]", "Hard Sync Threshold", 0 ],
+			"obj-173" : [ "global_randomize_every", "global_randomize_every", 0 ],
+			"obj-2::obj-365::obj-68" : [ "Mixer / Send UI[21]", "Mixer / Send UI", 0 ],
+			"obj-3::obj-25::obj-5::obj-9" : [ "Manual Rate[36]", "Manual Rate", 0 ],
+			"obj-3::obj-33::obj-13::obj-16::obj-9" : [ "Delta Channel Menu[3]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-15::obj-82::obj-13" : [ "delta_channel_wrapper[10]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-2::obj-36::obj-110::obj-11" : [ "delta_channel_wrapper[13]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-47::obj-22::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
+			"obj-39::obj-204::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[15]", "manual_rate_wrapper", 0 ],
+			"obj-39::obj-16::obj-5" : [ "ModularSendsLocks", "ModularSendsLocks", 0 ],
+			"obj-4::obj-253::obj-30" : [ "randomize_percentage[13]", "randomize_percentage", 0 ],
+			"obj-4::obj-239::obj-325::obj-112::obj-107" : [ "Delta Channel #[70]", "Delta Channel #", 0 ],
+			"obj-4::obj-297" : [ "SubsetCtrl[3]", "SubsetCtrl", 0 ],
+			"obj-4::obj-194" : [ "Solo Lock[2]", "Solo Lock", 0 ],
+			"obj-2::obj-43::obj-31::obj-9" : [ "live.text[219]", "live.text", 0 ],
+			"obj-2::obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[73]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-12::obj-67" : [ "min_max_offset_ui[31]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[51]", "Manual Rate", 0 ],
+			"obj-1::obj-148::obj-43::obj-47" : [ "modulation_indices[16]", "modulation_indices", 0 ],
+			"obj-1::obj-148::obj-42" : [ "Tempo[2]", "Tempo", 0 ],
+			"obj-1::obj-6" : [ "vst~[4]", "vst~", 0 ],
+			"obj-3::obj-33::obj-12::obj-5::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-32" : [ "mod_src_select[1]", "mod_src_select", 0 ],
+			"obj-3::obj-33::obj-14::obj-82::obj-142" : [ "Channel[107]", "Channel", 0 ],
+			"obj-3::obj-47::obj-1::obj-9" : [ "Hard Sync Toggle[13]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-4::obj-10::obj-23" : [ "jam_amount[20]", "jam_amount", 0 ],
+			"obj-39::obj-16::obj-190::obj-67" : [ "min_max_offset_ui[29]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-190::obj-29::obj-97" : [ "Quantized Rate[17]", "Quantized Rate", 0 ],
+			"obj-4::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[56]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-174::obj-29::obj-9" : [ "Manual Rate[18]", "Manual Rate", 0 ],
+			"obj-4::obj-289::obj-67" : [ "min_max_offset_ui[28]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-257::obj-55" : [ "live.text[21]", "live.text[1]", 0 ],
+			"obj-4::obj-42" : [ "Tempo[1]", "Tempo", 0 ],
+			"obj-2::obj-34::obj-12::obj-29::obj-22" : [ "quantize_rate_wrapper[32]", "quantize_rate_wrapper", 0 ],
+			"obj-2::obj-15::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[35]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-26::obj-31::obj-12" : [ "ratecontrol[105]", "ratecontrol", 0 ],
+			"obj-2::obj-73::obj-142" : [ "Channel[123]", "Channel", 0 ],
+			"obj-2::obj-118::obj-23" : [ "jam_amount[68]", "jam_amount", 0 ],
+			"obj-51::obj-82::obj-13" : [ "delta_channel_wrapper[117]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-1::obj-43::obj-32" : [ "off[76]", "off", 0 ],
+			"obj-1::obj-148::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[9]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-25::obj-110::obj-9" : [ "Hard Sync Toggle[14]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-33::obj-12::obj-8" : [ "delta_speedlim_toggle[2]", "delta_speedlim_toggle", 0 ],
+			"obj-3::obj-6::obj-4::obj-9" : [ "Manual Rate[34]", "Manual Rate", 0 ],
+			"obj-3::obj-4::obj-108::obj-142" : [ "Channel[94]", "Channel", 0 ],
+			"obj-4::obj-41::obj-11" : [ "delta_channel_wrapper[51]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-102::obj-142" : [ "Channel[144]", "Channel", 0 ],
+			"obj-4::obj-258::obj-142" : [ "Channel[147]", "Channel", 0 ],
+			"obj-4::obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
+			"obj-4::obj-276" : [ "which_matrix_pos_ctrl", "which_matrix_pos_ctrl", 0 ],
+			"obj-4::obj-278" : [ "ProbLock[5]", "ProbLock", 0 ],
+			"obj-2::obj-203::obj-3::obj-112::obj-107" : [ "Delta Channel #[6]", "Delta Channel #", 0 ],
+			"obj-2::obj-43::obj-30::obj-12" : [ "ratecontrol[110]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-64::obj-23" : [ "jam_amount[53]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-48::obj-142" : [ "Channel[161]", "Channel", 0 ],
+			"obj-2::obj-83" : [ "MasterSoloLock", "MasterSoloLock", 0 ],
+			"obj-1::obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[7]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-148::obj-62::obj-142" : [ "Channel[167]", "Channel", 0 ],
+			"obj-2::obj-23::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[47]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-33::obj-12::obj-80::obj-12" : [ "ratecontrol[99]", "ratecontrol", 0 ],
+			"obj-3::obj-4::obj-89::obj-9" : [ "live.text[197]", "live.text", 0 ],
+			"obj-3::obj-4::obj-19::obj-13" : [ "delta_channel_wrapper[29]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-174::obj-112::obj-107" : [ "Delta Channel #[67]", "Delta Channel #", 0 ],
+			"obj-4::obj-271" : [ "DecayControl[1]", "DecayControl", 0 ],
+			"obj-2::obj-34::obj-12::obj-112::obj-107" : [ "Delta Channel #[21]", "Delta Channel #", 0 ],
+			"obj-2::obj-15::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[65]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-26::obj-30::obj-13" : [ "delta_channel_wrapper[85]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-52::obj-50" : [ "osc_interp[2]", "osc_interp", 0 ],
+			"obj-2::obj-1::obj-83::obj-9" : [ "live.text[116]", "live.text", 0 ],
+			"obj-2::obj-25::obj-30::obj-23" : [ "jam_amount[60]", "jam_amount", 0 ],
+			"obj-2::obj-123::obj-9" : [ "live.text[126]", "live.text", 0 ],
+			"obj-51::obj-26::obj-186::obj-28" : [ "octave_select[10]", "octave_select", 0 ],
+			"obj-1::obj-1::obj-67::obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
+			"obj-1::obj-148::obj-190::obj-32" : [ "off[77]", "off", 0 ],
+			"obj-2::obj-365::obj-3::obj-67" : [ "min_max_offset_ui[46]", "min_max_offset_ui", 0 ],
+			"obj-3::obj-25::obj-14::obj-9" : [ "live.text[214]", "live.text", 0 ],
+			"obj-3::obj-33::obj-13::obj-80::obj-12" : [ "ratecontrol[97]", "ratecontrol", 0 ],
+			"obj-3::obj-33::obj-15::obj-8" : [ "delta_speedlim_toggle[6]", "delta_speedlim_toggle", 0 ],
+			"obj-3::obj-2::obj-107::obj-29::obj-97" : [ "Quantized Rate[103]", "Quantized Rate", 0 ],
+			"obj-3::obj-6::obj-26::obj-29::obj-23" : [ "manual_rate_wrapper[12]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-110::obj-13" : [ "delta_channel_wrapper[25]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-12::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[14]", "manual_rate_wrapper", 0 ],
+			"obj-39::obj-204::obj-190::obj-47" : [ "modulation_indices[7]", "modulation_indices", 0 ],
+			"obj-39::obj-82::obj-23" : [ "jam_amount[22]", "jam_amount", 0 ],
+			"obj-4::obj-252::obj-29::obj-22" : [ "quantize_rate_wrapper[23]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-148::obj-29::obj-22" : [ "quantize_rate_wrapper[27]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-239::obj-325::obj-55" : [ "live.text[12]", "live.text[1]", 0 ],
+			"obj-4::obj-113::obj-13" : [ "delta_channel_wrapper[59]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-6::obj-9" : [ "live.text[20]", "live.text", 0 ],
+			"obj-2::obj-203::obj-3::obj-32" : [ "off[60]", "off", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-30" : [ "randomize_percentage[27]", "randomize_percentage", 0 ],
+			"obj-1::obj-1::obj-190::obj-55" : [ "live.text[279]", "live.text[1]", 0 ],
+			"obj-1::obj-148::obj-41" : [ "ProbProbLock[1]", "ProbProbLock", 0 ],
+			"obj-2::obj-23::obj-3::obj-67" : [ "min_max_offset_ui[36]", "min_max_offset_ui", 0 ],
+			"obj-3::obj-49::obj-110::obj-107" : [ "Delta Channel #[2]", "Delta Channel #", 0 ],
+			"obj-3::obj-33::obj-12::obj-82::obj-13" : [ "delta_channel_wrapper[6]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-14::obj-8" : [ "delta_speedlim_toggle[7]", "delta_speedlim_toggle", 0 ],
+			"obj-3::obj-11::obj-7::obj-112::obj-108" : [ "Hard Sync Threshold[20]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-4::obj-98::obj-142" : [ "Channel[97]", "Channel", 0 ],
+			"obj-39::obj-15::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[17]", "manual_rate_wrapper", 0 ],
+			"obj-39::obj-59" : [ "cv_gain", "cv_gain", 0 ],
+			"obj-4::obj-190::obj-55" : [ "live.text[260]", "live.text[1]", 0 ],
+			"obj-4::obj-174::obj-55" : [ "live.text[265]", "live.text[1]", 0 ],
+			"obj-4::obj-68::obj-142" : [ "Channel[141]", "Channel", 0 ],
+			"obj-4::obj-192" : [ "preset_pattern_storage[2]", "preset_pattern_storage", 0 ],
+			"obj-2::obj-15::obj-3::obj-55" : [ "live.text[246]", "live.text[1]", 0 ],
+			"obj-2::obj-1::obj-86::obj-142" : [ "Channel[150]", "Channel", 0 ],
+			"obj-2::obj-25::obj-35::obj-23" : [ "jam_amount[61]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-39" : [ "verb_sync", "verb_sync", 0 ],
+			"obj-1::obj-1::obj-62::obj-12" : [ "ratecontrol[160]", "ratecontrol", 0 ],
+			"obj-1::obj-1::obj-42" : [ "Tempo", "Tempo", 0 ],
+			"obj-2::obj-365::obj-5::obj-34" : [ "external_gate[6]", "external_gate", 0 ],
+			"obj-3::obj-14::obj-27::obj-13" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-82::obj-142" : [ "Channel[113]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-41" : [ "smooth_ramp_down[2]", "smooth_ramp_down", 0 ],
+			"obj-3::obj-33::obj-14::obj-5::obj-9" : [ "Manual Rate[31]", "Manual Rate", 0 ],
+			"obj-3::obj-11::obj-4::obj-29::obj-9" : [ "Manual Rate[92]", "Manual Rate", 0 ],
+			"obj-3::obj-6::obj-26::obj-112::obj-108" : [ "Hard Sync Threshold[19]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-12::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[26]", "Hard Sync Threshold", 0 ],
+			"obj-39::obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[18]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-148::obj-112::obj-107" : [ "Delta Channel #[48]", "Delta Channel #", 0 ],
+			"obj-4::obj-180" : [ "preset_toward[2]", "preset_toward", 0 ],
+			"obj-2::obj-52::obj-70::obj-142" : [ "Channel[11]", "Channel", 0 ],
+			"obj-2::obj-1::obj-66::obj-23" : [ "jam_amount[54]", "jam_amount", 0 ],
+			"obj-2::obj-3::obj-10::obj-12" : [ "ratecontrol[88]", "ratecontrol", 0 ],
+			"obj-2::obj-73::obj-12" : [ "ratecontrol[156]", "ratecontrol", 0 ],
+			"obj-1::obj-148::obj-46::obj-9" : [ "live.text[287]", "live.text", 0 ],
+			"obj-1::obj-148::obj-357" : [ "SubsetCtrl[5]", "SubsetCtrl", 0 ],
+			"obj-3::obj-49::obj-14::obj-142" : [ "Channel[118]", "Channel", 0 ],
+			"obj-3::obj-33::obj-15::obj-5::obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-14::obj-2" : [ "Flip Output On/Off[6]", "Flip Output On/Off", 0 ],
+			"obj-3::obj-47::obj-22::obj-29::obj-9" : [ "Manual Rate[93]", "Manual Rate", 0 ],
+			"obj-3::obj-11::obj-7::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
+			"obj-3::obj-6::obj-26::obj-30" : [ "randomize_percentage[4]", "randomize_percentage", 0 ],
+			"obj-3::obj-4::obj-102::obj-23" : [ "jam_amount[9]", "jam_amount", 0 ],
+			"obj-3::obj-3::obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[13]", "quantize_rate_wrapper", 0 ],
+			"obj-39::obj-28::obj-142" : [ "Channel[119]", "Channel", 0 ],
+			"obj-4::obj-253::obj-29::obj-9" : [ "Manual Rate[50]", "Manual Rate", 0 ],
+			"obj-4::obj-126::obj-142" : [ "Channel[140]", "Channel", 0 ],
+			"obj-4::obj-373::obj-112::obj-108" : [ "Hard_Sync_Threshold[5]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-327" : [ "fractional_probs", "fractional_probs", 0 ],
+			"obj-2::obj-34::obj-12::obj-47" : [ "modulation_indices[22]", "modulation_indices", 0 ],
+			"obj-2::obj-1::obj-48::obj-23" : [ "jam_amount[50]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-12::obj-29::obj-22" : [ "quantize_rate_wrapper[40]", "quantize_rate_wrapper", 0 ],
+			"obj-2::obj-25::obj-42::obj-23" : [ "jam_amount[62]", "jam_amount", 0 ],
+			"obj-2::obj-125::obj-12" : [ "ratecontrol[5]", "ratecontrol", 0 ],
+			"obj-51::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[36]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-1::obj-46::obj-12" : [ "ratecontrol[158]", "ratecontrol", 0 ],
+			"obj-3::obj-25::obj-42" : [ "Low Ramp[2]", "Low Ramp", 0 ],
+			"obj-3::obj-33::obj-15::obj-2" : [ "Flip Output On/Off[4]", "Flip Output On/Off", 0 ],
+			"obj-3::obj-11::obj-4::obj-112::obj-108" : [ "Hard Sync Threshold[23]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-4::obj-114::obj-13" : [ "delta_channel_wrapper[26]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-204::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
+			"obj-39::obj-16::obj-190::obj-29::obj-97" : [ "Quantized Rate[105]", "Quantized Rate", 0 ],
+			"obj-39::obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-289::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized_Rate", 0 ],
+			"obj-4::obj-257::obj-29::obj-22" : [ "quantize_rate_wrapper[31]", "quantize_rate_wrapper", 0 ],
+			"obj-2::obj-52::obj-31::obj-142" : [ "Channel[129]", "Channel", 0 ],
+			"obj-2::obj-1::obj-72::obj-12" : [ "ratecontrol[148]", "ratecontrol", 0 ],
+			"obj-2::obj-3::obj-6::obj-13" : [ "delta_channel_wrapper[112]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-73::obj-9" : [ "live.text[120]", "live.text", 0 ],
+			"obj-51::obj-26::obj-186::obj-82::obj-23" : [ "jam_amount[71]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[45]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-148::obj-60::obj-23" : [ "jam_amount[78]", "jam_amount", 0 ],
+			"obj-2::obj-23::obj-68" : [ "Mixer / Send UI[19]", "Mixer / Send UI", 0 ],
+			"obj-5::obj-82" : [ "interp_every_n_bars", "interp_every_n_bars", 0 ],
+			"obj-3::obj-14::obj-27::obj-12" : [ "ratecontrol[68]", "ratecontrol", 0 ],
+			"obj-3::obj-33::obj-12::obj-74" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-3::obj-33::obj-15::obj-80::obj-13" : [ "delta_channel_wrapper[9]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-47::obj-22::obj-112::obj-107" : [ "Delta Channel #[24]", "Delta Channel #", 0 ],
+			"obj-3::obj-11::obj-181" : [ "jamRange[2]", "jamRange", 0 ],
+			"obj-3::obj-11::obj-11" : [ "Gen New Bars Button", "Gen New Bars Button", 0 ],
+			"obj-3::obj-6::obj-26::obj-47" : [ "modulation_indices[4]", "modulation_indices", 0 ],
+			"obj-3::obj-3::obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[35]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-29::obj-23" : [ "jam_amount[25]", "jam_amount", 0 ],
+			"obj-4::obj-373::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
+			"obj-2::obj-43::obj-70::obj-12" : [ "ratecontrol[107]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-19::obj-12" : [ "ratecontrol[146]", "ratecontrol", 0 ],
+			"obj-51::obj-226::obj-32" : [ "off[63]", "off", 0 ],
+			"obj-1::obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[121]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-148::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[11]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-33::obj-13::obj-18" : [ "range_ctrl1[1]", "range_ctrl1", 0 ],
+			"obj-3::obj-33::obj-14::obj-80::obj-12" : [ "ratecontrol[93]", "ratecontrol", 0 ],
+			"obj-3::obj-11::obj-4::obj-32" : [ "off[52]", "off", 0 ],
+			"obj-3::obj-4::obj-11::obj-142" : [ "Channel[91]", "Channel", 0 ],
+			"obj-3::obj-3::obj-22::obj-32" : [ "off", "off", 0 ],
+			"obj-39::obj-204::obj-190::obj-29::obj-97" : [ "Quantized_Rate", "Quantized_Rate", 0 ],
+			"obj-39::obj-16::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[38]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-252::obj-30" : [ "randomize_percentage[11]", "randomize_percentage", 0 ],
+			"obj-4::obj-148::obj-47" : [ "modulation_indices[23]", "modulation_indices", 0 ],
+			"obj-4::obj-289::obj-112::obj-11" : [ "delta_channel_wrapper[64]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-257::obj-112::obj-107" : [ "Delta_Channel_#[4]", "Delta Channel #", 0 ],
+			"obj-4::obj-329" : [ "speed_scale[1]", "speed_scale", 0 ],
+			"obj-2::obj-26::obj-70::obj-142" : [ "Channel[9]", "Channel", 0 ],
+			"obj-1::obj-1::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[118]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-1::obj-67::obj-4" : [ "chord", "chord", 0 ],
+			"obj-1::obj-148::obj-190::obj-29::obj-97" : [ "Quantized_Rate[9]", "Quantized_Rate", 0 ],
+			"obj-1::obj-148::obj-67::obj-22" : [ "chord_select_wrapper[1]", "chord_select_wrapper", 0 ],
+			"obj-43" : [ "_transport_bpm", "_transport_bpm", 0 ],
+			"obj-2::obj-365::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[34]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-365::obj-97" : [ "lock_ui[11]", "lock_ui", 0 ],
+			"obj-3::obj-25::obj-5::obj-97" : [ "Quantized Rate[36]", "Quantized Rate", 0 ],
+			"obj-3::obj-33::obj-12::obj-36" : [ "smooth_ramp_up", "smooth_ramp_up", 0 ],
+			"obj-3::obj-47::obj-22::obj-32" : [ "off[53]", "off", 0 ],
+			"obj-3::obj-11::obj-115" : [ "bars", "bars", 0 ],
+			"obj-3::obj-11::obj-133" : [ "jamRangeMax[2]", "jamRangeMax", 0 ],
+			"obj-3::obj-4::obj-105::obj-142" : [ "Channel[95]", "Channel", 0 ],
+			"obj-3::obj-3::obj-22::obj-47" : [ "modulation_indices[5]", "modulation_indices", 0 ],
+			"obj-3::obj-12::obj-22::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-39::obj-204::obj-190::obj-29::obj-9" : [ "Manual Rate[95]", "Manual Rate", 0 ],
+			"obj-39::obj-15::obj-190::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
+			"obj-4::obj-217::obj-3" : [ "range_selector_2[3]", "range_selector_2", 0 ],
+			"obj-4::obj-60::obj-12" : [ "ratecontrol[129]", "ratecontrol", 0 ],
+			"obj-2::obj-203::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[33]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-43::obj-31::obj-12" : [ "ratecontrol[108]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-60::obj-9" : [ "live.text[267]", "live.text", 0 ],
+			"obj-2::obj-25::obj-45::obj-12" : [ "ratecontrol[153]", "ratecontrol", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-22" : [ "quantize_rate_wrapper[37]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate[7]", "Quantized_Rate", 0 ],
+			"obj-1::obj-148::obj-43::obj-55" : [ "live.text[277]", "live.text[1]", 0 ],
+			"obj-2::obj-23::obj-3::obj-29::obj-23" : [ "manual_rate_wrapper[36]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-49::obj-5::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-49::obj-1" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-3::obj-33::obj-12::obj-5::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-13::obj-27" : [ "delta_smooth_toggle[3]", "delta_smooth_toggle", 0 ],
+			"obj-3::obj-33::obj-14::obj-82::obj-9" : [ "live.text[206]", "live.text", 0 ],
+			"obj-3::obj-2::obj-36::obj-123" : [ "Shuffle Mux", "Shuffle Mux", 0 ],
+			"obj-3::obj-2::obj-107::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-3::obj-4::obj-10::obj-13" : [ "delta_channel_wrapper[28]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-16::obj-190::obj-30" : [ "randomize_percentage[8]", "randomize_percentage", 0 ],
+			"obj-39::obj-1::obj-190::obj-30" : [ "randomize_percentage[10]", "randomize_percentage", 0 ],
+			"obj-4::obj-174::obj-29::obj-97" : [ "Quantized Rate[19]", "Quantized Rate", 0 ],
+			"obj-4::obj-257::obj-67" : [ "min_max_offset_ui[10]", "min_max_offset_ui", 0 ],
+			"obj-4::obj-376" : [ "pitchmod[5]", "pitchmod", 0 ],
+			"obj-2::obj-203::obj-68" : [ "Mixer / Send UI[18]", "Mixer / Send UI", 0 ],
+			"obj-2::obj-15::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[35]", "quantize_rate_wrapper", 0 ],
+			"obj-2::obj-26::obj-31::obj-142" : [ "Channel[3]", "Channel", 0 ],
+			"obj-2::obj-52::obj-30::obj-9" : [ "live.text[233]", "live.text", 0 ],
+			"obj-2::obj-1::obj-77::obj-12" : [ "ratecontrol[149]", "ratecontrol", 0 ],
+			"obj-2::obj-25::obj-19::obj-12" : [ "ratecontrol[104]", "ratecontrol", 0 ],
+			"obj-2::obj-118::obj-9" : [ "live.text[259]", "live.text", 0 ],
+			"obj-1::obj-1::obj-43::obj-30" : [ "randomize_percentage[30]", "randomize_percentage", 0 ],
+			"obj-1::obj-1::obj-67::obj-5" : [ "chords_on", "chords_on", 0 ],
+			"obj-1::obj-148::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[127]", "delta_channel_wrapper", 0 ],
+			"obj-45" : [ "randomization_intensity", "randomization_intensity", 0 ],
+			"obj-2::obj-365::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[69]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-49::obj-110::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-25::obj-110::obj-107" : [ "Delta Channel #[1]", "Delta Channel #", 0 ],
+			"obj-3::obj-33::obj-13::obj-5::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-15::obj-82::obj-142" : [ "Channel[109]", "Channel", 0 ],
+			"obj-3::obj-2::obj-36::obj-110::obj-107" : [ "Delta Channel #[4]", "Delta Channel #", 0 ],
+			"obj-3::obj-6::obj-4::obj-97" : [ "Quantized Rate[34]", "Quantized Rate", 0 ],
+			"obj-3::obj-4::obj-108::obj-23" : [ "jam_amount[16]", "jam_amount", 0 ],
+			"obj-3::obj-3::obj-7::obj-9" : [ "Delta Channel Menu[20]", "Delta Channel Menu", 0 ],
+			"obj-39::obj-204::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[37]", "delta_channel_wrapper", 0 ],
+			"obj-39::obj-15::obj-68" : [ "Mixer / Send UI[10]", "Mixer / Send UI", 0 ],
+			"obj-4::obj-253::obj-47" : [ "modulation_indices[42]", "modulation_indices", 0 ],
+			"obj-4::obj-239::obj-325::obj-112::obj-108" : [ "Hard Sync Threshold[70]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-239::obj-12" : [ "realtime_audio_gates[1]", "realtime_audio_gates", 0 ],
+			"obj-4::obj-102::obj-23" : [ "jam_amount[29]", "jam_amount", 0 ],
+			"obj-4::obj-258::obj-13" : [ "delta_channel_wrapper[66]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-203::obj-3::obj-112::obj-9" : [ "Hard Sync Toggle[66]", "Hard Sync Toggle", 0 ],
+			"obj-2::obj-26::obj-62" : [ "envelope_follow_speed", "envelope_follow_speed", 0 ],
+			"obj-2::obj-1::obj-12::obj-30" : [ "randomize_percentage[26]", "randomize_percentage", 0 ],
+			"obj-2::obj-25::obj-48::obj-13" : [ "delta_channel_wrapper[110]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-11" : [ "delta_channel_wrapper[44]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-26::obj-186::obj-97" : [ "Quantized Rate[73]", "Quantized Rate", 0 ],
+			"obj-1::obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[126]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-23::obj-3::obj-112::obj-11" : [ "delta_channel_wrapper[71]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-49::obj-5::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-12::obj-80::obj-142" : [ "Channel[116]", "Channel", 0 ],
+			"obj-3::obj-33::obj-13::obj-24" : [ "offset[4]", "offset", 0 ],
+			"obj-3::obj-33::obj-14::obj-40::obj-34" : [ "external_gate[3]", "external_gate", 0 ],
+			"obj-3::obj-47::obj-1::obj-11" : [ "delta_channel_wrapper[15]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-11::obj-7::obj-29::obj-22" : [ "quantize_rate_wrapper[10]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-89::obj-23" : [ "jam_amount[7]", "jam_amount", 0 ],
+			"obj-39::obj-1::obj-12" : [ "ModularSendsLocks[3]", "ModularSendsLocks", 0 ],
+			"obj-4::obj-190::obj-112::obj-107" : [ "Delta Channel #[46]", "Delta Channel #", 0 ],
+			"obj-4::obj-289::obj-55" : [ "live.text[19]", "live.text[1]", 0 ],
+			"obj-2::obj-43::obj-26" : [ "pitchmod[3]", "pitchmod", 0 ],
+			"obj-2::obj-52::obj-62" : [ "ratecontrol[135]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-83::obj-12" : [ "ratecontrol[150]", "ratecontrol", 0 ],
+			"obj-2::obj-25::obj-30::obj-13" : [ "delta_channel_wrapper[106]", "delta_channel_wrapper", 0 ],
+			"obj-51::obj-82::obj-142" : [ "Channel[162]", "Channel", 0 ],
+			"obj-1::obj-1::obj-357" : [ "SubsetCtrl[4]", "SubsetCtrl", 0 ],
+			"obj-1::obj-148::obj-190::obj-67" : [ "min_max_offset_ui[44]", "min_max_offset_ui", 0 ],
+			"obj-2::obj-365::obj-3::obj-30" : [ "randomize_percentage[22]", "randomize_percentage", 0 ],
+			"obj-3::obj-49::obj-43" : [ "High Ramp[1]", "High Ramp", 0 ],
+			"obj-3::obj-33::obj-13::obj-80::obj-23" : [ "jam_amount[14]", "jam_amount", 0 ],
+			"obj-39::obj-204::obj-190::obj-32" : [ "off[2]", "off", 0 ],
+			"obj-39::obj-82::obj-9" : [ "live.text[223]", "live.text", 0 ],
+			"obj-4::obj-239::obj-325::obj-32" : [ "off[14]", "off", 0 ],
+			"obj-2::obj-203::obj-3::obj-55" : [ "live.text[241]", "live.text[1]", 0 ],
+			"obj-2::obj-43::obj-30::obj-142" : [ "Channel[10]", "Channel", 0 ],
+			"obj-2::obj-43::obj-35" : [ "live.numbox[81]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-64::obj-13" : [ "delta_channel_wrapper[74]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-63" : [ "solo_decay_speed", "solo_decay_speed", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-67" : [ "min_max_offset_ui[27]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-148::obj-62::obj-13" : [ "delta_channel_wrapper[132]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-148::obj-45" : [ "preset_selector[1]", "preset_selector", 0 ],
+			"obj-2::obj-23::obj-3::obj-55" : [ "live.text[243]", "live.text[1]", 0 ],
+			"obj-3::obj-33::obj-14::obj-53" : [ "gain[5]", "gain", 0 ],
+			"obj-3::obj-47::obj-7::obj-23" : [ "manual_rate_wrapper[7]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-11::obj-7::obj-112::obj-11" : [ "delta_channel_wrapper[18]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-6::obj-131" : [ "jamRangeMin", "jamRangeMin", 0 ],
+			"obj-3::obj-6::obj-93" : [ "Trig mode", "Trig mode", 0 ],
+			"obj-3::obj-4::obj-98::obj-9" : [ "live.text[196]", "live.text", 0 ],
+			"obj-3::obj-4::obj-19::obj-23" : [ "jam_amount[21]", "jam_amount", 0 ],
+			"obj-3::obj-3::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle", "Hard Sync Toggle", 0 ],
+			"obj-39::obj-7::obj-23" : [ "jam_amount[23]", "jam_amount", 0 ],
+			"obj-4::obj-190::obj-32" : [ "off[11]", "off", 0 ],
+			"obj-4::obj-68::obj-23" : [ "jam_amount[26]", "jam_amount", 0 ],
+			"obj-4::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[19]", "quantize_rate_wrapper", 0 ],
+			"obj-4::obj-188" : [ "cell_fill_likelihood[2]", "cell_fill_likelihood", 0 ],
+			"obj-2::obj-34::obj-12::obj-112::obj-108" : [ "Hard Sync Threshold[21]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-26::obj-30::obj-9" : [ "live.text[121]", "live.text", 0 ],
+			"obj-2::obj-1::obj-86::obj-23" : [ "jam_amount[58]", "jam_amount", 0 ],
+			"obj-2::obj-25::obj-35::obj-13" : [ "delta_channel_wrapper[107]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-25::obj-1" : [ "vst~", "vst~", 0 ],
+			"obj-2::obj-123::obj-12" : [ "ratecontrol[4]", "ratecontrol", 0 ],
+			"obj-51::obj-226::obj-29::obj-23" : [ "manual_rate_wrapper[41]", "manual_rate_wrapper", 0 ],
+			"obj-51::obj-214" : [ "_key_select", "_key_select", 0 ],
+			"obj-1::obj-1::obj-62::obj-142" : [ "Channel[153]", "Channel", 0 ],
+			"obj-1::obj-1::obj-41" : [ "ProbProbLock", "ProbProbLock", 0 ],
+			"obj-3::obj-25::obj-14::obj-23" : [ "jam_amount[13]", "jam_amount", 0 ],
+			"obj-3::obj-33::obj-15::obj-32" : [ "mod_src_select[2]", "mod_src_select", 0 ],
+			"obj-3::obj-33::obj-14::obj-15::obj-9" : [ "Delta Channel Menu[6]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-2::obj-107::obj-29::obj-23" : [ "manual_rate_wrapper[6]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-11::obj-4::obj-29::obj-23" : [ "manual_rate_wrapper[9]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-110::obj-142" : [ "Channel[93]", "Channel", 0 ],
+			"obj-4::obj-252::obj-29::obj-9" : [ "Manual Rate[47]", "Manual Rate", 0 ],
+			"obj-4::obj-113::obj-9" : [ "live.text[263]", "live.text", 0 ],
+			"obj-4::obj-6::obj-23" : [ "jam_amount[32]", "jam_amount", 0 ],
+			"obj-2::obj-52::obj-70::obj-9" : [ "live.text[230]", "live.text", 0 ],
+			"obj-2::obj-1::obj-66::obj-13" : [ "delta_channel_wrapper[75]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-40" : [ "v_values", "v_values", 0 ],
+			"obj-2::obj-3::obj-10::obj-142" : [ "Channel[132]", "Channel", 0 ],
+			"obj-51::obj-26::obj-186::obj-12" : [ "Slider Qty[10]", "Slider Qty", 0 ],
+			"obj-1::obj-1::obj-190::obj-47" : [ "modulation_indices[30]", "modulation_indices", 0 ],
+			"obj-1::obj-148::obj-46::obj-12" : [ "ratecontrol[162]", "ratecontrol", 0 ],
+			"obj-1::obj-148::obj-76" : [ "note_dur_wrapper[1]", "note_dur_wrapper", 0 ],
+			"obj-3::obj-49::obj-14::obj-23" : [ "jam_amount[12]", "jam_amount", 0 ],
+			"obj-3::obj-33::obj-12::obj-82::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
+			"obj-3::obj-33::obj-15::obj-5::obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-14::obj-41" : [ "smooth_ramp_down[3]", "smooth_ramp_down", 0 ],
+			"obj-3::obj-47::obj-22::obj-29::obj-97" : [ "Quantized Rate[102]", "Quantized Rate", 0 ],
+			"obj-3::obj-11::obj-7::obj-55" : [ "live.text[110]", "live.text[1]", 0 ],
+			"obj-3::obj-3::obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[13]", "manual_rate_wrapper", 0 ],
+			"obj-39::obj-15::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[17]", "quantize_rate_wrapper", 0 ],
+			"obj-39::obj-28::obj-23" : [ "jam_amount[24]", "jam_amount", 0 ],
+			"obj-4::obj-174::obj-47" : [ "modulation_indices[25]", "modulation_indices", 0 ],
+			"obj-4::obj-373::obj-112::obj-11" : [ "delta_channel_wrapper[69]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-34::obj-12::obj-32" : [ "off[24]", "off", 0 ],
+			"obj-2::obj-15::obj-3::obj-67" : [ "min_max_offset_ui[37]", "min_max_offset_ui", 0 ],
+			"obj-2::obj-26::obj-35" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-48::obj-13" : [ "delta_channel_wrapper[104]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-125::obj-142" : [ "Channel[139]", "Channel", 0 ],
+			"obj-51::obj-226::obj-112::obj-107" : [ "Delta Channel #[53]", "Delta Channel #", 0 ],
+			"obj-1::obj-1::obj-46::obj-23" : [ "jam_amount[74]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-45" : [ "preset_selector", "preset_selector", 0 ],
+			"obj-1::obj-148::obj-43::obj-29::obj-97" : [ "Quantized_Rate[10]", "Quantized_Rate", 0 ],
+			"obj-3::obj-25::obj-1" : [ "Waveform[2]", "Waveform", 0 ],
+			"obj-3::obj-33::obj-13::obj-82::obj-9" : [ "live.text[210]", "live.text", 0 ],
+			"obj-3::obj-33::obj-15::obj-18" : [ "range_ctrl1[2]", "range_ctrl1", 0 ],
+			"obj-3::obj-33::obj-14::obj-5::obj-23" : [ "manual_rate_wrapper[5]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-2::obj-107::obj-112::obj-108" : [ "Hard Sync Threshold[25]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-11::obj-99::obj-3" : [ "range_selector_2", "range_selector_2", 0 ],
+			"obj-3::obj-11::obj-4::obj-112::obj-11" : [ "delta_channel_wrapper[17]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-6::obj-26::obj-112::obj-9" : [ "Hard Sync Toggle[49]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-6::obj-17" : [ "Slider Values", "Slider Values", 0 ],
+			"obj-3::obj-4::obj-114::obj-9" : [ "live.text[191]", "live.text", 0 ],
+			"obj-3::obj-12::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle[3]", "Hard Sync Toggle", 0 ],
+			"obj-39::obj-16::obj-190::obj-29::obj-9" : [ "Manual Rate[22]", "Manual Rate", 0 ],
+			"obj-4::obj-252::obj-112::obj-107" : [ "Delta Channel #[43]", "Delta Channel #", 0 ],
+			"obj-4::obj-148::obj-112::obj-108" : [ "Hard Sync Threshold[53]", "Hard Sync Threshold", 0 ],
+			"obj-4::obj-257::obj-29::obj-23" : [ "manual_rate_wrapper[31]", "manual_rate_wrapper", 0 ],
+			"obj-2::obj-3::obj-6::obj-12" : [ "ratecontrol[155]", "ratecontrol", 0 ],
+			"obj-51::obj-26::obj-186::obj-82::obj-142" : [ "Channel[17]", "Channel", 0 ],
+			"obj-1::obj-1::obj-43::obj-29::obj-9" : [ "Manual Rate[48]", "Manual Rate", 0 ],
+			"obj-1::obj-148::obj-60::obj-142" : [ "Channel[155]", "Channel", 0 ],
+			"obj-16" : [ "Global Transport On", "Global Transport On", 0 ],
+			"obj-3::obj-33::obj-14::obj-32" : [ "mod_src_select[3]", "mod_src_select", 0 ],
+			"obj-3::obj-47::obj-22::obj-112::obj-9" : [ "Hard Sync Toggle[52]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-4::obj-102::obj-9" : [ "live.text[195]", "live.text", 0 ],
+			"obj-3::obj-3::obj-22::obj-112::obj-108" : [ "Hard Sync Threshold[39]", "Hard Sync Threshold", 0 ],
+			"obj-39::obj-15::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[30]", "delta_channel_wrapper", 0 ],
+			"obj-4::obj-253::obj-29::obj-23" : [ "manual_rate_wrapper[26]", "manual_rate_wrapper", 0 ],
+			"obj-4::obj-239::obj-2::obj-34" : [ "external_gate[4]", "external_gate", 0 ],
+			"obj-4::obj-126::obj-23" : [ "jam_amount[27]", "jam_amount", 0 ],
+			"obj-4::obj-373::obj-30" : [ "randomize_percentage[19]", "randomize_percentage", 0 ],
+			"obj-2::obj-15::obj-5::obj-34" : [ "external_gate[7]", "external_gate", 0 ],
+			"obj-2::obj-43::obj-70::obj-13" : [ "delta_channel_wrapper[86]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-1::obj-19::obj-142" : [ "Channel[14]", "Channel", 0 ],
+			"obj-2::obj-1::obj-12::obj-29::obj-9" : [ "Manual Rate[35]", "Manual Rate", 0 ],
+			"obj-2::obj-25::obj-42::obj-12" : [ "ratecontrol[152]", "ratecontrol", 0 ],
+			"obj-2::obj-25::obj-54" : [ "mod_depth", "mod_depth", 0 ],
+			"obj-51::obj-226::obj-30" : [ "randomize_percentage[28]", "randomize_percentage", 0 ],
+			"obj-1::obj-148::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[130]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-25::obj-43" : [ "High Ramp[2]", "High Ramp", 0 ],
+			"obj-3::obj-33::obj-14::obj-80::obj-142" : [ "Channel[108]", "Channel", 0 ],
+			"obj-3::obj-2::obj-107::obj-55" : [ "live.text[113]", "live.text[1]", 0 ],
+			"obj-3::obj-6::obj-26::obj-55" : [ "live.text[109]", "live.text[1]", 0 ],
+			"obj-3::obj-4::obj-11::obj-23" : [ "jam_amount[19]", "jam_amount", 0 ],
+			"obj-3::obj-12::obj-22::obj-47" : [ "modulation_indices[6]", "modulation_indices", 0 ],
+			"obj-39::obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-252::obj-47" : [ "modulation_indices[31]", "modulation_indices", 0 ],
+			"obj-4::obj-148::obj-32" : [ "off[69]", "off", 0 ],
+			"obj-4::obj-257::obj-112::obj-108" : [ "Hard_Sync_Threshold[4]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-26::obj-70::obj-23" : [ "jam_amount[33]", "jam_amount", 0 ],
+			"obj-2::obj-52::obj-31::obj-23" : [ "jam_amount[40]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-72::obj-142" : [ "Channel[149]", "Channel", 0 ],
+			"obj-1::obj-148::obj-190::obj-29::obj-9" : [ "Manual Rate[54]", "Manual Rate", 0 ],
+			"obj-2::obj-365::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[34]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-12::obj-61" : [ "range_ctrl2", "range_ctrl2", 0 ],
+			"obj-3::obj-33::obj-15::obj-80::obj-142" : [ "Channel[110]", "Channel", 0 ],
+			"obj-3::obj-4::obj-105::obj-9" : [ "live.text[194]", "live.text", 0 ],
+			"obj-3::obj-3::obj-22::obj-55" : [ "live.text[14]", "live.text[1]", 0 ],
+			"obj-39::obj-15::obj-190::obj-67" : [ "min_max_offset_ui[8]", "min_max_offset_ui", 0 ],
+			"obj-39::obj-29::obj-9" : [ "live.text[224]", "live.text", 0 ],
+			"obj-4::obj-253::obj-112::obj-9" : [ "Hard Sync Toggle[74]", "Hard Sync Toggle", 0 ],
+			"obj-4::obj-239::obj-325::obj-29::obj-97" : [ "Quantized Rate[47]", "Quantized Rate", 0 ],
+			"obj-4::obj-60::obj-142" : [ "Channel[143]", "Channel", 0 ],
+			"obj-2::obj-203::obj-3::obj-29::obj-22" : [ "quantize_rate_wrapper[33]", "quantize_rate_wrapper", 0 ],
+			"obj-2::obj-1::obj-12::obj-112::obj-108" : [ "Hard_Sync_Threshold[6]", "Hard Sync Threshold", 0 ],
+			"obj-2::obj-25::obj-45::obj-142" : [ "Channel[160]", "Channel", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-29::obj-23" : [ "manual_rate_wrapper[37]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-1::obj-60::obj-23" : [ "jam_amount[75]", "jam_amount", 0 ],
+			"obj-1::obj-148::obj-43::obj-30" : [ "randomize_percentage[32]", "randomize_percentage", 0 ],
+			"obj-2::obj-23::obj-3::obj-29::obj-9" : [ "Manual Rate[53]", "Manual Rate", 0 ],
+			"obj-3::obj-49::obj-5::obj-97" : [ "Quantized Rate[5]", "Quantized Rate", 0 ],
+			"obj-3::obj-33::obj-12::obj-16::obj-9" : [ "Delta Channel Menu[1]", "Delta Channel Menu", 0 ],
+			"obj-3::obj-33::obj-13::obj-29" : [ "gain_reset_button[1]", "gain_reset_button", 0 ],
+			"obj-3::obj-33::obj-14::obj-82::obj-12" : [ "ratecontrol[92]", "ratecontrol", 0 ],
+			"obj-3::obj-2::obj-36::obj-1" : [ "MatrixCtrl", "MatrixCtrl", 0 ],
+			"obj-3::obj-11::obj-4::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
+			"obj-3::obj-12::obj-7::obj-9" : [ "Delta Channel Menu[12]", "Delta Channel Menu", 0 ],
+			"obj-39::obj-1::obj-190::obj-47" : [ "modulation_indices[9]", "modulation_indices", 0 ],
+			"obj-4::obj-289::obj-112::obj-107" : [ "Delta_Channel_#[3]", "Delta Channel #", 0 ],
+			"obj-4::obj-390" : [ "1/n", "1/n", 0 ],
+			"obj-2::obj-52::obj-30::obj-12" : [ "ratecontrol[113]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-77::obj-142" : [ "Channel[146]", "Channel", 0 ],
+			"obj-2::obj-25::obj-19::obj-142" : [ "Channel[127]", "Channel", 0 ],
+			"obj-247" : [ "global_shape_mode", "global_shape_mode", 0 ],
+			"obj-2::obj-365::obj-3::obj-112::obj-107" : [ "Delta Channel #[15]", "Delta Channel #", 0 ],
+			"obj-3::obj-33::obj-12::obj-24" : [ "offset[6]", "offset", 0 ],
+			"obj-3::obj-33::obj-13::obj-5::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
+			"obj-3::obj-33::obj-15::obj-82::obj-9" : [ "live.text[208]", "live.text", 0 ],
+			"obj-3::obj-2::obj-36::obj-110::obj-9" : [ "Hard Sync Toggle[2]", "Hard Sync Toggle", 0 ],
+			"obj-3::obj-47::obj-22::obj-55" : [ "live.text[112]", "live.text[1]", 0 ],
+			"obj-3::obj-6::obj-12" : [ "Slider Qty[6]", "Slider Qty", 0 ],
+			"obj-4::obj-253::obj-55" : [ "live.text[261]", "live.text[1]", 0 ],
+			"obj-4::obj-239::obj-325::obj-112::obj-11" : [ "delta_channel_wrapper[63]", "delta_channel_wrapper", 0 ],
+			"obj-2::obj-43::obj-31::obj-142" : [ "Channel[7]", "Channel", 0 ],
+			"obj-2::obj-1::obj-60::obj-12" : [ "ratecontrol[132]", "ratecontrol", 0 ],
+			"obj-2::obj-1::obj-12::obj-47" : [ "modulation_indices[15]", "modulation_indices", 0 ],
+			"obj-51::obj-26::obj-186::obj-226::obj-112::obj-108" : [ "Hard Sync Threshold[48]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-1::obj-17" : [ "columns", "columns", 0 ],
+			"obj-3::obj-49::obj-60" : [ "live.numbox[44]", "live.numbox[44]", 0 ],
+			"obj-3::obj-33::obj-13::obj-61" : [ "range_ctrl2[1]", "range_ctrl2", 0 ],
+			"obj-3::obj-47::obj-1::obj-108" : [ "Hard Sync Threshold[14]", "Hard Sync Threshold", 0 ],
+			"obj-3::obj-11::obj-7::obj-29::obj-23" : [ "manual_rate_wrapper[10]", "manual_rate_wrapper", 0 ],
+			"obj-3::obj-4::obj-89::obj-13" : [ "delta_channel_wrapper[20]", "delta_channel_wrapper", 0 ],
+			"obj-3::obj-4::obj-10::obj-9" : [ "live.text[189]", "live.text", 0 ],
+			"obj-39::obj-16::obj-190::obj-47" : [ "modulation_indices[29]", "modulation_indices", 0 ],
+			"obj-4::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[25]", "manual_rate_wrapper", 0 ],
 			"obj-4::obj-190::obj-112::obj-9" : [ "Hard Sync Toggle[56]", "Hard Sync Toggle", 0 ],
 			"obj-4::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[28]", "quantize_rate_wrapper", 0 ],
-			"obj-4::obj-289::obj-30" : [ "randomize_percentage[17]", "randomize_percentage", 0 ],
-			"obj-4::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[19]", "manual_rate_wrapper", 0 ],
-			"obj-2::obj-34::obj-12::obj-112::obj-11" : [ "delta_channel_wrapper[65]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-43::obj-30::obj-23" : [ "jam_amount[38]", "jam_amount", 0 ],
-			"obj-2::obj-43::obj-26" : [ "pitchmod[3]", "pitchmod", 0 ],
-			"obj-2::obj-11::obj-34::obj-23" : [ "jam_amount[49]", "jam_amount", 0 ],
-			"obj-2::obj-1::obj-83::obj-13" : [ "delta_channel_wrapper[78]", "delta_channel_wrapper", 0 ],
-			"obj-2::obj-25::obj-35::obj-9" : [ "live.text[119]", "live.text", 0 ],
-			"obj-2::obj-25::obj-15" : [ "mod_rate", "mod_rate", 0 ],
-			"obj-1::obj-1::obj-62::obj-12" : [ "ratecontrol[160]", "ratecontrol", 0 ],
-			"obj-1::obj-148::obj-190::obj-55" : [ "live.text[285]", "live.text[1]", 0 ],
-			"obj-3::obj-49::obj-14::obj-23" : [ "jam_amount[12]", "jam_amount", 0 ],
-			"obj-3::obj-33::obj-12::obj-36" : [ "smooth_ramp_up", "smooth_ramp_up", 0 ],
-			"obj-3::obj-33::obj-14::obj-82::obj-12" : [ "ratecontrol[92]", "ratecontrol", 0 ],
-			"obj-3::obj-47::obj-1::obj-11" : [ "delta_channel_wrapper[15]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-4::obj-98::obj-13" : [ "delta_channel_wrapper[21]", "delta_channel_wrapper", 0 ],
-			"obj-3::obj-4::obj-19::obj-9" : [ "live.text[188]", "live.text", 0 ],
-			"obj-39::obj-1::obj-190::obj-67" : [ "min_max_offset_ui[9]", "min_max_offset_ui", 0 ],
-			"obj-4::obj-102::obj-9" : [ "live.text[262]", "live.text", 0 ],
-			"obj-4::obj-6::obj-142" : [ "Channel[148]", "Channel", 0 ],
-			"obj-4::obj-26" : [ "jam_probabilities[3]", "jam_probabilities", 0 ],
-			"obj-2::obj-203::obj-3::obj-55" : [ "live.text[241]", "live.text[1]", 0 ],
-			"obj-2::obj-15::obj-3::obj-112::obj-108" : [ "Hard Sync Threshold[4]", "Hard Sync Threshold", 0 ],
-			"obj-2::obj-15::obj-97" : [ "lock_ui[10]", "lock_ui", 0 ],
-			"obj-2::obj-26::obj-30::obj-142" : [ "Channel[4]", "Channel", 0 ],
-			"obj-2::obj-43::obj-35" : [ "live.numbox[81]", "live.numbox", 0 ],
-			"obj-2::obj-10::obj-112::obj-107" : [ "Delta Channel #[36]", "Delta Channel #", 0 ],
-			"obj-2::obj-1::obj-64::obj-12" : [ "ratecontrol[147]", "ratecontrol", 0 ],
-			"obj-2::obj-1::obj-5" : [ "vst~[1]", "vst~", 0 ],
-			"obj-2::obj-25::obj-1" : [ "vst~", "vst~", 0 ],
-			"obj-2::obj-3::obj-10::obj-13" : [ "delta_channel_wrapper[111]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-1::obj-190::obj-55" : [ "live.text[279]", "live.text[1]", 0 ],
-			"obj-1::obj-148::obj-46::obj-12" : [ "ratecontrol[162]", "ratecontrol", 0 ],
+			"obj-4::obj-289::obj-47" : [ "modulation_indices[32]", "modulation_indices", 0 ],
+			"obj-4::obj-257::obj-47" : [ "modulation_indices[10]", "modulation_indices", 0 ],
+			"obj-4::obj-357" : [ "SubsetCtrl[2]", "SubsetCtrl", 0 ],
+			"obj-2::obj-34::obj-12::obj-29::obj-97" : [ "Quantized Rate[88]", "Quantized Rate", 0 ],
+			"obj-2::obj-15::obj-3::obj-29::obj-9" : [ "Manual Rate[45]", "Manual Rate", 0 ],
+			"obj-2::obj-26::obj-31::obj-23" : [ "jam_amount[34]", "jam_amount", 0 ],
+			"obj-2::obj-1::obj-83::obj-142" : [ "Channel[121]", "Channel", 0 ],
+			"obj-2::obj-25::obj-30::obj-9" : [ "live.text[118]", "live.text", 0 ],
+			"obj-2::obj-118::obj-12" : [ "ratecontrol[157]", "ratecontrol", 0 ],
+			"obj-51::obj-82::obj-23" : [ "jam_amount[72]", "jam_amount", 0 ],
+			"obj-1::obj-1::obj-43::obj-67" : [ "min_max_offset_ui[15]", "min_max_offset_ui", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-4::obj-373::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[5]"
+				"obj-3::obj-25::obj-110::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[1]"
 				}
 ,
-				"obj-2::obj-34::obj-12::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[20]"
+				"obj-3::obj-33::obj-15::obj-40::obj-34" : 				{
+					"parameter_longname" : "external_gate[2]"
 				}
 ,
-				"obj-2::obj-26::obj-50" : 				{
-					"parameter_longname" : "osc_interp"
-				}
-,
-				"obj-1::obj-1::obj-67::obj-4" : 				{
-					"parameter_longname" : "chord"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[2]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[222]"
-				}
-,
-				"obj-4::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[49]"
-				}
-,
-				"obj-4::obj-257::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[43]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-32" : 				{
-					"parameter_longname" : "off[9]"
-				}
-,
-				"obj-2::obj-10::obj-34::obj-9" : 				{
-					"parameter_longname" : "live.text[250]",
+				"obj-3::obj-4::obj-108::obj-9" : 				{
+					"parameter_longname" : "live.text[193]",
 					"parameter_shortname" : "live.text"
 				}
 ,
-				"obj-2::obj-3::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[273]",
-					"parameter_shortname" : "live.text"
+				"obj-39::obj-204::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
-				"obj-3::obj-49::obj-60" : 				{
-					"parameter_longname" : "live.numbox[44]",
-					"parameter_shortname" : "live.numbox[44]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-24" : 				{
-					"parameter_longname" : "offset[4]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[94]"
-				}
-,
-				"obj-3::obj-4::obj-114::obj-9" : 				{
-					"parameter_longname" : "live.text[191]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-39::obj-204::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[7]"
+				"obj-39::obj-204::obj-68" : 				{
+					"parameter_initial" : [ -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0 ]
 				}
 ,
 				"obj-4::obj-41::obj-9" : 				{
 					"parameter_longname" : "Hard Sync Toggle[73]"
 				}
 ,
-				"obj-4::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[260]"
-				}
-,
-				"obj-4::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[265]"
-				}
-,
-				"obj-2::obj-52::obj-70::obj-9" : 				{
-					"parameter_longname" : "live.text[230]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-51::obj-226::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[28]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[11]"
-				}
-,
-				"obj-3::obj-25::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[36]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-29" : 				{
-					"parameter_longname" : "gain_reset_button[3]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[50]"
-				}
-,
-				"obj-39::obj-7::obj-9" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-4::obj-148::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[48]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[9]",
-					"parameter_shortname" : "Quantized Rate"
+				"obj-2::obj-1::obj-64::obj-9" : 				{
+					"parameter_longname" : "live.text[268]"
 				}
 ,
 				"obj-2::obj-4" : 				{
@@ -12427,1814 +11846,33 @@
 					"parameter_range" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n" ]
 				}
 ,
-				"obj-1::obj-1::obj-77" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 0,
-					"parameter_range" : [ 0.0, 10.0 ]
+				"obj-1::obj-1::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[7]"
 				}
 ,
-				"obj-5::obj-140" : 				{
-					"parameter_longname" : "auto_preset_movement_mode",
-					"parameter_shortname" : "auto_preset_movement_mode"
+				"obj-3::obj-33::obj-14::obj-29" : 				{
+					"parameter_longname" : "gain_reset_button[3]"
 				}
 ,
-				"obj-3::obj-33::obj-12::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[30]",
-					"parameter_shortname" : "Quantized Rate"
+				"obj-3::obj-4::obj-19::obj-9" : 				{
+					"parameter_longname" : "live.text[188]",
+					"parameter_shortname" : "live.text"
 				}
 ,
-				"obj-3::obj-33::obj-12::obj-17" : 				{
-					"parameter_longname" : "modulation source select[2]",
-					"parameter_shortname" : "modulation source select"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[31]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[101]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[6]"
-				}
-,
-				"obj-4::obj-252::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[47]"
-				}
-,
-				"obj-4::obj-253::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[50]"
+				"obj-2::obj-15::obj-3::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[4]"
 				}
 ,
 				"obj-1::obj-1::obj-30" : 				{
 					"parameter_longname" : "NoteLength"
 				}
 ,
-				"obj-3::obj-49::obj-1" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 0,
-					"parameter_type" : 1
-				}
-,
-				"obj-3::obj-33::obj-14::obj-8" : 				{
-					"parameter_longname" : "delta_speedlim_toggle[7]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[93]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-32" : 				{
-					"parameter_longname" : "off[51]"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[5]"
-				}
-,
-				"obj-4::obj-289::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[3]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-2::obj-11::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[251]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[9]"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[51]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[4]"
-				}
-,
-				"obj-4::obj-252::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[49]"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[6]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-32" : 				{
-					"parameter_longname" : "off[78]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-80::obj-9" : 				{
-					"parameter_longname" : "live.text[211]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-36" : 				{
-					"parameter_longname" : "smooth_ramp_up[2]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[52]"
-				}
-,
-				"obj-3::obj-4::obj-108::obj-9" : 				{
-					"parameter_longname" : "live.text[193]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-4::obj-148::obj-32" : 				{
-					"parameter_longname" : "off[69]"
-				}
-,
-				"obj-2::obj-43::obj-31::obj-9" : 				{
-					"parameter_longname" : "live.text[219]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-1::obj-77::obj-9" : 				{
-					"parameter_longname" : "live.text[271]"
-				}
-,
-				"obj-51::obj-82::obj-142" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 1,
-					"parameter_type" : 1
-				}
-,
-				"obj-1::obj-1::obj-43::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[30]"
-				}
-,
-				"obj-1::obj-148::obj-67::obj-5" : 				{
-					"parameter_longname" : "chords_on[1]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-80::obj-9" : 				{
-					"parameter_longname" : "live.text[207]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[2]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[2]"
-				}
-,
-				"obj-4::obj-180" : 				{
-					"parameter_range" : [ 1, 9 ]
-				}
-,
-				"obj-3::obj-33::obj-13::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[210]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-24" : 				{
-					"parameter_longname" : "offset[7]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[1]"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[21]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-55" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[68]"
-				}
-,
-				"obj-2::obj-123::obj-9" : 				{
-					"parameter_longname" : "live.text[126]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[40]"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[38]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[10]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[70]"
-				}
-,
-				"obj-2::obj-52::obj-35" : 				{
-					"parameter_longname" : "live.numbox[55]"
-				}
-,
-				"obj-2::obj-10::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[71]"
-				}
-,
-				"obj-2::obj-3::obj-10::obj-9" : 				{
-					"parameter_longname" : "live.text[245]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-25::obj-60" : 				{
-					"parameter_longname" : "live.numbox[1]",
-					"parameter_shortname" : "live.numbox[44]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-74" : 				{
-					"parameter_longname" : "live.numbox[19]"
-				}
-,
-				"obj-3::obj-2::obj-36::obj-110::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[2]"
-				}
-,
-				"obj-39::obj-204::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[95]"
-				}
-,
-				"obj-2::obj-365::obj-5::obj-34" : 				{
-					"parameter_longname" : "external_gate[6]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-32" : 				{
-					"parameter_longname" : "off[68]"
-				}
-,
-				"obj-2::obj-11::obj-34::obj-9" : 				{
-					"parameter_longname" : "live.text[252]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-1::obj-83::obj-9" : 				{
-					"parameter_longname" : "live.text[116]"
-				}
-,
-				"obj-2::obj-125::obj-9" : 				{
-					"parameter_longname" : "live.text[274]"
-				}
-,
-				"obj-51::obj-226::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[36]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-40::obj-34" : 				{
-					"parameter_longname" : "external_gate[3]"
-				}
-,
-				"obj-3::obj-47::obj-1::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[14]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[100]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[2]"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[65]"
-				}
-,
-				"obj-4::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[17]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-32" : 				{
-					"parameter_longname" : "off[14]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-55" : 				{
-					"parameter_longname" : "live.text[246]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[32]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-27" : 				{
-					"parameter_longname" : "delta_smooth_toggle[3]"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[3]"
-				}
-,
-				"obj-4::obj-41::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[41]"
-				}
-,
-				"obj-4::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[11]"
-				}
-,
-				"obj-4::obj-373::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[6]"
-				}
-,
-				"obj-2::obj-8::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[8]"
-				}
-,
-				"obj-2::obj-1::obj-86::obj-9" : 				{
-					"parameter_longname" : "live.text[117]"
-				}
-,
-				"obj-3::obj-25::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[36]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-2" : 				{
-					"parameter_longname" : "Flip Output On/Off[6]"
-				}
-,
-				"obj-3::obj-47::obj-7::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[16]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[20]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[41]"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[48]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[103]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-252::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[43]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[22]"
-				}
-,
-				"obj-3::obj-25::obj-110::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[1]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[39]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[102]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-55" : 				{
-					"parameter_longname" : "live.text[110]"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[3]"
-				}
-,
-				"obj-4::obj-148::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[53]"
-				}
-,
-				"obj-4::obj-257::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[4]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[25]"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[54]"
-				}
-,
-				"obj-1::obj-148::obj-67::obj-4" : 				{
-					"parameter_longname" : "chord[1]",
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_range" : [ "M", "M69", "M7sus4", "M9", "M9sus4", "Maj7", "Msus4" ]
-				}
-,
-				"obj-3::obj-2::obj-107::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[25]"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[23]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[2]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-4::obj-239::obj-2::obj-34" : 				{
-					"parameter_longname" : "external_gate[4]"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[26]"
-				}
-,
-				"obj-2::obj-8::obj-34::obj-9" : 				{
-					"parameter_longname" : "live.text[248]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[48]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-74" : 				{
-					"parameter_longname" : "live.numbox[13]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[24]"
-				}
-,
-				"obj-39::obj-28::obj-9" : 				{
-					"parameter_longname" : "live.text[114]"
-				}
-,
-				"obj-4::obj-257::obj-55" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-1::obj-1::obj-76" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 0,
-					"parameter_range" : [ 0.0, 9.0 ],
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-1::obj-148::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[9]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-32" : 				{
-					"parameter_longname" : "off[54]"
-				}
-,
-				"obj-39::obj-204::obj-68" : 				{
-					"parameter_initial" : [ -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0 ]
-				}
-,
-				"obj-39::obj-1::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[2]"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[6]"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[7]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[7]"
-				}
-,
-				"obj-1::obj-1::obj-8" : 				{
-					"parameter_range" : [ 0.0, 110.0 ]
-				}
-,
-				"obj-3::obj-12::obj-22::obj-55" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-39::obj-29::obj-9" : 				{
-					"parameter_longname" : "live.text[224]"
-				}
-,
-				"obj-4::obj-289::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[3]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[51]"
-				}
-,
-				"obj-2::obj-70::obj-3::obj-9" : 				{
-					"parameter_longname" : "live.text[235]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-11::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[29]"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[77]"
-				}
-,
-				"obj-3::obj-49::obj-14::obj-9" : 				{
-					"parameter_longname" : "live.text[215]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-12::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[212]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-12::obj-8" : 				{
-					"parameter_longname" : "delta_speedlim_toggle[2]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[42]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[206]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[22]"
-				}
-,
-				"obj-4::obj-252::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[11]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[3]"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[21]"
-				}
-,
-				"obj-2::obj-52::obj-26" : 				{
-					"parameter_longname" : "pitchmod[4]"
-				}
-,
-				"obj-2::obj-1::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[267]"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-32" : 				{
-					"parameter_longname" : "off[17]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-32" : 				{
-					"parameter_longname" : "off[61]"
-				}
-,
-				"obj-3::obj-25::obj-79" : 				{
-					"parameter_longname" : "∆quant[1]"
-				}
-,
-				"obj-3::obj-2::obj-36::obj-110::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[4]"
-				}
-,
-				"obj-4::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[51]"
-				}
-,
-				"obj-4::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[19]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-289::obj-32" : 				{
-					"parameter_longname" : "off[3]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[31]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-55" : 				{
-					"parameter_longname" : "live.text[243]"
-				}
-,
-				"obj-2::obj-8::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[221]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-47::obj-1::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[13]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[91]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-55" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[75]"
-				}
-,
-				"obj-3::obj-49::obj-110::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[2]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[19]"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[26]"
-				}
-,
-				"obj-4::obj-174::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[76]"
-				}
-,
-				"obj-4::obj-373::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[5]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-32" : 				{
-					"parameter_longname" : "off[24]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[10]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-5::obj-72::obj-100" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 1,
-					"parameter_type" : 3
-				}
-,
-				"obj-3::obj-14::obj-27::obj-9" : 				{
-					"parameter_longname" : "live.text[179]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-80::obj-9" : 				{
-					"parameter_longname" : "live.text[209]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-17" : 				{
-					"parameter_longname" : "modulation source select[7]",
-					"parameter_shortname" : "modulation source select"
-				}
-,
-				"obj-3::obj-47::obj-7::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[9]"
-				}
-,
-				"obj-3::obj-4::obj-102::obj-9" : 				{
-					"parameter_longname" : "live.text[195]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-4::obj-148::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[130]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-2::obj-26::obj-35" : 				{
-					"parameter_longname" : "live.numbox[51]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-8" : 				{
-					"parameter_longname" : "delta_speedlim_toggle[4]"
-				}
-,
-				"obj-39::obj-204::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[2]"
-				}
-,
-				"obj-4::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[15]"
-				}
-,
-				"obj-4::obj-311" : 				{
-					"parameter_range" : [ 1, 15 ]
-				}
-,
-				"obj-2::obj-8::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[61]"
-				}
-,
-				"obj-2::obj-1::obj-48::obj-9" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[10]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[38]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[208]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[39]"
-				}
-,
-				"obj-4::obj-257::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[5]"
-				}
-,
-				"obj-2::obj-15::obj-5::obj-34" : 				{
-					"parameter_longname" : "external_gate[7]"
-				}
-,
-				"obj-2::obj-25::obj-19::obj-9" : 				{
-					"parameter_longname" : "live.text[227]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[9]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-3::obj-49::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[28]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-74" : 				{
-					"parameter_longname" : "live.numbox[10]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[4]"
-				}
-,
-				"obj-3::obj-75::obj-74::obj-68" : 				{
-					"parameter_longname" : "Mixer_Send_UI",
-					"parameter_shortname" : "Mixer_Send_UI",
-					"parameter_initial" : [ -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0 ]
-				}
-,
-				"obj-2::obj-203::obj-3::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[124]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-2::obj-52::obj-31::obj-9" : 				{
-					"parameter_longname" : "live.text[232]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[6]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-55" : 				{
-					"parameter_longname" : "live.text[277]"
-				}
-,
-				"obj-3::obj-25::obj-110::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[14]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-40::obj-34" : 				{
-					"parameter_longname" : "external_gate[2]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-41" : 				{
-					"parameter_longname" : "smooth_ramp_down[3]"
-				}
-,
-				"obj-3::obj-4::obj-105::obj-9" : 				{
-					"parameter_longname" : "live.text[194]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[1]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-4::obj-148::obj-55" : 				{
-					"parameter_longname" : "live.text[264]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[7]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[128]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[23]"
-				}
-,
-				"obj-39::obj-86" : 				{
-					"parameter_longname" : "external_tempo",
-					"parameter_shortname" : "external_tempo",
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_range" : [ "1n", "2n", "4n" ]
-				}
-,
-				"obj-4::obj-252::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[43]"
-				}
-,
-				"obj-4::obj-253::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[52]"
-				}
-,
-				"obj-4::obj-182" : 				{
-					"parameter_range" : [ 1, 9 ]
-				}
-,
-				"obj-2::obj-52::obj-30::obj-9" : 				{
-					"parameter_longname" : "live.text[233]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[6]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[16]"
-				}
-,
-				"obj-1::obj-148::obj-17" : 				{
-					"parameter_longname" : "columns[1]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-2" : 				{
-					"parameter_longname" : "Flip Output On/Off[4]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[24]"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[1]"
-				}
-,
-				"obj-4::obj-289::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[4]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[79]"
-				}
-,
-				"obj-2::obj-73::obj-9" : 				{
-					"parameter_longname" : "live.text[120]"
-				}
-,
-				"obj-51::obj-214" : 				{
-					"parameter_linknames" : 1,
-					"parameter_shortname" : "_key_select"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-55" : 				{
-					"parameter_longname" : "live.text[281]"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-32" : 				{
-					"parameter_longname" : "off[52]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[2]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[108]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-2::obj-10::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[249]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[26]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[27]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[8]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-8" : 				{
-					"parameter_longname" : "delta_speedlim_toggle[6]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-32" : 				{
-					"parameter_longname" : "off[53]"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[9]"
-				}
-,
-				"obj-4::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[18]"
-				}
-,
-				"obj-4::obj-289::obj-55" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-4::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[5]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[21]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[22]"
-				}
-,
-				"obj-2::obj-43::obj-30::obj-9" : 				{
-					"parameter_longname" : "live.text[220]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-51::obj-226::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[46]"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[31]"
-				}
-,
-				"obj-3::obj-4::obj-98::obj-9" : 				{
-					"parameter_longname" : "live.text[196]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[56]"
-				}
-,
-				"obj-4::obj-253::obj-55" : 				{
-					"parameter_longname" : "live.text[261]"
-				}
-,
-				"obj-4::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[20]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[65]"
-				}
-,
-				"obj-2::obj-26::obj-30::obj-9" : 				{
-					"parameter_longname" : "live.text[121]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-10::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[15]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[29]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-40::obj-34" : 				{
-					"parameter_longname" : "external_gate[1]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-17" : 				{
-					"parameter_longname" : "modulation source select[6]",
-					"parameter_shortname" : "modulation source select"
-				}
-,
-				"obj-4::obj-174::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[67]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-55" : 				{
-					"parameter_longname" : "live.text[98]"
-				}
-,
-				"obj-2::obj-43::obj-50" : 				{
-					"parameter_longname" : "osc_interp[1]"
-				}
-,
-				"obj-51::obj-226::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[53]"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[8]"
-				}
-,
-				"obj-4::obj-148::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[17]"
-				}
-,
-				"obj-4::obj-113::obj-9" : 				{
-					"parameter_longname" : "live.text[263]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-203::obj-5::obj-34" : 				{
-					"parameter_longname" : "external_gate[5]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[23]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-93" : 				{
-					"parameter_longname" : "Trig mode[1]",
-					"parameter_shortname" : "Trig mode"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[49]"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[26]"
-				}
-,
-				"obj-39::obj-204::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-4::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[12]"
-				}
-,
-				"obj-4::obj-68::obj-9" : 				{
-					"parameter_longname" : "live.text[255]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-23::obj-5::obj-34" : 				{
-					"parameter_longname" : "external_gate[8]"
-				}
-,
-				"obj-2::obj-8::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[29]"
-				}
-,
-				"obj-51::obj-226::obj-32" : 				{
-					"parameter_longname" : "off[63]"
-				}
-,
-				"obj-1::obj-1::obj-67::obj-22" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 0,
-					"parameter_range" : [ 0.0, 6.0 ],
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-3::obj-33::obj-14::obj-27" : 				{
-					"parameter_longname" : "delta_smooth_toggle[5]"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[39]"
-				}
-,
-				"obj-2::obj-34::obj-97" : 				{
-					"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-				}
-,
-				"obj-2::obj-70::obj-42::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[35]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-36" : 				{
-					"parameter_longname" : "smooth_ramp_up[1]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-55" : 				{
-					"parameter_longname" : "live.text[109]"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-32" : 				{
-					"parameter_longname" : "off[1]"
-				}
-,
-				"obj-39::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[223]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-4::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[13]"
-				}
-,
-				"obj-4::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[19]"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[35]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[97]"
-				}
-,
-				"obj-1::obj-1::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[275]"
-				}
-,
-				"obj-3::obj-49::obj-110::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[2]"
-				}
-,
-				"obj-3::obj-25::obj-110::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[1]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-24" : 				{
-					"parameter_longname" : "offset[8]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[3]"
-				}
-,
-				"obj-3::obj-3::obj-22::obj-55" : 				{
-					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-4::obj-257::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[4]"
-				}
-,
-				"obj-2::obj-43::obj-70::obj-9" : 				{
-					"parameter_longname" : "live.text[115]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-32" : 				{
-					"parameter_longname" : "off[71]"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[8]"
-				}
-,
-				"obj-3::obj-33::obj-12::obj-80::obj-9" : 				{
-					"parameter_longname" : "live.text[213]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-2" : 				{
-					"parameter_longname" : "Flip Output On/Off[3]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[25]"
-				}
-,
-				"obj-39::obj-204::obj-190::obj-29::obj-97" : 				{
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-4::obj-252::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[41]"
-				}
-,
-				"obj-4::obj-126::obj-9" : 				{
-					"parameter_longname" : "live.text[10]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-203::obj-97" : 				{
-					"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-				}
-,
-				"obj-2::obj-26::obj-70::obj-9" : 				{
-					"parameter_longname" : "live.text[8]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[42]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[51]"
-				}
-,
-				"obj-1::obj-1::obj-42" : 				{
-					"parameter_longname" : "Tempo"
-				}
-,
-				"obj-1::obj-148::obj-42" : 				{
-					"parameter_longname" : "Tempo[2]",
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_range" : [ "1n", "2n", "4n", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
-				}
-,
-				"obj-39::obj-15::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[1]"
-				}
-,
-				"obj-4::obj-257::obj-32" : 				{
-					"parameter_longname" : "off[15]"
-				}
-,
-				"obj-2::obj-34::obj-12::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[88]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[69]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[53]"
-				}
-,
-				"obj-2::obj-70::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.text[236]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-51::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[254]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-32" : 				{
-					"parameter_longname" : "off[76]"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[9]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-55" : 				{
-					"parameter_longname" : "live.text[113]"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-55" : 				{
-					"parameter_longname" : "live.text[111]"
-				}
-,
-				"obj-3::obj-4::obj-89::obj-9" : 				{
-					"parameter_longname" : "live.text[197]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-4::obj-10::obj-9" : 				{
-					"parameter_longname" : "live.text[189]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[22]"
-				}
-,
-				"obj-4::obj-253::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[74]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[52]"
-				}
-,
-				"obj-4::obj-258::obj-9" : 				{
-					"parameter_longname" : "live.text[122]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[6]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[45]"
-				}
-,
-				"obj-2::obj-26::obj-31::obj-9" : 				{
-					"parameter_longname" : "live.text[15]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[7]"
-				}
-,
-				"obj-1::obj-148::obj-62::obj-9" : 				{
-					"parameter_longname" : "live.text[278]"
-				}
-,
-				"obj-3::obj-49::obj-110::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[1]"
-				}
-,
-				"obj-3::obj-47::obj-22::obj-55" : 				{
-					"parameter_longname" : "live.text[112]"
-				}
-,
-				"obj-3::obj-6::obj-4::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[34]"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[47]"
-				}
-,
-				"obj-2::obj-11::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[37]"
-				}
-,
-				"obj-51::obj-226::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[4]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[38]"
-				}
-,
-				"obj-39::obj-1::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[216]"
-				}
-,
-				"obj-4::obj-252::obj-55" : 				{
-					"parameter_longname" : "live.text[258]"
-				}
-,
-				"obj-4::obj-253::obj-32" : 				{
-					"parameter_longname" : "off[12]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[70]"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-32" : 				{
-					"parameter_longname" : "off[60]"
-				}
-,
-				"obj-2::obj-15::obj-3::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[8]"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-41" : 				{
-					"parameter_longname" : "smooth_ramp_down[2]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[90]"
-				}
-,
-				"obj-3::obj-12::obj-22::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[6]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[46]"
-				}
-,
-				"obj-4::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[5]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-2::obj-23::obj-3::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[24]"
-				}
-,
-				"obj-51::obj-226::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[64]"
-				}
-,
-				"obj-1::obj-1::obj-62::obj-9" : 				{
-					"parameter_longname" : "live.text[282]"
-				}
-,
-				"obj-1::obj-1::obj-67::obj-5" : 				{
-					"parameter_longname" : "chords_on"
-				}
-,
-				"obj-3::obj-47::obj-1::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[14]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[16]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[116]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-2::obj-1::obj-64::obj-9" : 				{
-					"parameter_longname" : "live.text[268]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-82::obj-9" : 				{
-					"parameter_longname" : "live.text[244]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-1::obj-148::obj-46::obj-9" : 				{
-					"parameter_longname" : "live.text[287]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-29" : 				{
-					"parameter_longname" : "gain_reset_button[1]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[19]"
-				}
-,
-				"obj-4::obj-41::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[42]"
-				}
-,
-				"obj-4::obj-174::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[67]"
-				}
-,
-				"obj-2::obj-25::obj-42::obj-9" : 				{
-					"parameter_longname" : "live.text[123]"
-				}
-,
-				"obj-1::obj-1::obj-46::obj-9" : 				{
-					"parameter_longname" : "live.text[284]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[55]"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-36" : 				{
-					"parameter_longname" : "smooth_ramp_up[3]"
-				}
-,
-				"obj-3::obj-11::obj-7::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[20]"
-				}
-,
-				"obj-4::obj-257::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[4]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-2::obj-26::obj-26" : 				{
-					"parameter_longname" : "pitchmod[1]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[15]"
-				}
-,
-				"obj-2::obj-1::obj-66::obj-9" : 				{
-					"parameter_longname" : "live.text[269]"
-				}
-,
-				"obj-1::obj-1::obj-43::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[8]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-3::obj-33::obj-12::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[30]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-41" : 				{
-					"parameter_longname" : "smooth_ramp_down[1]"
-				}
-,
-				"obj-3::obj-11::obj-4::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[92]"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-32" : 				{
-					"parameter_longname" : "off[50]"
-				}
-,
-				"obj-4::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[16]"
-				}
-,
-				"obj-2::obj-25::obj-45::obj-9" : 				{
-					"parameter_longname" : "live.text[124]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[111]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-51::obj-226::obj-55" : 				{
-					"parameter_longname" : "live.text[256]"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[10]"
-				}
-,
-				"obj-4::obj-148::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[75]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[44]"
-				}
-,
-				"obj-2::obj-63" : 				{
-					"parameter_range" : [ 100.0, 2000.0 ]
-				}
-,
-				"obj-1::obj-1::obj-43::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[8]"
-				}
-,
-				"obj-3::obj-33::obj-13::obj-17" : 				{
-					"parameter_longname" : "modulation source select[4]",
-					"parameter_shortname" : "modulation source select"
-				}
-,
-				"obj-3::obj-33::obj-14::obj-5::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[31]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[54]"
-				}
-,
-				"obj-3::obj-4::obj-11::obj-9" : 				{
-					"parameter_longname" : "live.text[190]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-4::obj-253::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[18]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-184" : 				{
-					"parameter_range" : [ 1, 9 ]
-				}
-,
-				"obj-4::obj-384" : 				{
-					"parameter_longname" : "fill mode",
-					"parameter_shortname" : "fill mode",
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 2
-				}
-,
-				"obj-2::obj-1::obj-19::obj-9" : 				{
-					"parameter_longname" : "live.text[266]"
-				}
-,
-				"obj-1::obj-1::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[7]",
-					"parameter_shortname" : "Quantized_Rate"
-				}
-,
-				"obj-1::obj-148::obj-43::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[32]"
-				}
-,
-				"obj-4::obj-148::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[14]"
-				}
-,
-				"obj-4::obj-289::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[42]"
-				}
-,
-				"obj-4::obj-257::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[18]"
-				}
-,
-				"obj-2::obj-365::obj-3::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[15]"
-				}
-,
-				"obj-2::obj-70::obj-42::obj-55" : 				{
-					"parameter_longname" : "live.text[234]"
-				}
-,
-				"obj-2::obj-1::obj-72::obj-9" : 				{
-					"parameter_longname" : "live.text[270]"
-				}
-,
-				"obj-2::obj-118::obj-9" : 				{
-					"parameter_longname" : "live.text[259]"
-				}
-,
-				"obj-1::obj-1::obj-17" : 				{
-					"parameter_longname" : "columns"
-				}
-,
-				"obj-1::obj-148::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[10]"
-				}
-,
-				"obj-3::obj-49::obj-5::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[5]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-39::obj-16::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[105]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-253::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[47]"
-				}
-,
-				"obj-4::obj-239::obj-325::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[47]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-4::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[257]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-2::obj-203::obj-3::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[66]"
-				}
-,
-				"obj-2::obj-25::obj-48::obj-9" : 				{
-					"parameter_longname" : "live.text[125]"
-				}
-,
-				"obj-1::obj-148::obj-30" : 				{
-					"parameter_longname" : "NoteLength[1]",
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_range" : [ "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
-				}
-,
-				"obj-3::obj-25::obj-14::obj-9" : 				{
-					"parameter_longname" : "live.text[214]",
-					"parameter_shortname" : "live.text"
-				}
-,
-				"obj-3::obj-33::obj-15::obj-27" : 				{
-					"parameter_longname" : "delta_smooth_toggle[4]"
-				}
-,
-				"obj-3::obj-6::obj-4::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[34]",
-					"parameter_shortname" : "Quantized Rate"
-				}
-,
-				"obj-39::obj-15::obj-190::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[1]"
-				}
-,
-				"obj-4::obj-289::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard_Sync_Threshold[3]"
-				}
-,
-				"obj-4::obj-350" : 				{
-					"parameter_range" : [ 1.0, 3.0 ]
-				}
-,
-				"obj-2::obj-365::obj-3::obj-32" : 				{
-					"parameter_longname" : "off[72]"
-				}
-,
-				"obj-2::obj-11::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[72]"
-				}
-,
-				"obj-2::obj-25::obj-30::obj-9" : 				{
-					"parameter_longname" : "live.text[118]"
-				}
-,
-				"obj-51::obj-246" : 				{
-					"parameter_modmode" : 0,
-					"parameter_invisible" : 1,
-					"parameter_type" : 3,
-					"parameter_initial" : [ 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0 ],
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-1::obj-148::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-4::obj-252::obj-32" : 				{
-					"parameter_longname" : "off[10]"
-				}
-,
-				"obj-4::obj-253::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[13]"
-				}
-,
-				"obj-4::obj-42" : 				{
-					"parameter_initial" : 7,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-2::obj-26::obj-62" : 				{
-					"parameter_longname" : "envelope_follow_speed",
-					"parameter_shortname" : "envelope_follow_speed"
-				}
-,
-				"obj-2::obj-52::obj-50" : 				{
-					"parameter_longname" : "osc_interp[2]"
-				}
-,
-				"obj-2::obj-1::obj-12::obj-55" : 				{
-					"parameter_longname" : "live.text[272]"
-				}
-,
-				"obj-51::obj-26::obj-186::obj-226::obj-55" : 				{
-					"parameter_longname" : "live.text[237]"
-				}
-,
 				"obj-3::obj-33::obj-15::obj-29" : 				{
 					"parameter_longname" : "gain_reset_button[2]"
 				}
 ,
-				"obj-3::obj-2::obj-36::obj-110::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[3]"
-				}
-,
-				"obj-3::obj-2::obj-107::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage"
-				}
-,
-				"obj-3::obj-6::obj-26::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized Rate[99]",
-					"parameter_shortname" : "Quantized Rate"
+				"obj-3::obj-6::obj-26::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[90]"
 				}
 ,
 				"obj-3::obj-4::obj-110::obj-9" : 				{
@@ -14246,33 +11884,318 @@
 					"parameter_longname" : "Manual Rate[41]"
 				}
 ,
-				"obj-39::obj-15::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[55]"
+				"obj-4::obj-252::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[43]",
+					"parameter_shortname" : "Quantized Rate"
 				}
 ,
-				"obj-4::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard Sync Toggle[56]"
+				"obj-4::obj-148::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[130]",
+					"parameter_shortname" : "Quantized Rate"
 				}
 ,
-				"obj-4::obj-289::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[17]"
+				"obj-4::obj-182" : 				{
+					"parameter_range" : [ 1, 9 ]
 				}
 ,
-				"obj-2::obj-43::obj-26" : 				{
-					"parameter_longname" : "pitchmod[3]"
+				"obj-4::obj-311" : 				{
+					"parameter_range" : [ 1, 15 ]
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-55" : 				{
+					"parameter_longname" : "live.text[237]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[75]"
+				}
+,
+				"obj-1::obj-1::obj-77" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 0,
+					"parameter_range" : [ 0.0, 10.0 ]
+				}
+,
+				"obj-1::obj-148::obj-17" : 				{
+					"parameter_longname" : "columns[1]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[24]"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[212]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[1]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-4::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[15]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[20]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[23]"
+				}
+,
+				"obj-2::obj-1::obj-48::obj-9" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-2::obj-25::obj-35::obj-9" : 				{
 					"parameter_longname" : "live.text[119]"
 				}
 ,
-				"obj-1::obj-148::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[285]"
+				"obj-3::obj-33::obj-15::obj-74" : 				{
+					"parameter_longname" : "live.numbox[19]"
 				}
 ,
-				"obj-3::obj-4::obj-19::obj-9" : 				{
-					"parameter_longname" : "live.text[188]",
+				"obj-3::obj-6::obj-26::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[19]"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[26]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[4]"
+				}
+,
+				"obj-4::obj-252::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[41]"
+				}
+,
+				"obj-2::obj-203::obj-5::obj-34" : 				{
+					"parameter_longname" : "external_gate[5]"
+				}
+,
+				"obj-2::obj-1::obj-66::obj-9" : 				{
+					"parameter_longname" : "live.text[269]"
+				}
+,
+				"obj-2::obj-23::obj-5::obj-34" : 				{
+					"parameter_longname" : "external_gate[8]"
+				}
+,
+				"obj-3::obj-49::obj-110::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[2]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[42]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-36" : 				{
+					"parameter_longname" : "smooth_ramp_up[3]"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[1]"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[6]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-2::obj-25::obj-42::obj-9" : 				{
+					"parameter_longname" : "live.text[123]"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-17" : 				{
+					"parameter_longname" : "modulation source select[2]",
+					"parameter_shortname" : "modulation source select"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-40::obj-34" : 				{
+					"parameter_longname" : "external_gate[1]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-27" : 				{
+					"parameter_longname" : "delta_smooth_toggle[4]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[23]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-32" : 				{
+					"parameter_longname" : "off[50]"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[6]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[2]"
+				}
+,
+				"obj-4::obj-148::obj-55" : 				{
+					"parameter_longname" : "live.text[264]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[273]",
 					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[8]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-80::obj-9" : 				{
+					"parameter_longname" : "live.text[209]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-253::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[47]"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[52]"
+				}
+,
+				"obj-2::obj-1::obj-19::obj-9" : 				{
+					"parameter_longname" : "live.text[266]"
+				}
+,
+				"obj-1::obj-1::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[275]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-74" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[22]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[56]"
+				}
+,
+				"obj-4::obj-252::obj-55" : 				{
+					"parameter_longname" : "live.text[258]"
+				}
+,
+				"obj-4::obj-289::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[4]"
+				}
+,
+				"obj-4::obj-257::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[5]"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[9]"
+				}
+,
+				"obj-1::obj-148::obj-67::obj-4" : 				{
+					"parameter_longname" : "chord[1]",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_range" : [ "M", "M69", "M7sus4", "M9", "M9sus4", "Maj7", "Msus4" ]
+				}
+,
+				"obj-3::obj-75::obj-74::obj-68" : 				{
+					"parameter_longname" : "Mixer_Send_UI",
+					"parameter_shortname" : "Mixer_Send_UI",
+					"parameter_initial" : [ -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0, -70.0 ]
+				}
+,
+				"obj-39::obj-15::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[9]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[26]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[128]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[30]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-41" : 				{
+					"parameter_longname" : "smooth_ramp_down[1]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[222]"
+				}
+,
+				"obj-4::obj-289::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[17]"
+				}
+,
+				"obj-4::obj-257::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[18]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[79]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[108]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[281]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[10]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[7]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[38]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-39::obj-86" : 				{
+					"parameter_longname" : "external_tempo",
+					"parameter_shortname" : "external_tempo",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_range" : [ "1n", "2n", "4n" ]
+				}
+,
+				"obj-4::obj-41::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[41]"
+				}
+,
+				"obj-4::obj-253::obj-32" : 				{
+					"parameter_longname" : "off[12]"
 				}
 ,
 				"obj-4::obj-102::obj-9" : 				{
@@ -14280,24 +12203,1501 @@
 					"parameter_shortname" : "live.text"
 				}
 ,
-				"obj-2::obj-203::obj-3::obj-55" : 				{
-					"parameter_longname" : "live.text[241]"
+				"obj-4::obj-258::obj-9" : 				{
+					"parameter_longname" : "live.text[122]",
+					"parameter_shortname" : "live.text"
 				}
 ,
-				"obj-2::obj-15::obj-3::obj-112::obj-108" : 				{
-					"parameter_longname" : "Hard Sync Threshold[4]"
+				"obj-2::obj-203::obj-3::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[6]"
+				}
+,
+				"obj-2::obj-25::obj-48::obj-9" : 				{
+					"parameter_longname" : "live.text[125]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[16]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[8]"
+				}
+,
+				"obj-1::obj-148::obj-62::obj-9" : 				{
+					"parameter_longname" : "live.text[278]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[68]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-8" : 				{
+					"parameter_longname" : "delta_speedlim_toggle[4]"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[100]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-174::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[67]"
+				}
+,
+				"obj-2::obj-52::obj-35" : 				{
+					"parameter_longname" : "live.numbox[55]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[285]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-32" : 				{
+					"parameter_longname" : "off[72]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-24" : 				{
+					"parameter_longname" : "offset[7]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[99]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[6]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-148::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[17]"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[16]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[21]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[29]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-32" : 				{
+					"parameter_longname" : "off[68]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-24" : 				{
+					"parameter_longname" : "offset[8]"
+				}
+,
+				"obj-3::obj-47::obj-7::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[9]"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[50]"
+				}
+,
+				"obj-39::obj-7::obj-9" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-4::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[12]"
+				}
+,
+				"obj-4::obj-68::obj-9" : 				{
+					"parameter_longname" : "live.text[255]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[5]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-2::obj-1::obj-86::obj-9" : 				{
+					"parameter_longname" : "live.text[117]"
+				}
+,
+				"obj-51::obj-226::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[46]"
+				}
+,
+				"obj-51::obj-246" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 1,
+					"parameter_type" : 3,
+					"parameter_initial" : [ 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0 ],
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-3::obj-11::obj-4::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[101]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[2]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-1::obj-148::obj-30" : 				{
+					"parameter_longname" : "NoteLength[1]",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_range" : [ "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
+				}
+,
+				"obj-3::obj-49::obj-14::obj-9" : 				{
+					"parameter_longname" : "live.text[215]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[40]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-17" : 				{
+					"parameter_longname" : "modulation source select[7]",
+					"parameter_shortname" : "modulation source select"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[3]"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[2]"
+				}
+,
+				"obj-39::obj-28::obj-9" : 				{
+					"parameter_longname" : "live.text[114]"
+				}
+,
+				"obj-4::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[13]"
+				}
+,
+				"obj-4::obj-373::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[6]"
+				}
+,
+				"obj-2::obj-26::obj-26" : 				{
+					"parameter_longname" : "pitchmod[1]"
+				}
+,
+				"obj-51::obj-226::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[64]"
+				}
+,
+				"obj-1::obj-1::obj-8" : 				{
+					"parameter_range" : [ 0.0, 110.0 ]
+				}
+,
+				"obj-3::obj-25::obj-60" : 				{
+					"parameter_longname" : "live.numbox[1]",
+					"parameter_shortname" : "live.numbox[44]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-36" : 				{
+					"parameter_longname" : "smooth_ramp_up[2]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[25]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[51]"
+				}
+,
+				"obj-4::obj-257::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[43]"
+				}
+,
+				"obj-1::obj-1::obj-76" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 0,
+					"parameter_range" : [ 0.0, 9.0 ],
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-5::obj-140" : 				{
+					"parameter_longname" : "auto_preset_movement_mode",
+					"parameter_shortname" : "auto_preset_movement_mode"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[24]"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[39]"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[1]"
+				}
+,
+				"obj-4::obj-126::obj-9" : 				{
+					"parameter_longname" : "live.text[10]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-51::obj-226::obj-55" : 				{
+					"parameter_longname" : "live.text[256]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[10]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-36" : 				{
+					"parameter_longname" : "smooth_ramp_up[1]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-32" : 				{
+					"parameter_longname" : "off[54]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-55" : 				{
+					"parameter_longname" : "live.text[111]"
+				}
+,
+				"obj-3::obj-4::obj-11::obj-9" : 				{
+					"parameter_longname" : "live.text[190]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-32" : 				{
+					"parameter_longname" : "off[1]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[38]"
+				}
+,
+				"obj-4::obj-252::obj-32" : 				{
+					"parameter_longname" : "off[10]"
+				}
+,
+				"obj-2::obj-203::obj-97" : 				{
+					"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				}
+,
+				"obj-2::obj-26::obj-70::obj-9" : 				{
+					"parameter_longname" : "live.text[8]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-2::obj-26::obj-50" : 				{
+					"parameter_longname" : "osc_interp"
+				}
+,
+				"obj-2::obj-52::obj-31::obj-9" : 				{
+					"parameter_longname" : "live.text[232]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[8]"
+				}
+,
+				"obj-1::obj-148::obj-67::obj-5" : 				{
+					"parameter_longname" : "chords_on[1]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[9]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[1]"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[5]"
+				}
+,
+				"obj-4::obj-253::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[52]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[124]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[6]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[97]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[78]"
+				}
+,
+				"obj-1::obj-148::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[30]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-2" : 				{
+					"parameter_longname" : "Flip Output On/Off[3]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[216]"
+				}
+,
+				"obj-4::obj-257::obj-32" : 				{
+					"parameter_longname" : "off[15]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[9]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[39]"
+				}
+,
+				"obj-3::obj-2::obj-36::obj-110::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[3]"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[3]"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-32" : 				{
+					"parameter_longname" : "off[17]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[42]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[51]"
+				}
+,
+				"obj-5::obj-72::obj-100" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 1,
+					"parameter_type" : 3
+				}
+,
+				"obj-3::obj-47::obj-1::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[14]"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[91]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[65]"
+				}
+,
+				"obj-4::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[49]"
+				}
+,
+				"obj-4::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[51]"
+				}
+,
+				"obj-4::obj-289::obj-32" : 				{
+					"parameter_longname" : "off[3]"
+				}
+,
+				"obj-2::obj-26::obj-31::obj-9" : 				{
+					"parameter_longname" : "live.text[15]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-2::obj-52::obj-26" : 				{
+					"parameter_longname" : "pitchmod[4]"
+				}
+,
+				"obj-51::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[254]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-55" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-80::obj-9" : 				{
+					"parameter_longname" : "live.text[211]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-39::obj-204::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[7]"
+				}
+,
+				"obj-4::obj-41::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[42]"
+				}
+,
+				"obj-4::obj-184" : 				{
+					"parameter_range" : [ 1, 9 ]
+				}
+,
+				"obj-2::obj-43::obj-30::obj-9" : 				{
+					"parameter_longname" : "live.text[220]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-32" : 				{
+					"parameter_longname" : "off[61]"
+				}
+,
+				"obj-3::obj-49::obj-110::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[1]"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-80::obj-9" : 				{
+					"parameter_longname" : "live.text[213]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-47::obj-7::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[16]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[20]"
+				}
+,
+				"obj-4::obj-174::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[76]"
+				}
+,
+				"obj-4::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[5]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[31]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[8]"
+				}
+,
+				"obj-2::obj-43::obj-50" : 				{
+					"parameter_longname" : "osc_interp[1]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-93" : 				{
+					"parameter_longname" : "Trig mode[1]",
+					"parameter_shortname" : "Trig mode"
+				}
+,
+				"obj-51::obj-226::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[4]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-1::obj-1::obj-62::obj-9" : 				{
+					"parameter_longname" : "live.text[282]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[31]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[94]"
+				}
+,
+				"obj-2::obj-34::obj-97" : 				{
+					"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				}
+,
+				"obj-2::obj-3::obj-10::obj-9" : 				{
+					"parameter_longname" : "live.text[245]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-74" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[2]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[3]"
+				}
+,
+				"obj-4::obj-373::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[5]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text[98]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-32" : 				{
+					"parameter_longname" : "off[9]"
+				}
+,
+				"obj-2::obj-125::obj-9" : 				{
+					"parameter_longname" : "live.text[274]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[55]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-17" : 				{
+					"parameter_longname" : "modulation source select[6]",
+					"parameter_shortname" : "modulation source select"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[31]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[54]"
+				}
+,
+				"obj-4::obj-252::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[49]"
+				}
+,
+				"obj-4::obj-148::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[75]"
+				}
+,
+				"obj-4::obj-257::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[4]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text[272]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[244]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-27" : 				{
+					"parameter_longname" : "delta_smooth_toggle[5]"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-32" : 				{
+					"parameter_longname" : "off[51]"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[1]"
+				}
+,
+				"obj-4::obj-253::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[18]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-384" : 				{
+					"parameter_longname" : "fill mode",
+					"parameter_shortname" : "fill mode",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2
+				}
+,
+				"obj-2::obj-43::obj-70::obj-9" : 				{
+					"parameter_longname" : "live.text[115]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-46::obj-9" : 				{
+					"parameter_longname" : "live.text[284]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[10]"
+				}
+,
+				"obj-3::obj-49::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[28]"
+				}
+,
+				"obj-3::obj-25::obj-79" : 				{
+					"parameter_longname" : "∆quant[1]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-80::obj-9" : 				{
+					"parameter_longname" : "live.text[207]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-148::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[14]"
+				}
+,
+				"obj-4::obj-289::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[42]"
+				}
+,
+				"obj-2::obj-1::obj-72::obj-9" : 				{
+					"parameter_longname" : "live.text[270]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[44]"
+				}
+,
+				"obj-3::obj-14::obj-27::obj-9" : 				{
+					"parameter_longname" : "live.text[179]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[55]"
+				}
+,
+				"obj-4::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[257]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[16]"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[7]"
+				}
+,
+				"obj-2::obj-25::obj-45::obj-9" : 				{
+					"parameter_longname" : "live.text[124]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[111]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-17" : 				{
+					"parameter_longname" : "modulation source select[4]",
+					"parameter_shortname" : "modulation source select"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[2]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[38]"
+				}
+,
+				"obj-4::obj-289::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[3]"
+				}
+,
+				"obj-4::obj-350" : 				{
+					"parameter_range" : [ 1.0, 3.0 ]
+				}
+,
+				"obj-2::obj-1::obj-77::obj-9" : 				{
+					"parameter_longname" : "live.text[271]"
+				}
+,
+				"obj-2::obj-25::obj-19::obj-9" : 				{
+					"parameter_longname" : "live.text[227]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[8]"
+				}
+,
+				"obj-3::obj-25::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[36]"
+				}
+,
+				"obj-4::obj-253::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[13]"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[70]"
+				}
+,
+				"obj-2::obj-43::obj-31::obj-9" : 				{
+					"parameter_longname" : "live.text[219]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[51]"
+				}
+,
+				"obj-1::obj-148::obj-42" : 				{
+					"parameter_longname" : "Tempo[2]",
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_range" : [ "1n", "2n", "4n", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ]
+				}
+,
+				"obj-3::obj-47::obj-1::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[13]"
+				}
+,
+				"obj-4::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[17]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[18]"
+				}
+,
+				"obj-4::obj-257::obj-55" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-4::obj-42" : 				{
+					"parameter_initial" : 7,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-1::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[76]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[9]"
+				}
+,
+				"obj-3::obj-25::obj-110::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[14]"
+				}
+,
+				"obj-3::obj-33::obj-12::obj-8" : 				{
+					"parameter_longname" : "delta_speedlim_toggle[2]"
+				}
+,
+				"obj-3::obj-6::obj-4::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[34]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[6]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[7]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[47]"
+				}
+,
+				"obj-3::obj-4::obj-89::obj-9" : 				{
+					"parameter_longname" : "live.text[197]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-174::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[67]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[21]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[65]"
+				}
+,
+				"obj-2::obj-52::obj-50" : 				{
+					"parameter_longname" : "osc_interp[2]"
+				}
+,
+				"obj-2::obj-1::obj-83::obj-9" : 				{
+					"parameter_longname" : "live.text[116]"
+				}
+,
+				"obj-2::obj-123::obj-9" : 				{
+					"parameter_longname" : "live.text[126]"
+				}
+,
+				"obj-1::obj-1::obj-67::obj-22" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 0,
+					"parameter_range" : [ 0.0, 6.0 ],
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-148::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[77]"
+				}
+,
+				"obj-3::obj-25::obj-14::obj-9" : 				{
+					"parameter_longname" : "live.text[214]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-8" : 				{
+					"parameter_longname" : "delta_speedlim_toggle[6]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[103]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-55" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-4::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-32" : 				{
+					"parameter_longname" : "off[60]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[27]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[279]"
+				}
+,
+				"obj-3::obj-49::obj-110::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[2]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-8" : 				{
+					"parameter_longname" : "delta_speedlim_toggle[7]"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[20]"
+				}
+,
+				"obj-4::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[260]"
+				}
+,
+				"obj-4::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[265]"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-55" : 				{
+					"parameter_longname" : "live.text[246]"
+				}
+,
+				"obj-1::obj-1::obj-42" : 				{
+					"parameter_longname" : "Tempo"
+				}
+,
+				"obj-2::obj-365::obj-5::obj-34" : 				{
+					"parameter_longname" : "external_gate[6]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-41" : 				{
+					"parameter_longname" : "smooth_ramp_down[2]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-5::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[31]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[92]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[19]"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[26]"
+				}
+,
+				"obj-4::obj-148::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[48]"
+				}
+,
+				"obj-4::obj-180" : 				{
+					"parameter_range" : [ 1, 9 ]
+				}
+,
+				"obj-1::obj-148::obj-46::obj-9" : 				{
+					"parameter_longname" : "live.text[287]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-2" : 				{
+					"parameter_longname" : "Flip Output On/Off[6]"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[93]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[4]"
+				}
+,
+				"obj-4::obj-253::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[50]"
+				}
+,
+				"obj-4::obj-373::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[5]"
+				}
+,
+				"obj-51::obj-226::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[36]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-2" : 				{
+					"parameter_longname" : "Flip Output On/Off[4]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[23]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[105]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[2]"
+				}
+,
+				"obj-4::obj-289::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[3]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-2::obj-73::obj-9" : 				{
+					"parameter_longname" : "live.text[120]"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[24]"
+				}
+,
+				"obj-51::obj-226::obj-32" : 				{
+					"parameter_longname" : "off[63]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[11]"
+				}
+,
+				"obj-3::obj-11::obj-4::obj-32" : 				{
+					"parameter_longname" : "off[52]"
+				}
+,
+				"obj-39::obj-204::obj-190::obj-29::obj-97" : 				{
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-4::obj-252::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[11]"
+				}
+,
+				"obj-4::obj-257::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[4]"
+				}
+,
+				"obj-1::obj-1::obj-67::obj-4" : 				{
+					"parameter_longname" : "chord"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[9]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-3::obj-25::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[36]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-32" : 				{
+					"parameter_longname" : "off[53]"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-55" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-39::obj-204::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[95]"
+				}
+,
+				"obj-39::obj-15::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-1::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[267]"
+				}
+,
+				"obj-1::obj-1::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[7]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[277]"
+				}
+,
+				"obj-3::obj-49::obj-1" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 0,
+					"parameter_type" : 1
+				}
+,
+				"obj-3::obj-33::obj-13::obj-27" : 				{
+					"parameter_longname" : "delta_smooth_toggle[3]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[206]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[8]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[10]"
+				}
+,
+				"obj-4::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[19]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-2::obj-52::obj-30::obj-9" : 				{
+					"parameter_longname" : "live.text[233]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-2::obj-118::obj-9" : 				{
+					"parameter_longname" : "live.text[259]"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[30]"
+				}
+,
+				"obj-1::obj-1::obj-67::obj-5" : 				{
+					"parameter_longname" : "chords_on"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[69]"
+				}
+,
+				"obj-3::obj-25::obj-110::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[1]"
+				}
+,
+				"obj-3::obj-2::obj-36::obj-110::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[4]"
+				}
+,
+				"obj-3::obj-6::obj-4::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[34]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[70]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[66]"
+				}
+,
+				"obj-2::obj-26::obj-62" : 				{
+					"parameter_longname" : "envelope_follow_speed",
+					"parameter_shortname" : "envelope_follow_speed"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[26]"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-24" : 				{
+					"parameter_longname" : "offset[4]"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-40::obj-34" : 				{
+					"parameter_longname" : "external_gate[3]"
+				}
+,
+				"obj-4::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[46]"
+				}
+,
+				"obj-4::obj-289::obj-55" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-2::obj-43::obj-26" : 				{
+					"parameter_longname" : "pitchmod[3]"
+				}
+,
+				"obj-51::obj-82::obj-142" : 				{
+					"parameter_modmode" : 0,
+					"parameter_invisible" : 1,
+					"parameter_type" : 1
+				}
+,
+				"obj-2::obj-365::obj-3::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[22]"
+				}
+,
+				"obj-39::obj-204::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[2]"
+				}
+,
+				"obj-39::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[223]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-32" : 				{
+					"parameter_longname" : "off[14]"
+				}
+,
+				"obj-2::obj-203::obj-3::obj-55" : 				{
+					"parameter_longname" : "live.text[241]"
 				}
 ,
 				"obj-2::obj-43::obj-35" : 				{
 					"parameter_longname" : "live.numbox[81]"
 				}
 ,
-				"obj-2::obj-10::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta Channel #[36]"
+				"obj-2::obj-63" : 				{
+					"parameter_range" : [ 100.0, 2000.0 ]
 				}
 ,
-				"obj-1::obj-1::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[279]"
+				"obj-2::obj-23::obj-3::obj-55" : 				{
+					"parameter_longname" : "live.text[243]"
+				}
+,
+				"obj-3::obj-4::obj-98::obj-9" : 				{
+					"parameter_longname" : "live.text[196]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle"
+				}
+,
+				"obj-4::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[11]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[21]"
+				}
+,
+				"obj-2::obj-26::obj-30::obj-9" : 				{
+					"parameter_longname" : "live.text[121]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-51::obj-214" : 				{
+					"parameter_linknames" : 1,
+					"parameter_shortname" : "_key_select"
+				}
+,
+				"obj-4::obj-252::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[47]"
+				}
+,
+				"obj-4::obj-113::obj-9" : 				{
+					"parameter_longname" : "live.text[263]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-2::obj-52::obj-70::obj-9" : 				{
+					"parameter_longname" : "live.text[230]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-33::obj-14::obj-41" : 				{
+					"parameter_longname" : "smooth_ramp_down[3]"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[102]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-11::obj-7::obj-55" : 				{
+					"parameter_longname" : "live.text[110]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-32" : 				{
+					"parameter_longname" : "off[24]"
+				}
+,
+				"obj-2::obj-26::obj-35" : 				{
+					"parameter_longname" : "live.numbox[51]"
+				}
+,
+				"obj-51::obj-226::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[53]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[10]",
+					"parameter_shortname" : "Quantized_Rate"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[210]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[25]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[49]"
+				}
+,
+				"obj-3::obj-4::obj-114::obj-9" : 				{
+					"parameter_longname" : "live.text[191]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-12::obj-22::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[3]"
+				}
+,
+				"obj-39::obj-16::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[22]"
+				}
+,
+				"obj-4::obj-252::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[43]"
+				}
+,
+				"obj-4::obj-148::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[53]"
+				}
+,
+				"obj-1::obj-1::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[48]"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[52]"
+				}
+,
+				"obj-3::obj-4::obj-102::obj-9" : 				{
+					"parameter_longname" : "live.text[195]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[39]"
+				}
+,
+				"obj-4::obj-239::obj-2::obj-34" : 				{
+					"parameter_longname" : "external_gate[4]"
+				}
+,
+				"obj-4::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[19]"
+				}
+,
+				"obj-2::obj-15::obj-5::obj-34" : 				{
+					"parameter_longname" : "external_gate[7]"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[35]"
+				}
+,
+				"obj-51::obj-226::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[28]"
+				}
+,
+				"obj-3::obj-2::obj-107::obj-55" : 				{
+					"parameter_longname" : "live.text[113]"
+				}
+,
+				"obj-3::obj-6::obj-26::obj-55" : 				{
+					"parameter_longname" : "live.text[109]"
+				}
+,
+				"obj-39::obj-1::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[2]"
+				}
+,
+				"obj-4::obj-148::obj-32" : 				{
+					"parameter_longname" : "off[69]"
+				}
+,
+				"obj-4::obj-257::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[4]"
+				}
+,
+				"obj-1::obj-148::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[54]"
+				}
+,
+				"obj-3::obj-4::obj-105::obj-9" : 				{
+					"parameter_longname" : "live.text[194]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-3::obj-22::obj-55" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-39::obj-29::obj-9" : 				{
+					"parameter_longname" : "live.text[224]"
+				}
+,
+				"obj-4::obj-253::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[74]"
+				}
+,
+				"obj-4::obj-239::obj-325::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[47]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-2::obj-1::obj-12::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[6]"
+				}
+,
+				"obj-1::obj-148::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[32]"
+				}
+,
+				"obj-2::obj-23::obj-3::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[53]"
+				}
+,
+				"obj-3::obj-49::obj-5::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[5]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-3::obj-33::obj-13::obj-29" : 				{
+					"parameter_longname" : "gain_reset_button[1]"
+				}
+,
+				"obj-4::obj-289::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[3]"
+				}
+,
+				"obj-2::obj-365::obj-3::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta Channel #[15]"
+				}
+,
+				"obj-3::obj-33::obj-15::obj-82::obj-9" : 				{
+					"parameter_longname" : "live.text[208]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-3::obj-2::obj-36::obj-110::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[2]"
+				}
+,
+				"obj-3::obj-47::obj-22::obj-55" : 				{
+					"parameter_longname" : "live.text[112]"
+				}
+,
+				"obj-4::obj-253::obj-55" : 				{
+					"parameter_longname" : "live.text[261]"
+				}
+,
+				"obj-51::obj-26::obj-186::obj-226::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[48]"
+				}
+,
+				"obj-1::obj-1::obj-17" : 				{
+					"parameter_longname" : "columns"
+				}
+,
+				"obj-3::obj-49::obj-60" : 				{
+					"parameter_longname" : "live.numbox[44]",
+					"parameter_shortname" : "live.numbox[44]"
+				}
+,
+				"obj-3::obj-47::obj-1::obj-108" : 				{
+					"parameter_longname" : "Hard Sync Threshold[14]"
+				}
+,
+				"obj-3::obj-4::obj-10::obj-9" : 				{
+					"parameter_longname" : "live.text[189]",
+					"parameter_shortname" : "live.text"
+				}
+,
+				"obj-4::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard Sync Toggle[56]"
+				}
+,
+				"obj-2::obj-34::obj-12::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized Rate[88]",
+					"parameter_shortname" : "Quantized Rate"
+				}
+,
+				"obj-2::obj-15::obj-3::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[45]"
+				}
+,
+				"obj-2::obj-25::obj-30::obj-9" : 				{
+					"parameter_longname" : "live.text[118]"
 				}
 
 			}
@@ -14935,34 +14335,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spectcomptest.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spectcomp.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_lpg2_outer.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lpg2.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "argotlunar.maxpat",
 				"bootpath" : "~/nnirror/patchers",
 				"patcherrelativepath" : "./patchers",
@@ -15152,33 +14524,15 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
-				}
-,
 				"newobj" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -15189,14 +14543,32 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"toggle" : 				{
+				"default" : 				{
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"button" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -15251,8 +14623,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
