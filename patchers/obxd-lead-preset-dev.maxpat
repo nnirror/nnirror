@@ -39,6 +39,54 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 425.0, 118.0, 150.0, 60.0 ],
+					"text" : "for re-playing the same note while editing the VST params in the other window"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 271.0, 174.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 356.749999846839899, 101.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 356.749999846839899, 137.0, 63.0, 22.0 ],
+					"text" : "metro 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-59",
 					"linecount" : 5,
@@ -68,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -333,7 +381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.0, 191.0, 150.0, 74.0 ],
+					"patching_rect" : [ 580.0, 191.0, 153.0, 74.0 ],
 					"text" : "the keys asdfghjk will play  middle-c notes in the key of c major, helpful for testing without needing to click the kslider"
 				}
 
@@ -706,7 +754,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 247.0, 89.0, 492.0, 53.0 ],
+					"patching_rect" : [ 254.0, 44.0, 492.0, 53.0 ],
 					"range" : 70
 				}
 
@@ -771,7 +819,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1056.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdV8zPec0a28DZYUVXnkUYggF..............L.4VMjLgr8....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH0TVKwHBH0ziH0TVKwHBH1ziHvHBH2ziHvHBH3ziHvHBH4ziHy3hMv.CLvHCM0HyMyDSLyLSYsHiHfDCL8HBLh.RLwziHvHBHwHSOh.iHfDyL8HBLh.RLzziHvHBHwTSOh.iHfDiM8HRMtbiLv.CLvHiM2.iL3fCL4TVKwHBHwbSOhLiK3fCLv.CLzDiLzXCMwPiLk0RLh.RL3ziHwHBHwjSOh.iHfHCL8HBLh.hLwziH23BMyjSN4jSM3.yL3LyLvDSYsDiHfHiL8HBLh.hLyziHvHBHxPSOh.iHfHSM8HRLh.hL1ziHvHBHxbSOh.iHfHCN8HRLh.hL4ziH43RLx.CLv.CLvPyM1fyL2HSYsDiHfLCL8HBLh.xLwziHw3BNz.CLv.CLvLSM2XiL2jSYsDiHfLiL8HBLh.xLyziHwHBHyPSOh.iHfLSM8HRLh.xL1ziHvHBHybSOhLiKyXCLv.CLxTiL2HyL1jCMk0RLh.xL3ziHwHBHyjSOh.iHfPCL8HRNtXCNv.CLvTCMyTSNzLiMk0RLh.BMwziHwHBHzHSOhbiK4jSN4jCNyLSLvXSN4PiMk0hLh.BMyziHvHBHzPSOhLiKz.CLv.CLyLyL2fiMvDSLk0RLh.BM0ziHy3hMz.CLv.CNx.SL0jSNwHSYsDiHfPiM8HBLh.BM2ziHwHBHzfSOh.iHfPSN8HRLh.RMvziHw3BNzfSM4LiM0HiLzfyL3LSYsDiHfTSL8HhMtDSN4jSN4PSMwXyL2HiM3TVKwHBH0HSOhTiK3bSN4jSN4jSMxLSL1HCNk0RLh.RMyziHvHBH0PSOhXiKx.CLv.CLvPyM1fyL2DiMk0RLh.RM0ziHz3BL2jSN4jSNxLyMvXCL0TSYsDiHfTiM8HBMtPyL4jSN4bSM4DSN2HyL0TVKwHBH0bSOh.iHfTCN8HRLh.RM4ziHvHBH1.SOh.iHfXSL8HBLh.hMxziH0TVKwHBH1LSOhTSYsDiHfXCM8HRMk0RLh.hM0ziH0TVKwHBH1XSOhTSYsDiHfXyM8HRMk0RLh.hM3ziH0TVKwHBH1jSOhTSYsDiHfbCL8HBLh.xMwziHwHBH2HSOh.iHfbyL8HBLh.xMzziHvHBH2TSOh.iHfbiM8HBLh.xM2ziHvHBH2fSOhLiKv.CLv.CLwDSNx.SNxjSYsDiHfbSN8HBLh.hcuk1XkMza04Fc8HxLxHBHvI2amIWXs4TXsUVOhHjdV8zPec0a28DZYUVXnkUYgglHu3C."
+							"blob" : "944.CMlaKA....fQPMDZ....A7jX3QF.AT.......RTYlEVcrQG..............................L.cVMjLgr1....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiKxTCNvXCMzPCN3LyLzXiMk0RLh.BM8HRMk0RLh.RM8HRMk0RLh.hM8HBLh.xM8HBLh.BN8HRLh.RN8HBLh.RLvziHvHBHwDSOh.iHfDiL8HRLh.RLyziHy3RN2XSM1HiMwjiLvjiL4TVKxHBHwPSOh.iHfDSM8HBLh.RL1ziHvHBHwbSOh.iHfDCN8HBLh.RL4ziHvHBHx.SOh.iHfHSL8HBLh.hLxziHvHBHxLSOh.iHfHCM8HBLh.hL0ziHvHBHxXSOh.iHfHyM8HBLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HRLh.xLzziHvHBHyTSOh.iHfLiM8HBLh.xL2ziHvHBHyfSOhDiHfLSN8HBLh.BMvziHwHBHzDSOh.iHfPiL8HRMtHyL4jSN4fSNvLiL2PSMzTVKwHBHzLSOh.iHfPCM8HRLtLiL2DCN2HiM4jiL1.yMwTVKwHBHzTSOhDiK2jSN4jSNzbSMzbSNwHiMk0RLh.BM1ziH03BL0TSL0XyL0.SLyTCNvLSYsDiHfPyM8HRLh.BM3ziHvHBHzjSOhDiHfTCL8HBMt.SM2LCMzDSN3HiL1jiL4TVKwHBH0DSOh.iHfTiL8HhLtTCMwPCL1PSMxXSM0bSNxTVKwHBH0LSOhHiK0LCL4LyMzjiL3PyMzPyLk0RLh.RMzziHz3BM2PCL1LSMwTiM1LSLzbSYsDiHfTSM8HBLh.RM1ziHz3hMv.CLv.CL3LCMzXSMvLSYsDiHfTyM8HBLh.RM3ziH13BN2LSM4LSNxXCMxjyMzjSYsDiHfTSN8HBLh.hMvziHvHBH1DSOh.iHfXiL8HRMk0RLh.hMyziH0TVKwHBH1PSOhTSYsDiHfXSM8HRMk0RLh.hM1ziH0TVKwHBH1bSOhTSYsDiHfXCN8HRMk0RLh.hM4ziH0TVKwHBH2.SOh.iHfbSL8HRLh.xMxziHvHBH2LSOh.iHfbCM8HBLh.xM0ziHvHBH2XSOh.iHfbyM8HBLh.xM3ziHy3BLv.CLv.SLwjiLvjiL4TVKwHBH2jSOh.iHfX2aoMVYC8VctQWOhLiLh.Bbx81YxEVaNEVak0iHDUlYgUGazIxK9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -793,7 +841,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1056.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdV8zPec0a28DZYUVXnkUYggF..............L.4VMjLgr8....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH0TVKwHBH0ziH0TVKwHBH1ziHvHBH2ziHvHBH3ziHvHBH4ziHy3hMv.CLvHCM0HyMyDSLyLSYsHiHfDCL8HBLh.RLwziHvHBHwHSOh.iHfDyL8HBLh.RLzziHvHBHwTSOh.iHfDiM8HRMtbiLv.CLvHiM2.iL3fCL4TVKwHBHwbSOhLiK3fCLv.CLzDiLzXCMwPiLk0RLh.RL3ziHwHBHwjSOh.iHfHCL8HBLh.hLwziH23BMyjSN4jSM3.yL3LyLvDSYsDiHfHiL8HBLh.hLyziHvHBHxPSOh.iHfHSM8HRLh.hL1ziHvHBHxbSOh.iHfHCN8HRLh.hL4ziH43RLx.CLv.CLvPyM1fyL2HSYsDiHfLCL8HBLh.xLwziHw3BNz.CLv.CLvLSM2XiL2jSYsDiHfLiL8HBLh.xLyziHwHBHyPSOh.iHfLSM8HRLh.xL1ziHvHBHybSOhLiKyXCLv.CLxTiL2HyL1jCMk0RLh.xL3ziHwHBHyjSOh.iHfPCL8HRNtXCNv.CLvTCMyTSNzLiMk0RLh.BMwziHwHBHzHSOhbiK4jSN4jCNyLSLvXSN4PiMk0hLh.BMyziHvHBHzPSOhLiKz.CLv.CLyLyL2fiMvDSLk0RLh.BM0ziHy3hMz.CLv.CNx.SL0jSNwHSYsDiHfPiM8HBLh.BM2ziHwHBHzfSOh.iHfPSN8HRLh.RMvziHw3BNzfSM4LiM0HiLzfyL3LSYsDiHfTSL8HhMtDSN4jSN4PSMwXyL2HiM3TVKwHBH0HSOhTiK3bSN4jSN4jSMxLSL1HCNk0RLh.RMyziHvHBH0PSOhXiKx.CLv.CLvPyM1fyL2DiMk0RLh.RM0ziHz3BL2jSN4jSNxLyMvXCL0TSYsDiHfTiM8HBMtPyL4jSN4bSM4DSN2HyL0TVKwHBH0bSOh.iHfTCN8HRLh.RM4ziHvHBH1.SOh.iHfXSL8HBLh.hMxziH0TVKwHBH1LSOhTSYsDiHfXCM8HRMk0RLh.hM0ziH0TVKwHBH1XSOhTSYsDiHfXyM8HRMk0RLh.hM3ziH0TVKwHBH1jSOhTSYsDiHfbCL8HBLh.xMwziHwHBH2HSOh.iHfbyL8HBLh.xMzziHvHBH2TSOh.iHfbiM8HBLh.xM2ziHvHBH2fSOhLiKv.CLv.CLwDSNx.SNxjSYsDiHfbSN8HBLh.hcuk1XkMza04Fc8HxLxHBHvI2amIWXs4TXsUVOhHjdV8zPec0a28DZYUVXnkUYgglHu3C."
+										"blob" : "944.CMlaKA....fQPMDZ....A7jX3QF.AT.......RTYlEVcrQG..............................L.cVMjLgr1....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiKxTCNvXCMzPCN3LyLzXiMk0RLh.BM8HRMk0RLh.RM8HRMk0RLh.hM8HBLh.xM8HBLh.BN8HRLh.RN8HBLh.RLvziHvHBHwDSOh.iHfDiL8HRLh.RLyziHy3RN2XSM1HiMwjiLvjiL4TVKxHBHwPSOh.iHfDSM8HBLh.RL1ziHvHBHwbSOh.iHfDCN8HBLh.RL4ziHvHBHx.SOh.iHfHSL8HBLh.hLxziHvHBHxLSOh.iHfHCM8HBLh.hL0ziHvHBHxXSOh.iHfHyM8HBLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HRLh.xLzziHvHBHyTSOh.iHfLiM8HBLh.xL2ziHvHBHyfSOhDiHfLSN8HBLh.BMvziHwHBHzDSOh.iHfPiL8HRMtHyL4jSN4fSNvLiL2PSMzTVKwHBHzLSOh.iHfPCM8HRLtLiL2DCN2HiM4jiL1.yMwTVKwHBHzTSOhDiK2jSN4jSNzbSMzbSNwHiMk0RLh.BM1ziH03BL0TSL0XyL0.SLyTCNvLSYsDiHfPyM8HRLh.BM3ziHvHBHzjSOhDiHfTCL8HBMt.SM2LCMzDSN3HiL1jiL4TVKwHBH0DSOh.iHfTiL8HhLtTCMwPCL1PSMxXSM0bSNxTVKwHBH0LSOhHiK0LCL4LyMzjiL3PyMzPyLk0RLh.RMzziHz3BM2PCL1LSMwTiM1LSLzbSYsDiHfTSM8HBLh.RM1ziHz3hMv.CLv.CL3LCMzXSMvLSYsDiHfTyM8HBLh.RM3ziH13BN2LSM4LSNxXCMxjyMzjSYsDiHfTSN8HBLh.hMvziHvHBH1DSOh.iHfXiL8HRMk0RLh.hMyziH0TVKwHBH1PSOhTSYsDiHfXSM8HRMk0RLh.hM1ziH0TVKwHBH1bSOhTSYsDiHfXCN8HRMk0RLh.hM4ziH0TVKwHBH2.SOh.iHfbSL8HRLh.xMxziHvHBH2LSOh.iHfbCM8HBLh.xM0ziHvHBH2XSOh.iHfbyM8HBLh.xM3ziHy3BLv.CLv.SLwjiLvjiL4TVKwHBH2jSOh.iHfX2aoMVYC8VctQWOhLiLh.Bbx81YxEVaNEVak0iHDUlYgUGazIxK9.."
 									}
 ,
 									"fileref" : 									{
@@ -1062,7 +1110,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 39"
+									"text" : "0 0 1"
 								}
 
 							}
@@ -1509,7 +1557,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 12"
+									"text" : "0 0 8"
 								}
 
 							}
@@ -1749,6 +1797,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -1772,7 +1836,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1793,6 +1857,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -1802,6 +1873,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-49", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1880,32 +1958,15 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
 				"newobj" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1916,8 +1977,25 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"toggle" : 				{
@@ -1979,8 +2057,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1998,8 +2076,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
