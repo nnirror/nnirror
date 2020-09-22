@@ -445,9 +445,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 174.0, 24.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"mod_depth" : [ 0.0 ],
-						"mod_rate" : [ 0.0 ],
-						"verb_color" : [ 0.0 ],
+						"mod_depth" : [ 35.951662619760825 ],
+						"mod_rate" : [ 70.404442417827795 ],
+						"verb_color" : [ 1.0 ],
 						"verb_mode" : [ 0.0 ],
 						"vst~" : [ 							{
 								"filetype" : "C74Snapshot",
@@ -466,7 +466,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "424.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................D.aVMjLgLV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHv3RMh.BbgIWXsUFckIWL8HRLh.BbgIWXsUFckImL8HBLh.BbgIWXsUFckI2L8HBLtjSL4DSNwjSM1TiLv.CNvTiM1PSLh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDSM3bSN3HSL2byMyPiHf.WXxEVakQWYxcSOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHf.WXxEVakQWYxgSOh.iKy.CLv.CLvDSL4HCL4HCN4TSMvfiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO.."
+									"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
 								}
 
 							}
@@ -474,7 +474,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u592025866"
+					"varname" : "u571048377"
 				}
 
 			}
@@ -630,7 +630,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 1, "@default", 1 ],
+					"args" : [ 0.0, 1, "@default", 0.4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -844,7 +844,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 1.0, "@default", 0.25 ],
+					"args" : [ 0.0, 1.0, "@default", 0.75 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1068,7 +1068,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "424.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................D.aVMjLgLV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHv3RMh.BbgIWXsUFckIWL8HRLh.BbgIWXsUFckImL8HBLh.BbgIWXsUFckI2L8HBLtjSL4DSNwjSM1TiLv.CNvTiM1PSLh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDSM3bSN3HSL2byMyPiHf.WXxEVakQWYxcSOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHf.WXxEVakQWYxgSOh.iKy.CLv.CLvDSL4HCL4HCN4TSMvfiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO.."
+							"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1090,7 +1090,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "424.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................D.aVMjLgLV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHv3RMh.BbgIWXsUFckIWL8HRLh.BbgIWXsUFckImL8HBLh.BbgIWXsUFckI2L8HBLtjSL4DSNwjSM1TiLv.CNvTiM1PSLh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDSM3bSN3HSL2byMyPiHf.WXxEVakQWYxcSOh.iKw.CLv.CLv.SLzjCLwDiMwDSNyfiHf.WXxEVakQWYxgSOh.iKy.CLv.CLvDSL4HCL4HCN4TSMvfiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO.."
+										"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
 									}
 ,
 									"fileref" : 									{
@@ -1513,27 +1513,10 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
-				}
-,
 				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -1553,11 +1536,28 @@
 					"fontface" : [ 1 ]
 				}
 ,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -1612,8 +1612,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1631,8 +1631,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
