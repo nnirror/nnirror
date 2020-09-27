@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-29",
@@ -64,12 +63,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_initial" : [ 0.0 ],
-							"parameter_initial_enable" : 1,
+							"parameter_type" : 2,
 							"parameter_longname" : "sync_mode",
+							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "sync_mode",
-							"parameter_type" : 2
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "sync_mode"
 						}
 
 					}
@@ -299,7 +298,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 0.75, "@default", 1 ],
+					"args" : [ 0.0, 1.0, "@default", 0.5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -395,7 +394,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.6, 1.0, "@default", 0.25 ],
+					"args" : [ 0.0, 1.0, "@default", 0.5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -588,19 +587,19 @@
 								"version" : 2,
 								"minorversion" : 0,
 								"name" : "ValhallaFreqEcho",
-								"origin" : "ValhallaFreqEcho.vst",
+								"origin" : "ValhallaFreqEcho.vstinfo",
 								"type" : "VST",
 								"subtype" : "AudioEffect",
 								"embed" : 1,
 								"snapshot" : 								{
-									"pluginname" : "ValhallaFreqEcho.vst",
+									"pluginname" : "ValhallaFreqEcho.vstinfo",
 									"plugindisplayname" : "ValhallaFreqEcho",
 									"pluginsavedname" : "",
 									"pluginsaveduniqueid" : 0,
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "309.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................P9VMjLg.O....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3hM4fCNxfCN2XCLwfSMxPSL1jSNxHBHykmai0iHvHBHlUVYjIVXisVOh.iK0XSN2TSM0TCMwjSNxDCN2TiHfv1a2MTcz0iHv3RLw.CNxfCLwjiM2fSM4HiM3DCN3HBHnk1YnMTcz0iHv3RM3LyL2jSN3LSNvDSN2bSMyjCL1HBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+									"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
 								}
 
 							}
@@ -608,7 +607,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u606034953"
+					"varname" : "u619010397"
 				}
 
 			}
@@ -630,7 +629,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[1]",
-							"parameter_shortname" : "vst~[1]",
+							"parameter_shortname" : "vst~",
 							"parameter_type" : 3
 						}
 
@@ -651,14 +650,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "ValhallaFreqEcho.vst",
+							"pluginname" : "ValhallaFreqEcho.vstinfo",
 							"plugindisplayname" : "ValhallaFreqEcho",
 							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "309.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................P9VMjLg.O....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3hM4fCNxfCN2XCLwfSMxPSL1jSNxHBHykmai0iHvHBHlUVYjIVXisVOh.iK0XSN2TSM0TCMwjSNxDCN2TiHfv1a2MTcz0iHv3RLw.CNxfCLwjiM2fSM4HiM3DCN3HBHnk1YnMTcz0iHv3RM3LyL2jSN3LSNvDSN2bSMyjCL1HBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+							"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -668,19 +667,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "ValhallaFreqEcho",
-									"origin" : "ValhallaFreqEcho.vst",
+									"origin" : "ValhallaFreqEcho.vstinfo",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "ValhallaFreqEcho.vst",
+										"pluginname" : "ValhallaFreqEcho.vstinfo",
 										"plugindisplayname" : "ValhallaFreqEcho",
 										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "309.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................P9VMjLg.O....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3hM4fCNxfCN2XCLwfSMxPSL1jSNxHBHykmai0iHvHBHlUVYjIVXisVOh.iK0XSN2TSM0TCMwjSNxDCN2TiHfv1a2MTcz0iHv3RLw.CNxfCLwjiM2fSM4HiM3DCN3HBHnk1YnMTcz0iHv3RM3LyL2jSN3LSNvDSN2bSMyjCL1HBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+										"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
 									}
 ,
 									"fileref" : 									{
@@ -688,7 +687,7 @@
 										"filename" : "ValhallaFreqEcho.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "3e7eb552ed80c9b56f9462714211e1d0"
+										"snapshotfileid" : "070e228e2410d42ab0b71fc7c0e07257"
 									}
 
 								}
@@ -1000,32 +999,7 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1037,14 +1011,39 @@
 					}
 ,
 					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -1099,8 +1098,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1118,8 +1117,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
