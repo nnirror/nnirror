@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 104.0, 1698.0, 981.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-100",
@@ -145,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -178,6 +179,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-110",
@@ -793,7 +795,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -826,6 +828,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-108",
@@ -1121,10 +1124,10 @@
 					"presentation_rect" : [ 552.688454508781433, 0.647260665893555, 12.827004313468933, 256.306631624698639 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "MasterSoloLock",
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_longname" : "MasterSoloLock",
 							"parameter_shortname" : "MasterSoloLock",
 							"parameter_type" : 3
 						}
@@ -1244,11 +1247,11 @@
 					"presentation_rect" : [ 582.066766083240509, 283.513073623180389, 32.259328037500381, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : 100.0,
-							"parameter_longname" : "solo_decay_speed",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2000.0,
 							"parameter_initial" : [ 250 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "solo_decay_speed",
+							"parameter_mmax" : 2000.0,
+							"parameter_mmin" : 100.0,
 							"parameter_shortname" : "solo_decay_speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1302,12 +1305,12 @@
 					"presentation_rect" : [ 629.962467402219772, 283.513073623180389, 30.098056584596634, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "SoloRegenSpeed",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 7,
-							"parameter_initial" : [ 5 ],
-							"parameter_shortname" : "SoloRegenSpeed",
 							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n" ],
+							"parameter_initial" : [ 5 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "SoloRegenSpeed",
+							"parameter_mmax" : 7,
+							"parameter_shortname" : "SoloRegenSpeed",
 							"parameter_type" : 2
 						}
 
@@ -1382,10 +1385,10 @@
 					"presentation_rect" : [ 565.8614501953125, 0.900900900363922, 12.827004313468933, 256.306631624698639 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "MasterSolo",
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_longname" : "MasterSolo",
 							"parameter_shortname" : "MasterSolo",
 							"parameter_type" : 3
 						}
@@ -1710,7 +1713,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1743,6 +1746,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-105",
@@ -2145,17 +2149,17 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontsize" : 6.0,
+					"fontsize" : 4.0,
 					"gradient" : 1,
 					"id" : "obj-48",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.834971006042451, 750.550125122070312, 30.0, 15.0 ],
+					"patching_rect" : [ 570.834971006042451, 750.550125122070312, 25.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 523.057102918624878, 375.252071380615234, 17.699699699878693, 15.0 ],
-					"text" : "rec",
+					"presentation_rect" : [ 421.155928611755371, 1.0, 115.25, 13.0 ],
+					"text" : "record",
 					"textjustification" : 1
 				}
 
@@ -2173,7 +2177,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 536.834971006042451, 746.050125122070312, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 541.293219208717346, 377.053873181343079, 11.764631986618042, 11.764631986618042 ],
+					"presentation_rect" : [ 538.096818208694458, 2.264944672584534, 11.764631986618042, 11.764631986618042 ],
 					"uncheckedcolor" : [ 0.349, 0.102, 0.102, 1.0 ]
 				}
 
@@ -2195,7 +2199,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 185.8585205078125, 1048.953889131546021, 107.666664123535156, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 419.868544578552246, 347.950294554233551, 133.356109619140625, 44.785903871059418 ],
+					"presentation_rect" : [ 420.868544578552246, 323.043954849243164, 133.356109619140625, 71.764782428741455 ],
 					"varname" : "pfftwtf",
 					"viewvisibility" : 1
 				}
@@ -2218,7 +2222,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1502.0247802734375, 1048.953889131546021, 107.666664123535156, 116.787881374359131 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.155928611755371, 213.770982265472412, 132.0687255859375, 137.667257368564606 ],
+					"presentation_rect" : [ 421.155928611755371, 166.453682392835617, 132.0687255859375, 162.403702259063721 ],
 					"varname" : "genverb2019",
 					"viewvisibility" : 1
 				}
@@ -2241,7 +2245,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 860.623046875, 1048.953889131546021, 106.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 420.155928611755371, -0.099099099636078, 132.0687255859375, 222.133636474609375 ],
+					"presentation_rect" : [ 420.155928611755371, 11.900900900363922, 133.0687255859375, 155.273171424865723 ],
 					"varname" : "clouds",
 					"viewvisibility" : 1
 				}
@@ -2260,7 +2264,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2293,6 +2297,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -2450,7 +2455,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2483,6 +2488,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -3015,7 +3021,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u705016652"
+					"varname" : "u506034970"
 				}
 
 			}
@@ -5277,9 +5283,6 @@
 				"name" : "dUG Yello 01-1",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5289,20 +5292,21 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5312,7 +5316,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -5374,8 +5380,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

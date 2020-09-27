@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,56 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ 0.0, 1.0, "@default", 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-7",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "delta_select_ui.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 5,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "int", "", "", "" ],
+					"patching_rect" : [ 174.0, 139.607145369052887, 107.800048828125, 22.999996185302734 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 102.431861877441406, 24.735885620117188 ],
+					"varname" : "Verb_AM",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 174.0, 177.334599167108536, 107.0, 22.0 ],
+					"text" : "scale~ 0. 1. 0. 1. 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 163.0, 212.513767868280411, 30.0, 22.0 ],
+					"text" : "*~ 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 8.0,
@@ -49,7 +98,7 @@
 					"patching_rect" : [ 919.46427708864212, 184.642855525016785, 32.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 99.733508259057999, 24.94354248046875, 32.668444633483887, 24.0 ],
+					"presentation_rect" : [ 99.733508259057999, 47.94354248046875, 32.668444633483887, 24.0 ],
 					"text" : "step\nmode",
 					"textjustification" : 1
 				}
@@ -67,7 +116,7 @@
 					"patching_rect" : [ 810.285706996917725, 167.142855525016785, 33.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 99.733508259057999, 98.735885620117188, 32.668444633483887, 24.0 ],
+					"presentation_rect" : [ 99.733508259057999, 121.735885620117188, 32.668444633483887, 24.0 ],
 					"text" : "mod rate",
 					"textjustification" : 1
 				}
@@ -85,7 +134,7 @@
 					"patching_rect" : [ 904.46427708864212, 169.642855525016785, 32.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 99.733508259057999, 60.94354248046875, 32.668444633483887, 24.0 ],
+					"presentation_rect" : [ 99.733508259057999, 83.94354248046875, 32.668444633483887, 24.0 ],
 					"text" : "mod amt",
 					"textjustification" : 1
 				}
@@ -103,7 +152,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -136,6 +185,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -311,13 +361,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 852.965598583221436, 169.642855525016785, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.733508259057999, 84.735885620117188, 32.668444633483887, 15.0 ],
+					"presentation_rect" : [ 99.733508259057999, 107.735885620117188, 32.668444633483887, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mod_depth",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "mod_depth",
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "mod_depth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -375,13 +425,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 764.285706996917725, 169.642855525016785, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.733508259057999, 121.471771240234375, 32.668444633483887, 15.0 ],
+					"presentation_rect" : [ 99.733508259057999, 144.471771240234375, 32.668444633483887, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mod_rate",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "mod_rate",
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "mod_rate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -445,8 +495,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 174.0, 24.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"mod_depth" : [ 35.951662619760825 ],
-						"mod_rate" : [ 70.404442417827795 ],
+						"mod_depth" : [ 0.0 ],
+						"mod_rate" : [ 0.0 ],
 						"verb_color" : [ 1.0 ],
 						"verb_mode" : [ 0.0 ],
 						"vst~" : [ 							{
@@ -454,19 +504,19 @@
 								"version" : 2,
 								"minorversion" : 0,
 								"name" : "ValhallaShimmer",
-								"origin" : "ValhallaShimmer_x64.vstinfo",
+								"origin" : "ValhallaShimmer_x64.vst",
 								"type" : "VST",
 								"subtype" : "AudioEffect",
 								"embed" : 1,
 								"snapshot" : 								{
-									"pluginname" : "ValhallaShimmer_x64.vstinfo",
+									"pluginname" : "ValhallaShimmer_x64.vst",
 									"plugindisplayname" : "ValhallaShimmer",
 									"pluginsavedname" : "",
 									"pluginsaveduniqueid" : 0,
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
+									"blob" : "426.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DfaVMjLgTV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3RMh.BbgIWXsUFckImL8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh.BbgIWXsUFckI2L8HBLtbSMh.BbgIWXsUFckIGM8HBLt.yL4jSN4jSN4DCL0jyLvLiL3LiM4HBHvElbg0VYzUlb0ziHv3RL0.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb1ziHv3BMv.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb2ziHvHBHvElbg0VYzUlb3ziHvHBHvElbg0VYzUlb4ziHvHBHvElbg0VYzUlbw.SOh.iHf.WXxEVakQWYxESL8HRLh.RcocUZjQGZ8HhM4PiHfTWZHUVZmgFc8HhL2TiHu3C."
 								}
 
 							}
@@ -474,7 +524,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u571048377"
+					"varname" : "u229021186"
 				}
 
 			}
@@ -562,15 +612,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1166.0, 21.0, 43.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.733508259057999, 47.735885620117188, 32.668444633483887, 15.0 ],
+					"presentation_rect" : [ 99.733508259057999, 70.735885620117188, 32.668444633483887, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "verb_mode",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 3,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "verb_mode",
 							"parameter_enum" : [ "1", "2", "1rev", "2rev" ],
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "verb_mode",
+							"parameter_mmax" : 3,
+							"parameter_shortname" : "verb_mode",
 							"parameter_type" : 2
 						}
 
@@ -646,7 +696,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 964.065574169158936, -90.967986583709717, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.615022212266922, 112.471771240234375, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ -0.615022212266922, 135.471771240234375, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Hi",
 					"viewvisibility" : 1
 				}
@@ -694,7 +744,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 834.065574169158936, -90.967986583709717, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.615022212266922, 89.735885620117188, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ -0.615022212266922, 112.735885620117188, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Low",
 					"viewvisibility" : 1
 				}
@@ -742,7 +792,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 711.442623138427734, -87.951593399047852, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 21.735885620117188, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ 0.0, 44.735885620117188, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Shift",
 					"viewvisibility" : 1
 				}
@@ -784,15 +834,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 315.0, 87.023809313774109, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.733508259057999, -0.179690778255463, 32.668444633483887, 24.91557639837265 ],
+					"presentation_rect" : [ 99.733508259057999, 0.0, 32.668444633483887, 47.735885620117188 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "verb_sync",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "verb_sync",
 							"parameter_enum" : [ "dark", "dark" ],
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "verb_sync",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "verb_sync",
 							"parameter_type" : 2
 						}
 
@@ -860,7 +910,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 573.819672107696533, -87.951593399047852, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 67.207656860351562, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ 0.0, 90.207656860351562, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Diffusion",
 					"viewvisibility" : 1
 				}
@@ -908,7 +958,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 442.0, -113.361428737640381, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 44.471771240234375, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ 0.0, 67.471771240234375, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Feed",
 					"viewvisibility" : 1
 				}
@@ -968,7 +1018,7 @@
 					"outlettype" : [ "signal", "int", "", "", "" ],
 					"patching_rect" : [ 37.180327892303467, -83.508970260620117, 107.800048828125, 22.999996185302734 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 102.431861877441406, 24.735885620117188 ],
+					"presentation_rect" : [ 0.0, 23.0, 102.431861877441406, 24.735885620117188 ],
 					"varname" : "Verb_Size",
 					"viewvisibility" : 1
 				}
@@ -1061,14 +1111,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "ValhallaShimmer_x64.vstinfo",
+							"pluginname" : "ValhallaShimmer_x64.vst",
 							"plugindisplayname" : "ValhallaShimmer",
 							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
+							"blob" : "426.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DfaVMjLgTV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3RMh.BbgIWXsUFckImL8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh.BbgIWXsUFckI2L8HBLtbSMh.BbgIWXsUFckIGM8HBLt.yL4jSN4jSN4DCL0jyLvLiL3LiM4HBHvElbg0VYzUlb0ziHv3RL0.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb1ziHv3BMv.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb2ziHvHBHvElbg0VYzUlb3ziHvHBHvElbg0VYzUlb4ziHvHBHvElbg0VYzUlbw.SOh.iHf.WXxEVakQWYxESL8HRLh.RcocUZjQGZ8HhM4PiHfTWZHUVZmgFc8HhL2TiHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1078,19 +1128,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "ValhallaShimmer",
-									"origin" : "ValhallaShimmer_x64.vstinfo",
+									"origin" : "ValhallaShimmer_x64.vst",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "ValhallaShimmer_x64.vstinfo",
+										"pluginname" : "ValhallaShimmer_x64.vst",
 										"plugindisplayname" : "ValhallaShimmer",
 										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "503.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DvtVMjLgHa....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3xM4DiM1XiM3XSMyPCN3DSM4DCNh.BbgIWXsUFckImL8HBLtjCL1TyL1PSM4jiLxbSNvTiL2LCMh.BbgIWXsUFckI2L8HBLtbSL4.CL3PCM0byL4bCM1.SNybSMh.BbgIWXsUFckIGM8HBLtLSMvHSM2DSM3HyM4PSL3jCM0LSLh.BbgIWXsUFckIWM8HBLtbSNwDyM2jCN3.SMxLiM3DiMz.iMh.BbgIWXsUFckImM8HBLtTCN0HyLzTCNxPiLzDiMyfSL3LiMh.BbgIWXsUFckI2M8HBLtbCLz.CMzPCLwXCM0XiMvPCLvLSNh.BbgIWXsUFckIGN8HBLtLSM4TSL1XiLvXyL0jCN1LiL3DiLh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOhDiHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
+										"blob" : "426.CMlaKA....fQPMDZ....ALGZsIG.A..A....HHDagM1ZH8FakA...........................DfaVMjLgTV....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHv3RMh.BbgIWXsUFckImL8HBLtHCLv.CLv.CLxjCNvHyLxHyL3byMh.BbgIWXsUFckI2L8HBLtbSMh.BbgIWXsUFckIGM8HBLt.yL4jSN4jSN4DCL0jyLvLiL3LiM4HBHvElbg0VYzUlb0ziHv3RL0.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb1ziHv3BMv.CLv.CLvTSN1.CM1PCM2bSMzHBHvElbg0VYzUlb2ziHvHBHvElbg0VYzUlb3ziHvHBHvElbg0VYzUlb4ziHvHBHvElbg0VYzUlbw.SOh.iHf.WXxEVakQWYxESL8HRLh.RcocUZjQGZ8HhM4PiHfTWZHUVZmgFc8HhL2TiHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -1098,7 +1148,7 @@
 										"filename" : "ValhallaShimmer.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "57d8a0ecf2718e764953caa365c91525"
+										"snapshotfileid" : "a3905f28bee19be9b06b4447a33cb061"
 									}
 
 								}
@@ -1122,9 +1172,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.39543479681015, 124.334599167108536, 128.0, 128.0 ],
+					"patching_rect" : [ 217.39543479681015, -98.557371139526367, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.733508259057999, 21.735885620117188, 31.668444633483887, 101.0 ],
+					"presentation_rect" : [ 99.733508259057999, 44.735885620117188, 31.668444633483887, 101.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1210,7 +1260,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1219,6 +1269,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -1247,6 +1304,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1469,6 +1533,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"order" : 1,
 					"source" : [ "obj-9", 0 ]
@@ -1514,32 +1585,20 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
+				"button" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1550,15 +1609,27 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
