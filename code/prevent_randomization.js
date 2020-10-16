@@ -3,6 +3,8 @@ outlets = 1;
 
 // list of stuff that should just never be randomized or the patch might be silent, you'd have to click through a file dialog, etc.
 var blocked_list = [
+			'_preset_select2::auto_preset_movement_mode',
+			'_preset_select2::interp_every_n_bars',
 			'randomization_percentage',
 			'randomization_intensity',
 			'global_randomize_every',
