@@ -62,13 +62,13 @@
 					"presentation_rect" : [ 102.998701542615891, 0.94354248046875, 29.968659222126007, 155.05645751953125 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "sync_mode",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "sync_mode"
+							"parameter_shortname" : "sync_mode",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -134,8 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 271.063829779624939, 296.0, 47.0, 22.0 ],
-					"text" : "*~ 0.15"
+					"patching_rect" : [ 271.063829779624939, 296.0, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
 				}
 
 			}
@@ -146,8 +146,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 195.063829779624939, 296.0, 47.0, 22.0 ],
-					"text" : "*~ 0.15"
+					"patching_rect" : [ 195.063829779624939, 296.0, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
 				}
 
 			}
@@ -599,7 +599,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
+									"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 								}
 
 							}
@@ -607,7 +607,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u619010397"
+					"varname" : "u669031805"
 				}
 
 			}
@@ -657,7 +657,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
+							"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -679,7 +679,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "256.CMlaKA....fQPMDZ....AXTbEgF.A.PA...............................................wVMjLgrK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtbSMh.BYkwVX40iHv3RMh.xb441X8HBLh.hYkUFYhE1Xq0iHv3RMh.Bauc2P0QWOhDiKyfyM2bCN2fCL2fSLzPSM1bSM0TVKwPiHffVZmg1P0QWOhDiHfLGckIWYu0iHvHBH0k1UoQFcn0iH0LCLh.RcogTYocFZz0iHxXCLh7hO.."
+										"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -999,23 +999,10 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"message" : 				{
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1026,24 +1013,37 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"newobj" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ]
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"message" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"button" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
@@ -1117,8 +1117,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
