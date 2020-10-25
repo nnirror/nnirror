@@ -537,12 +537,12 @@
 					"presentation_rect" : [ 300.781005859375, 1.133331298828125, 19.773519039154053, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
 							"parameter_shortname" : "ResoDryWet",
 							"parameter_type" : 3,
 							"parameter_longname" : "ResoDryWet",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -570,12 +570,12 @@
 					"presentation_rect" : [ 321.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "ProbLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[10]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -782,12 +782,12 @@
 					"presentation_rect" : [ 417.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "ProbLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[9]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -828,12 +828,12 @@
 					"presentation_rect" : [ 407.922090530395508, 1.357892245054245, 8.75, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"parameter_shortname" : "feedback_sync",
 							"parameter_type" : 3,
 							"parameter_longname" : "feedback_sync",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -874,12 +874,12 @@
 					"presentation_rect" : [ 368.781005859375, 1.133331298828125, 25.0, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"parameter_shortname" : "fractional_probs",
 							"parameter_type" : 3,
 							"parameter_longname" : "fractional_probs",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -907,12 +907,12 @@
 					"presentation_rect" : [ 394.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "ProbLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[8]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -2674,12 +2674,12 @@
 					"presentation_rect" : [ 552.864990234375, 188.267475306987762, 104.33306884765625, 36.310352146625519 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
 							"parameter_shortname" : "SubsetCtrl",
 							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[3]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -2977,12 +2977,12 @@
 					"presentation_rect" : [ 438.29315185546875, 1.133331298828125, 10.057856321334839, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"parameter_shortname" : "DecayControlMod",
 							"parameter_type" : 3,
 							"parameter_longname" : "DecayControlMod[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -3134,12 +3134,12 @@
 					"presentation_rect" : [ 334.781005859375, 1.133331298828125, 19.773519039154053, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
 							"parameter_shortname" : "LineTimes",
 							"parameter_type" : 3,
 							"parameter_longname" : "LineTimes[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -3167,12 +3167,12 @@
 					"presentation_rect" : [ 355.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "ProbLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[6]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -3898,13 +3898,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
-													"linecount" : 4,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.2254 0.205 0.1846 0.1642 0.1642 0.2662"
+													"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
 												}
 
 											}
@@ -9063,19 +9063,24 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9087,15 +9092,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9107,8 +9108,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10068,12 +10068,12 @@
 					"presentation_rect" : [ 264.03790283203125, 1.133331298828125, 16.464315623044968, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "MixerLock",
 							"parameter_type" : 3,
 							"parameter_longname" : "MixerLock[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -10107,12 +10107,12 @@
 					"presentation_rect" : [ 232.85882568359375, 1.133331298828125, 30.285643517971039, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 							"parameter_shortname" : "Delta Trigger Note Volume",
 							"parameter_type" : 3,
 							"parameter_longname" : "Delta Trigger Note Volume[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -10140,13 +10140,13 @@
 					"presentation_rect" : [ 54.580066680908203, 1.133330821990967, 8.273516654968262, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"parameter_shortname" : "Solo Lock",
 							"parameter_type" : 3,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Solo Lock[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -10195,12 +10195,12 @@
 					"rows" : 16,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0, 0, 0 ],
 							"parameter_shortname" : "Solo_Matrix",
 							"parameter_type" : 3,
 							"parameter_longname" : "Solo_Matrix",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -11169,19 +11169,24 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11193,15 +11198,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11213,8 +11214,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11343,14 +11343,14 @@
 					"presentation_rect" : [ 419.289936780929565, 189.746389389038086, 26.061071395874023, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 8 ],
 							"parameter_shortname" : "ntrig_max",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "ntrig_max[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 3.0,
-							"parameter_initial" : [ 8 ]
+							"parameter_mmax" : 8.0
 						}
 
 					}
@@ -11443,7 +11443,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-388",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -11756,14 +11755,14 @@
 					"presentation_rect" : [ 424.356205105781555, 205.484243392944336, 21.431065201759338, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 4 ],
 							"parameter_shortname" : "fill every",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "fill every[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 4 ]
+							"parameter_mmax" : 16.0
 						}
 
 					}
@@ -12442,7 +12441,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-350",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -13230,7 +13228,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1100.6474609375, 733.0, 177.0, 35.0 ],
-					"restore" : [ 0.228346452116966, 0.346456706523895, 0.196850389242172, 0.267716526985168, 0.551181077957153, 0.125984251499176, 0.661417305469513, 0.976377964019775, 0.173228353261948, 0.669291317462921, 0.236220479011536, 0.566929161548615, 0.480314970016479, 0.181102365255356, 0.787401556968689, 0.952755928039551 ],
+					"restore" : [ 0.448818892240524, 0.527559041976929, 0.141732290387154, 0.440944880247116, 0.015748031437397, 0.070866145193577, 0.330708652734756, 0.874015748500824, 0.330708652734756, 0.645669281482697, 0.244094491004944, 0.952755928039551, 0.834645688533783, 0.598425209522247, 0.787401556968689, 0.05511811003089 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -13488,14 +13486,14 @@
 					"presentation_rect" : [ 374.79144287109375, 189.746389389038086, 16.175537109375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "jam_walk_max",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_walk_max[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 15.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_mmax" : 15.0
 						}
 
 					}
@@ -13834,7 +13832,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 165.0, 22.0 ],
-													"text" : "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4"
+													"text" : "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2"
 												}
 
 											}
@@ -13980,7 +13978,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 989.0, 76.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 0 11 2 0 12 2 0 13 2 0 14 2 4 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 0 11 4 3 12 4 0 13 4 0 14 4 1 15 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 1 6 6 0 7 6 0 8 6 1 9 6 0 10 6 1 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 3 2 7 0 3 7 4 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 2 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 1 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 1 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 2 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 1 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 1 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 3 6 13 1 7 13 0 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 2 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 2 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 2 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 1 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 3 7 1 0 8 1 3 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 2 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 3 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 2 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 3 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 1 12 5 0 13 5 0 14 5 2 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 2 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 1 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 1 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 4 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 2 8 11 1 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 1 13 13 0 14 13 1 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 3 5 14 0 6 14 0 7 14 3 8 14 1 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 4 8 15 3 9 15 0 10 15 1 11 15 0 12 15 0 13 15 0 14 15 1 15 15 0"
 												}
 
 											}
@@ -14966,12 +14964,12 @@
 					"presentation_rect" : [ 1.598752975463867, 162.334808349609375, 41.171713024377823, 24.441877365112305 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 1.5, 2, 3, 4 ],
 							"parameter_shortname" : "global_cell_speed",
 							"parameter_type" : 3,
 							"parameter_longname" : "global_cell_speed",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1.5, 2, 3, 4 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -15606,19 +15604,24 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -15630,15 +15633,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -15650,8 +15649,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15781,13 +15779,13 @@
 					"presentation_rect" : [ 29.266334533691406, 202.562286078929901, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 7 ],
 							"parameter_shortname" : "Tempo",
 							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "Tempo[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 12,
-							"parameter_initial" : [ 7 ]
+							"parameter_mmax" : 12
 						}
 
 					}
@@ -15841,14 +15839,14 @@
 					"presentation_rect" : [ 29.266334533691406, 216.562286078929901, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 2.0 ],
 							"parameter_shortname" : "randomize_z_index",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "randomize_z_index[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5.0,
-							"parameter_initial" : [ 2.0 ]
+							"parameter_mmax" : 5.0
 						}
 
 					}
@@ -15870,13 +15868,13 @@
 					"presentation_rect" : [ 29.266334533691406, 231.32568359375, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 25.0 ],
 							"parameter_shortname" : "cell_fill_likelihood",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "cell_fill_likelihood[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 25.0 ]
+							"parameter_mmax" : 100.0
 						}
 
 					}
@@ -15914,14 +15912,14 @@
 					"presentation_rect" : [ 29.266334533691406, 188.267475306987762, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 16 ],
 							"parameter_shortname" : "Loop Control",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "Loop Control[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 16 ]
+							"parameter_mmax" : 64.0
 						}
 
 					}
@@ -16079,7 +16077,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.010711669921875, 109.5113525390625, 181.0, 62.0 ],
-									"text" : "0 0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0"
+									"text" : "0 0 0 0 1 0 0 2 1 0 3 1 0 4 0 0 5 0 0 6 1 0 7 0 0 8 1 0 9 0 0 10 1 0 11 0 0 12 0 0 13 1 0 14 0 0 15 1"
 								}
 
 							}
@@ -18211,12 +18209,12 @@
 					"presentation_rect" : [ 64.33331298828125, 188.267475306987762, 144.477276682853699, 36.310352146625519 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
 							"parameter_shortname" : "SubsetCtrl",
 							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -18411,14 +18409,14 @@
 					"presentation_rect" : [ 236.653902769088745, 232.82568359375, 18.86985582113266, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "jam_every_n_bars",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_every_n_bars[3]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_mmax" : 64.0
 						}
 
 					}
@@ -18826,7 +18824,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -18923,19 +18920,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -18947,15 +18949,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -18967,8 +18965,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19037,7 +19034,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-177",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -19304,7 +19300,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-177",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -19772,12 +19767,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -883.14288330078125, -140.709945678710938, 119.0, 22.0 ],
 					"restore" : 					{
-						"1/n" : [ 1.0 ],
+						"1/n" : [ 0.0 ],
 						"DecayControlMod[1]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"ES5SubsetCtrl" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-						"Jam_On" : [ 1.0 ],
+						"Jam_On" : [ 0.0 ],
 						"LineTimes" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-						"Lock_Matrix" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
+						"Lock_Matrix" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"Mixer" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"MixerLock" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"Mute_Matrix" : [ 0, 0, 0 ],
@@ -19787,23 +19782,23 @@
 						"ProbLock[3]" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"ProbLock[4]" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"ProbLock[5]" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-						"ResoDryWet" : [ 0.140000000596046, 0.409999966621399, 0.070000000298023, 0.949999988079071, 0.209999978542328, 0.300000011920929, 0.059999972581863, 0.599999964237213, 0.409999996423721, 0.009999997913837, 0.569999992847443, 0.25, 0.490000009536743, 0.519999980926514, 0.939999997615814, 0.800000011920929 ],
+						"ResoDryWet" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"SoloLock" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"Solo_Matrix" : [ 0, 0, 0 ],
-						"SubsetCtrl" : [ 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.225416719913483, 0.205007344484329, 0.184597969055176, 0.164188608527184, 0.164188608527184, 0.26623547077179 ],
+						"SubsetCtrl" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
 						"Tempo" : [ 7.0 ],
 						"cell_fill_likelihood" : [ 12.0 ],
 						"feedback_sync" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"fill_every" : [ 4.0 ],
-						"fill_mode" : [ 1.0 ],
-						"fractional_probs" : [ 0.610000014305115, 0.28999999165535, 0.100000023841858, 0.449999988079071, 0.810000002384186, 0.349999964237213, 0.28999999165535, 0.300000011920929, 0.569999992847443, 0.419999986886978, 0.21000000834465, 0.319999992847443, 0.139999970793724, 0.070000000298023, 0.5, 0.770000040531158 ],
+						"fill_mode" : [ 0.0 ],
+						"fractional_probs" : [ 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497, 0.001000000047497 ],
 						"global_cell_speed" : [ 1.0, 1.5, 2.0, 3.0, 4.0 ],
 						"jam_every_n_bars" : [ 1.0 ],
 						"jam_probabilities" : [ 11, 0, 0, 0, 0 ],
 						"jam_walk_max" : [ 1.0 ],
 						"markov_gen_density" : [ 9 ],
 						"newSamples" : [ 0.0 ],
-						"ntrig_max" : [ 3.0 ],
+						"ntrig_max" : [ 5.0 ],
 						"num_columns" : [ 16.0 ],
 						"pitchmod" : [ 0.0 ],
 						"preset_pattern_gen" : [ 1.0 ],
@@ -19812,7 +19807,7 @@
 						"preset_save_number" : [ 1.0 ],
 						"preset_toward" : [ 1.0 ],
 						"randomize_z_index" : [ 5.0 ],
-						"solo_matrix_backend" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"solo_matrix_backend" : [ 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1 ],
 						"which_matrix_pos_ctrl" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
 					}
 ,
@@ -19902,14 +19897,14 @@
 					"presentation_rect" : [ 324.695483446121216, 224.062286078929901, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_save_number",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_save_number[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_mmax" : 9.0
 						}
 
 					}
@@ -20781,7 +20776,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 475.0, 290.0 ],
-													"text" : "0 0 1 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 1 7 0 0 8 0 0 9 0 0 10 0 0 11 0 1 12 0 0 13 0 0 14 0 1 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 1 9 1 1 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 1 0 2 1 1 2 0 2 2 0 3 2 1 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 1 11 2 0 12 2 1 13 2 0 14 2 0 15 2 0 0 3 1 1 3 0 2 3 1 3 3 0 4 3 0 5 3 0 6 3 1 7 3 1 8 3 1 9 3 1 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 1 11 4 1 12 4 0 13 4 0 14 4 0 15 4 1 0 5 0 1 5 1 2 5 0 3 5 1 4 5 0 5 5 1 6 5 0 7 5 0 8 5 0 9 5 1 10 5 1 11 5 1 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 1 5 6 1 6 6 1 7 6 0 8 6 0 9 6 0 10 6 0 11 6 1 12 6 0 13 6 0 14 6 0 15 6 1 0 7 0 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 1 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 1 4 8 1 5 8 0 6 8 0 7 8 0 8 8 0 9 8 1 10 8 1 11 8 1 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 1 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 1 10 9 0 11 9 1 12 9 0 13 9 1 14 9 1 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 1 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 1 14 10 1 15 10 0 0 11 0 1 11 0 2 11 0 3 11 1 4 11 1 5 11 0 6 11 0 7 11 1 8 11 0 9 11 0 10 11 1 11 11 0 12 11 1 13 11 0 14 11 0 15 11 1 0 12 0 1 12 0 2 12 0 3 12 1 4 12 0 5 12 0 6 12 1 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 1 2 13 0 3 13 0 4 13 0 5 13 1 6 13 1 7 13 1 8 13 0 9 13 0 10 13 0 11 13 1 12 13 0 13 13 0 14 13 1 15 13 1 0 14 0 1 14 0 2 14 0 3 14 0 4 14 1 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 1 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 1 7 15 0 8 15 1 9 15 0 10 15 0 11 15 0 12 15 0 13 15 1 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 1 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 1 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 1 4 1 0 5 1 1 6 1 0 7 1 0 8 1 1 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 1 15 1 0 0 2 0 1 2 1 2 2 1 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 1 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 1 1 3 0 2 3 0 3 3 0 4 3 0 5 3 1 6 3 0 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 1 4 4 1 5 4 0 6 4 0 7 4 0 8 4 0 9 4 0 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 1 0 5 0 1 5 0 2 5 0 3 5 1 4 5 1 5 5 0 6 5 1 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 1 0 6 0 1 6 0 2 6 1 3 6 1 4 6 0 5 6 0 6 6 0 7 6 0 8 6 0 9 6 0 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 0 2 7 0 3 7 0 4 7 1 5 7 0 6 7 0 7 7 1 8 7 0 9 7 0 10 7 1 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 1 1 8 1 2 8 0 3 8 0 4 8 0 5 8 0 6 8 1 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 1 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 1 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 1 4 10 0 5 10 0 6 10 1 7 10 1 8 10 0 9 10 1 10 10 0 11 10 0 12 10 0 13 10 1 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 1 8 11 0 9 11 1 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 0 5 12 0 6 12 1 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 1 14 12 0 15 12 0 0 13 1 1 13 0 2 13 1 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 1 11 13 0 12 13 1 13 13 1 14 13 1 15 13 1 0 14 1 1 14 0 2 14 0 3 14 0 4 14 1 5 14 1 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 1 13 14 1 14 14 0 15 14 0 0 15 0 1 15 0 2 15 1 3 15 0 4 15 0 5 15 1 6 15 1 7 15 1 8 15 0 9 15 0 10 15 0 11 15 1 12 15 1 13 15 1 14 15 0 15 15 0"
 												}
 
 											}
@@ -20879,7 +20874,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-221",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -22855,14 +22850,14 @@
 					"presentation_rect" : [ 348.03790283203125, 189.746389389038086, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_retrieve",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_retrieve[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_mmax" : 9.0
 						}
 
 					}
@@ -22884,14 +22879,14 @@
 					"presentation_rect" : [ 321.03790283203125, 189.746389389038086, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_pattern_gen",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_pattern_gen[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_mmax" : 9.0
 						}
 
 					}
@@ -22913,14 +22908,14 @@
 					"presentation_rect" : [ 293.18780517578125, 189.746389389038086, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "preset_toward",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_toward[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_mmax" : 9.0
 						}
 
 					}
@@ -24291,7 +24286,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 165.0, 22.0 ],
-													"text" : "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4"
+													"text" : "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2"
 												}
 
 											}
@@ -24437,7 +24432,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 989.0, 76.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 0 11 2 0 12 2 0 13 2 0 14 2 4 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 0 11 4 3 12 4 0 13 4 0 14 4 1 15 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 1 6 6 0 7 6 0 8 6 1 9 6 0 10 6 1 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 3 2 7 0 3 7 4 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 2 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 1 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 1 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 2 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 1 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 1 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 3 6 13 1 7 13 0 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 2 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 2 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 2 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 1 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 3 7 1 0 8 1 3 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 2 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 3 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 2 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 3 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 1 12 5 0 13 5 0 14 5 2 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 2 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 1 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 1 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 4 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 2 8 11 1 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 1 13 13 0 14 13 1 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 3 5 14 0 6 14 0 7 14 3 8 14 1 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 4 8 15 3 9 15 0 10 15 1 11 15 0 12 15 0 13 15 0 14 15 1 15 15 0"
 												}
 
 											}
@@ -24802,7 +24797,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -24876,7 +24870,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -25016,7 +25009,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 165.0, 22.0 ],
-													"text" : "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4"
+													"text" : "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2"
 												}
 
 											}
@@ -25073,7 +25066,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -25295,7 +25287,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 988.0, 143.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 0 11 2 0 12 2 0 13 2 0 14 2 4 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 0 11 4 3 12 4 0 13 4 0 14 4 1 15 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 1 6 6 0 7 6 0 8 6 1 9 6 0 10 6 1 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 3 2 7 0 3 7 4 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 2 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 1 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 1 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 2 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 1 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 1 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 3 6 13 1 7 13 0 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 2 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 2 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 2 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 1 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 3 7 1 0 8 1 3 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 2 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 3 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 2 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 3 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 1 12 5 0 13 5 0 14 5 2 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 2 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 1 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 1 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 4 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 2 8 11 1 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 1 13 13 0 14 13 1 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 3 5 14 0 6 14 0 7 14 3 8 14 1 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 4 8 15 3 9 15 0 10 15 1 11 15 0 12 15 0 13 15 0 14 15 1 15 15 0"
 												}
 
 											}
@@ -25352,7 +25344,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-64",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -25364,7 +25355,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-36",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -25686,7 +25676,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -25796,7 +25785,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -25936,7 +25924,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 165.0, 22.0 ],
-													"text" : "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4"
+													"text" : "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2"
 												}
 
 											}
@@ -25993,7 +25981,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -26215,7 +26202,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 984.0, 143.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 0 11 2 0 12 2 0 13 2 0 14 2 4 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 0 11 4 3 12 4 0 13 4 0 14 4 1 15 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 1 6 6 0 7 6 0 8 6 1 9 6 0 10 6 1 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 3 2 7 0 3 7 4 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 2 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 1 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 1 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 2 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 1 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 1 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 3 6 13 1 7 13 0 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 2 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 2 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 2 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 1 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 3 7 1 0 8 1 3 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 2 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 3 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 2 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 3 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 1 12 5 0 13 5 0 14 5 2 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 2 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 1 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 1 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 4 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 2 8 11 1 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 1 13 13 0 14 13 1 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 3 5 14 0 6 14 0 7 14 3 8 14 1 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 4 8 15 3 9 15 0 10 15 1 11 15 0 12 15 0 13 15 0 14 15 1 15 15 0"
 												}
 
 											}
@@ -26272,7 +26259,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-64",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -26284,7 +26270,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-36",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -27686,7 +27671,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 482.0, 263.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 1 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 1 10 2 0 11 2 0 12 2 0 13 2 0 14 2 4 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 1 7 3 0 8 3 1 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 1 5 4 0 6 4 1 7 4 0 8 4 0 9 4 0 10 4 0 11 4 3 12 4 0 13 4 0 14 4 1 15 4 0 0 5 0 1 5 0 2 5 0 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 0 12 5 0 13 5 0 14 5 0 15 5 0 0 6 0 1 6 0 2 6 1 3 6 0 4 6 0 5 6 1 6 6 0 7 6 0 8 6 1 9 6 0 10 6 1 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 0 1 7 3 2 7 0 3 7 4 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 2 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 1 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 0 3 10 0 4 10 1 5 10 1 6 10 0 7 10 0 8 10 0 9 10 0 10 10 2 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 0 2 11 0 3 11 0 4 11 1 5 11 1 6 11 0 7 11 0 8 11 0 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 1 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 3 6 13 1 7 13 0 8 13 1 9 13 0 10 13 0 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 2 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 0 13 14 0 14 14 2 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 2 5 15 0 6 15 0 7 15 0 8 15 0 9 15 0 10 15 0 11 15 1 12 15 0 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 0 3 0 0 4 0 0 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 0 6 1 3 7 1 0 8 1 3 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 0 0 2 0 1 2 0 2 2 2 3 2 0 4 2 0 5 2 0 6 2 0 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 0 14 2 0 15 2 0 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 3 8 3 0 9 3 0 10 3 0 11 3 0 12 3 0 13 3 0 14 3 0 15 3 0 0 4 0 1 4 1 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 2 10 4 1 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 0 2 5 0 3 5 3 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 0 10 5 0 11 5 1 12 5 0 13 5 0 14 5 2 15 5 0 0 6 0 1 6 0 2 6 0 3 6 0 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 2 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 0 0 7 1 1 7 0 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 0 0 8 0 1 8 0 2 8 0 3 8 0 4 8 0 5 8 0 6 8 0 7 8 0 8 8 0 9 8 0 10 8 0 11 8 0 12 8 0 13 8 0 14 8 0 15 8 0 0 9 0 1 9 1 2 9 0 3 9 0 4 9 0 5 9 0 6 9 0 7 9 0 8 9 0 9 9 0 10 9 0 11 9 4 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 0 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 2 8 11 1 9 11 0 10 11 0 11 11 0 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 2 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 1 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 0 11 13 0 12 13 1 13 13 0 14 13 1 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 3 5 14 0 6 14 0 7 14 3 8 14 1 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 0 1 15 0 2 15 0 3 15 0 4 15 0 5 15 0 6 15 0 7 15 4 8 15 3 9 15 0 10 15 1 11 15 0 12 15 0 13 15 0 14 15 1 15 15 0"
 												}
 
 											}
@@ -28371,7 +28356,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.808563232421875, 575.72509765625, 25.0, 89.0 ],
+					"patching_rect" : [ 49.808563232421875, 575.72509765625, 23.0, 89.0 ],
 					"text" : "r #0lockin"
 				}
 
@@ -30055,19 +30040,24 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -30079,15 +30069,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -30099,8 +30085,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -30317,7 +30302,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 292.9666748046875, 362.800018310546875, 49.0 ],
-									"text" : "0.228346 0.346457 0.19685 0.267717 0.551181 0.125984 0.661417 0.976378 0.173228 0.669291 0.23622 0.566929 0.480315 0.181102 0.787402 0.952756"
+									"text" : "0.448819 0.527559 0.141732 0.440945 0.015748 0.070866 0.330709 0.874016 0.330709 0.645669 0.244094 0.952756 0.834646 0.598425 0.787402 0.055118"
 								}
 
 							}
@@ -36031,19 +36016,24 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
 								"toggle" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
 								"newobj" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"default" : 								{
 									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -36055,15 +36045,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -36075,8 +36061,7 @@
 										"autogradient" : 0
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -36227,12 +36212,12 @@
 					"presentation_rect" : [ 2.145792961120605, 1.133330821990967, 29.666667938232422, 134.416702270507812 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"parameter_shortname" : "Lock  Matrix",
 							"parameter_type" : 3,
 							"parameter_longname" : "Lock  Matrix[3]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -39869,19 +39854,24 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
+				"button" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
 				"toggle" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"newobj" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"default" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -39893,15 +39883,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"message" : 				{
+					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -39913,8 +39899,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
