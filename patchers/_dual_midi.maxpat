@@ -539,7 +539,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 24"
+									"text" : "0 90"
 								}
 
 							}
@@ -1229,7 +1229,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 25"
+									"text" : "0 92"
 								}
 
 							}
@@ -1823,7 +1823,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u941074834"
+					"varname" : "u858017056"
 				}
 
 			}
@@ -2035,6 +2035,371 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-148::obj-190::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
+			"obj-1::obj-62::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-43::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
+			"obj-1::obj-190::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-1::obj-43::obj-32" : [ "off[1]", "off", 0 ],
+			"obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-1::obj-76" : [ "note_dur_wrapper[1]", "note_dur_wrapper", 0 ],
+			"obj-148::obj-190::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
+			"obj-148::obj-60::obj-142" : [ "Channel[3]", "Channel", 0 ],
+			"obj-148::obj-77" : [ "note_rate_wrapper[2]", "note_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
+			"obj-148::obj-67::obj-22" : [ "chord_select_wrapper[1]", "chord_select_wrapper", 0 ],
+			"obj-148::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-278" : [ "NoteProbLock[1]", "NoteProbLock", 0 ],
+			"obj-1::obj-30" : [ "NoteLength[1]", "NoteLength", 0 ],
+			"obj-148::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[5]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-62::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1::obj-45" : [ "preset_selector", "preset_selector", 0 ],
+			"obj-148::obj-76" : [ "note_dur_wrapper[2]", "note_dur_wrapper", 0 ],
+			"obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[3]", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-8" : [ "volume[2]", "volume", 0 ],
+			"obj-148::obj-60::obj-9" : [ "live.text[5]", "live.text", 0 ],
+			"obj-148::obj-190::obj-30" : [ "randomize_percentage[2]", "randomize_percentage", 0 ],
+			"obj-148::obj-43::obj-32" : [ "off[3]", "off", 0 ],
+			"obj-1::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
+			"obj-148::obj-67::obj-5" : [ "chords_on[1]", "chords_on", 0 ],
+			"obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
+			"obj-1::obj-43::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-12" : [ "vst~[3]", "vst~[1]", 0 ],
+			"obj-1::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
+			"obj-148::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
+			"obj-148::obj-45" : [ "preset_selector[1]", "preset_selector", 0 ],
+			"obj-148::obj-17" : [ "columns[2]", "columns", 0 ],
+			"obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
+			"obj-1::obj-67::obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
+			"obj-148::obj-42" : [ "Tempo[3]", "Tempo", 0 ],
+			"obj-148::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[4]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-2" : [ "midi_notes[2]", "midi_notes", 0 ],
+			"obj-148::obj-62::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
+			"obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-28" : [ "note_offset", "note_offset", 0 ],
+			"obj-148::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[3]", "Delta Channel #", 0 ],
+			"obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-60::obj-9" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-43::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
+			"obj-148::obj-190::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized Rate", 0 ],
+			"obj-148::obj-190::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
+			"obj-1::obj-62::obj-23" : [ "jam_amount[67]", "jam_amount", 0 ],
+			"obj-1::obj-17" : [ "columns[1]", "columns", 0 ],
+			"obj-148::obj-43::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
+			"obj-148::obj-278" : [ "NoteProbLock[2]", "NoteProbLock", 0 ],
+			"obj-1::obj-67::obj-5" : [ "chords_on", "chords_on", 0 ],
+			"obj-148::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-30" : [ "NoteLength[2]", "NoteLength", 0 ],
+			"obj-1::obj-77" : [ "note_rate_wrapper[1]", "note_rate_wrapper", 0 ],
+			"obj-148::obj-41" : [ "ProbProbLock[2]", "ProbProbLock", 0 ],
+			"obj-1::obj-60::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
+			"obj-1::obj-190::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
+			"obj-148::obj-43::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
+			"obj-1::obj-42" : [ "Tempo[2]", "Tempo", 0 ],
+			"obj-148::obj-62::obj-13" : [ "delta_channel_wrapper[6]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-60::obj-13" : [ "delta_channel_wrapper[7]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-67::obj-4" : [ "chord", "chord", 0 ],
+			"obj-148::obj-43::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
+			"obj-148::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[3]", "Hard Sync Threshold", 0 ],
+			"obj-148::obj-62::obj-142" : [ "Channel[2]", "Channel", 0 ],
+			"obj-1::obj-8" : [ "volume[1]", "volume", 0 ],
+			"obj-148::obj-357" : [ "SubsetCtrl[1]", "SubsetCtrl", 0 ],
+			"obj-1::obj-43::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized Rate", 0 ],
+			"obj-1::obj-62::obj-12" : [ "ratecontrol[156]", "ratecontrol", 0 ],
+			"obj-1::obj-60::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-148::obj-67::obj-4" : [ "chord[1]", "chord", 0 ],
+			"obj-148::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
+			"obj-148::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
+			"obj-148::obj-60::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
+			"obj-1::obj-62::obj-9" : [ "live.text[120]", "live.text", 0 ],
+			"obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-62::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
+			"obj-1::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-43::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized Rate", 0 ],
+			"obj-148::obj-43::obj-30" : [ "randomize_percentage[3]", "randomize_percentage", 0 ],
+			"obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-190::obj-32" : [ "off[2]", "off", 0 ],
+			"obj-148::obj-60::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
+			"obj-1::obj-43::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
+			"obj-1::obj-62::obj-142" : [ "Channel", "Channel", 0 ],
+			"obj-6" : [ "vst~[4]", "vst~", 0 ],
+			"obj-148::obj-28" : [ "note_offset[1]", "note_offset", 0 ],
+			"obj-1::obj-190::obj-55" : [ "live.text[8]", "live.text[1]", 0 ],
+			"obj-1::obj-190::obj-32" : [ "off", "off", 0 ],
+			"obj-148::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-60::obj-142" : [ "Channel[1]", "Channel", 0 ],
+			"obj-148::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-190::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
+			"obj-1::obj-357" : [ "SubsetCtrl[5]", "SubsetCtrl", 0 ],
+			"obj-1::obj-41" : [ "ProbProbLock[1]", "ProbProbLock", 0 ],
+			"obj-1::obj-2" : [ "midi_notes[1]", "midi_notes", 0 ],
+			"obj-148::obj-190::obj-55" : [ "live.text[9]", "live.text[1]", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-148::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[2]"
+				}
+,
+				"obj-1::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[1]"
+				}
+,
+				"obj-1::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[1]"
+				}
+,
+				"obj-148::obj-62::obj-9" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-148::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[3]"
+				}
+,
+				"obj-148::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-148::obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[2]"
+				}
+,
+				"obj-148::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[3]"
+				}
+,
+				"obj-148::obj-67::obj-5" : 				{
+					"parameter_longname" : "chords_on[1]"
+				}
+,
+				"obj-1::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[1]"
+				}
+,
+				"obj-148::obj-17" : 				{
+					"parameter_longname" : "columns[2]"
+				}
+,
+				"obj-148::obj-42" : 				{
+					"parameter_longname" : "Tempo[3]"
+				}
+,
+				"obj-1::obj-28" : 				{
+					"parameter_longname" : "note_offset",
+					"parameter_shortname" : "note_offset",
+					"parameter_range" : [ -24, 24 ],
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_type" : 1,
+					"parameter_unitstyle" : 7,
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1
+				}
+,
+				"obj-148::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[3]"
+				}
+,
+				"obj-1::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[1]"
+				}
+,
+				"obj-148::obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[2]"
+				}
+,
+				"obj-148::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[3]"
+				}
+,
+				"obj-148::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[2]"
+				}
+,
+				"obj-148::obj-30" : 				{
+					"parameter_longname" : "NoteLength[2]"
+				}
+,
+				"obj-148::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-148::obj-43::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[3]"
+				}
+,
+				"obj-1::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[1]"
+				}
+,
+				"obj-148::obj-67::obj-4" : 				{
+					"parameter_longname" : "chord[1]"
+				}
+,
+				"obj-148::obj-190::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[2]"
+				}
+,
+				"obj-148::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[3]"
+				}
+,
+				"obj-148::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[3]"
+				}
+,
+				"obj-148::obj-190::obj-32" : 				{
+					"parameter_longname" : "off[2]"
+				}
+,
+				"obj-1::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[1]"
+				}
+,
+				"obj-148::obj-28" : 				{
+					"parameter_longname" : "note_offset[1]"
+				}
+,
+				"obj-148::obj-190::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[2]"
+				}
+,
+				"obj-1::obj-43::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[1]"
+				}
+,
+				"obj-148::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_midi_seq.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_scale_control_no_ui.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "note_in_scale2.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_multislider_markov_ui_2019.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multislider_jam.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "metro_time_select.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hard_sync_via_delta.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_receive_mains_out.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_select_ui.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpatcher_name.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "note_to_chord.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.chords.js",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OB-Xd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "12c_config.maxpat",
+				"bootpath" : "~/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strip_config_dir.js",
+				"bootpath" : "~/nnirror/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -2070,14 +2435,14 @@
 ,
 				"newobj" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2088,8 +2453,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -2097,7 +2462,7 @@
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2108,8 +2473,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

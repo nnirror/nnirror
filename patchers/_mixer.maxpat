@@ -1121,12 +1121,12 @@
 					"presentation_rect" : [ 552.688454508781433, 0.647260665893555, 12.827004313468933, 256.306631624698639 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
 							"parameter_longname" : "MasterSoloLock",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "MasterSoloLock",
-							"parameter_type" : 3
+							"parameter_shortname" : "MasterSoloLock"
 						}
 
 					}
@@ -1244,14 +1244,14 @@
 					"presentation_rect" : [ 582.066766083240509, 283.513073623180389, 32.259328037500381, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2,
 							"parameter_mmin" : 100.0,
 							"parameter_longname" : "solo_decay_speed",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 2000.0,
 							"parameter_initial" : [ 250 ],
-							"parameter_shortname" : "solo_decay_speed",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2
+							"parameter_shortname" : "solo_decay_speed"
 						}
 
 					}
@@ -1302,13 +1302,13 @@
 					"presentation_rect" : [ 629.962467402219772, 283.513073623180389, 30.098056584596634, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "SoloRegenSpeed",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 7,
 							"parameter_initial" : [ 5 ],
-							"parameter_shortname" : "SoloRegenSpeed",
-							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "SoloRegenSpeed"
 						}
 
 					}
@@ -1382,12 +1382,12 @@
 					"presentation_rect" : [ 565.8614501953125, 0.900900900363922, 12.827004313468933, 256.306631624698639 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 3,
 							"parameter_longname" : "MasterSolo",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"parameter_shortname" : "MasterSolo",
-							"parameter_type" : 3
+							"parameter_shortname" : "MasterSolo"
 						}
 
 					}
@@ -2193,9 +2193,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 185.8585205078125, 1048.953889131546021, 107.666664123535156, 48.0 ],
+					"patching_rect" : [ 185.8585205078125, 1048.953889131546021, 137.666664123535156, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 420.868544578552246, 323.043954849243164, 133.356109619140625, 71.764782428741455 ],
+					"presentation_rect" : [ 420.596897542476654, 302.12149903178215, 133.356109619140625, 91.655660897493362 ],
 					"varname" : "pfftwtf",
 					"viewvisibility" : 1
 				}
@@ -2218,7 +2218,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1502.0247802734375, 1048.953889131546021, 107.666664123535156, 116.787881374359131 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.155928611755371, 166.453682392835617, 132.0687255859375, 162.403702259063721 ],
+					"presentation_rect" : [ 421.155928611755371, 166.453682392835617, 132.0687255859375, 137.289014041423798 ],
 					"varname" : "genverb2019",
 					"viewvisibility" : 1
 				}
@@ -3015,7 +3015,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u863031822"
+					"varname" : "u285041416"
 				}
 
 			}
@@ -5275,33 +5275,20 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
+				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+				"default" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5312,15 +5299,28 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"toggle" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				"message" : 				{
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5393,8 +5393,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
