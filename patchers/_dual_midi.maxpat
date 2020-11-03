@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 56.0, 1672.0, 1030.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,18 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 338.291134804487228, 634.81011825799942, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -124,7 +135,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -157,6 +168,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-57",
@@ -169,7 +181,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -202,6 +214,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-45",
@@ -211,7 +224,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 50.0, 102.0 ],
-													"text" : "\"Macintosh HD:/Users/cella/\""
+													"text" : "\"Macintosh HD:/Users/cella/12c/\""
 												}
 
 											}
@@ -539,7 +552,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 90"
+									"text" : "110"
 								}
 
 							}
@@ -814,7 +827,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -847,6 +860,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-57",
@@ -859,7 +873,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -892,6 +906,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-45",
@@ -901,7 +916,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 50.0, 102.0 ],
-													"text" : "\"Macintosh HD:/Users/cella/\""
+													"text" : "\"Macintosh HD:/Users/cella/12c/\""
 												}
 
 											}
@@ -1229,7 +1244,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 338.0, 50.0, 22.0 ],
-									"text" : "0 92"
+									"text" : "0 21"
 								}
 
 							}
@@ -1607,7 +1622,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1277.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBUDSeQTZ2klakAxQrE1byU1b.............PPvVMjLgfKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03BLz.CLv.CL3DCL1HyLwbSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HxLtDiLv.CLv.iMzLyMy.SL1TVKwHBHwDSOhDiHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HhLtbSM4jSN4jyLvfSM3XSLxTVKwHBHwXSOhXiKwTSN4jSNybCL0bCM4TSLk0RLh.RL2ziHw3BMz.CLv.SMyPCL0biMwbSYsDiHfDCN8HBLh.RL4ziHvHBHx.SOh.iHfHSL8HhLtfCLv.CLwHCLz.SLyfiLzTVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHwHBHxPSOhDiHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH03hMv.CLv.SMzTyL3HSMk0hLh.xLvziHvHBHyDSOhLiK4DSN4jSN3jyMzfCLvDSLk0RLh.xLxziHvHBHyLSOh.iHfLCM8HBLh.xL0ziHvHBHyXSOh.iHfLyM8HBMtXCNv.CLvHCM0TyMwDyL1TVKwHBHyfSOh.iHfLSN8HBLh.BMvziH43BMz.CLv.CL0biLx.CM0jSYsDiHfPSL8HRNtjSN4jSN2jSLyfyL2PyLyTVKxHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOhbiK1HyMyPyL0LSMzHyLxbSNk0RLh.BM1ziHwHBHzbSOhDiHfPCN8HRLh.BM4ziHvHBH0.SOhjiKwXCLv.CLvfSM3LCL1fCNk0RLh.RMwziHw3RN0HSL3biL1jSNxXCL2DSYsDiHfTiL8HBNtjSL4jSN4TSN4PSM1bCN2TVKwHBH0LSOhDiHfTCM8HxMtLSL4jSN4LyL2DSN1LSMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiK1fCLv.CL4.SLxHiLxHSNk0RLh.RM2ziHy3RN4jSN4jSL1TSMyPSN2LSYsDiHfTCN8HRLh.RM4ziH33BNv.CLv.iM4byL2PyLzPSYsHiHfXCL8HBNt.CLv.CLvTiM1HCMzDiL0TVKxHBH1DSOh.iHfXiL8HhMtLSM4jSN4byM0fCN1TyL1TVKwHBH1LSOhTiK2DSN4jSN1bCL4fiLyXSLk0RLh.hMzziH03RL0jSN4jyMxfiLvHCNxTVKwHBH1TSOhPiK0XCLv.CLy.CLz.yMzDSYsDiHfXiM8HxLtbiMv.CLvDiM4HyM2DSNwTVKwHBH1bSOhPiK1.CLv.CLvfyLzPiM0.yLk0RLh.hM3ziH0TVKwHBH1jSOhTiK2jSN4jSN3LyLw.iM4jSMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5ITQL8EQocWZtUFHGwVXyMWYyIxK9.."
+							"blob" : "1276.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdPwzReQTYrk1XgQWYffTXxAG..............P.vVMjLgbKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03hL2jSN4jSN2DyL3jyM2DSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HhMtHCLv.CLv.CM2XCNybSL1TVKwHBHwDSOhHiKvPCM0LSLz.CM4biLvbiMk0RLh.RLxziHwHBHwLSOh.iHfDCM8HBLh.RL0ziHvHBHwXSOhHiKyjSN4jCN0LCL2PSM0.iMk0hLh.RL2ziHy3hMz.CLv.SMxHSLyXiM3fSYsDiHfDCN8HRLh.RL4ziHvHBHx.SOh.iHfHSL8HBNt.CLv.CLwLSLwLCLxDCN0TVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHvHBHxPSOh.iHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH43hMv.CLv.CL3LCMzXSMvLSYsHiHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HBLh.xLzziHwHBHyTSOhDiHfLiM8HBLh.xL2ziHx3RMx.CLv.yLyfSM0PyL3HSYsDiHfLCN8HBLh.xL4ziHvHBHz.SOhDiHfPSL8HhMtLSM4jSN4DyM4fCMv.CN3TVKwHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOh.iHfPiM8HRLtjSN4jSN4fCNvbSNvbSLk0RLh.BM2ziHwHBHzfSOhDiHfPSN8HBLh.RMvziH03BM3.CLv.yL2XyMvDyL0TSYsDiHfTSL8HxLtjSN4jSN4jSLvTSNy.yLyTVKxHBH0HSOhbiK0DSN4jSN2PiL0.yM4LSMk0RLh.RMyziHvHBH0PSOhLiK2PSMzXCNxTCN3TyM2HyMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiKx.CLv.SLwHCL0XyMyHiLk0RLh.RM2ziHy3xL0jSN4jyL0fiM0PCLxHSYsDiHfTCN8HxMtTSN4jSN4jCLzXyLxTiM3TVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3BL2jSN4jSNxLyMvXCL0TSYsDiHfXyL8HBMtLSN4jSN4jyM1DSM3DCMxTVKwHBH1PSOhPiKzfCLv.CLwLCNxfiL2biMk0RLh.hM0ziHz3BNyjSN4jSN2LyM2LSN0XSYsDiHfXiM8HRMtDSM4jSN4biL3HCLxfiLk0RLh.hM2ziH03xLx.CLv.CL0HCM0HCL3bSYsDiHfXCN8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1jSOhTiK3bSN4jSN4jSMxLSL1HCNk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5AESK8EQkwVZiEFckABRgIGbh7hO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1629,7 +1644,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1277.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBUDSeQTZ2klakAxQrE1byU1b.............PPvVMjLgfKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03BLz.CLv.CL3DCL1HyLwbSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HxLtDiLv.CLv.iMzLyMy.SL1TVKwHBHwDSOhDiHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HhLtbSM4jSN4jyLvfSM3XSLxTVKwHBHwXSOhXiKwTSN4jSNybCL0bCM4TSLk0RLh.RL2ziHw3BMz.CLv.SMyPCL0biMwbSYsDiHfDCN8HBLh.RL4ziHvHBHx.SOh.iHfHSL8HhLtfCLv.CLwHCLz.SLyfiLzTVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHwHBHxPSOhDiHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH03hMv.CLv.SMzTyL3HSMk0hLh.xLvziHvHBHyDSOhLiK4DSN4jSN3jyMzfCLvDSLk0RLh.xLxziHvHBHyLSOh.iHfLCM8HBLh.xL0ziHvHBHyXSOh.iHfLyM8HBMtXCNv.CLvHCM0TyMwDyL1TVKwHBHyfSOh.iHfLSN8HBLh.BMvziH43BMz.CLv.CL0biLx.CM0jSYsDiHfPSL8HRNtjSN4jSN2jSLyfyL2PyLyTVKxHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOhbiK1HyMyPyL0LSMzHyLxbSNk0RLh.BM1ziHwHBHzbSOhDiHfPCN8HRLh.BM4ziHvHBH0.SOhjiKwXCLv.CLvfSM3LCL1fCNk0RLh.RMwziHw3RN0HSL3biL1jSNxXCL2DSYsDiHfTiL8HBNtjSL4jSN4TSN4PSM1bCN2TVKwHBH0LSOhDiHfTCM8HxMtLSL4jSN4LyL2DSN1LSMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiK1fCLv.CL4.SLxHiLxHSNk0RLh.RM2ziHy3RN4jSN4jSL1TSMyPSN2LSYsDiHfTCN8HRLh.RM4ziH33BNv.CLv.iM4byL2PyLzPSYsHiHfXCL8HBNt.CLv.CLvTiM1HCMzDiL0TVKxHBH1DSOh.iHfXiL8HhMtLSM4jSN4byM0fCN1TyL1TVKwHBH1LSOhTiK2DSN4jSN1bCL4fiLyXSLk0RLh.hMzziH03RL0jSN4jyMxfiLvHCNxTVKwHBH1TSOhPiK0XCLv.CLy.CLz.yMzDSYsDiHfXiM8HxLtbiMv.CLvDiM4HyM2DSNwTVKwHBH1bSOhPiK1.CLv.CLvfyLzPiM0.yLk0RLh.hM3ziH0TVKwHBH1jSOhTiK2jSN4jSN3LyLw.iM4jSMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5ITQL8EQocWZtUFHGwVXyMWYyIxK9.."
+										"blob" : "1276.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdPwzReQTYrk1XgQWYffTXxAG..............P.vVMjLgbKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03hL2jSN4jSN2DyL3jyM2DSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HhMtHCLv.CLv.CM2XCNybSL1TVKwHBHwDSOhHiKvPCM0LSLz.CM4biLvbiMk0RLh.RLxziHwHBHwLSOh.iHfDCM8HBLh.RL0ziHvHBHwXSOhHiKyjSN4jCN0LCL2PSM0.iMk0hLh.RL2ziHy3hMz.CLv.SMxHSLyXiM3fSYsDiHfDCN8HRLh.RL4ziHvHBHx.SOh.iHfHSL8HBNt.CLv.CLwLSLwLCLxDCN0TVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHvHBHxPSOh.iHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH43hMv.CLv.CL3LCMzXSMvLSYsHiHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HBLh.xLzziHwHBHyTSOhDiHfLiM8HBLh.xL2ziHx3RMx.CLv.yLyfSM0PyL3HSYsDiHfLCN8HBLh.xL4ziHvHBHz.SOhDiHfPSL8HhMtLSM4jSN4DyM4fCMv.CN3TVKwHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOh.iHfPiM8HRLtjSN4jSN4fCNvbSNvbSLk0RLh.BM2ziHwHBHzfSOhDiHfPSN8HBLh.RMvziH03BM3.CLv.yL2XyMvDyL0TSYsDiHfTSL8HxLtjSN4jSN4jSLvTSNy.yLyTVKxHBH0HSOhbiK0DSN4jSN2PiL0.yM4LSMk0RLh.RMyziHvHBH0PSOhLiK2PSMzXCNxTCN3TyM2HyMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiKx.CLv.SLwHCL0XyMyHiLk0RLh.RM2ziHy3xL0jSN4jyL0fiM0PCLxHSYsDiHfTCN8HxMtTSN4jSN4jCLzXyLxTiM3TVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3BL2jSN4jSNxLyMvXCL0TSYsDiHfXyL8HBMtLSN4jSN4jyM1DSM3DCMxTVKwHBH1PSOhPiKzfCLv.CLwLCNxfiL2biMk0RLh.hM0ziHz3BNyjSN4jSN2LyM2LSN0XSYsDiHfXiM8HRMtDSM4jSN4biL3HCLxfiLk0RLh.hM2ziH03xLx.CLv.CL0HCM0HCL3bSYsDiHfXCN8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1jSOhTiK3bSN4jSN4jSMxLSL1HCNk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5AESK8EQkwVZiEFckABRgIGbh7hO.."
 									}
 ,
 									"fileref" : 									{
@@ -1638,6 +1653,24 @@
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "bfd0f8807e7ccc34ac416de33cd73d33"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "OB-Xd",
+									"origin" : "Obxd.vstinfo",
+									"type" : "VST",
+									"subtype" : "Instrument",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "OB-Xd",
+										"filename" : "OB-Xd_20201103.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "5ceb4786bcefb493bb310bdfd067facf"
 									}
 
 								}
@@ -1722,7 +1755,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1010.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdKUTVeQTXtMVYf7jbmEla.................LfsVMjLgz5....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhfiKvLyLxfCL4XCN1XiMvbyMk0RLh.xL8HhLtTSYsDiHfPSOhTiKvLSN4jSNzfSMvDSM3XSNk0RLh.RM8HBMtjSL4jSN4TyL4fSMxDCMxTVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziHx3BNv.CLv.yLvjSNzPSL0LSYsDiHfDCL8HBLh.RLwziHvHBHwHSOhDiHfDyL8HBLh.RLzziHvHBHwTSOhHiK3.CLv.CLvDSL4HCL4HSNk0RLh.RL1ziH43BMz.CLv.CL0biLx.CM0jSYsDiHfDyM8HRMtDiMv.CLvLiLzHCM4HiM3TVKwHBHwfSOhDiHfDSN8HBLh.hLvziHvHBHxDSOhbiKwjSN4jSN1jCLvTSM3PyMk0hLh.hLxziHvHBHxLSOhDiHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HBLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHy3BN2jSN4jiLx.yL2DiLzXSYsDiHfLiL8HBLh.xLyziHvHBHyPSOh.iHfLSM8HBLh.xL1ziHwHBHybSOh.iHfLCN8HRLh.xL4ziHvHBHz.SOhDiHfPSL8HRLtfCM4.iMxPCMxbyM4TCMwTVKwHBHzHSOh.iHfPyL8HRLh.BMzziHw3RNx.CLv.CLwXiM3jyLvDSYsDiHfPSM8HxMtHyM4jSN4fSMxDCNvPCNwTVKwHBHzXSOhbiK4jSN4jSN3HSLwfiMvXiMk0hLh.BM2ziHwHBHzfSOh.iHfPSN8HBLh.RMvziHvHBH0DSOh.iHfTiL8HxMtHyL4jSN4byMwDSL3DiMzTVKwHBH0LSOhDiHfTCM8HhLtLiLv.CLv.CNxHSMzPSLk0RLh.RM0ziHvHBH0XSOh.iHfTyM8HRLh.RM3ziHvHBH0jSOh.iHfXCL8HBLh.hMwziHvHBH1HSOhTSYsDiHfXyL8HRMk0RLh.hMzziH0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5sTQY8EQg41XkAxSxcVXtIxK9.."
+							"blob" : "1152.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBM0TeUDagMGcs7VKBE1byA...............P.QVMjLgrCA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhbiKyLyLwHSMzbiLvXCN2fyMk0RLh.xL8HxMtDCMxfSM2PiMxDiM2bCMk0hLh.BM8HRMtLSN4jSN4XSL3TyLvHyMyTVKwHBH0ziH0TVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziH23xLx.CLv.SMxjiL3jiLzXSYsDiHfDCL8HhMt.yM4jSN4fCLzPSN1biM0TVKwHBHwDSOh.iHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HBLh.RL1ziHvHBHwbSOhfiKv.CLv.SMvLiM0jiLzfCMk0hLh.RL3ziHwHBHwjSOh.iHfHCL8HBLh.hLwziH03hLv.CLv.SLvbiL3fyL1DSYsHiHfHiL8HhMtPCLv.CLvLCLyjCNyXCN3TVKxHBHxLSOh.iHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HRLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HRLh.xLzziHwHBHyTSOhDiHfLiM8HRLh.xL2ziH23xMx.CLv.SLzbCNwjSMwjSYsDiHfLCN8HRLh.xL4ziHvHBHz.SOhjiK4TSN4jSN4DCN4LyM1fyLk0RLh.BMwziHwHBHzHSOhbiKxfCLv.CLzPCNxHiM4HSNk0RLh.BMyziHvHBHzPSOhDiK4TSN4jSN4PCN2PCLv.SMk0RLh.BM0ziHw3BMz.CLv.CL3bCLxHyM3DSYsDiHfPiM8HBLh.BM2ziHwHBHzfSOh.iHfPSN8HRLh.RMvziH13BLz.CLv.yLwjCM3.CN4XSYsDiHfTSL8HBLh.RMxziH23RL0jSN4jiMvfSN4LSMyTVKwHBH0LSOhfiKwDSN4jSN2XiMyPSN2jiLk0RLh.RMzziHy3RLwjSN4jSL2.yLvLyLzTSYsDiHfTSM8HBLh.RM1ziHz3RM1.CLv.yLv.CMvbCMwTVKwHBH0bSOh.iHfTCN8HhMtTiLv.CLvDCLvDyL0fCLyTVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3hMz.CLv.SL1PSMvfCNxTVKwHBH1LSOhTSYsDiHfXCM8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5IzTS8UQrE1bz0xasHTXyMmHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1744,9 +1777,27 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1010.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdKUTVeQTXtMVYf7jbmEla.................LfsVMjLgz5....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhfiKvLyLxfCL4XCN1XiMvbyMk0RLh.xL8HhLtTSYsDiHfPSOhTiKvLSN4jSNzfSMvDSM3XSNk0RLh.RM8HBMtjSL4jSN4TyL4fSMxDCMxTVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziHx3BNv.CLv.yLvjSNzPSL0LSYsDiHfDCL8HBLh.RLwziHvHBHwHSOhDiHfDyL8HBLh.RLzziHvHBHwTSOhHiK3.CLv.CLvDSL4HCL4HSNk0RLh.RL1ziH43BMz.CLv.CL0biLx.CM0jSYsDiHfDyM8HRMtDiMv.CLvLiLzHCM4HiM3TVKwHBHwfSOhDiHfDSN8HBLh.hLvziHvHBHxDSOhbiKwjSN4jSN1jCLvTSM3PyMk0hLh.hLxziHvHBHxLSOhDiHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HBLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHy3BN2jSN4jiLx.yL2DiLzXSYsDiHfLiL8HBLh.xLyziHvHBHyPSOh.iHfLSM8HBLh.xL1ziHwHBHybSOh.iHfLCN8HRLh.xL4ziHvHBHz.SOhDiHfPSL8HRLtfCM4.iMxPCMxbyM4TCMwTVKwHBHzHSOh.iHfPyL8HRLh.BMzziHw3RNx.CLv.CLwXiM3jyLvDSYsDiHfPSM8HxMtHyM4jSN4fSMxDCNvPCNwTVKwHBHzXSOhbiK4jSN4jSN3HSLwfiMvXiMk0hLh.BM2ziHwHBHzfSOh.iHfPSN8HBLh.RMvziHvHBH0DSOh.iHfTiL8HxMtHyL4jSN4byMwDSL3DiMzTVKwHBH0LSOhDiHfTCM8HhLtLiLv.CLv.CNxHSMzPSLk0RLh.RM0ziHvHBH0XSOh.iHfTyM8HRLh.RM3ziHvHBH0jSOh.iHfXCL8HBLh.hMwziHvHBH1HSOhTSYsDiHfXyL8HRMk0RLh.hMzziH0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5sTQY8EQg41XkAxSxcVXtIxK9.."
+										"blob" : "1152.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBM0TeUDagMGcs7VKBE1byA...............P.QVMjLgrCA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhbiKyLyLwHSMzbiLvXCN2fyMk0RLh.xL8HxMtDCMxfSM2PiMxDiM2bCMk0hLh.BM8HRMtLSN4jSN4XSL3TyLvHyMyTVKwHBH0ziH0TVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziH23xLx.CLv.SMxjiL3jiLzXSYsDiHfDCL8HhMt.yM4jSN4fCLzPSN1biM0TVKwHBHwDSOh.iHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HBLh.RL1ziHvHBHwbSOhfiKv.CLv.SMvLiM0jiLzfCMk0hLh.RL3ziHwHBHwjSOh.iHfHCL8HBLh.hLwziH03hLv.CLv.SLvbiL3fyL1DSYsHiHfHiL8HhMtPCLv.CLvLCLyjCNyXCN3TVKxHBHxLSOh.iHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HRLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HRLh.xLzziHwHBHyTSOhDiHfLiM8HRLh.xL2ziH23xMx.CLv.SLzbCNwjSMwjSYsDiHfLCN8HRLh.xL4ziHvHBHz.SOhjiK4TSN4jSN4DCN4LyM1fyLk0RLh.BMwziHwHBHzHSOhbiKxfCLv.CLzPCNxHiM4HSNk0RLh.BMyziHvHBHzPSOhDiK4TSN4jSN4PCN2PCLv.SMk0RLh.BM0ziHw3BMz.CLv.CL3bCLxHyM3DSYsDiHfPiM8HBLh.BM2ziHwHBHzfSOh.iHfPSN8HRLh.RMvziH13BLz.CLv.yLwjCM3.CN4XSYsDiHfTSL8HBLh.RMxziH23RL0jSN4jiMvfSN4LSMyTVKwHBH0LSOhfiKwDSN4jSN2XiMyPSN2jiLk0RLh.RMzziHy3RLwjSN4jSL2.yLvLyLzTSYsDiHfTSM8HBLh.RM1ziHz3RM1.CLv.yLv.CMvbCMwTVKwHBH0bSOh.iHfTCN8HhMtTiLv.CLvDCLvDyL0fCLyTVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3hMz.CLv.SL1PSMvfCNxTVKwHBH1LSOhTSYsDiHfXCM8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5IzTS8UQrE1bz0xasHTXyMmHu3C."
 									}
 ,
+									"fileref" : 									{
+										"name" : "OB-Xd",
+										"filename" : "OB-Xd_20201103.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "5ceb4786bcefb493bb310bdfd067facf"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "OB-Xd",
+									"origin" : "Obxd.vstinfo",
+									"type" : "VST",
+									"subtype" : "Instrument",
+									"embed" : 0,
 									"fileref" : 									{
 										"name" : "OB-Xd",
 										"filename" : "OB-Xd.maxsnap",
@@ -1793,7 +1844,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "1010.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdKUTVeQTXtMVYf7jbmEla.................LfsVMjLgz5....ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhfiKvLyLxfCL4XCN1XiMvbyMk0RLh.xL8HhLtTSYsDiHfPSOhTiKvLSN4jSNzfSMvDSM3XSNk0RLh.RM8HBMtjSL4jSN4TyL4fSMxDCMxTVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziHx3BNv.CLv.yLvjSNzPSL0LSYsDiHfDCL8HBLh.RLwziHvHBHwHSOhDiHfDyL8HBLh.RLzziHvHBHwTSOhHiK3.CLv.CLvDSL4HCL4HSNk0RLh.RL1ziH43BMz.CLv.CL0biLx.CM0jSYsDiHfDyM8HRMtDiMv.CLvLiLzHCM4HiM3TVKwHBHwfSOhDiHfDSN8HBLh.hLvziHvHBHxDSOhbiKwjSN4jSN1jCLvTSM3PyMk0hLh.hLxziHvHBHxLSOhDiHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HBLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHy3BN2jSN4jiLx.yL2DiLzXSYsDiHfLiL8HBLh.xLyziHvHBHyPSOh.iHfLSM8HBLh.xL1ziHwHBHybSOh.iHfLCN8HRLh.xL4ziHvHBHz.SOhDiHfPSL8HRLtfCM4.iMxPCMxbyM4TCMwTVKwHBHzHSOh.iHfPyL8HRLh.BMzziHw3RNx.CLv.CLwXiM3jyLvDSYsDiHfPSM8HxMtHyM4jSN4fSMxDCNvPCNwTVKwHBHzXSOhbiK4jSN4jSN3HSLwfiMvXiMk0hLh.BM2ziHwHBHzfSOh.iHfPSN8HBLh.RMvziHvHBH0DSOh.iHfTiL8HxMtHyL4jSN4byMwDSL3DiMzTVKwHBH0LSOhDiHfTCM8HhLtLiLv.CLv.CNxHSMzPSLk0RLh.RM0ziHvHBH0XSOh.iHfTyM8HRLh.RM3ziHvHBH0jSOh.iHfXCL8HBLh.hMwziHvHBH1HSOhTSYsDiHfXyL8HRMk0RLh.hMzziH0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5sTQY8EQg41XkAxSxcVXtIxK9.."
+									"blob" : "1152.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBM0TeUDagMGcs7VKBE1byA...............P.QVMjLgrCA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhbiKyLyLwHSMzbiLvXCN2fyMk0RLh.xL8HxMtDCMxfSM2PiMxDiM2bCMk0hLh.BM8HRMtLSN4jSN4XSL3TyLvHyMyTVKwHBH0ziH0TVKwHBH1ziHvHBH2ziHvHBH3ziHwHBH4ziH23xLx.CLv.SMxjiL3jiLzXSYsDiHfDCL8HhMt.yM4jSN4fCLzPSN1biM0TVKwHBHwDSOh.iHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HBLh.RL1ziHvHBHwbSOhfiKv.CLv.SMvLiM0jiLzfCMk0hLh.RL3ziHwHBHwjSOh.iHfHCL8HBLh.hLwziH03hLv.CLv.SLvbiL3fyL1DSYsHiHfHiL8HhMtPCLv.CLvLCLyjCNyXCN3TVKxHBHxLSOh.iHfHCM8HRLh.hL0ziHvHBHxXSOh.iHfHyM8HRLh.hL3ziHvHBHxjSOh.iHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HRLh.xLzziHwHBHyTSOhDiHfLiM8HRLh.xL2ziH23xMx.CLv.SLzbCNwjSMwjSYsDiHfLCN8HRLh.xL4ziHvHBHz.SOhjiK4TSN4jSN4DCN4LyM1fyLk0RLh.BMwziHwHBHzHSOhbiKxfCLv.CLzPCNxHiM4HSNk0RLh.BMyziHvHBHzPSOhDiK4TSN4jSN4PCN2PCLv.SMk0RLh.BM0ziHw3BMz.CLv.CL3bCLxHyM3DSYsDiHfPiM8HBLh.BM2ziHwHBHzfSOh.iHfPSN8HRLh.RMvziH13BLz.CLv.yLwjCM3.CN4XSYsDiHfTSL8HBLh.RMxziH23RL0jSN4jiMvfSN4LSMyTVKwHBH0LSOhfiKwDSN4jSN2XiMyPSN2jiLk0RLh.RMzziHy3RLwjSN4jSL2.yLvLyLzTSYsDiHfTSM8HBLh.RM1ziHz3RM1.CLv.yLv.CMvbCMwTVKwHBH0bSOh.iHfTCN8HhMtTiLv.CLvDCLvDyL0fCLyTVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3hMz.CLv.SL1PSMvfCNxTVKwHBH1LSOhTSYsDiHfXCM8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1TSOhTSYsDiHfXiM8HRMk0RLh.hM2ziH0TVKwHBH1fSOhTSYsDiHfXSN8HRMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5IzTS8UQrE1bz0xasHTXyMmHu3C."
 								}
 
 							}
@@ -1815,7 +1866,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "1277.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdBUDSeQTZ2klakAxQrE1byU1b.............PPvVMjLgfKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03BLz.CLv.CL3DCL1HyLwbSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HxLtDiLv.CLv.iMzLyMy.SL1TVKwHBHwDSOhDiHfDiL8HRLh.RLyziHvHBHwPSOh.iHfDSM8HhLtbSM4jSN4jyLvfSM3XSLxTVKwHBHwXSOhXiKwTSN4jSNybCL0bCM4TSLk0RLh.RL2ziHw3BMz.CLv.SMyPCL0biMwbSYsDiHfDCN8HBLh.RL4ziHvHBHx.SOh.iHfHSL8HhLtfCLv.CLwHCLz.SLyfiLzTVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHwHBHxPSOhDiHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH03hMv.CLv.SMzTyL3HSMk0hLh.xLvziHvHBHyDSOhLiK4DSN4jSN3jyMzfCLvDSLk0RLh.xLxziHvHBHyLSOh.iHfLCM8HBLh.xL0ziHvHBHyXSOh.iHfLyM8HBMtXCNv.CLvHCM0TyMwDyL1TVKwHBHyfSOh.iHfLSN8HBLh.BMvziH43BMz.CLv.CL0biLx.CM0jSYsDiHfPSL8HRNtjSN4jSN2jSLyfyL2PyLyTVKxHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOhbiK1HyMyPyL0LSMzHyLxbSNk0RLh.BM1ziHwHBHzbSOhDiHfPCN8HRLh.BM4ziHvHBH0.SOhjiKwXCLv.CLvfSM3LCL1fCNk0RLh.RMwziHw3RN0HSL3biL1jSNxXCL2DSYsDiHfTiL8HBNtjSL4jSN4TSN4PSM1bCN2TVKwHBH0LSOhDiHfTCM8HxMtLSL4jSN4LyL2DSN1LSMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiK1fCLv.CL4.SLxHiLxHSNk0RLh.RM2ziHy3RN4jSN4jSL1TSMyPSN2LSYsDiHfTCN8HRLh.RM4ziH33BNv.CLv.iM4byL2PyLzPSYsHiHfXCL8HBNt.CLv.CLvTiM1HCMzDiL0TVKxHBH1DSOh.iHfXiL8HhMtLSM4jSN4byM0fCN1TyL1TVKwHBH1LSOhTiK2DSN4jSN1bCL4fiLyXSLk0RLh.hMzziH03RL0jSN4jyMxfiLvHCNxTVKwHBH1TSOhPiK0XCLv.CLy.CLz.yMzDSYsDiHfXiM8HxLtbiMv.CLvDiM4HyM2DSNwTVKwHBH1bSOhPiK1.CLv.CLvfyLzPiM0.yLk0RLh.hM3ziH0TVKwHBH1jSOhTiK2jSN4jSN3LyLw.iM4jSMk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5ITQL8EQocWZtUFHGwVXyMWYyIxK9.."
+									"blob" : "1276.CMlaKA....fQPMDZ....A7jX3QF.AT.......JjdPwzReQTYrk1XgQWYffTXxAG..............P.vVMjLgbKA...ODEFcy8VctQ1bf.SOh.iHfDSOh.iHfHSOhDiHfLSOhHiK0TVKwHBHzziH03hL2jSN4jSN2DyL3jyM2DSYsDiHfTSOhbiK0TVKwHBH1ziHvHBH2ziHwHBH3ziHwHBH4ziH13BLv.CLv.iLyfCMwfSM2jSYsDiHfDCL8HhMtHCLv.CLv.CM2XCNybSL1TVKwHBHwDSOhHiKvPCM0LSLz.CM4biLvbiMk0RLh.RLxziHwHBHwLSOh.iHfDCM8HBLh.RL0ziHvHBHwXSOhHiKyjSN4jCN0LCL2PSM0.iMk0hLh.RL2ziHy3hMz.CLv.SMxHSLyXiM3fSYsDiHfDCN8HRLh.RL4ziHvHBHx.SOh.iHfHSL8HBNt.CLv.CLwLSLwLCLxDCN0TVKxHBHxHSOhXiKz.CLv.CLy.yL4fyL1fCNk0hLh.hLyziHvHBHxPSOh.iHfHSM8HBLh.hL1ziHvHBHxbSOh.iHfHCN8HBLh.hL4ziH43hMv.CLv.CL3LCMzXSMvLSYsHiHfLCL8HBLh.xLwziHvHBHyHSOh.iHfLyL8HBLh.xLzziHwHBHyTSOhDiHfLiM8HBLh.xL2ziHx3RMx.CLv.yLyfSM0PyL3HSYsDiHfLCN8HBLh.xL4ziHvHBHz.SOhDiHfPSL8HhMtLSM4jSN4DyM4fCMv.CN3TVKwHBHzHSOh.iHfPyL8HBLh.BMzziHvHBHzTSOh.iHfPiM8HRLtjSN4jSN4fCNvbSNvbSLk0RLh.BM2ziHwHBHzfSOhDiHfPSN8HBLh.RMvziH03BM3.CLv.yL2XyMvDyL0TSYsDiHfTSL8HxLtjSN4jSN4jSLvTSNy.yLyTVKxHBH0HSOhbiK0DSN4jSN2PiL0.yM4LSMk0RLh.RMyziHvHBH0PSOhLiK2PSMzXCNxTCN3TyM2HyMk0RLh.RM0ziHw3RL4jSN4jyMyDCLyPCLzTVKxHBH0XSOhLiKx.CLv.SLwHCL0XyMyHiLk0RLh.RM2ziHy3xL0jSN4jyL0fiM0PCLxHSYsDiHfTCN8HxMtTSN4jSN4jCLzXyLxTiM3TVKwHBH0jSOhfiK3.CLv.CL1jyMybCMyPCMk0hLh.hMvziH33BLv.CLv.SM1XiLzPSLxTSYsHiHfXSL8HBLh.hMxziHz3BL2jSN4jSNxLyMvXCL0TSYsDiHfXyL8HBMtLSN4jSN4jyM1DSM3DCMxTVKwHBH1PSOhPiKzfCLv.CLwLCNxfiL2biMk0RLh.hM0ziHz3BNyjSN4jSN2LyM2LSN0XSYsDiHfXiM8HRMtDSM4jSN4biL3HCLxfiLk0RLh.hM2ziH03xLx.CLv.CL0HCM0HCL3bSYsDiHfXCN8HRMtXCMv.CLvDCLzjCLzDyM0TVKwHBH1jSOhTiK3bSN4jSN4jSMxLSL1HCNk0RLh.xMvziHvHBH2DSOhDiHfbiL8HBLh.xMyziHvHBH2PSOh.iHfbSM8HBLh.xM1ziHvHBH2bSOh.iHfbCN8HxLt.CLv.CLvDSL4HCL4HSNk0RLh.xM4ziHvHBH18VZiU1PuUmaz0iHyHiHf.mbuclbg0lSg0VY8HhP5AESK8EQkwVZiEFckABRgIGbh7hO.."
 								}
 
 							}
@@ -1823,7 +1874,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u858017056"
+					"varname" : "u664009342"
 				}
 
 			}
@@ -2030,370 +2081,491 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 2,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-148::obj-190::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
-			"obj-1::obj-62::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-43::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
-			"obj-1::obj-190::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
-			"obj-1::obj-43::obj-32" : [ "off[1]", "off", 0 ],
-			"obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
-			"obj-1::obj-76" : [ "note_dur_wrapper[1]", "note_dur_wrapper", 0 ],
-			"obj-148::obj-190::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
-			"obj-148::obj-60::obj-142" : [ "Channel[3]", "Channel", 0 ],
-			"obj-148::obj-77" : [ "note_rate_wrapper[2]", "note_rate_wrapper", 0 ],
-			"obj-1::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-43::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
-			"obj-148::obj-67::obj-22" : [ "chord_select_wrapper[1]", "chord_select_wrapper", 0 ],
-			"obj-148::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
-			"obj-1::obj-278" : [ "NoteProbLock[1]", "NoteProbLock", 0 ],
-			"obj-1::obj-30" : [ "NoteLength[1]", "NoteLength", 0 ],
-			"obj-148::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[5]", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-62::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-1::obj-45" : [ "preset_selector", "preset_selector", 0 ],
-			"obj-148::obj-76" : [ "note_dur_wrapper[2]", "note_dur_wrapper", 0 ],
-			"obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[3]", "Hard Sync Toggle", 0 ],
-			"obj-148::obj-8" : [ "volume[2]", "volume", 0 ],
-			"obj-148::obj-60::obj-9" : [ "live.text[5]", "live.text", 0 ],
-			"obj-148::obj-190::obj-30" : [ "randomize_percentage[2]", "randomize_percentage", 0 ],
-			"obj-148::obj-43::obj-32" : [ "off[3]", "off", 0 ],
-			"obj-1::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-43::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
-			"obj-148::obj-67::obj-5" : [ "chords_on[1]", "chords_on", 0 ],
-			"obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
-			"obj-1::obj-43::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-12" : [ "vst~[3]", "vst~[1]", 0 ],
-			"obj-1::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
-			"obj-148::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
-			"obj-148::obj-45" : [ "preset_selector[1]", "preset_selector", 0 ],
+			"obj-148::obj-105::obj-112::obj-107" : [ "Delta_Channel_#[5]", "Delta Channel #", 0 ],
+			"obj-148::obj-105::obj-112::obj-108" : [ "Hard_Sync_Threshold[5]", "Hard Sync Threshold", 0 ],
+			"obj-148::obj-105::obj-112::obj-11" : [ "delta_channel_wrapper[9]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-105::obj-112::obj-9" : [ "Hard_Sync_Toggle[5]", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-105::obj-29::obj-22" : [ "quantize_rate_wrapper[5]", "quantize_rate_wrapper", 0 ],
+			"obj-148::obj-105::obj-29::obj-23" : [ "manual_rate_wrapper[5]", "manual_rate_wrapper", 0 ],
+			"obj-148::obj-105::obj-29::obj-9" : [ "Manual Rate[5]", "Manual Rate", 0 ],
+			"obj-148::obj-105::obj-29::obj-97" : [ "Quantized_Rate[5]", "Quantized Rate", 0 ],
+			"obj-148::obj-105::obj-30" : [ "randomize_percentage[5]", "randomize_percentage", 0 ],
+			"obj-148::obj-105::obj-32" : [ "off[5]", "off", 0 ],
+			"obj-148::obj-105::obj-47" : [ "modulation_indices[5]", "modulation_indices", 0 ],
+			"obj-148::obj-105::obj-55" : [ "live.text[10]", "live.text[1]", 0 ],
+			"obj-148::obj-105::obj-67" : [ "min_max_offset_ui[5]", "min_max_offset_ui", 0 ],
 			"obj-148::obj-17" : [ "columns[2]", "columns", 0 ],
-			"obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
-			"obj-1::obj-67::obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
-			"obj-148::obj-42" : [ "Tempo[3]", "Tempo", 0 ],
-			"obj-148::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[4]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[3]", "Delta Channel #", 0 ],
+			"obj-148::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[3]", "Hard Sync Threshold", 0 ],
+			"obj-148::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper[5]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[3]", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
+			"obj-148::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
+			"obj-148::obj-190::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
+			"obj-148::obj-190::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized Rate", 0 ],
+			"obj-148::obj-190::obj-30" : [ "randomize_percentage[3]", "randomize_percentage", 0 ],
+			"obj-148::obj-190::obj-32" : [ "off[3]", "off", 0 ],
+			"obj-148::obj-190::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
+			"obj-148::obj-190::obj-55" : [ "live.text[9]", "live.text[1]", 0 ],
+			"obj-148::obj-190::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
 			"obj-148::obj-2" : [ "midi_notes[2]", "midi_notes", 0 ],
-			"obj-148::obj-62::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
-			"obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
-			"obj-1::obj-28" : [ "note_offset", "note_offset", 0 ],
-			"obj-148::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[3]", "Delta Channel #", 0 ],
-			"obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
-			"obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-60::obj-9" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-43::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
-			"obj-148::obj-190::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized Rate", 0 ],
-			"obj-148::obj-190::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
-			"obj-1::obj-62::obj-23" : [ "jam_amount[67]", "jam_amount", 0 ],
-			"obj-1::obj-17" : [ "columns[1]", "columns", 0 ],
-			"obj-148::obj-43::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
 			"obj-148::obj-278" : [ "NoteProbLock[2]", "NoteProbLock", 0 ],
-			"obj-1::obj-67::obj-5" : [ "chords_on", "chords_on", 0 ],
-			"obj-148::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
-			"obj-148::obj-30" : [ "NoteLength[2]", "NoteLength", 0 ],
-			"obj-1::obj-77" : [ "note_rate_wrapper[1]", "note_rate_wrapper", 0 ],
-			"obj-148::obj-41" : [ "ProbProbLock[2]", "ProbProbLock", 0 ],
-			"obj-1::obj-60::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
-			"obj-1::obj-190::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
-			"obj-148::obj-43::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
-			"obj-1::obj-42" : [ "Tempo[2]", "Tempo", 0 ],
-			"obj-148::obj-62::obj-13" : [ "delta_channel_wrapper[6]", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-60::obj-13" : [ "delta_channel_wrapper[7]", "delta_channel_wrapper", 0 ],
-			"obj-1::obj-67::obj-4" : [ "chord", "chord", 0 ],
-			"obj-148::obj-43::obj-67" : [ "min_max_offset_ui[3]", "min_max_offset_ui", 0 ],
-			"obj-148::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[3]", "Hard Sync Threshold", 0 ],
-			"obj-148::obj-62::obj-142" : [ "Channel[2]", "Channel", 0 ],
-			"obj-1::obj-8" : [ "volume[1]", "volume", 0 ],
-			"obj-148::obj-357" : [ "SubsetCtrl[1]", "SubsetCtrl", 0 ],
-			"obj-1::obj-43::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized Rate", 0 ],
-			"obj-1::obj-62::obj-12" : [ "ratecontrol[156]", "ratecontrol", 0 ],
-			"obj-1::obj-60::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
-			"obj-148::obj-67::obj-4" : [ "chord[1]", "chord", 0 ],
-			"obj-148::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
-			"obj-148::obj-190::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
-			"obj-148::obj-60::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
-			"obj-1::obj-62::obj-9" : [ "live.text[120]", "live.text", 0 ],
-			"obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-62::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
-			"obj-1::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
-			"obj-148::obj-43::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized Rate", 0 ],
-			"obj-148::obj-43::obj-30" : [ "randomize_percentage[3]", "randomize_percentage", 0 ],
-			"obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
-			"obj-148::obj-190::obj-32" : [ "off[2]", "off", 0 ],
-			"obj-148::obj-60::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
-			"obj-1::obj-43::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
-			"obj-1::obj-62::obj-142" : [ "Channel", "Channel", 0 ],
-			"obj-6" : [ "vst~[4]", "vst~", 0 ],
 			"obj-148::obj-28" : [ "note_offset[1]", "note_offset", 0 ],
-			"obj-1::obj-190::obj-55" : [ "live.text[8]", "live.text[1]", 0 ],
-			"obj-1::obj-190::obj-32" : [ "off", "off", 0 ],
-			"obj-148::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
-			"obj-1::obj-60::obj-142" : [ "Channel[1]", "Channel", 0 ],
-			"obj-148::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
+			"obj-148::obj-357" : [ "SubsetCtrl[1]", "SubsetCtrl", 0 ],
+			"obj-148::obj-41" : [ "ProbProbLock[2]", "ProbProbLock", 0 ],
+			"obj-148::obj-42" : [ "Tempo[3]", "Tempo", 0 ],
+			"obj-148::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[4]", "Delta Channel #", 0 ],
+			"obj-148::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[4]", "Hard Sync Threshold", 0 ],
+			"obj-148::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[6]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[4]", "Hard Sync Toggle", 0 ],
+			"obj-148::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
+			"obj-148::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
+			"obj-148::obj-43::obj-29::obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
+			"obj-148::obj-43::obj-29::obj-97" : [ "Quantized_Rate[4]", "Quantized Rate", 0 ],
+			"obj-148::obj-43::obj-30" : [ "randomize_percentage[4]", "randomize_percentage", 0 ],
+			"obj-148::obj-43::obj-32" : [ "off[4]", "off", 0 ],
+			"obj-148::obj-43::obj-47" : [ "modulation_indices[4]", "modulation_indices", 0 ],
+			"obj-148::obj-43::obj-55" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-148::obj-43::obj-67" : [ "min_max_offset_ui[4]", "min_max_offset_ui", 0 ],
+			"obj-148::obj-45" : [ "preset_selector[1]", "preset_selector", 0 ],
+			"obj-148::obj-46" : [ "invert[1]", "invert", 0 ],
+			"obj-148::obj-54" : [ "LengthProbLock[1]", "LengthProbLock", 0 ],
+			"obj-148::obj-60::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
+			"obj-148::obj-60::obj-13" : [ "delta_channel_wrapper[8]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-60::obj-142" : [ "Channel[3]", "Channel", 0 ],
+			"obj-148::obj-60::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
+			"obj-148::obj-60::obj-9" : [ "live.text[6]", "live.text", 0 ],
+			"obj-148::obj-62::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
+			"obj-148::obj-62::obj-13" : [ "delta_channel_wrapper[7]", "delta_channel_wrapper", 0 ],
+			"obj-148::obj-62::obj-142" : [ "Channel[2]", "Channel", 0 ],
+			"obj-148::obj-62::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
+			"obj-148::obj-62::obj-9" : [ "live.text[5]", "live.text", 0 ],
+			"obj-148::obj-67::obj-22" : [ "chord_select_wrapper[1]", "chord_select_wrapper", 0 ],
+			"obj-148::obj-67::obj-4" : [ "chord[1]", "chord", 0 ],
+			"obj-148::obj-67::obj-5" : [ "chords_on[1]", "chords_on", 0 ],
+			"obj-148::obj-77" : [ "note_rate_wrapper[2]", "note_rate_wrapper", 0 ],
+			"obj-148::obj-79" : [ "note_length[1]", "note_length", 0 ],
+			"obj-148::obj-8" : [ "volume[2]", "volume", 0 ],
+			"obj-1::obj-105::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
+			"obj-1::obj-105::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-105::obj-112::obj-11" : [ "delta_channel_wrapper[4]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-105::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-105::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-105::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-105::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
+			"obj-1::obj-105::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized Rate", 0 ],
+			"obj-1::obj-105::obj-30" : [ "randomize_percentage[2]", "randomize_percentage", 0 ],
+			"obj-1::obj-105::obj-32" : [ "off[2]", "off", 0 ],
+			"obj-1::obj-105::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
+			"obj-1::obj-105::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
+			"obj-1::obj-105::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-17" : [ "columns[1]", "columns", 0 ],
+			"obj-1::obj-190::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
+			"obj-1::obj-190::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-190::obj-112::obj-11" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-190::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-190::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-190::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-1::obj-190::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
 			"obj-1::obj-190::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
+			"obj-1::obj-190::obj-32" : [ "off", "off", 0 ],
+			"obj-1::obj-190::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-1::obj-190::obj-55" : [ "live.text[8]", "live.text[1]", 0 ],
+			"obj-1::obj-190::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-2" : [ "midi_notes[1]", "midi_notes", 0 ],
+			"obj-1::obj-278" : [ "NoteProbLock[1]", "NoteProbLock", 0 ],
+			"obj-1::obj-28" : [ "note_offset", "note_offset", 0 ],
 			"obj-1::obj-357" : [ "SubsetCtrl[5]", "SubsetCtrl", 0 ],
 			"obj-1::obj-41" : [ "ProbProbLock[1]", "ProbProbLock", 0 ],
-			"obj-1::obj-2" : [ "midi_notes[1]", "midi_notes", 0 ],
-			"obj-148::obj-190::obj-55" : [ "live.text[9]", "live.text[1]", 0 ],
+			"obj-1::obj-42" : [ "Tempo[2]", "Tempo", 0 ],
+			"obj-1::obj-43::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
+			"obj-1::obj-43::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
+			"obj-1::obj-43::obj-112::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-43::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
+			"obj-1::obj-43::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
+			"obj-1::obj-43::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
+			"obj-1::obj-43::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized Rate", 0 ],
+			"obj-1::obj-43::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
+			"obj-1::obj-43::obj-32" : [ "off[1]", "off", 0 ],
+			"obj-1::obj-43::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
+			"obj-1::obj-43::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-1::obj-43::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
+			"obj-1::obj-45" : [ "preset_selector", "preset_selector", 0 ],
+			"obj-1::obj-46" : [ "invert", "invert", 0 ],
+			"obj-1::obj-54" : [ "LengthProbLock", "LengthProbLock", 0 ],
+			"obj-1::obj-60::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-1::obj-60::obj-13" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-60::obj-142" : [ "Channel[1]", "Channel", 0 ],
+			"obj-1::obj-60::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
+			"obj-1::obj-60::obj-9" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-62::obj-12" : [ "ratecontrol[156]", "ratecontrol", 0 ],
+			"obj-1::obj-62::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
+			"obj-1::obj-62::obj-142" : [ "Channel", "Channel", 0 ],
+			"obj-1::obj-62::obj-23" : [ "jam_amount[67]", "jam_amount", 0 ],
+			"obj-1::obj-62::obj-9" : [ "live.text[120]", "live.text", 0 ],
+			"obj-1::obj-67::obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
+			"obj-1::obj-67::obj-4" : [ "chord", "chord", 0 ],
+			"obj-1::obj-67::obj-5" : [ "chords_on", "chords_on", 0 ],
+			"obj-1::obj-77" : [ "note_rate_wrapper[1]", "note_rate_wrapper", 0 ],
+			"obj-1::obj-79" : [ "note_length", "note_length", 0 ],
+			"obj-1::obj-8" : [ "volume[1]", "volume", 0 ],
+			"obj-6" : [ "vst~[4]", "vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-148::obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[2]"
+				"obj-148::obj-105::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[5]"
 				}
 ,
-				"obj-1::obj-43::obj-32" : 				{
-					"parameter_longname" : "off[1]"
+				"obj-148::obj-105::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[5]"
 				}
 ,
-				"obj-1::obj-43::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[1]"
+				"obj-148::obj-105::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[5]"
 				}
 ,
-				"obj-148::obj-62::obj-9" : 				{
-					"parameter_longname" : "live.text[4]"
+				"obj-148::obj-105::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[5]"
 				}
 ,
-				"obj-148::obj-43::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[3]"
+				"obj-148::obj-105::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[5]"
 				}
 ,
-				"obj-148::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[5]"
+				"obj-148::obj-105::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[5]"
 				}
 ,
-				"obj-148::obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[2]"
+				"obj-148::obj-105::obj-32" : 				{
+					"parameter_longname" : "off[5]"
 				}
 ,
-				"obj-148::obj-43::obj-32" : 				{
-					"parameter_longname" : "off[3]"
-				}
-,
-				"obj-148::obj-67::obj-5" : 				{
-					"parameter_longname" : "chords_on[1]"
-				}
-,
-				"obj-1::obj-43::obj-55" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-1::obj-43::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[1]"
+				"obj-148::obj-105::obj-55" : 				{
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-148::obj-17" : 				{
 					"parameter_longname" : "columns[2]"
 				}
 ,
-				"obj-148::obj-42" : 				{
-					"parameter_longname" : "Tempo[3]"
-				}
-,
-				"obj-1::obj-28" : 				{
-					"parameter_longname" : "note_offset",
-					"parameter_shortname" : "note_offset",
-					"parameter_range" : [ -24, 24 ],
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_type" : 1,
-					"parameter_unitstyle" : 7,
-					"parameter_initial" : 0.0,
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-148::obj-43::obj-112::obj-107" : 				{
+				"obj-148::obj-190::obj-112::obj-107" : 				{
 					"parameter_longname" : "Delta_Channel_#[3]"
 				}
 ,
-				"obj-1::obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-1::obj-43::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[1]"
-				}
-,
-				"obj-148::obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[2]"
-				}
-,
-				"obj-148::obj-43::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[3]"
-				}
-,
-				"obj-148::obj-190::obj-112::obj-9" : 				{
-					"parameter_longname" : "Hard_Sync_Toggle[2]"
-				}
-,
-				"obj-148::obj-30" : 				{
-					"parameter_longname" : "NoteLength[2]"
-				}
-,
-				"obj-148::obj-43::obj-55" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-148::obj-43::obj-112::obj-108" : 				{
+				"obj-148::obj-190::obj-112::obj-108" : 				{
 					"parameter_longname" : "Hard_Sync_Threshold[3]"
 				}
 ,
-				"obj-1::obj-43::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[1]"
+				"obj-148::obj-190::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[3]"
 				}
 ,
-				"obj-148::obj-67::obj-4" : 				{
-					"parameter_longname" : "chord[1]"
+				"obj-148::obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[3]"
 				}
 ,
-				"obj-148::obj-190::obj-112::obj-107" : 				{
-					"parameter_longname" : "Delta_Channel_#[2]"
-				}
-,
-				"obj-148::obj-43::obj-29::obj-97" : 				{
+				"obj-148::obj-190::obj-29::obj-97" : 				{
 					"parameter_longname" : "Quantized_Rate[3]"
 				}
 ,
-				"obj-148::obj-43::obj-30" : 				{
+				"obj-148::obj-190::obj-30" : 				{
 					"parameter_longname" : "randomize_percentage[3]"
 				}
 ,
 				"obj-148::obj-190::obj-32" : 				{
-					"parameter_longname" : "off[2]"
+					"parameter_longname" : "off[3]"
 				}
 ,
-				"obj-1::obj-43::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[1]"
+				"obj-148::obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[9]"
 				}
 ,
 				"obj-148::obj-28" : 				{
 					"parameter_longname" : "note_offset[1]"
 				}
 ,
-				"obj-148::obj-190::obj-112::obj-108" : 				{
+				"obj-148::obj-42" : 				{
+					"parameter_longname" : "Tempo[3]"
+				}
+,
+				"obj-148::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[4]"
+				}
+,
+				"obj-148::obj-43::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[4]"
+				}
+,
+				"obj-148::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[4]"
+				}
+,
+				"obj-148::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[4]"
+				}
+,
+				"obj-148::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[4]"
+				}
+,
+				"obj-148::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[4]"
+				}
+,
+				"obj-148::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[4]"
+				}
+,
+				"obj-148::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-148::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-148::obj-62::obj-9" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-148::obj-67::obj-4" : 				{
+					"parameter_longname" : "chord[1]"
+				}
+,
+				"obj-148::obj-67::obj-5" : 				{
+					"parameter_longname" : "chords_on[1]"
+				}
+,
+				"obj-1::obj-105::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[2]"
+				}
+,
+				"obj-1::obj-105::obj-112::obj-108" : 				{
 					"parameter_longname" : "Hard_Sync_Threshold[2]"
+				}
+,
+				"obj-1::obj-105::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[2]"
+				}
+,
+				"obj-1::obj-105::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[2]"
+				}
+,
+				"obj-1::obj-105::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[2]"
+				}
+,
+				"obj-1::obj-105::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[2]"
+				}
+,
+				"obj-1::obj-105::obj-32" : 				{
+					"parameter_longname" : "off[2]"
+				}
+,
+				"obj-1::obj-105::obj-55" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-17" : 				{
+					"parameter_longname" : "columns[1]"
+				}
+,
+				"obj-1::obj-28" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1,
+					"parameter_invisible" : 0,
+					"parameter_longname" : "note_offset",
+					"parameter_modmode" : 0,
+					"parameter_range" : [ -24, 24 ],
+					"parameter_shortname" : "note_offset",
+					"parameter_type" : 1,
+					"parameter_unitstyle" : 7
+				}
+,
+				"obj-1::obj-42" : 				{
+					"parameter_longname" : "Tempo[2]"
+				}
+,
+				"obj-1::obj-43::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[1]"
 				}
 ,
 				"obj-1::obj-43::obj-112::obj-108" : 				{
 					"parameter_longname" : "Hard_Sync_Threshold[1]"
 				}
 ,
-				"obj-148::obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[9]"
+				"obj-1::obj-43::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[1]"
+				}
+,
+				"obj-1::obj-43::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[1]"
+				}
+,
+				"obj-1::obj-43::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[1]"
+				}
+,
+				"obj-1::obj-43::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[1]"
+				}
+,
+				"obj-1::obj-43::obj-32" : 				{
+					"parameter_longname" : "off[1]"
+				}
+,
+				"obj-1::obj-43::obj-55" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_midi_seq.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_scale_control_no_ui.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "note_in_scale2.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_multislider_markov_ui_2019.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multislider_jam.js",
-				"bootpath" : "~/nnirror/code",
+				"bootpath" : "~/12c/nnirror/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "metro_time_select.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hard_sync_via_delta.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta_receive_mains_out.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta_select_ui.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher_name.js",
-				"bootpath" : "~/nnirror/code",
+				"bootpath" : "~/12c/nnirror/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "note_to_chord.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m.chords.js",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "OB-Xd_20201103.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OB-Xd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "12c_config.maxpat",
-				"bootpath" : "~/nnirror/patchers",
+				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "strip_config_dir.js",
-				"bootpath" : "~/nnirror/code",
+				"bootpath" : "~/12c/nnirror/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -2429,20 +2601,33 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"toggle" : 				{
+				"newobj" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"newobj" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+				"message" : 				{
 					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
 				}
 ,
 				"default" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2453,28 +2638,15 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"message" : 				{
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2547,8 +2719,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
