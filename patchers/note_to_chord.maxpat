@@ -809,7 +809,7 @@
 				"box" : 				{
 					"comment" : "(int 0-3) inversion coefficient",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -864,7 +864,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u973004888"
+					"varname" : "u283002828"
 				}
 
 			}
@@ -890,7 +890,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 778.0, 577.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.582268297672272, -0.215182304382324, 59.753461420536041, 15.0 ],
+					"presentation_rect" : [ -0.582268297672272, -0.215182304382324, 57.050758898258209, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "M", "M69", "M7sus4", "M9", "M9sus4", "Maj7", "Msus4", "madd9", "sus24", "Msus2", "o7", "o7M7", "oM7" ],
@@ -946,7 +946,7 @@
 				"box" : 				{
 					"comment" : "(int) midi notes in chord, via zl iter",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -958,11 +958,11 @@
 				"box" : 				{
 					"comment" : "(int) midi note in",
 					"id" : "obj-36",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 739.0, 536.303790330886841, 30.0, 30.0 ]
 				}
 
@@ -1062,8 +1062,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1083,7 +1081,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 667.0, 703.5, 102.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.582268297672272, 12.355065405368805, 59.753461420536041, 20.822118759155273 ],
+					"presentation_rect" : [ -0.582268297672272, 12.355065405368805, 57.050758898258209, 12.382487744092941 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1266,26 +1264,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-22" : [ "chord_select_wrapper", "chord_select_wrapper", 0 ],
-			"obj-4" : [ "chord", "chord", 0 ],
-			"obj-5" : [ "chords_on", "chords_on", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "n4m.chords.js",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "light",
 				"default" : 				{
