@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -217.0, 82.0, 1463.0, 1004.0 ],
+		"rect" : [ 34.0, 82.0, 1463.0, 1004.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -151,7 +151,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 143.039362132549286, 37.0, 22.0 ],
+									"patching_rect" : [ 50.0, 143.039362132549286, 54.000001147064211, 22.0 ],
 									"text" : "zl nth"
 								}
 
@@ -263,7 +263,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.439695147064214, 463.0, 30.0, 30.0 ]
+									"patching_rect" : [ 50.0, 436.056994915008545, 30.0, 30.0 ]
 								}
 
 							}
@@ -327,6 +327,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
+									"midpoints" : [ 202.379392147064209, 419.689117670059204, 59.5, 419.689117670059204 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -674,7 +675,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 85.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -1290,11 +1291,11 @@
 				"box" : 				{
 					"comment" : "(signal) cell contents [0/1/0.666/0.5/0.333/0.25]",
 					"id" : "obj-93",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 256.886383056640625, 11.701713562011719, 30.0, 30.0 ]
 				}
 
@@ -1303,7 +1304,7 @@
 				"box" : 				{
 					"comment" : "(signal) audio out",
 					"id" : "obj-92",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1700,51 +1701,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "mixer_log_scale.maxpat",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dm_play2.maxpat",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sample_accurate_counter.maxpat",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reso_drum.maxpat",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reso_voice.maxpat",
-				"bootpath" : "~/12c/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "el.counter~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "el.adsr~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
