@@ -550,7 +550,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 1.0, "@default", 1 ],
+					"args" : [ 0.0, 1.0, "@default", 0.2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -599,7 +599,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+									"blob" : "333.CMlaKA....fQPMDZ....AXTbEgF.A.PA.............................................DPDVMjLgfP....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtPyM4HiLzjSMv.yM0DCM4TyL1DyLh.BYkwVX40iHv3RL1.yL3HSN3XCL1fyMxTSM3TSNzHBHykmai0iHvHBHlUVYjIVXisVOh.iK2TSM0TCM1DiMzTSLxXyLzHyM2LiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHv3hLvHCN4TiL0LCN4XyMwLiL0XCNzHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 								}
 
 							}
@@ -607,7 +607,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u669031805"
+					"varname" : "u588048641"
 				}
 
 			}
@@ -657,7 +657,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+							"blob" : "333.CMlaKA....fQPMDZ....AXTbEgF.A.PA.............................................DPDVMjLgfP....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtPyM4HiLzjSMv.yM0DCM4TyL1DyLh.BYkwVX40iHv3RL1.yL3HSN3XCL1fyMxTSM3TSNzHBHykmai0iHvHBHlUVYjIVXisVOh.iK2TSM0TCM1DiMzTSLxXyLzHyM2LiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHv3hLvHCN4TiL0LCN4XyMwLiL0XCNzHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -679,7 +679,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "255.CMlaKA....fQPMDZ....AXTbEgF.A.PA..............................................vvVMjLgnK....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtTiHfPVYrEVd8HBLtTiHfLWdtMVOh.iHfXVYkQlXgM1Z8HBLtTiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHwHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
+										"blob" : "333.CMlaKA....fQPMDZ....AXTbEgF.A.PA.............................................DPDVMjLgfP....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xckQGQxkWSogWOhDiHfLGZoYFc8HBLtPyM4HiLzjSMv.yM0DCM4TyL1DyLh.BYkwVX40iHv3RL1.yL3HSN3XCL1fyMxTSM3TSNzHBHykmai0iHvHBHlUVYjIVXisVOh.iK2TSM0TCM1DiMzTSLxXyLzHyM2LiHfv1a2MTcz0iHw3xL3byM2fyM3.yM3DCMzTiM2TSMk0RLzHBHnk1YnMTcz0iHv3hLvHCN4TiL0LCN4XyMwLiL0XCNzHBHyQWYxU1a8HBLh.RcocUZjQGZ8HRMy.iHfTWZHUVZmgFc8HhL1.iHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -999,28 +999,11 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 1 ]
-				}
-,
 				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"message" : 				{
@@ -1037,6 +1020,23 @@
 					}
 ,
 					"fontface" : [ 1 ]
+				}
+,
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -1098,8 +1098,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
