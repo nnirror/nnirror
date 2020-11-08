@@ -182,7 +182,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 20, 240 ],
+					"args" : [ 1, 500 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

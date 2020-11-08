@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 82.0, 1724.0, 1004.0 ],
+		"rect" : [ 34.0, 82.0, 1437.0, 1004.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "(bang) run any processes that need to occur prior to pattr retrieval",
+					"id" : "obj-5",
+					"index" : 5,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 612.5958251953125, 328.941253662109375, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "message",
@@ -302,7 +314,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 319.309531688690186, 297.0, 35.0 ],
-									"text" : "write \"Macintosh HD:/Users/cella/nnirror/presets/global/currents.json\""
+									"text" : "write \"Macintosh HD:/Users/cella/nnirror/presets/global/yes.json\""
 								}
 
 							}
@@ -476,7 +488,7 @@
 					"patching_rect" : [ -245.365866661071777, 66.45634651184082, 64.0, 31.463414192199707 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.291586130857468, 1.243696212768555, 48.945391893386841, 28.441436022520065 ],
-					"text" : "currents"
+					"text" : "yes"
 				}
 
 			}
@@ -794,15 +806,15 @@
 					"presentation_rect" : [ 461.229736328125, 3.5, 43.090908050537109, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_units" : "counts",
-							"parameter_mmin" : 1.0,
-							"parameter_longname" : "interp_every_n_bars",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1024.0,
 							"parameter_initial" : [ 16 ],
 							"parameter_shortname" : "interp_every_n_bars",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_units" : "counts",
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "interp_every_n_bars",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -2406,13 +2418,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 4.920379638671875, -63.730365753173828, 56.0, 22.0 ],
 					"restore" : 					{
-						"auto_preset_movement_mode" : [ 1.0 ],
+						"auto_preset_movement_mode" : [ 0.0 ],
 						"interp_every_n_bars" : [ 16.0 ],
 						"new_preset_slot_every_n" : [ 4 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u871022440"
+					"varname" : "u952029356"
 				}
 
 			}
@@ -2452,13 +2464,13 @@
 					"presentation_rect" : [ 461.229736328125, 16.041048049926758, 43.090908050537109, 13.739496231079102 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "auto_preset_movement_mode",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "auto_preset_movement_mode",
 							"parameter_enum" : [ "On", "On" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "auto_preset_movement_mode",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3739,6 +3751,23 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3755,27 +3784,10 @@
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
 								"newobj" : 								{
 									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -3839,7 +3851,7 @@
 					"patching_rect" : [ 805.772705078125, 86.218017578125, 24.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 317.604455083608627, 6.5, 25.758621096611023, 20.0 ],
-					"text" : "22",
+					"text" : "1",
 					"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ],
 					"textjustification" : 1
 				}
@@ -3848,7 +3860,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"knobcolor" : [ 0.243, 0.588, 0.0, 0.5 ],
+					"knobcolor" : [ 0.243, 0.588, 0.0, 0.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -3857,7 +3869,7 @@
 					"patching_rect" : [ 782.5, 83.718017578125, 143.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.265438139438629, 4.0, 58.436654984951019, 25.0 ],
-					"size" : 47.0
+					"size" : 3.0
 				}
 
 			}
@@ -3890,10 +3902,10 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 478.0, 215.0, 31.0, 22.0 ],
-					"text" : "t b s"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "", "bang" ],
+					"patching_rect" : [ 478.0, 215.0, 41.0, 22.0 ],
+					"text" : "t b s b"
 				}
 
 			}
@@ -4039,7 +4051,7 @@
 					"patching_rect" : [ 511.654052734375, 88.718017578125, 24.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 200.723810255527496, 6.5, 25.758621096611023, 20.0 ],
-					"text" : "16",
+					"text" : "3",
 					"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ],
 					"textjustification" : 1
 				}
@@ -4280,6 +4292,23 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
 								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4296,27 +4325,10 @@
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontface" : [ 1 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
 								"newobj" : 								{
 									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -4380,8 +4392,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4414,7 +4426,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"knobcolor" : [ 0.243, 0.588, 0.0, 0.75 ],
+					"knobcolor" : [ 0.243, 0.588, 0.0, 1.25 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -4423,7 +4435,7 @@
 					"patching_rect" : [ 478.0, 86.218017578125, 143.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 181.933082580566406, 4.0, 63.340076446533203, 25.0 ],
-					"size" : 47.0
+					"size" : 3.0
 				}
 
 			}
@@ -5282,7 +5294,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-33",
-					"items" : "currents",
+					"items" : [ "currents", ",", "yes" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5450,8 +5462,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 499.5, 253.691286206245422, 413.09442138671875, 253.691286206245422 ],
+					"midpoints" : [ 498.5, 253.691286206245422, 413.09442138671875, 253.691286206245422 ],
 					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 509.5, 264.942524313926697, 622.0958251953125, 264.942524313926697 ],
+					"source" : [ "obj-12", 2 ]
 				}
 
 			}
@@ -6509,6 +6529,23 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
 				"message" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -6525,27 +6562,10 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
 				"newobj" : 				{
 					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -6627,8 +6647,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
