@@ -45,12 +45,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ -146.0, 39.0, 56.0, 22.0 ],
-					"restore" : 					{
-						"bipolar_toggle" : [ 1.0 ]
-					}
-,
 					"text" : "autopattr",
-					"varname" : "u587027222"
+					"varname" : "u996020698"
 				}
 
 			}
@@ -646,8 +642,12 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 544.9000244140625, 270.0, 58.0, 22.0 ],
+					"restore" : 					{
+						"bipolar_toggle" : [ 1.0 ]
+					}
+,
 					"text" : "autopattr",
-					"varname" : "u207027223"
+					"varname" : "u555017885"
 				}
 
 			}
@@ -754,8 +754,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 128.0, 435.800018310546875, 124.0, 22.0 ],
-					"text" : "rampsmooth~ 1 1000"
+					"patching_rect" : [ 128.0, 435.800018310546875, 122.0, 22.0 ],
+					"text" : "rampsmooth~ 1 5000"
 				}
 
 			}
@@ -1167,8 +1167,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

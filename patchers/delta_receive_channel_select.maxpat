@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 104.0, 656.0, 662.0 ],
+		"rect" : [ 34.0, 82.0, 1444.0, 1004.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 84.166625999999994, 35.0, 30.0, 30.0 ]
 				}
 
@@ -76,7 +76,7 @@
 					"fontface" : 1,
 					"fontsize" : 8.0,
 					"id" : "obj-9",
-					"items" : [ "∆1", ",", "∆2", ",", "∆3", ",", "∆4", ",", "LFO1", ",", "LFO2", ",", "Func", ",", "Follow", ",", "DMpos", ",", "DMtrig", ",", "Slidr", ",", "Mix", ",", "Subdv", ",", "Logic1", ",", "Logic2", ",", "SAH", ",", "MIDI" ],
+					"items" : [ "∆1", ",", "∆2", ",", "∆3", ",", "∆4", ",", "LFO1", ",", "LFO2", ",", "Func", ",", "Follow", ",", "DMpos", ",", "DMtrig", ",", "Slidr", ",", "Noise", ",", "Subdv", ",", "Logic1", ",", "Logic2", ",", "SAH", ",", "MIDI" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -87,11 +87,11 @@
 					"presentation_rect" : [ 2.75, 2.333328008651733, 35.224807739257812, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Delta Channel Menu",
-							"parameter_type" : 3,
-							"parameter_longname" : "Delta Channel Menu[23]",
+							"parameter_longname" : "Delta Channel Menu[1]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 16.0
+							"parameter_mmax" : 16.0,
+							"parameter_shortname" : "Delta Channel Menu",
+							"parameter_type" : 3
 						}
 
 					}
