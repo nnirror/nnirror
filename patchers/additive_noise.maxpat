@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 915.986714112758591, 790.98792290687561, 64.0, 22.0 ],
+					"text" : "clip~ -1. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1559,7 +1571,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u299087109"
+					"varname" : "u419031611"
 				}
 
 			}
@@ -1727,11 +1739,11 @@
 				"box" : 				{
 					"comment" : "(signal) random noise out",
 					"id" : "obj-134",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 922.5, 817.05427622795105, 30.0, 30.0 ]
+					"patching_rect" : [ 915.986714112758591, 826.059016466140747, 30.0, 30.0 ]
 				}
 
 			}
@@ -3917,64 +3929,64 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 375.658591687679291, 777.519391894340515, 932.0, 777.519391894340515 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 375.658591687679291, 777.519391894340515, 925.486714112758591, 777.519391894340515 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 553.5, 776.744198083877563, 932.0, 776.744198083877563 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 553.5, 776.744198083877563, 925.486714112758591, 776.744198083877563 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 731.5, 777.519391894340515, 932.0, 777.519391894340515 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 731.5, 777.519391894340515, 925.486714112758591, 777.519391894340515 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 909.5, 776.744198083877563, 932.0, 776.744198083877563 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 909.5, 776.744198083877563, 925.486714112758591, 776.744198083877563 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 1087.5, 777.519391894340515, 932.0, 777.519391894340515 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 1087.5, 777.519391894340515, 925.486714112758591, 777.519391894340515 ],
 					"source" : [ "obj-64", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 1265.5, 777.519391894340515, 932.0, 777.519391894340515 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 1265.5, 777.519391894340515, 925.486714112758591, 777.519391894340515 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 1443.5, 777.519391894340515, 932.0, 777.519391894340515 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 1443.5, 777.519391894340515, 925.486714112758591, 777.519391894340515 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 1621.5, 776.744198083877563, 932.0, 776.744198083877563 ],
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 1621.5, 776.744198083877563, 925.486714112758591, 776.744198083877563 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -3983,6 +3995,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -4247,73 +4266,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-373::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
-			"obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
-			"obj-76" : [ "live.text[33]", "live.text", 0 ],
-			"obj-373::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
-			"obj-373::obj-32" : [ "off", "off", 0 ],
-			"obj-373::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
-			"obj-30" : [ "live.text", "live.text", 0 ],
-			"obj-75" : [ "live.text[32]", "live.text", 0 ],
-			"obj-373::obj-55" : [ "live.text[105]", "live.text[1]", 0 ],
-			"obj-373::obj-30" : [ "randomize_percentage[104]", "randomize_percentage", 0 ],
-			"obj-373::obj-67" : [ "min_max_offset_ui[104]", "min_max_offset_ui", 0 ],
-			"obj-373::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
-			"obj-68" : [ "live.text[29]", "live.text", 0 ],
-			"obj-373::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
-			"obj-328" : [ "ProbLock", "ProbLock", 0 ],
-			"obj-39" : [ "live.text[27]", "live.text", 0 ],
-			"obj-373::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
-			"obj-373::obj-112::obj-11" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
-			"obj-71" : [ "live.text[30]", "live.text", 0 ],
-			"obj-373::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
-			"obj-327" : [ "noise_probs", "noise_probs", 0 ],
-			"obj-59" : [ "live.text[28]", "live.text", 0 ],
-			"obj-74" : [ "live.text[31]", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_multislider_markov_ui_2019.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multislider_jam.js",
-				"bootpath" : "~/nnirror/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "metro_time_select.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hard_sync_via_delta.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "delta_receive_mains_out.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

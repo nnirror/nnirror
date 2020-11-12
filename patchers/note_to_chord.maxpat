@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-52",
@@ -50,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -83,7 +82,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-44",
@@ -96,7 +94,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -129,7 +127,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-20",
@@ -504,7 +501,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -537,7 +534,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -831,7 +827,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "chord_select_wrapper",
+							"parameter_longname" : "chord_select_wrapper[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "chord_select_wrapper",
 							"parameter_type" : 0
@@ -859,12 +855,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 537.435476064682007, 566.048386096954346, 56.0, 22.0 ],
 					"restore" : 					{
-						"chord" : [ 4.0 ],
+						"chord" : [ 0.0 ],
 						"chords_on" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u426098032"
+					"varname" : "u084219608"
 				}
 
 			}
@@ -893,10 +889,10 @@
 					"presentation_rect" : [ -0.582268297672272, -0.215182304382324, 48.902611017227173, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "M", "M69", "M7sus4", "M9", "M9sus4", "Maj7", "Msus4", "madd9", "sus24", "Msus2", "o7", "o7M7", "oM7" ],
-							"parameter_longname" : "chord",
+							"parameter_longname" : "chord[1]",
 							"parameter_mmax" : 12,
 							"parameter_shortname" : "chord",
+							"parameter_enum" : [ "M", "M69", "M7sus4", "M9", "M9sus4", "Maj7", "Msus4", "madd9", "sus24", "Msus2", "o7", "o7M7", "oM7" ],
 							"parameter_type" : 2
 						}
 
@@ -1062,8 +1058,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1086,12 +1080,12 @@
 					"presentation_rect" : [ 46.320342719554901, -0.215182304382324, 24.458167374134064, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_initial" : [ 0 ],
+							"parameter_longname" : "chords_on[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "chords_on",
 							"parameter_mmax" : 1,
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "chords_on",
+							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2
 						}
 
@@ -1269,8 +1263,8 @@
 		"styles" : [ 			{
 				"name" : "light",
 				"default" : 				{
-					"fontsize" : [ 32.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 32.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],

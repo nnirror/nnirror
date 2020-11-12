@@ -69,7 +69,7 @@
 					"presentation_rect" : [ -0.513604164123535, 160.44111305475235, 223.829588145017624, 16.316195487976074 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "ProbProbLock",
+							"parameter_longname" : "ProbProbLock[1]",
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "ProbProbLock",
 							"parameter_type" : 3
@@ -1867,7 +1867,7 @@
 					"presentation_rect" : [ -0.513604164123535, 126.44111305475235, 223.829588145017624, 16.316195487976074 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "LengthProbLock[2]",
+							"parameter_longname" : "LengthProbLock[3]",
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "LengthProbLock",
 							"parameter_type" : 3
@@ -1899,7 +1899,7 @@
 					"presentation_rect" : [ -0.513604164123535, 107.658185243606567, 223.829588145017624, 18.704272031784058 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "note_velocity",
+							"parameter_longname" : "note_velocity[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
@@ -3605,7 +3605,7 @@
 					"presentation_rect" : [ -0.513604164123535, 91.44111305475235, 223.829588145017624, 16.316195487976074 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "LengthProbLock",
+							"parameter_longname" : "LengthProbLock[4]",
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "LengthProbLock",
 							"parameter_type" : 3
@@ -3637,7 +3637,7 @@
 					"presentation_rect" : [ -0.513604164123535, 72.658185243606567, 223.829588145017624, 18.704272031784058 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "note_length",
+							"parameter_longname" : "note_length[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ],
@@ -3700,7 +3700,7 @@
 					"presentation_rect" : [ 292.938257321715355, 176.770592220127583, 36.657347917556763, 12.995090954005718 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "invert",
+							"parameter_longname" : "invert[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 3.0,
 							"parameter_initial" : [ 0 ],
@@ -3744,7 +3744,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_mmin" : -24.0,
-							"parameter_longname" : "note_offset",
+							"parameter_longname" : "note_offset[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
 							"parameter_initial" : [ 0.0 ],
@@ -3984,7 +3984,7 @@
 					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "note_rate_wrapper",
+							"parameter_longname" : "note_rate_wrapper[1]",
 							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "note_rate_wrapper",
 							"parameter_type" : 0
@@ -4240,7 +4240,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "preset_selector",
+							"parameter_longname" : "preset_selector[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "preset_selector",
 							"parameter_type" : 0
@@ -4408,8 +4408,8 @@
 						"Tempo" : [ 6.0 ],
 						"columns" : [ 16.0 ],
 						"invert" : [ 0 ],
-						"midi_ch1" : [ 1 ],
-						"midi_notes" : [ 2, 23, 13, 4, 10, 13, 8, 3, 19, 5, 3, 4, 8, 23, 12, 0 ],
+						"midi_ch1" : [ 2 ],
+						"midi_notes" : [ 1, 23, 1, 10, 1, 0, 7, 20, 3, 4, 13, 22, 12, 15, 14, 16 ],
 						"note_length" : [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ],
 						"note_offset" : [ 0.0 ],
 						"note_velocity" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
@@ -4417,7 +4417,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u092220840"
+					"varname" : "u652219629"
 				}
 
 			}
@@ -6192,7 +6192,7 @@
 					"presentation_rect" : [ -0.513604164123535, 142.334344103932381, 223.829588145017624, 17.93133907020092 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "SubsetCtrl[4]",
+							"parameter_longname" : "SubsetCtrl[5]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
@@ -6249,7 +6249,7 @@
 					"presentation_rect" : [ 257.28035680949688, 162.85344922542572, 35.895439073443413, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Tempo",
+							"parameter_longname" : "Tempo[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 13,
 							"parameter_initial" : [ 5 ],
@@ -6822,7 +6822,7 @@
 					"presentation_rect" : [ -0.513604164123535, 54.44111305475235, 223.829588145017624, 17.890998721122742 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "NoteProbLock",
+							"parameter_longname" : "NoteProbLock[1]",
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "NoteProbLock",
 							"parameter_type" : 3
@@ -6949,7 +6949,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_units" : "cols",
-							"parameter_longname" : "columns",
+							"parameter_longname" : "columns[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 16 ],
 							"parameter_shortname" : "columns",
@@ -7148,7 +7148,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 178.0, 62.0 ],
-													"text" : "7 7 4 17 10 12 20 19 11 20 20 12 18 20 7 9"
+													"text" : "23 8 16 16 5 1 1 0 9 6 14 13 5 22 0 19"
 												}
 
 											}
@@ -7560,7 +7560,7 @@
 					"presentation_rect" : [ -0.513604164123535, -0.284344553947449, 224.606045514345169, 54.853117287158966 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "midi_notes",
+							"parameter_longname" : "midi_notes[1]",
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "midi_notes",
 							"parameter_type" : 3
