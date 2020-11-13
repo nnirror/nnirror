@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 919.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -291,7 +291,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u217005447"
+					"varname" : "u864011000"
 				}
 
 			}
@@ -664,7 +664,7 @@
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "multislider_markov_ui_simple.maxpat",
+					"name" : "_multislider_markov_ui_2019.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
@@ -1074,7 +1074,7 @@
 					"id" : "obj-195",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "multislider_markov_ui_simple.maxpat",
+					"name" : "_multislider_markov_ui_2019.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
@@ -3882,7 +3882,7 @@
 					"id" : "obj-373",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "multislider_markov_ui_simple.maxpat",
+					"name" : "_multislider_markov_ui_2019.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
@@ -6119,6 +6119,10 @@
 			"obj-176" : [ "global_rampup_ms", "global_rampup_ms", 0 ],
 			"obj-185" : [ "global_rampdown_ms", "global_rampdown_ms", 0 ],
 			"obj-194" : [ "ramp_times_modulation", "ProbLock", 0 ],
+			"obj-195::obj-112::obj-107" : [ "Delta_Channel_#", "Delta Channel #", 0 ],
+			"obj-195::obj-112::obj-108" : [ "Hard_Sync_Threshold", "Hard Sync Threshold", 0 ],
+			"obj-195::obj-112::obj-11" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"obj-195::obj-112::obj-9" : [ "Hard_Sync_Toggle", "Hard Sync Toggle", 0 ],
 			"obj-195::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
 			"obj-195::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
 			"obj-195::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
@@ -6128,6 +6132,10 @@
 			"obj-195::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
 			"obj-195::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
 			"obj-195::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
+			"obj-22::obj-112::obj-107" : [ "Delta_Channel_#[2]", "Delta Channel #", 0 ],
+			"obj-22::obj-112::obj-108" : [ "Hard_Sync_Threshold[2]", "Hard Sync Threshold", 0 ],
+			"obj-22::obj-112::obj-11" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
+			"obj-22::obj-112::obj-9" : [ "Hard_Sync_Toggle[2]", "Hard Sync Toggle", 0 ],
 			"obj-22::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
 			"obj-22::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
 			"obj-22::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
@@ -6141,6 +6149,10 @@
 			"obj-30" : [ "live.text", "live.text", 0 ],
 			"obj-327" : [ "noise_probs", "noise_probs", 0 ],
 			"obj-328" : [ "ProbLock", "ProbLock", 0 ],
+			"obj-373::obj-112::obj-107" : [ "Delta_Channel_#[1]", "Delta Channel #", 0 ],
+			"obj-373::obj-112::obj-108" : [ "Hard_Sync_Threshold[1]", "Hard Sync Threshold", 0 ],
+			"obj-373::obj-112::obj-11" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
+			"obj-373::obj-112::obj-9" : [ "Hard_Sync_Toggle[1]", "Hard Sync Toggle", 0 ],
 			"obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
 			"obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
 			"obj-373::obj-29::obj-9" : [ "Manual Rate", "Manual Rate", 0 ],
@@ -6183,6 +6195,18 @@
 					"parameter_longname" : "live.text[2]"
 				}
 ,
+				"obj-22::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[2]"
+				}
+,
+				"obj-22::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[2]"
+				}
+,
+				"obj-22::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[2]"
+				}
+,
 				"obj-22::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[2]"
 				}
@@ -6202,6 +6226,30 @@
 				"obj-22::obj-55" : 				{
 					"parameter_longname" : "live.text[3]"
 				}
+,
+				"obj-373::obj-112::obj-107" : 				{
+					"parameter_longname" : "Delta_Channel_#[1]"
+				}
+,
+				"obj-373::obj-112::obj-108" : 				{
+					"parameter_longname" : "Hard_Sync_Threshold[1]"
+				}
+,
+				"obj-373::obj-112::obj-9" : 				{
+					"parameter_longname" : "Hard_Sync_Toggle[1]"
+				}
+,
+				"obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate"
+				}
+,
+				"obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[1]"
+				}
+,
+				"obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
 
 			}
 ,
@@ -6209,9 +6257,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "multislider_markov_ui_simple.maxpat",
-				"bootpath" : "~/12c/LFNoise",
-				"patcherrelativepath" : "../../LFNoise",
+				"name" : "_multislider_markov_ui_2019.maxpat",
+				"bootpath" : "~/12c/nnirror/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6224,6 +6272,20 @@
 			}
 , 			{
 				"name" : "metro_time_select.maxpat",
+				"bootpath" : "~/12c/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hard_sync_via_delta.maxpat",
+				"bootpath" : "~/12c/nnirror/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta_receive_mains_out.maxpat",
 				"bootpath" : "~/12c/nnirror/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
