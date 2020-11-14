@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 65.0, 298.0, 74.0, 35.0 ],
+					"text" : "scale 0. 1. 0. 50. 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 65.0, 350.0, 127.0, 22.0 ],
+					"text" : "pack 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 65.0, 264.0, 127.0, 22.0 ],
+					"text" : "unpack 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-3",
 					"maxclass" : "comment",
@@ -68,17 +105,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 264.0, 120.0, 22.0 ],
-					"text" : "scale 0. 1. 0. 250. 20"
+					"patching_rect" : [ 173.0, 298.0, 74.0, 35.0 ],
+					"text" : "scale 0. 1. 0. 1000. 20"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"contdata" : 1,
 					"id" : "obj-8",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -114,7 +153,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 301.000003099441528, 134.0, 22.0 ],
+					"patching_rect" : [ 65.0, 386.000003099441528, 134.0, 22.0 ],
 					"text" : "send dm_realtime_adsr"
 				}
 
@@ -237,8 +276,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.703857421875, 298.0, 170.0, 154.0 ],
-					"text" : "allows for any live, external audio source to be introduced into the rhythmic patterns created by the drummatrix.\n\nin dm_play2, if the channel is selected for realtime mode, it will tigger the audio from this es6 submix, AM'd by this ADSR envelope, instead of the sample in memory."
+					"patching_rect" : [ 295.703857421875, 294.0, 170.0, 154.0 ],
+					"text" : "allows for any live, external audio source to be introduced into the rhythmic patterns created by the drummatrix.\n\nin dm_play2, if the channel is selected for realtime mode, it will tigger the audio from this es6 submix, AM'd by this envelope, instead of the sample in memory."
 				}
 
 			}
@@ -257,7 +296,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u113029699"
+					"varname" : "u777042782"
 				}
 
 			}
@@ -321,6 +360,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -338,7 +384,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -383,6 +429,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
@@ -400,8 +460,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
