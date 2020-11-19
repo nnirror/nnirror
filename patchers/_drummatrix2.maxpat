@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 56.0, 1488.0, 1030.0 ],
+		"rect" : [ 34.0, 79.0, 1261.0, 1007.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,1682 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-258",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1462.567756652832031, 1436.6024169921875, 147.0, 22.0 ],
+					"text" : "scale 0. 1. 0.0625 16 100."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1374.185232281684875, 1473.350341796875, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-187",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-369",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 300.607421875, 100.0, 54.0, 22.0 ],
+									"text" : "delay 50"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-343",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 256.0, 100.0, 34.0, 22.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 222.983642578125, 197.0, 49.0, 22.0 ],
+									"text" : "zl rot -1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 222.983642578125, 146.55615234375, 80.0, 22.0 ],
+									"text" : "speedlim 250"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-277",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-261",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 208.0, 65.0, 22.0 ],
+													"text" : "append $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-258",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 64.0, 139.0, 47.0, 22.0 ],
+													"text" : "zl iter 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-257",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 113.84869384765625, 252.0794677734375, 859.56292724609375, 22.0 ],
+													"text" : "4.8 6.4 6.4 2.666667 2.666667"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-255",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "", "set" ],
+													"patching_rect" : [ 50.0, 100.0, 47.0, 22.0 ],
+													"text" : "t b l set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-251",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 8,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x64",
+															"modernui" : 1
+														}
+,
+														"classnamespace" : "box",
+														"rect" : [ 109.0, 153.0, 640.0, 480.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 1,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"lefttoolbarpinned" : 0,
+														"toptoolbarpinned" : 0,
+														"righttoolbarpinned" : 0,
+														"bottomtoolbarpinned" : 0,
+														"toolbars_unpinned_last_save" : 0,
+														"tallnewobj" : 0,
+														"boxanimatetime" : 200,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"style" : "",
+														"subpatcher_template" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"id" : "obj-26",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 114.758384704589844, 227.6845703125, 193.0, 22.0 ],
+																	"text" : "vexpr abs($f1-$f2) @scalarmode 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-25",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "float", "int" ],
+																	"patching_rect" : [ 144.758377075195312, 263.6845703125, 71.0, 22.0 ],
+																	"text" : "minimum 0."
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-22",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 85.758384704589844, 332.6845703125, 47.738254547119141, 22.0 ],
+																	"text" : "zl.nth"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-19",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 114.758384704589844, 298.6845703125, 49.0, 22.0 ],
+																	"text" : "zl.sub"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-2",
+																	"maxclass" : "newobj",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 8,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x64",
+																			"modernui" : 1
+																		}
+,
+																		"classnamespace" : "box",
+																		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 12.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"gridonopen" : 1,
+																		"gridsize" : [ 15.0, 15.0 ],
+																		"gridsnaponopen" : 1,
+																		"objectsnaponopen" : 1,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"lefttoolbarpinned" : 0,
+																		"toptoolbarpinned" : 0,
+																		"righttoolbarpinned" : 0,
+																		"bottomtoolbarpinned" : 0,
+																		"toolbars_unpinned_last_save" : 0,
+																		"tallnewobj" : 0,
+																		"boxanimatetime" : 200,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"style" : "",
+																		"subpatcher_template" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 8,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x64",
+																							"modernui" : 1
+																						}
+,
+																						"classnamespace" : "box",
+																						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 12.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Arial",
+																						"gridonopen" : 1,
+																						"gridsize" : [ 15.0, 15.0 ],
+																						"gridsnaponopen" : 1,
+																						"objectsnaponopen" : 1,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"lefttoolbarpinned" : 0,
+																						"toptoolbarpinned" : 0,
+																						"righttoolbarpinned" : 0,
+																						"bottomtoolbarpinned" : 0,
+																						"toolbars_unpinned_last_save" : 0,
+																						"tallnewobj" : 0,
+																						"boxanimatetime" : 200,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"style" : "",
+																						"subpatcher_template" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"id" : "obj-15",
+																									"linecount" : 7,
+																									"maxclass" : "message",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 50.0, 100.0, 585.0, 102.0 ],
+																									"text" : "0.0625 0.066667 0.070312 0.075 0.078125 0.083333 0.0875 0.09375 0.1 0.104167 0.111111 0.117188 0.125 0.133333 0.140625 0.15 0.15625 0.166666 0.175 0.1875 0.2 0.208333 0.222222 0.234375 0.25 0.266666 0.28125 0.3 0.3125 0.333333 0.35 0.375 0.4 0.416666 0.444444 0.46875 0.5 0.533333 0.5625 0.6 0.625 0.666667 0.7 0.75 0.8 0.833333 0.888888 0.9375 1 1.066666 1.125 1.2 1.25 1.333333 1.4 1.5 1.6 1.666666 1.777777 1.875 2 2.133333 2.25 2.4 2.5 2.666667 2.8 3 3.2 3.33333 3.55555 3.75 4 4.266666 4.5 4.8 5 5.333333 5.6 6 6.4 6.66666 7.11111 7.5 8 8.533332 9 9.6 10 10.666666 11.2 12 12.8 13.33333 14.22222 15 16"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-2",
+																									"index" : 1,
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "bang" ],
+																									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"index" : 1,
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 50.0, 216.000015258789062, 30.0, 30.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"source" : [ "obj-15", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-15", 0 ],
+																									"source" : [ "obj-2", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 55.969696044921875, 276.66668701171875, 153.0, 22.0 ],
+																					"saved_object_attributes" : 																					{
+																						"description" : "",
+																						"digest" : "",
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p quantized_multislider_list"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-48",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 503.0, 417.0, 65.0, 22.0 ],
+																					"text" : "append $1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-43",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "bang", "int" ],
+																					"patching_rect" : [ 544.75, 256.66668701171875, 29.5, 22.0 ],
+																					"text" : "t b i"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-42",
+																					"linecount" : 3,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 503.0, 301.333343505859375, 50.0, 49.0 ],
+																					"text" : "1 0 1 1 0 1 0 1 1 0 1 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-29",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 5,
+																					"outlettype" : [ "bang", "bang", "", "set", "set" ],
+																					"patching_rect" : [ 472.0, 122.0, 77.0, 22.0 ],
+																					"text" : "t b b l set set"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-28",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 536.0, 216.666671752929688, 47.0, 22.0 ],
+																					"text" : "zl iter 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-24",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 499.0, 372.893951416015625, 41.0, 22.0 ],
+																					"text" : "zl mth"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-11",
+																					"linecount" : 2,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 536.0, 166.0, 671.0, 35.0 ],
+																					"text" : "0 11 10 9 8 7 6 5 4 3 2 1 0 11 10 9 8 7 6 5 4 3 2 1 0 11 10 9 8 7 6 5 4 3 2 1 0 11 10 9 8 7 6 5 4 3 2 1 0 1 2 3 4 5 6 7 8 9 10 11 0 1 2 3 4 5 6 7 8 9 10 11 0 1 2 3 4 5 6 7 8 9 10 11 0 1 2 3 4 5 6 7 8 9 10 11 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-7",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 262.66668701171875, 417.0, 65.0, 22.0 ],
+																					"text" : "append $1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-4",
+																					"linecount" : 35,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 355.66668701171875, 462.0, 72.0, 478.0 ],
+																					"text" : "0.125 0.140625 0.15625 0.166666 0.1875 0.208333 0.222222 0.25 0.28125 0.3125 0.333333 0.375 0.416666 0.444444 0.5 0.5625 0.625 0.666667 0.75 0.833333 0.888888 1 1.125 1.2 1.333333 1.5 1.6 1.777777 2 2.25 2.4 2.666667 3 3.2 3.55555 4 4.5 4.8 5.333333 6 6.4 7.11111 8 9 9.6 10.666666 12 12.8 14.22222 16"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-47",
+																					"maxclass" : "newobj",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 472.0, 89.031745910644531, 83.0, 22.0 ],
+																					"text" : "r global_scale"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-32",
+																					"linecount" : 6,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 312.66668701171875, 227.666656494140625, 159.0, 89.0 ],
+																					"text" : "1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-25",
+																					"linecount" : 2,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 103.66668701171875, 396.393951416015625, 150.0, 33.0 ],
+																					"text" : "outpits list of speeds in key"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-23",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 188.969696044921875, 339.212127685546875, 37.0, 22.0 ],
+																					"text" : "zl nth"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-17",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 262.66668701171875, 381.242431640625, 32.0, 22.0 ],
+																					"text" : "gate"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-10",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "bang", "bang", "int" ],
+																					"patching_rect" : [ 247.16668701171875, 227.696975708007812, 40.0, 22.0 ],
+																					"text" : "t b b i"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-9",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 250.16668701171875, 339.212127685546875, 37.0, 22.0 ],
+																					"text" : "zl nth"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "bang", "bang", "int" ],
+																					"patching_rect" : [ 225.16668701171875, 190.151519775390625, 41.0, 22.0 ],
+																					"text" : "uzi 97"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"index" : 1,
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 262.66668701171875, 611.17169189453125, 30.0, 30.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-23", 1 ],
+																					"order" : 1,
+																					"source" : [ "obj-10", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-32", 0 ],
+																					"source" : [ "obj-10", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"source" : [ "obj-10", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-9", 1 ],
+																					"order" : 0,
+																					"source" : [ "obj-10", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-28", 0 ],
+																					"source" : [ "obj-11", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-7", 0 ],
+																					"source" : [ "obj-17", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-17", 1 ],
+																					"source" : [ "obj-23", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-48", 0 ],
+																					"source" : [ "obj-24", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-43", 0 ],
+																					"source" : [ "obj-28", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-11", 0 ],
+																					"source" : [ "obj-29", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-32", 0 ],
+																					"source" : [ "obj-29", 3 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-4", 0 ],
+																					"source" : [ "obj-29", 4 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-42", 1 ],
+																					"source" : [ "obj-29", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"source" : [ "obj-29", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-9", 0 ],
+																					"source" : [ "obj-32", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-1", 0 ],
+																					"source" : [ "obj-4", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-24", 0 ],
+																					"source" : [ "obj-42", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-24", 1 ],
+																					"source" : [ "obj-43", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-42", 0 ],
+																					"source" : [ "obj-43", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-29", 0 ],
+																					"source" : [ "obj-47", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-32", 0 ],
+																					"source" : [ "obj-48", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-10", 0 ],
+																					"source" : [ "obj-5", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-4", 0 ],
+																					"source" : [ "obj-5", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-23", 0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-4", 0 ],
+																					"source" : [ "obj-7", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-17", 0 ],
+																					"source" : [ "obj-9", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 107.758384704589844, 112.482398986816406, 97.0, 22.0 ],
+																	"saved_object_attributes" : 																	{
+																		"description" : "",
+																		"digest" : "",
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p speedsInScale"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-240",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 8,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x64",
+																			"modernui" : 1
+																		}
+,
+																		"classnamespace" : "box",
+																		"rect" : [ 134.0, 179.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 12.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"gridonopen" : 1,
+																		"gridsize" : [ 15.0, 15.0 ],
+																		"gridsnaponopen" : 1,
+																		"objectsnaponopen" : 1,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"lefttoolbarpinned" : 0,
+																		"toptoolbarpinned" : 0,
+																		"righttoolbarpinned" : 0,
+																		"bottomtoolbarpinned" : 0,
+																		"toolbars_unpinned_last_save" : 0,
+																		"tallnewobj" : 0,
+																		"boxanimatetime" : 200,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"style" : "",
+																		"subpatcher_template" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"id" : "obj-2",
+																					"linecount" : 3,
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 175.0, 30.5, 359.0, 49.0 ],
+																					"text" : "loadmess -1 -0.875 -0.777777 -0.666666 -0.6 -0.5 -0.4 -0.333333 -0.25 -0.2 -0.125 -0.066666 0 0.066666 0.125 0.2 0.25 0.333333 0.4 0.5 0.6 0.666666 0.777777 0.875 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"index" : 2,
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 601.0, 47.0, 30.0, 30.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-41",
+																					"linecount" : 4,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 50.0, 100.0, 462.0, 49.0 ],
+																					"text" : "0.125 0.140625 0.15625 0.166666 0.1875 0.208333 0.222222 0.25 0.28125 0.3125 0.333333 0.375 0.416666 0.444444 0.5 0.5625 0.625 0.666667 0.75 0.833333 0.888888 1 1.125 1.2 1.333333 1.5 1.6 1.777777 2 2.25 2.4 2.666667 3 3.2 3.55555 4 4.5 4.8 5.333333 6 6.4 7.11111 8 9 9.6 10.666666 12 12.8 14.22222 16"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-229",
+																					"index" : 1,
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "bang" ],
+																					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-239",
+																					"index" : 1,
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 50.0, 222.0, 30.0, 30.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-41", 1 ],
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-41", 1 ],
+																					"midpoints" : [ 184.5, 90.0, 502.5, 90.0 ],
+																					"source" : [ "obj-2", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-41", 0 ],
+																					"source" : [ "obj-229", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-239", 0 ],
+																					"source" : [ "obj-41", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 85.758384704589844, 187.52325439453125, 41.0, 22.0 ],
+																	"saved_object_attributes" : 																	{
+																		"description" : "",
+																		"digest" : "",
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p msg"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-186",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "float", "bang" ],
+																	"patching_rect" : [ 50.0, 100.0, 29.5, 22.0 ],
+																	"text" : "t f b"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-242",
+																	"index" : 1,
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-248",
+																	"index" : 1,
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 85.758384704589844, 369.255035400390625, 30.0, 30.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-240", 0 ],
+																	"midpoints" : [ 70.0, 137.0, 95.258384704589844, 137.0 ],
+																	"source" : [ "obj-186", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-26", 1 ],
+																	"midpoints" : [ 59.5, 163.087255418300629, 298.258384704589844, 163.087255418300629 ],
+																	"source" : [ "obj-186", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-22", 1 ],
+																	"source" : [ "obj-19", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-240", 1 ],
+																	"source" : [ "obj-2", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-248", 0 ],
+																	"source" : [ "obj-22", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-22", 0 ],
+																	"order" : 1,
+																	"source" : [ "obj-240", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-26", 0 ],
+																	"midpoints" : [ 95.258384704589844, 216.778532922267914, 124.258384704589844, 216.778532922267914 ],
+																	"order" : 0,
+																	"source" : [ "obj-240", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-186", 0 ],
+																	"source" : [ "obj-242", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-19", 1 ],
+																	"source" : [ "obj-25", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-19", 0 ],
+																	"order" : 1,
+																	"source" : [ "obj-26", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-25", 0 ],
+																	"midpoints" : [ 124.258384704589844, 256.375850081443787, 154.258377075195312, 256.375850081443787 ],
+																	"order" : 0,
+																	"source" : [ "obj-26", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 50.0, 174.5, 117.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"description" : "",
+														"digest" : "",
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p float_to_chromatic"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-275",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-276",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 113.84869384765625, 401.0794677734375, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-261", 0 ],
+													"source" : [ "obj-251", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-257", 0 ],
+													"source" : [ "obj-255", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-257", 0 ],
+													"source" : [ "obj-255", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-258", 0 ],
+													"source" : [ "obj-255", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-276", 0 ],
+													"source" : [ "obj-257", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-251", 0 ],
+													"source" : [ "obj-258", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-257", 0 ],
+													"source" : [ "obj-261", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-255", 0 ],
+													"source" : [ "obj-275", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 116.1585693359375, 146.55615234375, 92.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p scale_speeds"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-268",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 76.8511962890625, 100.0, 29.5, 22.0 ],
+									"text" : "!= 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-267",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 116.1585693359375, 100.0, 52.0, 22.0 ],
+									"text" : "gate 1 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-266",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 146.55615234375, 52.0, 22.0 ],
+									"text" : "gate 1 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-41",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 112.07928466796875, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-52",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 77.07928466796875, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-170",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 77.07928466796875, 236.758056640625, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-171",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 222.983642578125, 236.758056640625, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-170", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-171", 0 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-170", 0 ],
+									"source" : [ "obj-266", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-277", 0 ],
+									"source" : [ "obj-267", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-266", 0 ],
+									"midpoints" : [ 86.3511962890625, 132.814923822879791, 59.5, 132.814923822879791 ],
+									"source" : [ "obj-268", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"midpoints" : [ 125.6585693359375, 174.258056640625, 212.983642578125, 174.258056640625, 212.983642578125, 137.258056640625, 232.483642578125, 137.258056640625 ],
+									"source" : [ "obj-277", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-369", 0 ],
+									"source" : [ "obj-343", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-171", 0 ],
+									"source" : [ "obj-369", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-267", 0 ],
+									"order" : 1,
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-268", 0 ],
+									"order" : 2,
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-343", 0 ],
+									"order" : 0,
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-266", 1 ],
+									"order" : 1,
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-267", 1 ],
+									"order" : 0,
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "buttonGreen-1",
+								"default" : 								{
+									"bgcolor" : [ 0.043137, 0.364706, 0.094118, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "dUG Yello 01-1",
+								"default" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
+								}
+,
+								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"button" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "ksliderWhite",
+								"default" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBlue-1",
+								"default" : 								{
+									"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBrown-1",
+								"default" : 								{
+									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjCyan-1",
+								"default" : 								{
+									"accentcolor" : [ 0.029546, 0.773327, 0.821113, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjGreen-1",
+								"default" : 								{
+									"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "rsliderGold",
+								"default" : 								{
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "tap",
+								"default" : 								{
+									"fontname" : [ "Lato Light" ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1330.185232281684875, 1526.01708984375, 63.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p scalectrl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "snap",
+					"automationon" : "snap",
+					"fontsize" : 8.0,
+					"id" : "obj-329",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1374.185232281684875, 1503.861572265625, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.428111493587494, 157.863795757293701, 58.488535106182098, 10.511732578277588 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "speed_scale[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "speed_scale",
+							"parameter_enum" : [ "snap", "snap" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "snap",
+					"texton" : "snap",
+					"varname" : "speed_scale"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -61,15 +1737,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1418.929372906684875, 1229.56005859375, 39.255859375, 41.249942779541016 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.736702084541321, 163.334808349609375, 11.5, 24.110753059387207 ],
+					"presentation_rect" : [ 2.736702084541321, 166.62552547454834, 11.5, 20.820035934448242 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "CellSpeedLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "CellSpeedLock",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0 ],
+							"parameter_shortname" : "CellSpeedLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -143,7 +1819,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1572.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.58331298828125, 163.334808349609375, 5.0, 24.110753059387207 ]
+					"presentation_rect" : [ 54.58331298828125, 166.62552547454834, 5.0, 20.820035934448242 ]
 				}
 
 			}
@@ -155,7 +1831,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1477.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.21009349822998, 163.334808349609375, 5.0, 24.0 ]
+					"presentation_rect" : [ 17.21009349822998, 166.62552547454834, 5.0, 20.709282875061035 ]
 				}
 
 			}
@@ -167,7 +1843,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1499.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.987794876098633, 163.334808349609375, 5.0, 24.110753059387207 ]
+					"presentation_rect" : [ 24.987794876098633, 166.62552547454834, 5.0, 20.820035934448242 ]
 				}
 
 			}
@@ -179,7 +1855,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1555.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.58331298828125, 163.334808349609375, 5.0, 24.0 ]
+					"presentation_rect" : [ 47.58331298828125, 166.62552547454834, 5.0, 20.709282875061035 ]
 				}
 
 			}
@@ -191,7 +1867,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1537.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.583328247070312, 163.334808349609375, 5.0, 24.0 ]
+					"presentation_rect" : [ 40.583328247070312, 166.62552547454834, 5.0, 20.709282875061035 ]
 				}
 
 			}
@@ -583,12 +2259,12 @@
 					"presentation_rect" : [ 423.731437087059021, 1.133331298828125, 8.0, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "repeat_on",
-							"parameter_type" : 3,
 							"parameter_longname" : "repeat_on",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "repeat_on",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1034,12 +2710,12 @@
 					"presentation_rect" : [ 300.781005859375, 1.133331298828125, 19.773519039154053, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ResoDryWet",
-							"parameter_type" : 3,
 							"parameter_longname" : "ResoDryWet",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"parameter_shortname" : "ResoDryWet",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1067,12 +2743,12 @@
 					"presentation_rect" : [ 321.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[10]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1206,7 +2882,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1518.685226500034332, 1346.1024169921875, 5.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.571884214878082, 163.334808349609375, 5.0, 24.0 ]
+					"presentation_rect" : [ 33.571884214878082, 166.62552547454834, 5.0, 20.709282875061035 ]
 				}
 
 			}
@@ -1282,12 +2958,12 @@
 					"presentation_rect" : [ 411.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[9]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1328,12 +3004,12 @@
 					"presentation_rect" : [ 401.922090530395508, 1.357892245054245, 8.75, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "feedback_sync",
-							"parameter_type" : 3,
 							"parameter_longname" : "feedback_sync",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "feedback_sync",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1363,12 +3039,12 @@
 					"presentation_rect" : [ 368.173163056373596, 1.133331298828125, 19.607842803001404, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "fractional_probs",
-							"parameter_type" : 3,
 							"parameter_longname" : "fractional_probs",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "fractional_probs",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1396,12 +3072,12 @@
 					"presentation_rect" : [ 388.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[8]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3094,10 +4770,10 @@
 					"presentation_rect" : [ 552.864990234375, 227.562286078929901, 104.206495046615601, 18.858521103858948 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[7]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3163,12 +4839,12 @@
 					"presentation_rect" : [ 552.864990234375, 188.267475306987762, 104.33306884765625, 36.310352146625519 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "SubsetCtrl",
-							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"parameter_shortname" : "SubsetCtrl",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3467,12 +5143,12 @@
 					"presentation_rect" : [ 438.29315185546875, 1.133331298828125, 10.057856321334839, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "DecayControlMod",
-							"parameter_type" : 3,
 							"parameter_longname" : "DecayControlMod[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "DecayControlMod",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3502,11 +5178,11 @@
 					"presentation_rect" : [ 619.32861328125, 61.55328369140625, 19.714851379394531, 11.610169410705566 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "newSamples[1]",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "newSamples",
 							"parameter_enum" : [ "new", "new" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "newSamples[1]",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -3580,10 +5256,10 @@
 					"presentation_rect" : [ 430.731437087059021, 1.133331298828125, 8.0, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "which_matrix_pos_ctrl",
-							"parameter_type" : 3,
 							"parameter_longname" : "which_matrix_pos_ctrl",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "which_matrix_pos_ctrl",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3624,12 +5300,12 @@
 					"presentation_rect" : [ 334.781005859375, 1.133331298828125, 19.773519039154053, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "LineTimes",
-							"parameter_type" : 3,
 							"parameter_longname" : "LineTimes[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"parameter_shortname" : "LineTimes",
+							"parameter_type" : 3
 						}
 
 					}
@@ -3657,12 +5333,12 @@
 					"presentation_rect" : [ 355.29315185546875, 1.133331298828125, 13.378938674926758, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[6]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -9529,14 +11205,33 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9547,26 +11242,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -9628,8 +11304,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9647,8 +11323,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9922,11 +11598,11 @@
 					"presentation_rect" : [ 496.419585585594177, 234.454404085874557, 36.315731137990952, 15.14393350481987 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "1/n",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "1/n",
 							"parameter_enum" : [ "1/n", "1/n" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "1/n",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -10156,12 +11832,12 @@
 					"presentation_rect" : [ 264.03790283203125, 1.133331298828125, 21.125332355499268, 134.891263961791992 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "MixerLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "MixerLock[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "MixerLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -10195,12 +11871,12 @@
 					"presentation_rect" : [ 232.85882568359375, 1.133331298828125, 30.285643517971039, 135.10009765625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Delta Trigger Note Volume",
-							"parameter_type" : 3,
 							"parameter_longname" : "Delta Trigger Note Volume[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+							"parameter_shortname" : "Delta Trigger Note Volume",
+							"parameter_type" : 3
 						}
 
 					}
@@ -10228,13 +11904,13 @@
 					"presentation_rect" : [ 54.580066680908203, 1.133330821990967, 8.273516654968262, 133.90570068359375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Solo Lock",
-							"parameter_type" : 3,
-							"parameter_linknames" : 1,
 							"parameter_longname" : "SoloLock",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+							"parameter_initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+							"parameter_shortname" : "Solo Lock",
+							"parameter_type" : 3,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -10283,12 +11959,12 @@
 					"rows" : 16,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Solo_Matrix",
-							"parameter_type" : 3,
 							"parameter_longname" : "Solo_Matrix",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0 ],
+							"parameter_shortname" : "Solo_Matrix",
+							"parameter_type" : 3
 						}
 
 					}
@@ -11257,14 +12933,33 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11275,26 +12970,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -11356,8 +13032,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11375,8 +13051,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11431,14 +13107,14 @@
 					"presentation_rect" : [ 529.323743909597397, 234.454404085874557, 24.004516124725342, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ntrig_max",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "ntrig_max[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 8.0,
-							"parameter_initial" : [ 8 ]
+							"parameter_initial" : [ 8 ],
+							"parameter_shortname" : "ntrig_max",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -11843,14 +13519,14 @@
 					"presentation_rect" : [ 476.099873960018158, 234.454404085874557, 23.746068298816681, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "fill every",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "fill every[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 4 ]
+							"parameter_initial" : [ 4 ],
+							"parameter_shortname" : "fill every",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -11875,11 +13551,11 @@
 					"presentation_rect" : [ 445.7880859375, 234.454404085874557, 33.464913010597229, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "fill mode",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "fill mode",
 							"parameter_enum" : [ "\"fill every\"", "\"fill every\"" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "fill mode",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -13479,7 +15155,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1100.6474609375, 733.0, 177.0, 35.0 ],
-					"restore" : [ 0.787401556968689, 0.220472440123558, 0.283464580774307, 0.267716526985168, 0.354330718517303, 0.913385808467865, 0.448818892240524, 0.228346452116966, 0.716535449028015, 0.062992125749588, 0.267716526985168, 0.858267724514008, 0.094488188624382, 0.811023592948914, 0.291338592767715, 0.0 ],
+					"restore" : [ 0.677165329456329, 0.685039341449738, 0.826771676540375, 0.622047245502472, 0.866141736507416, 0.88976377248764, 0.811023592948914, 0.960629940032959, 0.724409461021423, 0.685039341449738, 0.102362208068371, 0.834645688533783, 0.181102365255356, 0.480314970016479, 0.125984251499176, 0.582677185535431 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -13564,10 +15240,10 @@
 					"presentation_rect" : [ 64.33331298828125, 227.562286078929901, 147.966705322265625, 18.536231905221939 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "ProbLock",
-							"parameter_type" : 3,
 							"parameter_longname" : "ProbLock[5]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "ProbLock",
+							"parameter_type" : 3
 						}
 
 					}
@@ -13678,14 +15354,14 @@
 					"presentation_rect" : [ 423.79144287109375, 189.746389389038086, 16.175537109375, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "jam_walk_max",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_walk_max[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 15.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "jam_walk_max",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -15134,7 +16810,7 @@
 					"patching_rect" : [ 1510.649169921875, 1349.38623046875, 50.837173461914062, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 15.724799275398254, 163.334808349609375, 45.322467684745789, 24.0 ],
+					"presentation_rect" : [ 15.724799275398254, 164.62552547454834, 45.322467684745789, 24.0 ],
 					"text" : "z\nspeed",
 					"textcolor" : [ 0.972549019607843, 0.996078431372549, 0.984313725490196, 0.84 ],
 					"textjustification" : 1
@@ -15153,15 +16829,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1473.9466552734375, 1346.1024169921875, 117.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.987794876098633, 163.334808349609375, 45.775870203971863, 24.110753059387207 ],
+					"presentation_rect" : [ 15.987794876098633, 166.62552547454834, 45.775870203971863, 20.820035934448242 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "global_cell_speed",
-							"parameter_type" : 3,
 							"parameter_longname" : "global_cell_speed",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0.384775, 0.477594, 0.5425, 0.6328, 0.6964 ]
+							"parameter_initial" : [ 0.384775, 0.477594, 0.5425, 0.6328, 0.6964 ],
+							"parameter_shortname" : "global_cell_speed",
+							"parameter_type" : 3
 						}
 
 					}
@@ -15219,18 +16895,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 6,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.75, 71.858182370662689, 147.0, 22.0 ],
-									"text" : "scale 0. 1. 0.0625 16 100."
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
@@ -15498,7 +17162,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 189.5, 35.0 ],
-													"text" : "0 0.999998 1.500001 2. 3. 4."
+													"text" : "0 1 0.66667 0.5 0.33333 0.25"
 												}
 
 											}
@@ -15682,7 +17346,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -15705,13 +17369,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-41", 0 ]
 								}
 
 							}
@@ -15815,14 +17472,33 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -15833,26 +17509,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -15914,8 +17571,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15933,8 +17590,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15952,7 +17609,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1473.9466552734375, 1414.627649456262589, 95.0, 22.0 ],
+					"patching_rect" : [ 1330.185232281684875, 1567.641953468322754, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -16008,13 +17665,13 @@
 					"presentation_rect" : [ 29.266334533691406, 202.562286078929901, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Tempo",
-							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "Tempo[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12,
-							"parameter_initial" : [ 7 ]
+							"parameter_initial" : [ 7 ],
+							"parameter_shortname" : "Tempo",
+							"parameter_enum" : [ "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -16068,14 +17725,14 @@
 					"presentation_rect" : [ 29.266334533691406, 216.562286078929901, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "randomize_z_index",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "randomize_z_index[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 5.0,
-							"parameter_initial" : [ 2.0 ]
+							"parameter_initial" : [ 2.0 ],
+							"parameter_shortname" : "randomize_z_index",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -16097,13 +17754,13 @@
 					"presentation_rect" : [ 29.266334533691406, 231.32568359375, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "cell_fill_likelihood",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "cell_fill_likelihood[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 25.0 ]
+							"parameter_initial" : [ 25.0 ],
+							"parameter_shortname" : "cell_fill_likelihood",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -16141,14 +17798,14 @@
 					"presentation_rect" : [ 29.266334533691406, 188.267475306987762, 33.64227294921875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Loop Control",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "Loop Control[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 16 ]
+							"parameter_initial" : [ 16 ],
+							"parameter_shortname" : "Loop Control",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -17190,10 +18847,10 @@
 					"patching_rect" : [ -513.7423095703125, 770.5, 104.0, 28.3665771484375 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "preset_pattern_storage",
-							"parameter_type" : 3,
 							"parameter_longname" : "preset_pattern_storage[2]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "preset_pattern_storage",
+							"parameter_type" : 3
 						}
 
 					}
@@ -18409,12 +20066,12 @@
 					"presentation_rect" : [ 64.33331298828125, 188.267475306987762, 147.966705322265625, 36.310352146625519 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "SubsetCtrl",
-							"parameter_type" : 3,
 							"parameter_longname" : "SubsetCtrl[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"parameter_initial" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"parameter_shortname" : "SubsetCtrl",
+							"parameter_type" : 3
 						}
 
 					}
@@ -18539,14 +20196,14 @@
 					"presentation_rect" : [ 243.797601133584976, 232.823700219392776, 18.86985582113266, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "jam_every_n_bars",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "jam_every_n_bars[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 64.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "jam_every_n_bars",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -19050,14 +20707,33 @@
  ],
 						"styles" : [ 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -19068,26 +20744,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -19923,7 +21580,7 @@
 						"fill_every" : [ 4.0 ],
 						"fill_mode" : [ 0.0 ],
 						"fractional_probs" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-						"global_cell_speed" : [ 0.384775012731552, 0.477593988180161, 0.542500019073486, 0.632799983024597, 0.696399986743927 ],
+						"global_cell_speed" : [ 0.793024003505707, 0.802627384662628, 0.60575807094574, 0.60575807094574, 0.730602025985718 ],
 						"jam_every_n_bars" : [ 1.0 ],
 						"jam_probabilities" : [ 0, 0, 0, 0, 0 ],
 						"jam_walk_max" : [ 1.0 ],
@@ -19939,6 +21596,7 @@
 						"randomize_z_index" : [ 5.0 ],
 						"repeat_on" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
 						"solo_matrix_backend" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+						"speed_scale" : [ 1.0 ],
 						"which_matrix_pos_ctrl" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
 					}
 ,
@@ -20028,14 +21686,14 @@
 					"presentation_rect" : [ 246.927703619003296, 189.450467944145203, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "preset_save_number",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_save_number[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "preset_save_number",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -20175,12 +21833,12 @@
 					"presentation_rect" : [ 283.690278589725494, 189.746389389038086, 16.458827137947083, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "markov_gen_density",
-							"parameter_type" : 3,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "markov_gen_density[2]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 16.0
+							"parameter_mmax" : 16.0,
+							"parameter_shortname" : "markov_gen_density",
+							"parameter_type" : 3
 						}
 
 					}
@@ -20906,7 +22564,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 475.0, 290.0 ],
-													"text" : "0 0 1 1 0 0 2 0 0 3 0 1 4 0 1 5 0 0 6 0 0 7 0 0 8 0 0 9 0 1 10 0 0 11 0 0 12 0 0 13 0 0 14 0 0 15 0 1 0 1 1 1 1 0 2 1 0 3 1 0 4 1 0 5 1 1 6 1 1 7 1 0 8 1 0 9 1 0 10 1 0 11 1 0 12 1 0 13 1 0 14 1 0 15 1 1 0 2 0 1 2 0 2 2 0 3 2 0 4 2 0 5 2 0 6 2 1 7 2 0 8 2 0 9 2 0 10 2 0 11 2 0 12 2 0 13 2 1 14 2 1 15 2 0 0 3 0 1 3 1 2 3 0 3 3 0 4 3 0 5 3 1 6 3 0 7 3 0 8 3 1 9 3 0 10 3 1 11 3 0 12 3 0 13 3 1 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 1 8 4 0 9 4 0 10 4 1 11 4 1 12 4 0 13 4 0 14 4 0 15 4 1 0 5 1 1 5 0 2 5 1 3 5 0 4 5 0 5 5 0 6 5 0 7 5 0 8 5 0 9 5 1 10 5 1 11 5 0 12 5 0 13 5 1 14 5 0 15 5 0 0 6 0 1 6 1 2 6 0 3 6 1 4 6 0 5 6 0 6 6 0 7 6 1 8 6 0 9 6 0 10 6 0 11 6 1 12 6 1 13 6 1 14 6 0 15 6 0 0 7 0 1 7 1 2 7 0 3 7 0 4 7 0 5 7 0 6 7 0 7 7 0 8 7 1 9 7 0 10 7 0 11 7 0 12 7 1 13 7 0 14 7 0 15 7 0 0 8 1 1 8 0 2 8 1 3 8 1 4 8 0 5 8 1 6 8 0 7 8 1 8 8 1 9 8 0 10 8 0 11 8 0 12 8 1 13 8 0 14 8 0 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 1 6 9 1 7 9 1 8 9 0 9 9 1 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 1 0 10 0 1 10 0 2 10 1 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 0 1 11 1 2 11 0 3 11 0 4 11 0 5 11 1 6 11 0 7 11 0 8 11 1 9 11 0 10 11 1 11 11 1 12 11 0 13 11 0 14 11 0 15 11 0 0 12 0 1 12 0 2 12 0 3 12 0 4 12 1 5 12 1 6 12 0 7 12 0 8 12 0 9 12 0 10 12 0 11 12 0 12 12 0 13 12 1 14 12 0 15 12 1 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 1 10 13 1 11 13 0 12 13 0 13 13 1 14 13 0 15 13 1 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 0 7 14 0 8 14 0 9 14 1 10 14 0 11 14 0 12 14 0 13 14 0 14 14 0 15 14 0 0 15 1 1 15 0 2 15 1 3 15 0 4 15 1 5 15 0 6 15 1 7 15 0 8 15 0 9 15 1 10 15 1 11 15 0 12 15 1 13 15 0 14 15 0 15 15 0"
+													"text" : "0 0 0 1 0 0 2 0 1 3 0 1 4 0 1 5 0 0 6 0 0 7 0 0 8 0 0 9 0 0 10 0 1 11 0 0 12 0 0 13 0 1 14 0 0 15 0 1 0 1 0 1 1 1 2 1 0 3 1 0 4 1 0 5 1 0 6 1 0 7 1 0 8 1 0 9 1 0 10 1 0 11 1 1 12 1 0 13 1 0 14 1 1 15 1 1 0 2 0 1 2 0 2 2 0 3 2 0 4 2 1 5 2 1 6 2 1 7 2 0 8 2 1 9 2 0 10 2 0 11 2 1 12 2 0 13 2 0 14 2 1 15 2 1 0 3 0 1 3 0 2 3 0 3 3 0 4 3 0 5 3 0 6 3 0 7 3 0 8 3 0 9 3 0 10 3 0 11 3 1 12 3 1 13 3 0 14 3 0 15 3 0 0 4 1 1 4 0 2 4 0 3 4 0 4 4 0 5 4 0 6 4 0 7 4 0 8 4 0 9 4 0 10 4 0 11 4 0 12 4 0 13 4 0 14 4 0 15 4 0 0 5 0 1 5 1 2 5 1 3 5 0 4 5 0 5 5 0 6 5 1 7 5 0 8 5 0 9 5 0 10 5 1 11 5 1 12 5 0 13 5 0 14 5 0 15 5 1 0 6 0 1 6 1 2 6 0 3 6 0 4 6 1 5 6 0 6 6 0 7 6 0 8 6 0 9 6 1 10 6 0 11 6 0 12 6 0 13 6 0 14 6 0 15 6 1 0 7 0 1 7 0 2 7 0 3 7 1 4 7 0 5 7 1 6 7 0 7 7 0 8 7 0 9 7 0 10 7 0 11 7 0 12 7 0 13 7 0 14 7 0 15 7 1 0 8 0 1 8 0 2 8 1 3 8 0 4 8 1 5 8 1 6 8 0 7 8 0 8 8 1 9 8 0 10 8 0 11 8 1 12 8 0 13 8 0 14 8 1 15 8 0 0 9 0 1 9 0 2 9 0 3 9 0 4 9 0 5 9 1 6 9 0 7 9 1 8 9 0 9 9 0 10 9 0 11 9 0 12 9 0 13 9 0 14 9 0 15 9 0 0 10 0 1 10 1 2 10 0 3 10 0 4 10 0 5 10 0 6 10 0 7 10 0 8 10 1 9 10 0 10 10 0 11 10 0 12 10 0 13 10 0 14 10 0 15 10 0 0 11 1 1 11 0 2 11 0 3 11 0 4 11 0 5 11 0 6 11 0 7 11 0 8 11 0 9 11 0 10 11 1 11 11 0 12 11 1 13 11 0 14 11 1 15 11 1 0 12 1 1 12 1 2 12 1 3 12 0 4 12 0 5 12 0 6 12 0 7 12 1 8 12 0 9 12 0 10 12 1 11 12 0 12 12 0 13 12 0 14 12 0 15 12 0 0 13 0 1 13 0 2 13 0 3 13 0 4 13 0 5 13 0 6 13 0 7 13 0 8 13 0 9 13 0 10 13 1 11 13 0 12 13 0 13 13 0 14 13 0 15 13 0 0 14 0 1 14 0 2 14 0 3 14 0 4 14 0 5 14 0 6 14 1 7 14 0 8 14 0 9 14 0 10 14 0 11 14 0 12 14 1 13 14 1 14 14 0 15 14 1 0 15 1 1 15 1 2 15 1 3 15 0 4 15 0 5 15 0 6 15 0 7 15 0 8 15 0 9 15 1 10 15 0 11 15 0 12 15 0 13 15 0 14 15 0 15 15 0"
 												}
 
 											}
@@ -22970,14 +24628,14 @@
 					"presentation_rect" : [ 390.03790283203125, 189.746389389038086, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "preset_retrieve",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_retrieve[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "preset_retrieve",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -22999,14 +24657,14 @@
 					"presentation_rect" : [ 355.03790283203125, 189.746389389038086, 14.72027587890625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "preset_pattern_gen",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_pattern_gen[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "preset_pattern_gen",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -23028,14 +24686,14 @@
 					"presentation_rect" : [ 319.18780517578125, 189.746389389038086, 15.32037353515625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "preset_toward",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "preset_toward[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 9.0,
-							"parameter_initial" : [ 1.0 ]
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "preset_toward",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -23079,11 +24737,11 @@
 					"presentation_rect" : [ 218.060760498046875, 206.348564147949219, 44.200697183609009, 26.617230713367462 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Jam On/Off[3]",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "Jam On/Off",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "Jam On/Off[3]",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -23876,12 +25534,12 @@
 					"presentation_rect" : [ 264.03790283203125, 207.401195734739304, 180.634187698364258, 24.161090344190598 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "jam_probabilities",
-							"parameter_type" : 3,
 							"parameter_longname" : "jam_probabilities[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 0, 0, 0, 0, 0 ]
+							"parameter_initial" : [ 0, 0, 0, 0, 0 ],
+							"parameter_shortname" : "jam_probabilities",
+							"parameter_type" : 3
 						}
 
 					}
@@ -30056,14 +31714,33 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -30074,26 +31751,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -30137,8 +31795,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -30156,8 +31814,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -30318,7 +31976,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 292.9666748046875, 362.800018310546875, 49.0 ],
-									"text" : "0.787402 0.220472 0.283465 0.267717 0.354331 0.913386 0.448819 0.228346 0.716535 0.062992 0.267717 0.858268 0.094488 0.811024 0.291339 0."
+									"text" : "0.677165 0.685039 0.826772 0.622047 0.866142 0.889764 0.811024 0.96063 0.724409 0.685039 0.102362 0.834646 0.181102 0.480315 0.125984 0.582677"
 								}
 
 							}
@@ -36024,14 +37682,33 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"newobj" : 								{
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"message" : 								{
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -36042,26 +37719,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"default" : 								{
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 								}
 ,
 								"button" : 								{
@@ -36105,8 +37763,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -36124,8 +37782,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -36220,12 +37878,12 @@
 					"presentation_rect" : [ 2.145792961120605, 1.133330821990967, 29.666667938232422, 134.416702270507812 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Lock  Matrix",
-							"parameter_type" : 3,
 							"parameter_longname" : "Lock  Matrix[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
+							"parameter_initial" : [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+							"parameter_shortname" : "Lock  Matrix",
+							"parameter_type" : 3
 						}
 
 					}
@@ -37329,6 +38987,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-195", 0 ],
+					"source" : [ "obj-187", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-362", 0 ],
+					"source" : [ "obj-187", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-243", 0 ],
 					"source" : [ "obj-188", 0 ]
 				}
@@ -37442,7 +39114,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-195", 0 ],
+					"destination" : [ "obj-258", 0 ],
 					"order" : 0,
 					"source" : [ "obj-203", 0 ]
 				}
@@ -38153,6 +39825,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-187", 0 ],
+					"source" : [ "obj-258", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 1 ],
 					"midpoints" : [ -726.7890625, 469.748185575008392, -688.7890625, 469.748185575008392 ],
 					"source" : [ "obj-26", 0 ]
@@ -38530,6 +40209,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-373", 1 ],
 					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-187", 1 ],
+					"source" : [ "obj-329", 0 ]
 				}
 
 			}
@@ -39042,6 +40728,13 @@
 					"destination" : [ "obj-205", 0 ],
 					"midpoints" : [ 734.4913330078125, 448.000006675720215, 832.529743790626526, 448.000006675720215, 832.529743790626526, 589.697318553924561, 759.44866007566452, 589.697318553924561, 759.44866007566452, 620.464889228343964, 726.4913330078125, 620.464889228343964 ],
 					"source" : [ "obj-400", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-329", 0 ],
+					"source" : [ "obj-41", 0 ]
 				}
 
 			}
@@ -39704,2659 +41397,1480 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-282::obj-172::obj-29::obj-9" : [ "Manual Rate[12]", "Manual Rate", 0 ],
-			"obj-292::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[38]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-179::obj-67" : [ "min_max_offset_ui[43]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-373::obj-32" : [ "off[48]", "off", 0 ],
-			"obj-340::obj-172::obj-29::obj-9" : [ "Manual Rate[56]", "Manual Rate", 0 ],
-			"obj-339::obj-173::obj-29::obj-97" : [ "Quantized_Rate[62]", "Quantized Rate", 0 ],
-			"obj-338::obj-174::obj-47" : [ "modulation_indices[69]", "modulation_indices", 0 ],
-			"obj-338::obj-179::obj-32" : [ "off[70]", "off", 0 ],
-			"obj-338::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[71]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-179::obj-67" : [ "min_max_offset_ui[79]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-172::obj-67" : [ "min_max_offset_ui[82]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-176" : [ "reso_harsh_ctrl[13]", "reso_harsh_ctrl", 0 ],
-			"obj-344::obj-174::obj-55" : [ "live.text[111]", "live.text[1]", 0 ],
-			"obj-190::obj-67" : [ "min_max_offset_ui[100]", "min_max_offset_ui", 0 ],
-			"obj-68::obj-23" : [ "jam_amount[77]", "jam_amount", 0 ],
-			"obj-64::obj-67" : [ "min_max_offset_ui[109]", "min_max_offset_ui", 0 ],
-			"obj-233::obj-172::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-240::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[10]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[24]", "manual_rate_wrapper", 0 ],
-			"obj-335::obj-46::obj-67" : [ "min_max_offset_ui[32]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-46::obj-32" : [ "off[29]", "off", 0 ],
-			"obj-333::obj-172::obj-29::obj-9" : [ "Manual Rate[39]", "Manual Rate", 0 ],
-			"obj-292::obj-174::obj-55" : [ "live.text[39]", "live.text[1]", 0 ],
-			"obj-338::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[69]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-179::obj-47" : [ "modulation_indices[70]", "modulation_indices", 0 ],
-			"obj-346::obj-172::obj-47" : [ "modulation_indices[73]", "modulation_indices", 0 ],
-			"obj-346::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[76]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-179::obj-47" : [ "modulation_indices[76]", "modulation_indices", 0 ],
-			"obj-345::obj-173::obj-30" : [ "randomize_percentage[84]", "randomize_percentage", 0 ],
-			"obj-345::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[82]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-46::obj-30" : [ "randomize_percentage[93]", "randomize_percentage", 0 ],
-			"obj-343::obj-179::obj-29::obj-9" : [ "Manual Rate[95]", "Manual Rate", 0 ],
-			"obj-373::obj-55" : [ "live.text[98]", "live.text[1]", 0 ],
-			"obj-233::obj-116" : [ "reso_freq_coefficient_ctrl[18]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-240::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[8]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-172::obj-32" : [ "off[13]", "off", 0 ],
-			"obj-282::obj-179::obj-32" : [ "off[16]", "off", 0 ],
-			"obj-282::obj-112" : [ "reso_q_ctrl[2]", "reso_q_ctrl", 0 ],
-			"obj-271::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[22]", "quantize_rate_wrapper", 0 ],
-			"obj-333::obj-179::obj-29::obj-97" : [ "Quantized_Rate[34]", "Quantized Rate", 0 ],
-			"obj-292::obj-172::obj-55" : [ "live.text[37]", "live.text[1]", 0 ],
-			"obj-292::obj-46::obj-32" : [ "off[41]", "off", 0 ],
-			"obj-283::obj-172::obj-67" : [ "min_max_offset_ui[46]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[49]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-172::obj-30" : [ "randomize_percentage[59]", "randomize_percentage", 0 ],
-			"obj-340::obj-179::obj-29::obj-97" : [ "Quantized_Rate[58]", "Quantized Rate", 0 ],
-			"obj-338::obj-46::obj-47" : [ "modulation_indices[71]", "modulation_indices", 0 ],
-			"obj-346::obj-373::obj-29::obj-97" : [ "Quantized_Rate[72]", "Quantized Rate", 0 ],
-			"obj-346::obj-46::obj-55" : [ "live.text[77]", "live.text[1]", 0 ],
-			"obj-345::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[80]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-179::obj-67" : [ "min_max_offset_ui[91]", "min_max_offset_ui", 0 ],
-			"obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
-			"obj-233::obj-179::obj-30" : [ "randomize_percentage[8]", "randomize_percentage", 0 ],
-			"obj-233::obj-49" : [ "reso_comb_ctrl[15]", "reso_comb_ctrl", 0 ],
-			"obj-271::obj-173::obj-32" : [ "off[20]", "off", 0 ],
-			"obj-335::obj-172::obj-32" : [ "off[25]", "off", 0 ],
-			"obj-333::obj-173::obj-29::obj-9" : [ "Manual Rate[21]", "Manual Rate", 0 ],
-			"obj-292::obj-373::obj-47" : [ "modulation_indices[36]", "modulation_indices", 0 ],
-			"obj-292::obj-373::obj-32" : [ "off[36]", "off", 0 ],
-			"obj-283::obj-46::obj-29::obj-97" : [ "Quantized_Rate[47]", "Quantized Rate", 0 ],
-			"obj-340::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[57]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-172::obj-30" : [ "randomize_percentage[65]", "randomize_percentage", 0 ],
-			"obj-339::obj-46::obj-67" : [ "min_max_offset_ui[68]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-179::obj-30" : [ "randomize_percentage[74]", "randomize_percentage", 0 ],
-			"obj-345::obj-173::obj-47" : [ "modulation_indices[80]", "modulation_indices", 0 ],
-			"obj-344::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[85]", "quantize_rate_wrapper", 0 ],
-			"obj-343::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[93]", "quantize_rate_wrapper", 0 ],
-			"obj-194" : [ "SoloLock", "Solo Lock", 0 ],
-			"obj-233::obj-174::obj-30" : [ "randomize_percentage[7]", "randomize_percentage", 0 ],
-			"obj-240::obj-172::obj-67" : [ "min_max_offset_ui[10]", "min_max_offset_ui", 0 ],
-			"obj-282::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[12]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-174::obj-29::obj-97" : [ "Quantized_Rate[15]", "Quantized Rate", 0 ],
-			"obj-271::obj-174::obj-47" : [ "modulation_indices[21]", "modulation_indices", 0 ],
-			"obj-335::obj-373::obj-67" : [ "min_max_offset_ui[27]", "min_max_offset_ui", 0 ],
-			"obj-333::obj-174::obj-32" : [ "off[33]", "off", 0 ],
-			"obj-333::obj-174::obj-67" : [ "min_max_offset_ui[36]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-373::obj-67" : [ "min_max_offset_ui[63]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[61]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-172::obj-55" : [ "live.text[61]", "live.text[1]", 0 ],
-			"obj-338::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[68]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-112" : [ "reso_q_ctrl[11]", "reso_q_ctrl", 0 ],
-			"obj-344::obj-179::obj-29::obj-97" : [ "Quantized_Rate[88]", "Quantized Rate", 0 ],
-			"obj-343::obj-46::obj-32" : [ "off[95]", "off", 0 ],
-			"obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[97]", "quantize_rate_wrapper", 0 ],
-			"obj-289::obj-29::obj-9" : [ "Manual Rate[102]", "Manual Rate", 0 ],
-			"obj-289::obj-30" : [ "randomize_percentage[105]", "randomize_percentage", 0 ],
-			"obj-220" : [ "ProbLock[6]", "ProbLock", 0 ],
-			"obj-233::obj-179::obj-29::obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
-			"obj-233::obj-179::obj-55" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-240::obj-173::obj-32" : [ "off[8]", "off", 0 ],
-			"obj-282::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[15]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-174::obj-29::obj-9" : [ "Manual Rate[14]", "Manual Rate", 0 ],
-			"obj-271::obj-173::obj-29::obj-97" : [ "Quantized_Rate[20]", "Quantized Rate", 0 ],
-			"obj-335::obj-174::obj-55" : [ "live.text[27]", "live.text[1]", 0 ],
-			"obj-335::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[28]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-116" : [ "reso_freq_coefficient_ctrl[4]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-333::obj-174::obj-55" : [ "live.text[33]", "live.text[1]", 0 ],
-			"obj-341::obj-174::obj-29::obj-9" : [ "Manual Rate[52]", "Manual Rate", 0 ],
-			"obj-340::obj-173::obj-47" : [ "modulation_indices[56]", "modulation_indices", 0 ],
-			"obj-339::obj-49" : [ "reso_comb_ctrl[5]", "reso_comb_ctrl", 0 ],
-			"obj-338::obj-174::obj-55" : [ "live.text[69]", "live.text[1]", 0 ],
-			"obj-345::obj-174::obj-55" : [ "live.text[81]", "live.text[1]", 0 ],
-			"obj-345::obj-174::obj-30" : [ "randomize_percentage[85]", "randomize_percentage", 0 ],
-			"obj-344::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[89]", "quantize_rate_wrapper", 0 ],
-			"obj-148::obj-29::obj-9" : [ "Manual Rate[99]", "Manual Rate", 0 ],
-			"obj-289::obj-67" : [ "min_max_offset_ui[104]", "min_max_offset_ui", 0 ],
-			"obj-257::obj-29::obj-23" : [ "manual_rate_wrapper[102]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-46::obj-29::obj-9" : [ "Manual Rate[16]", "Manual Rate", 0 ],
-			"obj-335::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[26]", "manual_rate_wrapper", 0 ],
-			"obj-335::obj-174::obj-29::obj-9" : [ "Manual Rate[35]", "Manual Rate", 0 ],
-			"obj-333::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[33]", "quantize_rate_wrapper", 0 ],
-			"obj-333::obj-179::obj-32" : [ "off[34]", "off", 0 ],
-			"obj-292::obj-174::obj-67" : [ "min_max_offset_ui[42]", "min_max_offset_ui", 0 ],
-			"obj-283::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[42]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-119" : [ "reso_am_ctrl[7]", "reso_am_ctrl", 0 ],
-			"obj-341::obj-172::obj-30" : [ "randomize_percentage[53]", "randomize_percentage", 0 ],
-			"obj-340::obj-173::obj-32" : [ "off[56]", "off", 0 ],
-			"obj-340::obj-173::obj-30" : [ "randomize_percentage[60]", "randomize_percentage", 0 ],
-			"obj-339::obj-174::obj-47" : [ "modulation_indices[63]", "modulation_indices", 0 ],
-			"obj-339::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[64]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-373::obj-47" : [ "modulation_indices[66]", "modulation_indices", 0 ],
-			"obj-346::obj-173::obj-55" : [ "live.text[74]", "live.text[1]", 0 ],
-			"obj-346::obj-46::obj-67" : [ "min_max_offset_ui[80]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-172::obj-30" : [ "randomize_percentage[89]", "randomize_percentage", 0 ],
-			"obj-344::obj-173::obj-55" : [ "live.text[110]", "live.text[1]", 0 ],
-			"obj-343::obj-119" : [ "reso_am_ctrl[15]", "reso_am_ctrl", 0 ],
-			"obj-102::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
-			"obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
-			"obj-233::obj-173::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
+			"obj-233::obj-174::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
 			"obj-233::obj-174::obj-67" : [ "min_max_offset_ui[6]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-179::obj-29::obj-97" : [ "Quantized_Rate[10]", "Quantized Rate", 0 ],
-			"obj-282::obj-173::obj-30" : [ "randomize_percentage[18]", "randomize_percentage", 0 ],
-			"obj-271::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[21]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-174::obj-30" : [ "randomize_percentage[25]", "randomize_percentage", 0 ],
-			"obj-333::obj-373::obj-29::obj-97" : [ "Quantized_Rate[30]", "Quantized Rate", 0 ],
-			"obj-333::obj-373::obj-29::obj-9" : [ "Manual Rate[38]", "Manual Rate", 0 ],
-			"obj-333::obj-373::obj-32" : [ "off[30]", "off", 0 ],
-			"obj-292::obj-172::obj-29::obj-9" : [ "Manual Rate[24]", "Manual Rate", 0 ],
-			"obj-283::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[45]", "quantize_rate_wrapper", 0 ],
-			"obj-341::obj-46::obj-55" : [ "live.text[53]", "live.text[1]", 0 ],
-			"obj-341::obj-116" : [ "reso_freq_coefficient_ctrl[8]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-340::obj-172::obj-32" : [ "off[55]", "off", 0 ],
-			"obj-339::obj-172::obj-29::obj-97" : [ "Quantized_Rate[61]", "Quantized Rate", 0 ],
-			"obj-338::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[70]", "quantize_rate_wrapper", 0 ],
-			"obj-346::obj-46::obj-30" : [ "randomize_percentage[81]", "randomize_percentage", 0 ],
-			"obj-345::obj-373::obj-32" : [ "off[78]", "off", 0 ],
-			"obj-345::obj-174::obj-29::obj-9" : [ "Manual Rate[82]", "Manual Rate", 0 ],
-			"obj-344::obj-116" : [ "reso_freq_coefficient_ctrl[14]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-343::obj-46::obj-55" : [ "live.text[91]", "live.text[1]", 0 ],
-			"obj-239::obj-12" : [ "realtime_audio_gates[1]", "realtime_audio_gates", 0 ],
-			"obj-185::obj-55" : [ "live.text[100]", "live.text[1]", 0 ],
-			"obj-282::obj-173::obj-32" : [ "off[14]", "off", 0 ],
-			"obj-271::obj-373::obj-55" : [ "live.text[18]", "live.text[1]", 0 ],
-			"obj-271::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[23]", "quantize_rate_wrapper", 0 ],
-			"obj-271::obj-176" : [ "reso_harsh_ctrl[3]", "reso_harsh_ctrl", 0 ],
-			"obj-335::obj-179::obj-67" : [ "min_max_offset_ui[31]", "min_max_offset_ui", 0 ],
-			"obj-333::obj-173::obj-67" : [ "min_max_offset_ui[35]", "min_max_offset_ui", 0 ],
-			"obj-292::obj-172::obj-29::obj-97" : [ "Quantized_Rate[37]", "Quantized Rate", 0 ],
-			"obj-292::obj-173::obj-32" : [ "off[38]", "off", 0 ],
-			"obj-283::obj-174::obj-32" : [ "off[45]", "off", 0 ],
-			"obj-283::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[46]", "manual_rate_wrapper", 0 ],
-			"obj-341::obj-174::obj-47" : [ "modulation_indices[51]", "modulation_indices", 0 ],
-			"obj-341::obj-179::obj-55" : [ "live.text[52]", "live.text[1]", 0 ],
-			"obj-341::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[53]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-116" : [ "reso_freq_coefficient_ctrl[10]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-338::obj-173::obj-29::obj-97" : [ "Quantized_Rate[68]", "Quantized Rate", 0 ],
-			"obj-346::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[75]", "quantize_rate_wrapper", 0 ],
-			"obj-345::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[81]", "quantize_rate_wrapper", 0 ],
-			"obj-345::obj-46::obj-67" : [ "min_max_offset_ui[86]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-46::obj-47" : [ "modulation_indices[83]", "modulation_indices", 0 ],
-			"obj-344::obj-46::obj-47" : [ "modulation_indices[89]", "modulation_indices", 0 ],
-			"obj-174::obj-67" : [ "min_max_offset_ui[102]", "min_max_offset_ui", 0 ],
-			"obj-185::obj-29::obj-23" : [ "manual_rate_wrapper[105]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-173::obj-55" : [ "live.text[8]", "live.text[1]", 0 ],
-			"obj-271::obj-173::obj-67" : [ "min_max_offset_ui[23]", "min_max_offset_ui", 0 ],
-			"obj-333::obj-172::obj-30" : [ "randomize_percentage[35]", "randomize_percentage", 0 ],
-			"obj-292::obj-179::obj-47" : [ "modulation_indices[40]", "modulation_indices", 0 ],
-			"obj-283::obj-46::obj-32" : [ "off[47]", "off", 0 ],
-			"obj-340::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[58]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-179::obj-30" : [ "randomize_percentage[62]", "randomize_percentage", 0 ],
-			"obj-340::obj-46::obj-29::obj-9" : [ "Manual Rate[60]", "Manual Rate", 0 ],
-			"obj-340::obj-122" : [ "reso_asr_ctrl[9]", "reso_asr_ctrl", 0 ],
-			"obj-339::obj-179::obj-55" : [ "live.text[64]", "live.text[1]", 0 ],
-			"obj-338::obj-46::obj-30" : [ "randomize_percentage[75]", "randomize_percentage", 0 ],
-			"obj-344::obj-172::obj-29::obj-9" : [ "Manual Rate[86]", "Manual Rate", 0 ],
-			"obj-239::obj-325::obj-29::obj-97" : [ "Quantized_Rate[100]", "Quantized Rate", 0 ],
-			"obj-328" : [ "ProbLock[8]", "ProbLock", 0 ],
-			"obj-240::obj-174::obj-67" : [ "min_max_offset_ui[12]", "min_max_offset_ui", 0 ],
-			"obj-282::obj-173::obj-29::obj-9" : [ "Manual Rate[13]", "Manual Rate", 0 ],
-			"obj-282::obj-46::obj-55" : [ "live.text[17]", "live.text[1]", 0 ],
-			"obj-333::obj-119" : [ "reso_am_ctrl[5]", "reso_am_ctrl", 0 ],
-			"obj-292::obj-173::obj-67" : [ "min_max_offset_ui[41]", "min_max_offset_ui", 0 ],
-			"obj-292::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[40]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[56]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-373::obj-32" : [ "off[60]", "off", 0 ],
-			"obj-339::obj-174::obj-30" : [ "randomize_percentage[67]", "randomize_percentage", 0 ],
-			"obj-339::obj-112" : [ "reso_q_ctrl[10]", "reso_q_ctrl", 0 ],
-			"obj-338::obj-179::obj-67" : [ "min_max_offset_ui[73]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-176" : [ "reso_harsh_ctrl[12]", "reso_harsh_ctrl", 0 ],
-			"obj-343::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[92]", "quantize_rate_wrapper", 0 ],
-			"obj-343::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[95]", "manual_rate_wrapper", 0 ],
-			"obj-217::obj-3" : [ "range_selector_2[3]", "range_selector_2", 0 ],
-			"obj-102::obj-9" : [ "live.text[102]", "live.text", 0 ],
-			"obj-233::obj-176" : [ "reso_harsh_ctrl[18]", "reso_harsh_ctrl", 0 ],
-			"obj-240::obj-46::obj-30" : [ "randomize_percentage[15]", "randomize_percentage", 0 ],
-			"obj-282::obj-172::obj-47" : [ "modulation_indices[13]", "modulation_indices", 0 ],
-			"obj-282::obj-173::obj-29::obj-97" : [ "Quantized_Rate[14]", "Quantized Rate", 0 ],
-			"obj-282::obj-173::obj-47" : [ "modulation_indices[14]", "modulation_indices", 0 ],
-			"obj-282::obj-179::obj-29::obj-9" : [ "Manual Rate[15]", "Manual Rate", 0 ],
-			"obj-282::obj-46::obj-29::obj-97" : [ "Quantized_Rate[17]", "Quantized Rate", 0 ],
-			"obj-271::obj-373::obj-47" : [ "modulation_indices[18]", "modulation_indices", 0 ],
-			"obj-271::obj-179::obj-29::obj-9" : [ "Manual Rate[30]", "Manual Rate", 0 ],
-			"obj-333::obj-179::obj-30" : [ "randomize_percentage[38]", "randomize_percentage", 0 ],
-			"obj-292::obj-172::obj-30" : [ "randomize_percentage[41]", "randomize_percentage", 0 ],
-			"obj-292::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[38]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-173::obj-29::obj-97" : [ "Quantized_Rate[38]", "Quantized Rate", 0 ],
-			"obj-292::obj-174::obj-30" : [ "randomize_percentage[43]", "randomize_percentage", 0 ],
-			"obj-292::obj-112" : [ "reso_q_ctrl[6]", "reso_q_ctrl", 0 ],
-			"obj-283::obj-46::obj-67" : [ "min_max_offset_ui[50]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[60]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-173::obj-67" : [ "min_max_offset_ui[71]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-119" : [ "reso_am_ctrl[13]", "reso_am_ctrl", 0 ],
-			"obj-343::obj-174::obj-67" : [ "min_max_offset_ui[96]", "min_max_offset_ui", 0 ],
-			"obj-148::obj-47" : [ "modulation_indices[98]", "modulation_indices", 0 ],
-			"obj-148::obj-67" : [ "min_max_offset_ui[101]", "min_max_offset_ui", 0 ],
-			"obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[99]", "manual_rate_wrapper", 0 ],
-			"obj-289::obj-32" : [ "off[101]", "off", 0 ],
-			"obj-182" : [ "preset_pattern_gen[2]", "preset_pattern_gen", 0 ],
-			"obj-233::obj-174::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized Rate", 0 ],
-			"obj-233::obj-46::obj-55" : [ "live.text[5]", "live.text[1]", 0 ],
-			"obj-282::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[13]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-373::obj-29::obj-9" : [ "Manual Rate[17]", "Manual Rate", 0 ],
-			"obj-335::obj-173::obj-29::obj-97" : [ "Quantized_Rate[26]", "Quantized Rate", 0 ],
-			"obj-333::obj-373::obj-55" : [ "live.text[30]", "live.text[1]", 0 ],
-			"obj-283::obj-373::obj-29::obj-9" : [ "Manual Rate[27]", "Manual Rate", 0 ],
-			"obj-283::obj-173::obj-29::obj-9" : [ "Manual Rate[45]", "Manual Rate", 0 ],
-			"obj-283::obj-173::obj-30" : [ "randomize_percentage[48]", "randomize_percentage", 0 ],
-			"obj-341::obj-174::obj-67" : [ "min_max_offset_ui[54]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-179::obj-32" : [ "off[64]", "off", 0 ],
-			"obj-346::obj-172::obj-67" : [ "min_max_offset_ui[76]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-173::obj-32" : [ "off[74]", "off", 0 ],
-			"obj-346::obj-112" : [ "reso_q_ctrl[12]", "reso_q_ctrl", 0 ],
-			"obj-344::obj-173::obj-30" : [ "randomize_percentage[90]", "randomize_percentage", 0 ],
-			"obj-343::obj-174::obj-29::obj-97" : [ "Quantized_Rate[93]", "Quantized Rate", 0 ],
-			"obj-357" : [ "SubsetCtrl[2]", "SubsetCtrl", 0 ],
-			"obj-311" : [ "jam_walk_max[2]", "jam_walk_max", 0 ],
-			"obj-233::obj-179::obj-47" : [ "modulation_indices[4]", "modulation_indices", 0 ],
-			"obj-240::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[8]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[16]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-174::obj-55" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-271::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[22]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[41]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-172::obj-55" : [ "live.text[43]", "live.text[1]", 0 ],
-			"obj-283::obj-46::obj-47" : [ "modulation_indices[47]", "modulation_indices", 0 ],
-			"obj-341::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[49]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-172::obj-29::obj-97" : [ "Quantized_Rate[55]", "Quantized Rate", 0 ],
-			"obj-346::obj-373::obj-29::obj-9" : [ "Manual Rate[73]", "Manual Rate", 0 ],
-			"obj-346::obj-172::obj-55" : [ "live.text[73]", "live.text[1]", 0 ],
-			"obj-345::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[78]", "quantize_rate_wrapper", 0 ],
-			"obj-345::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[80]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-179::obj-32" : [ "off[82]", "off", 0 ],
-			"obj-343::obj-173::obj-29::obj-97" : [ "Quantized_Rate[92]", "Quantized Rate", 0 ],
-			"obj-252::obj-67" : [ "min_max_offset_ui[99]", "min_max_offset_ui", 0 ],
-			"obj-233::obj-373::obj-67" : [ "min_max_offset_ui[5]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-373::obj-29::obj-9" : [ "Manual Rate[6]", "Manual Rate", 0 ],
-			"obj-240::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[6]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-179::obj-29::obj-9" : [ "Manual Rate[10]", "Manual Rate", 0 ],
-			"obj-240::obj-46::obj-32" : [ "off[11]", "off", 0 ],
-			"obj-271::obj-173::obj-30" : [ "randomize_percentage[24]", "randomize_percentage", 0 ],
-			"obj-271::obj-179::obj-47" : [ "modulation_indices[22]", "modulation_indices", 0 ],
+			"obj-240::obj-172::obj-32" : [ "off[7]", "off", 0 ],
+			"obj-240::obj-46::obj-29::obj-97" : [ "Quantized_Rate[11]", "Quantized Rate", 0 ],
+			"obj-240::obj-122" : [ "reso_asr_ctrl[1]", "reso_asr_ctrl", 0 ],
+			"obj-282::obj-46::obj-32" : [ "off[17]", "off", 0 ],
 			"obj-271::obj-179::obj-30" : [ "randomize_percentage[26]", "randomize_percentage", 0 ],
-			"obj-335::obj-46::obj-30" : [ "randomize_percentage[33]", "randomize_percentage", 0 ],
-			"obj-333::obj-173::obj-32" : [ "off[32]", "off", 0 ],
-			"obj-292::obj-46::obj-29::obj-9" : [ "Manual Rate[26]", "Manual Rate", 0 ],
-			"obj-341::obj-172::obj-47" : [ "modulation_indices[49]", "modulation_indices", 0 ],
-			"obj-345::obj-173::obj-32" : [ "off[80]", "off", 0 ],
-			"obj-345::obj-173::obj-55" : [ "live.text[80]", "live.text[1]", 0 ],
-			"obj-344::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[85]", "manual_rate_wrapper", 0 ],
-			"obj-344::obj-179::obj-32" : [ "off[88]", "off", 0 ],
-			"obj-344::obj-46::obj-29::obj-9" : [ "Manual Rate[90]", "Manual Rate", 0 ],
-			"obj-257::obj-29::obj-97" : [ "Quantized_Rate[102]", "Quantized Rate", 0 ],
-			"obj-92" : [ "jam_every_n_bars[3]", "jam_every_n_bars", 0 ],
-			"obj-278" : [ "ProbLock[5]", "ProbLock", 0 ],
-			"obj-164" : [ "ProbLock[10]", "ProbLock", 0 ],
-			"obj-64::obj-29::obj-23" : [ "manual_rate_wrapper[106]", "manual_rate_wrapper", 0 ],
-			"obj-233::obj-179::obj-32" : [ "off[4]", "off", 0 ],
-			"obj-240::obj-174::obj-55" : [ "live.text[9]", "live.text[1]", 0 ],
-			"obj-271::obj-373::obj-30" : [ "randomize_percentage[22]", "randomize_percentage", 0 ],
-			"obj-335::obj-373::obj-29::obj-9" : [ "Manual Rate[32]", "Manual Rate", 0 ],
-			"obj-335::obj-49" : [ "reso_comb_ctrl[2]", "reso_comb_ctrl", 0 ],
-			"obj-292::obj-46::obj-55" : [ "live.text[41]", "live.text[1]", 0 ],
-			"obj-341::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[52]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[54]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-179::obj-55" : [ "live.text[58]", "live.text[1]", 0 ],
-			"obj-338::obj-119" : [ "reso_am_ctrl[11]", "reso_am_ctrl", 0 ],
-			"obj-346::obj-174::obj-29::obj-97" : [ "Quantized_Rate[75]", "Quantized Rate", 0 ],
-			"obj-344::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[88]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-46::obj-55" : [ "live.text[113]", "live.text[1]", 0 ],
-			"obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[97]", "manual_rate_wrapper", 0 ],
-			"obj-289::obj-29::obj-97" : [ "Quantized_Rate[101]", "Quantized Rate", 0 ],
-			"obj-257::obj-67" : [ "min_max_offset_ui[105]", "min_max_offset_ui", 0 ],
-			"obj-334::obj-67" : [ "min_max_offset_ui[107]", "min_max_offset_ui", 0 ],
-			"obj-126::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
-			"obj-31" : [ "Jam On/Off[3]", "Jam On/Off", 0 ],
-			"obj-233::obj-173::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
-			"obj-233::obj-179::obj-29::obj-97" : [ "Quantized_Rate[4]", "Quantized Rate", 0 ],
-			"obj-233::obj-46::obj-67" : [ "min_max_offset_ui[8]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-373::obj-55" : [ "live.text[6]", "live.text[1]", 0 ],
-			"obj-240::obj-46::obj-55" : [ "live.text[11]", "live.text[1]", 0 ],
-			"obj-282::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[15]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-172::obj-29::obj-9" : [ "Manual Rate[18]", "Manual Rate", 0 ],
-			"obj-335::obj-176" : [ "reso_harsh_ctrl[4]", "reso_harsh_ctrl", 0 ],
-			"obj-292::obj-46::obj-29::obj-97" : [ "Quantized_Rate[41]", "Quantized Rate", 0 ],
-			"obj-341::obj-173::obj-29::obj-9" : [ "Manual Rate[51]", "Manual Rate", 0 ],
-			"obj-341::obj-46::obj-47" : [ "modulation_indices[53]", "modulation_indices", 0 ],
-			"obj-339::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[63]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-174::obj-55" : [ "live.text[63]", "live.text[1]", 0 ],
-			"obj-338::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[66]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-173::obj-32" : [ "off[68]", "off", 0 ],
-			"obj-344::obj-373::obj-32" : [ "off[84]", "off", 0 ],
-			"obj-344::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[89]", "manual_rate_wrapper", 0 ],
-			"obj-252::obj-47" : [ "modulation_indices[96]", "modulation_indices", 0 ],
-			"obj-190::obj-32" : [ "off[97]", "off", 0 ],
-			"obj-332" : [ "ProbLock[9]", "ProbLock", 0 ],
-			"obj-303" : [ "feedback_sync", "feedback_sync", 0 ],
-			"obj-240::obj-373::obj-30" : [ "randomize_percentage[10]", "randomize_percentage", 0 ],
-			"obj-282::obj-373::obj-47" : [ "modulation_indices[12]", "modulation_indices", 0 ],
-			"obj-282::obj-179::obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-282::obj-46::obj-47" : [ "modulation_indices[17]", "modulation_indices", 0 ],
-			"obj-335::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[26]", "quantize_rate_wrapper", 0 ],
-			"obj-333::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[30]", "quantize_rate_wrapper", 0 ],
-			"obj-333::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[33]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-46::obj-67" : [ "min_max_offset_ui[44]", "min_max_offset_ui", 0 ],
-			"obj-283::obj-116" : [ "reso_freq_coefficient_ctrl[7]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-341::obj-46::obj-29::obj-9" : [ "Manual Rate[54]", "Manual Rate", 0 ],
-			"obj-339::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[64]", "manual_rate_wrapper", 0 ],
-			"obj-338::obj-173::obj-30" : [ "randomize_percentage[72]", "randomize_percentage", 0 ],
-			"obj-346::obj-179::obj-30" : [ "randomize_percentage[80]", "randomize_percentage", 0 ],
-			"obj-345::obj-373::obj-29::obj-97" : [ "Quantized_Rate[78]", "Quantized Rate", 0 ],
-			"obj-344::obj-172::obj-47" : [ "modulation_indices[85]", "modulation_indices", 0 ],
-			"obj-344::obj-179::obj-29::obj-9" : [ "Manual Rate[89]", "Manual Rate", 0 ],
-			"obj-239::obj-325::obj-29::obj-23" : [ "manual_rate_wrapper[100]", "manual_rate_wrapper", 0 ],
-			"obj-68::obj-12" : [ "ratecontrol[161]", "ratecontrol", 0 ],
-			"obj-233::obj-172::obj-30" : [ "randomize_percentage[6]", "randomize_percentage", 0 ],
-			"obj-271::obj-49" : [ "reso_comb_ctrl[17]", "reso_comb_ctrl", 0 ],
-			"obj-292::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[37]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[44]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[45]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-179::obj-55" : [ "live.text[46]", "live.text[1]", 0 ],
-			"obj-283::obj-46::obj-29::obj-9" : [ "Manual Rate[48]", "Manual Rate", 0 ],
-			"obj-341::obj-174::obj-55" : [ "live.text[51]", "live.text[1]", 0 ],
-			"obj-341::obj-176" : [ "reso_harsh_ctrl[8]", "reso_harsh_ctrl", 0 ],
-			"obj-338::obj-172::obj-29::obj-97" : [ "Quantized_Rate[67]", "Quantized Rate", 0 ],
-			"obj-338::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[70]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-174::obj-29::obj-9" : [ "Manual Rate[76]", "Manual Rate", 0 ],
-			"obj-345::obj-373::obj-67" : [ "min_max_offset_ui[81]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-176" : [ "reso_harsh_ctrl[14]", "reso_harsh_ctrl", 0 ],
-			"obj-343::obj-179::obj-55" : [ "live.text[90]", "live.text[1]", 0 ],
-			"obj-70" : [ "markov_gen_density[2]", "markov_gen_density", 0 ],
-			"obj-233::obj-46::obj-47" : [ "modulation_indices[5]", "modulation_indices", 0 ],
-			"obj-271::obj-179::obj-55" : [ "live.text[22]", "live.text[1]", 0 ],
-			"obj-271::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[23]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-112" : [ "reso_q_ctrl[3]", "reso_q_ctrl", 0 ],
-			"obj-335::obj-172::obj-55" : [ "live.text[25]", "live.text[1]", 0 ],
-			"obj-335::obj-172::obj-30" : [ "randomize_percentage[29]", "randomize_percentage", 0 ],
-			"obj-283::obj-112" : [ "reso_q_ctrl[7]", "reso_q_ctrl", 0 ],
-			"obj-341::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[50]", "quantize_rate_wrapper", 0 ],
-			"obj-341::obj-173::obj-67" : [ "min_max_offset_ui[53]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[75]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-174::obj-47" : [ "modulation_indices[75]", "modulation_indices", 0 ],
-			"obj-346::obj-179::obj-32" : [ "off[76]", "off", 0 ],
-			"obj-345::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[81]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-179::obj-30" : [ "randomize_percentage[86]", "randomize_percentage", 0 ],
-			"obj-345::obj-46::obj-32" : [ "off[83]", "off", 0 ],
-			"obj-344::obj-46::obj-67" : [ "min_max_offset_ui[92]", "min_max_offset_ui", 0 ],
-			"obj-343::obj-174::obj-55" : [ "live.text[89]", "live.text[1]", 0 ],
-			"obj-343::obj-112" : [ "reso_q_ctrl[15]", "reso_q_ctrl", 0 ],
-			"obj-257::obj-47" : [ "modulation_indices[102]", "modulation_indices", 0 ],
-			"obj-185::obj-30" : [ "randomize_percentage[109]", "randomize_percentage", 0 ],
-			"obj-68::obj-142" : [ "Channel", "Channel", 0 ],
-			"obj-68::obj-9" : [ "live.text[286]", "live.text", 0 ],
-			"obj-384" : [ "fill mode", "fill mode", 0 ],
-			"obj-233::obj-46::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
-			"obj-240::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[7]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-173::obj-67" : [ "min_max_offset_ui[17]", "min_max_offset_ui", 0 ],
-			"obj-282::obj-174::obj-32" : [ "off[15]", "off", 0 ],
-			"obj-282::obj-49" : [ "reso_comb_ctrl[1]", "reso_comb_ctrl", 0 ],
-			"obj-282::obj-176" : [ "reso_harsh_ctrl[2]", "reso_harsh_ctrl", 0 ],
-			"obj-271::obj-172::obj-67" : [ "min_max_offset_ui[22]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-179::obj-67" : [ "min_max_offset_ui[25]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[25]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-172::obj-47" : [ "modulation_indices[25]", "modulation_indices", 0 ],
-			"obj-333::obj-174::obj-29::obj-97" : [ "Quantized_Rate[33]", "Quantized Rate", 0 ],
-			"obj-333::obj-179::obj-29::obj-9" : [ "Manual Rate[22]", "Manual Rate", 0 ],
-			"obj-341::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[48]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-179::obj-32" : [ "off[58]", "off", 0 ],
-			"obj-340::obj-176" : [ "reso_harsh_ctrl[9]", "reso_harsh_ctrl", 0 ],
-			"obj-338::obj-46::obj-29::obj-97" : [ "Quantized_Rate[71]", "Quantized Rate", 0 ],
-			"obj-346::obj-46::obj-47" : [ "modulation_indices[77]", "modulation_indices", 0 ],
-			"obj-345::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[79]", "manual_rate_wrapper", 0 ],
-			"obj-344::obj-373::obj-29::obj-9" : [ "Manual Rate[85]", "Manual Rate", 0 ],
-			"obj-148::obj-30" : [ "randomize_percentage[102]", "randomize_percentage", 0 ],
-			"obj-185::obj-67" : [ "min_max_offset_ui[108]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-179::obj-55" : [ "live.text[10]", "live.text[1]", 0 ],
-			"obj-335::obj-373::obj-32" : [ "off[24]", "off", 0 ],
-			"obj-333::obj-46::obj-47" : [ "modulation_indices[35]", "modulation_indices", 0 ],
-			"obj-333::obj-122" : [ "reso_asr_ctrl[5]", "reso_asr_ctrl", 0 ],
-			"obj-292::obj-373::obj-30" : [ "randomize_percentage[40]", "randomize_percentage", 0 ],
-			"obj-283::obj-179::obj-29::obj-97" : [ "Quantized_Rate[46]", "Quantized Rate", 0 ],
-			"obj-340::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[55]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[56]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-172::obj-67" : [ "min_max_offset_ui[64]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-179::obj-67" : [ "min_max_offset_ui[67]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-176" : [ "reso_harsh_ctrl[10]", "reso_harsh_ctrl", 0 ],
-			"obj-338::obj-172::obj-67" : [ "min_max_offset_ui[70]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-172::obj-55" : [ "live.text[67]", "live.text[1]", 0 ],
-			"obj-344::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[84]", "quantize_rate_wrapper", 0 ],
-			"obj-343::obj-172::obj-55" : [ "live.text[87]", "live.text[1]", 0 ],
-			"obj-343::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[92]", "manual_rate_wrapper", 0 ],
-			"obj-148::obj-29::obj-23" : [ "manual_rate_wrapper[98]", "manual_rate_wrapper", 0 ],
-			"obj-174::obj-29::obj-97" : [ "Quantized_Rate[99]", "Quantized Rate", 0 ],
-			"obj-81" : [ "Loop Control[2]", "Loop Control", 0 ],
-			"obj-233::obj-172::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-174::obj-32" : [ "off[9]", "off", 0 ],
-			"obj-240::obj-46::obj-47" : [ "modulation_indices[11]", "modulation_indices", 0 ],
-			"obj-282::obj-373::obj-29::obj-9" : [ "Manual Rate[11]", "Manual Rate", 0 ],
-			"obj-335::obj-46::obj-47" : [ "modulation_indices[29]", "modulation_indices", 0 ],
-			"obj-292::obj-172::obj-67" : [ "min_max_offset_ui[40]", "min_max_offset_ui", 0 ],
-			"obj-292::obj-122" : [ "reso_asr_ctrl[6]", "reso_asr_ctrl", 0 ],
-			"obj-341::obj-174::obj-29::obj-97" : [ "Quantized_Rate[51]", "Quantized Rate", 0 ],
-			"obj-340::obj-46::obj-67" : [ "min_max_offset_ui[62]", "min_max_offset_ui", 0 ],
-			"obj-339::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[60]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-179::obj-29::obj-9" : [ "Manual Rate[65]", "Manual Rate", 0 ],
-			"obj-338::obj-373::obj-55" : [ "live.text[66]", "live.text[1]", 0 ],
-			"obj-346::obj-173::obj-30" : [ "randomize_percentage[78]", "randomize_percentage", 0 ],
-			"obj-345::obj-179::obj-55" : [ "live.text[82]", "live.text[1]", 0 ],
-			"obj-344::obj-179::obj-47" : [ "modulation_indices[88]", "modulation_indices", 0 ],
-			"obj-343::obj-172::obj-29::obj-9" : [ "Manual Rate[92]", "Manual Rate", 0 ],
-			"obj-343::obj-173::obj-30" : [ "randomize_percentage[96]", "randomize_percentage", 0 ],
-			"obj-343::obj-46::obj-30" : [ "randomize_percentage[99]", "randomize_percentage", 0 ],
-			"obj-252::obj-29::obj-22" : [ "quantize_rate_wrapper[96]", "quantize_rate_wrapper", 0 ],
-			"obj-148::obj-32" : [ "off[98]", "off", 0 ],
-			"obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[99]", "quantize_rate_wrapper", 0 ],
-			"obj-233::obj-373::obj-55" : [ "live.text[109]", "live.text[1]", 0 ],
-			"obj-233::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[9]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-373::obj-29::obj-97" : [ "Quantized_Rate[12]", "Quantized Rate", 0 ],
-			"obj-282::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[13]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-116" : [ "reso_freq_coefficient_ctrl[2]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-292::obj-174::obj-32" : [ "off[39]", "off", 0 ],
-			"obj-283::obj-373::obj-55" : [ "live.text[42]", "live.text[1]", 0 ],
-			"obj-283::obj-172::obj-29::obj-97" : [ "Quantized_Rate[43]", "Quantized Rate", 0 ],
-			"obj-341::obj-172::obj-29::obj-9" : [ "Manual Rate[50]", "Manual Rate", 0 ],
-			"obj-340::obj-373::obj-29::obj-9" : [ "Manual Rate[55]", "Manual Rate", 0 ],
-			"obj-340::obj-172::obj-47" : [ "modulation_indices[55]", "modulation_indices", 0 ],
-			"obj-340::obj-174::obj-29::obj-97" : [ "Quantized_Rate[57]", "Quantized Rate", 0 ],
-			"obj-338::obj-172::obj-29::obj-9" : [ "Manual Rate[68]", "Manual Rate", 0 ],
-			"obj-338::obj-173::obj-55" : [ "live.text[68]", "live.text[1]", 0 ],
-			"obj-346::obj-174::obj-55" : [ "live.text[75]", "live.text[1]", 0 ],
-			"obj-346::obj-122" : [ "reso_asr_ctrl[12]", "reso_asr_ctrl", 0 ],
-			"obj-345::obj-373::obj-55" : [ "live.text[78]", "live.text[1]", 0 ],
-			"obj-345::obj-172::obj-29::obj-97" : [ "Quantized_Rate[79]", "Quantized Rate", 0 ],
-			"obj-345::obj-172::obj-55" : [ "live.text[79]", "live.text[1]", 0 ],
-			"obj-344::obj-174::obj-67" : [ "min_max_offset_ui[90]", "min_max_offset_ui", 0 ],
-			"obj-343::obj-174::obj-30" : [ "randomize_percentage[97]", "randomize_percentage", 0 ],
-			"obj-343::obj-46::obj-29::obj-9" : [ "Manual Rate[96]", "Manual Rate", 0 ],
-			"obj-190::obj-29::obj-9" : [ "Manual Rate[98]", "Manual Rate", 0 ],
-			"obj-233::obj-373::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
-			"obj-233::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
-			"obj-233::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[5]", "manual_rate_wrapper", 0 ],
-			"obj-233::obj-119" : [ "reso_am_ctrl[18]", "reso_am_ctrl", 0 ],
-			"obj-282::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[16]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-172::obj-67" : [ "min_max_offset_ui[28]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-174::obj-47" : [ "modulation_indices[27]", "modulation_indices", 0 ],
-			"obj-333::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[32]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-174::obj-29::obj-9" : [ "Manual Rate[25]", "Manual Rate", 0 ],
-			"obj-292::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[41]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-179::obj-30" : [ "randomize_percentage[50]", "randomize_percentage", 0 ],
-			"obj-341::obj-373::obj-30" : [ "randomize_percentage[52]", "randomize_percentage", 0 ],
-			"obj-341::obj-179::obj-32" : [ "off[52]", "off", 0 ],
-			"obj-340::obj-373::obj-55" : [ "live.text[54]", "live.text[1]", 0 ],
-			"obj-339::obj-46::obj-47" : [ "modulation_indices[65]", "modulation_indices", 0 ],
-			"obj-338::obj-46::obj-29::obj-9" : [ "Manual Rate[72]", "Manual Rate", 0 ],
-			"obj-345::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[78]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-112" : [ "reso_q_ctrl[13]", "reso_q_ctrl", 0 ],
-			"obj-344::obj-373::obj-30" : [ "randomize_percentage[88]", "randomize_percentage", 0 ],
-			"obj-289::obj-47" : [ "modulation_indices[101]", "modulation_indices", 0 ],
-			"obj-257::obj-32" : [ "off[102]", "off", 0 ],
-			"obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[103]", "manual_rate_wrapper", 0 ],
-			"obj-334::obj-29::obj-97" : [ "Quantized_Rate[104]", "Quantized Rate", 0 ],
-			"obj-297" : [ "SubsetCtrl[3]", "SubsetCtrl", 0 ],
-			"obj-276" : [ "which_matrix_pos_ctrl", "which_matrix_pos_ctrl", 0 ],
-			"obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
-			"obj-240::obj-174::obj-29::obj-97" : [ "Quantized_Rate[9]", "Quantized Rate", 0 ],
-			"obj-240::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[10]", "manual_rate_wrapper", 0 ],
-			"obj-282::obj-172::obj-30" : [ "randomize_percentage[17]", "randomize_percentage", 0 ],
-			"obj-282::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[17]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-119" : [ "reso_am_ctrl[2]", "reso_am_ctrl", 0 ],
-			"obj-271::obj-373::obj-32" : [ "off[18]", "off", 0 ],
-			"obj-271::obj-174::obj-29::obj-9" : [ "Manual Rate[20]", "Manual Rate", 0 ],
-			"obj-335::obj-46::obj-29::obj-97" : [ "Quantized_Rate[29]", "Quantized Rate", 0 ],
-			"obj-283::obj-174::obj-67" : [ "min_max_offset_ui[48]", "min_max_offset_ui", 0 ],
-			"obj-283::obj-46::obj-30" : [ "randomize_percentage[51]", "randomize_percentage", 0 ],
-			"obj-341::obj-173::obj-30" : [ "randomize_percentage[54]", "randomize_percentage", 0 ],
-			"obj-341::obj-46::obj-29::obj-97" : [ "Quantized_Rate[53]", "Quantized Rate", 0 ],
-			"obj-341::obj-46::obj-30" : [ "randomize_percentage[57]", "randomize_percentage", 0 ],
-			"obj-340::obj-174::obj-32" : [ "off[57]", "off", 0 ],
-			"obj-338::obj-373::obj-29::obj-97" : [ "Quantized_Rate[66]", "Quantized Rate", 0 ],
-			"obj-346::obj-173::obj-29::obj-9" : [ "Manual Rate[75]", "Manual Rate", 0 ],
-			"obj-126::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
-			"obj-60::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
-			"obj-102::obj-13" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
-			"obj-64::obj-30" : [ "randomize_percentage[110]", "randomize_percentage", 0 ],
-			"obj-240::obj-112" : [ "reso_q_ctrl[1]", "reso_q_ctrl", 0 ],
-			"obj-271::obj-373::obj-67" : [ "min_max_offset_ui[21]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[20]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-179::obj-32" : [ "off[22]", "off", 0 ],
-			"obj-292::obj-173::obj-47" : [ "modulation_indices[38]", "modulation_indices", 0 ],
-			"obj-341::obj-173::obj-47" : [ "modulation_indices[50]", "modulation_indices", 0 ],
-			"obj-341::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[52]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[54]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-172::obj-32" : [ "off[61]", "off", 0 ],
-			"obj-346::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[74]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-373::obj-29::obj-9" : [ "Manual Rate[79]", "Manual Rate", 0 ],
-			"obj-345::obj-179::obj-47" : [ "modulation_indices[82]", "modulation_indices", 0 ],
-			"obj-345::obj-49" : [ "reso_comb_ctrl[8]", "reso_comb_ctrl", 0 ],
-			"obj-344::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[88]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-373::obj-55" : [ "live.text[86]", "live.text[1]", 0 ],
-			"obj-343::obj-173::obj-67" : [ "min_max_offset_ui[95]", "min_max_offset_ui", 0 ],
-			"obj-174::obj-55" : [ "live.text[94]", "live.text[1]", 0 ],
-			"obj-302" : [ "Delta Trigger Note Volume[1]", "Delta Trigger Note Volume", 0 ],
-			"obj-233::obj-173::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
-			"obj-282::obj-174::obj-55" : [ "live.text[15]", "live.text[1]", 0 ],
-			"obj-282::obj-122" : [ "reso_asr_ctrl[2]", "reso_asr_ctrl", 0 ],
-			"obj-335::obj-179::obj-55" : [ "live.text[28]", "live.text[1]", 0 ],
-			"obj-335::obj-119" : [ "reso_am_ctrl[4]", "reso_am_ctrl", 0 ],
-			"obj-333::obj-373::obj-67" : [ "min_max_offset_ui[33]", "min_max_offset_ui", 0 ],
-			"obj-333::obj-174::obj-47" : [ "modulation_indices[33]", "modulation_indices", 0 ],
-			"obj-333::obj-179::obj-67" : [ "min_max_offset_ui[37]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-172::obj-32" : [ "off[49]", "off", 0 ],
-			"obj-340::obj-174::obj-30" : [ "randomize_percentage[61]", "randomize_percentage", 0 ],
-			"obj-339::obj-373::obj-55" : [ "live.text[60]", "live.text[1]", 0 ],
-			"obj-339::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[63]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-46::obj-29::obj-97" : [ "Quantized_Rate[77]", "Quantized Rate", 0 ],
-			"obj-344::obj-174::obj-47" : [ "modulation_indices[87]", "modulation_indices", 0 ],
-			"obj-344::obj-179::obj-55" : [ "live.text[112]", "live.text[1]", 0 ],
-			"obj-373::obj-29::obj-9" : [ "Manual Rate[104]", "Manual Rate", 0 ],
-			"obj-125" : [ "Solo_Matrix", "Solo_Matrix", 0 ],
-			"obj-64::obj-55" : [ "live.text[103]", "live.text[1]", 0 ],
-			"obj-233::obj-173::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
-			"obj-240::obj-173::obj-47" : [ "modulation_indices[8]", "modulation_indices", 0 ],
-			"obj-271::obj-179::obj-29::obj-97" : [ "Quantized_Rate[22]", "Quantized Rate", 0 ],
-			"obj-335::obj-172::obj-29::obj-9" : [ "Manual Rate[33]", "Manual Rate", 0 ],
-			"obj-333::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[30]", "manual_rate_wrapper", 0 ],
-			"obj-333::obj-172::obj-47" : [ "modulation_indices[31]", "modulation_indices", 0 ],
-			"obj-341::obj-179::obj-29::obj-97" : [ "Quantized_Rate[52]", "Quantized Rate", 0 ],
-			"obj-340::obj-179::obj-47" : [ "modulation_indices[58]", "modulation_indices", 0 ],
-			"obj-339::obj-172::obj-47" : [ "modulation_indices[61]", "modulation_indices", 0 ],
-			"obj-338::obj-174::obj-67" : [ "min_max_offset_ui[72]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-116" : [ "reso_freq_coefficient_ctrl[11]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-345::obj-174::obj-29::obj-97" : [ "Quantized_Rate[81]", "Quantized Rate", 0 ],
-			"obj-345::obj-46::obj-55" : [ "live.text[83]", "live.text[1]", 0 ],
-			"obj-344::obj-46::obj-32" : [ "off[89]", "off", 0 ],
-			"obj-343::obj-373::obj-29::obj-9" : [ "Manual Rate[91]", "Manual Rate", 0 ],
-			"obj-343::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[91]", "quantize_rate_wrapper", 0 ],
-			"obj-252::obj-30" : [ "randomize_percentage[100]", "randomize_percentage", 0 ],
-			"obj-239::obj-325::obj-29::obj-22" : [ "quantize_rate_wrapper[100]", "quantize_rate_wrapper", 0 ],
-			"obj-373::obj-32" : [ "off[103]", "off", 0 ],
-			"obj-233::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-172::obj-29::obj-97" : [ "Quantized_Rate[13]", "Quantized Rate", 0 ],
-			"obj-282::obj-179::obj-29::obj-97" : [ "Quantized_Rate[16]", "Quantized Rate", 0 ],
-			"obj-271::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[19]", "quantize_rate_wrapper", 0 ],
 			"obj-333::obj-174::obj-30" : [ "randomize_percentage[37]", "randomize_percentage", 0 ],
-			"obj-333::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[35]", "manual_rate_wrapper", 0 ],
 			"obj-292::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[37]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-373::obj-32" : [ "off[42]", "off", 0 ],
+			"obj-292::obj-46::obj-67" : [ "min_max_offset_ui[44]", "min_max_offset_ui", 0 ],
 			"obj-283::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[44]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-173::obj-32" : [ "off[44]", "off", 0 ],
-			"obj-340::obj-49" : [ "reso_comb_ctrl[20]", "reso_comb_ctrl", 0 ],
-			"obj-338::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[66]", "manual_rate_wrapper", 0 ],
-			"obj-338::obj-173::obj-47" : [ "modulation_indices[68]", "modulation_indices", 0 ],
-			"obj-346::obj-173::obj-47" : [ "modulation_indices[74]", "modulation_indices", 0 ],
-			"obj-346::obj-179::obj-55" : [ "live.text[76]", "live.text[1]", 0 ],
-			"obj-344::obj-119" : [ "reso_am_ctrl[14]", "reso_am_ctrl", 0 ],
-			"obj-239::obj-325::obj-32" : [ "off[100]", "off", 0 ],
-			"obj-257::obj-55" : [ "live.text[97]", "live.text[1]", 0 ],
-			"obj-327" : [ "fractional_probs", "fractional_probs", 0 ],
-			"obj-240::obj-46::obj-29::obj-9" : [ "Manual Rate[29]", "Manual Rate", 0 ],
-			"obj-282::obj-179::obj-47" : [ "modulation_indices[16]", "modulation_indices", 0 ],
+			"obj-341::obj-179::obj-55" : [ "live.text[52]", "live.text[1]", 0 ],
+			"obj-339::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[61]", "manual_rate_wrapper", 0 ],
+			"obj-339::obj-49" : [ "reso_comb_ctrl[5]", "reso_comb_ctrl", 0 ],
+			"obj-346::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[73]", "manual_rate_wrapper", 0 ],
+			"obj-345::obj-46::obj-32" : [ "off[83]", "off", 0 ],
+			"obj-344::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[85]", "manual_rate_wrapper", 0 ],
+			"obj-344::obj-179::obj-29::obj-97" : [ "Quantized_Rate[88]", "Quantized Rate", 0 ],
+			"obj-239::obj-220" : [ "ProbLock[4]", "ProbLock", 0 ],
+			"obj-289::obj-29::obj-23" : [ "manual_rate_wrapper[101]", "manual_rate_wrapper", 0 ],
+			"obj-289::obj-47" : [ "modulation_indices[101]", "modulation_indices", 0 ],
+			"obj-31" : [ "Jam On/Off[3]", "Jam On/Off", 0 ],
+			"obj-233::obj-172::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
+			"obj-282::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[14]", "manual_rate_wrapper", 0 ],
+			"obj-282::obj-46::obj-67" : [ "min_max_offset_ui[20]", "min_max_offset_ui", 0 ],
 			"obj-335::obj-172::obj-29::obj-97" : [ "Quantized_Rate[25]", "Quantized Rate", 0 ],
+			"obj-292::obj-174::obj-29::obj-9" : [ "Manual Rate[25]", "Manual Rate", 0 ],
+			"obj-340::obj-172::obj-29::obj-97" : [ "Quantized_Rate[55]", "Quantized Rate", 0 ],
+			"obj-340::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[59]", "manual_rate_wrapper", 0 ],
+			"obj-339::obj-179::obj-47" : [ "modulation_indices[64]", "modulation_indices", 0 ],
+			"obj-338::obj-46::obj-55" : [ "live.text[71]", "live.text[1]", 0 ],
+			"obj-338::obj-46::obj-32" : [ "off[71]", "off", 0 ],
+			"obj-345::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[78]", "manual_rate_wrapper", 0 ],
+			"obj-345::obj-116" : [ "reso_freq_coefficient_ctrl[13]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-344::obj-373::obj-67" : [ "min_max_offset_ui[87]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-373::obj-32" : [ "off[84]", "off", 0 ],
+			"obj-343::obj-172::obj-47" : [ "modulation_indices[91]", "modulation_indices", 0 ],
+			"obj-343::obj-179::obj-30" : [ "randomize_percentage[98]", "randomize_percentage", 0 ],
+			"obj-239::obj-325::obj-29::obj-97" : [ "Quantized_Rate[100]", "Quantized Rate", 0 ],
+			"obj-282::obj-373::obj-47" : [ "modulation_indices[12]", "modulation_indices", 0 ],
+			"obj-271::obj-373::obj-55" : [ "live.text[18]", "live.text[1]", 0 ],
+			"obj-271::obj-172::obj-29::obj-97" : [ "Quantized_Rate[19]", "Quantized Rate", 0 ],
+			"obj-333::obj-373::obj-29::obj-9" : [ "Manual Rate[38]", "Manual Rate", 0 ],
+			"obj-333::obj-373::obj-30" : [ "randomize_percentage[34]", "randomize_percentage", 0 ],
+			"obj-283::obj-373::obj-30" : [ "randomize_percentage[46]", "randomize_percentage", 0 ],
+			"obj-283::obj-179::obj-47" : [ "modulation_indices[46]", "modulation_indices", 0 ],
+			"obj-283::obj-46::obj-32" : [ "off[47]", "off", 0 ],
+			"obj-341::obj-173::obj-67" : [ "min_max_offset_ui[53]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-176" : [ "reso_harsh_ctrl[8]", "reso_harsh_ctrl", 0 ],
+			"obj-339::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[62]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-174::obj-55" : [ "live.text[69]", "live.text[1]", 0 ],
+			"obj-338::obj-174::obj-47" : [ "modulation_indices[69]", "modulation_indices", 0 ],
+			"obj-346::obj-173::obj-29::obj-9" : [ "Manual Rate[75]", "Manual Rate", 0 ],
+			"obj-346::obj-174::obj-29::obj-97" : [ "Quantized_Rate[75]", "Quantized Rate", 0 ],
+			"obj-344::obj-112" : [ "reso_q_ctrl[14]", "reso_q_ctrl", 0 ],
+			"obj-343::obj-373::obj-29::obj-9" : [ "Manual Rate[91]", "Manual Rate", 0 ],
+			"obj-343::obj-373::obj-67" : [ "min_max_offset_ui[93]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-174::obj-47" : [ "modulation_indices[93]", "modulation_indices", 0 ],
+			"obj-289::obj-30" : [ "randomize_percentage[105]", "randomize_percentage", 0 ],
+			"obj-68::obj-23" : [ "jam_amount[77]", "jam_amount", 0 ],
+			"obj-126::obj-12" : [ "ratecontrol[1]", "ratecontrol", 0 ],
+			"obj-386" : [ "fill every[1]", "fill every", 0 ],
+			"obj-233::obj-173::obj-67" : [ "min_max_offset_ui[2]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-46::obj-29::obj-9" : [ "Manual Rate[5]", "Manual Rate", 0 ],
+			"obj-271::obj-173::obj-47" : [ "modulation_indices[20]", "modulation_indices", 0 ],
+			"obj-335::obj-179::obj-30" : [ "randomize_percentage[32]", "randomize_percentage", 0 ],
+			"obj-335::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[29]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[32]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-174::obj-67" : [ "min_max_offset_ui[48]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-373::obj-47" : [ "modulation_indices[48]", "modulation_indices", 0 ],
+			"obj-341::obj-373::obj-55" : [ "live.text[48]", "live.text[1]", 0 ],
+			"obj-341::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[50]", "quantize_rate_wrapper", 0 ],
+			"obj-341::obj-174::obj-29::obj-97" : [ "Quantized_Rate[51]", "Quantized Rate", 0 ],
+			"obj-340::obj-46::obj-30" : [ "randomize_percentage[63]", "randomize_percentage", 0 ],
+			"obj-339::obj-172::obj-29::obj-9" : [ "Manual Rate[62]", "Manual Rate", 0 ],
+			"obj-346::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[74]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-174::obj-30" : [ "randomize_percentage[91]", "randomize_percentage", 0 ],
+			"obj-344::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[89]", "manual_rate_wrapper", 0 ],
+			"obj-343::obj-174::obj-32" : [ "off[93]", "off", 0 ],
+			"obj-343::obj-112" : [ "reso_q_ctrl[15]", "reso_q_ctrl", 0 ],
+			"obj-252::obj-29::obj-23" : [ "manual_rate_wrapper[96]", "manual_rate_wrapper", 0 ],
+			"obj-239::obj-325::obj-29::obj-9" : [ "Manual Rate[101]", "Manual Rate", 0 ],
+			"obj-26" : [ "jam_probabilities[3]", "jam_probabilities", 0 ],
+			"obj-233::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-173::obj-67" : [ "min_max_offset_ui[29]", "min_max_offset_ui", 0 ],
+			"obj-333::obj-173::obj-29::obj-9" : [ "Manual Rate[21]", "Manual Rate", 0 ],
+			"obj-333::obj-174::obj-29::obj-97" : [ "Quantized_Rate[33]", "Quantized Rate", 0 ],
+			"obj-292::obj-116" : [ "reso_freq_coefficient_ctrl[6]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-339::obj-179::obj-30" : [ "randomize_percentage[68]", "randomize_percentage", 0 ],
+			"obj-339::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[65]", "manual_rate_wrapper", 0 ],
+			"obj-346::obj-172::obj-47" : [ "modulation_indices[73]", "modulation_indices", 0 ],
+			"obj-345::obj-373::obj-29::obj-97" : [ "Quantized_Rate[78]", "Quantized Rate", 0 ],
+			"obj-345::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[83]", "manual_rate_wrapper", 0 ],
+			"obj-344::obj-179::obj-32" : [ "off[88]", "off", 0 ],
+			"obj-190::obj-55" : [ "live.text[93]", "live.text[1]", 0 ],
+			"obj-68::obj-13" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
+			"obj-384" : [ "fill mode", "fill mode", 0 ],
+			"obj-203" : [ "global_cell_speed", "global_cell_speed", 0 ],
+			"obj-233::obj-174::obj-29::obj-97" : [ "Quantized_Rate[3]", "Quantized Rate", 0 ],
+			"obj-240::obj-373::obj-32" : [ "off[6]", "off", 0 ],
+			"obj-282::obj-172::obj-32" : [ "off[13]", "off", 0 ],
+			"obj-292::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[40]", "manual_rate_wrapper", 0 ],
+			"obj-292::obj-46::obj-29::obj-97" : [ "Quantized_Rate[41]", "Quantized Rate", 0 ],
+			"obj-292::obj-46::obj-47" : [ "modulation_indices[41]", "modulation_indices", 0 ],
+			"obj-340::obj-373::obj-55" : [ "live.text[54]", "live.text[1]", 0 ],
+			"obj-339::obj-172::obj-55" : [ "live.text[61]", "live.text[1]", 0 ],
+			"obj-339::obj-46::obj-29::obj-97" : [ "Quantized_Rate[65]", "Quantized Rate", 0 ],
+			"obj-346::obj-179::obj-55" : [ "live.text[76]", "live.text[1]", 0 ],
+			"obj-344::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[88]", "manual_rate_wrapper", 0 ],
+			"obj-343::obj-172::obj-30" : [ "randomize_percentage[95]", "randomize_percentage", 0 ],
+			"obj-343::obj-122" : [ "reso_asr_ctrl[15]", "reso_asr_ctrl", 0 ],
+			"obj-185::obj-55" : [ "live.text[100]", "live.text[1]", 0 ],
+			"obj-68::obj-142" : [ "Channel", "Channel", 0 ],
+			"obj-240::obj-173::obj-29::obj-9" : [ "Manual Rate[8]", "Manual Rate", 0 ],
+			"obj-240::obj-173::obj-32" : [ "off[8]", "off", 0 ],
+			"obj-282::obj-174::obj-47" : [ "modulation_indices[15]", "modulation_indices", 0 ],
+			"obj-271::obj-373::obj-32" : [ "off[18]", "off", 0 ],
+			"obj-271::obj-174::obj-29::obj-97" : [ "Quantized_Rate[21]", "Quantized Rate", 0 ],
+			"obj-333::obj-46::obj-29::obj-9" : [ "Manual Rate[41]", "Manual Rate", 0 ],
+			"obj-292::obj-172::obj-67" : [ "min_max_offset_ui[40]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-174::obj-29::obj-97" : [ "Quantized_Rate[39]", "Quantized Rate", 0 ],
+			"obj-292::obj-112" : [ "reso_q_ctrl[6]", "reso_q_ctrl", 0 ],
+			"obj-345::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[79]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-173::obj-32" : [ "off[80]", "off", 0 ],
+			"obj-345::obj-173::obj-67" : [ "min_max_offset_ui[83]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-373::obj-29::obj-9" : [ "Manual Rate[85]", "Manual Rate", 0 ],
+			"obj-148::obj-29::obj-97" : [ "Quantized_Rate[98]", "Quantized Rate", 0 ],
+			"obj-148::obj-32" : [ "off[98]", "off", 0 ],
+			"obj-174::obj-29::obj-9" : [ "Manual Rate[100]", "Manual Rate", 0 ],
+			"obj-174::obj-55" : [ "live.text[94]", "live.text[1]", 0 ],
+			"obj-257::obj-29::obj-23" : [ "manual_rate_wrapper[102]", "manual_rate_wrapper", 0 ],
+			"obj-60::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
+			"obj-64::obj-30" : [ "randomize_percentage[110]", "randomize_percentage", 0 ],
+			"obj-233::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[20]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-174::obj-67" : [ "min_max_offset_ui[24]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-49" : [ "reso_comb_ctrl[17]", "reso_comb_ctrl", 0 ],
 			"obj-335::obj-174::obj-67" : [ "min_max_offset_ui[30]", "min_max_offset_ui", 0 ],
-			"obj-333::obj-174::obj-29::obj-9" : [ "Manual Rate[40]", "Manual Rate", 0 ],
-			"obj-292::obj-174::obj-47" : [ "modulation_indices[39]", "modulation_indices", 0 ],
+			"obj-333::obj-112" : [ "reso_q_ctrl[5]", "reso_q_ctrl", 0 ],
+			"obj-292::obj-179::obj-67" : [ "min_max_offset_ui[43]", "min_max_offset_ui", 0 ],
+			"obj-283::obj-373::obj-29::obj-9" : [ "Manual Rate[27]", "Manual Rate", 0 ],
+			"obj-283::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[43]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-172::obj-47" : [ "modulation_indices[55]", "modulation_indices", 0 ],
+			"obj-338::obj-173::obj-47" : [ "modulation_indices[68]", "modulation_indices", 0 ],
+			"obj-338::obj-174::obj-30" : [ "randomize_percentage[73]", "randomize_percentage", 0 ],
+			"obj-338::obj-122" : [ "reso_asr_ctrl[11]", "reso_asr_ctrl", 0 ],
+			"obj-346::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[72]", "manual_rate_wrapper", 0 ],
+			"obj-190::obj-29::obj-97" : [ "Quantized_Rate[97]", "Quantized Rate", 0 ],
+			"obj-148::obj-67" : [ "min_max_offset_ui[101]", "min_max_offset_ui", 0 ],
+			"obj-373::obj-32" : [ "off[103]", "off", 0 ],
+			"obj-60::obj-142" : [ "Channel[2]", "Channel", 0 ],
+			"obj-64::obj-29::obj-9" : [ "Manual Rate[107]", "Manual Rate", 0 ],
+			"obj-52" : [ "CellSpeedLock", "CellSpeedLock", 0 ],
+			"obj-233::obj-179::obj-29::obj-97" : [ "Quantized_Rate[4]", "Quantized Rate", 0 ],
+			"obj-240::obj-373::obj-29::obj-97" : [ "Quantized_Rate[6]", "Quantized Rate", 0 ],
+			"obj-271::obj-172::obj-55" : [ "live.text[19]", "live.text[1]", 0 ],
+			"obj-271::obj-173::obj-29::obj-97" : [ "Quantized_Rate[20]", "Quantized Rate", 0 ],
+			"obj-335::obj-373::obj-30" : [ "randomize_percentage[28]", "randomize_percentage", 0 ],
+			"obj-335::obj-122" : [ "reso_asr_ctrl[4]", "reso_asr_ctrl", 0 ],
+			"obj-333::obj-172::obj-30" : [ "randomize_percentage[35]", "randomize_percentage", 0 ],
+			"obj-283::obj-172::obj-30" : [ "randomize_percentage[47]", "randomize_percentage", 0 ],
+			"obj-341::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[49]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[63]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-172::obj-30" : [ "randomize_percentage[71]", "randomize_percentage", 0 ],
+			"obj-346::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[77]", "manual_rate_wrapper", 0 ],
+			"obj-346::obj-112" : [ "reso_q_ctrl[12]", "reso_q_ctrl", 0 ],
+			"obj-343::obj-373::obj-30" : [ "randomize_percentage[94]", "randomize_percentage", 0 ],
+			"obj-343::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[92]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-174::obj-30" : [ "randomize_percentage[97]", "randomize_percentage", 0 ],
+			"obj-289::obj-32" : [ "off[101]", "off", 0 ],
+			"obj-229" : [ "ProbLock[7]", "ProbLock", 0 ],
+			"obj-233::obj-173::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
+			"obj-240::obj-173::obj-29::obj-97" : [ "Quantized_Rate[8]", "Quantized Rate", 0 ],
+			"obj-240::obj-174::obj-47" : [ "modulation_indices[9]", "modulation_indices", 0 ],
+			"obj-240::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[11]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[15]", "manual_rate_wrapper", 0 ],
+			"obj-271::obj-116" : [ "reso_freq_coefficient_ctrl[3]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-333::obj-122" : [ "reso_asr_ctrl[5]", "reso_asr_ctrl", 0 ],
+			"obj-283::obj-172::obj-32" : [ "off[43]", "off", 0 ],
+			"obj-283::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[47]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-373::obj-29::obj-9" : [ "Manual Rate[49]", "Manual Rate", 0 ],
+			"obj-341::obj-172::obj-67" : [ "min_max_offset_ui[52]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[54]", "quantize_rate_wrapper", 0 ],
+			"obj-340::obj-119" : [ "reso_am_ctrl[9]", "reso_am_ctrl", 0 ],
+			"obj-339::obj-172::obj-67" : [ "min_max_offset_ui[64]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-373::obj-29::obj-9" : [ "Manual Rate[67]", "Manual Rate", 0 ],
+			"obj-338::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[68]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-172::obj-67" : [ "min_max_offset_ui[76]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-46::obj-67" : [ "min_max_offset_ui[92]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-173::obj-55" : [ "live.text[88]", "live.text[1]", 0 ],
+			"obj-190::obj-67" : [ "min_max_offset_ui[100]", "min_max_offset_ui", 0 ],
+			"obj-102::obj-12" : [ "ratecontrol[3]", "ratecontrol", 0 ],
+			"obj-64::obj-55" : [ "live.text[103]", "live.text[1]", 0 ],
+			"obj-233::obj-174::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
+			"obj-233::obj-49" : [ "reso_comb_ctrl[15]", "reso_comb_ctrl", 0 ],
+			"obj-282::obj-172::obj-29::obj-97" : [ "Quantized_Rate[13]", "Quantized Rate", 0 ],
+			"obj-282::obj-119" : [ "reso_am_ctrl[2]", "reso_am_ctrl", 0 ],
+			"obj-271::obj-172::obj-67" : [ "min_max_offset_ui[22]", "min_max_offset_ui", 0 ],
+			"obj-335::obj-173::obj-29::obj-9" : [ "Manual Rate[34]", "Manual Rate", 0 ],
+			"obj-333::obj-172::obj-29::obj-9" : [ "Manual Rate[39]", "Manual Rate", 0 ],
+			"obj-333::obj-179::obj-29::obj-97" : [ "Quantized_Rate[34]", "Quantized Rate", 0 ],
+			"obj-292::obj-172::obj-29::obj-9" : [ "Manual Rate[24]", "Manual Rate", 0 ],
+			"obj-283::obj-46::obj-29::obj-9" : [ "Manual Rate[48]", "Manual Rate", 0 ],
+			"obj-341::obj-179::obj-67" : [ "min_max_offset_ui[55]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-46::obj-29::obj-97" : [ "Quantized_Rate[53]", "Quantized Rate", 0 ],
+			"obj-339::obj-122" : [ "reso_asr_ctrl[10]", "reso_asr_ctrl", 0 ],
+			"obj-338::obj-373::obj-67" : [ "min_max_offset_ui[69]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-373::obj-32" : [ "off[66]", "off", 0 ],
+			"obj-345::obj-173::obj-30" : [ "randomize_percentage[84]", "randomize_percentage", 0 ],
+			"obj-343::obj-179::obj-67" : [ "min_max_offset_ui[97]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[95]", "quantize_rate_wrapper", 0 ],
+			"obj-252::obj-29::obj-97" : [ "Quantized_Rate[96]", "Quantized Rate", 0 ],
+			"obj-102::obj-13" : [ "delta_channel_wrapper[3]", "delta_channel_wrapper", 0 ],
+			"obj-64::obj-29::obj-23" : [ "manual_rate_wrapper[106]", "manual_rate_wrapper", 0 ],
+			"obj-233::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[5]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[8]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-179::obj-55" : [ "live.text[10]", "live.text[1]", 0 ],
+			"obj-240::obj-116" : [ "reso_freq_coefficient_ctrl[1]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-282::obj-173::obj-32" : [ "off[14]", "off", 0 ],
+			"obj-282::obj-173::obj-55" : [ "live.text[14]", "live.text[1]", 0 ],
+			"obj-271::obj-172::obj-30" : [ "randomize_percentage[23]", "randomize_percentage", 0 ],
+			"obj-335::obj-174::obj-29::obj-9" : [ "Manual Rate[35]", "Manual Rate", 0 ],
 			"obj-292::obj-179::obj-30" : [ "randomize_percentage[44]", "randomize_percentage", 0 ],
 			"obj-283::obj-172::obj-29::obj-9" : [ "Manual Rate[44]", "Manual Rate", 0 ],
-			"obj-283::obj-172::obj-30" : [ "randomize_percentage[47]", "randomize_percentage", 0 ],
-			"obj-283::obj-176" : [ "reso_harsh_ctrl[7]", "reso_harsh_ctrl", 0 ],
-			"obj-341::obj-173::obj-55" : [ "live.text[50]", "live.text[1]", 0 ],
-			"obj-341::obj-174::obj-32" : [ "off[51]", "off", 0 ],
 			"obj-340::obj-172::obj-55" : [ "live.text[55]", "live.text[1]", 0 ],
-			"obj-340::obj-179::obj-29::obj-9" : [ "Manual Rate[59]", "Manual Rate", 0 ],
-			"obj-346::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[72]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-179::obj-30" : [ "randomize_percentage[92]", "randomize_percentage", 0 ],
-			"obj-343::obj-122" : [ "reso_asr_ctrl[15]", "reso_asr_ctrl", 0 ],
-			"obj-64::obj-32" : [ "off[106]", "off", 0 ],
-			"obj-240::obj-373::obj-67" : [ "min_max_offset_ui[9]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[7]", "quantize_rate_wrapper", 0 ],
-			"obj-240::obj-172::obj-47" : [ "modulation_indices[7]", "modulation_indices", 0 ],
-			"obj-271::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[18]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-173::obj-29::obj-9" : [ "Manual Rate[19]", "Manual Rate", 0 ],
-			"obj-271::obj-173::obj-55" : [ "live.text[20]", "live.text[1]", 0 ],
-			"obj-335::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[25]", "manual_rate_wrapper", 0 ],
-			"obj-335::obj-46::obj-29::obj-9" : [ "Manual Rate[37]", "Manual Rate", 0 ],
-			"obj-333::obj-373::obj-30" : [ "randomize_percentage[34]", "randomize_percentage", 0 ],
-			"obj-333::obj-46::obj-55" : [ "live.text[35]", "live.text[1]", 0 ],
-			"obj-283::obj-179::obj-47" : [ "modulation_indices[46]", "modulation_indices", 0 ],
-			"obj-341::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[48]", "manual_rate_wrapper", 0 ],
-			"obj-341::obj-119" : [ "reso_am_ctrl[8]", "reso_am_ctrl", 0 ],
-			"obj-340::obj-373::obj-29::obj-97" : [ "Quantized_Rate[54]", "Quantized Rate", 0 ],
-			"obj-338::obj-179::obj-29::obj-97" : [ "Quantized_Rate[70]", "Quantized Rate", 0 ],
-			"obj-346::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[77]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[79]", "quantize_rate_wrapper", 0 ],
-			"obj-345::obj-174::obj-32" : [ "off[81]", "off", 0 ],
-			"obj-345::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[83]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-174::obj-29::obj-97" : [ "Quantized_Rate[87]", "Quantized Rate", 0 ],
-			"obj-343::obj-373::obj-29::obj-97" : [ "Quantized_Rate[90]", "Quantized Rate", 0 ],
-			"obj-334::obj-29::obj-23" : [ "manual_rate_wrapper[104]", "manual_rate_wrapper", 0 ],
-			"obj-52" : [ "CellSpeedLock", "CellSpeedLock", 0 ],
-			"obj-240::obj-173::obj-29::obj-9" : [ "Manual Rate[8]", "Manual Rate", 0 ],
-			"obj-240::obj-179::obj-32" : [ "off[10]", "off", 0 ],
-			"obj-282::obj-174::obj-47" : [ "modulation_indices[15]", "modulation_indices", 0 ],
-			"obj-271::obj-46::obj-32" : [ "off[23]", "off", 0 ],
-			"obj-271::obj-119" : [ "reso_am_ctrl[3]", "reso_am_ctrl", 0 ],
-			"obj-335::obj-179::obj-30" : [ "randomize_percentage[32]", "randomize_percentage", 0 ],
-			"obj-283::obj-373::obj-47" : [ "modulation_indices[42]", "modulation_indices", 0 ],
-			"obj-340::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[55]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-373::obj-30" : [ "randomize_percentage[64]", "randomize_percentage", 0 ],
-			"obj-339::obj-172::obj-29::obj-9" : [ "Manual Rate[62]", "Manual Rate", 0 ],
-			"obj-338::obj-373::obj-30" : [ "randomize_percentage[70]", "randomize_percentage", 0 ],
-			"obj-345::obj-172::obj-32" : [ "off[79]", "off", 0 ],
-			"obj-344::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[84]", "manual_rate_wrapper", 0 ],
-			"obj-344::obj-172::obj-29::obj-97" : [ "Quantized_Rate[85]", "Quantized Rate", 0 ],
-			"obj-344::obj-49" : [ "reso_comb_ctrl[9]", "reso_comb_ctrl", 0 ],
-			"obj-343::obj-46::obj-29::obj-97" : [ "Quantized_Rate[95]", "Quantized Rate", 0 ],
-			"obj-239::obj-325::obj-29::obj-9" : [ "Manual Rate[101]", "Manual Rate", 0 ],
-			"obj-233::obj-173::obj-30" : [ "randomize_percentage[1]", "randomize_percentage", 0 ],
-			"obj-233::obj-46::obj-32" : [ "off[5]", "off", 0 ],
-			"obj-282::obj-373::obj-55" : [ "live.text[12]", "live.text[1]", 0 ],
-			"obj-282::obj-172::obj-55" : [ "live.text[13]", "live.text[1]", 0 ],
-			"obj-282::obj-46::obj-30" : [ "randomize_percentage[21]", "randomize_percentage", 0 ],
-			"obj-335::obj-179::obj-47" : [ "modulation_indices[28]", "modulation_indices", 0 ],
-			"obj-292::obj-116" : [ "reso_freq_coefficient_ctrl[6]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-341::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[51]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-174::obj-55" : [ "live.text[57]", "live.text[1]", 0 ],
-			"obj-340::obj-112" : [ "reso_q_ctrl[9]", "reso_q_ctrl", 0 ],
-			"obj-338::obj-373::obj-67" : [ "min_max_offset_ui[69]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-173::obj-29::obj-97" : [ "Quantized_Rate[74]", "Quantized Rate", 0 ],
-			"obj-344::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[87]", "quantize_rate_wrapper", 0 ],
-			"obj-343::obj-46::obj-67" : [ "min_max_offset_ui[98]", "min_max_offset_ui", 0 ],
-			"obj-252::obj-29::obj-23" : [ "manual_rate_wrapper[96]", "manual_rate_wrapper", 0 ],
-			"obj-334::obj-29::obj-9" : [ "Manual Rate[105]", "Manual Rate", 0 ],
-			"obj-126::obj-9" : [ "live.text[115]", "live.text", 0 ],
-			"obj-26" : [ "jam_probabilities[3]", "jam_probabilities", 0 ],
-			"obj-229" : [ "ProbLock[7]", "ProbLock", 0 ],
-			"obj-184" : [ "preset_retrieve[2]", "preset_retrieve", 0 ],
-			"obj-240::obj-174::obj-29::obj-9" : [ "Manual Rate[9]", "Manual Rate", 0 ],
-			"obj-271::obj-172::obj-29::obj-97" : [ "Quantized_Rate[19]", "Quantized Rate", 0 ],
-			"obj-271::obj-46::obj-29::obj-97" : [ "Quantized_Rate[23]", "Quantized Rate", 0 ],
-			"obj-333::obj-172::obj-55" : [ "live.text[31]", "live.text[1]", 0 ],
-			"obj-333::obj-173::obj-47" : [ "modulation_indices[32]", "modulation_indices", 0 ],
-			"obj-333::obj-112" : [ "reso_q_ctrl[5]", "reso_q_ctrl", 0 ],
-			"obj-292::obj-179::obj-29::obj-97" : [ "Quantized_Rate[40]", "Quantized Rate", 0 ],
-			"obj-341::obj-172::obj-29::obj-97" : [ "Quantized_Rate[49]", "Quantized Rate", 0 ],
-			"obj-339::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[62]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-173::obj-55" : [ "live.text[62]", "live.text[1]", 0 ],
-			"obj-339::obj-174::obj-32" : [ "off[63]", "off", 0 ],
-			"obj-339::obj-179::obj-47" : [ "modulation_indices[64]", "modulation_indices", 0 ],
-			"obj-338::obj-172::obj-32" : [ "off[67]", "off", 0 ],
-			"obj-338::obj-174::obj-32" : [ "off[69]", "off", 0 ],
-			"obj-346::obj-116" : [ "reso_freq_coefficient_ctrl[12]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-344::obj-46::obj-29::obj-97" : [ "Quantized_Rate[89]", "Quantized Rate", 0 ],
-			"obj-343::obj-173::obj-47" : [ "modulation_indices[92]", "modulation_indices", 0 ],
-			"obj-343::obj-46::obj-47" : [ "modulation_indices[95]", "modulation_indices", 0 ],
-			"obj-289::obj-29::obj-23" : [ "manual_rate_wrapper[101]", "manual_rate_wrapper", 0 ],
-			"obj-185::obj-29::obj-9" : [ "Manual Rate[106]", "Manual Rate", 0 ],
-			"obj-233::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[2]", "quantize_rate_wrapper", 0 ],
-			"obj-233::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[5]", "quantize_rate_wrapper", 0 ],
-			"obj-271::obj-174::obj-29::obj-97" : [ "Quantized_Rate[21]", "Quantized Rate", 0 ],
-			"obj-335::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[29]", "manual_rate_wrapper", 0 ],
-			"obj-333::obj-172::obj-32" : [ "off[31]", "off", 0 ],
-			"obj-333::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[32]", "manual_rate_wrapper", 0 ],
-			"obj-333::obj-46::obj-32" : [ "off[35]", "off", 0 ],
-			"obj-292::obj-176" : [ "reso_harsh_ctrl[6]", "reso_harsh_ctrl", 0 ],
-			"obj-339::obj-173::obj-47" : [ "modulation_indices[62]", "modulation_indices", 0 ],
-			"obj-339::obj-46::obj-32" : [ "off[65]", "off", 0 ],
-			"obj-338::obj-46::obj-55" : [ "live.text[71]", "live.text[1]", 0 ],
-			"obj-346::obj-174::obj-67" : [ "min_max_offset_ui[78]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-122" : [ "reso_asr_ctrl[13]", "reso_asr_ctrl", 0 ],
-			"obj-343::obj-373::obj-47" : [ "modulation_indices[90]", "modulation_indices", 0 ],
-			"obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[103]", "quantize_rate_wrapper", 0 ],
-			"obj-36" : [ "repeat_on", "repeat_on", 0 ],
-			"obj-233::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
-			"obj-282::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[17]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-172::obj-47" : [ "modulation_indices[19]", "modulation_indices", 0 ],
-			"obj-271::obj-46::obj-47" : [ "modulation_indices[23]", "modulation_indices", 0 ],
-			"obj-335::obj-173::obj-30" : [ "randomize_percentage[30]", "randomize_percentage", 0 ],
-			"obj-292::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[36]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[43]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-174::obj-55" : [ "live.text[45]", "live.text[1]", 0 ],
-			"obj-339::obj-373::obj-29::obj-97" : [ "Quantized_Rate[60]", "Quantized Rate", 0 ],
-			"obj-338::obj-174::obj-29::obj-9" : [ "Manual Rate[70]", "Manual Rate", 0 ],
-			"obj-346::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[73]", "quantize_rate_wrapper", 0 ],
-			"obj-346::obj-46::obj-32" : [ "off[77]", "off", 0 ],
-			"obj-345::obj-173::obj-29::obj-9" : [ "Manual Rate[81]", "Manual Rate", 0 ],
-			"obj-343::obj-173::obj-29::obj-9" : [ "Manual Rate[93]", "Manual Rate", 0 ],
-			"obj-190::obj-30" : [ "randomize_percentage[101]", "randomize_percentage", 0 ],
-			"obj-148::obj-55" : [ "live.text[114]", "live.text[1]", 0 ],
-			"obj-373::obj-29::obj-97" : [ "Quantized_Rate[103]", "Quantized Rate", 0 ],
-			"obj-373::obj-47" : [ "modulation_indices[103]", "modulation_indices", 0 ],
-			"obj-64::obj-47" : [ "modulation_indices[106]", "modulation_indices", 0 ],
-			"obj-233::obj-373::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
-			"obj-233::obj-373::obj-30" : [ "randomize_percentage[5]", "randomize_percentage", 0 ],
-			"obj-233::obj-174::obj-29::obj-9" : [ "Manual Rate[3]", "Manual Rate", 0 ],
-			"obj-233::obj-46::obj-29::obj-9" : [ "Manual Rate[5]", "Manual Rate", 0 ],
-			"obj-282::obj-174::obj-67" : [ "min_max_offset_ui[18]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-373::obj-55" : [ "live.text[24]", "live.text[1]", 0 ],
-			"obj-335::obj-373::obj-30" : [ "randomize_percentage[28]", "randomize_percentage", 0 ],
-			"obj-333::obj-46::obj-29::obj-9" : [ "Manual Rate[41]", "Manual Rate", 0 ],
-			"obj-341::obj-172::obj-67" : [ "min_max_offset_ui[52]", "min_max_offset_ui", 0 ],
-			"obj-340::obj-174::obj-29::obj-9" : [ "Manual Rate[58]", "Manual Rate", 0 ],
-			"obj-340::obj-46::obj-32" : [ "off[59]", "off", 0 ],
-			"obj-339::obj-179::obj-29::obj-97" : [ "Quantized_Rate[64]", "Quantized Rate", 0 ],
-			"obj-346::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[74]", "quantize_rate_wrapper", 0 ],
-			"obj-346::obj-174::obj-32" : [ "off[75]", "off", 0 ],
-			"obj-345::obj-373::obj-47" : [ "modulation_indices[78]", "modulation_indices", 0 ],
-			"obj-344::obj-172::obj-67" : [ "min_max_offset_ui[88]", "min_max_offset_ui", 0 ],
-			"obj-185::obj-32" : [ "off[105]", "off", 0 ],
-			"obj-233::obj-373::obj-32" : [ "off", "off", 0 ],
-			"obj-233::obj-172::obj-29::obj-9" : [ "Manual Rate[1]", "Manual Rate", 0 ],
-			"obj-240::obj-174::obj-47" : [ "modulation_indices[9]", "modulation_indices", 0 ],
-			"obj-282::obj-172::obj-67" : [ "min_max_offset_ui[16]", "min_max_offset_ui", 0 ],
-			"obj-282::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[14]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-173::obj-55" : [ "live.text[26]", "live.text[1]", 0 ],
-			"obj-292::obj-373::obj-55" : [ "live.text[36]", "live.text[1]", 0 ],
-			"obj-283::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[47]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-49" : [ "reso_comb_ctrl[18]", "reso_comb_ctrl", 0 ],
-			"obj-341::obj-373::obj-67" : [ "min_max_offset_ui[51]", "min_max_offset_ui", 0 ],
-			"obj-340::obj-373::obj-67" : [ "min_max_offset_ui[57]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-46::obj-29::obj-9" : [ "Manual Rate[84]", "Manual Rate", 0 ],
-			"obj-344::obj-373::obj-47" : [ "modulation_indices[84]", "modulation_indices", 0 ],
-			"obj-344::obj-173::obj-29::obj-97" : [ "Quantized_Rate[86]", "Quantized Rate", 0 ],
-			"obj-157" : [ "ResoDryWet", "ResoDryWet", 0 ],
-			"obj-192" : [ "preset_pattern_storage[2]", "preset_pattern_storage", 0 ],
-			"obj-233::obj-179::obj-67" : [ "min_max_offset_ui[7]", "min_max_offset_ui", 0 ],
-			"obj-233::obj-112" : [ "reso_q_ctrl[18]", "reso_q_ctrl", 0 ],
-			"obj-240::obj-373::obj-32" : [ "off[6]", "off", 0 ],
-			"obj-271::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[20]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-179::obj-32" : [ "off[28]", "off", 0 ],
-			"obj-292::obj-172::obj-32" : [ "off[37]", "off", 0 ],
-			"obj-283::obj-174::obj-29::obj-97" : [ "Quantized_Rate[45]", "Quantized Rate", 0 ],
-			"obj-341::obj-173::obj-32" : [ "off[50]", "off", 0 ],
-			"obj-339::obj-173::obj-29::obj-9" : [ "Manual Rate[63]", "Manual Rate", 0 ],
-			"obj-339::obj-173::obj-30" : [ "randomize_percentage[66]", "randomize_percentage", 0 ],
-			"obj-338::obj-373::obj-32" : [ "off[66]", "off", 0 ],
-			"obj-338::obj-173::obj-29::obj-9" : [ "Manual Rate[69]", "Manual Rate", 0 ],
-			"obj-338::obj-122" : [ "reso_asr_ctrl[11]", "reso_asr_ctrl", 0 ],
-			"obj-344::obj-173::obj-32" : [ "off[86]", "off", 0 ],
-			"obj-343::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[91]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-172::obj-30" : [ "randomize_percentage[95]", "randomize_percentage", 0 ],
-			"obj-343::obj-49" : [ "reso_comb_ctrl[21]", "reso_comb_ctrl", 0 ],
-			"obj-42" : [ "Tempo[1]", "Tempo", 0 ],
-			"obj-233::obj-174::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
-			"obj-240::obj-179::obj-67" : [ "min_max_offset_ui[13]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[19]", "manual_rate_wrapper", 0 ],
-			"obj-335::obj-112" : [ "reso_q_ctrl[4]", "reso_q_ctrl", 0 ],
-			"obj-333::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[35]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-373::obj-67" : [ "min_max_offset_ui[39]", "min_max_offset_ui", 0 ],
-			"obj-283::obj-174::obj-29::obj-9" : [ "Manual Rate[46]", "Manual Rate", 0 ],
-			"obj-283::obj-179::obj-32" : [ "off[46]", "off", 0 ],
-			"obj-341::obj-173::obj-29::obj-97" : [ "Quantized_Rate[50]", "Quantized Rate", 0 ],
-			"obj-340::obj-179::obj-67" : [ "min_max_offset_ui[61]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-172::obj-30" : [ "randomize_percentage[77]", "randomize_percentage", 0 ],
-			"obj-344::obj-174::obj-29::obj-9" : [ "Manual Rate[88]", "Manual Rate", 0 ],
-			"obj-343::obj-172::obj-32" : [ "off[91]", "off", 0 ],
-			"obj-343::obj-174::obj-29::obj-9" : [ "Manual Rate[94]", "Manual Rate", 0 ],
-			"obj-343::obj-174::obj-47" : [ "modulation_indices[93]", "modulation_indices", 0 ],
-			"obj-174::obj-30" : [ "randomize_percentage[103]", "randomize_percentage", 0 ],
-			"obj-257::obj-29::obj-22" : [ "quantize_rate_wrapper[102]", "quantize_rate_wrapper", 0 ],
-			"obj-60::obj-12" : [ "ratecontrol[2]", "ratecontrol", 0 ],
-			"obj-233::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
-			"obj-240::obj-46::obj-29::obj-97" : [ "Quantized_Rate[11]", "Quantized Rate", 0 ],
-			"obj-333::obj-179::obj-55" : [ "live.text[34]", "live.text[1]", 0 ],
-			"obj-292::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[39]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-49" : [ "reso_comb_ctrl[4]", "reso_comb_ctrl", 0 ],
-			"obj-341::obj-373::obj-29::obj-9" : [ "Manual Rate[49]", "Manual Rate", 0 ],
-			"obj-338::obj-373::obj-29::obj-9" : [ "Manual Rate[67]", "Manual Rate", 0 ],
-			"obj-338::obj-46::obj-32" : [ "off[71]", "off", 0 ],
-			"obj-346::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[72]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-373::obj-55" : [ "live.text[72]", "live.text[1]", 0 ],
-			"obj-346::obj-172::obj-32" : [ "off[73]", "off", 0 ],
-			"obj-345::obj-172::obj-30" : [ "randomize_percentage[83]", "randomize_percentage", 0 ],
-			"obj-344::obj-172::obj-55" : [ "live.text[85]", "live.text[1]", 0 ],
-			"obj-343::obj-172::obj-29::obj-97" : [ "Quantized_Rate[91]", "Quantized Rate", 0 ],
-			"obj-343::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[94]", "manual_rate_wrapper", 0 ],
-			"obj-252::obj-29::obj-9" : [ "Manual Rate[97]", "Manual Rate", 0 ],
-			"obj-189" : [ "randomize_z_index[2]", "randomize_z_index", 0 ],
-			"obj-233::obj-373::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
-			"obj-233::obj-174::obj-55" : [ "live.text[3]", "live.text[1]", 0 ],
-			"obj-240::obj-373::obj-29::obj-97" : [ "Quantized_Rate[6]", "Quantized Rate", 0 ],
-			"obj-240::obj-49" : [ "reso_comb_ctrl[16]", "reso_comb_ctrl", 0 ],
-			"obj-282::obj-173::obj-55" : [ "live.text[14]", "live.text[1]", 0 ],
-			"obj-333::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[31]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-373::obj-29::obj-9" : [ "Manual Rate[23]", "Manual Rate", 0 ],
-			"obj-283::obj-173::obj-47" : [ "modulation_indices[44]", "modulation_indices", 0 ],
-			"obj-283::obj-179::obj-67" : [ "min_max_offset_ui[49]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-179::obj-67" : [ "min_max_offset_ui[55]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-112" : [ "reso_q_ctrl[8]", "reso_q_ctrl", 0 ],
-			"obj-340::obj-373::obj-30" : [ "randomize_percentage[58]", "randomize_percentage", 0 ],
-			"obj-338::obj-179::obj-29::obj-9" : [ "Manual Rate[71]", "Manual Rate", 0 ],
-			"obj-346::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[77]", "quantize_rate_wrapper", 0 ],
-			"obj-345::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[83]", "manual_rate_wrapper", 0 ],
-			"obj-345::obj-46::obj-30" : [ "randomize_percentage[87]", "randomize_percentage", 0 ],
-			"obj-344::obj-373::obj-55" : [ "live.text[84]", "live.text[1]", 0 ],
-			"obj-344::obj-112" : [ "reso_q_ctrl[14]", "reso_q_ctrl", 0 ],
-			"obj-343::obj-373::obj-30" : [ "randomize_percentage[94]", "randomize_percentage", 0 ],
-			"obj-174::obj-29::obj-9" : [ "Manual Rate[100]", "Manual Rate", 0 ],
-			"obj-239::obj-325::obj-47" : [ "modulation_indices[100]", "modulation_indices", 0 ],
-			"obj-334::obj-47" : [ "modulation_indices[104]", "modulation_indices", 0 ],
-			"obj-102::obj-142" : [ "Channel[3]", "Channel", 0 ],
-			"obj-282::obj-373::obj-30" : [ "randomize_percentage[16]", "randomize_percentage", 0 ],
-			"obj-282::obj-179::obj-67" : [ "min_max_offset_ui[19]", "min_max_offset_ui", 0 ],
-			"obj-282::obj-46::obj-32" : [ "off[17]", "off", 0 ],
-			"obj-271::obj-116" : [ "reso_freq_coefficient_ctrl[3]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-335::obj-179::obj-29::obj-97" : [ "Quantized_Rate[28]", "Quantized Rate", 0 ],
-			"obj-333::obj-173::obj-29::obj-97" : [ "Quantized_Rate[32]", "Quantized Rate", 0 ],
-			"obj-333::obj-46::obj-29::obj-97" : [ "Quantized_Rate[35]", "Quantized Rate", 0 ],
-			"obj-292::obj-173::obj-29::obj-9" : [ "Manual Rate[42]", "Manual Rate", 0 ],
-			"obj-292::obj-173::obj-55" : [ "live.text[38]", "live.text[1]", 0 ],
-			"obj-283::obj-173::obj-67" : [ "min_max_offset_ui[47]", "min_max_offset_ui", 0 ],
-			"obj-341::obj-179::obj-30" : [ "randomize_percentage[56]", "randomize_percentage", 0 ],
-			"obj-346::obj-373::obj-47" : [ "modulation_indices[72]", "modulation_indices", 0 ],
-			"obj-346::obj-172::obj-29::obj-9" : [ "Manual Rate[74]", "Manual Rate", 0 ],
-			"obj-345::obj-172::obj-29::obj-9" : [ "Manual Rate[80]", "Manual Rate", 0 ],
-			"obj-345::obj-172::obj-47" : [ "modulation_indices[79]", "modulation_indices", 0 ],
-			"obj-343::obj-116" : [ "reso_freq_coefficient_ctrl[15]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-185::obj-29::obj-22" : [ "quantize_rate_wrapper[105]", "quantize_rate_wrapper", 0 ],
-			"obj-60::obj-9" : [ "live.text[101]", "live.text", 0 ],
-			"obj-188" : [ "cell_fill_likelihood[2]", "cell_fill_likelihood", 0 ],
-			"obj-240::obj-176" : [ "reso_harsh_ctrl[1]", "reso_harsh_ctrl", 0 ],
-			"obj-282::obj-46::obj-67" : [ "min_max_offset_ui[20]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[18]", "quantize_rate_wrapper", 0 ],
-			"obj-271::obj-174::obj-32" : [ "off[21]", "off", 0 ],
-			"obj-292::obj-172::obj-47" : [ "modulation_indices[37]", "modulation_indices", 0 ],
-			"obj-283::obj-373::obj-29::obj-97" : [ "Quantized_Rate[42]", "Quantized Rate", 0 ],
-			"obj-341::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[51]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-373::obj-47" : [ "modulation_indices[54]", "modulation_indices", 0 ],
-			"obj-340::obj-119" : [ "reso_am_ctrl[9]", "reso_am_ctrl", 0 ],
-			"obj-339::obj-46::obj-30" : [ "randomize_percentage[69]", "randomize_percentage", 0 ],
-			"obj-346::obj-46::obj-29::obj-9" : [ "Manual Rate[78]", "Manual Rate", 0 ],
-			"obj-345::obj-174::obj-47" : [ "modulation_indices[81]", "modulation_indices", 0 ],
-			"obj-344::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[86]", "quantize_rate_wrapper", 0 ],
-			"obj-344::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[87]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-179::obj-47" : [ "modulation_indices[94]", "modulation_indices", 0 ],
-			"obj-334::obj-29::obj-22" : [ "quantize_rate_wrapper[104]", "quantize_rate_wrapper", 0 ],
-			"obj-68::obj-13" : [ "delta_channel_wrapper", "delta_channel_wrapper", 0 ],
-			"obj-240::obj-373::obj-47" : [ "modulation_indices[6]", "modulation_indices", 0 ],
-			"obj-240::obj-172::obj-32" : [ "off[7]", "off", 0 ],
-			"obj-333::obj-116" : [ "reso_freq_coefficient_ctrl[5]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-339::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[62]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-122" : [ "reso_asr_ctrl[10]", "reso_asr_ctrl", 0 ],
+			"obj-338::obj-173::obj-32" : [ "off[68]", "off", 0 ],
 			"obj-345::obj-179::obj-29::obj-97" : [ "Quantized_Rate[82]", "Quantized Rate", 0 ],
-			"obj-344::obj-173::obj-47" : [ "modulation_indices[86]", "modulation_indices", 0 ],
-			"obj-344::obj-174::obj-32" : [ "off[87]", "off", 0 ],
-			"obj-343::obj-174::obj-32" : [ "off[93]", "off", 0 ],
-			"obj-252::obj-32" : [ "off[96]", "off", 0 ],
-			"obj-257::obj-29::obj-9" : [ "Manual Rate[103]", "Manual Rate", 0 ],
-			"obj-373::obj-67" : [ "min_max_offset_ui[106]", "min_max_offset_ui", 0 ],
-			"obj-102::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
-			"obj-233::obj-172::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
-			"obj-233::obj-122" : [ "reso_asr_ctrl[18]", "reso_asr_ctrl", 0 ],
-			"obj-240::obj-172::obj-30" : [ "randomize_percentage[11]", "randomize_percentage", 0 ],
-			"obj-240::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[11]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-373::obj-47" : [ "modulation_indices[24]", "modulation_indices", 0 ],
-			"obj-335::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[29]", "quantize_rate_wrapper", 0 ],
-			"obj-333::obj-179::obj-47" : [ "modulation_indices[34]", "modulation_indices", 0 ],
-			"obj-292::obj-179::obj-32" : [ "off[40]", "off", 0 ],
-			"obj-341::obj-179::obj-29::obj-9" : [ "Manual Rate[53]", "Manual Rate", 0 ],
-			"obj-340::obj-174::obj-47" : [ "modulation_indices[57]", "modulation_indices", 0 ],
-			"obj-339::obj-373::obj-47" : [ "modulation_indices[60]", "modulation_indices", 0 ],
-			"obj-338::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[67]", "manual_rate_wrapper", 0 ],
-			"obj-338::obj-179::obj-55" : [ "live.text[70]", "live.text[1]", 0 ],
-			"obj-338::obj-49" : [ "reso_comb_ctrl[6]", "reso_comb_ctrl", 0 ],
-			"obj-346::obj-174::obj-30" : [ "randomize_percentage[79]", "randomize_percentage", 0 ],
-			"obj-345::obj-173::obj-29::obj-97" : [ "Quantized_Rate[80]", "Quantized Rate", 0 ],
-			"obj-343::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[90]", "quantize_rate_wrapper", 0 ],
-			"obj-343::obj-179::obj-32" : [ "off[94]", "off", 0 ],
-			"obj-257::obj-30" : [ "randomize_percentage[106]", "randomize_percentage", 0 ],
-			"obj-373::obj-30" : [ "randomize_percentage[107]", "randomize_percentage", 0 ],
-			"obj-64::obj-29::obj-9" : [ "Manual Rate[107]", "Manual Rate", 0 ],
-			"obj-233::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-116" : [ "reso_freq_coefficient_ctrl[1]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-335::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[27]", "manual_rate_wrapper", 0 ],
-			"obj-335::obj-179::obj-29::obj-9" : [ "Manual Rate[36]", "Manual Rate", 0 ],
-			"obj-333::obj-173::obj-30" : [ "randomize_percentage[36]", "randomize_percentage", 0 ],
-			"obj-333::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[34]", "quantize_rate_wrapper", 0 ],
-			"obj-292::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[36]", "quantize_rate_wrapper", 0 ],
-			"obj-283::obj-373::obj-67" : [ "min_max_offset_ui[45]", "min_max_offset_ui", 0 ],
-			"obj-283::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[43]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[59]", "manual_rate_wrapper", 0 ],
-			"obj-339::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[65]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-172::obj-47" : [ "modulation_indices[67]", "modulation_indices", 0 ],
-			"obj-346::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[73]", "manual_rate_wrapper", 0 ],
-			"obj-346::obj-49" : [ "reso_comb_ctrl[7]", "reso_comb_ctrl", 0 ],
-			"obj-345::obj-174::obj-67" : [ "min_max_offset_ui[84]", "min_max_offset_ui", 0 ],
-			"obj-217::obj-2" : [ "range_selector_1[3]", "range_selector_1", 0 ],
-			"obj-190::obj-29::obj-97" : [ "Quantized_Rate[97]", "Quantized Rate", 0 ],
-			"obj-174::obj-32" : [ "off[99]", "off", 0 ],
-			"obj-126::obj-13" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
-			"obj-307" : [ "DecayControlMod[2]", "DecayControlMod", 0 ],
-			"obj-233::obj-173::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized Rate", 0 ],
-			"obj-240::obj-172::obj-29::obj-97" : [ "Quantized_Rate[7]", "Quantized Rate", 0 ],
-			"obj-282::obj-174::obj-30" : [ "randomize_percentage[19]", "randomize_percentage", 0 ],
-			"obj-271::obj-46::obj-29::obj-9" : [ "Manual Rate[31]", "Manual Rate", 0 ],
-			"obj-335::obj-373::obj-29::obj-97" : [ "Quantized_Rate[24]", "Quantized Rate", 0 ],
-			"obj-333::obj-172::obj-29::obj-97" : [ "Quantized_Rate[31]", "Quantized Rate", 0 ],
-			"obj-283::obj-373::obj-30" : [ "randomize_percentage[46]", "randomize_percentage", 0 ],
-			"obj-283::obj-46::obj-55" : [ "live.text[47]", "live.text[1]", 0 ],
-			"obj-341::obj-172::obj-55" : [ "live.text[49]", "live.text[1]", 0 ],
-			"obj-340::obj-173::obj-67" : [ "min_max_offset_ui[59]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[71]", "quantize_rate_wrapper", 0 ],
-			"obj-346::obj-373::obj-32" : [ "off[72]", "off", 0 ],
-			"obj-346::obj-179::obj-29::obj-9" : [ "Manual Rate[77]", "Manual Rate", 0 ],
-			"obj-345::obj-373::obj-30" : [ "randomize_percentage[82]", "randomize_percentage", 0 ],
-			"obj-345::obj-116" : [ "reso_freq_coefficient_ctrl[13]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-344::obj-174::obj-30" : [ "randomize_percentage[91]", "randomize_percentage", 0 ],
-			"obj-252::obj-29::obj-97" : [ "Quantized_Rate[96]", "Quantized Rate", 0 ],
-			"obj-239::obj-325::obj-55" : [ "live.text[95]", "live.text[1]", 0 ],
-			"obj-180" : [ "preset_toward[2]", "preset_toward", 0 ],
-			"obj-2" : [ "Lock  Matrix[3]", "Lock  Matrix", 0 ],
-			"obj-240::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[6]", "quantize_rate_wrapper", 0 ],
-			"obj-240::obj-119" : [ "reso_am_ctrl[1]", "reso_am_ctrl", 0 ],
-			"obj-282::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[14]", "manual_rate_wrapper", 0 ],
-			"obj-271::obj-172::obj-55" : [ "live.text[19]", "live.text[1]", 0 ],
-			"obj-271::obj-174::obj-67" : [ "min_max_offset_ui[24]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[24]", "quantize_rate_wrapper", 0 ],
-			"obj-335::obj-46::obj-55" : [ "live.text[29]", "live.text[1]", 0 ],
-			"obj-333::obj-49" : [ "reso_comb_ctrl[3]", "reso_comb_ctrl", 0 ],
-			"obj-283::obj-172::obj-47" : [ "modulation_indices[43]", "modulation_indices", 0 ],
-			"obj-283::obj-174::obj-47" : [ "modulation_indices[45]", "modulation_indices", 0 ],
-			"obj-283::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[47]", "manual_rate_wrapper", 0 ],
-			"obj-341::obj-373::obj-55" : [ "live.text[48]", "live.text[1]", 0 ],
-			"obj-341::obj-179::obj-47" : [ "modulation_indices[52]", "modulation_indices", 0 ],
-			"obj-339::obj-173::obj-67" : [ "min_max_offset_ui[65]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[69]", "manual_rate_wrapper", 0 ],
-			"obj-338::obj-174::obj-29::obj-97" : [ "Quantized_Rate[69]", "Quantized Rate", 0 ],
-			"obj-346::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[76]", "quantize_rate_wrapper", 0 ],
 			"obj-345::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[82]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-373::obj-67" : [ "min_max_offset_ui[93]", "min_max_offset_ui", 0 ],
-			"obj-343::obj-179::obj-67" : [ "min_max_offset_ui[97]", "min_max_offset_ui", 0 ],
-			"obj-239::obj-220" : [ "ProbLock[4]", "ProbLock", 0 ],
-			"obj-239::obj-8" : [ "realtime_ar", "realtime_ar", 0 ],
-			"obj-8" : [ "newSamples[1]", "newSamples", 0 ],
-			"obj-40" : [ "preset_save_number[2]", "preset_save_number", 0 ],
-			"obj-64::obj-29::obj-22" : [ "quantize_rate_wrapper[106]", "quantize_rate_wrapper", 0 ],
-			"obj-233::obj-46::obj-29::obj-97" : [ "Quantized_Rate[5]", "Quantized Rate", 0 ],
-			"obj-335::obj-174::obj-30" : [ "randomize_percentage[31]", "randomize_percentage", 0 ],
-			"obj-333::obj-172::obj-67" : [ "min_max_offset_ui[34]", "min_max_offset_ui", 0 ],
-			"obj-292::obj-373::obj-29::obj-97" : [ "Quantized_Rate[36]", "Quantized Rate", 0 ],
-			"obj-292::obj-46::obj-47" : [ "modulation_indices[41]", "modulation_indices", 0 ],
-			"obj-340::obj-46::obj-30" : [ "randomize_percentage[63]", "randomize_percentage", 0 ],
-			"obj-339::obj-373::obj-29::obj-9" : [ "Manual Rate[61]", "Manual Rate", 0 ],
-			"obj-338::obj-176" : [ "reso_harsh_ctrl[11]", "reso_harsh_ctrl", 0 ],
-			"obj-344::obj-173::obj-29::obj-9" : [ "Manual Rate[87]", "Manual Rate", 0 ],
-			"obj-252::obj-55" : [ "live.text[92]", "live.text[1]", 0 ],
-			"obj-240::obj-179::obj-30" : [ "randomize_percentage[14]", "randomize_percentage", 0 ],
-			"obj-240::obj-122" : [ "reso_asr_ctrl[1]", "reso_asr_ctrl", 0 ],
-			"obj-335::obj-173::obj-32" : [ "off[26]", "off", 0 ],
-			"obj-335::obj-122" : [ "reso_asr_ctrl[4]", "reso_asr_ctrl", 0 ],
-			"obj-283::obj-172::obj-32" : [ "off[43]", "off", 0 ],
-			"obj-341::obj-46::obj-32" : [ "off[53]", "off", 0 ],
-			"obj-340::obj-373::obj-32" : [ "off[54]", "off", 0 ],
-			"obj-340::obj-173::obj-55" : [ "live.text[56]", "live.text[1]", 0 ],
-			"obj-340::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[57]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-179::obj-30" : [ "randomize_percentage[68]", "randomize_percentage", 0 ],
-			"obj-339::obj-46::obj-29::obj-9" : [ "Manual Rate[66]", "Manual Rate", 0 ],
-			"obj-338::obj-46::obj-67" : [ "min_max_offset_ui[74]", "min_max_offset_ui", 0 ],
-			"obj-346::obj-172::obj-29::obj-97" : [ "Quantized_Rate[73]", "Quantized Rate", 0 ],
-			"obj-345::obj-46::obj-29::obj-97" : [ "Quantized_Rate[83]", "Quantized Rate", 0 ],
-			"obj-343::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[93]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-179::obj-30" : [ "randomize_percentage[98]", "randomize_percentage", 0 ],
-			"obj-239::obj-325::obj-30" : [ "randomize_percentage[104]", "randomize_percentage", 0 ],
-			"obj-185::obj-29::obj-97" : [ "Quantized_Rate[105]", "Quantized Rate", 0 ],
-			"obj-126::obj-142" : [ "Channel[1]", "Channel", 0 ],
-			"obj-233::obj-173::obj-32" : [ "off[2]", "off", 0 ],
-			"obj-240::obj-173::obj-30" : [ "randomize_percentage[12]", "randomize_percentage", 0 ],
-			"obj-282::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[12]", "quantize_rate_wrapper", 0 ],
-			"obj-271::obj-373::obj-29::obj-97" : [ "Quantized_Rate[18]", "Quantized Rate", 0 ],
-			"obj-333::obj-373::obj-47" : [ "modulation_indices[30]", "modulation_indices", 0 ],
+			"obj-344::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[85]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-172::obj-30" : [ "randomize_percentage[89]", "randomize_percentage", 0 ],
+			"obj-344::obj-172::obj-55" : [ "live.text[85]", "live.text[1]", 0 ],
+			"obj-344::obj-174::obj-55" : [ "live.text[111]", "live.text[1]", 0 ],
+			"obj-343::obj-373::obj-32" : [ "off[90]", "off", 0 ],
+			"obj-334::obj-29::obj-23" : [ "manual_rate_wrapper[104]", "manual_rate_wrapper", 0 ],
+			"obj-334::obj-29::obj-9" : [ "Manual Rate[105]", "Manual Rate", 0 ],
+			"obj-185::obj-32" : [ "off[105]", "off", 0 ],
+			"obj-81" : [ "Loop Control[2]", "Loop Control", 0 ],
+			"obj-240::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[6]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[10]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-46::obj-47" : [ "modulation_indices[11]", "modulation_indices", 0 ],
+			"obj-282::obj-373::obj-55" : [ "live.text[12]", "live.text[1]", 0 ],
+			"obj-282::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[14]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-373::obj-47" : [ "modulation_indices[18]", "modulation_indices", 0 ],
+			"obj-271::obj-46::obj-55" : [ "live.text[23]", "live.text[1]", 0 ],
 			"obj-333::obj-46::obj-30" : [ "randomize_percentage[39]", "randomize_percentage", 0 ],
+			"obj-292::obj-172::obj-47" : [ "modulation_indices[37]", "modulation_indices", 0 ],
+			"obj-292::obj-173::obj-32" : [ "off[38]", "off", 0 ],
 			"obj-292::obj-173::obj-30" : [ "randomize_percentage[42]", "randomize_percentage", 0 ],
 			"obj-292::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[39]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-174::obj-29::obj-97" : [ "Quantized_Rate[39]", "Quantized Rate", 0 ],
-			"obj-283::obj-179::obj-29::obj-9" : [ "Manual Rate[47]", "Manual Rate", 0 ],
-			"obj-341::obj-373::obj-29::obj-97" : [ "Quantized_Rate[48]", "Quantized Rate", 0 ],
-			"obj-339::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[61]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-174::obj-67" : [ "min_max_offset_ui[66]", "min_max_offset_ui", 0 ],
-			"obj-338::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[68]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-172::obj-47" : [ "modulation_indices[91]", "modulation_indices", 0 ],
-			"obj-343::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[94]", "quantize_rate_wrapper", 0 ],
-			"obj-174::obj-47" : [ "modulation_indices[99]", "modulation_indices", 0 ],
-			"obj-239::obj-325::obj-67" : [ "min_max_offset_ui[103]", "min_max_offset_ui", 0 ],
-			"obj-334::obj-55" : [ "live.text[99]", "live.text[1]", 0 ],
-			"obj-60::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
-			"obj-386" : [ "fill every[1]", "fill every", 0 ],
-			"obj-335::obj-174::obj-29::obj-97" : [ "Quantized_Rate[27]", "Quantized Rate", 0 ],
-			"obj-335::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[28]", "manual_rate_wrapper", 0 ],
-			"obj-333::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[31]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-174::obj-30" : [ "randomize_percentage[49]", "randomize_percentage", 0 ],
-			"obj-341::obj-174::obj-30" : [ "randomize_percentage[55]", "randomize_percentage", 0 ],
-			"obj-341::obj-49" : [ "reso_comb_ctrl[19]", "reso_comb_ctrl", 0 ],
-			"obj-346::obj-173::obj-67" : [ "min_max_offset_ui[77]", "min_max_offset_ui", 0 ],
-			"obj-345::obj-179::obj-67" : [ "min_max_offset_ui[85]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-122" : [ "reso_asr_ctrl[14]", "reso_asr_ctrl", 0 ],
-			"obj-343::obj-179::obj-29::obj-97" : [ "Quantized_Rate[94]", "Quantized Rate", 0 ],
-			"obj-190::obj-55" : [ "live.text[93]", "live.text[1]", 0 ],
-			"obj-148::obj-29::obj-97" : [ "Quantized_Rate[98]", "Quantized Rate", 0 ],
-			"obj-203" : [ "global_cell_speed", "global_cell_speed", 0 ],
-			"obj-233::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[4]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-172::obj-55" : [ "live.text[7]", "live.text[1]", 0 ],
-			"obj-240::obj-173::obj-29::obj-97" : [ "Quantized_Rate[8]", "Quantized Rate", 0 ],
-			"obj-282::obj-179::obj-30" : [ "randomize_percentage[20]", "randomize_percentage", 0 ],
-			"obj-283::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[42]", "manual_rate_wrapper", 0 ],
-			"obj-283::obj-173::obj-55" : [ "live.text[44]", "live.text[1]", 0 ],
-			"obj-283::obj-122" : [ "reso_asr_ctrl[7]", "reso_asr_ctrl", 0 ],
-			"obj-341::obj-373::obj-47" : [ "modulation_indices[48]", "modulation_indices", 0 ],
-			"obj-341::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[50]", "manual_rate_wrapper", 0 ],
-			"obj-340::obj-173::obj-29::obj-97" : [ "Quantized_Rate[56]", "Quantized Rate", 0 ],
-			"obj-340::obj-174::obj-67" : [ "min_max_offset_ui[60]", "min_max_offset_ui", 0 ],
-			"obj-340::obj-46::obj-29::obj-97" : [ "Quantized_Rate[59]", "Quantized Rate", 0 ],
-			"obj-339::obj-46::obj-29::obj-97" : [ "Quantized_Rate[65]", "Quantized Rate", 0 ],
-			"obj-345::obj-173::obj-67" : [ "min_max_offset_ui[83]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-173::obj-67" : [ "min_max_offset_ui[89]", "min_max_offset_ui", 0 ],
-			"obj-343::obj-176" : [ "reso_harsh_ctrl[15]", "reso_harsh_ctrl", 0 ],
-			"obj-185::obj-47" : [ "modulation_indices[105]", "modulation_indices", 0 ],
-			"obj-233::obj-172::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized Rate", 0 ],
-			"obj-233::obj-174::obj-32" : [ "off[3]", "off", 0 ],
-			"obj-240::obj-179::obj-47" : [ "modulation_indices[10]", "modulation_indices", 0 ],
-			"obj-282::obj-373::obj-32" : [ "off[12]", "off", 0 ],
-			"obj-271::obj-172::obj-32" : [ "off[19]", "off", 0 ],
-			"obj-271::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[21]", "quantize_rate_wrapper", 0 ],
-			"obj-271::obj-46::obj-55" : [ "live.text[23]", "live.text[1]", 0 ],
-			"obj-271::obj-46::obj-30" : [ "randomize_percentage[27]", "randomize_percentage", 0 ],
-			"obj-292::obj-179::obj-29::obj-9" : [ "Manual Rate[43]", "Manual Rate", 0 ],
-			"obj-341::obj-122" : [ "reso_asr_ctrl[8]", "reso_asr_ctrl", 0 ],
 			"obj-340::obj-172::obj-67" : [ "min_max_offset_ui[58]", "min_max_offset_ui", 0 ],
-			"obj-340::obj-173::obj-29::obj-9" : [ "Manual Rate[57]", "Manual Rate", 0 ],
-			"obj-340::obj-116" : [ "reso_freq_coefficient_ctrl[9]", "reso_freq_coefficient_ctrl", 0 ],
-			"obj-339::obj-173::obj-32" : [ "off[62]", "off", 0 ],
-			"obj-339::obj-174::obj-29::obj-97" : [ "Quantized_Rate[63]", "Quantized Rate", 0 ],
-			"obj-344::obj-373::obj-29::obj-97" : [ "Quantized_Rate[84]", "Quantized Rate", 0 ],
-			"obj-344::obj-373::obj-67" : [ "min_max_offset_ui[87]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[86]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[56]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-174::obj-30" : [ "randomize_percentage[61]", "randomize_percentage", 0 ],
+			"obj-340::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[59]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-122" : [ "reso_asr_ctrl[13]", "reso_asr_ctrl", 0 ],
+			"obj-344::obj-373::obj-55" : [ "live.text[84]", "live.text[1]", 0 ],
+			"obj-343::obj-373::obj-29::obj-97" : [ "Quantized_Rate[90]", "Quantized Rate", 0 ],
+			"obj-252::obj-29::obj-9" : [ "Manual Rate[97]", "Manual Rate", 0 ],
+			"obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[99]", "manual_rate_wrapper", 0 ],
+			"obj-334::obj-67" : [ "min_max_offset_ui[107]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-119" : [ "reso_am_ctrl[18]", "reso_am_ctrl", 0 ],
+			"obj-240::obj-112" : [ "reso_q_ctrl[1]", "reso_q_ctrl", 0 ],
+			"obj-335::obj-46::obj-55" : [ "live.text[29]", "live.text[1]", 0 ],
+			"obj-335::obj-49" : [ "reso_comb_ctrl[2]", "reso_comb_ctrl", 0 ],
+			"obj-333::obj-179::obj-29::obj-9" : [ "Manual Rate[22]", "Manual Rate", 0 ],
+			"obj-333::obj-46::obj-47" : [ "modulation_indices[35]", "modulation_indices", 0 ],
+			"obj-283::obj-174::obj-47" : [ "modulation_indices[45]", "modulation_indices", 0 ],
+			"obj-283::obj-46::obj-67" : [ "min_max_offset_ui[50]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-174::obj-29::obj-97" : [ "Quantized_Rate[57]", "Quantized Rate", 0 ],
+			"obj-339::obj-373::obj-29::obj-97" : [ "Quantized_Rate[60]", "Quantized Rate", 0 ],
+			"obj-338::obj-46::obj-67" : [ "min_max_offset_ui[74]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-174::obj-47" : [ "modulation_indices[75]", "modulation_indices", 0 ],
+			"obj-344::obj-119" : [ "reso_am_ctrl[14]", "reso_am_ctrl", 0 ],
+			"obj-343::obj-174::obj-67" : [ "min_max_offset_ui[96]", "min_max_offset_ui", 0 ],
+			"obj-194" : [ "SoloLock", "Solo Lock", 0 ],
+			"obj-282::obj-179::obj-29::obj-9" : [ "Manual Rate[15]", "Manual Rate", 0 ],
+			"obj-271::obj-173::obj-29::obj-9" : [ "Manual Rate[19]", "Manual Rate", 0 ],
+			"obj-271::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[22]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[29]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-173::obj-67" : [ "min_max_offset_ui[35]", "min_max_offset_ui", 0 ],
+			"obj-283::obj-174::obj-55" : [ "live.text[45]", "live.text[1]", 0 ],
+			"obj-283::obj-112" : [ "reso_q_ctrl[7]", "reso_q_ctrl", 0 ],
+			"obj-341::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[50]", "manual_rate_wrapper", 0 ],
+			"obj-346::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[74]", "manual_rate_wrapper", 0 ],
+			"obj-344::obj-179::obj-55" : [ "live.text[112]", "live.text[1]", 0 ],
+			"obj-343::obj-46::obj-32" : [ "off[95]", "off", 0 ],
+			"obj-148::obj-47" : [ "modulation_indices[98]", "modulation_indices", 0 ],
+			"obj-239::obj-325::obj-30" : [ "randomize_percentage[104]", "randomize_percentage", 0 ],
+			"obj-102::obj-142" : [ "Channel[3]", "Channel", 0 ],
+			"obj-64::obj-29::obj-97" : [ "Quantized_Rate[106]", "Quantized Rate", 0 ],
+			"obj-233::obj-373::obj-55" : [ "live.text[109]", "live.text[1]", 0 ],
+			"obj-233::obj-173::obj-32" : [ "off[2]", "off", 0 ],
+			"obj-240::obj-174::obj-29::obj-97" : [ "Quantized_Rate[9]", "Quantized Rate", 0 ],
+			"obj-282::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[12]", "manual_rate_wrapper", 0 ],
+			"obj-282::obj-172::obj-47" : [ "modulation_indices[13]", "modulation_indices", 0 ],
+			"obj-271::obj-174::obj-32" : [ "off[21]", "off", 0 ],
+			"obj-335::obj-173::obj-32" : [ "off[26]", "off", 0 ],
+			"obj-335::obj-46::obj-47" : [ "modulation_indices[29]", "modulation_indices", 0 ],
+			"obj-333::obj-373::obj-29::obj-97" : [ "Quantized_Rate[30]", "Quantized Rate", 0 ],
+			"obj-333::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[34]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-172::obj-67" : [ "min_max_offset_ui[46]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-173::obj-55" : [ "live.text[50]", "live.text[1]", 0 ],
+			"obj-341::obj-116" : [ "reso_freq_coefficient_ctrl[8]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-340::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[55]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-373::obj-55" : [ "live.text[60]", "live.text[1]", 0 ],
+			"obj-339::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[65]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-46::obj-29::obj-9" : [ "Manual Rate[78]", "Manual Rate", 0 ],
+			"obj-344::obj-46::obj-30" : [ "randomize_percentage[93]", "randomize_percentage", 0 ],
+			"obj-343::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[91]", "quantize_rate_wrapper", 0 ],
+			"obj-252::obj-47" : [ "modulation_indices[96]", "modulation_indices", 0 ],
+			"obj-148::obj-55" : [ "live.text[114]", "live.text[1]", 0 ],
+			"obj-373::obj-30" : [ "randomize_percentage[107]", "randomize_percentage", 0 ],
+			"obj-60::obj-13" : [ "delta_channel_wrapper[2]", "delta_channel_wrapper", 0 ],
+			"obj-271::obj-174::obj-55" : [ "live.text[21]", "live.text[1]", 0 ],
+			"obj-283::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[46]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[53]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-46::obj-47" : [ "modulation_indices[59]", "modulation_indices", 0 ],
+			"obj-339::obj-373::obj-67" : [ "min_max_offset_ui[63]", "min_max_offset_ui", 0 ],
+			"obj-339::obj-174::obj-32" : [ "off[63]", "off", 0 ],
+			"obj-339::obj-46::obj-55" : [ "live.text[65]", "live.text[1]", 0 ],
+			"obj-338::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[70]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-179::obj-47" : [ "modulation_indices[70]", "modulation_indices", 0 ],
+			"obj-345::obj-172::obj-29::obj-9" : [ "Manual Rate[80]", "Manual Rate", 0 ],
+			"obj-344::obj-172::obj-47" : [ "modulation_indices[85]", "modulation_indices", 0 ],
+			"obj-344::obj-173::obj-29::obj-9" : [ "Manual Rate[87]", "Manual Rate", 0 ],
+			"obj-343::obj-176" : [ "reso_harsh_ctrl[15]", "reso_harsh_ctrl", 0 ],
+			"obj-148::obj-30" : [ "randomize_percentage[102]", "randomize_percentage", 0 ],
+			"obj-373::obj-67" : [ "min_max_offset_ui[106]", "min_max_offset_ui", 0 ],
+			"obj-334::obj-47" : [ "modulation_indices[104]", "modulation_indices", 0 ],
+			"obj-233::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[4]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-46::obj-55" : [ "live.text[11]", "live.text[1]", 0 ],
+			"obj-335::obj-173::obj-55" : [ "live.text[26]", "live.text[1]", 0 ],
+			"obj-335::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[27]", "manual_rate_wrapper", 0 ],
+			"obj-292::obj-119" : [ "reso_am_ctrl[6]", "reso_am_ctrl", 0 ],
+			"obj-283::obj-179::obj-29::obj-97" : [ "Quantized_Rate[46]", "Quantized Rate", 0 ],
+			"obj-341::obj-174::obj-67" : [ "min_max_offset_ui[54]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-179::obj-29::obj-9" : [ "Manual Rate[53]", "Manual Rate", 0 ],
+			"obj-341::obj-46::obj-30" : [ "randomize_percentage[57]", "randomize_percentage", 0 ],
+			"obj-339::obj-46::obj-67" : [ "min_max_offset_ui[68]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-179::obj-29::obj-97" : [ "Quantized_Rate[70]", "Quantized Rate", 0 ],
+			"obj-345::obj-373::obj-55" : [ "live.text[78]", "live.text[1]", 0 ],
+			"obj-345::obj-172::obj-30" : [ "randomize_percentage[83]", "randomize_percentage", 0 ],
+			"obj-344::obj-172::obj-29::obj-97" : [ "Quantized_Rate[85]", "Quantized Rate", 0 ],
+			"obj-344::obj-173::obj-55" : [ "live.text[110]", "live.text[1]", 0 ],
+			"obj-239::obj-12" : [ "realtime_audio_gates[1]", "realtime_audio_gates", 0 ],
+			"obj-289::obj-29::obj-97" : [ "Quantized_Rate[101]", "Quantized Rate", 0 ],
+			"obj-289::obj-29::obj-9" : [ "Manual Rate[102]", "Manual Rate", 0 ],
+			"obj-357" : [ "SubsetCtrl[2]", "SubsetCtrl", 0 ],
+			"obj-233::obj-172::obj-29::obj-97" : [ "Quantized_Rate[1]", "Quantized Rate", 0 ],
+			"obj-233::obj-46::obj-29::obj-97" : [ "Quantized_Rate[5]", "Quantized Rate", 0 ],
+			"obj-240::obj-174::obj-55" : [ "live.text[9]", "live.text[1]", 0 ],
+			"obj-282::obj-179::obj-32" : [ "off[16]", "off", 0 ],
+			"obj-282::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[17]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-174::obj-55" : [ "live.text[33]", "live.text[1]", 0 ],
+			"obj-292::obj-46::obj-32" : [ "off[41]", "off", 0 ],
+			"obj-283::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[43]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-173::obj-29::obj-97" : [ "Quantized_Rate[44]", "Quantized Rate", 0 ],
+			"obj-341::obj-173::obj-32" : [ "off[50]", "off", 0 ],
+			"obj-340::obj-174::obj-55" : [ "live.text[57]", "live.text[1]", 0 ],
+			"obj-338::obj-172::obj-32" : [ "off[67]", "off", 0 ],
+			"obj-346::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[72]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-373::obj-47" : [ "modulation_indices[78]", "modulation_indices", 0 ],
+			"obj-345::obj-179::obj-55" : [ "live.text[82]", "live.text[1]", 0 ],
+			"obj-344::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[84]", "manual_rate_wrapper", 0 ],
+			"obj-239::obj-325::obj-47" : [ "modulation_indices[100]", "modulation_indices", 0 ],
+			"obj-42" : [ "Tempo[1]", "Tempo", 0 ],
+			"obj-184" : [ "preset_retrieve[2]", "preset_retrieve", 0 ],
+			"obj-240::obj-373::obj-55" : [ "live.text[6]", "live.text[1]", 0 ],
+			"obj-240::obj-46::obj-32" : [ "off[11]", "off", 0 ],
+			"obj-282::obj-179::obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
+			"obj-335::obj-373::obj-29::obj-97" : [ "Quantized_Rate[24]", "Quantized Rate", 0 ],
+			"obj-335::obj-172::obj-67" : [ "min_max_offset_ui[28]", "min_max_offset_ui", 0 ],
+			"obj-335::obj-116" : [ "reso_freq_coefficient_ctrl[4]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-339::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[63]", "quantize_rate_wrapper", 0 ],
+			"obj-338::obj-173::obj-67" : [ "min_max_offset_ui[71]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-173::obj-30" : [ "randomize_percentage[78]", "randomize_percentage", 0 ],
+			"obj-346::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[77]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-119" : [ "reso_am_ctrl[12]", "reso_am_ctrl", 0 ],
+			"obj-185::obj-47" : [ "modulation_indices[105]", "modulation_indices", 0 ],
+			"obj-102::obj-23" : [ "jam_amount[3]", "jam_amount", 0 ],
+			"obj-130" : [ "MixerLock[1]", "MixerLock", 0 ],
+			"obj-92" : [ "jam_every_n_bars[3]", "jam_every_n_bars", 0 ],
+			"obj-233::obj-172::obj-32" : [ "off[1]", "off", 0 ],
+			"obj-282::obj-174::obj-29::obj-97" : [ "Quantized_Rate[15]", "Quantized Rate", 0 ],
+			"obj-271::obj-373::obj-29::obj-97" : [ "Quantized_Rate[18]", "Quantized Rate", 0 ],
+			"obj-333::obj-173::obj-55" : [ "live.text[32]", "live.text[1]", 0 ],
+			"obj-333::obj-179::obj-55" : [ "live.text[34]", "live.text[1]", 0 ],
+			"obj-333::obj-176" : [ "reso_harsh_ctrl[5]", "reso_harsh_ctrl", 0 ],
+			"obj-292::obj-173::obj-29::obj-9" : [ "Manual Rate[42]", "Manual Rate", 0 ],
+			"obj-292::obj-174::obj-55" : [ "live.text[39]", "live.text[1]", 0 ],
+			"obj-283::obj-179::obj-67" : [ "min_max_offset_ui[49]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-172::obj-55" : [ "live.text[49]", "live.text[1]", 0 ],
+			"obj-341::obj-179::obj-47" : [ "modulation_indices[52]", "modulation_indices", 0 ],
+			"obj-340::obj-373::obj-32" : [ "off[54]", "off", 0 ],
+			"obj-338::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[68]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-173::obj-55" : [ "live.text[68]", "live.text[1]", 0 ],
+			"obj-338::obj-179::obj-67" : [ "min_max_offset_ui[73]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-176" : [ "reso_harsh_ctrl[11]", "reso_harsh_ctrl", 0 ],
+			"obj-346::obj-373::obj-55" : [ "live.text[72]", "live.text[1]", 0 ],
+			"obj-346::obj-172::obj-29::obj-9" : [ "Manual Rate[74]", "Manual Rate", 0 ],
+			"obj-346::obj-173::obj-29::obj-97" : [ "Quantized_Rate[74]", "Quantized Rate", 0 ],
+			"obj-344::obj-179::obj-30" : [ "randomize_percentage[92]", "randomize_percentage", 0 ],
+			"obj-190::obj-29::obj-23" : [ "manual_rate_wrapper[97]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-173::obj-47" : [ "modulation_indices[8]", "modulation_indices", 0 ],
+			"obj-282::obj-179::obj-29::obj-97" : [ "Quantized_Rate[16]", "Quantized Rate", 0 ],
+			"obj-271::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[21]", "quantize_rate_wrapper", 0 ],
+			"obj-335::obj-174::obj-30" : [ "randomize_percentage[31]", "randomize_percentage", 0 ],
+			"obj-333::obj-172::obj-67" : [ "min_max_offset_ui[34]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-373::obj-32" : [ "off[36]", "off", 0 ],
+			"obj-292::obj-179::obj-29::obj-9" : [ "Manual Rate[43]", "Manual Rate", 0 ],
+			"obj-283::obj-173::obj-67" : [ "min_max_offset_ui[47]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-173::obj-29::obj-97" : [ "Quantized_Rate[50]", "Quantized Rate", 0 ],
+			"obj-340::obj-174::obj-29::obj-9" : [ "Manual Rate[58]", "Manual Rate", 0 ],
+			"obj-340::obj-179::obj-32" : [ "off[58]", "off", 0 ],
+			"obj-339::obj-373::obj-29::obj-9" : [ "Manual Rate[61]", "Manual Rate", 0 ],
+			"obj-339::obj-46::obj-30" : [ "randomize_percentage[69]", "randomize_percentage", 0 ],
+			"obj-346::obj-49" : [ "reso_comb_ctrl[7]", "reso_comb_ctrl", 0 ],
+			"obj-345::obj-46::obj-55" : [ "live.text[83]", "live.text[1]", 0 ],
 			"obj-343::obj-172::obj-67" : [ "min_max_offset_ui[94]", "min_max_offset_ui", 0 ],
-			"obj-334::obj-32" : [ "off[104]", "off", 0 ],
-			"obj-233::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-172::obj-29::obj-9" : [ "Manual Rate[7]", "Manual Rate", 0 ],
-			"obj-282::obj-373::obj-67" : [ "min_max_offset_ui[15]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-172::obj-30" : [ "randomize_percentage[23]", "randomize_percentage", 0 ],
+			"obj-343::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[95]", "manual_rate_wrapper", 0 ],
+			"obj-373::obj-55" : [ "live.text[98]", "live.text[1]", 0 ],
+			"obj-185::obj-67" : [ "min_max_offset_ui[108]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-179::obj-47" : [ "modulation_indices[4]", "modulation_indices", 0 ],
+			"obj-233::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[5]", "manual_rate_wrapper", 0 ],
+			"obj-271::obj-179::obj-55" : [ "live.text[22]", "live.text[1]", 0 ],
 			"obj-271::obj-122" : [ "reso_asr_ctrl[3]", "reso_asr_ctrl", 0 ],
 			"obj-335::obj-173::obj-47" : [ "modulation_indices[26]", "modulation_indices", 0 ],
-			"obj-333::obj-173::obj-55" : [ "live.text[32]", "live.text[1]", 0 ],
-			"obj-333::obj-176" : [ "reso_harsh_ctrl[5]", "reso_harsh_ctrl", 0 ],
-			"obj-292::obj-179::obj-55" : [ "live.text[40]", "live.text[1]", 0 ],
-			"obj-283::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[46]", "quantize_rate_wrapper", 0 ],
-			"obj-341::obj-46::obj-67" : [ "min_max_offset_ui[56]", "min_max_offset_ui", 0 ],
-			"obj-340::obj-46::obj-55" : [ "live.text[59]", "live.text[1]", 0 ],
-			"obj-340::obj-46::obj-47" : [ "modulation_indices[59]", "modulation_indices", 0 ],
-			"obj-339::obj-174::obj-29::obj-9" : [ "Manual Rate[64]", "Manual Rate", 0 ],
-			"obj-339::obj-46::obj-55" : [ "live.text[65]", "live.text[1]", 0 ],
-			"obj-339::obj-119" : [ "reso_am_ctrl[10]", "reso_am_ctrl", 0 ],
-			"obj-346::obj-179::obj-29::obj-97" : [ "Quantized_Rate[76]", "Quantized Rate", 0 ],
-			"obj-345::obj-179::obj-29::obj-9" : [ "Manual Rate[83]", "Manual Rate", 0 ],
-			"obj-343::obj-173::obj-55" : [ "live.text[88]", "live.text[1]", 0 ],
-			"obj-148::obj-29::obj-22" : [ "quantize_rate_wrapper[98]", "quantize_rate_wrapper", 0 ],
-			"obj-60::obj-142" : [ "Channel[2]", "Channel", 0 ],
-			"obj-390" : [ "1/n", "1/n", 0 ],
-			"obj-233::obj-172::obj-32" : [ "off[1]", "off", 0 ],
+			"obj-283::obj-373::obj-29::obj-97" : [ "Quantized_Rate[42]", "Quantized Rate", 0 ],
+			"obj-283::obj-173::obj-32" : [ "off[44]", "off", 0 ],
+			"obj-340::obj-173::obj-30" : [ "randomize_percentage[60]", "randomize_percentage", 0 ],
+			"obj-340::obj-112" : [ "reso_q_ctrl[9]", "reso_q_ctrl", 0 ],
+			"obj-339::obj-373::obj-30" : [ "randomize_percentage[64]", "randomize_percentage", 0 ],
+			"obj-339::obj-174::obj-30" : [ "randomize_percentage[67]", "randomize_percentage", 0 ],
+			"obj-339::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[64]", "manual_rate_wrapper", 0 ],
+			"obj-345::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[82]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-174::obj-55" : [ "live.text[89]", "live.text[1]", 0 ],
+			"obj-343::obj-46::obj-29::obj-9" : [ "Manual Rate[96]", "Manual Rate", 0 ],
+			"obj-329" : [ "speed_scale[1]", "speed_scale", 0 ],
+			"obj-233::obj-373::obj-67" : [ "min_max_offset_ui[5]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[3]", "manual_rate_wrapper", 0 ],
 			"obj-240::obj-173::obj-67" : [ "min_max_offset_ui[11]", "min_max_offset_ui", 0 ],
-			"obj-240::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[11]", "manual_rate_wrapper", 0 ],
-			"obj-240::obj-46::obj-67" : [ "min_max_offset_ui[14]", "min_max_offset_ui", 0 ],
-			"obj-271::obj-173::obj-47" : [ "modulation_indices[20]", "modulation_indices", 0 ],
-			"obj-335::obj-173::obj-67" : [ "min_max_offset_ui[29]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-174::obj-32" : [ "off[27]", "off", 0 ],
-			"obj-333::obj-46::obj-67" : [ "min_max_offset_ui[38]", "min_max_offset_ui", 0 ],
-			"obj-292::obj-119" : [ "reso_am_ctrl[6]", "reso_am_ctrl", 0 ],
-			"obj-283::obj-173::obj-29::obj-97" : [ "Quantized_Rate[44]", "Quantized Rate", 0 ],
-			"obj-341::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[53]", "quantize_rate_wrapper", 0 ],
-			"obj-340::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[58]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[67]", "quantize_rate_wrapper", 0 ],
-			"obj-338::obj-172::obj-30" : [ "randomize_percentage[71]", "randomize_percentage", 0 ],
-			"obj-346::obj-373::obj-67" : [ "min_max_offset_ui[75]", "min_max_offset_ui", 0 ],
-			"obj-344::obj-172::obj-32" : [ "off[85]", "off", 0 ],
-			"obj-343::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[90]", "manual_rate_wrapper", 0 ],
-			"obj-343::obj-173::obj-32" : [ "off[92]", "off", 0 ],
-			"obj-190::obj-47" : [ "modulation_indices[97]", "modulation_indices", 0 ],
-			"obj-289::obj-55" : [ "live.text[96]", "live.text[1]", 0 ],
-			"obj-334::obj-30" : [ "randomize_percentage[108]", "randomize_percentage", 0 ],
-			"obj-64::obj-29::obj-97" : [ "Quantized_Rate[106]", "Quantized Rate", 0 ],
-			"obj-233::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
-			"obj-240::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[9]", "quantize_rate_wrapper", 0 ],
-			"obj-240::obj-174::obj-30" : [ "randomize_percentage[13]", "randomize_percentage", 0 ],
-			"obj-271::obj-46::obj-67" : [ "min_max_offset_ui[26]", "min_max_offset_ui", 0 ],
-			"obj-335::obj-173::obj-29::obj-9" : [ "Manual Rate[34]", "Manual Rate", 0 ],
-			"obj-335::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[27]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[10]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-179::obj-47" : [ "modulation_indices[10]", "modulation_indices", 0 ],
+			"obj-282::obj-373::obj-32" : [ "off[12]", "off", 0 ],
+			"obj-282::obj-174::obj-55" : [ "live.text[15]", "live.text[1]", 0 ],
+			"obj-282::obj-122" : [ "reso_asr_ctrl[2]", "reso_asr_ctrl", 0 ],
+			"obj-271::obj-174::obj-30" : [ "randomize_percentage[25]", "randomize_percentage", 0 ],
+			"obj-335::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[28]", "quantize_rate_wrapper", 0 ],
+			"obj-335::obj-179::obj-32" : [ "off[28]", "off", 0 ],
+			"obj-333::obj-179::obj-47" : [ "modulation_indices[34]", "modulation_indices", 0 ],
+			"obj-292::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[39]", "quantize_rate_wrapper", 0 ],
+			"obj-292::obj-179::obj-47" : [ "modulation_indices[40]", "modulation_indices", 0 ],
+			"obj-341::obj-174::obj-30" : [ "randomize_percentage[55]", "randomize_percentage", 0 ],
+			"obj-341::obj-46::obj-55" : [ "live.text[53]", "live.text[1]", 0 ],
+			"obj-340::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[56]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-116" : [ "reso_freq_coefficient_ctrl[10]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-345::obj-373::obj-29::obj-9" : [ "Manual Rate[79]", "Manual Rate", 0 ],
+			"obj-345::obj-176" : [ "reso_harsh_ctrl[13]", "reso_harsh_ctrl", 0 ],
+			"obj-344::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[87]", "manual_rate_wrapper", 0 ],
+			"obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[99]", "quantize_rate_wrapper", 0 ],
+			"obj-334::obj-29::obj-97" : [ "Quantized_Rate[104]", "Quantized Rate", 0 ],
+			"obj-64::obj-29::obj-22" : [ "quantize_rate_wrapper[106]", "quantize_rate_wrapper", 0 ],
+			"obj-64::obj-47" : [ "modulation_indices[106]", "modulation_indices", 0 ],
+			"obj-240::obj-172::obj-47" : [ "modulation_indices[7]", "modulation_indices", 0 ],
+			"obj-240::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[8]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-49" : [ "reso_comb_ctrl[16]", "reso_comb_ctrl", 0 ],
+			"obj-282::obj-46::obj-55" : [ "live.text[17]", "live.text[1]", 0 ],
+			"obj-271::obj-373::obj-29::obj-9" : [ "Manual Rate[17]", "Manual Rate", 0 ],
+			"obj-335::obj-174::obj-29::obj-97" : [ "Quantized_Rate[27]", "Quantized Rate", 0 ],
+			"obj-335::obj-179::obj-67" : [ "min_max_offset_ui[31]", "min_max_offset_ui", 0 ],
+			"obj-333::obj-173::obj-47" : [ "modulation_indices[32]", "modulation_indices", 0 ],
+			"obj-292::obj-373::obj-55" : [ "live.text[36]", "live.text[1]", 0 ],
+			"obj-340::obj-173::obj-47" : [ "modulation_indices[56]", "modulation_indices", 0 ],
+			"obj-339::obj-179::obj-29::obj-9" : [ "Manual Rate[65]", "Manual Rate", 0 ],
+			"obj-338::obj-179::obj-30" : [ "randomize_percentage[74]", "randomize_percentage", 0 ],
+			"obj-346::obj-172::obj-32" : [ "off[73]", "off", 0 ],
+			"obj-345::obj-373::obj-30" : [ "randomize_percentage[82]", "randomize_percentage", 0 ],
+			"obj-345::obj-172::obj-32" : [ "off[79]", "off", 0 ],
+			"obj-345::obj-46::obj-29::obj-9" : [ "Manual Rate[84]", "Manual Rate", 0 ],
+			"obj-344::obj-173::obj-67" : [ "min_max_offset_ui[89]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-116" : [ "reso_freq_coefficient_ctrl[14]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-343::obj-173::obj-30" : [ "randomize_percentage[96]", "randomize_percentage", 0 ],
+			"obj-343::obj-179::obj-29::obj-97" : [ "Quantized_Rate[94]", "Quantized Rate", 0 ],
+			"obj-174::obj-30" : [ "randomize_percentage[103]", "randomize_percentage", 0 ],
+			"obj-278" : [ "ProbLock[5]", "ProbLock", 0 ],
+			"obj-233::obj-373::obj-29::obj-9" : [ "Manual Rate[28]", "Manual Rate", 0 ],
+			"obj-233::obj-174::obj-47" : [ "modulation_indices[3]", "modulation_indices", 0 ],
+			"obj-271::obj-172::obj-47" : [ "modulation_indices[19]", "modulation_indices", 0 ],
+			"obj-335::obj-172::obj-30" : [ "randomize_percentage[29]", "randomize_percentage", 0 ],
+			"obj-335::obj-174::obj-55" : [ "live.text[27]", "live.text[1]", 0 ],
+			"obj-333::obj-49" : [ "reso_comb_ctrl[3]", "reso_comb_ctrl", 0 ],
+			"obj-292::obj-174::obj-67" : [ "min_max_offset_ui[42]", "min_max_offset_ui", 0 ],
+			"obj-283::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[42]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-373::obj-67" : [ "min_max_offset_ui[45]", "min_max_offset_ui", 0 ],
+			"obj-283::obj-119" : [ "reso_am_ctrl[7]", "reso_am_ctrl", 0 ],
+			"obj-340::obj-179::obj-67" : [ "min_max_offset_ui[61]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-172::obj-47" : [ "modulation_indices[67]", "modulation_indices", 0 ],
+			"obj-338::obj-173::obj-30" : [ "randomize_percentage[72]", "randomize_percentage", 0 ],
+			"obj-338::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[71]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-49" : [ "reso_comb_ctrl[6]", "reso_comb_ctrl", 0 ],
+			"obj-346::obj-179::obj-29::obj-9" : [ "Manual Rate[77]", "Manual Rate", 0 ],
+			"obj-346::obj-179::obj-67" : [ "min_max_offset_ui[79]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-46::obj-29::obj-97" : [ "Quantized_Rate[77]", "Quantized Rate", 0 ],
+			"obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[103]", "quantize_rate_wrapper", 0 ],
+			"obj-185::obj-29::obj-9" : [ "Manual Rate[106]", "Manual Rate", 0 ],
+			"obj-240::obj-179::obj-29::obj-9" : [ "Manual Rate[10]", "Manual Rate", 0 ],
+			"obj-240::obj-179::obj-32" : [ "off[10]", "off", 0 ],
+			"obj-282::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[12]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-173::obj-29::obj-9" : [ "Manual Rate[13]", "Manual Rate", 0 ],
+			"obj-271::obj-46::obj-30" : [ "randomize_percentage[27]", "randomize_percentage", 0 ],
 			"obj-333::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[34]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[40]", "manual_rate_wrapper", 0 ],
-			"obj-292::obj-46::obj-30" : [ "randomize_percentage[45]", "randomize_percentage", 0 ],
-			"obj-340::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[59]", "quantize_rate_wrapper", 0 ],
-			"obj-339::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[65]", "manual_rate_wrapper", 0 ],
-			"obj-338::obj-174::obj-30" : [ "randomize_percentage[73]", "randomize_percentage", 0 ],
-			"obj-346::obj-373::obj-30" : [ "randomize_percentage[76]", "randomize_percentage", 0 ],
-			"obj-346::obj-119" : [ "reso_am_ctrl[12]", "reso_am_ctrl", 0 ],
-			"obj-343::obj-373::obj-32" : [ "off[90]", "off", 0 ],
-			"obj-343::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[95]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-172::obj-55" : [ "live.text[43]", "live.text[1]", 0 ],
+			"obj-283::obj-179::obj-30" : [ "randomize_percentage[50]", "randomize_percentage", 0 ],
+			"obj-341::obj-122" : [ "reso_asr_ctrl[8]", "reso_asr_ctrl", 0 ],
+			"obj-340::obj-173::obj-29::obj-9" : [ "Manual Rate[57]", "Manual Rate", 0 ],
+			"obj-339::obj-174::obj-29::obj-9" : [ "Manual Rate[64]", "Manual Rate", 0 ],
+			"obj-339::obj-174::obj-29::obj-97" : [ "Quantized_Rate[63]", "Quantized Rate", 0 ],
+			"obj-346::obj-373::obj-47" : [ "modulation_indices[72]", "modulation_indices", 0 ],
+			"obj-346::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[76]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-373::obj-47" : [ "modulation_indices[84]", "modulation_indices", 0 ],
+			"obj-344::obj-174::obj-67" : [ "min_max_offset_ui[90]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-46::obj-29::obj-97" : [ "Quantized_Rate[89]", "Quantized Rate", 0 ],
+			"obj-343::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[91]", "manual_rate_wrapper", 0 ],
 			"obj-239::obj-2::obj-34" : [ "external_gate", "external_gate", 0 ],
+			"obj-239::obj-325::obj-32" : [ "off[100]", "off", 0 ],
+			"obj-40" : [ "preset_save_number[2]", "preset_save_number", 0 ],
+			"obj-303" : [ "feedback_sync", "feedback_sync", 0 ],
+			"obj-282::obj-172::obj-29::obj-9" : [ "Manual Rate[12]", "Manual Rate", 0 ],
+			"obj-271::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[22]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-173::obj-32" : [ "off[32]", "off", 0 ],
+			"obj-292::obj-174::obj-32" : [ "off[39]", "off", 0 ],
+			"obj-292::obj-179::obj-55" : [ "live.text[40]", "live.text[1]", 0 ],
+			"obj-292::obj-49" : [ "reso_comb_ctrl[4]", "reso_comb_ctrl", 0 ],
+			"obj-283::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[46]", "quantize_rate_wrapper", 0 ],
+			"obj-341::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[53]", "quantize_rate_wrapper", 0 ],
+			"obj-340::obj-179::obj-55" : [ "live.text[58]", "live.text[1]", 0 ],
+			"obj-339::obj-373::obj-32" : [ "off[60]", "off", 0 ],
+			"obj-338::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[67]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[70]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-46::obj-55" : [ "live.text[77]", "live.text[1]", 0 ],
+			"obj-344::obj-46::obj-47" : [ "modulation_indices[89]", "modulation_indices", 0 ],
+			"obj-343::obj-46::obj-30" : [ "randomize_percentage[99]", "randomize_percentage", 0 ],
+			"obj-289::obj-67" : [ "min_max_offset_ui[104]", "min_max_offset_ui", 0 ],
+			"obj-257::obj-29::obj-97" : [ "Quantized_Rate[102]", "Quantized Rate", 0 ],
+			"obj-233::obj-46::obj-47" : [ "modulation_indices[5]", "modulation_indices", 0 ],
+			"obj-233::obj-112" : [ "reso_q_ctrl[18]", "reso_q_ctrl", 0 ],
+			"obj-335::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[27]", "quantize_rate_wrapper", 0 ],
+			"obj-335::obj-174::obj-47" : [ "modulation_indices[27]", "modulation_indices", 0 ],
+			"obj-333::obj-174::obj-29::obj-9" : [ "Manual Rate[40]", "Manual Rate", 0 ],
+			"obj-283::obj-172::obj-47" : [ "modulation_indices[43]", "modulation_indices", 0 ],
+			"obj-341::obj-173::obj-30" : [ "randomize_percentage[54]", "randomize_percentage", 0 ],
+			"obj-341::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[51]", "manual_rate_wrapper", 0 ],
+			"obj-339::obj-174::obj-55" : [ "live.text[63]", "live.text[1]", 0 ],
+			"obj-339::obj-46::obj-32" : [ "off[65]", "off", 0 ],
+			"obj-345::obj-174::obj-29::obj-9" : [ "Manual Rate[82]", "Manual Rate", 0 ],
+			"obj-345::obj-46::obj-29::obj-97" : [ "Quantized_Rate[83]", "Quantized Rate", 0 ],
+			"obj-343::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[94]", "manual_rate_wrapper", 0 ],
+			"obj-185::obj-29::obj-22" : [ "quantize_rate_wrapper[105]", "quantize_rate_wrapper", 0 ],
+			"obj-64::obj-32" : [ "off[106]", "off", 0 ],
+			"obj-233::obj-173::obj-29::obj-9" : [ "Manual Rate[2]", "Manual Rate", 0 ],
+			"obj-282::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[17]", "manual_rate_wrapper", 0 ],
+			"obj-271::obj-373::obj-30" : [ "randomize_percentage[22]", "randomize_percentage", 0 ],
+			"obj-333::obj-172::obj-47" : [ "modulation_indices[31]", "modulation_indices", 0 ],
+			"obj-333::obj-173::obj-30" : [ "randomize_percentage[36]", "randomize_percentage", 0 ],
+			"obj-292::obj-173::obj-47" : [ "modulation_indices[38]", "modulation_indices", 0 ],
+			"obj-292::obj-46::obj-29::obj-9" : [ "Manual Rate[26]", "Manual Rate", 0 ],
+			"obj-340::obj-373::obj-29::obj-9" : [ "Manual Rate[55]", "Manual Rate", 0 ],
+			"obj-340::obj-173::obj-67" : [ "min_max_offset_ui[59]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[57]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-173::obj-47" : [ "modulation_indices[62]", "modulation_indices", 0 ],
+			"obj-338::obj-174::obj-32" : [ "off[69]", "off", 0 ],
+			"obj-345::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[81]", "manual_rate_wrapper", 0 ],
+			"obj-345::obj-179::obj-67" : [ "min_max_offset_ui[85]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[84]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-373::obj-30" : [ "randomize_percentage[88]", "randomize_percentage", 0 ],
+			"obj-344::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[88]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-46::obj-55" : [ "live.text[113]", "live.text[1]", 0 ],
+			"obj-344::obj-46::obj-32" : [ "off[89]", "off", 0 ],
+			"obj-343::obj-46::obj-67" : [ "min_max_offset_ui[98]", "min_max_offset_ui", 0 ],
+			"obj-239::obj-325::obj-29::obj-23" : [ "manual_rate_wrapper[100]", "manual_rate_wrapper", 0 ],
+			"obj-334::obj-32" : [ "off[104]", "off", 0 ],
+			"obj-233::obj-373::obj-32" : [ "off", "off", 0 ],
+			"obj-233::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[1]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[16]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-172::obj-29::obj-9" : [ "Manual Rate[18]", "Manual Rate", 0 ],
+			"obj-333::obj-174::obj-47" : [ "modulation_indices[33]", "modulation_indices", 0 ],
+			"obj-292::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[38]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[45]", "quantize_rate_wrapper", 0 ],
+			"obj-340::obj-373::obj-67" : [ "min_max_offset_ui[57]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-172::obj-29::obj-9" : [ "Manual Rate[56]", "Manual Rate", 0 ],
+			"obj-340::obj-174::obj-47" : [ "modulation_indices[57]", "modulation_indices", 0 ],
+			"obj-338::obj-179::obj-32" : [ "off[70]", "off", 0 ],
+			"obj-345::obj-46::obj-67" : [ "min_max_offset_ui[86]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-179::obj-47" : [ "modulation_indices[94]", "modulation_indices", 0 ],
+			"obj-220" : [ "ProbLock[6]", "ProbLock", 0 ],
+			"obj-233::obj-179::obj-30" : [ "randomize_percentage[8]", "randomize_percentage", 0 ],
+			"obj-233::obj-176" : [ "reso_harsh_ctrl[18]", "reso_harsh_ctrl", 0 ],
+			"obj-282::obj-46::obj-29::obj-9" : [ "Manual Rate[16]", "Manual Rate", 0 ],
+			"obj-271::obj-179::obj-29::obj-9" : [ "Manual Rate[30]", "Manual Rate", 0 ],
+			"obj-335::obj-179::obj-47" : [ "modulation_indices[28]", "modulation_indices", 0 ],
+			"obj-333::obj-373::obj-47" : [ "modulation_indices[30]", "modulation_indices", 0 ],
+			"obj-283::obj-174::obj-30" : [ "randomize_percentage[49]", "randomize_percentage", 0 ],
+			"obj-283::obj-179::obj-29::obj-9" : [ "Manual Rate[47]", "Manual Rate", 0 ],
+			"obj-341::obj-172::obj-47" : [ "modulation_indices[49]", "modulation_indices", 0 ],
+			"obj-340::obj-46::obj-29::obj-97" : [ "Quantized_Rate[59]", "Quantized Rate", 0 ],
+			"obj-338::obj-172::obj-55" : [ "live.text[67]", "live.text[1]", 0 ],
+			"obj-345::obj-49" : [ "reso_comb_ctrl[8]", "reso_comb_ctrl", 0 ],
+			"obj-174::obj-47" : [ "modulation_indices[99]", "modulation_indices", 0 ],
+			"obj-297" : [ "SubsetCtrl[3]", "SubsetCtrl", 0 ],
+			"obj-233::obj-179::obj-29::obj-9" : [ "Manual Rate[4]", "Manual Rate", 0 ],
+			"obj-233::obj-179::obj-32" : [ "off[4]", "off", 0 ],
+			"obj-240::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[9]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-179::obj-29::obj-97" : [ "Quantized_Rate[10]", "Quantized Rate", 0 ],
+			"obj-282::obj-172::obj-67" : [ "min_max_offset_ui[16]", "min_max_offset_ui", 0 ],
+			"obj-282::obj-174::obj-29::obj-9" : [ "Manual Rate[14]", "Manual Rate", 0 ],
+			"obj-271::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[21]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-112" : [ "reso_q_ctrl[4]", "reso_q_ctrl", 0 ],
+			"obj-333::obj-172::obj-29::obj-97" : [ "Quantized_Rate[31]", "Quantized Rate", 0 ],
+			"obj-292::obj-373::obj-29::obj-9" : [ "Manual Rate[23]", "Manual Rate", 0 ],
+			"obj-292::obj-172::obj-55" : [ "live.text[37]", "live.text[1]", 0 ],
+			"obj-283::obj-173::obj-55" : [ "live.text[44]", "live.text[1]", 0 ],
+			"obj-341::obj-173::obj-29::obj-9" : [ "Manual Rate[51]", "Manual Rate", 0 ],
+			"obj-339::obj-46::obj-29::obj-9" : [ "Manual Rate[66]", "Manual Rate", 0 ],
+			"obj-338::obj-373::obj-55" : [ "live.text[66]", "live.text[1]", 0 ],
+			"obj-346::obj-174::obj-67" : [ "min_max_offset_ui[78]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-179::obj-29::obj-97" : [ "Quantized_Rate[76]", "Quantized Rate", 0 ],
+			"obj-346::obj-176" : [ "reso_harsh_ctrl[12]", "reso_harsh_ctrl", 0 ],
+			"obj-217::obj-2" : [ "range_selector_1[3]", "range_selector_1", 0 ],
+			"obj-126::obj-9" : [ "live.text[115]", "live.text", 0 ],
+			"obj-271::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[23]", "manual_rate_wrapper", 0 ],
+			"obj-271::obj-176" : [ "reso_harsh_ctrl[3]", "reso_harsh_ctrl", 0 ],
+			"obj-335::obj-172::obj-32" : [ "off[25]", "off", 0 ],
+			"obj-335::obj-46::obj-29::obj-97" : [ "Quantized_Rate[29]", "Quantized Rate", 0 ],
+			"obj-333::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[33]", "quantize_rate_wrapper", 0 ],
+			"obj-292::obj-373::obj-29::obj-97" : [ "Quantized_Rate[36]", "Quantized Rate", 0 ],
+			"obj-341::obj-373::obj-30" : [ "randomize_percentage[52]", "randomize_percentage", 0 ],
+			"obj-340::obj-176" : [ "reso_harsh_ctrl[9]", "reso_harsh_ctrl", 0 ],
+			"obj-339::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[64]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-174::obj-32" : [ "off[87]", "off", 0 ],
+			"obj-343::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[90]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-172::obj-29::obj-97" : [ "Quantized_Rate[91]", "Quantized Rate", 0 ],
+			"obj-343::obj-174::obj-29::obj-97" : [ "Quantized_Rate[93]", "Quantized Rate", 0 ],
+			"obj-343::obj-174::obj-29::obj-9" : [ "Manual Rate[94]", "Manual Rate", 0 ],
+			"obj-343::obj-46::obj-47" : [ "modulation_indices[95]", "modulation_indices", 0 ],
+			"obj-252::obj-30" : [ "randomize_percentage[100]", "randomize_percentage", 0 ],
+			"obj-190::obj-29::obj-22" : [ "quantize_rate_wrapper[97]", "quantize_rate_wrapper", 0 ],
+			"obj-188" : [ "cell_fill_likelihood[2]", "cell_fill_likelihood", 0 ],
+			"obj-180" : [ "preset_toward[2]", "preset_toward", 0 ],
+			"obj-332" : [ "ProbLock[9]", "ProbLock", 0 ],
+			"obj-233::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[3]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-173::obj-55" : [ "live.text[8]", "live.text[1]", 0 ],
+			"obj-282::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[13]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-173::obj-30" : [ "randomize_percentage[18]", "randomize_percentage", 0 ],
+			"obj-282::obj-176" : [ "reso_harsh_ctrl[2]", "reso_harsh_ctrl", 0 ],
+			"obj-271::obj-172::obj-32" : [ "off[19]", "off", 0 ],
+			"obj-271::obj-179::obj-47" : [ "modulation_indices[22]", "modulation_indices", 0 ],
+			"obj-335::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[28]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-174::obj-67" : [ "min_max_offset_ui[36]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-46::obj-55" : [ "live.text[41]", "live.text[1]", 0 ],
+			"obj-341::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[52]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-172::obj-32" : [ "off[55]", "off", 0 ],
+			"obj-340::obj-46::obj-67" : [ "min_max_offset_ui[62]", "min_max_offset_ui", 0 ],
+			"obj-339::obj-179::obj-29::obj-97" : [ "Quantized_Rate[64]", "Quantized Rate", 0 ],
+			"obj-339::obj-112" : [ "reso_q_ctrl[10]", "reso_q_ctrl", 0 ],
+			"obj-338::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[69]", "manual_rate_wrapper", 0 ],
+			"obj-346::obj-174::obj-55" : [ "live.text[75]", "live.text[1]", 0 ],
+			"obj-345::obj-373::obj-32" : [ "off[78]", "off", 0 ],
+			"obj-344::obj-173::obj-29::obj-97" : [ "Quantized_Rate[86]", "Quantized Rate", 0 ],
+			"obj-344::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[87]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-173::obj-32" : [ "off[92]", "off", 0 ],
+			"obj-276" : [ "which_matrix_pos_ctrl", "which_matrix_pos_ctrl", 0 ],
+			"obj-233::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper", "manual_rate_wrapper", 0 ],
+			"obj-233::obj-173::obj-29::obj-97" : [ "Quantized_Rate[2]", "Quantized Rate", 0 ],
+			"obj-233::obj-174::obj-32" : [ "off[3]", "off", 0 ],
+			"obj-233::obj-122" : [ "reso_asr_ctrl[18]", "reso_asr_ctrl", 0 ],
+			"obj-240::obj-174::obj-67" : [ "min_max_offset_ui[12]", "min_max_offset_ui", 0 ],
+			"obj-240::obj-119" : [ "reso_am_ctrl[1]", "reso_am_ctrl", 0 ],
+			"obj-335::obj-172::obj-55" : [ "live.text[25]", "live.text[1]", 0 ],
+			"obj-335::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[26]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-373::obj-55" : [ "live.text[30]", "live.text[1]", 0 ],
+			"obj-292::obj-173::obj-29::obj-97" : [ "Quantized_Rate[38]", "Quantized Rate", 0 ],
+			"obj-292::obj-174::obj-47" : [ "modulation_indices[39]", "modulation_indices", 0 ],
+			"obj-283::obj-174::obj-29::obj-97" : [ "Quantized_Rate[45]", "Quantized Rate", 0 ],
+			"obj-283::obj-174::obj-32" : [ "off[45]", "off", 0 ],
+			"obj-341::obj-174::obj-29::obj-9" : [ "Manual Rate[52]", "Manual Rate", 0 ],
+			"obj-341::obj-179::obj-30" : [ "randomize_percentage[56]", "randomize_percentage", 0 ],
+			"obj-341::obj-179::obj-32" : [ "off[52]", "off", 0 ],
+			"obj-340::obj-174::obj-67" : [ "min_max_offset_ui[60]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[58]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-179::obj-67" : [ "min_max_offset_ui[67]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-174::obj-29::obj-97" : [ "Quantized_Rate[69]", "Quantized Rate", 0 ],
+			"obj-345::obj-172::obj-67" : [ "min_max_offset_ui[82]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-179::obj-55" : [ "live.text[90]", "live.text[1]", 0 ],
+			"obj-148::obj-29::obj-9" : [ "Manual Rate[99]", "Manual Rate", 0 ],
+			"obj-148::obj-29::obj-23" : [ "manual_rate_wrapper[98]", "manual_rate_wrapper", 0 ],
+			"obj-174::obj-67" : [ "min_max_offset_ui[102]", "min_max_offset_ui", 0 ],
+			"obj-185::obj-29::obj-97" : [ "Quantized_Rate[105]", "Quantized Rate", 0 ],
+			"obj-240::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[6]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-174::obj-32" : [ "off[9]", "off", 0 ],
+			"obj-282::obj-174::obj-32" : [ "off[15]", "off", 0 ],
+			"obj-292::obj-46::obj-30" : [ "randomize_percentage[45]", "randomize_percentage", 0 ],
+			"obj-283::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[42]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-172::obj-29::obj-97" : [ "Quantized_Rate[43]", "Quantized Rate", 0 ],
+			"obj-283::obj-122" : [ "reso_asr_ctrl[7]", "reso_asr_ctrl", 0 ],
+			"obj-340::obj-173::obj-55" : [ "live.text[56]", "live.text[1]", 0 ],
+			"obj-339::obj-173::obj-29::obj-97" : [ "Quantized_Rate[62]", "Quantized Rate", 0 ],
+			"obj-338::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[71]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-46::obj-47" : [ "modulation_indices[77]", "modulation_indices", 0 ],
+			"obj-345::obj-174::obj-55" : [ "live.text[81]", "live.text[1]", 0 ],
+			"obj-345::obj-112" : [ "reso_q_ctrl[13]", "reso_q_ctrl", 0 ],
+			"obj-344::obj-174::obj-29::obj-97" : [ "Quantized_Rate[87]", "Quantized Rate", 0 ],
+			"obj-289::obj-55" : [ "live.text[96]", "live.text[1]", 0 ],
+			"obj-307" : [ "DecayControlMod[2]", "DecayControlMod", 0 ],
+			"obj-233::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper", "quantize_rate_wrapper", 0 ],
+			"obj-233::obj-173::obj-47" : [ "modulation_indices[2]", "modulation_indices", 0 ],
+			"obj-240::obj-373::obj-47" : [ "modulation_indices[6]", "modulation_indices", 0 ],
+			"obj-282::obj-373::obj-30" : [ "randomize_percentage[16]", "randomize_percentage", 0 ],
+			"obj-271::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[18]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-173::obj-32" : [ "off[20]", "off", 0 ],
+			"obj-333::obj-172::obj-32" : [ "off[31]", "off", 0 ],
+			"obj-341::obj-119" : [ "reso_am_ctrl[8]", "reso_am_ctrl", 0 ],
+			"obj-346::obj-172::obj-30" : [ "randomize_percentage[77]", "randomize_percentage", 0 ],
+			"obj-346::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[76]", "manual_rate_wrapper", 0 ],
+			"obj-344::obj-122" : [ "reso_asr_ctrl[14]", "reso_asr_ctrl", 0 ],
+			"obj-343::obj-49" : [ "reso_comb_ctrl[21]", "reso_comb_ctrl", 0 ],
+			"obj-252::obj-67" : [ "min_max_offset_ui[99]", "min_max_offset_ui", 0 ],
+			"obj-190::obj-32" : [ "off[97]", "off", 0 ],
+			"obj-174::obj-29::obj-97" : [ "Quantized_Rate[99]", "Quantized Rate", 0 ],
+			"obj-125" : [ "Solo_Matrix", "Solo_Matrix", 0 ],
+			"obj-328" : [ "ProbLock[8]", "ProbLock", 0 ],
+			"obj-233::obj-373::obj-29::obj-97" : [ "Quantized_Rate", "Quantized Rate", 0 ],
+			"obj-240::obj-172::obj-29::obj-97" : [ "Quantized_Rate[7]", "Quantized Rate", 0 ],
+			"obj-282::obj-373::obj-29::obj-9" : [ "Manual Rate[11]", "Manual Rate", 0 ],
+			"obj-282::obj-46::obj-29::obj-97" : [ "Quantized_Rate[17]", "Quantized Rate", 0 ],
+			"obj-271::obj-46::obj-32" : [ "off[23]", "off", 0 ],
+			"obj-335::obj-46::obj-32" : [ "off[29]", "off", 0 ],
+			"obj-283::obj-46::obj-30" : [ "randomize_percentage[51]", "randomize_percentage", 0 ],
+			"obj-283::obj-116" : [ "reso_freq_coefficient_ctrl[7]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-341::obj-174::obj-47" : [ "modulation_indices[51]", "modulation_indices", 0 ],
+			"obj-341::obj-46::obj-32" : [ "off[53]", "off", 0 ],
+			"obj-340::obj-179::obj-29::obj-9" : [ "Manual Rate[59]", "Manual Rate", 0 ],
+			"obj-340::obj-49" : [ "reso_comb_ctrl[20]", "reso_comb_ctrl", 0 ],
+			"obj-338::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[67]", "quantize_rate_wrapper", 0 ],
+			"obj-338::obj-174::obj-67" : [ "min_max_offset_ui[72]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-373::obj-29::obj-9" : [ "Manual Rate[73]", "Manual Rate", 0 ],
+			"obj-346::obj-172::obj-29::obj-97" : [ "Quantized_Rate[73]", "Quantized Rate", 0 ],
+			"obj-346::obj-174::obj-30" : [ "randomize_percentage[79]", "randomize_percentage", 0 ],
+			"obj-345::obj-173::obj-29::obj-97" : [ "Quantized_Rate[80]", "Quantized Rate", 0 ],
+			"obj-344::obj-174::obj-29::obj-9" : [ "Manual Rate[88]", "Manual Rate", 0 ],
+			"obj-343::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[93]", "quantize_rate_wrapper", 0 ],
+			"obj-8" : [ "newSamples[1]", "newSamples", 0 ],
+			"obj-233::obj-172::obj-55" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-282::obj-172::obj-55" : [ "live.text[13]", "live.text[1]", 0 ],
+			"obj-271::obj-173::obj-67" : [ "min_max_offset_ui[23]", "min_max_offset_ui", 0 ],
+			"obj-335::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[24]", "manual_rate_wrapper", 0 ],
+			"obj-292::obj-172::obj-29::obj-97" : [ "Quantized_Rate[37]", "Quantized Rate", 0 ],
+			"obj-341::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[48]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-373::obj-32" : [ "off[48]", "off", 0 ],
+			"obj-341::obj-172::obj-29::obj-97" : [ "Quantized_Rate[49]", "Quantized Rate", 0 ],
+			"obj-341::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[51]", "quantize_rate_wrapper", 0 ],
+			"obj-341::obj-46::obj-47" : [ "modulation_indices[53]", "modulation_indices", 0 ],
+			"obj-339::obj-173::obj-67" : [ "min_max_offset_ui[65]", "min_max_offset_ui", 0 ],
+			"obj-339::obj-46::obj-47" : [ "modulation_indices[65]", "modulation_indices", 0 ],
+			"obj-338::obj-172::obj-29::obj-97" : [ "Quantized_Rate[67]", "Quantized Rate", 0 ],
+			"obj-344::obj-174::obj-47" : [ "modulation_indices[87]", "modulation_indices", 0 ],
+			"obj-343::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[94]", "quantize_rate_wrapper", 0 ],
+			"obj-60::obj-23" : [ "jam_amount[2]", "jam_amount", 0 ],
+			"obj-327" : [ "fractional_probs", "fractional_probs", 0 ],
+			"obj-240::obj-172::obj-67" : [ "min_max_offset_ui[10]", "min_max_offset_ui", 0 ],
+			"obj-282::obj-174::obj-67" : [ "min_max_offset_ui[18]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-174::obj-47" : [ "modulation_indices[21]", "modulation_indices", 0 ],
+			"obj-271::obj-46::obj-29::obj-97" : [ "Quantized_Rate[23]", "Quantized Rate", 0 ],
+			"obj-292::obj-373::obj-30" : [ "randomize_percentage[40]", "randomize_percentage", 0 ],
+			"obj-292::obj-179::obj-32" : [ "off[40]", "off", 0 ],
+			"obj-340::obj-172::obj-30" : [ "randomize_percentage[59]", "randomize_percentage", 0 ],
+			"obj-340::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[57]", "manual_rate_wrapper", 0 ],
+			"obj-339::obj-172::obj-32" : [ "off[61]", "off", 0 ],
+			"obj-339::obj-173::obj-30" : [ "randomize_percentage[66]", "randomize_percentage", 0 ],
+			"obj-338::obj-172::obj-67" : [ "min_max_offset_ui[70]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-179::obj-29::obj-9" : [ "Manual Rate[71]", "Manual Rate", 0 ],
+			"obj-346::obj-373::obj-29::obj-97" : [ "Quantized_Rate[72]", "Quantized Rate", 0 ],
+			"obj-345::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[81]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-174::obj-30" : [ "randomize_percentage[85]", "randomize_percentage", 0 ],
+			"obj-345::obj-179::obj-47" : [ "modulation_indices[82]", "modulation_indices", 0 ],
+			"obj-343::obj-119" : [ "reso_am_ctrl[15]", "reso_am_ctrl", 0 ],
+			"obj-64::obj-67" : [ "min_max_offset_ui[109]", "min_max_offset_ui", 0 ],
+			"obj-240::obj-179::obj-67" : [ "min_max_offset_ui[13]", "min_max_offset_ui", 0 ],
+			"obj-282::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[16]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-174::obj-32" : [ "off[27]", "off", 0 ],
+			"obj-335::obj-46::obj-67" : [ "min_max_offset_ui[32]", "min_max_offset_ui", 0 ],
+			"obj-333::obj-174::obj-32" : [ "off[33]", "off", 0 ],
+			"obj-292::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[38]", "quantize_rate_wrapper", 0 ],
+			"obj-292::obj-122" : [ "reso_asr_ctrl[6]", "reso_asr_ctrl", 0 ],
+			"obj-283::obj-173::obj-29::obj-9" : [ "Manual Rate[45]", "Manual Rate", 0 ],
+			"obj-283::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[45]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-174::obj-32" : [ "off[51]", "off", 0 ],
+			"obj-346::obj-173::obj-55" : [ "live.text[74]", "live.text[1]", 0 ],
+			"obj-346::obj-46::obj-32" : [ "off[77]", "off", 0 ],
+			"obj-344::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[86]", "manual_rate_wrapper", 0 ],
+			"obj-126::obj-142" : [ "Channel[1]", "Channel", 0 ],
+			"obj-240::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[7]", "manual_rate_wrapper", 0 ],
+			"obj-240::obj-172::obj-55" : [ "live.text[7]", "live.text[1]", 0 ],
+			"obj-271::obj-373::obj-67" : [ "min_max_offset_ui[21]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-46::obj-67" : [ "min_max_offset_ui[26]", "min_max_offset_ui", 0 ],
+			"obj-335::obj-373::obj-29::obj-9" : [ "Manual Rate[32]", "Manual Rate", 0 ],
+			"obj-335::obj-173::obj-29::obj-97" : [ "Quantized_Rate[26]", "Quantized Rate", 0 ],
+			"obj-340::obj-173::obj-29::obj-97" : [ "Quantized_Rate[56]", "Quantized Rate", 0 ],
+			"obj-340::obj-173::obj-32" : [ "off[56]", "off", 0 ],
+			"obj-339::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[60]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-119" : [ "reso_am_ctrl[11]", "reso_am_ctrl", 0 ],
+			"obj-346::obj-373::obj-32" : [ "off[72]", "off", 0 ],
+			"obj-346::obj-46::obj-67" : [ "min_max_offset_ui[80]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-46::obj-30" : [ "randomize_percentage[81]", "randomize_percentage", 0 ],
+			"obj-345::obj-179::obj-29::obj-9" : [ "Manual Rate[83]", "Manual Rate", 0 ],
+			"obj-344::obj-172::obj-32" : [ "off[85]", "off", 0 ],
+			"obj-344::obj-172::obj-67" : [ "min_max_offset_ui[88]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-373::obj-55" : [ "live.text[86]", "live.text[1]", 0 ],
+			"obj-343::obj-173::obj-47" : [ "modulation_indices[92]", "modulation_indices", 0 ],
+			"obj-239::obj-325::obj-29::obj-22" : [ "quantize_rate_wrapper[100]", "quantize_rate_wrapper", 0 ],
+			"obj-239::obj-325::obj-67" : [ "min_max_offset_ui[103]", "min_max_offset_ui", 0 ],
+			"obj-60::obj-9" : [ "live.text[101]", "live.text", 0 ],
+			"obj-390" : [ "1/n", "1/n", 0 ],
+			"obj-350" : [ "ntrig_max[1]", "ntrig_max", 0 ],
+			"obj-233::obj-174::obj-30" : [ "randomize_percentage[7]", "randomize_percentage", 0 ],
+			"obj-282::obj-172::obj-30" : [ "randomize_percentage[17]", "randomize_percentage", 0 ],
+			"obj-282::obj-179::obj-47" : [ "modulation_indices[16]", "modulation_indices", 0 ],
+			"obj-271::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[19]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-179::obj-29::obj-9" : [ "Manual Rate[36]", "Manual Rate", 0 ],
+			"obj-335::obj-119" : [ "reso_am_ctrl[4]", "reso_am_ctrl", 0 ],
+			"obj-333::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[35]", "manual_rate_wrapper", 0 ],
+			"obj-292::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[41]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-46::obj-29::obj-97" : [ "Quantized_Rate[47]", "Quantized Rate", 0 ],
+			"obj-283::obj-46::obj-47" : [ "modulation_indices[47]", "modulation_indices", 0 ],
+			"obj-340::obj-373::obj-47" : [ "modulation_indices[54]", "modulation_indices", 0 ],
+			"obj-339::obj-373::obj-47" : [ "modulation_indices[60]", "modulation_indices", 0 ],
+			"obj-339::obj-172::obj-29::obj-97" : [ "Quantized_Rate[61]", "Quantized Rate", 0 ],
+			"obj-338::obj-373::obj-47" : [ "modulation_indices[66]", "modulation_indices", 0 ],
+			"obj-338::obj-179::obj-55" : [ "live.text[70]", "live.text[1]", 0 ],
+			"obj-346::obj-373::obj-67" : [ "min_max_offset_ui[75]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-122" : [ "reso_asr_ctrl[12]", "reso_asr_ctrl", 0 ],
+			"obj-343::obj-373::obj-47" : [ "modulation_indices[90]", "modulation_indices", 0 ],
+			"obj-239::obj-325::obj-55" : [ "live.text[95]", "live.text[1]", 0 ],
+			"obj-192" : [ "preset_pattern_storage[2]", "preset_pattern_storage", 0 ],
+			"obj-164" : [ "ProbLock[10]", "ProbLock", 0 ],
+			"obj-233::obj-172::obj-47" : [ "modulation_indices[1]", "modulation_indices", 0 ],
+			"obj-233::obj-46::obj-67" : [ "min_max_offset_ui[8]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[23]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-112" : [ "reso_q_ctrl[3]", "reso_q_ctrl", 0 ],
+			"obj-335::obj-172::obj-29::obj-9" : [ "Manual Rate[33]", "Manual Rate", 0 ],
+			"obj-335::obj-46::obj-30" : [ "randomize_percentage[33]", "randomize_percentage", 0 ],
+			"obj-333::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[30]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-373::obj-32" : [ "off[30]", "off", 0 ],
+			"obj-333::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[33]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-119" : [ "reso_am_ctrl[5]", "reso_am_ctrl", 0 ],
+			"obj-283::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[47]", "quantize_rate_wrapper", 0 ],
+			"obj-340::obj-174::obj-32" : [ "off[57]", "off", 0 ],
+			"obj-340::obj-46::obj-55" : [ "live.text[59]", "live.text[1]", 0 ],
+			"obj-339::obj-173::obj-29::obj-9" : [ "Manual Rate[63]", "Manual Rate", 0 ],
+			"obj-338::obj-173::obj-29::obj-9" : [ "Manual Rate[69]", "Manual Rate", 0 ],
+			"obj-338::obj-116" : [ "reso_freq_coefficient_ctrl[11]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-346::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[75]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-174::obj-29::obj-97" : [ "Quantized_Rate[81]", "Quantized Rate", 0 ],
+			"obj-343::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[90]", "manual_rate_wrapper", 0 ],
+			"obj-343::obj-172::obj-29::obj-9" : [ "Manual Rate[92]", "Manual Rate", 0 ],
+			"obj-174::obj-32" : [ "off[99]", "off", 0 ],
+			"obj-2" : [ "Lock  Matrix[3]", "Lock  Matrix", 0 ],
+			"obj-240::obj-174::obj-29::obj-9" : [ "Manual Rate[9]", "Manual Rate", 0 ],
+			"obj-282::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[13]", "manual_rate_wrapper", 0 ],
+			"obj-282::obj-116" : [ "reso_freq_coefficient_ctrl[2]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-282::obj-49" : [ "reso_comb_ctrl[1]", "reso_comb_ctrl", 0 ],
+			"obj-335::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[25]", "quantize_rate_wrapper", 0 ],
+			"obj-335::obj-172::obj-47" : [ "modulation_indices[25]", "modulation_indices", 0 ],
+			"obj-333::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[31]", "quantize_rate_wrapper", 0 ],
+			"obj-341::obj-174::obj-55" : [ "live.text[51]", "live.text[1]", 0 ],
+			"obj-341::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[52]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-179::obj-55" : [ "live.text[64]", "live.text[1]", 0 ],
+			"obj-339::obj-119" : [ "reso_am_ctrl[10]", "reso_am_ctrl", 0 ],
+			"obj-338::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[66]", "manual_rate_wrapper", 0 ],
+			"obj-338::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[69]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-173::obj-55" : [ "live.text[80]", "live.text[1]", 0 ],
+			"obj-36" : [ "repeat_on", "repeat_on", 0 ],
+			"obj-233::obj-373::obj-30" : [ "randomize_percentage[5]", "randomize_percentage", 0 ],
+			"obj-240::obj-174::obj-30" : [ "randomize_percentage[13]", "randomize_percentage", 0 ],
+			"obj-282::obj-179::obj-67" : [ "min_max_offset_ui[19]", "min_max_offset_ui", 0 ],
+			"obj-335::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[26]", "manual_rate_wrapper", 0 ],
+			"obj-292::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[36]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-373::obj-47" : [ "modulation_indices[42]", "modulation_indices", 0 ],
+			"obj-340::obj-179::obj-29::obj-23" : [ "manual_rate_wrapper[58]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-116" : [ "reso_freq_coefficient_ctrl[9]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-339::obj-173::obj-55" : [ "live.text[62]", "live.text[1]", 0 ],
+			"obj-338::obj-373::obj-29::obj-97" : [ "Quantized_Rate[66]", "Quantized Rate", 0 ],
+			"obj-346::obj-172::obj-55" : [ "live.text[73]", "live.text[1]", 0 ],
+			"obj-345::obj-172::obj-47" : [ "modulation_indices[79]", "modulation_indices", 0 ],
+			"obj-343::obj-46::obj-29::obj-97" : [ "Quantized_Rate[95]", "Quantized Rate", 0 ],
+			"obj-148::obj-29::obj-22" : [ "quantize_rate_wrapper[98]", "quantize_rate_wrapper", 0 ],
+			"obj-334::obj-29::obj-22" : [ "quantize_rate_wrapper[104]", "quantize_rate_wrapper", 0 ],
+			"obj-185::obj-30" : [ "randomize_percentage[109]", "randomize_percentage", 0 ],
+			"obj-233::obj-46::obj-30" : [ "randomize_percentage[9]", "randomize_percentage", 0 ],
+			"obj-240::obj-172::obj-30" : [ "randomize_percentage[11]", "randomize_percentage", 0 ],
+			"obj-240::obj-46::obj-30" : [ "randomize_percentage[15]", "randomize_percentage", 0 ],
+			"obj-282::obj-173::obj-67" : [ "min_max_offset_ui[17]", "min_max_offset_ui", 0 ],
+			"obj-282::obj-46::obj-30" : [ "randomize_percentage[21]", "randomize_percentage", 0 ],
+			"obj-271::obj-179::obj-29::obj-97" : [ "Quantized_Rate[22]", "Quantized Rate", 0 ],
+			"obj-335::obj-179::obj-55" : [ "live.text[28]", "live.text[1]", 0 ],
+			"obj-333::obj-46::obj-55" : [ "live.text[35]", "live.text[1]", 0 ],
+			"obj-292::obj-179::obj-29::obj-97" : [ "Quantized_Rate[40]", "Quantized Rate", 0 ],
+			"obj-340::obj-179::obj-47" : [ "modulation_indices[58]", "modulation_indices", 0 ],
+			"obj-339::obj-172::obj-47" : [ "modulation_indices[61]", "modulation_indices", 0 ],
+			"obj-339::obj-176" : [ "reso_harsh_ctrl[10]", "reso_harsh_ctrl", 0 ],
+			"obj-345::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[80]", "manual_rate_wrapper", 0 ],
+			"obj-345::obj-174::obj-32" : [ "off[81]", "off", 0 ],
+			"obj-345::obj-46::obj-30" : [ "randomize_percentage[87]", "randomize_percentage", 0 ],
+			"obj-345::obj-119" : [ "reso_am_ctrl[13]", "reso_am_ctrl", 0 ],
+			"obj-344::obj-172::obj-29::obj-9" : [ "Manual Rate[86]", "Manual Rate", 0 ],
+			"obj-344::obj-46::obj-29::obj-9" : [ "Manual Rate[90]", "Manual Rate", 0 ],
+			"obj-343::obj-173::obj-29::obj-9" : [ "Manual Rate[93]", "Manual Rate", 0 ],
+			"obj-373::obj-47" : [ "modulation_indices[103]", "modulation_indices", 0 ],
+			"obj-233::obj-172::obj-30" : [ "randomize_percentage[6]", "randomize_percentage", 0 ],
+			"obj-233::obj-179::obj-55" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-240::obj-176" : [ "reso_harsh_ctrl[1]", "reso_harsh_ctrl", 0 ],
+			"obj-271::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[18]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-373::obj-67" : [ "min_max_offset_ui[33]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-373::obj-67" : [ "min_max_offset_ui[39]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[37]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[44]", "manual_rate_wrapper", 0 ],
+			"obj-283::obj-179::obj-32" : [ "off[46]", "off", 0 ],
+			"obj-283::obj-46::obj-55" : [ "live.text[47]", "live.text[1]", 0 ],
+			"obj-341::obj-46::obj-67" : [ "min_max_offset_ui[56]", "min_max_offset_ui", 0 ],
+			"obj-339::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[61]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-174::obj-47" : [ "modulation_indices[63]", "modulation_indices", 0 ],
+			"obj-346::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[73]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-173::obj-30" : [ "randomize_percentage[90]", "randomize_percentage", 0 ],
+			"obj-344::obj-176" : [ "reso_harsh_ctrl[14]", "reso_harsh_ctrl", 0 ],
+			"obj-343::obj-46::obj-55" : [ "live.text[91]", "live.text[1]", 0 ],
 			"obj-289::obj-29::obj-22" : [ "quantize_rate_wrapper[101]", "quantize_rate_wrapper", 0 ],
+			"obj-126::obj-13" : [ "delta_channel_wrapper[1]", "delta_channel_wrapper", 0 ],
+			"obj-126::obj-23" : [ "jam_amount[1]", "jam_amount", 0 ],
+			"obj-157" : [ "ResoDryWet", "ResoDryWet", 0 ],
+			"obj-282::obj-173::obj-29::obj-97" : [ "Quantized_Rate[14]", "Quantized Rate", 0 ],
+			"obj-333::obj-173::obj-29::obj-97" : [ "Quantized_Rate[32]", "Quantized Rate", 0 ],
+			"obj-292::obj-173::obj-55" : [ "live.text[38]", "live.text[1]", 0 ],
+			"obj-283::obj-373::obj-55" : [ "live.text[42]", "live.text[1]", 0 ],
+			"obj-283::obj-173::obj-30" : [ "randomize_percentage[48]", "randomize_percentage", 0 ],
+			"obj-283::obj-176" : [ "reso_harsh_ctrl[7]", "reso_harsh_ctrl", 0 ],
+			"obj-340::obj-179::obj-29::obj-97" : [ "Quantized_Rate[58]", "Quantized Rate", 0 ],
+			"obj-340::obj-46::obj-32" : [ "off[59]", "off", 0 ],
+			"obj-338::obj-46::obj-29::obj-9" : [ "Manual Rate[72]", "Manual Rate", 0 ],
+			"obj-345::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[78]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-172::obj-55" : [ "live.text[79]", "live.text[1]", 0 ],
+			"obj-345::obj-173::obj-47" : [ "modulation_indices[80]", "modulation_indices", 0 ],
+			"obj-344::obj-179::obj-67" : [ "min_max_offset_ui[91]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[93]", "manual_rate_wrapper", 0 ],
+			"obj-239::obj-8" : [ "realtime_ar", "realtime_ar", 0 ],
+			"obj-257::obj-32" : [ "off[102]", "off", 0 ],
+			"obj-257::obj-55" : [ "live.text[97]", "live.text[1]", 0 ],
+			"obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[103]", "manual_rate_wrapper", 0 ],
+			"obj-233::obj-46::obj-55" : [ "live.text[5]", "live.text[1]", 0 ],
+			"obj-233::obj-116" : [ "reso_freq_coefficient_ctrl[18]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-282::obj-373::obj-67" : [ "min_max_offset_ui[15]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-179::obj-67" : [ "min_max_offset_ui[25]", "min_max_offset_ui", 0 ],
+			"obj-271::obj-46::obj-47" : [ "modulation_indices[23]", "modulation_indices", 0 ],
+			"obj-335::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[24]", "quantize_rate_wrapper", 0 ],
+			"obj-283::obj-49" : [ "reso_comb_ctrl[18]", "reso_comb_ctrl", 0 ],
+			"obj-341::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[48]", "quantize_rate_wrapper", 0 ],
+			"obj-341::obj-172::obj-29::obj-9" : [ "Manual Rate[50]", "Manual Rate", 0 ],
+			"obj-341::obj-172::obj-30" : [ "randomize_percentage[53]", "randomize_percentage", 0 ],
+			"obj-341::obj-112" : [ "reso_q_ctrl[8]", "reso_q_ctrl", 0 ],
+			"obj-340::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[55]", "manual_rate_wrapper", 0 ],
+			"obj-339::obj-172::obj-30" : [ "randomize_percentage[65]", "randomize_percentage", 0 ],
+			"obj-339::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[62]", "quantize_rate_wrapper", 0 ],
+			"obj-338::obj-172::obj-29::obj-9" : [ "Manual Rate[68]", "Manual Rate", 0 ],
+			"obj-346::obj-173::obj-67" : [ "min_max_offset_ui[77]", "min_max_offset_ui", 0 ],
+			"obj-346::obj-174::obj-32" : [ "off[75]", "off", 0 ],
+			"obj-345::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[79]", "manual_rate_wrapper", 0 ],
+			"obj-252::obj-55" : [ "live.text[92]", "live.text[1]", 0 ],
+			"obj-257::obj-30" : [ "randomize_percentage[106]", "randomize_percentage", 0 ],
+			"obj-257::obj-67" : [ "min_max_offset_ui[105]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-373::obj-47" : [ "modulation_indices", "modulation_indices", 0 ],
+			"obj-271::obj-174::obj-29::obj-9" : [ "Manual Rate[20]", "Manual Rate", 0 ],
+			"obj-335::obj-373::obj-32" : [ "off[24]", "off", 0 ],
+			"obj-335::obj-179::obj-29::obj-97" : [ "Quantized_Rate[28]", "Quantized Rate", 0 ],
+			"obj-333::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[32]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-46::obj-29::obj-97" : [ "Quantized_Rate[35]", "Quantized Rate", 0 ],
+			"obj-341::obj-373::obj-67" : [ "min_max_offset_ui[51]", "min_max_offset_ui", 0 ],
+			"obj-340::obj-373::obj-29::obj-97" : [ "Quantized_Rate[54]", "Quantized Rate", 0 ],
+			"obj-338::obj-373::obj-30" : [ "randomize_percentage[70]", "randomize_percentage", 0 ],
+			"obj-344::obj-173::obj-32" : [ "off[86]", "off", 0 ],
+			"obj-344::obj-179::obj-29::obj-9" : [ "Manual Rate[89]", "Manual Rate", 0 ],
+			"obj-344::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[89]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-173::obj-29::obj-97" : [ "Quantized_Rate[92]", "Quantized Rate", 0 ],
+			"obj-343::obj-173::obj-67" : [ "min_max_offset_ui[95]", "min_max_offset_ui", 0 ],
+			"obj-343::obj-116" : [ "reso_freq_coefficient_ctrl[15]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-252::obj-29::obj-22" : [ "quantize_rate_wrapper[96]", "quantize_rate_wrapper", 0 ],
+			"obj-334::obj-55" : [ "live.text[99]", "live.text[1]", 0 ],
+			"obj-311" : [ "jam_walk_max[2]", "jam_walk_max", 0 ],
+			"obj-240::obj-179::obj-30" : [ "randomize_percentage[14]", "randomize_percentage", 0 ],
+			"obj-282::obj-373::obj-29::obj-97" : [ "Quantized_Rate[12]", "Quantized Rate", 0 ],
+			"obj-282::obj-173::obj-47" : [ "modulation_indices[14]", "modulation_indices", 0 ],
+			"obj-271::obj-173::obj-30" : [ "randomize_percentage[24]", "randomize_percentage", 0 ],
+			"obj-333::obj-179::obj-30" : [ "randomize_percentage[38]", "randomize_percentage", 0 ],
+			"obj-333::obj-46::obj-32" : [ "off[35]", "off", 0 ],
+			"obj-292::obj-176" : [ "reso_harsh_ctrl[6]", "reso_harsh_ctrl", 0 ],
+			"obj-341::obj-172::obj-32" : [ "off[49]", "off", 0 ],
+			"obj-340::obj-46::obj-29::obj-9" : [ "Manual Rate[60]", "Manual Rate", 0 ],
+			"obj-339::obj-179::obj-32" : [ "off[64]", "off", 0 ],
+			"obj-346::obj-173::obj-32" : [ "off[74]", "off", 0 ],
+			"obj-345::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[83]", "quantize_rate_wrapper", 0 ],
+			"obj-344::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[86]", "quantize_rate_wrapper", 0 ],
+			"obj-343::obj-172::obj-32" : [ "off[91]", "off", 0 ],
+			"obj-257::obj-47" : [ "modulation_indices[102]", "modulation_indices", 0 ],
+			"obj-185::obj-29::obj-23" : [ "manual_rate_wrapper[105]", "manual_rate_wrapper", 0 ],
+			"obj-68::obj-12" : [ "ratecontrol[161]", "ratecontrol", 0 ],
+			"obj-132" : [ "LineTimes[1]", "LineTimes", 0 ],
+			"obj-240::obj-172::obj-29::obj-9" : [ "Manual Rate[7]", "Manual Rate", 0 ],
+			"obj-240::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[7]", "quantize_rate_wrapper", 0 ],
+			"obj-240::obj-173::obj-30" : [ "randomize_percentage[12]", "randomize_percentage", 0 ],
+			"obj-282::obj-174::obj-30" : [ "randomize_percentage[19]", "randomize_percentage", 0 ],
+			"obj-271::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[20]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-373::obj-55" : [ "live.text[24]", "live.text[1]", 0 ],
+			"obj-292::obj-173::obj-67" : [ "min_max_offset_ui[41]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-174::obj-30" : [ "randomize_percentage[43]", "randomize_percentage", 0 ],
+			"obj-292::obj-179::obj-29::obj-22" : [ "quantize_rate_wrapper[40]", "quantize_rate_wrapper", 0 ],
+			"obj-340::obj-179::obj-30" : [ "randomize_percentage[62]", "randomize_percentage", 0 ],
+			"obj-339::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[60]", "quantize_rate_wrapper", 0 ],
+			"obj-339::obj-173::obj-32" : [ "off[62]", "off", 0 ],
+			"obj-339::obj-174::obj-67" : [ "min_max_offset_ui[66]", "min_max_offset_ui", 0 ],
+			"obj-338::obj-173::obj-29::obj-97" : [ "Quantized_Rate[68]", "Quantized Rate", 0 ],
+			"obj-345::obj-373::obj-67" : [ "min_max_offset_ui[81]", "min_max_offset_ui", 0 ],
+			"obj-345::obj-179::obj-32" : [ "off[82]", "off", 0 ],
+			"obj-343::obj-179::obj-29::obj-9" : [ "Manual Rate[95]", "Manual Rate", 0 ],
+			"obj-190::obj-29::obj-9" : [ "Manual Rate[98]", "Manual Rate", 0 ],
+			"obj-373::obj-29::obj-9" : [ "Manual Rate[104]", "Manual Rate", 0 ],
+			"obj-334::obj-30" : [ "randomize_percentage[108]", "randomize_percentage", 0 ],
+			"obj-233::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[1]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-176" : [ "reso_harsh_ctrl[4]", "reso_harsh_ctrl", 0 ],
+			"obj-333::obj-179::obj-32" : [ "off[34]", "off", 0 ],
+			"obj-292::obj-373::obj-47" : [ "modulation_indices[36]", "modulation_indices", 0 ],
+			"obj-292::obj-172::obj-30" : [ "randomize_percentage[41]", "randomize_percentage", 0 ],
+			"obj-292::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[41]", "quantize_rate_wrapper", 0 ],
+			"obj-338::obj-46::obj-30" : [ "randomize_percentage[75]", "randomize_percentage", 0 ],
+			"obj-346::obj-174::obj-29::obj-9" : [ "Manual Rate[76]", "Manual Rate", 0 ],
+			"obj-346::obj-179::obj-47" : [ "modulation_indices[76]", "modulation_indices", 0 ],
+			"obj-345::obj-179::obj-30" : [ "randomize_percentage[86]", "randomize_percentage", 0 ],
+			"obj-217::obj-3" : [ "range_selector_2[3]", "range_selector_2", 0 ],
+			"obj-257::obj-29::obj-22" : [ "quantize_rate_wrapper[102]", "quantize_rate_wrapper", 0 ],
+			"obj-68::obj-9" : [ "live.text[286]", "live.text", 0 ],
+			"obj-70" : [ "markov_gen_density[2]", "markov_gen_density", 0 ],
+			"obj-233::obj-172::obj-67" : [ "min_max_offset_ui[1]", "min_max_offset_ui", 0 ],
+			"obj-233::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[2]", "manual_rate_wrapper", 0 ],
+			"obj-233::obj-173::obj-55" : [ "live.text[2]", "live.text[1]", 0 ],
+			"obj-240::obj-373::obj-30" : [ "randomize_percentage[10]", "randomize_percentage", 0 ],
+			"obj-240::obj-46::obj-29::obj-23" : [ "manual_rate_wrapper[11]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-373::obj-47" : [ "modulation_indices[24]", "modulation_indices", 0 ],
+			"obj-335::obj-173::obj-30" : [ "randomize_percentage[30]", "randomize_percentage", 0 ],
+			"obj-333::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[30]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-116" : [ "reso_freq_coefficient_ctrl[5]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-283::obj-373::obj-32" : [ "off[42]", "off", 0 ],
+			"obj-283::obj-179::obj-55" : [ "live.text[46]", "live.text[1]", 0 ],
+			"obj-341::obj-179::obj-29::obj-97" : [ "Quantized_Rate[52]", "Quantized Rate", 0 ],
+			"obj-338::obj-112" : [ "reso_q_ctrl[11]", "reso_q_ctrl", 0 ],
+			"obj-346::obj-373::obj-30" : [ "randomize_percentage[76]", "randomize_percentage", 0 ],
+			"obj-346::obj-174::obj-29::obj-23" : [ "manual_rate_wrapper[75]", "manual_rate_wrapper", 0 ],
+			"obj-346::obj-179::obj-30" : [ "randomize_percentage[80]", "randomize_percentage", 0 ],
+			"obj-343::obj-172::obj-55" : [ "live.text[87]", "live.text[1]", 0 ],
+			"obj-252::obj-32" : [ "off[96]", "off", 0 ],
+			"obj-373::obj-29::obj-97" : [ "Quantized_Rate[103]", "Quantized Rate", 0 ],
+			"obj-102::obj-9" : [ "live.text[102]", "live.text", 0 ],
+			"obj-189" : [ "randomize_z_index[2]", "randomize_z_index", 0 ],
+			"obj-182" : [ "preset_pattern_gen[2]", "preset_pattern_gen", 0 ],
+			"obj-233::obj-179::obj-67" : [ "min_max_offset_ui[7]", "min_max_offset_ui", 0 ],
+			"obj-240::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[9]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-46::obj-47" : [ "modulation_indices[17]", "modulation_indices", 0 ],
+			"obj-271::obj-172::obj-29::obj-22" : [ "quantize_rate_wrapper[19]", "quantize_rate_wrapper", 0 ],
+			"obj-271::obj-179::obj-32" : [ "off[22]", "off", 0 ],
+			"obj-335::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[25]", "manual_rate_wrapper", 0 ],
+			"obj-335::obj-46::obj-29::obj-9" : [ "Manual Rate[37]", "Manual Rate", 0 ],
+			"obj-333::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[31]", "manual_rate_wrapper", 0 ],
+			"obj-333::obj-46::obj-29::obj-22" : [ "quantize_rate_wrapper[35]", "quantize_rate_wrapper", 0 ],
+			"obj-333::obj-46::obj-67" : [ "min_max_offset_ui[38]", "min_max_offset_ui", 0 ],
+			"obj-341::obj-172::obj-29::obj-23" : [ "manual_rate_wrapper[49]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-173::obj-47" : [ "modulation_indices[50]", "modulation_indices", 0 ],
+			"obj-341::obj-49" : [ "reso_comb_ctrl[19]", "reso_comb_ctrl", 0 ],
+			"obj-338::obj-373::obj-29::obj-22" : [ "quantize_rate_wrapper[66]", "quantize_rate_wrapper", 0 ],
+			"obj-346::obj-179::obj-32" : [ "off[76]", "off", 0 ],
+			"obj-346::obj-116" : [ "reso_freq_coefficient_ctrl[12]", "reso_freq_coefficient_ctrl", 0 ],
+			"obj-345::obj-172::obj-29::obj-97" : [ "Quantized_Rate[79]", "Quantized Rate", 0 ],
+			"obj-343::obj-173::obj-29::obj-23" : [ "manual_rate_wrapper[92]", "manual_rate_wrapper", 0 ],
+			"obj-343::obj-179::obj-32" : [ "off[94]", "off", 0 ],
+			"obj-190::obj-30" : [ "randomize_percentage[101]", "randomize_percentage", 0 ],
+			"obj-190::obj-47" : [ "modulation_indices[97]", "modulation_indices", 0 ],
+			"obj-302" : [ "Delta Trigger Note Volume[1]", "Delta Trigger Note Volume", 0 ],
+			"obj-240::obj-373::obj-29::obj-9" : [ "Manual Rate[6]", "Manual Rate", 0 ],
+			"obj-240::obj-46::obj-29::obj-9" : [ "Manual Rate[29]", "Manual Rate", 0 ],
+			"obj-282::obj-174::obj-29::obj-22" : [ "quantize_rate_wrapper[15]", "quantize_rate_wrapper", 0 ],
+			"obj-282::obj-179::obj-30" : [ "randomize_percentage[20]", "randomize_percentage", 0 ],
+			"obj-271::obj-46::obj-29::obj-9" : [ "Manual Rate[31]", "Manual Rate", 0 ],
+			"obj-271::obj-119" : [ "reso_am_ctrl[3]", "reso_am_ctrl", 0 ],
+			"obj-333::obj-172::obj-55" : [ "live.text[31]", "live.text[1]", 0 ],
+			"obj-333::obj-179::obj-67" : [ "min_max_offset_ui[37]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[36]", "manual_rate_wrapper", 0 ],
+			"obj-341::obj-373::obj-29::obj-97" : [ "Quantized_Rate[48]", "Quantized Rate", 0 ],
+			"obj-340::obj-373::obj-29::obj-23" : [ "manual_rate_wrapper[54]", "manual_rate_wrapper", 0 ],
+			"obj-340::obj-122" : [ "reso_asr_ctrl[9]", "reso_asr_ctrl", 0 ],
+			"obj-338::obj-46::obj-47" : [ "modulation_indices[71]", "modulation_indices", 0 ],
+			"obj-345::obj-173::obj-29::obj-9" : [ "Manual Rate[81]", "Manual Rate", 0 ],
+			"obj-345::obj-46::obj-47" : [ "modulation_indices[83]", "modulation_indices", 0 ],
+			"obj-344::obj-373::obj-29::obj-97" : [ "Quantized_Rate[84]", "Quantized Rate", 0 ],
+			"obj-344::obj-173::obj-47" : [ "modulation_indices[86]", "modulation_indices", 0 ],
+			"obj-233::obj-46::obj-32" : [ "off[5]", "off", 0 ],
+			"obj-240::obj-373::obj-67" : [ "min_max_offset_ui[9]", "min_max_offset_ui", 0 ],
+			"obj-240::obj-46::obj-67" : [ "min_max_offset_ui[14]", "min_max_offset_ui", 0 ],
+			"obj-282::obj-112" : [ "reso_q_ctrl[2]", "reso_q_ctrl", 0 ],
+			"obj-271::obj-173::obj-55" : [ "live.text[20]", "live.text[1]", 0 ],
+			"obj-335::obj-373::obj-67" : [ "min_max_offset_ui[27]", "min_max_offset_ui", 0 ],
+			"obj-292::obj-172::obj-32" : [ "off[37]", "off", 0 ],
+			"obj-283::obj-173::obj-47" : [ "modulation_indices[44]", "modulation_indices", 0 ],
+			"obj-283::obj-174::obj-29::obj-9" : [ "Manual Rate[46]", "Manual Rate", 0 ],
+			"obj-341::obj-46::obj-29::obj-9" : [ "Manual Rate[54]", "Manual Rate", 0 ],
+			"obj-340::obj-373::obj-30" : [ "randomize_percentage[58]", "randomize_percentage", 0 ],
+			"obj-338::obj-174::obj-29::obj-9" : [ "Manual Rate[70]", "Manual Rate", 0 ],
+			"obj-338::obj-46::obj-29::obj-97" : [ "Quantized_Rate[71]", "Quantized Rate", 0 ],
+			"obj-346::obj-173::obj-47" : [ "modulation_indices[74]", "modulation_indices", 0 ],
+			"obj-345::obj-173::obj-29::obj-22" : [ "quantize_rate_wrapper[80]", "quantize_rate_wrapper", 0 ],
+			"obj-345::obj-174::obj-47" : [ "modulation_indices[81]", "modulation_indices", 0 ],
+			"obj-345::obj-174::obj-67" : [ "min_max_offset_ui[84]", "min_max_offset_ui", 0 ],
+			"obj-344::obj-179::obj-47" : [ "modulation_indices[88]", "modulation_indices", 0 ],
+			"obj-344::obj-49" : [ "reso_comb_ctrl[9]", "reso_comb_ctrl", 0 ],
+			"obj-257::obj-29::obj-9" : [ "Manual Rate[103]", "Manual Rate", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-282::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[12]"
-				}
-,
-				"obj-341::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[48]"
-				}
-,
-				"obj-340::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[56]"
-				}
-,
-				"obj-339::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[62]"
-				}
-,
-				"obj-338::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[70]"
-				}
-,
-				"obj-344::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[111]"
-				}
-,
-				"obj-233::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-335::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[29]"
-				}
-,
-				"obj-333::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[39]"
-				}
-,
-				"obj-292::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[39]"
-				}
-,
-				"obj-345::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[84]"
-				}
-,
-				"obj-344::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[93]"
-				}
-,
-				"obj-343::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[95]"
-				}
-,
-				"obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[98]"
-				}
-,
-				"obj-282::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[13]"
-				}
-,
-				"obj-282::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[16]"
-				}
-,
-				"obj-333::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[34]"
-				}
-,
-				"obj-292::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[37]"
-				}
-,
-				"obj-292::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[41]"
-				}
-,
-				"obj-340::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[59]"
-				}
-,
-				"obj-340::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[58]"
-				}
-,
-				"obj-346::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[72]"
-				}
-,
-				"obj-346::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[77]"
-				}
-,
-				"obj-233::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[8]"
-				}
-,
-				"obj-271::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[20]"
-				}
-,
-				"obj-335::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[25]"
-				}
-,
-				"obj-333::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[21]"
-				}
-,
-				"obj-292::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[36]"
-				}
-,
-				"obj-283::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[47]"
-				}
-,
-				"obj-339::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[65]"
-				}
-,
-				"obj-338::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[74]"
-				}
-,
-				"obj-233::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[7]"
-				}
-,
-				"obj-282::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[15]"
-				}
-,
-				"obj-333::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[33]"
-				}
-,
-				"obj-339::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[61]"
-				}
-,
-				"obj-344::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[88]"
-				}
-,
-				"obj-343::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[95]"
-				}
-,
-				"obj-289::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[102]"
-				}
-,
-				"obj-289::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[105]"
-				}
-,
-				"obj-233::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[4]"
-				}
-,
-				"obj-233::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-240::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[8]"
-				}
-,
-				"obj-282::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[14]"
-				}
-,
-				"obj-271::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[20]"
-				}
-,
-				"obj-335::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[27]"
-				}
-,
-				"obj-333::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[33]"
-				}
-,
-				"obj-341::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[52]"
-				}
-,
-				"obj-338::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[69]"
-				}
-,
-				"obj-345::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[81]"
-				}
-,
-				"obj-345::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[85]"
-				}
-,
-				"obj-148::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[99]"
-				}
-,
-				"obj-282::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[16]"
-				}
-,
-				"obj-335::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[35]"
-				}
-,
-				"obj-333::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[34]"
-				}
-,
-				"obj-341::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[53]"
-				}
-,
-				"obj-340::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[56]"
-				}
-,
-				"obj-340::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[60]"
-				}
-,
-				"obj-346::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[74]"
-				}
-,
-				"obj-344::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[89]"
-				}
-,
-				"obj-344::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[110]"
-				}
-,
-				"obj-233::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[2]"
-				}
-,
-				"obj-240::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[10]"
-				}
-,
-				"obj-282::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[18]"
-				}
-,
-				"obj-271::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[25]"
-				}
-,
-				"obj-333::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[30]"
-				}
-,
-				"obj-333::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[38]"
-				}
-,
-				"obj-333::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[30]"
-				}
-,
-				"obj-292::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[24]"
-				}
-,
-				"obj-341::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[53]"
-				}
-,
-				"obj-340::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[55]"
-				}
-,
-				"obj-339::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[61]"
-				}
-,
-				"obj-346::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[81]"
-				}
-,
-				"obj-345::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[78]"
-				}
-,
-				"obj-345::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[82]"
-				}
-,
-				"obj-343::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[91]"
-				}
-,
-				"obj-185::obj-55" : 				{
-					"parameter_longname" : "live.text[100]"
-				}
-,
-				"obj-282::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[14]"
-				}
-,
-				"obj-271::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-292::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[37]"
-				}
-,
-				"obj-292::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[38]"
-				}
-,
-				"obj-283::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[45]"
-				}
-,
-				"obj-341::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[52]"
-				}
-,
-				"obj-338::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[68]"
-				}
-,
-				"obj-240::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-333::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[35]"
-				}
-,
-				"obj-283::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[47]"
-				}
-,
-				"obj-340::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[62]"
-				}
-,
-				"obj-340::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[60]"
-				}
-,
-				"obj-339::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[64]"
-				}
-,
-				"obj-338::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[75]"
-				}
-,
-				"obj-344::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[86]"
-				}
-,
-				"obj-239::obj-325::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[100]"
-				}
-,
-				"obj-282::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[13]"
-				}
-,
-				"obj-282::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-339::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[60]"
-				}
-,
-				"obj-339::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[67]"
-				}
-,
-				"obj-102::obj-9" : 				{
-					"parameter_longname" : "live.text[102]"
-				}
-,
-				"obj-240::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[15]"
-				}
-,
-				"obj-282::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[14]"
-				}
-,
-				"obj-282::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[15]"
-				}
-,
-				"obj-282::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[17]"
-				}
-,
-				"obj-271::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[30]"
-				}
-,
-				"obj-333::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[38]"
-				}
-,
-				"obj-292::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[41]"
-				}
-,
-				"obj-292::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[38]"
-				}
-,
-				"obj-292::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[43]"
-				}
-,
-				"obj-289::obj-32" : 				{
-					"parameter_longname" : "off[101]"
-				}
-,
-				"obj-233::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[3]"
-				}
-,
-				"obj-233::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-271::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[17]"
-				}
-,
-				"obj-335::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[26]"
-				}
-,
-				"obj-333::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[30]"
-				}
-,
-				"obj-283::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[27]"
-				}
-,
-				"obj-283::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[45]"
-				}
-,
-				"obj-283::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[48]"
-				}
-,
-				"obj-339::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[64]"
-				}
-,
-				"obj-346::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[74]"
-				}
-,
-				"obj-344::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[90]"
-				}
-,
-				"obj-343::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[93]"
-				}
-,
-				"obj-271::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-283::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[43]"
-				}
-,
-				"obj-340::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[55]"
-				}
-,
-				"obj-346::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[73]"
-				}
-,
-				"obj-346::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[73]"
-				}
-,
-				"obj-345::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[82]"
-				}
-,
-				"obj-343::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[92]"
-				}
-,
-				"obj-240::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[6]"
-				}
-,
-				"obj-240::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[10]"
-				}
-,
-				"obj-240::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[11]"
-				}
-,
-				"obj-271::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[24]"
-				}
-,
-				"obj-271::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[26]"
-				}
-,
-				"obj-335::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[33]"
-				}
-,
-				"obj-333::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[32]"
-				}
-,
-				"obj-292::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[26]"
-				}
-,
-				"obj-345::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[80]"
-				}
-,
-				"obj-345::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[80]"
-				}
-,
-				"obj-344::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[88]"
-				}
-,
-				"obj-344::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[90]"
-				}
-,
-				"obj-257::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[102]"
-				}
-,
-				"obj-233::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[4]"
-				}
-,
-				"obj-240::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-271::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[22]"
-				}
-,
-				"obj-335::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[32]"
-				}
-,
-				"obj-292::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[41]"
-				}
-,
-				"obj-340::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[58]"
-				}
-,
-				"obj-346::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[75]"
-				}
-,
-				"obj-344::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[113]"
-				}
-,
-				"obj-289::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[101]"
-				}
-,
-				"obj-233::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[4]"
-				}
-,
-				"obj-240::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
-				"obj-240::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
-				"obj-271::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[18]"
-				}
-,
-				"obj-292::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[41]"
-				}
-,
-				"obj-341::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[51]"
-				}
-,
-				"obj-339::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[63]"
-				}
-,
-				"obj-338::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[68]"
-				}
-,
-				"obj-344::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[84]"
-				}
-,
-				"obj-190::obj-32" : 				{
-					"parameter_longname" : "off[97]"
-				}
-,
-				"obj-240::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[10]"
-				}
-,
-				"obj-282::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-341::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[54]"
-				}
-,
-				"obj-338::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[72]"
-				}
-,
-				"obj-346::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[80]"
-				}
-,
-				"obj-345::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[78]"
-				}
-,
-				"obj-344::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[89]"
-				}
-,
-				"obj-233::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[6]"
-				}
-,
-				"obj-283::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[46]"
-				}
-,
-				"obj-283::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[48]"
-				}
-,
-				"obj-341::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[51]"
-				}
-,
-				"obj-338::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[67]"
-				}
-,
-				"obj-346::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[76]"
-				}
-,
-				"obj-343::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[90]"
-				}
-,
-				"obj-271::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[22]"
-				}
-,
-				"obj-335::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[25]"
-				}
-,
-				"obj-335::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[29]"
-				}
-,
-				"obj-346::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[76]"
-				}
-,
-				"obj-345::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[86]"
-				}
-,
-				"obj-345::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[83]"
-				}
-,
-				"obj-343::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[89]"
-				}
-,
-				"obj-185::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[109]"
-				}
-,
-				"obj-233::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[9]"
-				}
-,
-				"obj-282::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[15]"
-				}
-,
-				"obj-333::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[33]"
-				}
-,
-				"obj-333::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[22]"
-				}
-,
-				"obj-340::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[58]"
-				}
-,
-				"obj-338::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[71]"
-				}
-,
-				"obj-344::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[85]"
-				}
-,
-				"obj-148::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[102]"
-				}
-,
-				"obj-240::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[10]"
-				}
-,
-				"obj-335::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[24]"
-				}
-,
-				"obj-292::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[40]"
-				}
-,
-				"obj-283::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[46]"
-				}
-,
-				"obj-338::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[67]"
-				}
-,
-				"obj-343::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[87]"
-				}
-,
-				"obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[99]"
-				}
-,
-				"obj-240::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[9]"
-				}
-,
-				"obj-282::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[11]"
-				}
-,
-				"obj-341::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[51]"
-				}
-,
-				"obj-339::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[65]"
-				}
-,
-				"obj-338::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[66]"
-				}
-,
-				"obj-346::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[78]"
-				}
-,
-				"obj-345::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[82]"
-				}
-,
-				"obj-343::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[92]"
-				}
-,
-				"obj-343::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[96]"
-				}
-,
-				"obj-343::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[99]"
-				}
-,
-				"obj-148::obj-32" : 				{
-					"parameter_longname" : "off[98]"
-				}
-,
-				"obj-282::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[12]"
-				}
-,
-				"obj-292::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[39]"
-				}
-,
-				"obj-283::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[42]"
-				}
-,
-				"obj-283::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[43]"
-				}
-,
-				"obj-341::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[50]"
-				}
-,
-				"obj-340::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[55]"
-				}
-,
-				"obj-340::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[57]"
-				}
-,
-				"obj-338::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[68]"
-				}
-,
-				"obj-338::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[68]"
-				}
-,
-				"obj-346::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[75]"
-				}
-,
-				"obj-345::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[78]"
-				}
-,
-				"obj-345::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[79]"
-				}
-,
-				"obj-345::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[79]"
-				}
-,
-				"obj-343::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[97]"
-				}
-,
-				"obj-343::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[96]"
-				}
-,
-				"obj-190::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[98]"
-				}
-,
-				"obj-292::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[25]"
-				}
-,
-				"obj-283::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[50]"
-				}
-,
-				"obj-341::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[52]"
-				}
-,
-				"obj-341::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[52]"
-				}
-,
-				"obj-340::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[54]"
-				}
-,
-				"obj-338::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[72]"
-				}
-,
-				"obj-344::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[88]"
-				}
-,
-				"obj-257::obj-32" : 				{
-					"parameter_longname" : "off[102]"
-				}
-,
-				"obj-334::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[104]"
-				}
-,
-				"obj-240::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[9]"
-				}
-,
-				"obj-282::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[17]"
-				}
-,
-				"obj-271::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[18]"
-				}
-,
-				"obj-271::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[20]"
-				}
-,
-				"obj-335::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[29]"
-				}
-,
-				"obj-283::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[51]"
-				}
-,
-				"obj-341::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[54]"
-				}
-,
-				"obj-341::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[53]"
-				}
-,
-				"obj-341::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[57]"
-				}
-,
-				"obj-340::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[57]"
-				}
-,
-				"obj-338::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[66]"
-				}
-,
-				"obj-346::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[75]"
-				}
-,
-				"obj-64::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[110]"
-				}
-,
-				"obj-271::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[22]"
-				}
-,
-				"obj-339::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[61]"
-				}
-,
-				"obj-345::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[79]"
-				}
-,
-				"obj-343::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[86]"
-				}
-,
-				"obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[94]"
-				}
-,
-				"obj-233::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-282::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-335::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[28]"
-				}
-,
-				"obj-341::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[49]"
-				}
-,
-				"obj-340::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[61]"
-				}
-,
-				"obj-339::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[60]"
-				}
-,
-				"obj-346::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[77]"
-				}
-,
-				"obj-344::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[112]"
-				}
-,
-				"obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[104]"
-				}
-,
-				"obj-64::obj-55" : 				{
-					"parameter_longname" : "live.text[103]"
-				}
-,
-				"obj-271::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[22]"
-				}
-,
-				"obj-335::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[33]"
-				}
-,
-				"obj-341::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[52]"
-				}
-,
-				"obj-345::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[81]"
-				}
-,
-				"obj-345::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[83]"
-				}
-,
-				"obj-344::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[89]"
-				}
-,
-				"obj-343::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[91]"
-				}
-,
-				"obj-252::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[100]"
-				}
-,
-				"obj-373::obj-32" : 				{
-					"parameter_longname" : "off[103]"
-				}
-,
-				"obj-282::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[13]"
-				}
-,
-				"obj-282::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[16]"
-				}
-,
-				"obj-333::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[37]"
-				}
-,
-				"obj-283::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[42]"
-				}
-,
-				"obj-283::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[44]"
-				}
-,
-				"obj-346::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[76]"
-				}
-,
-				"obj-239::obj-325::obj-32" : 				{
-					"parameter_longname" : "off[100]"
-				}
-,
-				"obj-257::obj-55" : 				{
-					"parameter_longname" : "live.text[97]"
-				}
-,
-				"obj-240::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[29]"
-				}
-,
-				"obj-335::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[25]"
-				}
-,
-				"obj-333::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[40]"
-				}
-,
-				"obj-292::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[44]"
-				}
-,
-				"obj-283::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[44]"
-				}
-,
-				"obj-283::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[47]"
-				}
-,
-				"obj-341::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[50]"
-				}
-,
-				"obj-341::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[51]"
-				}
-,
-				"obj-340::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[55]"
-				}
-,
-				"obj-340::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[59]"
-				}
-,
-				"obj-344::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[92]"
-				}
-,
-				"obj-64::obj-32" : 				{
-					"parameter_longname" : "off[106]"
-				}
-,
-				"obj-271::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[19]"
-				}
-,
-				"obj-271::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[20]"
-				}
-,
-				"obj-335::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[37]"
-				}
-,
-				"obj-333::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[34]"
-				}
-,
-				"obj-333::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[35]"
-				}
-,
-				"obj-340::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[54]"
-				}
-,
-				"obj-338::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[70]"
-				}
-,
-				"obj-345::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[81]"
-				}
-,
-				"obj-344::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[87]"
-				}
-,
-				"obj-343::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[90]"
-				}
-,
-				"obj-240::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[8]"
-				}
-,
-				"obj-240::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[10]"
-				}
-,
-				"obj-271::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[23]"
-				}
-,
-				"obj-335::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[32]"
-				}
-,
-				"obj-339::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[64]"
-				}
-,
-				"obj-339::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[62]"
-				}
-,
-				"obj-338::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[70]"
-				}
-,
-				"obj-345::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[79]"
-				}
-,
-				"obj-344::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[85]"
-				}
-,
-				"obj-343::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[95]"
-				}
-,
-				"obj-239::obj-325::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[101]"
-				}
-,
-				"obj-233::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[1]"
-				}
-,
-				"obj-233::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[5]"
-				}
-,
-				"obj-282::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-282::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-282::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[21]"
-				}
-,
-				"obj-340::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[57]"
-				}
-,
-				"obj-346::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[74]"
-				}
-,
-				"obj-334::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[105]"
-				}
-,
-				"obj-126::obj-9" : 				{
-					"parameter_longname" : "live.text[115]"
-				}
-,
-				"obj-240::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[9]"
-				}
-,
-				"obj-271::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[19]"
-				}
-,
-				"obj-271::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[23]"
-				}
-,
-				"obj-333::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[31]"
-				}
-,
-				"obj-292::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[40]"
-				}
-,
-				"obj-341::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[49]"
-				}
-,
-				"obj-339::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[62]"
-				}
-,
-				"obj-339::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[63]"
-				}
-,
-				"obj-338::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[67]"
-				}
-,
-				"obj-338::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[69]"
-				}
-,
-				"obj-344::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[89]"
-				}
-,
-				"obj-185::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[106]"
-				}
-,
-				"obj-271::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[21]"
-				}
-,
-				"obj-333::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[31]"
-				}
-,
-				"obj-333::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[35]"
-				}
-,
-				"obj-339::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[65]"
-				}
-,
-				"obj-338::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[71]"
-				}
-,
-				"obj-335::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[30]"
-				}
-,
-				"obj-283::obj-174::obj-55" : 				{
-					"parameter_longname" : "live.text[45]"
-				}
-,
-				"obj-339::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[60]"
-				}
-,
-				"obj-338::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[70]"
-				}
-,
-				"obj-346::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[77]"
-				}
-,
-				"obj-345::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[81]"
-				}
-,
-				"obj-343::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[93]"
-				}
-,
-				"obj-190::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[101]"
-				}
-,
-				"obj-148::obj-55" : 				{
-					"parameter_longname" : "live.text[114]"
-				}
-,
-				"obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[103]"
-				}
-,
 				"obj-233::obj-174::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[3]"
 				}
 ,
-				"obj-233::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[5]"
-				}
-,
-				"obj-335::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[24]"
-				}
-,
-				"obj-335::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[28]"
-				}
-,
-				"obj-333::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[41]"
-				}
-,
-				"obj-340::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[58]"
-				}
-,
-				"obj-340::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[59]"
-				}
-,
-				"obj-339::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[64]"
-				}
-,
-				"obj-346::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[75]"
-				}
-,
-				"obj-185::obj-32" : 				{
-					"parameter_longname" : "off[105]"
-				}
-,
-				"obj-233::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[1]"
-				}
-,
-				"obj-335::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[26]"
-				}
-,
-				"obj-292::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[36]"
-				}
-,
-				"obj-345::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[84]"
-				}
-,
-				"obj-344::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[86]"
-				}
-,
-				"obj-240::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[6]"
-				}
-,
-				"obj-335::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[28]"
-				}
-,
-				"obj-292::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[37]"
-				}
-,
-				"obj-283::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[45]"
-				}
-,
-				"obj-341::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[50]"
-				}
-,
-				"obj-339::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[63]"
-				}
-,
-				"obj-339::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[66]"
-				}
-,
-				"obj-338::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[66]"
-				}
-,
-				"obj-338::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[69]"
-				}
-,
-				"obj-344::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[86]"
-				}
-,
-				"obj-343::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[95]"
-				}
-,
-				"obj-283::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[46]"
-				}
-,
-				"obj-283::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[46]"
-				}
-,
-				"obj-341::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[50]"
-				}
-,
-				"obj-346::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[77]"
-				}
-,
-				"obj-344::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[88]"
-				}
-,
-				"obj-343::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[91]"
-				}
-,
-				"obj-343::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[94]"
-				}
-,
-				"obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[103]"
+				"obj-240::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[7]"
 				}
 ,
 				"obj-240::obj-46::obj-29::obj-97" : 				{
 					"parameter_longname" : "Quantized_Rate[11]"
 				}
 ,
-				"obj-333::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[34]"
+				"obj-282::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[17]"
+				}
+,
+				"obj-271::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[26]"
+				}
+,
+				"obj-333::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[37]"
+				}
+,
+				"obj-341::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-345::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[83]"
+				}
+,
+				"obj-344::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[88]"
+				}
+,
+				"obj-233::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[1]"
+				}
+,
+				"obj-335::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[25]"
+				}
+,
+				"obj-292::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[25]"
+				}
+,
+				"obj-340::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[55]"
+				}
+,
+				"obj-338::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[71]"
+				}
+,
+				"obj-338::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[71]"
+				}
+,
+				"obj-344::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[84]"
+				}
+,
+				"obj-343::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[98]"
+				}
+,
+				"obj-239::obj-325::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[100]"
+				}
+,
+				"obj-271::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-271::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[19]"
+				}
+,
+				"obj-333::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[38]"
+				}
+,
+				"obj-333::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[34]"
+				}
+,
+				"obj-283::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[46]"
+				}
+,
+				"obj-283::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[47]"
+				}
+,
+				"obj-338::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[69]"
+				}
+,
+				"obj-346::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[75]"
+				}
+,
+				"obj-346::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[75]"
+				}
+,
+				"obj-343::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[91]"
+				}
+,
+				"obj-289::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[105]"
+				}
+,
+				"obj-233::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[5]"
+				}
+,
+				"obj-335::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[32]"
+				}
+,
+				"obj-341::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[48]"
+				}
+,
+				"obj-341::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[51]"
+				}
+,
+				"obj-340::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[63]"
+				}
+,
+				"obj-339::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[62]"
+				}
+,
+				"obj-344::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[91]"
+				}
+,
+				"obj-343::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[93]"
+				}
+,
+				"obj-239::obj-325::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[101]"
+				}
+,
+				"obj-333::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[21]"
+				}
+,
+				"obj-333::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[33]"
+				}
+,
+				"obj-339::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[68]"
+				}
+,
+				"obj-345::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[78]"
+				}
+,
+				"obj-344::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[88]"
+				}
+,
+				"obj-190::obj-55" : 				{
+					"parameter_longname" : "live.text[93]"
+				}
+,
+				"obj-233::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[3]"
+				}
+,
+				"obj-240::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[6]"
+				}
+,
+				"obj-282::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[13]"
+				}
+,
+				"obj-292::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[41]"
+				}
+,
+				"obj-340::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-339::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[61]"
+				}
+,
+				"obj-339::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[65]"
+				}
+,
+				"obj-346::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[76]"
+				}
+,
+				"obj-343::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[95]"
+				}
+,
+				"obj-185::obj-55" : 				{
+					"parameter_longname" : "live.text[100]"
+				}
+,
+				"obj-240::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[8]"
+				}
+,
+				"obj-240::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[8]"
+				}
+,
+				"obj-271::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[18]"
+				}
+,
+				"obj-271::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[21]"
+				}
+,
+				"obj-333::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[41]"
+				}
+,
+				"obj-292::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[39]"
+				}
+,
+				"obj-345::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[80]"
+				}
+,
+				"obj-344::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[85]"
+				}
+,
+				"obj-148::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[98]"
+				}
+,
+				"obj-148::obj-32" : 				{
+					"parameter_longname" : "off[98]"
+				}
+,
+				"obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[100]"
+				}
+,
+				"obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[94]"
+				}
+,
+				"obj-64::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[110]"
+				}
+,
+				"obj-283::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[27]"
+				}
+,
+				"obj-338::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[73]"
+				}
+,
+				"obj-190::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[97]"
+				}
+,
+				"obj-373::obj-32" : 				{
+					"parameter_longname" : "off[103]"
+				}
+,
+				"obj-64::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[107]"
+				}
+,
+				"obj-233::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[4]"
+				}
+,
+				"obj-240::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[6]"
+				}
+,
+				"obj-271::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-271::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[20]"
+				}
+,
+				"obj-335::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[28]"
+				}
+,
+				"obj-333::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[35]"
+				}
+,
+				"obj-283::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[47]"
+				}
+,
+				"obj-338::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[71]"
+				}
+,
+				"obj-343::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[94]"
+				}
+,
+				"obj-343::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[97]"
+				}
+,
+				"obj-289::obj-32" : 				{
+					"parameter_longname" : "off[101]"
+				}
+,
+				"obj-233::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[1]"
+				}
+,
+				"obj-240::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[8]"
+				}
+,
+				"obj-283::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[43]"
 				}
 ,
 				"obj-341::obj-373::obj-29::obj-9" : 				{
@@ -42367,172 +42881,1092 @@
 					"parameter_longname" : "Manual Rate[67]"
 				}
 ,
-				"obj-338::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[71]"
+				"obj-343::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[88]"
 				}
 ,
-				"obj-346::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[72]"
-				}
-,
-				"obj-346::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[73]"
-				}
-,
-				"obj-345::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[83]"
-				}
-,
-				"obj-344::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[85]"
-				}
-,
-				"obj-343::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[91]"
-				}
-,
-				"obj-252::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[97]"
+				"obj-64::obj-55" : 				{
+					"parameter_longname" : "live.text[103]"
 				}
 ,
 				"obj-233::obj-174::obj-55" : 				{
 					"parameter_longname" : "live.text[3]"
 				}
 ,
-				"obj-240::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[6]"
+				"obj-282::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[13]"
+				}
+,
+				"obj-335::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[34]"
+				}
+,
+				"obj-333::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[39]"
+				}
+,
+				"obj-333::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[34]"
+				}
+,
+				"obj-292::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[24]"
+				}
+,
+				"obj-283::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[48]"
+				}
+,
+				"obj-341::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[53]"
+				}
+,
+				"obj-338::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[66]"
+				}
+,
+				"obj-345::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[84]"
+				}
+,
+				"obj-252::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[96]"
+				}
+,
+				"obj-240::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-282::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[14]"
 				}
 ,
 				"obj-282::obj-173::obj-55" : 				{
 					"parameter_longname" : "live.text[14]"
 				}
 ,
-				"obj-292::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[23]"
+				"obj-271::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[23]"
 				}
 ,
-				"obj-340::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[58]"
+				"obj-335::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[35]"
 				}
 ,
-				"obj-338::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[71]"
+				"obj-292::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[44]"
 				}
 ,
-				"obj-345::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[87]"
+				"obj-283::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[44]"
 				}
 ,
-				"obj-344::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[84]"
+				"obj-340::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[55]"
 				}
 ,
-				"obj-343::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[94]"
-				}
-,
-				"obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[100]"
-				}
-,
-				"obj-282::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[16]"
-				}
-,
-				"obj-282::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[17]"
-				}
-,
-				"obj-335::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[28]"
-				}
-,
-				"obj-333::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[32]"
-				}
-,
-				"obj-333::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[35]"
-				}
-,
-				"obj-292::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[42]"
-				}
-,
-				"obj-292::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[38]"
-				}
-,
-				"obj-341::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[56]"
-				}
-,
-				"obj-346::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[74]"
-				}
-,
-				"obj-345::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[80]"
-				}
-,
-				"obj-60::obj-9" : 				{
-					"parameter_longname" : "live.text[101]"
-				}
-,
-				"obj-271::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[21]"
-				}
-,
-				"obj-283::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[42]"
-				}
-,
-				"obj-339::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[69]"
-				}
-,
-				"obj-346::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[78]"
-				}
-,
-				"obj-240::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[7]"
+				"obj-338::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[68]"
 				}
 ,
 				"obj-345::obj-179::obj-29::obj-97" : 				{
 					"parameter_longname" : "Quantized_Rate[82]"
 				}
 ,
-				"obj-344::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[87]"
+				"obj-344::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[89]"
 				}
 ,
-				"obj-343::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[93]"
+				"obj-344::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[85]"
 				}
 ,
-				"obj-252::obj-32" : 				{
-					"parameter_longname" : "off[96]"
+				"obj-344::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[111]"
 				}
 ,
-				"obj-257::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[103]"
+				"obj-343::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[90]"
 				}
 ,
-				"obj-240::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[11]"
+				"obj-334::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[105]"
 				}
 ,
-				"obj-292::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[40]"
+				"obj-185::obj-32" : 				{
+					"parameter_longname" : "off[105]"
+				}
+,
+				"obj-282::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-271::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-333::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[39]"
+				}
+,
+				"obj-292::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[38]"
+				}
+,
+				"obj-292::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[42]"
+				}
+,
+				"obj-340::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[61]"
+				}
+,
+				"obj-344::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[84]"
+				}
+,
+				"obj-343::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[90]"
+				}
+,
+				"obj-252::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[97]"
+				}
+,
+				"obj-335::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-333::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[22]"
+				}
+,
+				"obj-340::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[57]"
+				}
+,
+				"obj-339::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[60]"
+				}
+,
+				"obj-282::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[15]"
+				}
+,
+				"obj-271::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[19]"
+				}
+,
+				"obj-283::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[45]"
+				}
+,
+				"obj-344::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[112]"
+				}
+,
+				"obj-343::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[95]"
+				}
+,
+				"obj-239::obj-325::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[104]"
+				}
+,
+				"obj-64::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[106]"
+				}
+,
+				"obj-233::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[2]"
+				}
+,
+				"obj-240::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[9]"
+				}
+,
+				"obj-271::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[21]"
+				}
+,
+				"obj-335::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[26]"
+				}
+,
+				"obj-333::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[30]"
+				}
+,
+				"obj-341::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[50]"
+				}
+,
+				"obj-339::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[60]"
+				}
+,
+				"obj-346::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[78]"
+				}
+,
+				"obj-344::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[93]"
+				}
+,
+				"obj-148::obj-55" : 				{
+					"parameter_longname" : "live.text[114]"
+				}
+,
+				"obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[107]"
+				}
+,
+				"obj-271::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-339::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[63]"
+				}
+,
+				"obj-339::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[65]"
+				}
+,
+				"obj-345::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[80]"
+				}
+,
+				"obj-344::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[87]"
+				}
+,
+				"obj-148::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[102]"
+				}
+,
+				"obj-240::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-335::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-283::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[46]"
 				}
 ,
 				"obj-341::obj-179::obj-29::obj-9" : 				{
 					"parameter_longname" : "Manual Rate[53]"
 				}
 ,
-				"obj-338::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[70]"
+				"obj-341::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[57]"
+				}
+,
+				"obj-338::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[70]"
+				}
+,
+				"obj-345::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[78]"
+				}
+,
+				"obj-345::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[83]"
+				}
+,
+				"obj-344::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[85]"
+				}
+,
+				"obj-344::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[110]"
+				}
+,
+				"obj-289::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[101]"
+				}
+,
+				"obj-289::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[102]"
+				}
+,
+				"obj-233::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[1]"
+				}
+,
+				"obj-233::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[5]"
+				}
+,
+				"obj-240::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-282::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[16]"
+				}
+,
+				"obj-333::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-292::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[41]"
+				}
+,
+				"obj-283::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[44]"
+				}
+,
+				"obj-341::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[50]"
+				}
+,
+				"obj-340::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[57]"
+				}
+,
+				"obj-338::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[67]"
+				}
+,
+				"obj-345::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[82]"
+				}
+,
+				"obj-240::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-240::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[11]"
+				}
+,
+				"obj-282::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-335::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[24]"
+				}
+,
+				"obj-346::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[78]"
+				}
+,
+				"obj-233::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[1]"
+				}
+,
+				"obj-282::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[15]"
+				}
+,
+				"obj-271::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[18]"
+				}
+,
+				"obj-333::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-333::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-292::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[42]"
+				}
+,
+				"obj-292::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
+				"obj-341::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[49]"
+				}
+,
+				"obj-340::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[54]"
+				}
+,
+				"obj-338::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[68]"
+				}
+,
+				"obj-346::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
+				"obj-346::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[74]"
+				}
+,
+				"obj-346::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[74]"
+				}
+,
+				"obj-344::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[92]"
+				}
+,
+				"obj-282::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[16]"
+				}
+,
+				"obj-335::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[31]"
+				}
+,
+				"obj-292::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[36]"
+				}
+,
+				"obj-292::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[43]"
+				}
+,
+				"obj-341::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[50]"
+				}
+,
+				"obj-340::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[58]"
+				}
+,
+				"obj-340::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[58]"
+				}
+,
+				"obj-339::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[61]"
+				}
+,
+				"obj-339::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[69]"
+				}
+,
+				"obj-345::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[83]"
+				}
+,
+				"obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[98]"
+				}
+,
+				"obj-271::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-283::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[42]"
+				}
+,
+				"obj-283::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[44]"
+				}
+,
+				"obj-340::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[60]"
+				}
+,
+				"obj-339::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[64]"
+				}
+,
+				"obj-339::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[67]"
+				}
+,
+				"obj-343::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[89]"
+				}
+,
+				"obj-343::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[96]"
+				}
+,
+				"obj-282::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[12]"
+				}
+,
+				"obj-282::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-271::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[25]"
+				}
+,
+				"obj-335::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[28]"
+				}
+,
+				"obj-341::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[55]"
+				}
+,
+				"obj-341::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[53]"
+				}
+,
+				"obj-345::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[79]"
+				}
+,
+				"obj-334::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[104]"
+				}
+,
+				"obj-282::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-271::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[17]"
+				}
+,
+				"obj-335::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[27]"
+				}
+,
+				"obj-292::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-339::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[65]"
+				}
+,
+				"obj-338::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[74]"
+				}
+,
+				"obj-346::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[73]"
+				}
+,
+				"obj-345::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[82]"
+				}
+,
+				"obj-345::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[79]"
+				}
+,
+				"obj-345::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[84]"
+				}
+,
+				"obj-343::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[96]"
+				}
+,
+				"obj-343::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[94]"
+				}
+,
+				"obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[103]"
+				}
+,
+				"obj-335::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[29]"
+				}
+,
+				"obj-335::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-338::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[72]"
+				}
+,
+				"obj-346::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[77]"
+				}
+,
+				"obj-346::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[77]"
+				}
+,
+				"obj-185::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[106]"
+				}
+,
+				"obj-240::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[10]"
+				}
+,
+				"obj-240::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[10]"
+				}
+,
+				"obj-282::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[13]"
+				}
+,
+				"obj-271::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[27]"
+				}
+,
+				"obj-283::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[43]"
+				}
+,
+				"obj-283::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[50]"
+				}
+,
+				"obj-340::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[57]"
+				}
+,
+				"obj-339::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[64]"
+				}
+,
+				"obj-339::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[63]"
+				}
+,
+				"obj-344::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[89]"
+				}
+,
+				"obj-239::obj-325::obj-32" : 				{
+					"parameter_longname" : "off[100]"
+				}
+,
+				"obj-282::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[12]"
+				}
+,
+				"obj-333::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[32]"
+				}
+,
+				"obj-292::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[39]"
+				}
+,
+				"obj-292::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[40]"
+				}
+,
+				"obj-340::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[58]"
+				}
+,
+				"obj-339::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[60]"
+				}
+,
+				"obj-346::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[77]"
+				}
+,
+				"obj-343::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[99]"
+				}
+,
+				"obj-257::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[102]"
+				}
+,
+				"obj-333::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[40]"
+				}
+,
+				"obj-341::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[54]"
+				}
+,
+				"obj-339::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-339::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[65]"
+				}
+,
+				"obj-345::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[82]"
+				}
+,
+				"obj-345::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[83]"
+				}
+,
+				"obj-64::obj-32" : 				{
+					"parameter_longname" : "off[106]"
+				}
+,
+				"obj-233::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[2]"
+				}
+,
+				"obj-271::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[22]"
+				}
+,
+				"obj-333::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[36]"
+				}
+,
+				"obj-292::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[26]"
+				}
+,
+				"obj-340::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[55]"
+				}
+,
+				"obj-338::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[69]"
+				}
+,
+				"obj-344::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[88]"
+				}
+,
+				"obj-344::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[113]"
+				}
+,
+				"obj-344::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[89]"
+				}
+,
+				"obj-334::obj-32" : 				{
+					"parameter_longname" : "off[104]"
+				}
+,
+				"obj-271::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[18]"
+				}
+,
+				"obj-340::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[56]"
+				}
+,
+				"obj-338::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[70]"
+				}
+,
+				"obj-233::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[8]"
+				}
+,
+				"obj-282::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[16]"
+				}
+,
+				"obj-271::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[30]"
+				}
+,
+				"obj-283::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[49]"
+				}
+,
+				"obj-283::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[47]"
+				}
+,
+				"obj-340::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[59]"
+				}
+,
+				"obj-338::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[67]"
+				}
+,
+				"obj-233::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[4]"
+				}
+,
+				"obj-233::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[4]"
+				}
+,
+				"obj-240::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[10]"
+				}
+,
+				"obj-282::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[14]"
+				}
+,
+				"obj-333::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[31]"
+				}
+,
+				"obj-292::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[23]"
+				}
+,
+				"obj-292::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[37]"
+				}
+,
+				"obj-283::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[44]"
+				}
+,
+				"obj-341::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[51]"
+				}
+,
+				"obj-339::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[66]"
+				}
+,
+				"obj-338::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[66]"
+				}
+,
+				"obj-346::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[76]"
+				}
+,
+				"obj-126::obj-9" : 				{
+					"parameter_longname" : "live.text[115]"
+				}
+,
+				"obj-335::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[25]"
+				}
+,
+				"obj-335::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[29]"
+				}
+,
+				"obj-292::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[36]"
+				}
+,
+				"obj-341::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[52]"
+				}
+,
+				"obj-344::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[87]"
+				}
+,
+				"obj-343::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[91]"
+				}
+,
+				"obj-343::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[93]"
+				}
+,
+				"obj-343::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[94]"
+				}
+,
+				"obj-252::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[100]"
+				}
+,
+				"obj-240::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-282::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[18]"
+				}
+,
+				"obj-271::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[19]"
+				}
+,
+				"obj-292::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-340::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[55]"
+				}
+,
+				"obj-339::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[64]"
+				}
+,
+				"obj-346::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[75]"
+				}
+,
+				"obj-345::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[78]"
+				}
+,
+				"obj-344::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[86]"
+				}
+,
+				"obj-343::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[92]"
+				}
+,
+				"obj-233::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[2]"
+				}
+,
+				"obj-233::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[3]"
+				}
+,
+				"obj-335::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
+				"obj-333::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[30]"
+				}
+,
+				"obj-292::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[38]"
+				}
+,
+				"obj-283::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[45]"
+				}
+,
+				"obj-283::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[45]"
+				}
+,
+				"obj-341::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[52]"
+				}
+,
+				"obj-341::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[56]"
+				}
+,
+				"obj-341::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[52]"
+				}
+,
+				"obj-338::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[69]"
+				}
+,
+				"obj-343::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-148::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[99]"
+				}
+,
+				"obj-185::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[105]"
+				}
+,
+				"obj-240::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[9]"
+				}
+,
+				"obj-282::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[15]"
+				}
+,
+				"obj-292::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[45]"
+				}
+,
+				"obj-283::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[43]"
+				}
+,
+				"obj-340::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[56]"
+				}
+,
+				"obj-339::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[62]"
+				}
+,
+				"obj-345::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[81]"
+				}
+,
+				"obj-344::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[87]"
+				}
+,
+				"obj-289::obj-55" : 				{
+					"parameter_longname" : "live.text[96]"
+				}
+,
+				"obj-282::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[16]"
+				}
+,
+				"obj-271::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[20]"
+				}
+,
+				"obj-333::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[31]"
+				}
+,
+				"obj-346::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[77]"
+				}
+,
+				"obj-190::obj-32" : 				{
+					"parameter_longname" : "off[97]"
+				}
+,
+				"obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[99]"
+				}
+,
+				"obj-240::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[7]"
+				}
+,
+				"obj-282::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[11]"
+				}
+,
+				"obj-282::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[17]"
+				}
+,
+				"obj-271::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[23]"
+				}
+,
+				"obj-335::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[29]"
+				}
+,
+				"obj-283::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[51]"
+				}
+,
+				"obj-341::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[53]"
+				}
+,
+				"obj-340::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[59]"
+				}
+,
+				"obj-346::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[73]"
+				}
+,
+				"obj-346::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[73]"
 				}
 ,
 				"obj-346::obj-174::obj-30" : 				{
@@ -42543,428 +43977,688 @@
 					"parameter_longname" : "Quantized_Rate[80]"
 				}
 ,
-				"obj-343::obj-179::obj-32" : 				{
-					"parameter_longname" : "off[94]"
+				"obj-344::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[88]"
 				}
 ,
-				"obj-257::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[106]"
+				"obj-233::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 ,
-				"obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[107]"
+				"obj-282::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[13]"
 				}
 ,
-				"obj-64::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[107]"
+				"obj-292::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[37]"
 				}
 ,
-				"obj-335::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[36]"
+				"obj-341::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[48]"
 				}
 ,
-				"obj-333::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[36]"
+				"obj-341::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[49]"
 				}
 ,
-				"obj-190::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[97]"
+				"obj-338::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[67]"
 				}
 ,
-				"obj-174::obj-32" : 				{
-					"parameter_longname" : "off[99]"
+				"obj-271::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[23]"
 				}
 ,
-				"obj-233::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[2]"
+				"obj-292::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[40]"
 				}
 ,
-				"obj-240::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[7]"
+				"obj-292::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[40]"
 				}
 ,
-				"obj-282::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[19]"
+				"obj-340::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[59]"
 				}
 ,
-				"obj-271::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[31]"
+				"obj-339::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[61]"
 				}
 ,
-				"obj-335::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[24]"
+				"obj-339::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[66]"
 				}
 ,
-				"obj-333::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[31]"
+				"obj-338::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[71]"
 				}
 ,
-				"obj-283::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[46]"
+				"obj-346::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[72]"
 				}
 ,
-				"obj-283::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[47]"
-				}
-,
-				"obj-341::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[49]"
-				}
-,
-				"obj-346::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[72]"
-				}
-,
-				"obj-346::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[77]"
-				}
-,
-				"obj-345::obj-373::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[82]"
-				}
-,
-				"obj-344::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[91]"
-				}
-,
-				"obj-252::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[96]"
-				}
-,
-				"obj-239::obj-325::obj-55" : 				{
-					"parameter_longname" : "live.text[95]"
-				}
-,
-				"obj-271::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-335::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[29]"
-				}
-,
-				"obj-341::obj-373::obj-55" : 				{
-					"parameter_longname" : "live.text[48]"
-				}
-,
-				"obj-338::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[69]"
-				}
-,
-				"obj-233::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[5]"
-				}
-,
-				"obj-335::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[31]"
-				}
-,
-				"obj-292::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[36]"
-				}
-,
-				"obj-340::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[63]"
-				}
-,
-				"obj-339::obj-373::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[61]"
-				}
-,
-				"obj-344::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[87]"
-				}
-,
-				"obj-252::obj-55" : 				{
-					"parameter_longname" : "live.text[92]"
-				}
-,
-				"obj-240::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[14]"
-				}
-,
-				"obj-335::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[26]"
-				}
-,
-				"obj-283::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[43]"
-				}
-,
-				"obj-341::obj-46::obj-32" : 				{
-					"parameter_longname" : "off[53]"
-				}
-,
-				"obj-340::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[54]"
-				}
-,
-				"obj-340::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[56]"
-				}
-,
-				"obj-339::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[68]"
-				}
-,
-				"obj-339::obj-46::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[66]"
-				}
-,
-				"obj-346::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[73]"
-				}
-,
-				"obj-345::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[83]"
-				}
-,
-				"obj-343::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[98]"
-				}
-,
-				"obj-239::obj-325::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[104]"
-				}
-,
-				"obj-185::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[105]"
-				}
-,
-				"obj-233::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[2]"
-				}
-,
-				"obj-240::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[12]"
-				}
-,
-				"obj-271::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[18]"
-				}
-,
-				"obj-333::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[39]"
-				}
-,
-				"obj-292::obj-173::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[42]"
-				}
-,
-				"obj-292::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[39]"
-				}
-,
-				"obj-283::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[47]"
-				}
-,
-				"obj-341::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[48]"
-				}
-,
-				"obj-334::obj-55" : 				{
-					"parameter_longname" : "live.text[99]"
-				}
-,
-				"obj-335::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[27]"
-				}
-,
-				"obj-283::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[49]"
-				}
-,
-				"obj-341::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[55]"
-				}
-,
-				"obj-343::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[94]"
-				}
-,
-				"obj-190::obj-55" : 				{
-					"parameter_longname" : "live.text[93]"
-				}
-,
-				"obj-148::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[98]"
-				}
-,
-				"obj-240::obj-172::obj-55" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-240::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[8]"
-				}
-,
-				"obj-282::obj-179::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[20]"
-				}
-,
-				"obj-283::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[44]"
-				}
-,
-				"obj-340::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[56]"
-				}
-,
-				"obj-340::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[59]"
-				}
-,
-				"obj-339::obj-46::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[65]"
-				}
-,
-				"obj-233::obj-172::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[1]"
-				}
-,
-				"obj-233::obj-174::obj-32" : 				{
-					"parameter_longname" : "off[3]"
-				}
-,
-				"obj-282::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[12]"
-				}
-,
-				"obj-271::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[19]"
-				}
-,
-				"obj-271::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[23]"
-				}
-,
-				"obj-271::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[27]"
-				}
-,
-				"obj-292::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[43]"
-				}
-,
-				"obj-340::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[57]"
-				}
-,
-				"obj-339::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[62]"
-				}
-,
-				"obj-339::obj-174::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[63]"
-				}
-,
-				"obj-344::obj-373::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[84]"
-				}
-,
-				"obj-334::obj-32" : 				{
-					"parameter_longname" : "off[104]"
-				}
-,
-				"obj-240::obj-172::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[7]"
-				}
-,
-				"obj-271::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[23]"
-				}
-,
-				"obj-333::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[32]"
-				}
-,
-				"obj-292::obj-179::obj-55" : 				{
-					"parameter_longname" : "live.text[40]"
-				}
-,
-				"obj-340::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[59]"
-				}
-,
-				"obj-339::obj-174::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[64]"
-				}
-,
-				"obj-339::obj-46::obj-55" : 				{
-					"parameter_longname" : "live.text[65]"
-				}
-,
-				"obj-346::obj-179::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[76]"
-				}
-,
-				"obj-345::obj-179::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[83]"
-				}
-,
-				"obj-343::obj-173::obj-55" : 				{
-					"parameter_longname" : "live.text[88]"
-				}
-,
-				"obj-233::obj-172::obj-32" : 				{
-					"parameter_longname" : "off[1]"
+				"obj-345::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[85]"
 				}
 ,
 				"obj-335::obj-174::obj-32" : 				{
 					"parameter_longname" : "off[27]"
 				}
 ,
-				"obj-283::obj-173::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[44]"
+				"obj-333::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[33]"
 				}
 ,
-				"obj-338::obj-172::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[71]"
+				"obj-283::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[45]"
+				}
+,
+				"obj-341::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[51]"
+				}
+,
+				"obj-346::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[74]"
+				}
+,
+				"obj-346::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[77]"
+				}
+,
+				"obj-240::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-335::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[32]"
+				}
+,
+				"obj-335::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[26]"
+				}
+,
+				"obj-340::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[56]"
+				}
+,
+				"obj-340::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[56]"
+				}
+,
+				"obj-346::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[72]"
+				}
+,
+				"obj-346::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[81]"
+				}
+,
+				"obj-345::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[83]"
 				}
 ,
 				"obj-344::obj-172::obj-32" : 				{
 					"parameter_longname" : "off[85]"
 				}
 ,
-				"obj-343::obj-173::obj-32" : 				{
-					"parameter_longname" : "off[92]"
+				"obj-343::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[86]"
 				}
 ,
-				"obj-289::obj-55" : 				{
-					"parameter_longname" : "live.text[96]"
+				"obj-60::obj-9" : 				{
+					"parameter_longname" : "live.text[101]"
 				}
 ,
-				"obj-334::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[108]"
+				"obj-233::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[7]"
 				}
 ,
-				"obj-64::obj-29::obj-97" : 				{
-					"parameter_longname" : "Quantized_Rate[106]"
+				"obj-282::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[17]"
+				}
+,
+				"obj-335::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[36]"
+				}
+,
+				"obj-283::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[47]"
+				}
+,
+				"obj-339::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[61]"
+				}
+,
+				"obj-338::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[70]"
+				}
+,
+				"obj-239::obj-325::obj-55" : 				{
+					"parameter_longname" : "live.text[95]"
+				}
+,
+				"obj-335::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[33]"
+				}
+,
+				"obj-335::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[33]"
+				}
+,
+				"obj-333::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[30]"
+				}
+,
+				"obj-340::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[57]"
+				}
+,
+				"obj-340::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[59]"
+				}
+,
+				"obj-339::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[63]"
+				}
+,
+				"obj-338::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[69]"
+				}
+,
+				"obj-345::obj-174::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[81]"
+				}
+,
+				"obj-343::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[92]"
+				}
+,
+				"obj-174::obj-32" : 				{
+					"parameter_longname" : "off[99]"
+				}
+,
+				"obj-240::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[9]"
+				}
+,
+				"obj-341::obj-174::obj-55" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
+				"obj-339::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[64]"
+				}
+,
+				"obj-345::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[80]"
 				}
 ,
 				"obj-240::obj-174::obj-30" : 				{
 					"parameter_longname" : "randomize_percentage[13]"
 				}
 ,
-				"obj-335::obj-173::obj-29::obj-9" : 				{
-					"parameter_longname" : "Manual Rate[34]"
+				"obj-339::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[62]"
 				}
 ,
-				"obj-292::obj-46::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[45]"
+				"obj-338::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[66]"
 				}
 ,
-				"obj-338::obj-174::obj-30" : 				{
-					"parameter_longname" : "randomize_percentage[73]"
+				"obj-346::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[73]"
+				}
+,
+				"obj-343::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[95]"
+				}
+,
+				"obj-185::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[109]"
+				}
+,
+				"obj-233::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[9]"
+				}
+,
+				"obj-240::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[11]"
+				}
+,
+				"obj-240::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[15]"
+				}
+,
+				"obj-282::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[21]"
+				}
+,
+				"obj-271::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[22]"
+				}
+,
+				"obj-335::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-333::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-292::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[40]"
+				}
+,
+				"obj-345::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[81]"
+				}
+,
+				"obj-345::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[87]"
+				}
+,
+				"obj-344::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[86]"
+				}
+,
+				"obj-344::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[90]"
+				}
+,
+				"obj-343::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[93]"
+				}
+,
+				"obj-233::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[6]"
+				}
+,
+				"obj-233::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-283::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[46]"
+				}
+,
+				"obj-283::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[47]"
+				}
+,
+				"obj-344::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[90]"
+				}
+,
+				"obj-343::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-282::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[14]"
+				}
+,
+				"obj-333::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[32]"
+				}
+,
+				"obj-292::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-283::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[42]"
+				}
+,
+				"obj-283::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[48]"
+				}
+,
+				"obj-340::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[58]"
+				}
+,
+				"obj-340::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[59]"
+				}
+,
+				"obj-338::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[72]"
+				}
+,
+				"obj-345::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[79]"
+				}
+,
+				"obj-257::obj-32" : 				{
+					"parameter_longname" : "off[102]"
+				}
+,
+				"obj-257::obj-55" : 				{
+					"parameter_longname" : "live.text[97]"
+				}
+,
+				"obj-233::obj-46::obj-55" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-341::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[50]"
+				}
+,
+				"obj-341::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[53]"
+				}
+,
+				"obj-339::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[65]"
+				}
+,
+				"obj-338::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[68]"
+				}
+,
+				"obj-346::obj-174::obj-32" : 				{
+					"parameter_longname" : "off[75]"
+				}
+,
+				"obj-252::obj-55" : 				{
+					"parameter_longname" : "live.text[92]"
+				}
+,
+				"obj-257::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[106]"
+				}
+,
+				"obj-271::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[20]"
+				}
+,
+				"obj-335::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[24]"
+				}
+,
+				"obj-335::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[28]"
+				}
+,
+				"obj-333::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[35]"
+				}
+,
+				"obj-340::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[54]"
+				}
+,
+				"obj-338::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[70]"
+				}
+,
+				"obj-344::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[86]"
+				}
+,
+				"obj-344::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[89]"
+				}
+,
+				"obj-343::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[92]"
+				}
+,
+				"obj-334::obj-55" : 				{
+					"parameter_longname" : "live.text[99]"
+				}
+,
+				"obj-240::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[14]"
+				}
+,
+				"obj-282::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[12]"
+				}
+,
+				"obj-271::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[24]"
+				}
+,
+				"obj-333::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[38]"
+				}
+,
+				"obj-333::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[35]"
+				}
+,
+				"obj-341::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[49]"
+				}
+,
+				"obj-340::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[60]"
+				}
+,
+				"obj-339::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[64]"
+				}
+,
+				"obj-346::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[74]"
+				}
+,
+				"obj-343::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[91]"
+				}
+,
+				"obj-240::obj-172::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[7]"
+				}
+,
+				"obj-240::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[12]"
+				}
+,
+				"obj-282::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[19]"
+				}
+,
+				"obj-335::obj-373::obj-55" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-292::obj-174::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[43]"
+				}
+,
+				"obj-340::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[62]"
+				}
+,
+				"obj-339::obj-173::obj-32" : 				{
+					"parameter_longname" : "off[62]"
+				}
+,
+				"obj-338::obj-173::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[68]"
+				}
+,
+				"obj-345::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[82]"
+				}
+,
+				"obj-343::obj-179::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[95]"
+				}
+,
+				"obj-190::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[98]"
+				}
+,
+				"obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[104]"
+				}
+,
+				"obj-334::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[108]"
+				}
+,
+				"obj-333::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[34]"
+				}
+,
+				"obj-292::obj-172::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[41]"
+				}
+,
+				"obj-338::obj-46::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[75]"
+				}
+,
+				"obj-346::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[76]"
+				}
+,
+				"obj-345::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[86]"
+				}
+,
+				"obj-233::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-240::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[10]"
+				}
+,
+				"obj-335::obj-173::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[30]"
+				}
+,
+				"obj-283::obj-373::obj-32" : 				{
+					"parameter_longname" : "off[42]"
+				}
+,
+				"obj-283::obj-179::obj-55" : 				{
+					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-341::obj-179::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[52]"
 				}
 ,
 				"obj-346::obj-373::obj-30" : 				{
 					"parameter_longname" : "randomize_percentage[76]"
 				}
 ,
-				"obj-343::obj-373::obj-32" : 				{
-					"parameter_longname" : "off[90]"
+				"obj-346::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[80]"
+				}
+,
+				"obj-343::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[87]"
+				}
+,
+				"obj-252::obj-32" : 				{
+					"parameter_longname" : "off[96]"
+				}
+,
+				"obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[103]"
+				}
+,
+				"obj-102::obj-9" : 				{
+					"parameter_longname" : "live.text[102]"
+				}
+,
+				"obj-271::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[22]"
+				}
+,
+				"obj-335::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[37]"
+				}
+,
+				"obj-346::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[76]"
+				}
+,
+				"obj-345::obj-172::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[79]"
+				}
+,
+				"obj-343::obj-179::obj-32" : 				{
+					"parameter_longname" : "off[94]"
+				}
+,
+				"obj-190::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[101]"
+				}
+,
+				"obj-240::obj-373::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[6]"
+				}
+,
+				"obj-240::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[29]"
+				}
+,
+				"obj-282::obj-179::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[20]"
+				}
+,
+				"obj-271::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[31]"
+				}
+,
+				"obj-333::obj-172::obj-55" : 				{
+					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-341::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[48]"
+				}
+,
+				"obj-345::obj-173::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[81]"
+				}
+,
+				"obj-344::obj-373::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[84]"
+				}
+,
+				"obj-233::obj-46::obj-32" : 				{
+					"parameter_longname" : "off[5]"
+				}
+,
+				"obj-271::obj-173::obj-55" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-292::obj-172::obj-32" : 				{
+					"parameter_longname" : "off[37]"
+				}
+,
+				"obj-283::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[46]"
+				}
+,
+				"obj-341::obj-46::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[54]"
+				}
+,
+				"obj-340::obj-373::obj-30" : 				{
+					"parameter_longname" : "randomize_percentage[58]"
+				}
+,
+				"obj-338::obj-174::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[70]"
+				}
+,
+				"obj-338::obj-46::obj-29::obj-97" : 				{
+					"parameter_longname" : "Quantized_Rate[71]"
+				}
+,
+				"obj-257::obj-29::obj-9" : 				{
+					"parameter_longname" : "Manual Rate[103]"
 				}
 
 			}
@@ -43231,13 +44925,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mixer_log_scale.maxpat",
-				"bootpath" : "~/nnirror/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dm_play2.maxpat",
 				"bootpath" : "~/nnirror/patchers",
 				"patcherrelativepath" : ".",
@@ -43343,14 +45030,33 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"newobj" : 				{
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"message" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -43361,26 +45067,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"default" : 				{
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 				}
 ,
 				"button" : 				{
@@ -43442,8 +45129,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43461,8 +45148,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
