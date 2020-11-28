@@ -93,12 +93,12 @@
 					"presentation_rect" : [ 102.021090030670166, 75.403650134801865, 29.323123842477798, 47.45308443903923 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "veb_hi",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 0.400000005960464,
 							"parameter_initial" : [ 0.04 ],
 							"parameter_shortname" : "veb_hi",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_longname" : "veb_hi",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -170,7 +170,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "577.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HPAVMjLgve....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtfyMxPiMyLCM0TiL2XCM3jiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iK2PCM4HiM0bSL3PiMv.CNyHBHM8FYREFck0iHv3BM4TCLv.CLvPyM1fyL2DiMh.RSuQFQkAGcn0iHv3BLh.RSuQVY8HBLt.SMv.CLv.CLvbCM0.SM3.iMh.hTkMWYxYWYjESOh.iKvHBHRU1bkImckQlL8HBLt.iHfHUYyUlb1UFYyziHv3BLh.hTkMWYxYWYjQSOh.iKvHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH3HCLh.RcogTYocFZz0iHzLSMh7hO.."
+									"blob" : "578.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HfAVMjLgze....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtHiLzDSMwLCN2fSLvbCL2DiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iKvLSN4jSN4jSNw.SM4LCLyLiHfzzajIUXzUVOh.iKzjSMv.CLv.CM2XCNybSL1HBHM8FYDUFbzgVOh.iKvHBHM8FYk0iHv3BL0.CLv.CLv.yMzTCL0fCL1HBHRU1bkImckQVL8HBLt.iHfHUYyUlb1UFYxziHv3BLh.hTkMWYxYWYjMSOh.iKvHBHRU1bkImckQFM8HBLt.iHfzVZ3wzaisVOh.iHfTWZWkFYzgVOhfiLvHBH0kFRkk1YnQWOhPyL0HxK9.."
 								}
 
 							}
@@ -178,7 +178,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u045137580"
+					"varname" : "u659060402"
 				}
 
 			}
@@ -269,13 +269,13 @@
 					"presentation_rect" : [ 99.733508259057999, 121.296828985214233, 32.917895197868347, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "verb_mode",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 7,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "verb_mode",
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "verb_mode",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -539,13 +539,13 @@
 					"presentation_rect" : [ 99.733508259057999, -0.179690778255463, 32.668444633483887, 76.19772008061409 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "verb_sync",
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "verb_sync",
 							"parameter_enum" : [ "sync", "sync" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "verb_sync",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -644,7 +644,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0.0, 1.0, "@default", 0.6 ],
+					"args" : [ 0.0, 1.0, "@default", 0.22 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -856,7 +856,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "577.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HPAVMjLgve....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtfyMxPiMyLCM0TiL2XCM3jiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iK2PCM4HiM0bSL3PiMv.CNyHBHM8FYREFck0iHv3BM4TCLv.CLvPyM1fyL2DiMh.RSuQFQkAGcn0iHv3BLh.RSuQVY8HBLt.SMv.CLv.CLvbCM0.SM3.iMh.hTkMWYxYWYjESOh.iKvHBHRU1bkImckQlL8HBLt.iHfHUYyUlb1UFYyziHv3BLh.hTkMWYxYWYjQSOh.iKvHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH3HCLh.RcogTYocFZz0iHzLSMh7hO.."
+							"blob" : "578.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HfAVMjLgze....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtHiLzDSMwLCN2fSLvbCL2DiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iKvLSN4jSN4jSNw.SM4LCLyLiHfzzajIUXzUVOh.iKzjSMv.CLv.CM2XCNybSL1HBHM8FYDUFbzgVOh.iKvHBHM8FYk0iHv3BL0.CLv.CLv.yMzTCL0fCL1HBHRU1bkImckQVL8HBLt.iHfHUYyUlb1UFYxziHv3BLh.hTkMWYxYWYjMSOh.iKvHBHRU1bkImckQFM8HBLt.iHfzVZ3wzaisVOh.iHfTWZWkFYzgVOhfiLvHBH0kFRkk1YnQWOhPyL0HxK9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -878,7 +878,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "577.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HPAVMjLgve....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtfyMxPiMyLCM0TiL2XCM3jiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iK2PCM4HiM0bSL3PiMv.CNyHBHM8FYREFck0iHv3BM4TCLv.CLvPyM1fyL2DiMh.RSuQFQkAGcn0iHv3BLh.RSuQVY8HBLt.SMv.CLv.CLvbCM0.SM3.iMh.hTkMWYxYWYjESOh.iKvHBHRU1bkImckQlL8HBLt.iHfHUYyUlb1UFYyziHv3BLh.hTkMWYxYWYjQSOh.iKvHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH3HCLh.RcogTYocFZz0iHzLSMh7hO.."
+										"blob" : "578.CMlaKA....fQPMDZ....ALWSgMG.A.......A........................................HfAVMjLgze....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarE1T0AWYx0VXyMWZ1UFHvwVcmklaVUlbyk1at0iHw3BLt.iHf.mbkMWYz4TXsUVOhPTYlEVcrQmHfzTZ30iHw3BLh.BQkwVX4MUdtMVOh.iK0HBHDUFagkmSuQWY8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVde0zb8HBLtHCLv.CLv.CLxjCNvHyLxHiHfPTYrEVdWElbv0iHv3hM4jSN4jSN3fCL2jCL2DiHfLDakElb8HRLt.iHfXTYkQlXgM1Z8HBLtHiLzDSMwLCN2fSLvbCL2DiHfPTYtMWZzkWOh.iK0HBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iKvLSN4jSN4jSNw.SM4LCLyLiHfzzajIUXzUVOh.iKzjSMv.CLv.CM2XCNybSL1HBHM8FYDUFbzgVOh.iKvHBHM8FYk0iHv3BL0.CLv.CLv.yMzTCL0fCL1HBHRU1bkImckQVL8HBLt.iHfHUYyUlb1UFYxziHv3BLh.hTkMWYxYWYjMSOh.iKvHBHRU1bkImckQFM8HBLt.iHfzVZ3wzaisVOh.iHfTWZWkFYzgVOhfiLvHBH0kFRkk1YnQWOhPyL0HxK9.."
 									}
 ,
 									"fileref" : 									{
@@ -1309,17 +1309,21 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
+				"toggle" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
 				"newobj" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"default" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1330,20 +1334,16 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"toggle" : 				{
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
 				"message" : 				{
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1354,7 +1354,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1408,8 +1408,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
