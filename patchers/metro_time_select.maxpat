@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 56.0, 1724.0, 1030.0 ],
+		"rect" : [ 34.0, 56.0, 1456.0, 1030.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-25",
@@ -69,7 +70,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 554.0, 153.0, 30.0, 30.0 ]
 				}
 
@@ -151,7 +152,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -184,6 +185,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -1028,11 +1030,11 @@
 					"presentation_rect" : [ 0.0, 0.0, 32.75, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : 50.0,
-							"parameter_longname" : "Manual Rate[28]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 8000.0,
 							"parameter_initial" : [ 500 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Manual Rate[28]",
+							"parameter_mmax" : 8000.0,
+							"parameter_mmin" : 50.0,
 							"parameter_shortname" : "Manual Rate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1059,13 +1061,13 @@
 					"presentation_rect" : [ 30.0, -1.0, 35.633335113525391, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Quantized Rate[5]",
-							"parameter_mmax" : 15,
+							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n" ],
 							"parameter_initial" : [ 3.0 ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Quantized_Rate",
+							"parameter_mmax" : 14,
 							"parameter_shortname" : "Quantized Rate",
-							"parameter_enum" : [ "0.125n", "0.25n", "0.5n", "1n", "2n", "2nt", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "128n" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_type" : 2
 						}
 
 					}

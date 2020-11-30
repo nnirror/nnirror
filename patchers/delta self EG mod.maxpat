@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 82.0, 1444.0, 1007.0 ],
+		"rect" : [ 34.0, 56.0, 1444.0, 1033.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-43",
@@ -69,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1448.333251999999902, 65.0, 88.0, 22.0 ],
-					"text" : "snapshot~ 100"
+					"text" : "snapshot~ 250"
 				}
 
 			}
@@ -182,7 +183,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 500 ],
+					"args" : [ 1, 240 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
